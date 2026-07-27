@@ -55,10 +55,10 @@ jobs:
         run: pip install faster-whisper
 
       - name: Transcribe a batch of episodes and re-tag from full text
-        run: python3 pipeline/transcribe.py --limit 8 --model base
+        run: python3 pipeline/transcribe.py --limit 15 --model base
         # Round-robin across shows (see select_candidates in transcribe.py),
-        # so at 8/day this reaches every one of the ~97 active podcasts at
-        # least once within about 12 days, then starts on each show's
+        # so at 15/day this reaches every one of the ~97 active podcasts at
+        # least once within about 7 days, then starts on each show's
         # second-shortest episode, and so on -- rather than exhausting the
         # batch on whichever handful of shows happen to have the shortest
         # episodes. No ANTHROPIC_API_KEY is configured here (by choice, to
@@ -67,7 +67,9 @@ jobs:
         # README for the manual weekly upgrade pass instead. Tune --limit
         # up/down here: each episode costs a few minutes of Actions compute,
         # which is billed against your plan's monthly allowance since this
-        # repo is private -- see README for the estimate.
+        # repo is private -- 15/day runs close to or over GitHub Free's
+        # 2,000 min/month private-repo allowance, see README for the
+        # current estimate and what happens if you exceed it.
 
       - name: Commit updated data
         run: |

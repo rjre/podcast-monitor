@@ -207,12 +207,16 @@ the newest JSON.
 Episode selection is round-robin across shows (see `select_candidates` in
 `pipeline/transcribe.py`), shortest-episode-first per show — not a flat
 global sort, so a handful of naturally-short shows can't monopolize every
-batch. At the workflow's default `--limit 8`, every one of the ~97 active
-podcasts gets at least one episode transcribed within about 12 days; after
+batch. At the workflow's current `--limit 15`, every one of the ~97 active
+podcasts gets at least one episode transcribed within about 7 days; after
 that first pass, it moves on to each show's next-shortest episode, and so
-on. Run `pipeline/transcribe.py --limit N` manually any time you want to
-speed that up — it doesn't consume GitHub Actions minutes at all when run
-locally.
+on. Clearing the *entire* backlog (all episodes across all shows, not just
+one per show) is a much bigger number — with ~3,300+ episodes total across
+101 podcasts, even at 15/day that's the better part of a year; the
+round-robin pass is what gives broad coverage quickly, not full history per
+show. Run `pipeline/transcribe.py --limit N` manually any time you want to
+speed that up further — it doesn't consume GitHub Actions minutes at all
+when run locally.
 
 Transcription itself is free (local Whisper), so the only thing that gates
 tag *quality* going from keyword-grade to Claude-grade is running
@@ -222,11 +226,30 @@ that the backlog doesn't grow unbounded.
 
 **GitHub Actions minutes.** This repo is private, so Actions minutes count
 against your plan's monthly allowance (GitHub Free includes 2,000 min/month
-for private repos; Pro/Team get more). Transcribing 8 episodes/day on the
-`base` Whisper model runs roughly 45–70 minutes/day of compute, i.e.
-**~1,500–2,000 Actions minutes/month** — most of the free allowance on a
-Free plan. If that's tight, lower `--limit` in the workflow file (e.g. to
-4–5) and the coverage timeline above just stretches out proportionally.
+for private repos; Pro/Team get 3,000; Enterprise gets 50,000). Transcribing
+on the `base` Whisper model runs roughly 5.5–9 minutes/episode, so:
+
+| `--limit` | minutes/day | minutes/month (~30 days) |
+|---|---|---|
+| 8  | 45–70   | ~1,350–2,100 |
+| 15 (current) | 84–131 | **~2,500–3,900** |
+
+At 15/day this is likely to **exceed** GitHub Free's 2,000 min/month
+allowance, and may exceed Team's 3,000 too in a bad month. What happens
+next depends on your GitHub billing settings (Settings → Billing → Plans
+and usage, or the Actions usage page):
+- **No spending limit configured (GitHub's default)**: once the included
+  minutes run out, further workflow runs simply fail to start until the
+  allowance resets next month — no charge, but the transcribe job silently
+  stops working for the rest of the billing cycle.
+- **A spending limit above $0 is configured**: extra minutes are billed at
+  roughly $0.008/minute for Linux runners — at this pace, on the order of
+  **$4–15/month** in overage on top of whatever plan you're on.
+
+Worth checking your actual billing settings before relying on 15/day
+running every day of the month. If you'd rather stay safely inside the
+free allowance, lower `--limit` back down (e.g. to 8–10) and the coverage
+timeline above just stretches out proportionally.
 
 ## Two dashboards, same data
 
