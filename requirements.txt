@@ -1,0 +1,5 @@
+# The default pipeline (pipeline/fetch_feeds.py, extract_themes.py, run.py)
+# uses only the Python standard library -- nothing to install.
+#
+# This dependency is only needed if you opt into pipeline/enrich_claude.py:
+anthropic>=0.40.0

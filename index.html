@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Podcast Monitor — Financial Theme Tracker</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Podcast Monitor</h1>
+        <span class="tagline">Financial themes, sectors &amp; stocks — tracked across podcasts</span>
+      </div>
+      <div class="topbar-actions">
+        <span class="status-line" id="status-line">Loading…</span>
+        <button id="refresh-btn" class="primary" title="Reload the latest data files">
+          <svg class="icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2v3.2h-3.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Refresh
+        </button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-view="overview">Overview</button>
+      <button class="tab" data-view="episodes">Episodes</button>
+      <button class="tab" data-view="settings">Manage podcasts</button>
+    </nav>
+
+    <div class="filters">
+      <label>Podcasts</label>
+      <div class="chip-row" id="podcast-chips"></div>
+      <label>Filter</label>
+      <select id="entity-select"></select>
+      <select id="date-range">
+        <option value="30">Last 30 days</option>
+        <option value="90" selected>Last 90 days</option>
+        <option value="180">Last 6 months</option>
+        <option value="all">All time</option>
+      </select>
+      <input type="search" id="search-input" placeholder="Search titles &amp; show notes…" />
+      <span class="spacer"></span>
+      <span class="hint" id="active-entity-label" style="display:none;"></span>
+      <button class="filter-clear" id="clear-filters">Clear filters</button>
+    </div>
+
+    <section id="view-overview" class="view active">
+      <div class="stat-grid" id="stat-grid"></div>
+
+      <div class="grid-2">
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Mentions by month</h2>
+            <span class="hint">Episodes per podcast, last 6 months</span>
+          </div>
+          <div class="trend-chart" id="trend-chart"></div>
+          <div class="legend" id="trend-legend" style="margin-top:14px;"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Top themes</h2>
+            <span class="hint">Click to filter</span>
+          </div>
+          <div class="bars" id="top-themes"></div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Top sectors</h2>
+            <span class="hint">Click to filter</span>
+          </div>
+          <div class="bars" id="top-sectors"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Top stocks</h2>
+            <span class="hint">Click to filter</span>
+          </div>
+          <div class="bars" id="top-stocks"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-episodes" class="view">
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Episodes</h2>
+          <span class="hint">Showing up to 200 matching the current filters</span>
+        </div>
+        <table class="episodes">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Podcast</th>
+              <th>Episode</th>
+              <th>Tags</th>
+              <th>Tone</th>
+            </tr>
+          </thead>
+          <tbody id="episode-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="view-settings" class="view">
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Tracked podcasts</h2>
+          <span class="hint">Toggle hides a show on this device only</span>
+        </div>
+        <div id="podcast-manage-list"></div>
+        <p class="note">
+          This toggle only affects your browser (saved via localStorage). To permanently
+          add or remove a podcast for everyone, edit <code>config/podcasts.json</code> in the
+          repository and commit — the next pipeline run (scheduled or manual) will pick it up.
+        </p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Add a podcast</h2>
+          <span class="hint">Generates the config entry to commit</span>
+        </div>
+        <div class="field-row">
+          <input type="text" id="new-podcast-name" placeholder="Podcast name" />
+          <input type="text" id="new-podcast-publisher" placeholder="Publisher (optional)" />
+        </div>
+        <div class="field-row">
+          <input type="text" id="new-podcast-feed" placeholder="RSS feed URL" />
+          <button id="generate-config-btn">Generate config entry</button>
+        </div>
+        <div class="code-block" id="new-podcast-output">Fill in the fields above, then click generate.</div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <h2>How the data updates</h2>
+        </div>
+        <p style="color:var(--ink-secondary); font-size:13.5px; line-height:1.6;">
+          A scheduled GitHub Action runs <code>pipeline/run.py</code> to pull new episodes
+          from each active feed and tag them against <code>config/taxonomy.json</code> —
+          entirely offline, keyword-based, zero API cost. The results are committed to
+          <code>data/episodes.json</code> (the full reusable dataset) and
+          <code>data/aggregates.json</code> (precomputed rollups), so any other project
+          can consume them without re-running anything. An optional Claude-powered
+          enrichment pass (<code>pipeline/enrich_claude.py</code>) is available but off
+          by default — wire it in only when you want deeper transcript-level nuance.
+        </p>
+      </div>
+    </section>
+
+    <p class="footer-note">
+      Data sourced from public podcast RSS feeds. Signals are derived from episode titles
+      and show notes, not full transcripts — treat as a directional attention/sentiment
+      indicator, not investment advice. See <a href="README.md">README</a> for the full pipeline.
+    </p>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
