@@ -1,0 +1,11 @@
+{
+  "_comment": "Podcast categories -- single source of truth for grouping + chart colors. At 100+ tracked podcasts, coloring by individual show doesn't scale (dataviz-skill guidance: past ~4 series, fold into groups or facet), so both dashboards color by category instead. Colors are the validated categorical palette's first 6 slots, in their original adjacent-safe order.",
+  "categories": [
+    { "id": "personal-finance", "label": "Personal Finance & Budgeting", "color": "#2a78d6", "color_dark": "#3987e5" },
+    { "id": "investing-markets", "label": "Investing & Stock Markets", "color": "#eb6834", "color_dark": "#d95926" },
+    { "id": "macro-economics", "label": "Economics, Macro & Corporate Finance", "color": "#1baf7a", "color_dark": "#199e70" },
+    { "id": "retirement-fire", "label": "Retirement & Financial Independence (FIRE)", "color": "#eda100", "color_dark": "#c98500" },
+    { "id": "real-estate-crypto", "label": "Real Estate, Crypto & Alternative Assets", "color": "#e87ba4", "color_dark": "#d55181" },
+    { "id": "markets-commentary", "label": "Markets & Macro Commentary", "color": "#008300", "color_dark": "#008300" }
+  ]
+}

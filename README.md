@@ -8,11 +8,11 @@ tone — across shows, over time.
 it shows up in flows data. Tracking mention frequency + tone by
 theme/sector/stock over time is a cheap, repeatable way to watch for that.
 
-**Tracked out of the box:**
-- [Odd Lots](https://www.bloomberg.com/podcasts/series/odd-lots) (Bloomberg)
-- [Money Stuff: The Podcast](https://www.bloomberg.com/podcasts/series/money-stuff) (Bloomberg)
-- [Unhedged](https://shows.acast.com/unhedged) (Financial Times)
-- [Masters in Business](https://www.bloomberg.com/podcasts/series/master-in-business) (Bloomberg)
+**Tracked out of the box:** 101 podcasts across 6 categories (see
+`config/categories.json`) — macro/markets commentary (Odd Lots, Money Stuff,
+Unhedged, Masters in Business), personal finance & budgeting, investing &
+stock markets, economics/macro/corporate finance, retirement & FIRE, and real
+estate/crypto/alternative assets. Full list in `config/podcasts.json`.
 
 Add or remove shows any time in `config/podcasts.json` — see [Managing podcasts](#managing-podcasts).
 
@@ -195,6 +195,31 @@ Finding an RSS feed URL for a new show: search `<podcast name> RSS feed`, or
 grab its Apple Podcasts ID from the podcasts.apple.com URL and query
 `https://itunes.apple.com/lookup?id=<id>&entity=podcast` — the `feedUrl`
 field in the response is what goes in `feed_url`.
+
+### Categories
+
+Every podcast entry needs a `category` matching one of the ids in
+`config/categories.json` (`personal-finance`, `investing-markets`,
+`macro-economics`, `retirement-fire`, `real-estate-crypto`, or
+`markets-commentary`). Both dashboards color mentions-by-month by category
+rather than by individual show — at 100+ podcasts, a distinct color per show
+stops being readable, but 6 categories works fine as a stacked chart. Add a
+new category by adding an entry to `config/categories.json` (give it a hex
+color not already in use) before referencing its id from `podcasts.json`.
+
+### Not found / excluded from the 100-podcast batch add
+
+Three requested shows couldn't be added confidently and were left out rather
+than guessed wrong:
+- **You Need A Budget (YNAB)** — no official standalone feed found on Apple
+  Podcasts under that name.
+- **Joney Talks** — no matching podcast found; possibly a typo of a
+  different title.
+- **Bitcoin Fundamentals** — search kept resolving to an unrelated show
+  (The Investor's Podcast); no standalone feed found under this name.
+
+If you have a direct link (Apple Podcasts, Spotify, or the show's own site)
+for any of these, share it and I'll add it properly.
 
 ## Extending the taxonomy
 

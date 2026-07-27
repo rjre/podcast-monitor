@@ -6,6 +6,8 @@
 
 const state = {
   podcasts: [],
+  categories: [],
+  categoriesById: {},
   taxonomy: null,
   labels: { sectors: {}, themes: {}, stocks: {} },
   episodes: [],
@@ -15,6 +17,7 @@ const state = {
     entity: null, // { kind: 'sectors'|'themes'|'stocks', id }
     days: 90,
     search: "",
+    podcastQuery: "",
   },
 };
 
@@ -31,11 +34,20 @@ async function loadJSON(path, bust = false) {
   return res.json();
 }
 
-function podcastColor(podcast) {
-  const dark = document.documentElement.getAttribute("data-theme") === "dark" ||
+function isDarkMode() {
+  return document.documentElement.getAttribute("data-theme") === "dark" ||
     (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches &&
      document.documentElement.getAttribute("data-theme") !== "light");
-  return (dark && podcast.color_dark) ? podcast.color_dark : podcast.color;
+}
+
+function categoryColor(categoryId) {
+  const cat = state.categoriesById[categoryId];
+  if (!cat) return "#898781";
+  return (isDarkMode() && cat.color_dark) ? cat.color_dark : cat.color;
+}
+
+function podcastColor(podcast) {
+  return categoryColor(podcast.category);
 }
 
 function isPodcastActive(podcast) {
@@ -214,14 +226,20 @@ function renderBarList(containerId, kind, episodes, limit = 8) {
 const TREND_BAR_AREA_PX = 160;
 
 function renderTrendChart(episodes) {
+  // Grouped by category, not individual podcast: with 100+ shows tracked,
+  // per-podcast segments stop being readable. Category (5-6 groups) keeps
+  // this chart legible; use the "Podcasts" filter to narrow to specific shows.
   const months = lastNMonths(6);
   const container = $("#trend-chart");
   container.innerHTML = "";
-  const activePodcasts = state.podcasts.filter(isPodcastActive);
+  const podcastsById = Object.fromEntries(state.podcasts.map((p) => [p.id, p]));
+  const activeCategories = state.categories.filter((c) =>
+    state.podcasts.some((p) => p.category === c.id && isPodcastActive(p))
+  );
 
   const data = months.map((m) => {
-    const row = { month: m, byPodcast: {}, total: 0 };
-    for (const p of activePodcasts) row.byPodcast[p.id] = 0;
+    const row = { month: m, byCategory: {}, total: 0 };
+    for (const c of activeCategories) row.byCategory[c.id] = 0;
     return row;
   });
   const idxByMonth = new Map(data.map((d, i) => [d.month, i]));
@@ -229,9 +247,11 @@ function renderTrendChart(episodes) {
   for (const ep of episodes) {
     const mk = monthKey(ep.published_at);
     if (!idxByMonth.has(mk)) continue;
+    const podcast = podcastsById[ep.podcast_id];
+    if (!podcast || !isPodcastActive(podcast)) continue;
     const row = data[idxByMonth.get(mk)];
-    if (!(ep.podcast_id in row.byPodcast)) continue;
-    row.byPodcast[ep.podcast_id] += 1;
+    if (!(podcast.category in row.byCategory)) continue;
+    row.byCategory[podcast.category] += 1;
     row.total += 1;
   }
 
@@ -250,18 +270,18 @@ function renderTrendChart(episodes) {
     barArea.style.display = "flex";
     barArea.style.flexDirection = "column-reverse";
 
-    activePodcasts.forEach((p, i) => {
-      const count = row.byPodcast[p.id];
+    activeCategories.forEach((c, i) => {
+      const count = row.byCategory[c.id];
       if (count === 0) return;
       const heightPx = Math.max(3, Math.round((count / max) * TREND_BAR_AREA_PX));
       const seg = document.createElement("div");
       seg.className = "trend-seg";
-      seg.dataset.podcast = p.id;
+      seg.dataset.category = c.id;
       seg.dataset.count = String(count);
       seg.dataset.month = row.month;
       seg.style.height = heightPx + "px";
-      seg.style.background = podcastColor(p);
-      seg.style.marginBottom = i < activePodcasts.length - 1 ? "2px" : "0";
+      seg.style.background = categoryColor(c.id);
+      seg.style.marginBottom = i < activeCategories.length - 1 ? "2px" : "0";
       barArea.appendChild(seg);
     });
 
@@ -275,17 +295,17 @@ function renderTrendChart(episodes) {
   }
 
   attachTrendTooltips(container);
-  renderTrendLegend(activePodcasts);
+  renderTrendLegend(activeCategories);
 }
 
-function renderTrendLegend(podcasts) {
+function renderTrendLegend(categories) {
   const legend = $("#trend-legend");
   legend.innerHTML = "";
-  for (const p of podcasts) {
+  for (const c of categories) {
     const item = document.createElement("span");
     item.className = "legend-item";
-    item.innerHTML = `<span class="swatch" style="background:${podcastColor(p)}"></span>`;
-    item.append(document.createTextNode(p.name));
+    item.innerHTML = `<span class="swatch" style="background:${categoryColor(c.id)}"></span>`;
+    item.append(document.createTextNode(c.label));
     legend.appendChild(item);
   }
 }
@@ -314,10 +334,10 @@ function hideTooltip() { tooltipEl.classList.remove("visible"); }
 function attachTrendTooltips(container) {
   $$(".trend-seg", container).forEach((seg) => {
     seg.addEventListener("pointermove", (e) => {
-      const podcastId = seg.dataset.podcast;
-      const p = state.podcasts.find((x) => x.id === podcastId);
+      const categoryId = seg.dataset.category;
+      const c = state.categoriesById[categoryId];
       const month = seg.dataset.month;
-      showTooltip(e.clientX, e.clientY, `${p ? p.name : podcastId} — ${monthLabel(month)}`, [
+      showTooltip(e.clientX, e.clientY, `${c ? c.label : categoryId} — ${monthLabel(month)}`, [
         { label: "Episodes", value: seg.dataset.count },
       ]);
     });
@@ -524,13 +544,14 @@ function setupAddPodcastForm() {
       return;
     }
     const id = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    const categoryIds = state.categories.map((c) => c.id).join(" | ");
     const snippet = {
       id, name, publisher, feed_url: feed,
-      color: "#2a78d6", color_dark: "#3987e5", active: true,
+      category: `<one of: ${categoryIds}>`, active: true,
     };
     $("#new-podcast-output").textContent =
-      "Add this entry to config/podcasts.json, then commit + push " +
-      "(or wait for the next scheduled run):\n\n" + JSON.stringify(snippet, null, 2);
+      "Add this entry to config/podcasts.json (set category to one of the ids shown), " +
+      "then commit + push (or wait for the next scheduled run):\n\n" + JSON.stringify(snippet, null, 2);
   });
 }
 
@@ -575,13 +596,16 @@ function setupFilters() {
 }
 
 async function loadAllData(bust = false) {
-  const [podcastsCfg, taxonomy, episodes, runState] = await Promise.all([
+  const [podcastsCfg, categoriesCfg, taxonomy, episodes, runState] = await Promise.all([
     loadJSON("config/podcasts.json", bust),
+    loadJSON("config/categories.json", bust),
     loadJSON("config/taxonomy.json", bust),
     loadJSON("data/episodes.json", bust),
     loadJSON("data/state.json", bust).catch(() => null),
   ]);
   state.podcasts = podcastsCfg.podcasts;
+  state.categories = categoriesCfg.categories;
+  state.categoriesById = Object.fromEntries(state.categories.map((c) => [c.id, c]));
   state.taxonomy = taxonomy;
   state.episodes = episodes;
   state.runState = runState;

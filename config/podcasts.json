@@ -1,13 +1,12 @@
 {
-  "_comment": "Source of truth for which podcasts the pipeline tracks. Add or remove entries here, then re-run the pipeline (or wait for the scheduled GitHub Action). 'active': false keeps history but stops fetching new episodes.",
+  "_comment": "Source of truth for which podcasts the pipeline tracks. Add or remove entries here, then re-run the pipeline (or wait for the scheduled GitHub Action). 'active': false keeps history but stops fetching new episodes. 'category' must match an id in config/categories.json -- that's what drives chart colors now (per-podcast colors don't scale past a handful of shows).",
   "podcasts": [
     {
       "id": "odd-lots",
       "name": "Odd Lots",
       "publisher": "Bloomberg",
       "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
-      "color": "#2a78d6",
-      "color_dark": "#3987e5",
+      "category": "markets-commentary",
       "active": true
     },
     {
@@ -15,8 +14,7 @@
       "name": "Money Stuff: The Podcast",
       "publisher": "Bloomberg",
       "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/77e6a3a7-290d-4a82-8164-b14001353ef2/podcast.rss",
-      "color": "#eb6834",
-      "color_dark": "#d95926",
+      "category": "markets-commentary",
       "active": true
     },
     {
@@ -24,8 +22,7 @@
       "name": "Unhedged",
       "publisher": "Financial Times",
       "feed_url": "https://feeds.acast.com/public/shows/6478a825654260001190a7cb",
-      "color": "#1baf7a",
-      "color_dark": "#199e70",
+      "category": "markets-commentary",
       "active": true
     },
     {
@@ -33,8 +30,783 @@
       "name": "Masters in Business",
       "publisher": "Bloomberg",
       "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/5873a3cb-298f-40bc-b71f-ae2b0013000d/podcast.rss",
-      "color": "#4a3aa7",
-      "color_dark": "#9085e9",
+      "category": "markets-commentary",
+      "active": true
+    },
+    {
+      "id": "the-ramsey-show",
+      "name": "The Ramsey Show",
+      "publisher": "Ramsey Network",
+      "feed_url": "https://feeds.megaphone.fm/RM4031649020",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "money-guy-show",
+      "name": "Money Guy Show",
+      "publisher": "Brian Preston and Bo Hanson",
+      "feed_url": "https://feeds.megaphone.fm/moneyguyshow",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "financial-audit",
+      "name": "Financial Audit",
+      "publisher": "Caleb Hammer",
+      "feed_url": "https://rss.pdrl.fm/243632/feeds.megaphone.fm/ROOSTER4571910246",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "so-money-with-farnoosh-torabi",
+      "name": "So Money with Farnoosh Torabi",
+      "publisher": "Farnoosh Torabi",
+      "feed_url": "https://access.acast.com/rss/65675c71c3ca8a0012804645",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "how-to-money",
+      "name": "How to Money",
+      "publisher": "iHeartPodcasts",
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/ac04f6c2-caa5-49c7-9e23-ae320005b8ad/podcast.rss",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "the-clark-howard-podcast",
+      "name": "The Clark Howard Podcast",
+      "publisher": "Clark Howard",
+      "feed_url": "https://feeds.megaphone.fm/clarkhoward",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "planet-money",
+      "name": "Planet Money",
+      "publisher": "NPR",
+      "feed_url": "https://feeds.npr.org/510289/podcast.xml",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "money-for-couples-with-ramit-sethi",
+      "name": "Money For Couples with Ramit Sethi",
+      "publisher": "Ramit Sethi",
+      "feed_url": "https://feeds.megaphone.fm/IWTYB6912370287/",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "afford-anything",
+      "name": "Afford Anything",
+      "publisher": "Paula Pant, Personal Finance Expert | Cumulus Podcast Network",
+      "feed_url": "https://feeds.megaphone.fm/PDR2376775771",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "hermoney-with-jean-chatzky",
+      "name": "HerMoney with Jean Chatzky",
+      "publisher": "Jean Chatzky Her Money",
+      "feed_url": "https://rss.pdrl.fm/eb6deb/feeds.megaphone.fm/HER1179591041",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "stacking-benjamins",
+      "name": "Stacking Benjamins",
+      "publisher": "Joe Saul-Sehy and Josh \u2018OG\u2019 Bannerman, CFP",
+      "feed_url": "https://rss.art19.com/stacking-benjamins",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "financial-tea-with-mrs-dow-jones",
+      "name": "Financial Tea with Mrs. Dow Jones",
+      "publisher": "Sony Music Entertainment",
+      "feed_url": "https://feeds.megaphone.fm/financialtea",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "money-girl",
+      "name": "Money Girl",
+      "publisher": "QuickAndDirtyTips.com",
+      "feed_url": "https://feeds.acast.com/public/shows/69c148bb1a160b44db9c8fcc",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "optimal-finance-daily",
+      "name": "Optimal Finance Daily",
+      "publisher": "Optimal Living Daily | Diania Merriam",
+      "feed_url": "https://rss.pdrl.fm/e28e00/feeds.megaphone.fm/OLD5541344269",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "brown-ambition",
+      "name": "Brown Ambition",
+      "publisher": "iHeartPodcasts",
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4b894cc7-34cc-4155-8d9e-b2aa01086686/09b4fe67-f731-4362-8519-b2aa010866a1/podcast.rss",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "diy-money",
+      "name": "DIY Money",
+      "publisher": "DIY Money",
+      "feed_url": "https://feeds.simplecast.com/DVnmjB7M",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "money-to-the-masses",
+      "name": "Money to the Masses",
+      "publisher": "Damien Fahy",
+      "feed_url": "https://anchor.fm/s/fe33a85c/podcast/rss",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "average-joe-finances",
+      "name": "Average Joe Finances",
+      "publisher": "Mike Cavaggioni",
+      "feed_url": "https://rss.buzzsprout.com/1822550.rss",
+      "category": "personal-finance",
+      "active": true
+    },
+    {
+      "id": "the-investor-s-podcast-we-study-billionaires",
+      "name": "The Investor's Podcast (We Study Billionaires)",
+      "publisher": "The Investor's Podcast Network",
+      "feed_url": "https://feeds.megaphone.fm/PPLLC8974708240",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "invest-like-the-best",
+      "name": "Invest Like the Best",
+      "publisher": "Colossus | Investing & Business Podcasts",
+      "feed_url": "https://feeds.megaphone.fm/CLS2859450455",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "motley-fool-money",
+      "name": "Motley Fool Money",
+      "publisher": "LiSTNR",
+      "feed_url": "https://www.omnycontent.com/d/playlist/820f09cf-2ace-4180-a92d-aa4c0008f5fb/c1c22a03-f4e2-49e4-9eff-abb2003ac099/25111702-47b4-423f-9d57-abb2003ac0a7/podcast.rss",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "capital-allocators",
+      "name": "Capital Allocators",
+      "publisher": "Ted Seides \u2013 Allocator and Asset Management Expert",
+      "feed_url": "https://rss.libsyn.com/shows/94820/destinations/482814.xml",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "rational-reminder",
+      "name": "Rational Reminder",
+      "publisher": "Benjamin Felix, Cameron Passmore, and Dan Bortolotti",
+      "feed_url": "https://rss.libsyn.com/shows/127327/destinations/763774.xml",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-long-term-investor",
+      "name": "The Long Term Investor",
+      "publisher": "Peter Lazaroff",
+      "feed_url": "https://rss.libsyn.com/shows/354341/destinations/2895626.xml",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-meb-faber-show",
+      "name": "The Meb Faber Show",
+      "publisher": "The Idea Farm",
+      "feed_url": "https://feeds.megaphone.fm/TIFM6133783130",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "prof-g-markets",
+      "name": "Prof G Markets",
+      "publisher": "Vox Media Podcast Network",
+      "feed_url": "https://feeds.megaphone.fm/profgmarkets",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "mad-money-w-jim-cramer",
+      "name": "Mad Money w/ Jim Cramer",
+      "publisher": "CNBC",
+      "feed_url": "https://feeds.simplecast.com/TkQfZXMD",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "chat-with-traders",
+      "name": "Chat With Traders",
+      "publisher": "Kevin Avery",
+      "feed_url": "https://feeds.megaphone.fm/CWT9205947236",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "bogleheads-on-investing-podcast",
+      "name": "Bogleheads On Investing Podcast",
+      "publisher": "bogleheads",
+      "feed_url": "https://feed.podbean.com/bogleheads/feed.xml",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "investtalk",
+      "name": "InvestTalk",
+      "publisher": "Hosts Justin Klein & Luke Guerrero, CFA | Wealth Managers and Investment Advisors",
+      "feed_url": "https://feeds.redcircle.com/6fb1e853-719d-44d9-8b9e-9d4af81d7a89",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "morningstar-investing-insights",
+      "name": "Morningstar Investing Insights",
+      "publisher": "Morningstar, Ivanna Hampton, Sarah Hansen",
+      "feed_url": "https://feeds.simplecast.com/Cyw1tJ_z",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "stock-market-today-with-ibd",
+      "name": "Stock Market Today With IBD",
+      "publisher": "Investor's Business Daily",
+      "feed_url": "https://feeds.simplecast.com/QeVni9a0",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "rule-breaker-investing",
+      "name": "Rule Breaker Investing",
+      "publisher": "The Motley Fool",
+      "feed_url": "https://feeds.megaphone.fm/ARML2428817190",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "excess-returns",
+      "name": "Excess Returns",
+      "publisher": "Excess Returns",
+      "feed_url": "https://anchor.fm/s/9a1dfac/podcast/rss",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-dividend-cafe",
+      "name": "The Dividend Cafe",
+      "publisher": "The Bahnsen Group",
+      "feed_url": "https://media.zencast.fm/the-dividend-cafe-1/rss",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-acquirers-podcast",
+      "name": "The Acquirers Podcast",
+      "publisher": "Tobias Carlisle",
+      "feed_url": "https://anchor.fm/s/9603714/podcast/rss",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "value-investing-with-legends",
+      "name": "Value Investing with Legends",
+      "publisher": "Columbia Business School",
+      "feed_url": "https://rss.libsyn.com/shows/178055/destinations/1207712.xml",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "halftime-report",
+      "name": "Halftime Report",
+      "publisher": "CNBC",
+      "feed_url": "https://feeds.simplecast.com/qltQrd_8",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "motley-fool-hidden-gems",
+      "name": "Motley Fool Hidden Gems",
+      "publisher": "The Motley Fool",
+      "feed_url": "https://feeds.megaphone.fm/ARML8165884693",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "riskreversal-pod",
+      "name": "RiskReversal Pod",
+      "publisher": "RiskReversal Media",
+      "feed_url": "https://feeds.megaphone.fm/RRM5151570998",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "brew-markets",
+      "name": "Brew Markets",
+      "publisher": "Morning Brew",
+      "feed_url": "https://feeds.megaphone.fm/MOBI5432356102",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "sound-investing",
+      "name": "Sound Investing",
+      "publisher": "Paul Merriman",
+      "feed_url": "https://anchor.fm/s/10bb8090/podcast/rss",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-investing-for-beginners-podcast",
+      "name": "The Investing for Beginners Podcast",
+      "publisher": "Andrew Sather, Stephen Morris, Evan Raidt",
+      "feed_url": "https://feeds.megaphone.fm/ADV4246219991",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "best-stocks-now",
+      "name": "Best Stocks Now",
+      "publisher": "Bill Gunderson",
+      "feed_url": "https://feed.podbean.com/pwstreet/feed.xml",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-intrinsic-value-podcast",
+      "name": "The Intrinsic Value Podcast",
+      "publisher": "The Investor's Podcast Network",
+      "feed_url": "https://feeds.megaphone.fm/PPLLC9062165992",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "talking-wealth",
+      "name": "Talking Wealth",
+      "publisher": "The Compound",
+      "feed_url": "https://feeds.megaphone.fm/talkingwealth",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "get-started-investing",
+      "name": "Get Started Investing",
+      "publisher": "Equity Mates Media",
+      "feed_url": "https://feeds.acast.com/public/shows/f0bf866e-f0bc-55f9-85a2-b4f309b4a2fc",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "equity-mates-investing-podcast",
+      "name": "Equity Mates Investing Podcast",
+      "publisher": "Equity Mates Media",
+      "feed_url": "https://feeds.acast.com/public/shows/8c560a52-84ff-4b06-b819-f4e9bd6e85ef",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "squawk-pod",
+      "name": "Squawk Pod",
+      "publisher": "CNBC",
+      "feed_url": "https://feeds.simplecast.com/VHAcgaw_",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-rundown",
+      "name": "The Rundown",
+      "publisher": "Public.com",
+      "feed_url": "https://anchor.fm/s/f06a1be8/podcast/rss",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "the-morning-filter",
+      "name": "The Morning Filter",
+      "publisher": "Morningstar, Susan Dziubinski - Investment Specialist, Dave Sekera - Chief U.S. Markets Strategist",
+      "feed_url": "https://feeds.simplecast.com/3Or7cJoW",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "market-mondays",
+      "name": "Market Mondays",
+      "publisher": "EYL Network",
+      "feed_url": "https://feeds.redcircle.com/34df7015-ce8e-4451-bfa2-dd4ffe91e8b7",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "morning-call",
+      "name": "Morning Call",
+      "publisher": "CNBC",
+      "feed_url": "https://feeds.simplecast.com/Bt3ITxGl",
+      "category": "investing-markets",
+      "active": true
+    },
+    {
+      "id": "macro-voices",
+      "name": "Macro Voices",
+      "publisher": "Erik Townsend",
+      "feed_url": "https://feed.podbean.com/macrovoices/feed.xml",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "economist-podcasts",
+      "name": "Economist Podcasts",
+      "publisher": "The Economist",
+      "feed_url": "https://access.acast.com/rss/ec380acc-fe13-46a0-991f-a1e508d126f8",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "freakonomics-radio",
+      "name": "Freakonomics Radio",
+      "publisher": "Freakonomics Radio + Stitcher",
+      "feed_url": "https://feeds.simplecast.com/Y8lFbOT4",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "bloomberg-surveillance",
+      "name": "Bloomberg Surveillance",
+      "publisher": "Bloomberg",
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/9739700c-72c3-4176-ae55-ae27003e2b96/podcast.rss",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "thoughts-on-the-market",
+      "name": "Thoughts on the Market",
+      "publisher": "Morgan Stanley",
+      "feed_url": "https://rss.art19.com/thoughts-on-the-market",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "eurodollar-university",
+      "name": "Eurodollar University",
+      "publisher": "Jeff Snider",
+      "feed_url": "https://feeds.transistor.fm/making-sense",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "patrick-boyle-on-finance",
+      "name": "Patrick Boyle On Finance",
+      "publisher": "Patrick Boyle",
+      "feed_url": "https://anchor.fm/s/fc0914e0/podcast/rss",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "slate-money",
+      "name": "Slate Money",
+      "publisher": "Slate Podcasts",
+      "feed_url": "https://my.slate.com/podcasts/feeds/slate-money/",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "barron-s-live",
+      "name": "Barron's Live",
+      "publisher": "Barron's Live",
+      "feed_url": "https://feeds.simplecast.com/XyZBmBkh",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "forward-guidance",
+      "name": "Forward Guidance",
+      "publisher": "Blockworks",
+      "feed_url": "https://feeds.megaphone.fm/forwardguidance",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "moody-s-talks-inside-economics",
+      "name": "Moody's Talks - Inside Economics",
+      "publisher": "Moody's Analytics",
+      "feed_url": "https://feeds.simplecast.com/4LZRim3c",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "reuters-morning-bid",
+      "name": "Reuters Morning Bid",
+      "publisher": "Reuters",
+      "feed_url": "https://feeds.megaphone.fm/THRH7907651499",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "washingtonwise",
+      "name": "WashingtonWise",
+      "publisher": "Charles Schwab",
+      "feed_url": "https://feeds.schwab.com/washingtonwise",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "count-me-in",
+      "name": "Count Me In",
+      "publisher": "IMA\u00ae (Institute of Management Accountants)",
+      "feed_url": "https://feeds.transistor.fm/countmein",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "m-a-science",
+      "name": "M&A Science",
+      "publisher": "Kison Patel",
+      "feed_url": "https://rss.libsyn.com/shows/88604/destinations/435438.xml",
+      "category": "macro-economics",
+      "active": true
+    },
+    {
+      "id": "choosefi",
+      "name": "ChooseFI",
+      "publisher": "ChooseFI",
+      "feed_url": "https://feeds.choosefi.com/rss/choosefi-podcast",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "stay-wealthy",
+      "name": "Stay Wealthy",
+      "publisher": "Natalie Jamison",
+      "feed_url": "https://anchor.fm/s/f81d684/podcast/rss",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "earn-invest",
+      "name": "Earn & Invest",
+      "publisher": "Jordan Grumet (Doc G)",
+      "feed_url": "https://rss.pdrl.fm/ee19b3/feeds.megaphone.fm/ARML7919249469",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "catching-up-to-fi",
+      "name": "Catching Up to FI",
+      "publisher": "Bill Yount & Jackie Cummings Koski",
+      "feed_url": "https://rss.pdrl.fm/3361bc/feeds.libsyn.com/451611/rss/?redirect=false",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "journey-to-launch",
+      "name": "Journey To Launch",
+      "publisher": "Jamila Souffrant",
+      "feed_url": "https://rss.libsyn.com/shows/101604/destinations/537613.xml",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "retire-with-style",
+      "name": "Retire With Style",
+      "publisher": "Wade Pfau & Alex Murguia",
+      "feed_url": "https://feed.podbean.com/retirewithstyle/feed.xml",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "the-retirement-and-ira-show",
+      "name": "The Retirement and IRA Show",
+      "publisher": "Jim Saulnier, CFP\u00ae & Chris Stein, CFP\u00ae",
+      "feed_url": "https://www.theretirementandirashow.com/feed/podcast",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "retirement-starts-today",
+      "name": "Retirement Starts Today",
+      "publisher": "Benjamin Brandt CFP\u00ae, RICP\u00ae",
+      "feed_url": "https://rss.libsyn.com/shows/73373/destinations/317866.xml",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "retire-sooner",
+      "name": "Retire Sooner",
+      "publisher": "Wes Moss",
+      "feed_url": "https://feeds.megaphone.fm/retiresooner",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "early-retirement-financial-freedom",
+      "name": "Early Retirement - Financial Freedom",
+      "publisher": "Ari Taublieb, CFP\u00ae, MBA",
+      "feed_url": "https://rss.buzzsprout.com/1551448.rss",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "retirement-answers",
+      "name": "Retirement Answers",
+      "publisher": "Jacob Duke, CFP\u00ae",
+      "feed_url": "https://feeds.transistor.fm/retirement-answers",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "retirement-power-play",
+      "name": "Retirement Power Play",
+      "publisher": "Tim Dyer",
+      "feed_url": "https://rss.buzzsprout.com/1989932.rss",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "ramsey-everyday-millionaires",
+      "name": "Ramsey Everyday Millionaires",
+      "publisher": "Ramsey Network",
+      "feed_url": "https://feeds.megaphone.fm/RM3649708894",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "personal-finance-for-long-term-investors",
+      "name": "Personal Finance for Long-Term Investors",
+      "publisher": "Jesse Cramer",
+      "feed_url": "https://rss.libsyn.com/shows/324683/destinations/2640104.xml",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "the-wall-street-skinny",
+      "name": "The Wall Street Skinny",
+      "publisher": "Kristen and Jen",
+      "feed_url": "https://feeds.megaphone.fm/TTNSE2412391117",
+      "category": "retirement-fire",
+      "active": true
+    },
+    {
+      "id": "biggerpockets-real-estate",
+      "name": "BiggerPockets Real Estate",
+      "publisher": "BiggerPockets",
+      "feed_url": "https://feeds.megaphone.fm/BIGPOC7198720365",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "biggerpockets-money",
+      "name": "BiggerPockets Money",
+      "publisher": "BiggerPockets",
+      "feed_url": "https://feeds.megaphone.fm/BIGPOC6567274722",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "real-estate-rookie",
+      "name": "Real Estate Rookie",
+      "publisher": "BiggerPockets",
+      "feed_url": "https://feeds.megaphone.fm/BIGPOC2551091725",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "one-rental-at-a-time",
+      "name": "One Rental At A Time",
+      "publisher": "Michael Zuber",
+      "feed_url": "https://anchor.fm/s/98fad78/podcast/rss",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "the-millionaire-real-estate-agent",
+      "name": "The Millionaire Real Estate Agent",
+      "publisher": "Keller Podcast Network",
+      "feed_url": "https://feeds.redcircle.com/57118ff9-7ad0-49de-980d-2be46345e41c",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "real-estate-this-week",
+      "name": "Real Estate This Week",
+      "publisher": "Stephen Gasque - Home Buying & Property Insights",
+      "feed_url": "https://rss.libsyn.com/shows/577270/destinations/5000840.xml",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "real-estate-the-ramsey-way",
+      "name": "Real Estate the Ramsey Way",
+      "publisher": "Ramsey Network",
+      "feed_url": "https://feeds.megaphone.fm/realestatetheramseyway",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "the-house-hacking-podcast",
+      "name": "The House Hacking Podcast",
+      "publisher": "John D Adams Jr",
+      "feed_url": "https://anchor.fm/s/13b7cb8c/podcast/rss",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "simple-passive-cashflow",
+      "name": "Simple Passive Cashflow",
+      "publisher": "Lane Kawaoka (The Wealth Elevator, formerly Simple Passive Cashflow)",
+      "feed_url": "https://feeds.acast.com/public/shows/596ee8b36b3475a168b0d8f5",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "unchained",
+      "name": "Unchained",
+      "publisher": "Laura Shin",
+      "feed_url": "https://feeds.megaphone.fm/LSHML4761942757",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "the-crypto-podcast",
+      "name": "The Crypto Podcast",
+      "publisher": "Roy Coughlan",
+      "feed_url": "https://feed.podbean.com/thecryptopodcast/feed.xml",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "the-wolf-of-all-streets",
+      "name": "The Wolf Of All Streets",
+      "publisher": "Scott Melker",
+      "feed_url": "https://feeds.megaphone.fm/wolfofallstreets",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "alternative-allocations",
+      "name": "Alternative Allocations",
+      "publisher": "Franklin Templeton",
+      "feed_url": "https://rss.libsyn.com/shows/480831/destinations/4090161.xml",
+      "category": "real-estate-crypto",
+      "active": true
+    },
+    {
+      "id": "rebel-capitalist-news",
+      "name": "Rebel Capitalist News",
+      "publisher": "George Gammon",
+      "feed_url": "https://anchor.fm/s/103f80b70/podcast/rss",
+      "category": "real-estate-crypto",
       "active": true
     }
   ]

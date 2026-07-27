@@ -70,6 +70,8 @@ def inject_style():
 def load_data():
     with open(os.path.join(CONFIG_DIR, "podcasts.json")) as f:
         podcasts = json.load(f)["podcasts"]
+    with open(os.path.join(CONFIG_DIR, "categories.json")) as f:
+        categories = json.load(f)["categories"]
     with open(os.path.join(CONFIG_DIR, "taxonomy.json")) as f:
         taxonomy = json.load(f)
     with open(os.path.join(DATA_DIR, "episodes.json")) as f:
@@ -79,15 +81,23 @@ def load_data():
     if os.path.exists(state_path):
         with open(state_path) as f:
             state = json.load(f)
-    return podcasts, taxonomy, episodes, state
+    return podcasts, categories, taxonomy, episodes, state
 
 
 def label_maps(taxonomy):
     return {kind: {e["id"]: e["label"] for e in taxonomy[kind]} for kind in ("sectors", "themes", "stocks")}
 
 
-def podcast_color(podcast, idx):
-    return podcast.get("color") or PODCAST_FALLBACK_COLORS[idx % len(PODCAST_FALLBACK_COLORS)]
+def category_maps(categories):
+    by_id = {c["id"]: c for c in categories}
+    return by_id
+
+
+def podcast_color(podcast, categories_by_id, dark=False):
+    cat = categories_by_id.get(podcast.get("category"))
+    if not cat:
+        return PODCAST_FALLBACK_COLORS[0]
+    return cat["color_dark"] if dark else cat["color"]
 
 
 def sentiment_word(score):
@@ -98,14 +108,18 @@ def sentiment_word(score):
     return "Neutral", "sent-neutral"
 
 
-def episodes_to_df(episodes, podcasts_by_id):
+def episodes_to_df(episodes, podcasts_by_id, categories_by_id):
     rows = []
     for ep in episodes:
         tags = ep.get("tags", {})
+        podcast = podcasts_by_id.get(ep["podcast_id"], {})
+        category = categories_by_id.get(podcast.get("category"), {})
         rows.append({
             "guid": ep["guid"],
             "podcast_id": ep["podcast_id"],
-            "podcast_name": podcasts_by_id.get(ep["podcast_id"], {}).get("name", ep["podcast_id"]),
+            "podcast_name": podcast.get("name", ep["podcast_id"]),
+            "category_id": podcast.get("category", ""),
+            "category_label": category.get("label", "Uncategorized"),
             "title": ep["title"],
             "link": ep.get("link") or "",
             "published_at": pd.to_datetime(ep["published_at"]) if ep.get("published_at") else pd.NaT,
@@ -239,7 +253,10 @@ def render_bar_chart(agg_df, title):
     st.altair_chart(chart, use_container_width=True)
 
 
-def render_trend_chart(df, podcasts, podcasts_by_id):
+def render_trend_chart(df, categories):
+    """Episodes per month, colored by podcast *category* rather than
+    individual show -- with 100+ podcasts tracked, per-show coloring stops
+    being readable, but 5-6 categories works fine as a stacked bar."""
     if df.empty:
         st.caption("No episodes in this window.")
         return
@@ -250,11 +267,11 @@ def render_trend_chart(df, podcasts, podcasts_by_id):
         return
     recent["month_period"] = recent["published_at"].dt.to_period("M")
     recent["month_label"] = recent["month_period"].dt.strftime("%b %Y")
-    counts = recent.groupby(["month_period", "month_label", "podcast_name"]).size().reset_index(name="episodes")
+    counts = recent.groupby(["month_period", "month_label", "category_label"]).size().reset_index(name="episodes")
     month_order = [m for m in counts.sort_values("month_period")["month_label"].unique()]
 
-    color_domain = [p["name"] for p in podcasts]
-    color_range = [podcast_color(p, i) for i, p in enumerate(podcasts)]
+    color_domain = [c["label"] for c in categories]
+    color_range = [c["color"] for c in categories]
 
     chart = (
         alt.Chart(counts)
@@ -262,9 +279,9 @@ def render_trend_chart(df, podcasts, podcasts_by_id):
         .encode(
             x=alt.X("month_label:N", title=None, sort=month_order),
             y=alt.Y("episodes:Q", title="Episodes"),
-            color=alt.Color("podcast_name:N", title="Podcast",
+            color=alt.Color("category_label:N", title="Category",
                              scale=alt.Scale(domain=color_domain, range=color_range)),
-            tooltip=[alt.Tooltip("podcast_name:N", title="Podcast"),
+            tooltip=[alt.Tooltip("category_label:N", title="Category"),
                      alt.Tooltip("month_label:N", title="Month"),
                      alt.Tooltip("episodes:Q", title="Episodes")],
         )
@@ -275,14 +292,15 @@ def render_trend_chart(df, podcasts, podcasts_by_id):
 
 def main():
     inject_style()
-    podcasts, taxonomy, episodes, run_state = load_data()
+    podcasts, categories, taxonomy, episodes, run_state = load_data()
     podcasts_by_id = {p["id"]: p for p in podcasts}
+    categories_by_id = category_maps(categories)
     labels = label_maps(taxonomy)
 
     top_l, top_r = st.columns([3, 1])
     with top_l:
         st.title("Podcast Monitor")
-        st.caption("Financial themes, sectors & stocks — tracked across podcasts, from full transcripts where available.")
+        st.caption(f"Financial themes, sectors & stocks — tracked across {len(podcasts)} podcasts, from full transcripts where available.")
     with top_r:
         if st.button("\U0001F504 Refresh data", use_container_width=True):
             st.cache_data.clear()
@@ -293,10 +311,17 @@ def main():
 
     # ---------------- Filters ----------------
     st.markdown("---")
-    f1, f2, f3, f4 = st.columns([2, 2, 1.4, 2])
-    with f1:
-        podcast_names = [p["name"] for p in podcasts]
-        selected_podcasts = st.multiselect("Podcasts", podcast_names, default=podcast_names)
+    fc1, fc2 = st.columns([2, 3])
+    with fc1:
+        category_labels = [c["label"] for c in categories]
+        selected_categories = st.multiselect("Categories", category_labels, default=category_labels)
+    with fc2:
+        podcasts_in_categories = [p for p in podcasts
+                                   if categories_by_id.get(p.get("category"), {}).get("label") in selected_categories]
+        podcast_names = [p["name"] for p in podcasts_in_categories]
+        selected_podcasts = st.multiselect("Podcasts (narrow further)", podcast_names, default=podcast_names)
+
+    f2, f3, f4 = st.columns([2, 1.4, 2])
     with f2:
         entity_options = ["All"] + [f"Theme: {v}" for v in sorted(labels["themes"].values())] \
             + [f"Sector: {v}" for v in sorted(labels["sectors"].values())] \
@@ -308,7 +333,7 @@ def main():
     with f4:
         search = st.text_input("Search titles & show notes", "")
 
-    df = episodes_to_df(episodes, podcasts_by_id)
+    df = episodes_to_df(episodes, podcasts_by_id, categories_by_id)
     df = df[df["podcast_name"].isin(selected_podcasts)]
 
     if days != "All":
@@ -347,7 +372,8 @@ def main():
         m4.metric("Transcribed episodes", f"{transcribed}/{len(df)}")
 
         st.subheader("Mentions by month")
-        render_trend_chart(df, [p for p in podcasts if p["name"] in selected_podcasts], podcasts_by_id)
+        active_categories = [c for c in categories if c["label"] in selected_categories]
+        render_trend_chart(df, active_categories)
 
         c1, c2, c3 = st.columns(3)
         with c1:
@@ -417,15 +443,27 @@ def main():
             )
 
     with tab_manage:
-        st.subheader("Tracked podcasts")
-        for i, p in enumerate(podcasts):
-            cols = st.columns([0.5, 3, 2])
-            cols[0].markdown(
-                f'<div style="width:14px;height:14px;border-radius:50%;background:{podcast_color(p, i)};margin-top:6px;"></div>',
-                unsafe_allow_html=True,
-            )
-            cols[1].markdown(f"**{p['name']}**  \n{p['publisher']}")
-            cols[2].markdown("Active" if p.get("active", True) else "Inactive")
+        st.subheader(f"Tracked podcasts ({len(podcasts)})")
+        manage_search = st.text_input("Search podcasts", "", key="manage_search")
+        by_category = {}
+        for p in podcasts:
+            if manage_search.strip() and manage_search.strip().lower() not in p["name"].lower():
+                continue
+            by_category.setdefault(p.get("category", ""), []).append(p)
+
+        for cat in categories:
+            shows = by_category.get(cat["id"], [])
+            if not shows:
+                continue
+            with st.expander(f"{cat['label']} ({len(shows)})", expanded=len(categories) <= 2):
+                for p in shows:
+                    cols = st.columns([0.4, 3, 2])
+                    cols[0].markdown(
+                        f'<div style="width:12px;height:12px;border-radius:50%;background:{cat["color"]};margin-top:6px;"></div>',
+                        unsafe_allow_html=True,
+                    )
+                    cols[1].markdown(f"**{p['name']}**  \n{p.get('publisher', '')}")
+                    cols[2].markdown("Active" if p.get("active", True) else "Inactive")
         st.info(
             "This view is read-only. To add, remove, or disable a podcast, edit "
             "`config/podcasts.json` in the repository and commit — the next pipeline "
