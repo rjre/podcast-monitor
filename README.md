@@ -50,18 +50,21 @@ python3 pipeline/transcribe.py --guid "<guid>"     # one specific episode
 ```
 
 It picks the shortest not-yet-transcribed episodes first (fastest path to
-broad coverage) and re-tags them in `data/episodes.json`
-(`"transcript_status": "done"`, `"tags_source": "llm"` or `"keyword"`,
-`"transcript_word_count": N`, and — with Claude — `"llm_summary"`). The
-scheduled GitHub Action transcribes a few more episodes every day, so the
-backlog across all four shows fills in gradually with no manual work; add
-`ANTHROPIC_API_KEY` as a repository secret to have it use Claude too.
+broad coverage) and writes each transcript as a self-contained Markdown file
+under `data/transcripts/` (frontmatter + full text — see
+[`data/transcripts/README.md`](data/transcripts/README.md) for the format and
+how to consume it from another project), and re-tags the episode in
+`data/episodes.json` (`"transcript_status": "done"`, `"tags_source": "llm"`
+or `"keyword"`, `"transcript_path"` pointing at its file, and — with Claude —
+`"llm_summary"`). The scheduled GitHub Action transcribes a few more episodes
+every day, so the backlog across all four shows fills in gradually with no
+manual work; add `ANTHROPIC_API_KEY` as a repository secret to have it use
+Claude too.
 
-**Copyright note**: full transcript text is written to `data/transcripts/`
-but that folder is gitignored — it's copyrighted commercial podcast audio,
-and this repo is public. Only the *derived* analysis (tags, sentiment, word
-count, summary) is committed. If you make the repo private, you can safely
-stop gitignoring `data/transcripts/` and keep the raw text too.
+**Copyright note**: `data/transcripts/` is committed because this repo is
+**private** — the underlying audio is copyrighted commercial podcast content,
+so this only works because access is restricted to you (and anyone you
+invite). Don't flip this repo back to public without reconsidering that.
 
 **Important caveat**: even with Claude, treat every signal here as directional
 and worth a second look, not a source of truth on its own — always check the
@@ -84,7 +87,8 @@ data/
   episodes.json     - every episode + its tags (the reusable dataset)
   aggregates.json   - precomputed mention counts / trends per entity
   state.json        - last run metadata
-  transcripts/      - full transcript text, LOCAL ONLY (gitignored)
+  transcripts/      - full transcript text, one Markdown file per episode
+                      (committed -- repo is private; see its own README)
 index.html, assets/ - static dashboard (HTML/CSS/JS, no build step)
 streamlit_app.py    - Streamlit dashboard (same data, deploy on Streamlit Cloud)
 .github/workflows/update-podcasts.yml - scheduled fetch + transcribe + commit

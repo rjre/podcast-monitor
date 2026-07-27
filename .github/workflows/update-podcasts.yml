@@ -51,22 +51,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install transcription dependency
-        run: pip install faster-whisper
+      - name: Install dependencies
+        run: pip install faster-whisper anthropic
 
       - name: Transcribe a batch of episodes and re-tag from full text
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 pipeline/transcribe.py --limit 4 --model base
         # Small, steady batch size: gradually backfills the whole history
         # without turning any single run into an hours-long CPU job.
-        # Full transcript text is written under data/transcripts/ but never
-        # committed (gitignored -- copyrighted commercial audio, public
-        # repo); only the derived tags/sentiment in data/episodes.json are.
+        # Uses Claude if the ANTHROPIC_API_KEY repo secret is set, else
+        # falls back to the offline keyword tagger automatically.
 
-      - name: Commit updated tags
+      - name: Commit updated data
         run: |
           git config user.name "podcast-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/episodes.json data/aggregates.json
+          git add data/episodes.json data/aggregates.json data/transcripts/
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
           else

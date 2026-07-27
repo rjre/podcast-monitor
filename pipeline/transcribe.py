@@ -9,12 +9,12 @@ Whisper model (via faster-whisper, CPU-friendly, no API key/cost), then
 re-runs the zero-token tagger over the *full transcript text* instead of
 just the title/summary.
 
-Copyright note: full transcript text is intentionally kept OUT of git (see
-data/transcripts/ in .gitignore) -- these are copyrighted commercial
-podcasts and this repo is public. Transcripts stay local for your own
-research; only the derived tags/sentiment (facts about what was discussed,
-not the podcast's own words) are committed to data/episodes.json. If you
-make this repo private, you can safely stop gitignoring data/transcripts/.
+Transcripts are written as portable, self-contained Markdown files under
+data/transcripts/ -- YAML frontmatter (episode metadata + tags) followed by
+the transcript body -- so any other project can read a single file and get
+everything, no database or cross-reference needed. See
+data/transcripts/README.md for the format. This repo is private, so these
+are committed alongside the rest of the data.
 
 Analysis quality: when ANTHROPIC_API_KEY is set, each transcript is tagged
 by Claude (pipeline/enrich_claude.py) -- full transcript, full reasoning,
@@ -34,6 +34,7 @@ path -- this is the deliberate "spend local compute for more detail" step).
 With ANTHROPIC_API_KEY set, also requires: pip install anthropic.
 """
 import argparse
+import json
 import os
 import re
 import sys
@@ -86,8 +87,54 @@ def transcribe_file(path, model_size="base", model=None):
     return text.strip(), info
 
 
-def safe_filename(guid):
-    return re.sub(r"[^a-zA-Z0-9_-]+", "_", guid)[:120]
+def slugify(text, max_len=60):
+    slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return slug[:max_len].rstrip("-")
+
+
+def transcript_filename(ep):
+    date = (ep.get("published_at") or "")[:10] or "undated"
+    guid_suffix = re.sub(r"[^a-zA-Z0-9]", "", ep["guid"])[-6:]
+    return f"{date}-{ep['podcast_id']}-{slugify(ep['title'])}-{guid_suffix}.md"
+
+
+def _yaml_scalar(value):
+    if isinstance(value, str):
+        return json.dumps(value)  # reuse JSON string escaping -- valid YAML too
+    return json.dumps(value)
+
+
+def write_transcript_file(path, ep, text, tags, source, language=None):
+    """Write a self-contained Markdown file: YAML frontmatter (metadata +
+    tags) followed by the transcript body. Portable -- readable standalone
+    by any tool, without needing data/episodes.json alongside it.
+    """
+    front = [
+        "---",
+        f"title: {_yaml_scalar(ep['title'])}",
+        f"podcast: {_yaml_scalar(ep['podcast_name'])}",
+        f"podcast_id: {_yaml_scalar(ep['podcast_id'])}",
+        f"published_at: {_yaml_scalar(ep.get('published_at'))}",
+        f"guid: {_yaml_scalar(ep['guid'])}",
+        f"link: {_yaml_scalar(ep.get('link'))}",
+        f"duration: {_yaml_scalar(ep.get('duration'))}",
+        f"word_count: {len(text.split())}",
+        f"language: {_yaml_scalar(language)}",
+        f"tags_source: {_yaml_scalar(source)}",
+        f"sectors: {json.dumps(tags['sectors'])}",
+        f"themes: {json.dumps(tags['themes'])}",
+        f"stocks: {json.dumps(tags['stocks'])}",
+        f"sentiment: {tags['sentiment']}",
+    ]
+    if tags.get("summary"):
+        front.append(f"summary: {_yaml_scalar(tags['summary'])}")
+    front.append("---")
+    front.append("")
+
+    with open(path, "w") as f:
+        f.write("\n".join(front))
+        f.write(text)
+        f.write("\n")
 
 
 def tag_with_best_available(episode, text, taxonomy, taxonomy_raw):
@@ -158,21 +205,24 @@ def main():
             print("    empty transcript, skipping")
             continue
 
-        transcript_path = os.path.join(TRANSCRIPT_DIR, safe_filename(ep["guid"]) + ".txt")
-        with open(transcript_path, "w") as f:
-            f.write(text)
-
         combined_text = f"{ep['title']}. {ep.get('summary', '')} {text}"
         tags, source = tag_with_best_available(ep, combined_text, taxonomy, taxonomy_raw)
+        language = getattr(info, "language", None)
+
+        filename = transcript_filename(ep)
+        transcript_path = os.path.join(TRANSCRIPT_DIR, filename)
+        write_transcript_file(transcript_path, ep, text, tags, source, language=language)
+
         ep["tags"] = {k: tags[k] for k in ("sectors", "themes", "stocks", "sentiment")}
         ep["tags_source"] = source
-        if "summary" in tags:
+        if tags.get("summary"):
             ep["llm_summary"] = tags["summary"]
         if tags.get("new_entities"):
             ep["llm_new_entities"] = tags["new_entities"]
         ep["transcript_status"] = "done"
+        ep["transcript_path"] = f"data/transcripts/{filename}"
         ep["transcript_word_count"] = len(text.split())
-        ep["transcript_language"] = getattr(info, "language", None)
+        ep["transcript_language"] = language
         by_guid[ep["guid"]] = ep
         print(f"    [{source}] {ep['transcript_word_count']} words -> "
               f"sectors={tags['sectors']} themes={tags['themes']} stocks={tags['stocks']} sentiment={tags['sentiment']}")
@@ -185,7 +235,7 @@ def main():
     aggregates["generated_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     save_json(os.path.join(DATA_DIR, "aggregates.json"), aggregates)
 
-    print(f"\nDone. Transcripts saved locally under {TRANSCRIPT_DIR} (not committed -- see .gitignore).")
+    print(f"\nDone. Transcripts saved under {TRANSCRIPT_DIR} as portable Markdown files.")
 
 
 if __name__ == "__main__":
