@@ -5,12 +5,11 @@ Reads the same static JSON the zero-token pipeline produces
 API calls, no database. Deploy as-is on Streamlit Community Cloud by
 pointing it at this repo/file; locally: `streamlit run streamlit_app.py`.
 
-Note on transcripts: data/transcripts/ (full episode text) is gitignored
-on purpose -- these are copyrighted commercial podcasts and this repo is
-public, so raw transcript text never leaves your machine. What *is*
-committed (and shown here) is the derived analysis: tags, sentiment, and
-transcript word counts -- facts about what was discussed, not the
-podcast's own words.
+Note on transcripts: data/transcripts/ holds the full episode text as
+self-contained Markdown files (see its own README) -- committed because
+this repo is private. This app itself only reads the derived analysis
+(tags, sentiment, word counts) from data/episodes.json, not the transcript
+files directly.
 """
 import json
 import os
@@ -30,6 +29,13 @@ PODCAST_FALLBACK_COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#4a3aa7"]
 GOOD = "#0ca30c"
 CRITICAL = "#d03b3b"
 NEUTRAL = "#898781"
+
+# Same reference palette, extended to 8 slots (in validated order) for
+# entity time-series lines, where more than 4 series can appear at once.
+ENTITY_LINE_COLORS = [
+    "#2a78d6", "#eb6834", "#1baf7a", "#eda100",
+    "#e87ba4", "#008300", "#4a3aa7", "#e34948",
+]
 
 st.set_page_config(page_title="Podcast Monitor", page_icon="\U0001F4C8", layout="wide")
 
@@ -123,6 +129,85 @@ def aggregate_entity(df, kind, labels):
     grouped = grouped.rename(columns={kind: "id"})
     grouped["label"] = grouped["id"].map(labels[kind]).fillna(grouped["id"])
     return grouped.sort_values("mentions", ascending=False)
+
+
+def sentiment_bucket(score):
+    if score > 0.15:
+        return "Bullish"
+    if score < -0.15:
+        return "Bearish"
+    return "Neutral"
+
+
+def explode_monthly(df, kind, labels, entity_ids=None):
+    """One row per (episode, entity-of-`kind`, month). `entity_ids`
+    optionally restricts to a specific set of ids (else all mentioned)."""
+    sub = df[["published_at", kind, "sentiment"]].explode(kind).dropna(subset=[kind, "published_at"])
+    if entity_ids is not None:
+        sub = sub[sub[kind].isin(entity_ids)]
+    if sub.empty:
+        return sub
+    sub = sub.copy()
+    sub["month_period"] = sub["published_at"].dt.to_period("M")
+    sub["month_label"] = sub["month_period"].dt.strftime("%b %Y")
+    sub["label"] = sub[kind].map(labels[kind]).fillna(sub[kind])
+    return sub
+
+
+def render_mentions_over_time(sub, height=280):
+    """Multi-line chart: mention count per month, one line per entity."""
+    if sub.empty:
+        st.caption("No mentions in this window.")
+        return
+    counts = sub.groupby(["month_period", "month_label", "label"]).size().reset_index(name="mentions")
+    month_order = [m for m in counts.sort_values("month_period")["month_label"].unique()]
+    entity_order = list(sub.groupby("label").size().sort_values(ascending=False).index)
+    color_range = [ENTITY_LINE_COLORS[i % len(ENTITY_LINE_COLORS)] for i in range(len(entity_order))]
+
+    chart = (
+        alt.Chart(counts)
+        .mark_line(point=alt.OverlayMarkDef(size=45, filled=True), strokeWidth=2)
+        .encode(
+            x=alt.X("month_label:N", title=None, sort=month_order),
+            y=alt.Y("mentions:Q", title="Mentions"),
+            color=alt.Color("label:N", title=None, scale=alt.Scale(domain=entity_order, range=color_range)),
+            tooltip=[alt.Tooltip("label:N", title="Name"), alt.Tooltip("month_label:N", title="Month"),
+                     alt.Tooltip("mentions:Q", title="Mentions")],
+        )
+        .properties(height=height)
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def render_sentiment_over_time(sub, height=140):
+    """Faceted stacked bars: bullish/neutral/bearish mention counts per
+    month, one small chart per entity, independent y-scales (the shape
+    over time matters more than comparing raw magnitude across entities)."""
+    if sub.empty:
+        st.caption("No mentions in this window.")
+        return
+    sub = sub.copy()
+    sub["bucket"] = sub["sentiment"].apply(sentiment_bucket)
+    counts = sub.groupby(["month_period", "month_label", "label", "bucket"]).size().reset_index(name="count")
+    month_order = [m for m in counts.sort_values("month_period")["month_label"].unique()]
+    entity_order = list(sub.groupby("label").size().sort_values(ascending=False).index)
+
+    chart = (
+        alt.Chart(counts)
+        .mark_bar()
+        .encode(
+            x=alt.X("month_label:N", title=None, sort=month_order),
+            y=alt.Y("count:Q", title="Mentions"),
+            color=alt.Color("bucket:N", title="Tone",
+                             scale=alt.Scale(domain=["Bullish", "Neutral", "Bearish"], range=[GOOD, NEUTRAL, CRITICAL])),
+            tooltip=[alt.Tooltip("label:N", title="Name"), alt.Tooltip("month_label:N", title="Month"),
+                     alt.Tooltip("bucket:N", title="Tone"), alt.Tooltip("count:Q", title="Mentions")],
+        )
+        .properties(height=height, width=220)
+        .facet(facet=alt.Facet("label:N", title=None, sort=entity_order), columns=2)
+        .resolve_scale(y="independent")
+    )
+    st.altair_chart(chart, use_container_width=True)
 
 
 def _sentiment_color(score):
@@ -243,7 +328,9 @@ def main():
     tagged = df[df["tag_count"] > 0]
 
     # ---------------- Overview ----------------
-    tab_overview, tab_episodes, tab_manage = st.tabs(["Overview", "Episodes", "Manage podcasts"])
+    tab_overview, tab_trends, tab_episodes, tab_manage = st.tabs(
+        ["Overview", "Trends", "Episodes", "Manage podcasts"]
+    )
 
     with tab_overview:
         m1, m2, m3, m4 = st.columns(4)
@@ -272,6 +359,34 @@ def main():
         with c3:
             st.subheader("Top stocks")
             render_bar_chart(aggregate_entity(df, "stocks", labels), "stocks")
+
+    with tab_trends:
+        st.caption(
+            "Pick a category and up to 8 themes, sectors, or stocks to compare how often they've "
+            "come up, and whether commentary about them has leaned bullish, neutral, or bearish, "
+            "month by month."
+        )
+        kind_label = st.radio("Category", ["Themes", "Sectors", "Stocks"], horizontal=True)
+        kind = {"Themes": "themes", "Sectors": "sectors", "Stocks": "stocks"}[kind_label]
+
+        ranked = aggregate_entity(df, kind, labels)
+        all_labels = list(ranked["label"])
+        default_labels = all_labels[:5]
+        chosen_labels = st.multiselect(
+            f"Which {kind_label.lower()}?", all_labels, default=default_labels, max_selections=8,
+        )
+        chosen_ids = ranked[ranked["label"].isin(chosen_labels)]["id"].tolist()
+
+        sub = explode_monthly(df, kind, labels, entity_ids=chosen_ids if chosen_ids else None)
+        if not chosen_labels:
+            st.caption(f"No {kind_label.lower()} selected — pick one or more above.")
+        else:
+            st.subheader("Mentions over time")
+            render_mentions_over_time(sub)
+
+            st.subheader("Tone over time")
+            st.caption("Each episode's overall tone counted toward every theme/sector/stock it mentions.")
+            render_sentiment_over_time(sub)
 
     with tab_episodes:
         st.caption(f"Showing {min(len(df), 200)} of {len(df)} matching episodes")
