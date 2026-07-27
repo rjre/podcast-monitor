@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Full transcript text is copyrighted podcast content and this repo is
+# public -- keep transcripts local only. Derived tags/sentiment (not the
+# podcast's own words) still go into data/episodes.json and are committed.
+data/transcripts/
+

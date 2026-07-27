@@ -1,0 +1,8 @@
+# Pipeline-only dependencies. The core fetch+tag path (fetch_feeds.py,
+# extract_themes.py, run.py) needs none of these -- it's stdlib only.
+
+# transcribe.py: local CPU transcription, no API key/cost.
+faster-whisper>=1.0.0
+
+# enrich_claude.py: optional, off by default, needs ANTHROPIC_API_KEY.
+anthropic>=0.40.0

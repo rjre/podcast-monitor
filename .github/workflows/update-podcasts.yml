@@ -2,9 +2,11 @@ name: Update podcast data
 
 on:
   schedule:
-    # Twice a day. Cheap to run often: the default pipeline is pure
-    # stdlib + regex, no API calls, no paid dependencies.
+    # Fetch + tag from show notes: cheap, so run it often.
     - cron: "17 6,18 * * *"
+    # Transcribe a few more episodes from full audio: slower/heavier CPU
+    # work, so it gets its own once-a-day slot.
+    - cron: "0 3 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -12,6 +14,7 @@ permissions:
 
 jobs:
   update:
+    if: github.event_name != 'schedule' || github.event.schedule == '17 6,18 * * *'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -35,5 +38,38 @@ jobs:
             echo "No new episodes; nothing to commit."
           else
             git commit -m "Update podcast data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+  transcribe:
+    if: github.event_name != 'schedule' || github.event.schedule == '0 3 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install transcription dependency
+        run: pip install faster-whisper
+
+      - name: Transcribe a batch of episodes and re-tag from full text
+        run: python3 pipeline/transcribe.py --limit 4 --model base
+        # Small, steady batch size: gradually backfills the whole history
+        # without turning any single run into an hours-long CPU job.
+        # Full transcript text is written under data/transcripts/ but never
+        # committed (gitignored -- copyrighted commercial audio, public
+        # repo); only the derived tags/sentiment in data/episodes.json are.
+
+      - name: Commit updated tags
+        run: |
+          git config user.name "podcast-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/episodes.json data/aggregates.json
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Transcribe + re-tag more episodes ($(date -u +%Y-%m-%d))"
             git push
           fi

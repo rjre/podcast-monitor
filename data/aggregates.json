@@ -1,11 +1,34 @@
 {
-  "generated_at": "2026-07-27T02:53:24.219303+00:00",
+  "generated_at": "2026-07-27T03:38:19.890285+00:00",
   "sectors": [
+    {
+      "id": "ai-infrastructure",
+      "label": "AI Infrastructure",
+      "mentions": 14,
+      "avg_sentiment": 0.318,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 5,
+          "avg_sentiment": 0.44
+        },
+        {
+          "month": "2026-06",
+          "mentions": 7,
+          "avg_sentiment": 0.321
+        },
+        {
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": 0.0
+        }
+      ]
+    },
     {
       "id": "private-markets",
       "label": "Private Equity & Credit",
-      "mentions": 9,
-      "avg_sentiment": 0.0,
+      "mentions": 10,
+      "avg_sentiment": 0.1,
       "monthly": [
         {
           "month": "2026-04",
@@ -14,8 +37,8 @@
         },
         {
           "month": "2026-05",
-          "mentions": 3,
-          "avg_sentiment": 0.0
+          "mentions": 4,
+          "avg_sentiment": 0.25
         },
         {
           "month": "2026-06",
@@ -30,10 +53,10 @@
       ]
     },
     {
-      "id": "ai-infrastructure",
-      "label": "AI Infrastructure",
+      "id": "semiconductors",
+      "label": "Semiconductors",
       "mentions": 8,
-      "avg_sentiment": 0.25,
+      "avg_sentiment": 0.219,
       "monthly": [
         {
           "month": "2026-05",
@@ -42,21 +65,21 @@
         },
         {
           "month": "2026-06",
-          "mentions": 4,
-          "avg_sentiment": 0.25
+          "mentions": 3,
+          "avg_sentiment": 0.417
         },
         {
           "month": "2026-07",
-          "mentions": 1,
-          "avg_sentiment": 0.0
+          "mentions": 2,
+          "avg_sentiment": -0.25
         }
       ]
     },
     {
       "id": "technology",
       "label": "Technology",
-      "mentions": 7,
-      "avg_sentiment": 0.143,
+      "mentions": 8,
+      "avg_sentiment": 0.156,
       "monthly": [
         {
           "month": "2026-05",
@@ -66,7 +89,35 @@
         {
           "month": "2026-06",
           "mentions": 5,
+          "avg_sentiment": 0.05
+        },
+        {
+          "month": "2026-07",
+          "mentions": 1,
           "avg_sentiment": 0.0
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "label": "Energy & Oil",
+      "mentions": 6,
+      "avg_sentiment": -0.149,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": -1.0
+        },
+        {
+          "month": "2026-06",
+          "mentions": 4,
+          "avg_sentiment": 0.277
+        },
+        {
+          "month": "2026-07",
+          "mentions": 1,
+          "avg_sentiment": -1.0
         }
       ]
     },
@@ -89,38 +140,25 @@
       ]
     },
     {
-      "id": "semiconductors",
-      "label": "Semiconductors",
+      "id": "banks",
+      "label": "Banks & Financials",
       "mentions": 4,
-      "avg_sentiment": 0.25,
+      "avg_sentiment": -0.1,
       "monthly": [
         {
           "month": "2026-05",
-          "mentions": 3,
-          "avg_sentiment": 0.333
+          "mentions": 1,
+          "avg_sentiment": 0.2
         },
         {
           "month": "2026-06",
           "mentions": 1,
           "avg_sentiment": 0.0
-        }
-      ]
-    },
-    {
-      "id": "energy",
-      "label": "Energy & Oil",
-      "mentions": 2,
-      "avg_sentiment": 0.0,
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 1,
-          "avg_sentiment": -1.0
         },
         {
-          "month": "2026-06",
-          "mentions": 1,
-          "avg_sentiment": 1.0
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": -0.3
         }
       ]
     },
@@ -133,6 +171,32 @@
         {
           "month": "2026-05",
           "mentions": 2,
+          "avg_sentiment": 0.0
+        }
+      ]
+    },
+    {
+      "id": "defense-aerospace",
+      "label": "Defense & Aerospace",
+      "mentions": 1,
+      "avg_sentiment": 1.0,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": 1.0
+        }
+      ]
+    },
+    {
+      "id": "consumer-discretionary",
+      "label": "Consumer Discretionary",
+      "mentions": 1,
+      "avg_sentiment": 0.0,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 1,
           "avg_sentiment": 0.0
         }
       ]
@@ -168,49 +232,31 @@
     {
       "id": "inflation",
       "label": "Inflation",
-      "mentions": 8,
-      "avg_sentiment": 0.0,
+      "mentions": 16,
+      "avg_sentiment": 0.023,
       "monthly": [
         {
           "month": "2026-05",
-          "mentions": 4,
-          "avg_sentiment": -0.25
+          "mentions": 6,
+          "avg_sentiment": 0.033
         },
         {
           "month": "2026-06",
-          "mentions": 1,
-          "avg_sentiment": 0.0
+          "mentions": 4,
+          "avg_sentiment": 0.027
         },
         {
           "month": "2026-07",
-          "mentions": 3,
-          "avg_sentiment": 0.333
-        }
-      ]
-    },
-    {
-      "id": "dealmaking",
-      "label": "IPOs & Dealmaking",
-      "mentions": 7,
-      "avg_sentiment": 0.143,
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 5,
-          "avg_sentiment": 0.2
-        },
-        {
-          "month": "2026-06",
-          "mentions": 2,
-          "avg_sentiment": 0.0
+          "mentions": 6,
+          "avg_sentiment": 0.011
         }
       ]
     },
     {
       "id": "rates-fed",
       "label": "Interest Rates & Fed Policy",
-      "mentions": 6,
-      "avg_sentiment": -0.167,
+      "mentions": 13,
+      "avg_sentiment": -0.217,
       "monthly": [
         {
           "month": "2026-04",
@@ -224,13 +270,123 @@
         },
         {
           "month": "2026-06",
+          "mentions": 4,
+          "avg_sentiment": 0.027
+        },
+        {
+          "month": "2026-07",
+          "mentions": 6,
+          "avg_sentiment": -0.322
+        }
+      ]
+    },
+    {
+      "id": "dealmaking",
+      "label": "IPOs & Dealmaking",
+      "mentions": 12,
+      "avg_sentiment": -0.029,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 5,
+          "avg_sentiment": 0.2
+        },
+        {
+          "month": "2026-06",
+          "mentions": 4,
+          "avg_sentiment": 0.062
+        },
+        {
+          "month": "2026-07",
+          "mentions": 3,
+          "avg_sentiment": -0.533
+        }
+      ]
+    },
+    {
+      "id": "regulation-antitrust",
+      "label": "Regulation & Antitrust",
+      "mentions": 7,
+      "avg_sentiment": 0.343,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 1.0
+        },
+        {
+          "month": "2026-06",
+          "mentions": 3,
+          "avg_sentiment": 0.667
+        },
+        {
+          "month": "2026-07",
+          "mentions": 3,
+          "avg_sentiment": -0.2
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "label": "Commodities",
+      "mentions": 6,
+      "avg_sentiment": -0.149,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 2,
+          "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-06",
+          "mentions": 3,
+          "avg_sentiment": 0.036
+        },
+        {
+          "month": "2026-07",
+          "mentions": 1,
+          "avg_sentiment": -1.0
+        }
+      ]
+    },
+    {
+      "id": "hedge-funds",
+      "label": "Hedge Funds",
+      "mentions": 6,
+      "avg_sentiment": -0.167,
+      "monthly": [
+        {
+          "month": "2026-05",
           "mentions": 1,
           "avg_sentiment": 0.0
         },
         {
-          "month": "2026-07",
+          "month": "2026-06",
           "mentions": 2,
           "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-07",
+          "mentions": 3,
+          "avg_sentiment": -0.333
+        }
+      ]
+    },
+    {
+      "id": "bond-market",
+      "label": "Bond Market & Yields",
+      "mentions": 6,
+      "avg_sentiment": 0.051,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 2,
+          "avg_sentiment": 0.1
+        },
+        {
+          "month": "2026-06",
+          "mentions": 4,
+          "avg_sentiment": 0.027
         }
       ]
     },
@@ -253,47 +409,6 @@
       ]
     },
     {
-      "id": "hedge-funds",
-      "label": "Hedge Funds",
-      "mentions": 4,
-      "avg_sentiment": 0.0,
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-06",
-          "mentions": 2,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-07",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        }
-      ]
-    },
-    {
-      "id": "regulation-antitrust",
-      "label": "Regulation & Antitrust",
-      "mentions": 3,
-      "avg_sentiment": 0.333,
-      "monthly": [
-        {
-          "month": "2026-06",
-          "mentions": 2,
-          "avg_sentiment": 0.5
-        },
-        {
-          "month": "2026-07",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        }
-      ]
-    },
-    {
       "id": "market-structure",
       "label": "Market Structure & Liquidity",
       "mentions": 3,
@@ -307,24 +422,6 @@
         {
           "month": "2026-07",
           "mentions": 1,
-          "avg_sentiment": 0.0
-        }
-      ]
-    },
-    {
-      "id": "bond-market",
-      "label": "Bond Market & Yields",
-      "mentions": 3,
-      "avg_sentiment": 0.0,
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-06",
-          "mentions": 2,
           "avg_sentiment": 0.0
         }
       ]
@@ -348,8 +445,93 @@
       ]
     },
     {
-      "id": "china",
-      "label": "China Economy",
+      "id": "elections-politics",
+      "label": "Elections & Politics",
+      "mentions": 2,
+      "avg_sentiment": -0.4,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.2
+        },
+        {
+          "month": "2026-07",
+          "mentions": 1,
+          "avg_sentiment": -1.0
+        }
+      ]
+    },
+    {
+      "id": "passive-investing",
+      "label": "Passive Investing",
+      "mentions": 2,
+      "avg_sentiment": -0.416,
+      "monthly": [
+        {
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": -0.416
+        }
+      ]
+    },
+    {
+      "id": "credit-markets",
+      "label": "Credit Markets",
+      "mentions": 2,
+      "avg_sentiment": -0.167,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-07",
+          "mentions": 1,
+          "avg_sentiment": -0.333
+        }
+      ]
+    },
+    {
+      "id": "ai-boom",
+      "label": "AI & Machine Learning",
+      "mentions": 2,
+      "avg_sentiment": -1.0,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": -1.0
+        },
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": -1.0
+        }
+      ]
+    },
+    {
+      "id": "volatility",
+      "label": "Volatility & Vol Regime",
+      "mentions": 2,
+      "avg_sentiment": 0.334,
+      "monthly": [
+        {
+          "month": "2026-04",
+          "mentions": 1,
+          "avg_sentiment": -0.333
+        },
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": 1.0
+        }
+      ]
+    },
+    {
+      "id": "currency-dollar",
+      "label": "Currency & Dollar",
       "mentions": 1,
       "avg_sentiment": -1.0,
       "monthly": [
@@ -361,13 +543,13 @@
       ]
     },
     {
-      "id": "ai-boom",
-      "label": "AI & Machine Learning",
+      "id": "china",
+      "label": "China Economy",
       "mentions": 1,
       "avg_sentiment": -1.0,
       "monthly": [
         {
-          "month": "2026-06",
+          "month": "2026-07",
           "mentions": 1,
           "avg_sentiment": -1.0
         }
@@ -383,6 +565,32 @@
           "month": "2026-06",
           "mentions": 1,
           "avg_sentiment": 0.0
+        }
+      ]
+    },
+    {
+      "id": "recession",
+      "label": "Recession Risk",
+      "mentions": 1,
+      "avg_sentiment": -0.143,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": -0.143
+        }
+      ]
+    },
+    {
+      "id": "emerging-markets",
+      "label": "Emerging Markets",
+      "mentions": 1,
+      "avg_sentiment": -0.143,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": -0.143
         }
       ]
     },
@@ -413,19 +621,6 @@
       ]
     },
     {
-      "id": "commodities",
-      "label": "Commodities",
-      "mentions": 1,
-      "avg_sentiment": -1.0,
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 1,
-          "avg_sentiment": -1.0
-        }
-      ]
-    },
-    {
       "id": "earnings",
       "label": "Corporate Earnings",
       "mentions": 1,
@@ -441,50 +636,93 @@
   ],
   "stocks": [
     {
-      "id": "nvidia",
-      "label": "Nvidia",
-      "mentions": 7,
-      "avg_sentiment": 0.286,
+      "id": "goldman-sachs",
+      "label": "Goldman Sachs",
+      "mentions": 11,
+      "avg_sentiment": -0.143,
       "monthly": [
         {
+          "month": "2026-04",
+          "mentions": 1,
+          "avg_sentiment": -0.333
+        },
+        {
           "month": "2026-05",
-          "mentions": 2,
-          "avg_sentiment": 0.5
+          "mentions": 1,
+          "avg_sentiment": 0.333
         },
         {
           "month": "2026-06",
-          "mentions": 5,
-          "avg_sentiment": 0.2
-        }
-      ]
-    },
-    {
-      "id": "amazon",
-      "label": "Amazon",
-      "mentions": 3,
-      "avg_sentiment": -0.333,
-      "monthly": [
-        {
-          "month": "2026-06",
-          "mentions": 2,
-          "avg_sentiment": -0.5
+          "mentions": 4,
+          "avg_sentiment": 0.214
         },
         {
           "month": "2026-07",
-          "mentions": 1,
-          "avg_sentiment": 0.0
+          "mentions": 5,
+          "avg_sentiment": -0.487
         }
       ]
     },
     {
       "id": "alphabet",
       "label": "Alphabet / Google",
-      "mentions": 3,
-      "avg_sentiment": 0.0,
+      "mentions": 9,
+      "avg_sentiment": -0.128,
       "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.2
+        },
+        {
+          "month": "2026-06",
+          "mentions": 5,
+          "avg_sentiment": 0.05
+        },
+        {
+          "month": "2026-07",
+          "mentions": 3,
+          "avg_sentiment": -0.533
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "label": "Nvidia",
+      "mentions": 9,
+      "avg_sentiment": 0.287,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 3,
+          "avg_sentiment": 0.444
+        },
+        {
+          "month": "2026-06",
+          "mentions": 6,
+          "avg_sentiment": 0.208
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "label": "Amazon",
+      "mentions": 6,
+      "avg_sentiment": -0.069,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.333
+        },
         {
           "month": "2026-06",
           "mentions": 3,
+          "avg_sentiment": -0.25
+        },
+        {
+          "month": "2026-07",
+          "mentions": 2,
           "avg_sentiment": 0.0
         }
       ]
@@ -492,13 +730,105 @@
     {
       "id": "microsoft",
       "label": "Microsoft",
-      "mentions": 2,
-      "avg_sentiment": 0.0,
+      "mentions": 5,
+      "avg_sentiment": 0.117,
       "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.333
+        },
+        {
+          "month": "2026-06",
+          "mentions": 2,
+          "avg_sentiment": 0.125
+        },
+        {
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": 0.0
+        }
+      ]
+    },
+    {
+      "id": "sp500",
+      "label": "S&P 500",
+      "mentions": 5,
+      "avg_sentiment": 0.25,
+      "monthly": [
+        {
+          "month": "2026-04",
+          "mentions": 1,
+          "avg_sentiment": -0.333
+        },
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.333
+        },
+        {
+          "month": "2026-06",
+          "mentions": 3,
+          "avg_sentiment": 0.417
+        }
+      ]
+    },
+    {
+      "id": "morgan-stanley",
+      "label": "Morgan Stanley",
+      "mentions": 4,
+      "avg_sentiment": -0.1,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.2
+        },
         {
           "month": "2026-06",
           "mentions": 1,
           "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": -0.3
+        }
+      ]
+    },
+    {
+      "id": "bank-of-america",
+      "label": "Bank of America",
+      "mentions": 4,
+      "avg_sentiment": 0.064,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 2,
+          "avg_sentiment": 0.428
+        },
+        {
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": -0.3
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "label": "Tesla",
+      "mentions": 4,
+      "avg_sentiment": 0.062,
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 1,
+          "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-06",
+          "mentions": 2,
+          "avg_sentiment": 0.125
         },
         {
           "month": "2026-07",
@@ -510,34 +840,16 @@
     {
       "id": "bitcoin",
       "label": "Bitcoin",
-      "mentions": 2,
-      "avg_sentiment": 0.0,
+      "mentions": 4,
+      "avg_sentiment": 0.312,
       "monthly": [
         {
           "month": "2026-06",
-          "mentions": 1,
-          "avg_sentiment": 0.0
+          "mentions": 3,
+          "avg_sentiment": 0.417
         },
         {
           "month": "2026-07",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        }
-      ]
-    },
-    {
-      "id": "tesla",
-      "label": "Tesla",
-      "mentions": 2,
-      "avg_sentiment": 0.0,
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-06",
           "mentions": 1,
           "avg_sentiment": 0.0
         }
@@ -546,13 +858,26 @@
     {
       "id": "jpmorgan",
       "label": "JPMorgan",
+      "mentions": 2,
+      "avg_sentiment": -0.3,
+      "monthly": [
+        {
+          "month": "2026-07",
+          "mentions": 2,
+          "avg_sentiment": -0.3
+        }
+      ]
+    },
+    {
+      "id": "citigroup",
+      "label": "Citigroup",
       "mentions": 1,
-      "avg_sentiment": 0.0,
+      "avg_sentiment": -0.6,
       "monthly": [
         {
           "month": "2026-07",
           "mentions": 1,
-          "avg_sentiment": 0.0
+          "avg_sentiment": -0.6
         }
       ]
     },
@@ -570,6 +895,19 @@
       ]
     },
     {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "mentions": 1,
+      "avg_sentiment": 0.25,
+      "monthly": [
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": 0.25
+        }
+      ]
+    },
+    {
       "id": "berkshire",
       "label": "Berkshire Hathaway",
       "mentions": 1,
@@ -583,34 +921,34 @@
       ]
     },
     {
-      "id": "sp500",
-      "label": "S&P 500",
+      "id": "palantir",
+      "label": "Palantir",
       "mentions": 1,
-      "avg_sentiment": 0.0,
+      "avg_sentiment": 1.0,
       "monthly": [
         {
           "month": "2026-06",
           "mentions": 1,
-          "avg_sentiment": 0.0
+          "avg_sentiment": 1.0
         }
       ]
     },
     {
-      "id": "goldman-sachs",
-      "label": "Goldman Sachs",
+      "id": "ethereum",
+      "label": "Ethereum",
       "mentions": 1,
-      "avg_sentiment": 0.0,
+      "avg_sentiment": 1.0,
       "monthly": [
         {
           "month": "2026-06",
           "mentions": 1,
-          "avg_sentiment": 0.0
+          "avg_sentiment": 1.0
         }
       ]
     },
     {
-      "id": "morgan-stanley",
-      "label": "Morgan Stanley",
+      "id": "walmart",
+      "label": "Walmart",
       "mentions": 1,
       "avg_sentiment": 0.0,
       "monthly": [

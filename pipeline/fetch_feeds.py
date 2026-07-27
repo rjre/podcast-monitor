@@ -69,6 +69,9 @@ def parse_feed(xml_bytes, podcast_id, podcast_name, since=None):
 
         duration = item.findtext("itunes:duration", namespaces=NAMESPACES) or ""
 
+        enclosure = item.find("enclosure")
+        audio_url = enclosure.get("url") if enclosure is not None else None
+
         if since is not None and pub_date is not None and pub_date < since:
             continue
 
@@ -81,6 +84,7 @@ def parse_feed(xml_bytes, podcast_id, podcast_name, since=None):
             "published_at": pub_date.isoformat() if pub_date else None,
             "summary": summary,
             "duration": duration,
+            "audio_url": audio_url,
         })
 
     return episodes

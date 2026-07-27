@@ -1,5 +1,10 @@
-# The default pipeline (pipeline/fetch_feeds.py, extract_themes.py, run.py)
-# uses only the Python standard library -- nothing to install.
-#
-# This dependency is only needed if you opt into pipeline/enrich_claude.py:
-anthropic>=0.40.0
+# Requirements for streamlit_app.py -- this is what Streamlit Community
+# Cloud installs to run the dashboard. Kept minimal on purpose so deploys
+# stay fast and reliable.
+streamlit>=1.38.0
+pandas>=2.0.0
+altair>=5.0.0
+
+# Pipeline dependencies (fetching, tagging, transcribing, optional LLM
+# enrichment) live in pipeline/requirements.txt instead -- the dashboard
+# never imports them, so they shouldn't slow down or risk the Cloud deploy.

@@ -16,30 +16,56 @@ theme/sector/stock over time is a cheap, repeatable way to watch for that.
 
 Add or remove shows any time in `config/podcasts.json` — see [Managing podcasts](#managing-podcasts).
 
-## Why this is (almost) free to run forever
+## Two analysis paths: free keyword tagging, or Claude for real understanding
 
-The default pipeline never calls an LLM. It fetches each podcast's public RSS
-feed, then tags every episode's **title + show notes** against a hand-built
-financial taxonomy (`config/taxonomy.json`) using plain regex/keyword
-matching — sectors, macro/market themes, and named stocks, plus a bullish/
-bearish lexicon for a coarse sentiment score. All of that is stdlib Python:
-no API key, no paid dependency, no per-run cost.
+**Show notes + keyword tagging** (`pipeline/run.py`) is the always-on, zero-cost
+baseline. It fetches each podcast's public RSS feed, then tags every episode's
+**title + show notes** against a hand-built financial taxonomy
+(`config/taxonomy.json`) using plain regex/keyword matching — sectors,
+macro/market themes, and named stocks, plus a bullish/bearish lexicon for a
+coarse sentiment score. All stdlib Python: no API key, no paid dependency, no
+per-run cost. It's what keeps the dashboard populated with zero ongoing spend,
+and it's the automatic fallback whenever a better option isn't configured.
 
-The "superior processing" only happened once, up front, to *build* the
-taxonomy and lexicon thoughtfully. From here on, running it daily (or 10x a
-day) costs nothing but a GitHub Actions minute.
+**Full transcript + Claude** (`pipeline/transcribe.py` +
+`pipeline/enrich_claude.py`) is the real analysis path, used whenever
+`ANTHROPIC_API_KEY` is set: it downloads an episode's audio, transcribes it
+locally with [faster-whisper](https://github.com/SYSTRAN/faster-whisper) (CPU,
+free), then sends the **full transcript** to Claude Opus 5 to tag it against
+the same taxonomy — catching a hedged view, sarcasm, or a guest disagreeing
+with the host, none of which keyword matching can do — plus a one/two-sentence
+summary of the investment-relevant takeaway. This is intentionally the
+higher-quality default when a key is available, not a cost-saving compromise:
+it runs at Claude's full reasoning effort rather than a cheaper, shallower
+model.
 
-An optional `pipeline/enrich_claude.py` module exists for when you want more
-nuance than keyword-matching can give (e.g. a full transcript, sarcasm, a
-guest disagreeing with the host) — it's wired for the Claude API but is never
-called automatically. Turn it on deliberately, per-episode, when it's worth
-the tokens.
+```bash
+pip install -r pipeline/requirements.txt   # faster-whisper + anthropic
 
-**Important caveat**: tagging runs on episode titles and show notes, not full
-audio transcripts (these feeds don't publish transcripts, and transcribing
-hundreds of hours of audio isn't something to do by default). Treat the
-output as a directional attention/tone indicator — worth investigating
-further, not a source of truth on its own.
+export ANTHROPIC_API_KEY=sk-ant-...        # enables the Claude analysis path
+
+python3 pipeline/transcribe.py --limit 5           # shortest untranscribed episodes first
+python3 pipeline/transcribe.py --limit 3 --model small   # more accurate Whisper pass, slower
+python3 pipeline/transcribe.py --guid "<guid>"     # one specific episode
+```
+
+It picks the shortest not-yet-transcribed episodes first (fastest path to
+broad coverage) and re-tags them in `data/episodes.json`
+(`"transcript_status": "done"`, `"tags_source": "llm"` or `"keyword"`,
+`"transcript_word_count": N`, and — with Claude — `"llm_summary"`). The
+scheduled GitHub Action transcribes a few more episodes every day, so the
+backlog across all four shows fills in gradually with no manual work; add
+`ANTHROPIC_API_KEY` as a repository secret to have it use Claude too.
+
+**Copyright note**: full transcript text is written to `data/transcripts/`
+but that folder is gitignored — it's copyrighted commercial podcast audio,
+and this repo is public. Only the *derived* analysis (tags, sentiment, word
+count, summary) is committed. If you make the repo private, you can safely
+stop gitignoring `data/transcripts/` and keep the raw text too.
+
+**Important caveat**: even with Claude, treat every signal here as directional
+and worth a second look, not a source of truth on its own — always check the
+source episode before acting.
 
 ## Architecture
 
@@ -49,15 +75,19 @@ config/
   taxonomy.json     - sectors, themes, stocks + bullish/bearish lexicon
 pipeline/
   fetch_feeds.py    - stdlib-only RSS parsing
-  extract_themes.py - zero-token regex tagging + sentiment scoring
-  enrich_claude.py  - OPTIONAL Claude API enrichment (off by default)
+  extract_themes.py - zero-token regex tagging + sentiment scoring (fallback)
+  transcribe.py     - local Whisper transcription + re-tagging orchestration
+  enrich_claude.py  - Claude-powered tagging from full transcripts (default
+                      whenever ANTHROPIC_API_KEY is set)
   run.py            - orchestrator: fetch -> tag -> write data/*.json
 data/
   episodes.json     - every episode + its tags (the reusable dataset)
   aggregates.json   - precomputed mention counts / trends per entity
   state.json        - last run metadata
-index.html, assets/ - the dashboard (static HTML/CSS/JS, no build step)
-.github/workflows/update-podcasts.yml - scheduled fetch + commit
+  transcripts/      - full transcript text, LOCAL ONLY (gitignored)
+index.html, assets/ - static dashboard (HTML/CSS/JS, no build step)
+streamlit_app.py    - Streamlit dashboard (same data, deploy on Streamlit Cloud)
+.github/workflows/update-podcasts.yml - scheduled fetch + transcribe + commit
 ```
 
 ### `data/episodes.json` — reuse this elsewhere
@@ -101,9 +131,10 @@ python3 pipeline/run.py
 python3 pipeline/run.py --retag
 ```
 
-No dependencies to install for the default path — it's pure Python 3
-standard library. `requirements.txt` only matters if you turn on
-`enrich_claude.py` (needs the `anthropic` package + `ANTHROPIC_API_KEY`).
+No dependencies to install for the fetch+tag path — it's pure Python 3
+standard library. `pipeline/requirements.txt` covers transcription
+(`faster-whisper`) and Claude analysis (`anthropic`); the root
+`requirements.txt` is just what the Streamlit dashboard needs to run.
 
 ### Keeping it current automatically
 
@@ -112,6 +143,23 @@ commits any new episodes back to the repo. Enable GitHub Pages (Settings →
 Pages → deploy from the `main` branch, root) and the dashboard at `index.html`
 always reflects the latest committed data — open it and hit **Refresh** to
 pull the newest JSON.
+
+## Two dashboards, same data
+
+- **`index.html`** — static HTML/CSS/JS, no build step, deploy via GitHub Pages.
+- **`streamlit_app.py`** — a Streamlit app with the same filters/charts, plus
+  richer Altair visualizations. Run locally:
+
+  ```bash
+  pip install -r requirements.txt
+  streamlit run streamlit_app.py
+  ```
+
+  **Deploying to Streamlit Community Cloud** (share.streamlit.io): sign in with
+  GitHub, click "New app", pick `rjre/podcast-monitor`, branch `main`, main
+  file path `streamlit_app.py`, and deploy — it installs `requirements.txt`
+  automatically. This step needs your Streamlit account, so it isn't something
+  that can be done on your behalf; everything in the repo is ready for it.
 
 ## Using the dashboard
 
