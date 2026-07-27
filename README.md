@@ -142,11 +142,45 @@ standard library. `pipeline/requirements.txt` covers transcription
 
 ### Keeping it current automatically
 
-`.github/workflows/update-podcasts.yml` runs the pipeline twice a day and
-commits any new episodes back to the repo. Enable GitHub Pages (Settings →
-Pages → deploy from the `main` branch, root) and the dashboard at `index.html`
-always reflects the latest committed data — open it and hit **Refresh** to
-pull the newest JSON.
+`.github/workflows/update-podcasts.yml` runs the fetch+tag job twice a day
+and the transcribe job once a day, committing any new episodes/transcripts
+back to the repo. Enable GitHub Pages (Settings → Pages → deploy from the
+`main` branch, root) and the static dashboard at `index.html` always
+reflects the latest committed data — open it and hit **Refresh** to pull
+the newest JSON.
+
+### What happens once you add `ANTHROPIC_API_KEY`
+
+Nothing needs to change in the workflow — the transcribe job already reads
+`secrets.ANTHROPIC_API_KEY` and switches every episode it processes from
+keyword tagging (`tags_source: "keyword"`) to Claude (`tags_source: "llm"`,
+plus an `llm_summary`) automatically the moment the secret exists.
+
+**Coverage timeline.** Episode selection is round-robin across shows (see
+`select_candidates` in `pipeline/transcribe.py`), shortest-episode-first per
+show — not a flat global sort, so a handful of naturally-short shows can't
+monopolize every batch. At the default `--limit 8`, every one of the ~97
+active podcasts gets at least one episode transcribed + Claude-tagged
+within about 12 days; after that first pass, it moves on to each show's
+next-shortest episode, and so on. Run `pipeline/transcribe.py --limit N`
+manually (locally, with the key exported) any time you want to speed that
+up — it doesn't consume GitHub Actions minutes at all when run that way.
+
+**Rough cost per episode** (Claude Opus 5, high reasoning effort — see
+`pipeline/enrich_claude.py`): a typical ~3,000-word transcript is roughly
+$0.03–0.08 depending on episode length and how much the model reasons
+through the tagging. At the default 8 episodes/day that's on the order of
+$0.25–0.65/day, call it **$8–20/month** — check
+[anthropic.com/pricing](https://www.anthropic.com/pricing) for current
+rates rather than treating this as exact.
+
+**GitHub Actions minutes.** This repo is private, so Actions minutes count
+against your plan's monthly allowance (GitHub Free includes 2,000 min/month
+for private repos; Pro/Team get more). Transcribing 8 episodes/day on the
+`base` Whisper model runs roughly 45–70 minutes/day of compute, i.e.
+**~1,500–2,000 Actions minutes/month** — most of the free allowance on a
+Free plan. If that's tight, lower `--limit` in the workflow file (e.g. to
+4–5) and the coverage timeline above just stretches out proportionally.
 
 ## Two dashboards, same data
 

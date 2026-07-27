@@ -36,10 +36,12 @@ With ANTHROPIC_API_KEY set, also requires: pip install anthropic.
 import argparse
 import json
 import os
+import random
 import re
 import sys
 import tempfile
 import urllib.request
+from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -151,6 +153,16 @@ def tag_with_best_available(episode, text, taxonomy, taxonomy_raw):
 
 
 def select_candidates(episodes, podcasts_cfg, limit, only_guid=None):
+    """Pick episodes to transcribe next.
+
+    Round-robin across podcasts (shortest-first within each show), not a
+    flat global sort -- at 100+ podcasts, a handful of shows with naturally
+    short episodes (daily 15-minute personal-finance shows, "At The Money"
+    segments, etc.) would otherwise monopolize every batch, and shows with
+    longer-format episodes would never get reached. Round-robin means a
+    `--limit` at or above the number of active shows covers every show
+    once before starting on anyone's second episode.
+    """
     active_ids = {p["id"] for p in podcasts_cfg["podcasts"] if p.get("active", True)}
     candidates = [
         ep for ep in episodes
@@ -160,8 +172,33 @@ def select_candidates(episodes, podcasts_cfg, limit, only_guid=None):
     ]
     if only_guid:
         return [ep for ep in candidates if ep["guid"] == only_guid]
-    candidates.sort(key=lambda ep: (duration_seconds(ep.get("duration")) or 1 << 30))
-    return candidates[:limit]
+
+    by_podcast = defaultdict(list)
+    for ep in candidates:
+        by_podcast[ep["podcast_id"]].append(ep)
+    for pid in by_podcast:
+        by_podcast[pid].sort(key=lambda ep: (duration_seconds(ep.get("duration")) or 1 << 30))
+
+    # Shuffle which podcasts go first each run so that when --limit is
+    # smaller than the number of shows with a backlog, coverage rotates
+    # across runs instead of always favoring the same alphabetical shows.
+    podcast_ids = list(by_podcast.keys())
+    random.shuffle(podcast_ids)
+
+    result = []
+    round_idx = 0
+    while len(result) < limit:
+        added_any = False
+        for pid in podcast_ids:
+            if round_idx < len(by_podcast[pid]):
+                result.append(by_podcast[pid][round_idx])
+                added_any = True
+                if len(result) >= limit:
+                    break
+        if not added_any:
+            break
+        round_idx += 1
+    return result
 
 
 def main():
