@@ -738,8 +738,14 @@
         "retirement-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-26-odd-lots-how-financial-advisors-can-grow-during-the-great-wealth-tran-4d8b7a.md",
+    "transcript_word_count": 3408,
+    "transcript_language": "en",
+    "llm_summary": "Sponsored panel on the ~$100 trillion 'great wealth transfer': research shows roughly 81% of heirs leave their parents' financial advisor, driven by feeling unheard by legacy advisors, and panelists urge advisors to shift language from 'retirement' to 'financial independence' and adopt a more emotionally attuned, holistic approach to keep next-gen clients."
   },
   {
     "guid": "f558f5df-bdb2-44dc-a4aa-c1d41bbe86eb",
@@ -2374,13 +2380,31 @@
     "duration": "18:57",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a625dad562e3ad88605a224/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "jpmorgan"
+      "sectors": [
+        "banks"
       ],
-      "sentiment": 0.0
-    }
+      "themes": [
+        "rates-fed",
+        "dealmaking",
+        "regulation-antitrust",
+        "credit-markets"
+      ],
+      "stocks": [
+        "jpmorgan",
+        "goldman-sachs",
+        "morgan-stanley",
+        "citigroup",
+        "bank-of-america",
+        "alphabet"
+      ],
+      "sentiment": 0.4
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-unhedged-how-jpmorgan-won-05a224.md",
+    "transcript_word_count": 3041,
+    "transcript_language": "en",
+    "llm_summary": "Explains why JPMorgan has become the dominant US bank: Jamie Dimon's 'fortress balance sheet' let it buy Bear Stearns cheaply in 2008, rivals (Bank of America's underwater long-duration bond bet, Citigroup's operational sprawl, Wells Fargo's fake-accounts scandal) have repeatedly stumbled, and rising rates since 2022 widened JPMorgan's margin lead further -- leaving succession from the 70-year-old Dimon as the main open risk."
   },
   {
     "guid": "133cf420-5a69-404d-bf52-6251f37513c5",
@@ -4384,10 +4408,27 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a5fb3b9fa136e7931c547de/media.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "themes": [
+        "elections-politics",
+        "rates-fed",
+        "currency-dollar",
+        "commodities",
+        "geopolitics-tariffs",
+        "hedge-funds",
+        "market-structure"
+      ],
+      "stocks": [
+        "alphabet",
+        "goldman-sachs"
+      ],
+      "sentiment": -0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-unhedged-the-forecast-for-prediction-markets-c547de.md",
+    "transcript_word_count": 2988,
+    "transcript_language": "en",
+    "llm_summary": "Examines the rapid growth of prediction markets into financial and geopolitical betting -- including a Google engineer criminally charged for insider trading on Polymarket and Goldman Sachs restricting staff wagers -- while noting these markets sometimes gave a more sensible read on UK rate expectations during the Iran-war shock than crowded gilt futures did."
   },
   {
     "guid": "665a8536-3dbf-4ad0-a78e-5999b3fa48f5",
@@ -8842,11 +8883,18 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "fire-movement"
+        "retirement-planning",
+        "passive-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-masters-in-business-at-the-money-when-should-do-it-yourself-investors-fire-thems-f0beba.md",
+    "transcript_word_count": 3617,
+    "transcript_language": "en",
+    "llm_summary": "A financial-planning physician discusses when DIY investors should bring in professional help: overconfidence and 'seeking alpha' are the main risk in the accumulation years, while the shift to decumulation (RMDs, Roth conversions, healthcare subsidy cliffs) and major emotional life events are when the room for costly errors shrinks most."
   },
   {
     "guid": "02de54a2-8055-11f1-bb0c-cf7d79538cf3",
@@ -9705,11 +9753,38 @@
     "duration": "14:17",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a568661f821a8210942f1b8/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 1.0
-    }
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "ai-infrastructure",
+        "banks"
+      ],
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "inflation",
+        "regulation-antitrust",
+        "hedge-funds"
+      ],
+      "stocks": [
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "tesla",
+        "jpmorgan",
+        "goldman-sachs",
+        "morgan-stanley",
+        "bank-of-america",
+        "citigroup"
+      ],
+      "sentiment": 0.6
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-14-unhedged-everything-is-awesome-for-banks-42f1b8.md",
+    "transcript_word_count": 1891,
+    "transcript_language": "en",
+    "llm_summary": "Big bank earnings (JPMorgan, Bank of America, Citi, Goldman, Wells Fargo) blew past expectations on tech-driven dealmaking, trading and lending fees, with Jamie Dimon noting AI capex will hit roughly $1 trillion this year -- matching the US defense budget -- while IBM's weak results show software spending being crowded out by AI infrastructure investment."
   },
   {
     "guid": "retirewithstyle.podbean.com/c2665fb8-5866-3492-8b3b-734852859112",
@@ -17943,10 +18018,21 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/64d8a8d7-5fe6-4ace-bc06-b47b010f414d/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "bond-market",
+        "passive-investing",
+        "rates-fed",
+        "credit-markets"
+      ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-02-masters-in-business-at-the-money-building-a-bond-ladder-with-etfs-0f414d.md",
+    "transcript_word_count": 2710,
+    "transcript_language": "en",
+    "llm_summary": "Explains how to build a bond ladder using iShares' iBonds ETFs instead of individual bonds -- diversification benefits, maturity selection based on cash-flow needs, high-yield vs investment-grade tradeoffs, and how perpetual laddering behaves similarly to simply holding an index fund over time."
   },
   {
     "guid": "e96e1d3a-186d-46d8-93d4-b47b010dad08",
@@ -22965,14 +23051,37 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a3d7dc4cb67fc75ea921d16/media.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "semiconductors",
+        "ai-infrastructure",
+        "energy"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "inflation",
+        "commodities",
+        "bond-market",
+        "geopolitics-tariffs"
+      ],
       "stocks": [
-        "bitcoin"
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "tesla",
+        "bitcoin",
+        "sp500",
+        "nasdaq"
       ],
-      "sentiment": 0.0
-    }
+      "sentiment": -0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-25-unhedged-tech-shares-zigzag-921d16.md",
+    "transcript_word_count": 2924,
+    "transcript_language": "en",
+    "llm_summary": "Examines a volatile week for tech stocks following SpaceX's IPO pop-and-fade, a shift in market leadership from the 'Magnificent Seven' to semiconductor/data-center names amid concerns about capex and free cash flow, against a hawkish new Fed chair and de-escalating Iran-war oil prices."
   },
   {
     "guid": "Buzzsprout-19403470",
@@ -28350,11 +28459,31 @@
     "duration": "1080",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/5d97e1b7-be6e-4550-ad22-b46d01066ee6/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "sectors": [
+        "banks",
+        "energy",
+        "defense-aerospace",
+        "crypto"
+      ],
+      "themes": [
+        "regulation-antitrust",
+        "dealmaking",
+        "geopolitics-tariffs"
+      ],
+      "stocks": [
+        "palantir",
+        "bitcoin",
+        "ethereum",
+        "sp500"
+      ],
+      "sentiment": 0.6
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-masters-in-business-at-the-money-deregulation-will-free-your-portfolio-066ee6.md",
+    "transcript_word_count": 3782,
+    "transcript_language": "en",
+    "llm_summary": "Portfolio manager Michael Gayed discusses the Free Markets ETF (FMKT), an active fund investing in companies benefiting from Trump-era deregulation across financials, energy/nuclear, defense, and crypto, arguing deregulation is a durable driver of margin and earnings growth regardless of which party is in power."
   },
   {
     "guid": "99524277-f1ac-45e9-9949-b46d010bdde4",
@@ -34247,10 +34376,22 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/9f1ff0b7-b28d-4639-aa3c-b465016f3ba7/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "bond-market",
+        "rates-fed",
+        "inflation",
+        "credit-markets",
+        "passive-investing"
+      ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-masters-in-business-at-the-money-how-fixed-income-investors-can-use-etfs-to-thei-6f3ba7.md",
+    "transcript_word_count": 3444,
+    "transcript_language": "en",
+    "llm_summary": "BlackRock's iShares fixed-income head explains why bond ETFs have overtaken individual bonds and mutual funds on cost, transparency, and liquidity (including performing well through 2020 and 2022 stress), and outlines where fixed-income investors are finding opportunity now: high-quality intermediate duration, TIPS for inflation protection, and 'plus sector' income from high yield, EM, and securitized credit."
   },
   {
     "guid": "1472ef79-211c-488d-a88b-600f02e86843",
@@ -35496,13 +35637,34 @@
     "duration": "18:57",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a286a7d74e72c6295ac36ec/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "labor-market"
+      "sectors": [
+        "ai-infrastructure",
+        "banks",
+        "energy",
+        "consumer-discretionary"
       ],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "themes": [
+        "labor-market",
+        "rates-fed",
+        "inflation",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "commodities"
+      ],
+      "stocks": [
+        "alphabet",
+        "goldman-sachs",
+        "walmart",
+        "bitcoin"
+      ],
+      "sentiment": -0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-unhedged-why-are-investors-so-jumpy-ac36ec.md",
+    "transcript_word_count": 2636,
+    "transcript_language": "en",
+    "llm_summary": "Explores why markets have been whipsawing: a strong-but-narrow May jobs report raises Fed rate-hike uncertainty under new chair Kevin Warsh, real wages have stalled, oil-supply risk from the Strait of Hormuz looms, and a wave of new share supply (SpaceX IPO, Google/Meta secondaries, potential Anthropic/OpenAI IPOs) is testing market liquidity even as Bitcoin fails to rally with risk sentiment."
   },
   {
     "guid": "cc02de8c-642d-11f1-b361-b3bd69d582ed",
@@ -44125,11 +44287,26 @@
     "duration": "1031",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/6e1be766-1484-447a-835f-b458012d838a/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "ai-infrastructure"
+      ],
+      "themes": [
+        "inflation",
+        "commodities",
+        "real-estate-investing",
+        "passive-income"
+      ],
       "stocks": [],
-      "sentiment": 1.0
-    }
+      "sentiment": 0.6
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-28-masters-in-business-at-the-money-farmland-investing-fan-favorite-2d838a.md",
+    "transcript_word_count": 2921,
+    "transcript_language": "en",
+    "llm_summary": "Saras Farmland's CIO makes the case for farmland as an inflation-hedged, non-correlated real asset yielding steady rental income plus land appreciation, highlighting new revenue streams like AI data-center site leases (8-20x farmland value) and solar leases, while flagging California as unattractive due to water-rights regulation."
   },
   {
     "guid": "6a17db42fd07c76f836be62a",
@@ -59186,11 +59363,27 @@
     "duration": "865",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/9a9cf894-37ab-4e06-860b-b4430179def7/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "sectors": [
+        "technology"
+      ],
+      "themes": [
+        "passive-investing",
+        "market-structure"
+      ],
+      "stocks": [
+        "nvidia",
+        "apple",
+        "amazon",
+        "microsoft"
+      ],
+      "sentiment": 0.4
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-masters-in-business-focusing-on-growth-not-market-cap-79def7.md",
+    "transcript_word_count": 1986,
+    "transcript_language": "en",
+    "llm_summary": "Research Affiliates' Rob Arnott explains a growth-index alternative to cap-weighting that selects and weights stocks by the dollar magnitude of sales/profit/R&D growth; Nvidia and Apple are top holdings while Amazon and Microsoft don't make the cut, and the index has outperformed Russell Growth by ~4.5%/year historically."
   },
   {
     "guid": "gid://art19-episode-locator/V0/euGaESBOlAN9tmWJawdRjG-3z4cZq4cQG2BJAbQgp9E",
@@ -61065,11 +61258,28 @@
     "duration": "18:48",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/69fa3f361932a077a9b4b72c/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "sectors": [
+        "ai-infrastructure",
+        "technology"
+      ],
+      "themes": [
+        "ai-boom",
+        "dealmaking",
+        "geopolitics-tariffs"
+      ],
+      "stocks": [
+        "apple",
+        "alphabet",
+        "morgan-stanley"
+      ],
+      "sentiment": 0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-unhedged-are-ai-stocks-the-new-railroad-bonds-b4b72c.md",
+    "transcript_word_count": 3048,
+    "transcript_language": "en",
+    "llm_summary": "Draws a detailed historical parallel between today's AI capex boom and the 19th-century US railroad bond bubble (and the 2000s telecom bubble), concluding a bust is plausible but today's spenders are highly profitable companies unlikely to go bust even if AI returns disappoint."
   },
   {
     "guid": "b681caec-a930-43d1-bd7b-baab1f2c760e",
@@ -64272,7 +64482,13 @@
       "themes": [],
       "stocks": [],
       "sentiment": 0.0
-    }
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-01-unhedged-introducing-the-story-of-money-0914e1.md",
+    "transcript_word_count": 221,
+    "transcript_language": "en",
+    "llm_summary": "A promotional trailer for FT's new history podcast 'The Story of Money,' which explores financial history from ancient debt jubilees to the origins of banking -- no direct market analysis in this episode."
   },
   {
     "guid": "89f7febd-da04-4268-af30-b5e9b1ba4376",
@@ -65654,11 +65870,17 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "passive-income"
+        "retirement-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-29-masters-in-business-at-the-money-how-to-max-out-your-small-business-retirement-p-f22685.md",
+    "transcript_word_count": 2645,
+    "transcript_language": "en",
+    "llm_summary": "Explains how small business owners can maximize retirement contributions via SEP IRAs, solo 401(k)s, and the mega backdoor Roth strategy, comparing flexibility, contribution limits, and creditor protections across structures."
   },
   {
     "guid": "1a54e3ec-e842-422f-a7e9-b43b00eb77eb",

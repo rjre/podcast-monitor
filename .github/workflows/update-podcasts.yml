@@ -52,22 +52,22 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install faster-whisper anthropic
+        run: pip install faster-whisper
 
       - name: Transcribe a batch of episodes and re-tag from full text
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 pipeline/transcribe.py --limit 8 --model base
         # Round-robin across shows (see select_candidates in transcribe.py),
         # so at 8/day this reaches every one of the ~97 active podcasts at
         # least once within about 12 days, then starts on each show's
         # second-shortest episode, and so on -- rather than exhausting the
         # batch on whichever handful of shows happen to have the shortest
-        # episodes. Tune --limit up/down here: each episode costs a few
-        # minutes of Actions compute (this repo is private, so Actions
-        # minutes are billed against your plan's monthly allowance -- see
-        # README for the estimate) plus, once ANTHROPIC_API_KEY is set, a
-        # small Claude API charge per episode.
+        # episodes. No ANTHROPIC_API_KEY is configured here (by choice, to
+        # avoid metered API cost), so this always falls back to the free
+        # keyword tagger. See "Getting Claude-quality tags for free" in the
+        # README for the manual weekly upgrade pass instead. Tune --limit
+        # up/down here: each episode costs a few minutes of Actions compute,
+        # which is billed against your plan's monthly allowance since this
+        # repo is private -- see README for the estimate.
 
       - name: Commit updated data
         run: |

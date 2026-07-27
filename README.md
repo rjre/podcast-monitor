@@ -27,22 +27,32 @@ coarse sentiment score. All stdlib Python: no API key, no paid dependency, no
 per-run cost. It's what keeps the dashboard populated with zero ongoing spend,
 and it's the automatic fallback whenever a better option isn't configured.
 
-**Full transcript + Claude** (`pipeline/transcribe.py` +
-`pipeline/enrich_claude.py`) is the real analysis path, used whenever
-`ANTHROPIC_API_KEY` is set: it downloads an episode's audio, transcribes it
-locally with [faster-whisper](https://github.com/SYSTRAN/faster-whisper) (CPU,
-free), then sends the **full transcript** to Claude Opus 5 to tag it against
-the same taxonomy — catching a hedged view, sarcasm, or a guest disagreeing
-with the host, none of which keyword matching can do — plus a one/two-sentence
-summary of the investment-relevant takeaway. This is intentionally the
-higher-quality default when a key is available, not a cost-saving compromise:
-it runs at Claude's full reasoning effort rather than a cheaper, shallower
-model.
+**Full transcript + Claude analysis** is the real analysis path — it catches a
+hedged view, sarcasm, or a guest disagreeing with the host, none of which
+keyword matching can do, plus a one/two-sentence summary of the
+investment-relevant takeaway. There are two ways to get it, and this project
+deliberately uses the free one:
+
+- `pipeline/enrich_claude.py` calls the Anthropic API directly whenever
+  `ANTHROPIC_API_KEY` is set — fully automatic, but billed per token on a
+  separate, metered Anthropic Console account (a different bill from a
+  Claude.ai subscription). **Not used here** — no budget for a second metered
+  bill on top of an existing Claude plan.
+- `pipeline/manual_review.py` gets the same quality of tagging for free by
+  having a Claude Code session (covered by your existing Claude plan, not
+  billed per token) do the analysis by hand, in batches, on whatever cadence
+  you like. **This is the path this repo uses** — see
+  [Getting Claude-quality tags for free](#getting-claude-quality-tags-for-free-no-api-key)
+  below.
+
+Local transcription itself (`pipeline/transcribe.py`) is always free either
+way — it downloads an episode's audio and transcribes it locally with
+[faster-whisper](https://github.com/SYSTRAN/faster-whisper) (CPU, no API, no
+cost), then tags the transcript with the free keyword tagger (or Claude, if
+`ANTHROPIC_API_KEY` happens to be set):
 
 ```bash
-pip install -r pipeline/requirements.txt   # faster-whisper + anthropic
-
-export ANTHROPIC_API_KEY=sk-ant-...        # enables the Claude analysis path
+pip install -r pipeline/requirements.txt   # faster-whisper (anthropic is unused unless you set a key)
 
 python3 pipeline/transcribe.py --limit 5           # shortest untranscribed episodes first
 python3 pipeline/transcribe.py --limit 3 --model small   # more accurate Whisper pass, slower
@@ -54,12 +64,12 @@ broad coverage) and writes each transcript as a self-contained Markdown file
 under `data/transcripts/` (frontmatter + full text — see
 [`data/transcripts/README.md`](data/transcripts/README.md) for the format and
 how to consume it from another project), and re-tags the episode in
-`data/episodes.json` (`"transcript_status": "done"`, `"tags_source": "llm"`
-or `"keyword"`, `"transcript_path"` pointing at its file, and — with Claude —
-`"llm_summary"`). The scheduled GitHub Action transcribes a few more episodes
-every day, so the backlog across all four shows fills in gradually with no
-manual work; add `ANTHROPIC_API_KEY` as a repository secret to have it use
-Claude too.
+`data/episodes.json` (`"transcript_status": "done"`, `"tags_source"` set to
+`"keyword"` until a manual review pass upgrades it to `"claude-manual"`, and
+`"transcript_path"` pointing at its file). The scheduled GitHub Action
+transcribes a few more episodes every day for free, so the transcript backlog
+fills in on its own — the weekly manual pass below is what upgrades those
+transcripts' *tags* from keyword-grade to Claude-grade.
 
 **Copyright note**: `data/transcripts/` is committed because this repo is
 **private** — the underlying audio is copyrighted commercial podcast content,
@@ -69,6 +79,44 @@ invite). Don't flip this repo back to public without reconsidering that.
 **Important caveat**: even with Claude, treat every signal here as directional
 and worth a second look, not a source of truth on its own — always check the
 source episode before acting.
+
+## Getting Claude-quality tags for free (no API key)
+
+`pipeline/manual_review.py` stages a batch of transcribed-but-not-yet-Claude-
+tagged episodes for a Claude Code session to tag by hand — same taxonomy,
+same fields `enrich_claude.py` would have produced, just written by Claude
+directly during a session instead of via a metered API call. That usage is
+covered by your existing Claude plan, so this path has no incremental cost
+beyond however often you choose to run it. Weekly works well:
+`pipeline/transcribe.py` only adds a handful of new transcripts per day, so
+the backlog rarely grows faster than a weekly pass can clear it.
+
+```bash
+python3 pipeline/manual_review.py list --limit 15
+```
+
+This writes `data/manual_review/pending.json`: each pending episode's
+metadata and `transcript_path`, the taxonomy's allowed sector/theme/stock
+ids, and an empty `sectors`/`themes`/`stocks`/`sentiment`/`summary` template
+per episode. Then, in a Claude Code session, ask something like:
+
+> Read the transcripts listed in `data/manual_review/pending.json` and fill
+> in sectors/themes/stocks/sentiment/summary for each, using only ids from
+> the allowed lists in that file.
+
+Once it's filled in, apply it back into the dataset:
+
+```bash
+python3 pipeline/manual_review.py apply data/manual_review/pending.json
+```
+
+This validates every id against `config/taxonomy.json` (dropping anything
+hallucinated), updates `data/episodes.json` and the matching
+`data/transcripts/*.md` frontmatter (`tags_source: "claude-manual"`, plus the
+summary), and rebuilds `data/aggregates.json`. Commit and push the result
+(`data/episodes.json`, `data/aggregates.json`, `data/transcripts/`) same as
+any other pipeline run. Repeat weekly (or whenever) until the backlog is
+clear — newly transcribed episodes join the pending list automatically.
 
 ## Architecture
 
@@ -80,13 +128,18 @@ pipeline/
   fetch_feeds.py    - stdlib-only RSS parsing
   extract_themes.py - zero-token regex tagging + sentiment scoring (fallback)
   transcribe.py     - local Whisper transcription + re-tagging orchestration
-  enrich_claude.py  - Claude-powered tagging from full transcripts (default
-                      whenever ANTHROPIC_API_KEY is set)
+  enrich_claude.py  - Claude API tagging from full transcripts (only used if
+                      you set ANTHROPIC_API_KEY -- not used by default, see
+                      "Getting Claude-quality tags for free" above)
+  manual_review.py  - stages/applies a free, no-API-key Claude Code tagging
+                      pass over transcribed episodes (the recommended path)
   run.py            - orchestrator: fetch -> tag -> write data/*.json
 data/
   episodes.json     - every episode + its tags (the reusable dataset)
   aggregates.json   - precomputed mention counts / trends per entity
   state.json        - last run metadata
+  manual_review/    - working file for the manual Claude tagging pass
+                      (pending.json; not meaningful once applied)
   transcripts/      - full transcript text, one Markdown file per episode
                       (committed -- repo is private; see its own README)
 index.html, assets/ - static dashboard (HTML/CSS/JS, no build step)
@@ -149,30 +202,23 @@ back to the repo. Enable GitHub Pages (Settings → Pages → deploy from the
 reflects the latest committed data — open it and hit **Refresh** to pull
 the newest JSON.
 
-### What happens once you add `ANTHROPIC_API_KEY`
+### Coverage timeline for the transcript backlog
 
-Nothing needs to change in the workflow — the transcribe job already reads
-`secrets.ANTHROPIC_API_KEY` and switches every episode it processes from
-keyword tagging (`tags_source: "keyword"`) to Claude (`tags_source: "llm"`,
-plus an `llm_summary`) automatically the moment the secret exists.
+Episode selection is round-robin across shows (see `select_candidates` in
+`pipeline/transcribe.py`), shortest-episode-first per show — not a flat
+global sort, so a handful of naturally-short shows can't monopolize every
+batch. At the workflow's default `--limit 8`, every one of the ~97 active
+podcasts gets at least one episode transcribed within about 12 days; after
+that first pass, it moves on to each show's next-shortest episode, and so
+on. Run `pipeline/transcribe.py --limit N` manually any time you want to
+speed that up — it doesn't consume GitHub Actions minutes at all when run
+locally.
 
-**Coverage timeline.** Episode selection is round-robin across shows (see
-`select_candidates` in `pipeline/transcribe.py`), shortest-episode-first per
-show — not a flat global sort, so a handful of naturally-short shows can't
-monopolize every batch. At the default `--limit 8`, every one of the ~97
-active podcasts gets at least one episode transcribed + Claude-tagged
-within about 12 days; after that first pass, it moves on to each show's
-next-shortest episode, and so on. Run `pipeline/transcribe.py --limit N`
-manually (locally, with the key exported) any time you want to speed that
-up — it doesn't consume GitHub Actions minutes at all when run that way.
-
-**Rough cost per episode** (Claude Opus 5, high reasoning effort — see
-`pipeline/enrich_claude.py`): a typical ~3,000-word transcript is roughly
-$0.03–0.08 depending on episode length and how much the model reasons
-through the tagging. At the default 8 episodes/day that's on the order of
-$0.25–0.65/day, call it **$8–20/month** — check
-[anthropic.com/pricing](https://www.anthropic.com/pricing) for current
-rates rather than treating this as exact.
+Transcription itself is free (local Whisper), so the only thing that gates
+tag *quality* going from keyword-grade to Claude-grade is running
+`pipeline/manual_review.py` (see above) on whatever cadence you like — it
+doesn't need to keep pace with transcription day-by-day, just often enough
+that the backlog doesn't grow unbounded.
 
 **GitHub Actions minutes.** This repo is private, so Actions minutes count
 against your plan's monthly allowance (GitHub Free includes 2,000 min/month
