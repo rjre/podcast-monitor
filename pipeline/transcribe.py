@@ -136,8 +136,16 @@ def write_transcript_file(path, ep, text, tags, source, language=None):
         front.append(f"sentiment_confidence: {tags['sentiment_confidence']}")
     if tags.get("entity_mentions"):
         front.append(f"entity_mentions: {json.dumps(tags['entity_mentions'])}")
+    if tags.get("entity_mention_density"):
+        front.append(f"entity_mention_density: {json.dumps(tags['entity_mention_density'])}")
     if tags.get("entity_sentiment"):
         front.append(f"entity_sentiment: {json.dumps(tags['entity_sentiment'])}")
+    if tags.get("entity_conviction"):
+        front.append(f"entity_conviction: {json.dumps(tags['entity_conviction'])}")
+    if tags.get("entity_stance"):
+        front.append(f"entity_stance: {json.dumps(tags['entity_stance'])}")
+    if tags.get("entity_contested"):
+        front.append(f"entity_contested: {json.dumps(tags['entity_contested'])}")
     if tags.get("summary"):
         front.append(f"summary: {_yaml_scalar(tags['summary'])}")
     front.append("---")
@@ -261,7 +269,8 @@ def main():
         write_transcript_file(transcript_path, ep, text, tags, source, language=language)
 
         ep["tags"] = {k: tags[k] for k in ("sectors", "themes", "stocks", "sentiment")}
-        for extra in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_sentiment"):
+        for extra in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_mention_density",
+                      "entity_sentiment", "entity_conviction", "entity_stance", "entity_contested"):
             if extra in tags:
                 ep["tags"][extra] = tags[extra]
         ep["tags_source"] = source

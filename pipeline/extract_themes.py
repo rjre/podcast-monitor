@@ -25,6 +25,24 @@ Matching notes:
          whole -- so an episode that's bearish on regional banks but
          bullish on AI infrastructure spending doesn't get flattened into
          one misleading average.
+  - Beyond tone, three more signals come out of that same per-entity local
+    window (see config/taxonomy.json's conviction_lexicon/action_lexicon):
+      - entity_conviction: confident ("no doubt", "high conviction") vs.
+        hedged ("I think", "hard to say") language -- independent of
+        whether the tone was bullish or bearish, a hedged take reads very
+        differently from a confident one.
+      - entity_stance: actual buy/sell recommendation language ("I'd buy
+        this", "I'm avoiding it") -- a different axis from tone; someone
+        can sound upbeat about a stock while still saying they wouldn't
+        buy it here.
+      - entity_contested: flags an entity that got *meaningful* bullish
+        AND bearish language in the same episode -- a net sentiment near
+        0.0 is otherwise ambiguous between "nobody discussed tone" and
+        "views clashed and canceled out".
+  - entity_mention_density normalizes entity_mentions by transcript length
+    (mentions per 1,000 words), so a stock mentioned 3 times in a 5-minute
+    segment isn't scored as equally salient as one mentioned 3 times across
+    a 90-minute episode.
   - `pipeline/enrich_claude.py` (or the manual-review workflow) can
     optionally layer a real transcript + LLM/human pass on top of this for
     episodes worth digging into further.
@@ -41,8 +59,13 @@ from functools import lru_cache
 MIN_CONFIDENT_HITS = 6
 
 # Sentences within this many positions of a mention count as "near" it, for
-# per-entity (rather than whole-episode) sentiment.
+# per-entity (rather than whole-episode) sentiment/conviction/stance.
 LOCAL_WINDOW = 1
+
+# An entity needs at least this many bullish AND this many bearish hits in
+# its own local window to count as genuinely "contested" -- a stray 1-1
+# isn't a real clash of views, just noise.
+CONTESTED_MIN_HITS = 2
 
 _SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
 
@@ -73,6 +96,10 @@ class Taxonomy:
         self.stocks = _compile_terms(data["stocks"])
         self.bullish_re = self._lexicon_regex(data["sentiment_lexicon"]["bullish"])
         self.bearish_re = self._lexicon_regex(data["sentiment_lexicon"]["bearish"])
+        self.confident_re = self._lexicon_regex(data["conviction_lexicon"]["confident"])
+        self.hedged_re = self._lexicon_regex(data["conviction_lexicon"]["hedged"])
+        self.buy_re = self._lexicon_regex(data["action_lexicon"]["buy_signals"])
+        self.sell_re = self._lexicon_regex(data["action_lexicon"]["sell_signals"])
 
     @staticmethod
     def _lexicon_regex(words):
@@ -99,21 +126,31 @@ class Taxonomy:
                     positions[entry["id"]].append(idx)
         return positions
 
-    def _local_sentiment(self, sentences, indices):
-        bull = bear = 0
+    @staticmethod
+    def _window_text(sentences, indices):
+        """Concatenated text of every sentence within LOCAL_WINDOW of any of
+        `indices`, deduped -- the shared context all per-entity signals
+        (sentiment, conviction, stance) are drawn from."""
         seen = set()
+        parts = []
         for idx in indices:
             lo, hi = max(0, idx - LOCAL_WINDOW), min(len(sentences) - 1, idx + LOCAL_WINDOW)
             for j in range(lo, hi + 1):
-                if j in seen:
-                    continue
-                seen.add(j)
-                bull += len(self.bullish_re.findall(sentences[j]))
-                bear += len(self.bearish_re.findall(sentences[j]))
-        total = bull + bear
-        if total == 0:
-            return None
-        return round((bull - bear) / total, 3)
+                if j not in seen:
+                    seen.add(j)
+                    parts.append(sentences[j])
+        return " ".join(parts)
+
+    def _window_signals(self, window_text):
+        """Raw lexicon hit counts in one entity's local window."""
+        return {
+            "bull": len(self.bullish_re.findall(window_text)),
+            "bear": len(self.bearish_re.findall(window_text)),
+            "confident": len(self.confident_re.findall(window_text)),
+            "hedged": len(self.hedged_re.findall(window_text)),
+            "buy": len(self.buy_re.findall(window_text)),
+            "sell": len(self.sell_re.findall(window_text)),
+        }
 
     def sentiment_score(self, text):
         """Returns (sentiment, hits, confidence). `sentiment` is shrunk
@@ -131,17 +168,40 @@ class Taxonomy:
 
     def tag(self, text):
         sentences = _split_sentences(text)
+        word_count = len(text.split())
 
         sector_mentions = self._mention_counts(self.sectors, text)
         theme_mentions = self._mention_counts(self.themes, text)
         stock_mentions = self._mention_counts(self.stocks, text)
 
         entity_sentiment = {}
+        entity_conviction = {}
+        entity_stance = {}
+        entity_contested = []
         for compiled in (self.sectors, self.themes, self.stocks):
             for entity_id, indices in self._sentence_hits(compiled, sentences).items():
-                local = self._local_sentiment(sentences, indices)
-                if local is not None:
-                    entity_sentiment[entity_id] = local
+                window_text = self._window_text(sentences, indices)
+                sig = self._window_signals(window_text)
+
+                tone_total = sig["bull"] + sig["bear"]
+                if tone_total:
+                    entity_sentiment[entity_id] = round((sig["bull"] - sig["bear"]) / tone_total, 3)
+                if sig["bull"] >= CONTESTED_MIN_HITS and sig["bear"] >= CONTESTED_MIN_HITS:
+                    entity_contested.append(entity_id)
+
+                conviction_total = sig["confident"] + sig["hedged"]
+                if conviction_total:
+                    entity_conviction[entity_id] = round(
+                        (sig["confident"] - sig["hedged"]) / conviction_total, 3)
+
+                if sig["buy"] != sig["sell"] and (sig["buy"] or sig["sell"]):
+                    entity_stance[entity_id] = "buy" if sig["buy"] > sig["sell"] else "sell"
+
+        entity_mentions = {**sector_mentions, **theme_mentions, **stock_mentions}
+        entity_mention_density = {
+            entity_id: round(count / word_count * 1000, 1)
+            for entity_id, count in entity_mentions.items()
+        } if word_count else {}
 
         sentiment, hits, confidence = self.sentiment_score(text)
 
@@ -155,8 +215,12 @@ class Taxonomy:
             "sentiment": sentiment,
             "sentiment_hits": hits,
             "sentiment_confidence": confidence,
-            "entity_mentions": {**sector_mentions, **theme_mentions, **stock_mentions},
+            "entity_mentions": entity_mentions,
+            "entity_mention_density": entity_mention_density,
             "entity_sentiment": entity_sentiment,
+            "entity_conviction": entity_conviction,
+            "entity_stance": entity_stance,
+            "entity_contested": entity_contested,
         }
 
 

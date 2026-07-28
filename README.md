@@ -170,7 +170,11 @@ re-run the fetch/tag pipeline to answer "what's been said about X":
     "sentiment_hits": 9,
     "sentiment_confidence": 1.0,
     "entity_mentions": {"semiconductors": 3, "ai-boom": 5, "nvidia": 7},
-    "entity_sentiment": {"nvidia": 0.6}
+    "entity_mention_density": {"semiconductors": 2.1, "ai-boom": 3.4, "nvidia": 4.8},
+    "entity_sentiment": {"nvidia": 0.6},
+    "entity_conviction": {"nvidia": 0.5},
+    "entity_stance": {"nvidia": "buy"},
+    "entity_contested": []
   }
 }
 ```
@@ -180,10 +184,28 @@ lexicon signal the overall `sentiment` score is based on -- the raw
 bull/bear ratio is shrunk toward 0.0 below ~6 hits so one stray word in a
 long transcript can't read as a full-strength +/-1.0. `entity_mentions` is
 a per-entity hit count within the episode (salience/intensity, not just
-presence), and `entity_sentiment` is the tone in the sentences immediately
-around each entity's mentions, not just the episode-wide average -- so an
-episode that's bearish on banks but bullish on AI infra doesn't flatten
-into one misleading number. Both are populated by the keyword tagger; an
+presence), and `entity_mention_density` normalizes that by transcript
+length (hits per 1,000 words), so a stock mentioned 3 times in a 5-minute
+segment isn't scored as salient as one mentioned 3 times across 90 minutes.
+
+`entity_sentiment` is the tone in the sentences immediately around each
+entity's mentions, not just the episode-wide average -- so an episode
+that's bearish on banks but bullish on AI infra doesn't flatten into one
+misleading number. Three more signals come out of that same local window:
+
+- `entity_conviction` (-1.0 hedged to +1.0 confident): "I think this might
+  be worth a look" vs. "without a doubt, this is the trade" -- independent
+  of whether the tone was bullish or bearish.
+- `entity_stance` (`"buy"` or `"sell"`, only present when the signal is
+  unambiguous): actual recommendation language near the entity, a
+  different axis from tone -- someone can sound upbeat about a stock while
+  still saying they wouldn't buy it here.
+- `entity_contested` (list of entity ids): flags entities that got
+  *meaningful* bullish AND bearish language in the same episode. A net
+  `sentiment` of 0.0 is otherwise ambiguous between "nobody discussed
+  tone" and "views clashed and canceled out" -- this disambiguates it.
+
+All of the above are populated by the keyword tagger only; an
 `llm`/`claude-manual` tagging pass gives one holistic `sentiment` +
 `summary` instead.
 
@@ -193,7 +215,9 @@ rather than counting one per episode), average sentiment,
 `sentiment_divergence` (how far an entity's average tone sits from the
 dataset-wide baseline -- flags what's unusually bullish/bearish right now),
 `momentum_pct`/`trend` (mentions in the trailing 30 days vs. the 30 days
-before that: `rising`/`falling`/`flat`/`new`/`insufficient-data`), and the
+before that: `rising`/`falling`/`flat`/`new`/`insufficient-data`),
+`avg_conviction`, `buy_mentions`/`sell_mentions` (episode counts where
+`entity_stance` called it a buy vs. a sell), `contested_episodes`, and the
 monthly time series.
 
 ## Running it

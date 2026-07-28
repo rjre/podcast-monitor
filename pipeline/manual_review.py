@@ -90,7 +90,8 @@ def rewrite_transcript_tags(path, tags, source):
     # A claude-manual pass is one holistic read, not a per-sentence regex
     # scan -- drop any per-entity fields a prior keyword pass may have left,
     # since they'd no longer match this episode's (possibly revised) tags.
-    for stale_key in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_sentiment"):
+    for stale_key in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_mention_density",
+                      "entity_sentiment", "entity_conviction", "entity_stance", "entity_contested"):
         data.pop(stale_key, None)
 
     lines = ["---"]

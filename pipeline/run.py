@@ -82,6 +82,12 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
         relative to everything else being discussed right now.
       - momentum_pct / trend: mentions in the trailing MOMENTUM_WINDOW_DAYS
         vs. the window before that, as a rising/falling/flat signal.
+      - avg_conviction: mean of entity_conviction (confident vs. hedged
+        language), when present -- separate from tone.
+      - buy_mentions / sell_mentions: episode counts where entity_stance
+        called it a buy vs. a sell -- an actionable tally, not just tone.
+      - contested_episodes: how many episodes flagged this entity as
+        entity_contested (meaningful bullish AND bearish language at once).
     """
     now = now or datetime.now(timezone.utc)
     recent_start = now - timedelta(days=MOMENTUM_WINDOW_DAYS)
@@ -98,7 +104,8 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
 
     def new_agg():
         return {"mentions": 0, "total_hits": 0, "sentiment_sum": 0.0, "sentiment_n": 0,
-                 "recent": 0, "prior": 0}
+                 "recent": 0, "prior": 0, "conviction_sum": 0.0, "conviction_n": 0,
+                 "buy_mentions": 0, "sell_mentions": 0, "contested_episodes": 0}
 
     totals = {k: defaultdict(new_agg) for k in labels}
     monthly = {k: defaultdict(lambda: defaultdict(lambda: {"mentions": 0, "sentiment_sum": 0.0})) for k in labels}
@@ -111,6 +118,9 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
         sentiment = tags.get("sentiment", 0.0)
         entity_mentions = tags.get("entity_mentions") or {}
         entity_sentiment = tags.get("entity_sentiment") or {}
+        entity_conviction = tags.get("entity_conviction") or {}
+        entity_stance = tags.get("entity_stance") or {}
+        entity_contested = tags.get("entity_contested") or []
         pub_dt = _parse_published_at(ep)
         touched = tags.get("sectors") or tags.get("themes") or tags.get("stocks")
 
@@ -131,6 +141,16 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                         agg["recent"] += 1
                     elif pub_dt >= prior_start:
                         agg["prior"] += 1
+                if entity_id in entity_conviction:
+                    agg["conviction_sum"] += entity_conviction[entity_id]
+                    agg["conviction_n"] += 1
+                stance = entity_stance.get(entity_id)
+                if stance == "buy":
+                    agg["buy_mentions"] += 1
+                elif stance == "sell":
+                    agg["sell_mentions"] += 1
+                if entity_id in entity_contested:
+                    agg["contested_episodes"] += 1
                 if month:
                     monthly[kind][entity_id][month]["mentions"] += 1
                     monthly[kind][entity_id][month]["sentiment_sum"] += local_sentiment
@@ -156,6 +176,7 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
         for entity_id, agg in totals[kind].items():
             mentions = agg["mentions"]
             avg_sent = round(agg["sentiment_sum"] / agg["sentiment_n"], 3) if agg["sentiment_n"] else 0.0
+            avg_conviction = round(agg["conviction_sum"] / agg["conviction_n"], 3) if agg["conviction_n"] else None
             momentum_pct, trend = momentum(agg["recent"], agg["prior"])
             series = [
                 {"month": m, "mentions": v["mentions"], "avg_sentiment": round(v["sentiment_sum"] / v["mentions"], 3)}
@@ -172,6 +193,10 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                 "prior_30d_mentions": agg["prior"],
                 "momentum_pct": momentum_pct,
                 "trend": trend,
+                "avg_conviction": avg_conviction,
+                "buy_mentions": agg["buy_mentions"],
+                "sell_mentions": agg["sell_mentions"],
+                "contested_episodes": agg["contested_episodes"],
                 "monthly": series,
             })
         out.sort(key=lambda x: x["mentions"], reverse=True)

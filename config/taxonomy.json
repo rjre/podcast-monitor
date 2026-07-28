@@ -150,5 +150,33 @@
       "living paycheck to paycheck", "financially stressed", "drowning in debt", "buried in debt",
       "falling behind", "underwater on", "can't afford"
     ]
+  },
+
+  "conviction_lexicon": {
+    "_comment": "How confidently something was said near an entity, independent of whether the tone was bullish or bearish -- a hedged 'might be worth a look' reads very differently from 'without a doubt, this is the trade'.",
+    "confident": [
+      "definitely", "certainly", "clearly", "no doubt", "without a doubt", "without question",
+      "high conviction", "strong conviction", "i'm confident", "i'm certain", "for sure",
+      "undoubtedly", "unquestionably", "make no mistake", "i'm convinced", "hands down"
+    ],
+    "hedged": [
+      "i think", "i guess", "not sure", "hard to say", "who knows", "we'll see",
+      "time will tell", "possibly", "perhaps", "could be wrong", "grain of salt",
+      "to be fair", "on the other hand", "i could be wrong", "hedge my bets", "take it with caution"
+    ]
+  },
+
+  "action_lexicon": {
+    "_comment": "Actual buy/sell recommendation language near an entity -- more directly actionable than tone-based sentiment, and a different axis (someone can sound bullish in tone while still saying 'I wouldn't buy it here').",
+    "buy_signals": [
+      "i would buy", "i'd buy", "i like this stock", "worth buying", "buy the dip", "strong buy",
+      "i'm bullish on", "i'm buying", "adding to my position", "i own this stock", "this is a buy",
+      "accumulate", "buy rating", "initiate a buy", "add to your position"
+    ],
+    "sell_signals": [
+      "i would sell", "i'd sell", "i'd avoid", "stay away from", "i'm avoiding", "time to sell",
+      "strong sell", "i'm bearish on", "i'm selling", "trimming my position", "this is a sell",
+      "i wouldn't touch", "sell rating", "initiate a sell", "reduce your position"
+    ]
   }
 }

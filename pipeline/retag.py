@@ -66,7 +66,8 @@ def main():
             plain += 1
 
         ep["tags"] = {k: tags[k] for k in ("sectors", "themes", "stocks", "sentiment")}
-        for extra in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_sentiment"):
+        for extra in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_mention_density",
+                      "entity_sentiment", "entity_conviction", "entity_stance", "entity_contested"):
             if extra in tags:
                 ep["tags"][extra] = tags[extra]
         ep["tags_source"] = "keyword"
