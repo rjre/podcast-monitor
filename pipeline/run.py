@@ -42,10 +42,16 @@ CONVICTION_SHIFT_THRESHOLD = 0.3
 # real "how much does opinion swing" signal.
 MIN_MONTHS_FOR_VOLATILITY = 3
 
+# An entity with no mentions in this many days is "dormant" -- gone quiet
+# after being discussed, as opposed to merely "falling" (still mentioned,
+# just less).
+DORMANT_AFTER_DAYS = 2 * MOMENTUM_WINDOW_DAYS
+
 sys.path.insert(0, os.path.dirname(__file__))
 
 from fetch_feeds import fetch_episodes  # noqa: E402
 from extract_themes import Taxonomy, tag_episode  # noqa: E402
+from insights import build_insights  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_DIR = os.path.join(ROOT, "config")
@@ -116,6 +122,15 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
         series -- a topic with wide swings month to month (contested over
         time) reads very differently from one that's been steadily +0.3
         for a year, even if their overall averages match.
+      - lifecycle_stage (using first_seen/last_seen alongside trend):
+        emerging/growing/steady/declining/dormant -- "dormant" in
+        particular (gone quiet after being discussed) isn't visible from
+        trend alone, which only compares two 30-day windows.
+
+    Also merges in pipeline/insights.py's build_insights() output
+    (podcast_baselines, surprising_episodes, contrarian_calls,
+    entity_cooccurrence, guests) -- cross-cutting signals that don't fit a
+    per-entity rollup.
     """
     now = now or datetime.now(timezone.utc)
     recent_start = now - timedelta(days=MOMENTUM_WINDOW_DAYS)
@@ -136,7 +151,8 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                  "buy_mentions": 0, "sell_mentions": 0, "contested_episodes": 0,
                  "recent_sentiment_sum": 0.0, "prior_sentiment_sum": 0.0,
                  "recent_conviction_sum": 0.0, "recent_conviction_n": 0,
-                 "prior_conviction_sum": 0.0, "prior_conviction_n": 0}
+                 "prior_conviction_sum": 0.0, "prior_conviction_n": 0,
+                 "first_seen": None, "last_seen": None}
 
     totals = {k: defaultdict(new_agg) for k in labels}
     monthly = {k: defaultdict(lambda: defaultdict(lambda: {"mentions": 0, "sentiment_sum": 0.0})) for k in labels}
@@ -172,6 +188,10 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                     agg["conviction_sum"] += local_conviction
                     agg["conviction_n"] += 1
                 if pub_dt is not None:
+                    if agg["first_seen"] is None or pub_dt < agg["first_seen"]:
+                        agg["first_seen"] = pub_dt
+                    if agg["last_seen"] is None or pub_dt > agg["last_seen"]:
+                        agg["last_seen"] = pub_dt
                     if pub_dt >= recent_start:
                         agg["recent"] += 1
                         agg["recent_sentiment_sum"] += local_sentiment
@@ -227,6 +247,25 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
             label = "stable"
         return recent_avg, prior_avg, shift, label
 
+    def lifecycle_stage(agg, trend):
+        """Where an entity sits in its own arc, using first/last mention
+        date alongside the volume trend already computed -- richer than a
+        single rising/falling snapshot: emerging (brand new and active),
+        growing/declining (trend says so), dormant (was discussed, has
+        gone quiet), or steady (neither rising nor falling, still active)."""
+        if agg["last_seen"] is None:
+            return "unknown"
+        if (now - agg["last_seen"]).days > DORMANT_AFTER_DAYS:
+            return "dormant"
+        if agg["first_seen"] is not None and (now - agg["first_seen"]).days <= MOMENTUM_WINDOW_DAYS \
+                and agg["recent"] > 0:
+            return "emerging"
+        if trend == "rising":
+            return "growing"
+        if trend == "falling":
+            return "declining"
+        return "steady"
+
     def finalize(kind):
         out = []
         for entity_id, agg in totals[kind].items():
@@ -275,18 +314,23 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                 "buy_mentions": agg["buy_mentions"],
                 "sell_mentions": agg["sell_mentions"],
                 "contested_episodes": agg["contested_episodes"],
+                "first_seen": agg["first_seen"].isoformat() if agg["first_seen"] else None,
+                "last_seen": agg["last_seen"].isoformat() if agg["last_seen"] else None,
+                "lifecycle_stage": lifecycle_stage(agg, trend),
                 "monthly": series,
             })
         out.sort(key=lambda x: x["mentions"], reverse=True)
         return out
 
-    return {
+    result = {
         "generated_at": None,  # filled in by caller
         "global_avg_sentiment": global_avg_sentiment,
         "sectors": finalize("sectors"),
         "themes": finalize("themes"),
         "stocks": finalize("stocks"),
     }
+    result.update(build_insights(episodes, taxonomy_raw))
+    return result
 
 
 def main():
