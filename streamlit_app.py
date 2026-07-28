@@ -81,7 +81,12 @@ def load_data():
     if os.path.exists(state_path):
         with open(state_path) as f:
             state = json.load(f)
-    return podcasts, categories, taxonomy, episodes, state
+    aggregates = {}
+    aggregates_path = os.path.join(DATA_DIR, "aggregates.json")
+    if os.path.exists(aggregates_path):
+        with open(aggregates_path) as f:
+            aggregates = json.load(f)
+    return podcasts, categories, taxonomy, episodes, state, aggregates
 
 
 def label_maps(taxonomy):
@@ -290,9 +295,120 @@ def render_trend_chart(df, categories):
     st.altair_chart(chart, use_container_width=True)
 
 
+def all_aggregate_entities(aggregates):
+    """Flatten aggregates.json's sectors/themes/stocks into one list, each
+    tagged with a human-readable kind, for the "Things to Notice" panel."""
+    kind_labels = {"sectors": "Sector", "themes": "Theme", "stocks": "Stock"}
+    out = []
+    for kind, kind_label in kind_labels.items():
+        for entity in aggregates.get(kind, []):
+            out.append({**entity, "kind": kind_label})
+    return out
+
+
+def rising_entities(entities, min_mentions=5, min_prior=3, top_n=5):
+    # min_prior guards against a tiny denominator (1 mention -> 6) reading
+    # as a dramatic +500% swing that isn't really a stable trend.
+    cands = [e for e in entities if e.get("trend") == "rising" and e["mentions"] >= min_mentions
+             and e["prior_30d_mentions"] >= min_prior]
+    return sorted(cands, key=lambda e: e["momentum_pct"], reverse=True)[:top_n]
+
+
+def newly_emerged_entities(entities, min_recent=2, top_n=5):
+    cands = [e for e in entities if e.get("trend") == "new" and e["recent_30d_mentions"] >= min_recent]
+    return sorted(cands, key=lambda e: e["recent_30d_mentions"], reverse=True)[:top_n]
+
+
+def cooling_entities(entities, min_mentions=5, min_prior=3, top_n=3):
+    cands = [e for e in entities if e.get("trend") == "falling" and e["mentions"] >= min_mentions
+             and e["prior_30d_mentions"] >= min_prior]
+    return sorted(cands, key=lambda e: e["momentum_pct"])[:top_n]
+
+
+def divergent_entities(entities, min_mentions=5, top_n=5):
+    cands = [e for e in entities if e["mentions"] >= min_mentions]
+    return sorted(cands, key=lambda e: abs(e["sentiment_divergence"]), reverse=True)[:top_n]
+
+
+def render_notice_row(kind, label, detail, badge_text, badge_cls):
+    st.markdown(
+        f"""<div class="ep-row">
+        <span class="tag-pill">{kind}</span> <strong>{label}</strong>
+        <span class="sent-badge {badge_cls}" style="float:right;">{badge_text}</span>
+        <div style="color:#898781; font-size:12.5px; margin-top:4px;">{detail}</div>
+        </div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def render_things_to_notice(aggregates):
+    st.subheader("\U0001F50E Things to notice")
+    if not aggregates:
+        st.caption("Run the pipeline at least once to populate data/aggregates.json.")
+        return
+    st.caption(
+        "Automatically surfaced from mention volume and tone across all tracked podcasts — "
+        "independent of the filters above, so nothing gets missed by only looking at what "
+        "you already searched for."
+    )
+    entities = all_aggregate_entities(aggregates)
+
+    col_rising, col_new, col_tone = st.columns(3)
+
+    with col_rising:
+        st.markdown("**\U0001F4C8 Rising fast**")
+        rising = rising_entities(entities)
+        if not rising:
+            st.caption("Nothing trending up right now.")
+        for e in rising:
+            render_notice_row(
+                e["kind"], e["label"],
+                f"{e['recent_30d_mentions']} mentions last 30d vs {e['prior_30d_mentions']} before",
+                f"↑ +{e['momentum_pct']:.0f}%", "sent-bullish",
+            )
+
+    with col_new:
+        st.markdown("**\U0001F195 Newly emerged**")
+        emerged = newly_emerged_entities(entities)
+        if not emerged:
+            st.caption("No brand-new topics in the last 30 days.")
+        for e in emerged:
+            render_notice_row(
+                e["kind"], e["label"],
+                f"{e['recent_30d_mentions']} mentions in the last 30 days, none before that",
+                "NEW", "sent-bullish",
+            )
+
+    with col_tone:
+        st.markdown("**\U0001F3AD Unusually toned**")
+        divergent = divergent_entities(entities)
+        if not divergent:
+            st.caption("Nothing diverging from the overall tone right now.")
+        for e in divergent:
+            word, cls = sentiment_word(e["avg_sentiment"])
+            sign = "+" if e["sentiment_divergence"] >= 0 else ""
+            render_notice_row(
+                e["kind"], e["label"],
+                f"{sign}{e['sentiment_divergence']:.2f} vs. the {aggregates.get('global_avg_sentiment', 0.0):+.2f} baseline",
+                word, cls,
+            )
+
+    cooling = cooling_entities(entities)
+    if cooling:
+        st.markdown("**\U0001F4C9 Cooling off**")
+        cool_cols = st.columns(len(cooling))
+        for col, e in zip(cool_cols, cooling):
+            with col:
+                render_notice_row(
+                    e["kind"], e["label"],
+                    f"{e['recent_30d_mentions']} mentions last 30d vs {e['prior_30d_mentions']} before",
+                    f"↓ {e['momentum_pct']:.0f}%", "sent-bearish",
+                )
+
+
 def main():
     inject_style()
-    podcasts, categories, taxonomy, episodes, run_state = load_data()
+    podcasts, categories, taxonomy, episodes, run_state, aggregates = load_data()
     podcasts_by_id = {p["id"]: p for p in podcasts}
     categories_by_id = category_maps(categories)
     labels = label_maps(taxonomy)
@@ -371,6 +487,10 @@ def main():
         transcribed = int((df["transcript_status"] == "done").sum())
         m4.metric("Transcribed episodes", f"{transcribed}/{len(df)}")
 
+        st.markdown("---")
+        render_things_to_notice(aggregates)
+
+        st.markdown("---")
         st.subheader("Mentions by month")
         active_categories = [c for c in categories if c["label"] in selected_categories]
         render_trend_chart(df, active_categories)
