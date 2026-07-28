@@ -22,6 +22,14 @@ import sys
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
+# Momentum window: mentions in the trailing 30 days vs. the 30 days before
+# that. Short enough to surface a real shift in what shows are talking
+# about, long enough that a single week's episode backlog doesn't read as
+# a "trend".
+MOMENTUM_WINDOW_DAYS = 30
+TREND_RISING_PCT = 20.0
+TREND_FALLING_PCT = -20.0
+
 sys.path.insert(0, os.path.dirname(__file__))
 
 from fetch_feeds import fetch_episodes  # noqa: E402
@@ -46,10 +54,38 @@ def save_json(path, obj):
         f.write("\n")
 
 
-def build_aggregates(episodes, taxonomy_raw):
+def _parse_published_at(ep):
+    raw = ep.get("published_at")
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def build_aggregates(episodes, taxonomy_raw, now=None):
     """Roll episodes up into per-entity mention counts + sentiment, and a
     monthly time series per entity, so downstream tools/dashboards don't
-    need to recompute this themselves."""
+    need to recompute this themselves.
+
+    Beyond the plain episode-count "mentions" figure, this also surfaces:
+      - total_hits: sum of in-episode term-hit counts (from the keyword
+        tagger's entity_mentions, when present) -- a salience/intensity
+        signal, so an entity obsessed over for 20 minutes outweighs one
+        name-dropped once. Falls back to 1 per episode for tags without
+        per-entity counts (llm/claude-manual/legacy).
+      - avg_sentiment / sentiment_divergence: per-entity local sentiment
+        (from entity_sentiment, when present, else the episode's overall
+        sentiment) averaged, and how far that sits from the dataset-wide
+        baseline -- flags entities that are unusually bullish/bearish
+        relative to everything else being discussed right now.
+      - momentum_pct / trend: mentions in the trailing MOMENTUM_WINDOW_DAYS
+        vs. the window before that, as a rising/falling/flat signal.
+    """
+    now = now or datetime.now(timezone.utc)
+    recent_start = now - timedelta(days=MOMENTUM_WINDOW_DAYS)
+    prior_start = now - timedelta(days=2 * MOMENTUM_WINDOW_DAYS)
 
     def label_map(section):
         return {e["id"]: e["label"] for e in taxonomy_raw[section]}
@@ -60,26 +96,67 @@ def build_aggregates(episodes, taxonomy_raw):
         "stocks": label_map("stocks"),
     }
 
-    totals = {k: defaultdict(lambda: {"mentions": 0, "sentiment_sum": 0.0}) for k in labels}
+    def new_agg():
+        return {"mentions": 0, "total_hits": 0, "sentiment_sum": 0.0, "sentiment_n": 0,
+                 "recent": 0, "prior": 0}
+
+    totals = {k: defaultdict(new_agg) for k in labels}
     monthly = {k: defaultdict(lambda: defaultdict(lambda: {"mentions": 0, "sentiment_sum": 0.0})) for k in labels}
+
+    global_sentiment_sum, global_sentiment_n = 0.0, 0
 
     for ep in episodes:
         month = (ep.get("published_at") or "")[:7]  # YYYY-MM
         tags = ep.get("tags", {})
         sentiment = tags.get("sentiment", 0.0)
+        entity_mentions = tags.get("entity_mentions") or {}
+        entity_sentiment = tags.get("entity_sentiment") or {}
+        pub_dt = _parse_published_at(ep)
+        touched = tags.get("sectors") or tags.get("themes") or tags.get("stocks")
+
+        if touched:
+            global_sentiment_sum += sentiment
+            global_sentiment_n += 1
+
         for kind in ("sectors", "themes", "stocks"):
             for entity_id in tags.get(kind, []):
-                totals[kind][entity_id]["mentions"] += 1
-                totals[kind][entity_id]["sentiment_sum"] += sentiment
+                agg = totals[kind][entity_id]
+                agg["mentions"] += 1
+                agg["total_hits"] += entity_mentions.get(entity_id, 1)
+                local_sentiment = entity_sentiment.get(entity_id, sentiment)
+                agg["sentiment_sum"] += local_sentiment
+                agg["sentiment_n"] += 1
+                if pub_dt is not None:
+                    if pub_dt >= recent_start:
+                        agg["recent"] += 1
+                    elif pub_dt >= prior_start:
+                        agg["prior"] += 1
                 if month:
                     monthly[kind][entity_id][month]["mentions"] += 1
-                    monthly[kind][entity_id][month]["sentiment_sum"] += sentiment
+                    monthly[kind][entity_id][month]["sentiment_sum"] += local_sentiment
+
+    global_avg_sentiment = round(global_sentiment_sum / global_sentiment_n, 3) if global_sentiment_n else 0.0
+
+    def momentum(recent, prior):
+        if recent == 0 and prior == 0:
+            return None, "insufficient-data"
+        if prior == 0:
+            return None, "new"
+        pct = round(((recent - prior) / prior) * 100, 1)
+        if pct > TREND_RISING_PCT:
+            trend = "rising"
+        elif pct < TREND_FALLING_PCT:
+            trend = "falling"
+        else:
+            trend = "flat"
+        return pct, trend
 
     def finalize(kind):
         out = []
         for entity_id, agg in totals[kind].items():
             mentions = agg["mentions"]
-            avg_sent = round(agg["sentiment_sum"] / mentions, 3) if mentions else 0.0
+            avg_sent = round(agg["sentiment_sum"] / agg["sentiment_n"], 3) if agg["sentiment_n"] else 0.0
+            momentum_pct, trend = momentum(agg["recent"], agg["prior"])
             series = [
                 {"month": m, "mentions": v["mentions"], "avg_sentiment": round(v["sentiment_sum"] / v["mentions"], 3)}
                 for m, v in sorted(monthly[kind][entity_id].items())
@@ -88,7 +165,13 @@ def build_aggregates(episodes, taxonomy_raw):
                 "id": entity_id,
                 "label": labels[kind].get(entity_id, entity_id),
                 "mentions": mentions,
+                "total_hits": agg["total_hits"],
                 "avg_sentiment": avg_sent,
+                "sentiment_divergence": round(avg_sent - global_avg_sentiment, 3),
+                "recent_30d_mentions": agg["recent"],
+                "prior_30d_mentions": agg["prior"],
+                "momentum_pct": momentum_pct,
+                "trend": trend,
                 "monthly": series,
             })
         out.sort(key=lambda x: x["mentions"], reverse=True)
@@ -96,6 +179,7 @@ def build_aggregates(episodes, taxonomy_raw):
 
     return {
         "generated_at": None,  # filled in by caller
+        "global_avg_sentiment": global_avg_sentiment,
         "sectors": finalize("sectors"),
         "themes": finalize("themes"),
         "stocks": finalize("stocks"),

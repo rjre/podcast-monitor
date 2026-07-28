@@ -166,14 +166,35 @@ re-run the fetch/tag pipeline to answer "what's been said about X":
     "sectors": ["semiconductors"],
     "themes": ["ai-boom"],
     "stocks": ["nvidia"],
-    "sentiment": 0.4
+    "sentiment": 0.4,
+    "sentiment_hits": 9,
+    "sentiment_confidence": 1.0,
+    "entity_mentions": {"semiconductors": 3, "ai-boom": 5, "nvidia": 7},
+    "entity_sentiment": {"nvidia": 0.6}
   }
 }
 ```
 
-`data/aggregates.json` gives you the same thing pre-rolled-up per entity
-(total mentions, average sentiment, monthly time series) if you just want
-the summary.
+`sentiment_hits`/`sentiment_confidence` (keyword tagger only) say how much
+lexicon signal the overall `sentiment` score is based on -- the raw
+bull/bear ratio is shrunk toward 0.0 below ~6 hits so one stray word in a
+long transcript can't read as a full-strength +/-1.0. `entity_mentions` is
+a per-entity hit count within the episode (salience/intensity, not just
+presence), and `entity_sentiment` is the tone in the sentences immediately
+around each entity's mentions, not just the episode-wide average -- so an
+episode that's bearish on banks but bullish on AI infra doesn't flatten
+into one misleading number. Both are populated by the keyword tagger; an
+`llm`/`claude-manual` tagging pass gives one holistic `sentiment` +
+`summary` instead.
+
+`data/aggregates.json` gives you the same thing pre-rolled-up per entity:
+total mentions, `total_hits` (salience-weighted, sums entity_mentions
+rather than counting one per episode), average sentiment,
+`sentiment_divergence` (how far an entity's average tone sits from the
+dataset-wide baseline -- flags what's unusually bullish/bearish right now),
+`momentum_pct`/`trend` (mentions in the trailing 30 days vs. the 30 days
+before that: `rising`/`falling`/`flat`/`new`/`insufficient-data`), and the
+monthly time series.
 
 ## Running it
 

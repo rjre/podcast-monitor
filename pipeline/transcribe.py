@@ -128,6 +128,16 @@ def write_transcript_file(path, ep, text, tags, source, language=None):
         f"stocks: {json.dumps(tags['stocks'])}",
         f"sentiment: {tags['sentiment']}",
     ]
+    # Only the keyword tagger produces these -- llm/claude-manual tags are a
+    # single holistic read of the episode, not a per-sentence regex scan.
+    if "sentiment_hits" in tags:
+        front.append(f"sentiment_hits: {tags['sentiment_hits']}")
+    if "sentiment_confidence" in tags:
+        front.append(f"sentiment_confidence: {tags['sentiment_confidence']}")
+    if tags.get("entity_mentions"):
+        front.append(f"entity_mentions: {json.dumps(tags['entity_mentions'])}")
+    if tags.get("entity_sentiment"):
+        front.append(f"entity_sentiment: {json.dumps(tags['entity_sentiment'])}")
     if tags.get("summary"):
         front.append(f"summary: {_yaml_scalar(tags['summary'])}")
     front.append("---")
@@ -251,6 +261,9 @@ def main():
         write_transcript_file(transcript_path, ep, text, tags, source, language=language)
 
         ep["tags"] = {k: tags[k] for k in ("sectors", "themes", "stocks", "sentiment")}
+        for extra in ("sentiment_hits", "sentiment_confidence", "entity_mentions", "entity_sentiment"):
+            if extra in tags:
+                ep["tags"][extra] = tags[extra]
         ep["tags_source"] = source
         if tags.get("summary"):
             ep["llm_summary"] = tags["summary"]
