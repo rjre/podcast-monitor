@@ -344,6 +344,11 @@ def most_volatile_entities(entities, min_mentions=8, top_n=5):
     return sorted(cands, key=lambda e: e["sentiment_volatility"], reverse=True)[:top_n]
 
 
+def dormant_entities(entities, top_n=5):
+    cands = [e for e in entities if e.get("lifecycle_stage") == "dormant"]
+    return sorted(cands, key=lambda e: e["last_seen"] or "", reverse=True)[:top_n]
+
+
 def most_contested_entities(entities, min_mentions=5, min_contested=2, top_n=5):
     # min_contested avoids a single clashing episode out of a dozen ranking
     # above a topic genuinely fought over in several -- ratio alone is too
@@ -496,6 +501,90 @@ def render_things_to_notice(aggregates):
                 e["kind"], e["label"],
                 f"tone swings ±{e['sentiment_volatility']:.2f} across months (avg {e['avg_sentiment']:+.2f})",
                 f"σ {e['sentiment_volatility']:.2f}", "sent-neutral",
+            )
+
+    st.markdown("&nbsp;", unsafe_allow_html=True)
+    col_surprise, col_contrarian, col_dormant = st.columns(3)
+
+    with col_surprise:
+        st.markdown("**\U0001F62E Surprising for this show**")
+        st.caption("Tone that deviates sharply from THAT podcast's own usual read, not the dataset average.")
+        surprising = aggregates.get("surprising_episodes", [])[:5]
+        if not surprising:
+            st.caption("Nothing standing out from any show's normal tone right now.")
+        for e in surprising:
+            bullish = e["surprise"] > 0
+            cls = "sent-bullish" if bullish else "sent-bearish"
+            render_notice_row(
+                "Episode", f"{e['podcast_name']}: {e['title'][:50]}",
+                f"usually {e['podcast_baseline_sentiment']:+.2f} for this show, this one is {e['sentiment']:+.2f}",
+                f"{e['surprise']:+.2f}", cls,
+            )
+
+    with col_contrarian:
+        st.markdown("**⚡ Contrarian calls**")
+        st.caption("The lone dissenting episode against a strong same-month consensus on a topic.")
+        contrarian = aggregates.get("contrarian_calls", [])[:5]
+        if not contrarian:
+            st.caption("No clear dissenting voices against a strong consensus right now.")
+        for c in contrarian:
+            dissent_bullish = c["consensus"] == "bearish"  # dissents the other way
+            cls = "sent-bullish" if dissent_bullish else "sent-bearish"
+            render_notice_row(
+                "Theme/Sector/Stock", c["entity_label"],
+                f"{c['podcast_name']}: {c['title'][:45]} -- vs {c['consensus_fraction']:.0%} "
+                f"{c['consensus']} consensus ({c['group_size']} eps, {c['month']})",
+                f"{c['sentiment']:+.2f}", cls,
+            )
+
+    with col_dormant:
+        st.markdown("**\U0001F4A4 Gone quiet**")
+        st.caption("Was discussed, hasn't come up anywhere in over 60 days -- distinct from just 'less' coverage.")
+        dormant = dormant_entities(entities)
+        if not dormant:
+            st.caption("Nothing that was active has gone fully silent yet.")
+        for e in dormant:
+            last_seen = pd.to_datetime(e["last_seen"]) if e.get("last_seen") else None
+            days_ago = (pd.Timestamp.now(tz="UTC") - last_seen).days if last_seen is not None else None
+            render_notice_row(
+                e["kind"], e["label"],
+                f"{e['mentions']} mentions total, last one {days_ago} days ago" if days_ago is not None
+                else f"{e['mentions']} mentions total",
+                "quiet", "sent-neutral",
+            )
+
+    st.markdown("&nbsp;", unsafe_allow_html=True)
+    col_cooc, col_guests = st.columns(2)
+
+    with col_cooc:
+        st.markdown("**\U0001F517 Correlated topics**")
+        st.caption("Pairs discussed together far more often than chance would predict -- links nobody hand-coded.")
+        pairs = aggregates.get("entity_cooccurrence", [])[:5]
+        if not pairs:
+            st.caption("Not enough co-occurring pairs yet.")
+        for p in pairs:
+            render_notice_row(
+                f"{p['a_kind'].title()} + {p['b_kind'].title()}", f"{p['a_label']} + {p['b_label']}",
+                f"appeared together in {p['co_occurrences']} episodes",
+                f"×{p['lift']:.0f}", "sent-neutral",
+            )
+
+    with col_guests:
+        st.markdown("**\U0001F3A4 Notable voices**")
+        st.caption(
+            "People named in episode titles, recurring across multiple episodes -- often a guest, "
+            "sometimes a host whose name is baked into the show's own title format."
+        )
+        guests = aggregates.get("guests", [])[:5]
+        if not guests:
+            st.caption("No recurring named voices picked up yet.")
+        for g in guests:
+            word, cls = sentiment_word(g["avg_sentiment"])
+            shows = ", ".join(g["podcasts"][:2]) + ("…" if len(g["podcasts"]) > 2 else "")
+            render_notice_row(
+                "Person", g["name"],
+                f"{g['episode_count']} episodes on {shows}",
+                word, cls,
             )
 
 

@@ -237,6 +237,35 @@ hold steady in coverage volume while the mood underneath it flips:
   month-to-month swings reads very differently from one that's been
   steadily +0.3 for a year, even if their overall averages match.
 
+Each entity also gets a `lifecycle_stage` (`emerging`/`growing`/`steady`/
+`declining`/`dormant`), using `first_seen`/`last_seen` alongside `trend`.
+`dormant` in particular -- discussed before, gone quiet for 60+ days --
+isn't visible from a single 30-day trend snapshot.
+
+### Cross-cutting insights (`pipeline/insights.py`)
+
+Beyond the per-entity rollups above, `data/aggregates.json` also carries a
+few signals that don't fit a "one entity at a time" shape:
+
+- `podcast_baselines` (`podcast_id` -> `avg_sentiment`/`avg_conviction`)
+  and `surprising_episodes`: each show's own historical tone, and episodes
+  that deviate sharply from it. A naturally-bearish show turning bullish is
+  a bigger tell than a naturally-bullish one being bullish, which the
+  dataset-wide `sentiment_divergence` can't see.
+- `contrarian_calls`: within an entity+month where most episodes clearly
+  agree on tone (>=70% one direction), the episode(s) that disagreed --
+  the lone dissenting voice, not just the loudest opinion.
+- `entity_cooccurrence`: entity pairs that show up together far more than
+  chance would predict (`lift` = observed/expected co-occurrence),
+  surfacing narrative linkages nobody hand-coded into the taxonomy.
+- `guests`: best-effort extraction of named people from episode titles
+  ("w/ Kyle Grieve", "with Ben Felix"), tracked across appearances. Gated
+  on a name recurring across >=2 episodes verbatim -- a false-positive
+  title-parsing match essentially never repeats exactly. This also picks
+  up show hosts whose names are baked into every episode's title (e.g.
+  "Jim Cramer" from "Mad Money w/ Jim Cramer"), not just guests -- treat
+  it as "notable names in the titles," not strictly "guests."
+
 ## Running it
 
 ```bash
