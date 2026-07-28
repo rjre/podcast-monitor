@@ -6639,15 +6639,23 @@
     "audio_url": "https://mgln.ai/e/2/pdst.fm/e/dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/b4cb6600-fb97-4662-911f-2e4fc5a1b5e8/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=b4cb6600-fb97-4662-911f-2e4fc5a1b5e8&feed=Y8lFbOT4",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "volatility"
+      ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
+      "entity_mentions": {
+        "volatility": 1
+      },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-freakonomics-radio-why-cooking-is-caregiving-with-chef-hillary-sterling-better-faf128.md",
+    "transcript_word_count": 7862,
+    "transcript_language": "en"
   },
   {
     "guid": "cfcd228a-cbf1-4995-b38a-7bb3c70fc1d2",
@@ -6799,7 +6807,11 @@
       "entity_mentions": {},
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-planet-money-new-npr-series-we-keep-us-safe-from-the-embedded-podcast-a0bcab.md",
+    "transcript_word_count": 420,
+    "transcript_language": "en"
   },
   {
     "guid": "524020a4-a6a7-43b7-bec8-ff1ecab80da1",
@@ -8769,18 +8781,32 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "fire-movement"
+        "retirement-planning",
+        "fire-movement",
+        "inflation",
+        "budgeting-saving",
+        "tax-planning"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "fire-movement": 1
+        "inflation": 3,
+        "budgeting-saving": 1,
+        "fire-movement": 7,
+        "retirement-planning": 14,
+        "tax-planning": 1
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "retirement-planning": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-early-retirement-financial-freedom-can-i-retire-at-55-with-1m-early-retirement-hotline-464331.md",
+    "transcript_word_count": 3273,
+    "transcript_language": "en"
   },
   {
     "guid": "5a716878-38ff-11f1-a344-279b1555c5c5",
@@ -10189,20 +10215,34 @@
       "themes": [
         "elections-politics"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "att",
+        "verizon",
+        "tmobile"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "crypto": 3,
-        "elections-politics": 2
+        "crypto": 5,
+        "elections-politics": 3,
+        "att": 1,
+        "verizon": 1,
+        "tmobile": 1
       },
       "entity_sentiment": {
         "crypto": 1.0,
-        "elections-politics": 0.0
+        "elections-politics": 0.0,
+        "att": 1.0,
+        "verizon": 1.0,
+        "tmobile": 1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-18-unchained-how-a-surprise-clarity-act-vote-could-move-crypto-prices-9460fd.md",
+    "transcript_word_count": 992,
+    "transcript_language": "en"
   },
   {
     "guid": "06ae9782-a09d-4cab-ae49-0f1eddaf532c",
@@ -11129,23 +11169,46 @@
     "duration": "1479",
     "audio_url": "https://mgln.ai/e/p820/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4b894cc7-34cc-4155-8d9e-b2aa01086686/5e1c9afd-c569-4a11-8ba7-b48a00190de1/audio.mp3?utm_source=Podcast&in_playlist=09b4fe67-f731-4362-8519-b2aa010866a1",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "telecoms",
+        "healthcare",
+        "industrials"
+      ],
       "themes": [
-        "passive-income"
+        "passive-income",
+        "passive-investing",
+        "retirement-planning"
       ],
       "stocks": [
-        "walmart"
+        "walmart",
+        "alphabet",
+        "meta",
+        "tmobile",
+        "sp500"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "passive-income": 1,
-        "walmart": 2
+        "healthcare": 1,
+        "telecoms": 4,
+        "industrials": 1,
+        "passive-investing": 3,
+        "retirement-planning": 1,
+        "passive-income": 5,
+        "alphabet": 2,
+        "meta": 2,
+        "tmobile": 1,
+        "walmart": 22,
+        "sp500": 1
       },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-brown-ambition-stock-trading-and-vending-machine-businesses-worth-the-risk-190de1.md",
+    "transcript_word_count": 6195,
+    "transcript_language": "en"
   },
   {
     "guid": "0705766d-11e7-4930-9cad-e98d30a94a48",
@@ -13309,15 +13372,30 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/get-started-investing/e/6a57334d37c983dd6cbb9961/media.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "emerging-markets",
+        "small-caps-value-growth",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "meta"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "emerging-markets": 1,
+        "small-caps-value-growth": 1,
+        "market-timing-dca": 1,
+        "meta": 1
+      },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-get-started-investing-i-don-t-want-to-retire-ever-why-this-30-year-old-actor-inves-bb9961.md",
+    "transcript_word_count": 3306,
+    "transcript_language": "en"
   },
   {
     "guid": "3296841a-dbef-4373-b35f-0ed4089c228c",
@@ -37932,26 +38010,35 @@
     "duration": "35:18",
     "audio_url": "https://traffic.libsyn.com/secure/bestinterest/MIX_143_TBI_2.mp3?dest-id=2640104",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors"
+      ],
       "themes": [
-        "behavioral-finance",
         "diversification",
+        "inflation",
+        "behavioral-finance",
         "tax-planning",
         "estate-planning"
       ],
       "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
+        "semiconductors": 1,
+        "inflation": 1,
         "behavioral-finance": 1,
-        "diversification": 1,
+        "diversification": 2,
         "tax-planning": 1,
         "estate-planning": 1
       },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-personal-finance-for-long-term-investors-the-three-things-money-can-t-fix-in-retirement-e143-445acb.md",
+    "transcript_word_count": 6860,
+    "transcript_language": "en"
   },
   {
     "guid": "eac1103e-6f7f-11f1-a2a8-8bdc92df530f",
@@ -42037,16 +42124,42 @@
     "duration": "26:57",
     "audio_url": "https://sphinx.acast.com/p/open/s/65675c71c3ca8a0012804645/e/6a354c4e4a8189f2c3c11dd2/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=lDgpC_mkXNwaQJpgrqzdACR9Fh24kXmLya1LsQEL7uY",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "rates-fed",
+        "housing",
+        "recession",
+        "passive-investing",
+        "debt-payoff"
+      ],
       "stocks": [],
       "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 2,
+        "rates-fed": 3,
+        "recession": 1,
+        "housing": 3,
+        "passive-investing": 1,
+        "debt-payoff": 1
+      },
+      "entity_sentiment": {
+        "real-estate": 0.091,
+        "rates-fed": 0.091,
+        "recession": 0.091,
+        "housing": 0.091,
+        "passive-investing": 0.091,
+        "debt-payoff": 0.091
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-so-money-with-farnoosh-torabi-1998-ask-farnoosh-divorce-toxic-workplaces-and-smart-home-up-c11dd2.md",
+    "transcript_word_count": 4666,
+    "transcript_language": "en"
   },
   {
     "guid": "53cdaa10-6be3-11f1-824a-33bb70d4416a",
@@ -43172,16 +43285,70 @@
     "duration": "00:43:35",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/6db96e4d-af1c-4cb9-a131-d6f5d4fd1464/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=6db96e4d-af1c-4cb9-a131-d6f5d4fd1464&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "airlines-travel",
+        "insurance",
+        "energy",
+        "real-estate",
+        "materials-mining"
+      ],
+      "themes": [
+        "rates-fed",
+        "passive-investing",
+        "inflation",
+        "earnings",
+        "dealmaking",
+        "insurance-products",
+        "recession",
+        "commodities",
+        "retirement-planning"
+      ],
+      "stocks": [
+        "vanguard",
+        "alphabet",
+        "amazon",
+        "intel",
+        "palantir",
+        "nasdaq"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 14,
+        "ai-infrastructure": 15,
+        "insurance": 2,
+        "energy": 2,
+        "real-estate": 2,
+        "materials-mining": 1,
+        "airlines-travel": 3,
+        "inflation": 3,
+        "rates-fed": 9,
+        "recession": 1,
+        "commodities": 1,
+        "dealmaking": 2,
+        "earnings": 3,
+        "passive-investing": 9,
+        "retirement-planning": 1,
+        "insurance-products": 2,
+        "alphabet": 3,
+        "amazon": 1,
+        "intel": 1,
+        "palantir": 1,
+        "nasdaq": 1,
+        "vanguard": 15
+      },
+      "entity_sentiment": {
+        "rates-fed": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-mad-money-w-jim-cramer-mad-money-w-jim-cramer-6-18-26-4c5edb.md",
+    "transcript_word_count": 8304,
+    "transcript_language": "en"
   },
   {
     "guid": "d412ecce-6b5e-11f1-8001-cba36d2e9b3b",
@@ -50623,25 +50790,38 @@
     "duration": "11:36",
     "audio_url": "https://sphinx.acast.com/p/open/s/69c148bb1a160b44db9c8fcc/e/6a287c32a917ce4c708f0c56/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "insurance"
+      ],
       "themes": [
+        "college-savings",
+        "budgeting-saving",
         "rates-fed",
-        "college-savings"
+        "retirement-planning"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "insurance": 1,
+        "healthcare": 2,
         "rates-fed": 1,
-        "college-savings": 1,
+        "budgeting-saving": 2,
+        "retirement-planning": 1,
+        "college-savings": 6,
         "meta": 1
       },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-money-girl-7-money-rules-for-new-graduates-8f0c56.md",
+    "transcript_word_count": 1568,
+    "transcript_language": "en"
   },
   {
     "guid": "3ce3aa2d-ce49-416c-81ac-5f8f60ee557e",
@@ -57336,29 +57516,39 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_218_-_Womens_Weekend_Women_of_FI_-_Final_Audio_Edit_v3.mp3?dest-id=3794235",
     "tags": {
       "sectors": [
-        "healthcare"
+        "healthcare",
+        "utilities",
+        "real-estate"
       ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "budgeting-saving"
       ],
       "stocks": [
-        "amazon",
-        "meta"
+        "meta",
+        "amazon"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "healthcare": 1,
-        "fire-movement": 3,
+        "utilities": 1,
+        "healthcare": 2,
+        "real-estate": 1,
+        "budgeting-saving": 2,
+        "fire-movement": 9,
         "amazon": 1,
-        "meta": 1
+        "meta": 2
       },
       "entity_sentiment": {
         "meta": -1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-07-catching-up-to-fi-we-found-them-past-guests-at-the-women-of-fi-weekend-kim-h-a-580ba5.md",
+    "transcript_word_count": 5214,
+    "transcript_language": "en"
   },
   {
     "guid": "22cf3278-5f5c-11f1-b1aa-bf89bb884942",
@@ -58284,50 +58474,104 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/www.claritaspod.com/measure/traffic.megaphone.fm/WWO7773322881.mp3?updated=1780685993",
     "tags": {
       "sectors": [
-        "healthcare",
         "real-estate",
-        "energy"
+        "energy",
+        "healthcare",
+        "insurance",
+        "technology",
+        "ai-infrastructure",
+        "industrials",
+        "airlines-travel"
       ],
       "themes": [
         "inflation",
+        "housing",
         "rates-fed",
         "bond-market",
-        "housing",
         "dealmaking",
-        "market-concentration"
+        "labor-market",
+        "passive-investing",
+        "insurance-products",
+        "budgeting-saving",
+        "small-caps-value-growth",
+        "recession",
+        "market-concentration",
+        "diversification"
       ],
       "stocks": [
-        "jpmorgan"
+        "jpmorgan",
+        "sp500",
+        "microsoft",
+        "amazon",
+        "nvidia",
+        "tesla",
+        "exxon",
+        "nasdaq",
+        "alphabet",
+        "bank-of-america",
+        "berkshire",
+        "walmart"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 6,
+      "sentiment": 0.25,
+      "sentiment_hits": 24,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "healthcare": 2,
-        "real-estate": 2,
-        "inflation": 3,
-        "rates-fed": 2,
-        "housing": 1,
-        "dealmaking": 1,
-        "bond-market": 2,
+        "technology": 1,
+        "ai-infrastructure": 1,
+        "insurance": 2,
+        "energy": 5,
+        "healthcare": 5,
+        "real-estate": 11,
+        "industrials": 1,
+        "airlines-travel": 1,
+        "inflation": 29,
+        "rates-fed": 10,
+        "recession": 1,
+        "labor-market": 3,
+        "housing": 17,
+        "dealmaking": 4,
+        "bond-market": 10,
+        "passive-investing": 3,
+        "budgeting-saving": 2,
         "market-concentration": 1,
-        "jpmorgan": 3
+        "small-caps-value-growth": 2,
+        "diversification": 1,
+        "insurance-products": 3,
+        "nvidia": 2,
+        "microsoft": 3,
+        "alphabet": 1,
+        "amazon": 3,
+        "tesla": 2,
+        "jpmorgan": 7,
+        "bank-of-america": 1,
+        "berkshire": 1,
+        "exxon": 2,
+        "walmart": 1,
+        "sp500": 5,
+        "nasdaq": 2
       },
       "entity_sentiment": {
-        "real-estate": 0.0,
-        "healthcare": 0.0,
-        "energy": 0.0,
-        "rates-fed": 0.0,
-        "inflation": 0.0,
+        "real-estate": 0.333,
+        "healthcare": 0.2,
+        "energy": 0.333,
+        "industrials": 1.0,
+        "ai-infrastructure": 1.0,
+        "rates-fed": 0.5,
+        "inflation": -0.077,
         "bond-market": 0.0,
-        "housing": 0.0,
-        "dealmaking": 0.0,
-        "market-concentration": 0.0,
-        "jpmorgan": 0.0
+        "housing": 0.333,
+        "dealmaking": 0.333,
+        "market-concentration": 0.333,
+        "labor-market": 1.0,
+        "recession": -1.0,
+        "jpmorgan": 0.333
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-05-afford-anything-first-friday-fed-rate-hike-coming-jobs-housing-news-b5052c.md",
+    "transcript_word_count": 5126,
+    "transcript_language": "en"
   },
   {
     "guid": "12369a80-5aea-11f1-9134-779a542c363b",
@@ -65726,16 +65970,48 @@
     "duration": "999",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML3560652084.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "industrials"
+      ],
+      "themes": [
+        "fire-movement",
+        "inflation",
+        "passive-investing",
+        "elections-politics",
+        "dealmaking",
+        "budgeting-saving",
+        "retirement-planning",
+        "estate-planning"
+      ],
+      "stocks": [
+        "vanguard",
+        "alphabet",
+        "charles-schwab"
+      ],
       "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
-      "entity_mentions": {},
+      "entity_mentions": {
+        "industrials": 1,
+        "inflation": 2,
+        "elections-politics": 1,
+        "dealmaking": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 1,
+        "fire-movement": 3,
+        "retirement-planning": 1,
+        "estate-planning": 1,
+        "alphabet": 1,
+        "vanguard": 8,
+        "charles-schwab": 1
+      },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-30-motley-fool-hidden-gems-is-your-plan-for-retirement-too-safe-117399.md",
+    "transcript_word_count": 3141,
+    "transcript_language": "en"
   },
   {
     "guid": "7e2a63cd-5d97-4e68-af01-ead2d419ae28",
@@ -86729,33 +87005,103 @@
     "audio_url": "https://pdst.fm/e/audio2.redcircle.com/episodes/2036f393-15a4-4356-b5d8-b38749bcca38/stream.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "real-estate",
+        "ai-infrastructure",
+        "private-markets",
+        "technology",
+        "consumer-discretionary",
+        "consumer-staples",
+        "industrials",
+        "crypto"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "insurance-products",
+        "debt-payoff",
+        "recession",
+        "inflation",
+        "valuation",
+        "elections-politics",
+        "real-estate-investing",
+        "dividends-buybacks",
+        "college-savings"
       ],
       "stocks": [
         "amd",
         "tsmc",
-        "robinhood"
+        "nvidia",
+        "alphabet",
+        "amazon",
+        "tesla",
+        "microsoft",
+        "apple",
+        "palantir",
+        "verizon",
+        "costco",
+        "sp500",
+        "robinhood",
+        "meta",
+        "coinbase",
+        "bitcoin",
+        "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.032,
+      "sentiment_hits": 31,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "dealmaking": 1,
-        "amd": 2,
-        "tsmc": 2,
+        "technology": 2,
+        "semiconductors": 5,
+        "ai-infrastructure": 3,
+        "consumer-discretionary": 1,
+        "consumer-staples": 1,
+        "real-estate": 5,
+        "industrials": 1,
+        "crypto": 1,
+        "private-markets": 3,
+        "inflation": 2,
+        "recession": 3,
+        "elections-politics": 1,
+        "dealmaking": 17,
+        "debt-payoff": 5,
+        "real-estate-investing": 1,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "college-savings": 1,
+        "insurance-products": 7,
+        "nvidia": 11,
+        "apple": 2,
+        "microsoft": 4,
+        "alphabet": 6,
+        "amazon": 6,
+        "meta": 1,
+        "tesla": 5,
+        "amd": 24,
+        "tsmc": 24,
+        "palantir": 2,
+        "verizon": 2,
+        "costco": 2,
+        "coinbase": 1,
+        "bitcoin": 1,
+        "sp500": 2,
+        "vanguard": 1,
         "robinhood": 2
       },
       "entity_sentiment": {
         "semiconductors": 1.0,
+        "recession": -1.0,
+        "valuation": -1.0,
         "amd": 1.0,
-        "tsmc": 1.0
+        "tsmc": 1.0,
+        "costco": -1.0,
+        "vanguard": -1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-market-mondays-mm-311-ai-stocks-explode-how-long-can-this-last-what-investm-4cfaea.md",
+    "transcript_word_count": 18886,
+    "transcript_language": "en"
   },
   {
     "guid": "350c957e-95e9-4dad-bcc3-7d9abc58c467",
@@ -94373,19 +94719,30 @@
     "audio_url": "https://traffic.libsyn.com/secure/907abc9d-4c7b-47a1-8cfc-11723daea7de/AA_-_EP.37_Wendy_Li_-_AUDIO_V1.mp3?dest-id=4090161",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "regulation-antitrust",
+        "credit-markets"
+      ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "private-markets": 2
+        "real-estate": 1,
+        "private-markets": 28,
+        "credit-markets": 1,
+        "regulation-antitrust": 2
       },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-alternative-allocations-the-illiquidity-premium-lessons-from-institutions-ep-37-4525ff.md",
+    "transcript_word_count": 4499,
+    "transcript_language": "en"
   },
   {
     "guid": "a5698f34-05d5-11f1-8c9c-d7d123398596",
