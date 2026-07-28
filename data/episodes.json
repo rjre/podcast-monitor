@@ -4716,31 +4716,65 @@
     "duration": "00:59:24",
     "audio_url": "https://traffic.megaphone.fm/APO2306329837.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "banks",
+        "utilities",
+        "consumer-discretionary",
+        "telecoms",
+        "industrials"
+      ],
       "themes": [
-        "hedge-funds",
+        "valuation",
         "small-caps-value-growth",
+        "inflation",
+        "recession",
+        "hedge-funds",
         "dealmaking",
-        "valuation"
+        "emerging-markets",
+        "diversification"
       ],
       "stocks": [
         "amazon",
-        "meta"
+        "meta",
+        "alphabet"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.2,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "semiconductors": 3,
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "utilities": 1,
+        "consumer-discretionary": 1,
+        "telecoms": 1,
+        "industrials": 1,
+        "inflation": 2,
+        "recession": 2,
         "dealmaking": 1,
         "hedge-funds": 2,
-        "valuation": 1,
-        "small-caps-value-growth": 2,
+        "emerging-markets": 1,
+        "valuation": 7,
+        "small-caps-value-growth": 3,
+        "diversification": 1,
+        "alphabet": 1,
         "amazon": 6,
         "meta": 2
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "small-caps-value-growth": -1.0,
+        "inflation": -1.0,
+        "recession": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-the-acquirers-podcast-inside-artisan-s-international-value-fund-with-portfolio-man-87cb81.md",
+    "transcript_word_count": 8144,
+    "transcript_language": "en"
   },
   {
     "guid": "7c3d7560-864c-11f1-817e-83f72e465008",
@@ -8354,16 +8388,57 @@
     "duration": "2216",
     "audio_url": "https://mcdn.podbean.com/mf/web/9de8dtkr8s4sydst/BestStocksNow-260720.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sectors": [
+        "industrials"
+      ],
+      "themes": [
+        "fiscal-debt",
+        "dealmaking",
+        "inflation",
+        "emerging-markets"
+      ],
+      "stocks": [
+        "sp500",
+        "amd",
+        "nvidia",
+        "tesla",
+        "bitcoin",
+        "nasdaq",
+        "charles-schwab",
+        "microsoft",
+        "berkshire",
+        "microstrategy"
+      ],
+      "sentiment": -0.158,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "industrials": 1,
+        "inflation": 1,
+        "fiscal-debt": 3,
+        "dealmaking": 2,
+        "emerging-markets": 1,
+        "nvidia": 2,
+        "microsoft": 1,
+        "tesla": 2,
+        "amd": 3,
+        "berkshire": 1,
+        "microstrategy": 1,
+        "bitcoin": 2,
+        "sp500": 5,
+        "nasdaq": 2,
+        "charles-schwab": 2
+      },
+      "entity_sentiment": {
+        "nasdaq": -1.0,
+        "bitcoin": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-best-stocks-now-monday-july-20-2026-8feeee.md",
+    "transcript_word_count": 5645,
+    "transcript_language": "en"
   },
   {
     "guid": "bb3aa9ec-83f2-11f1-b08f-8316d9086eb0",
@@ -10866,22 +10941,34 @@
         "crypto"
       ],
       "themes": [
+        "ai-boom",
         "estate-planning"
       ],
       "stocks": [
-        "bitcoin"
+        "bitcoin",
+        "paypal",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "crypto": 1,
+        "crypto": 10,
+        "ai-boom": 1,
         "estate-planning": 1,
-        "bitcoin": 5
+        "meta": 2,
+        "bitcoin": 14,
+        "paypal": 6
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "bitcoin": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-the-crypto-podcast-120-ai-bitcoin-security-self-custody-how-casa-protects-your-dc18d1.md",
+    "transcript_word_count": 2568,
+    "transcript_language": "en"
   },
   {
     "guid": "bd139cf4-18a1-11f1-98a4-1f96fc3af86a",
@@ -12625,22 +12712,47 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4813286137.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "industrials"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "regulation-antitrust",
+        "inflation",
+        "earnings",
+        "bond-market"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "nasdaq",
+        "amazon",
+        "nvidia",
+        "alphabet"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "dealmaking": 1
+        "ai-infrastructure": 31,
+        "industrials": 1,
+        "inflation": 1,
+        "dealmaking": 5,
+        "regulation-antitrust": 5,
+        "earnings": 1,
+        "bond-market": 1,
+        "nvidia": 1,
+        "alphabet": 1,
+        "amazon": 2,
+        "nasdaq": 3
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "dealmaking": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-prof-g-markets-spacex-is-down-40-how-low-can-it-go-bf3a2c.md",
+    "transcript_word_count": 4543,
+    "transcript_language": "en"
   },
   {
     "guid": "fe597af9-2391-4f66-a988-dde404c3b19b",
@@ -28968,24 +29080,46 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "budgeting-saving",
+        "retirement-planning",
+        "career-income",
+        "market-timing-dca"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "charles-schwab",
+        "netflix"
       ],
-      "sentiment": 0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.8,
+      "sentiment_hits": 40,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1,
-        "nvidia": 2
+        "budgeting-saving": 5,
+        "fire-movement": 11,
+        "retirement-planning": 4,
+        "career-income": 1,
+        "market-timing-dca": 1,
+        "nvidia": 4,
+        "charles-schwab": 1,
+        "netflix": 1
       },
       "entity_sentiment": {
-        "fire-movement": 1.0,
-        "nvidia": 1.0
+        "fire-movement": 0.795,
+        "retirement-planning": 0.784,
+        "budgeting-saving": 0.778,
+        "career-income": 0.778,
+        "market-timing-dca": 0.778,
+        "nvidia": 0.795,
+        "charles-schwab": 0.778,
+        "netflix": 0.778
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-rule-breaker-investing-what-you-ve-done-to-create-financial-freedom-vol-4-a9433c.md",
+    "transcript_word_count": 5470,
+    "transcript_language": "en"
   },
   {
     "guid": "pwstreet.podbean.com/04fbe5bb-b85f-3a7e-a96e-cc3a97567ecd",
@@ -38567,7 +38701,11 @@
       "entity_mentions": {},
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-23-economist-podcasts-trailer-tocqueville-road-trip-af216c.md",
+    "transcript_word_count": 427,
+    "transcript_language": "en"
   },
   {
     "guid": "c2836d0b-87bc-475e-98f9-653c0e5af20b",
@@ -39735,16 +39873,58 @@
     "duration": "00:25:04",
     "audio_url": "https://afp-956310-injected.calisto.simplecastaudio.com/d27c977a-47cf-41b9-923d-545b2b0f9f45/episodes/34e69a21-09ae-420f-8677-8a1392bd44fe/audio/128/default.mp3?aid=rss_feed&awCollectionId=d27c977a-47cf-41b9-923d-545b2b0f9f45&awEpisodeId=34e69a21-09ae-420f-8677-8a1392bd44fe&feed=3Or7cJoW",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "industrials"
+      ],
+      "themes": [
+        "valuation",
+        "rates-fed",
+        "ai-boom",
+        "inflation",
+        "earnings"
+      ],
+      "stocks": [
+        "vanguard",
+        "broadcom",
+        "nvidia",
+        "alphabet",
+        "apple",
+        "berkshire"
+      ],
+      "sentiment": -0.818,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 11,
+        "ai-infrastructure": 6,
+        "industrials": 2,
+        "inflation": 1,
+        "rates-fed": 3,
+        "ai-boom": 2,
+        "earnings": 1,
+        "valuation": 7,
+        "nvidia": 6,
+        "apple": 1,
+        "alphabet": 3,
+        "berkshire": 1,
+        "vanguard": 16,
+        "broadcom": 8
+      },
+      "entity_sentiment": {
+        "valuation": -1.0,
+        "inflation": -1.0,
+        "apple": -1.0,
+        "alphabet": -1.0,
+        "broadcom": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-the-morning-filter-3-stocks-to-buy-before-the-market-reprices-them-493c4e.md",
+    "transcript_word_count": 4692,
+    "transcript_language": "en"
   },
   {
     "guid": "6a392b4e3a88be86fe0041e5",
@@ -50240,23 +50420,61 @@
     "duration": "397",
     "audio_url": "https://traffic.megaphone.fm/THRH7596253021.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "telecoms",
+        "private-markets"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "market-structure"
       ],
       "stocks": [
-        "alphabet"
+        "tesla",
+        "alphabet",
+        "nasdaq",
+        "meta",
+        "goldman-sachs",
+        "broadcom"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "dealmaking": 2,
-        "alphabet": 1
+        "technology": 1,
+        "ai-infrastructure": 5,
+        "telecoms": 1,
+        "private-markets": 1,
+        "dealmaking": 8,
+        "market-structure": 1,
+        "alphabet": 3,
+        "meta": 1,
+        "tesla": 9,
+        "goldman-sachs": 1,
+        "nasdaq": 3,
+        "broadcom": 1
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "telecoms": -1.0,
+        "private-markets": -1.0,
+        "dealmaking": -1.0,
+        "market-structure": -1.0,
+        "alphabet": -1.0,
+        "meta": -1.0,
+        "tesla": -1.0,
+        "goldman-sachs": -1.0,
+        "nasdaq": -1.0,
+        "broadcom": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-reuters-morning-bid-spacex-s-launch-day-49a6ae.md",
+    "transcript_word_count": 1211,
+    "transcript_language": "en"
   },
   {
     "guid": "6a2bd2bda23fc6066590ca3b",
@@ -50659,27 +50877,54 @@
     "audio_url": "https://traffic.libsyn.com/secure/valueinvestingwithlegends/VIL_-_S11E13_Jim_Flynn_-_AUDIO_V2.mp3?dest-id=1207712",
     "tags": {
       "sectors": [
+        "insurance",
+        "healthcare",
         "real-estate",
-        "healthcare"
+        "technology",
+        "banks",
+        "private-markets"
       ],
       "themes": [
-        "ai-boom"
+        "ai-boom",
+        "rates-fed",
+        "small-caps-value-growth",
+        "hedge-funds",
+        "regulation-antitrust",
+        "budgeting-saving"
       ],
       "stocks": [
-        "alphabet"
+        "alphabet",
+        "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
+        "technology": 1,
+        "banks": 1,
+        "insurance": 2,
+        "healthcare": 2,
         "real-estate": 2,
-        "ai-boom": 2,
-        "alphabet": 1
+        "private-markets": 1,
+        "rates-fed": 5,
+        "ai-boom": 6,
+        "regulation-antitrust": 1,
+        "hedge-funds": 2,
+        "budgeting-saving": 1,
+        "small-caps-value-growth": 3,
+        "alphabet": 1,
+        "berkshire": 1
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "ai-boom": -1.0,
+        "rates-fed": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-value-investing-with-legends-jim-flynn-building-a-healthcare-investment-platform-across-p-c94eac.md",
+    "transcript_word_count": 7942,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/aGlpSMTtgLVMs1zFp17d-9IpOKgjsQLdZKtBr006LzY",
@@ -54751,33 +54996,47 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "private-markets"
+        "private-markets",
+        "consumer-discretionary"
       ],
       "themes": [
         "real-estate-investing",
-        "passive-investing",
-        "diversification"
+        "fire-movement",
+        "rates-fed",
+        "diversification",
+        "passive-investing"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "disney",
+        "alphabet"
       ],
       "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "real-estate": 2,
-        "private-markets": 1,
+        "consumer-discretionary": 1,
+        "real-estate": 10,
+        "private-markets": 2,
+        "rates-fed": 2,
         "passive-investing": 1,
-        "real-estate-investing": 2,
-        "diversification": 1,
-        "meta": 2
+        "fire-movement": 3,
+        "real-estate-investing": 20,
+        "diversification": 2,
+        "alphabet": 1,
+        "meta": 2,
+        "disney": 2
       },
       "entity_sentiment": {
         "real-estate-investing": 1.0,
         "passive-investing": 1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-simple-passive-cashflow-green-bay-football-themed-airbnbs-pigskinjourneyman-s-short-f36499.md",
+    "transcript_word_count": 9090,
+    "transcript_language": "en"
   },
   {
     "guid": "6a27e300427484b4a424b552",
@@ -55136,37 +55395,113 @@
     "duration": "6303",
     "audio_url": "https://pdst.fm/e/audio2.redcircle.com/episodes/047a0544-21aa-4ecd-b951-87fbbf42a182/stream.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "crypto",
+        "real-estate",
+        "semiconductors",
+        "technology",
+        "industrials",
+        "banks",
+        "insurance",
+        "utilities",
+        "healthcare"
+      ],
       "themes": [
         "dealmaking",
-        "volatility"
+        "ai-boom",
+        "retirement-planning",
+        "diversification",
+        "bond-market",
+        "volatility",
+        "earnings",
+        "geopolitics-tariffs",
+        "hedge-funds",
+        "dividends-buybacks",
+        "labor-market",
+        "small-caps-value-growth"
       ],
       "stocks": [
         "bitcoin",
         "ethereum",
         "blackrock",
-        "microstrategy"
+        "alphabet",
+        "sp500",
+        "nvidia",
+        "microsoft",
+        "tesla",
+        "nasdaq",
+        "broadcom",
+        "amazon",
+        "amd",
+        "walmart",
+        "microstrategy",
+        "oracle"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.0,
+      "sentiment_hits": 28,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "volatility": 1,
-        "dealmaking": 3,
+        "technology": 2,
+        "semiconductors": 4,
+        "ai-infrastructure": 8,
+        "banks": 1,
+        "insurance": 1,
+        "utilities": 1,
+        "healthcare": 1,
+        "real-estate": 5,
+        "industrials": 2,
+        "crypto": 6,
+        "ai-boom": 8,
+        "geopolitics-tariffs": 2,
+        "labor-market": 1,
+        "volatility": 3,
+        "dealmaking": 11,
+        "earnings": 3,
+        "bond-market": 4,
+        "hedge-funds": 2,
+        "retirement-planning": 6,
+        "dividends-buybacks": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 6,
+        "nvidia": 3,
+        "microsoft": 3,
+        "alphabet": 4,
+        "amazon": 1,
+        "tesla": 3,
+        "amd": 1,
+        "walmart": 1,
         "microstrategy": 1,
-        "bitcoin": 5,
-        "ethereum": 2,
-        "blackrock": 2
+        "bitcoin": 35,
+        "ethereum": 8,
+        "sp500": 4,
+        "nasdaq": 3,
+        "blackrock": 7,
+        "oracle": 1,
+        "broadcom": 3
       },
       "entity_sentiment": {
+        "technology": 0.0,
         "dealmaking": 1.0,
-        "bitcoin": 1.0,
+        "bond-market": 0.0,
+        "diversification": 1.0,
+        "ai-boom": -1.0,
+        "bitcoin": 0.5,
         "ethereum": 1.0,
-        "blackrock": 1.0,
-        "microstrategy": 1.0
+        "blackrock": 0.333,
+        "microstrategy": 1.0,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "sp500": -1.0,
+        "walmart": 1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-market-mondays-mm-315-spacex-ipo-bitcoin-uncertainty-the-ai-boom-just-the-b-f12007.md",
+    "transcript_word_count": 18936,
+    "transcript_language": "en"
   },
   {
     "guid": "f5b52447-3ecc-46bd-beee-b75666d0c86a",
@@ -70096,24 +70431,51 @@
     "audio_url": "https://dowjones.simplecastaudio.com/67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1/episodes/8f0cacb0-1db6-4e53-a836-2f7d9bc240bd/audio/128/default.mp3?aid=rss_feed&awCollectionId=67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1&awEpisodeId=8f0cacb0-1db6-4e53-a836-2f7d9bc240bd&feed=QeVni9a0",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "energy",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "bond-market",
+        "small-caps-value-growth",
+        "commodities"
+      ],
       "stocks": [
+        "nasdaq",
+        "fidelity",
         "sp500",
-        "nasdaq"
+        "russell2000"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 1.0,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "sp500": 1,
-        "nasdaq": 1
+        "semiconductors": 5,
+        "energy": 2,
+        "industrials": 1,
+        "commodities": 1,
+        "bond-market": 2,
+        "small-caps-value-growth": 2,
+        "sp500": 3,
+        "nasdaq": 8,
+        "russell2000": 1,
+        "fidelity": 5
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "energy": 1.0,
+        "small-caps-value-growth": 1.0,
+        "commodities": 1.0,
+        "bond-market": 1.0,
+        "sp500": 1.0,
+        "nasdaq": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-stock-market-today-with-ibd-s-p-500-nasdaq-hit-highs-as-ai-chips-run-caterpillar-viavi-t-56b062.md",
+    "transcript_word_count": 3712,
+    "transcript_language": "en"
   },
   {
     "guid": "b8ab1102-3cea-11f1-a79d-8be43fcdad14",
@@ -78557,27 +78919,63 @@
     "audio_url": "https://tracking.swap.fm/track/bHsDpvy53mYwJpnc1UL5/traffic.megaphone.fm/MOBI4354626821.mp3?updated=1779137651",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "energy",
+        "utilities",
+        "consumer-discretionary",
+        "airlines-travel"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "regulation-antitrust",
+        "inflation",
+        "elections-politics"
       ],
       "stocks": [
         "berkshire",
-        "charles-schwab"
+        "charles-schwab",
+        "alphabet",
+        "meta",
+        "sp500",
+        "amazon",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.25,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "dealmaking": 2,
-        "berkshire": 1,
-        "charles-schwab": 1
+        "technology": 1,
+        "ai-infrastructure": 10,
+        "energy": 1,
+        "utilities": 1,
+        "consumer-discretionary": 1,
+        "airlines-travel": 1,
+        "inflation": 1,
+        "elections-politics": 1,
+        "dealmaking": 9,
+        "regulation-antitrust": 2,
+        "alphabet": 4,
+        "amazon": 1,
+        "meta": 3,
+        "berkshire": 5,
+        "sp500": 2,
+        "nasdaq": 1,
+        "charles-schwab": 5
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "ai-infrastructure": 0.333,
+        "energy": 1.0,
+        "dealmaking": 1.0,
+        "berkshire": -1.0,
+        "amazon": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-brew-markets-lululemon-s-founder-battle-powering-data-center-alley-e07924.md",
+    "transcript_word_count": 2650,
+    "transcript_language": "en"
   },
   {
     "guid": "677437a9-1616-4b19-afe7-578ef98747c1",
@@ -84986,15 +85384,32 @@
     "audio_url": "https://media.blubrry.com/the_retirement_and_ira_show/s3.us-east-1.amazonaws.com/TheRetirementandIRAShow/RAIRA-Show-EDU-Y26E19.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
+      "themes": [
+        "diversification",
+        "budgeting-saving",
+        "retirement-planning",
+        "tax-planning"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.6,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "budgeting-saving": 1,
+        "retirement-planning": 1,
+        "diversification": 2,
+        "tax-planning": 1,
+        "amazon": 1
+      },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-the-retirement-and-ira-show-enjoying-a-healthy-retirement-edu-2619-mp5309.md",
+    "transcript_word_count": 8427,
+    "transcript_language": "en"
   },
   {
     "guid": "26698cbd-784c-4b3b-b756-1e4ee3789d90",
@@ -97730,25 +98145,56 @@
     "duration": "2154",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/9832a349-8e7a-49d4-b484-b43c013b5b93/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "technology",
+        "consumer-staples",
+        "industrials",
+        "media-entertainment"
+      ],
       "themes": [
+        "college-savings",
+        "debt-payoff",
+        "retirement-planning",
+        "inflation",
+        "rates-fed",
+        "regulation-antitrust",
         "fire-movement",
-        "college-savings"
+        "real-estate-investing"
       ],
       "stocks": [
+        "fidelity",
         "meta"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "technology": 1,
+        "insurance": 4,
+        "consumer-staples": 1,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "regulation-antitrust": 1,
+        "debt-payoff": 2,
         "fire-movement": 1,
-        "college-savings": 1,
-        "meta": 1
+        "retirement-planning": 2,
+        "real-estate-investing": 1,
+        "college-savings": 6,
+        "meta": 2,
+        "fidelity": 6
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "regulation-antitrust": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-01-how-to-money-friday-flight-college-cost-cutting-predictive-credit-scores-3b5b93.md",
+    "transcript_word_count": 7670,
+    "transcript_language": "en"
   },
   {
     "guid": "bc5cc088-0118-4507-b8ca-a2e043a34456",
