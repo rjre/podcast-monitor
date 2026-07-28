@@ -330,6 +330,22 @@ def divergent_entities(entities, min_mentions=5, top_n=5):
     return sorted(cands, key=lambda e: abs(e["sentiment_divergence"]), reverse=True)[:top_n]
 
 
+def most_contested_entities(entities, min_mentions=5, min_contested=2, top_n=5):
+    # min_contested avoids a single clashing episode out of a dozen ranking
+    # above a topic genuinely fought over in several -- ratio alone is too
+    # noisy on a count of 1.
+    cands = [e for e in entities if e["mentions"] >= min_mentions and e.get("contested_episodes", 0) >= min_contested]
+    return sorted(cands, key=lambda e: e["contested_episodes"] / e["mentions"], reverse=True)[:top_n]
+
+
+def crowd_stance_entities(entities, top_n=5):
+    # Only entities with an actual buy/sell recommendation tally, and only
+    # stocks -- "buy the sector" isn't language people actually use.
+    cands = [e for e in entities if e["kind"] == "Stock" and (e.get("buy_mentions") or e.get("sell_mentions"))
+             and e["buy_mentions"] != e["sell_mentions"]]
+    return sorted(cands, key=lambda e: abs(e["buy_mentions"] - e["sell_mentions"]), reverse=True)[:top_n]
+
+
 def render_notice_row(kind, label, detail, badge_text, badge_cls):
     st.markdown(
         f"""<div class="ep-row">
@@ -393,17 +409,48 @@ def render_things_to_notice(aggregates):
                 word, cls,
             )
 
-    cooling = cooling_entities(entities)
-    if cooling:
+    st.markdown("&nbsp;", unsafe_allow_html=True)
+    col_cooling, col_contested, col_stance = st.columns(3)
+
+    with col_cooling:
         st.markdown("**\U0001F4C9 Cooling off**")
-        cool_cols = st.columns(len(cooling))
-        for col, e in zip(cool_cols, cooling):
-            with col:
-                render_notice_row(
-                    e["kind"], e["label"],
-                    f"{e['recent_30d_mentions']} mentions last 30d vs {e['prior_30d_mentions']} before",
-                    f"↓ {e['momentum_pct']:.0f}%", "sent-bearish",
-                )
+        cooling = cooling_entities(entities)
+        if not cooling:
+            st.caption("Nothing trending down right now.")
+        for e in cooling:
+            render_notice_row(
+                e["kind"], e["label"],
+                f"{e['recent_30d_mentions']} mentions last 30d vs {e['prior_30d_mentions']} before",
+                f"↓ {e['momentum_pct']:.0f}%", "sent-bearish",
+            )
+
+    with col_contested:
+        st.markdown("**\U0001F94A Most contested**")
+        st.caption("Meaningful bullish *and* bearish language in the same episodes -- not just quiet, actively debated.")
+        contested = most_contested_entities(entities)
+        if not contested:
+            st.caption("Nothing clearly contested right now.")
+        for e in contested:
+            render_notice_row(
+                e["kind"], e["label"],
+                f"clashing views in {e['contested_episodes']} of {e['mentions']} episodes",
+                f"{e['contested_episodes']}/{e['mentions']}", "sent-neutral",
+            )
+
+    with col_stance:
+        st.markdown("**\U0001F4E3 Crowd stance**")
+        st.caption("Actual buy/sell recommendation language, not just tone.")
+        stance = crowd_stance_entities(entities)
+        if not stance:
+            st.caption("No clear buy/sell calls picked up yet.")
+        for e in stance:
+            leaning = "buy" if e["buy_mentions"] > e["sell_mentions"] else "sell"
+            cls = "sent-bullish" if leaning == "buy" else "sent-bearish"
+            render_notice_row(
+                e["kind"], e["label"],
+                f"{e['buy_mentions']} buy call(s) vs {e['sell_mentions']} sell call(s)",
+                leaning.upper(), cls,
+            )
 
 
 def main():
