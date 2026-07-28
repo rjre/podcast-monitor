@@ -20730,29 +20730,125 @@
     "audio_url": "https://dowjones.simplecastaudio.com/fe30a23b-9a6c-4ef3-aebe-ffd83da0b186/episodes/5ddaf9b1-fb48-4095-8c78-035452b84458/audio/128/default.mp3?aid=rss_feed&awCollectionId=fe30a23b-9a6c-4ef3-aebe-ffd83da0b186&awEpisodeId=5ddaf9b1-fb48-4095-8c78-035452b84458&feed=XyZBmBkh",
     "tags": {
       "sectors": [
+        "semiconductors",
+        "energy",
+        "ai-infrastructure",
+        "technology",
+        "banks",
         "consumer-discretionary"
       ],
       "themes": [
-        "consumer-health"
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "valuation",
+        "elections-politics",
+        "esg-climate",
+        "consumer-health",
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "nvidia",
+        "amazon",
+        "alphabet",
+        "meta",
+        "morgan-stanley",
+        "sp500",
+        "tsmc",
+        "jpmorgan",
+        "goldman-sachs",
+        "bank-of-america",
+        "blackrock",
+        "netflix"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "consumer-health": 1
+        "technology": 3,
+        "semiconductors": 6,
+        "ai-infrastructure": 4,
+        "banks": 2,
+        "energy": 5,
+        "consumer-discretionary": 2,
+        "inflation": 5,
+        "rates-fed": 4,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 1,
+        "esg-climate": 1,
+        "consumer-health": 1,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "nvidia": 7,
+        "alphabet": 6,
+        "amazon": 7,
+        "meta": 2,
+        "tsmc": 1,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 2,
+        "bank-of-america": 1,
+        "sp500": 2,
+        "blackrock": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 10.0,
-        "consumer-health": 10.0
+        "technology": 0.4,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.6,
+        "banks": 0.3,
+        "energy": 0.7,
+        "consumer-discretionary": 0.3,
+        "inflation": 0.7,
+        "rates-fed": 0.6,
+        "geopolitics-tariffs": 0.3,
+        "elections-politics": 0.1,
+        "esg-climate": 0.1,
+        "consumer-health": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.3,
+        "nvidia": 1.0,
+        "alphabet": 0.9,
+        "amazon": 1.0,
+        "meta": 0.3,
+        "tsmc": 0.1,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.3,
+        "bank-of-america": 0.1,
+        "sp500": 0.3,
+        "blackrock": 0.1,
+        "netflix": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "semiconductors": 1.0,
+        "energy": 1.0,
+        "rates-fed": -1.0,
+        "nvidia": 0.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "ai-infrastructure": -0.333,
+        "semiconductors": -0.6,
+        "energy": -0.5,
+        "rates-fed": -1.0,
+        "inflation": -0.333,
+        "geopolitics-tariffs": -1.0,
+        "valuation": -1.0,
+        "amazon": -1.0,
+        "alphabet": 0.0,
+        "morgan-stanley": -1.0,
+        "nvidia": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-barron-s-live-quality-stocks-on-sale-an-update-from-the-barron-s-roundtabl-1899d2.md",
+    "transcript_word_count": 6635,
+    "transcript_language": "en"
   },
   {
     "guid": "e422b099-7b38-45a0-9366-c3de71ce09b4",
@@ -31071,27 +31167,76 @@
     "audio_url": "https://anchor.fm/s/103f80b70/podcast/play/122468821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-6%2F427465500-44100-2-c31bdd4d09174.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "utilities",
+        "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "rates-fed",
+        "recession",
+        "housing",
+        "dealmaking",
+        "real-estate-investing",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "meta",
+        "blackrock"
+      ],
+      "sentiment": 0.048,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1
+        "ai-infrastructure": 29,
+        "utilities": 1,
+        "real-estate": 1,
+        "rates-fed": 2,
+        "recession": 1,
+        "housing": 1,
+        "dealmaking": 1,
+        "real-estate-investing": 1,
+        "dividends-buybacks": 1,
+        "meta": 3,
+        "blackrock": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 45.5
+        "ai-infrastructure": 12.3,
+        "utilities": 0.4,
+        "real-estate": 0.4,
+        "rates-fed": 0.8,
+        "recession": 0.4,
+        "housing": 0.4,
+        "dealmaking": 0.4,
+        "real-estate-investing": 0.4,
+        "dividends-buybacks": 0.4,
+        "meta": 1.3,
+        "blackrock": 0.4
       },
       "entity_sentiment": {
-        "ai-infrastructure": -1.0
+        "ai-infrastructure": 0.0,
+        "real-estate": -1.0,
+        "recession": -1.0,
+        "dealmaking": -1.0,
+        "dividends-buybacks": -1.0,
+        "housing": -1.0,
+        "rates-fed": 0.6,
+        "meta": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "rates-fed": -1.0,
+        "meta": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "ai-infrastructure"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-rebel-capitalist-news-data-center-bubble-just-popped-here-s-why-31b3f1.md",
+    "transcript_word_count": 2342,
+    "transcript_language": "en"
   },
   {
     "guid": "6a4be78701771200e4c41fb4",
@@ -34125,29 +34270,87 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM4545936910.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "real-estate",
+        "insurance",
+        "healthcare",
+        "technology",
+        "crypto"
       ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "retirement-planning",
+        "college-savings",
+        "debt-payoff",
+        "inflation",
+        "rates-fed",
+        "housing",
+        "dividends-buybacks",
+        "market-concentration",
+        "diversification",
+        "insurance-products"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet",
+        "meta"
+      ],
+      "sentiment": -0.111,
+      "sentiment_hits": 18,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
-        "budgeting-saving": 2
+        "technology": 1,
+        "insurance": 2,
+        "healthcare": 2,
+        "real-estate": 3,
+        "crypto": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "housing": 1,
+        "budgeting-saving": 19,
+        "debt-payoff": 3,
+        "retirement-planning": 7,
+        "dividends-buybacks": 1,
+        "market-concentration": 1,
+        "diversification": 1,
+        "college-savings": 5,
+        "insurance-products": 1,
+        "alphabet": 2,
+        "meta": 1
       },
       "entity_mention_density": {
-        "healthcare": 2.4,
-        "budgeting-saving": 4.8
+        "technology": 0.0,
+        "insurance": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.1,
+        "crypto": 0.0,
+        "inflation": 0.0,
+        "rates-fed": 0.0,
+        "housing": 0.0,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.3,
+        "dividends-buybacks": 0.0,
+        "market-concentration": 0.0,
+        "diversification": 0.0,
+        "college-savings": 0.2,
+        "insurance-products": 0.0,
+        "alphabet": 0.1,
+        "meta": 0.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-03-the-ramsey-show-building-wealth-requires-trusted-principles-not-popular-opin-9dd9af.md",
+    "transcript_word_count": 20045,
+    "transcript_language": "en"
   },
   {
     "guid": "f0255024-8e4d-4c08-a5ae-e004344219f5",
@@ -38256,24 +38459,40 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "passive-income"
+        "inflation",
+        "passive-income",
+        "dealmaking"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "passive-income": 1
+        "inflation": 2,
+        "dealmaking": 1,
+        "passive-income": 2,
+        "meta": 1
       },
       "entity_mention_density": {
-        "passive-income": 4.0
+        "inflation": 0.4,
+        "dealmaking": 0.2,
+        "passive-income": 0.4,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "inflation": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-hermoney-with-jean-chatzky-ep-534-the-aging-and-money-mistakes-we-swear-we-won-t-make-a-f2c830.md",
+    "transcript_word_count": 4410,
+    "transcript_language": "en"
   },
   {
     "guid": "e52ddbce-c3c8-11f0-b1f3-53e0221184ee",
@@ -51678,23 +51897,38 @@
       "sectors": [
         "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "housing"
+      ],
+      "stocks": [
+        "meta",
+        "alphabet"
+      ],
       "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "real-estate": 1
+        "real-estate": 7,
+        "housing": 1,
+        "alphabet": 3,
+        "meta": 5
       },
       "entity_mention_density": {
-        "real-estate": 2.9
+        "real-estate": 1.1,
+        "housing": 0.2,
+        "alphabet": 0.5,
+        "meta": 0.8
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-the-millionaire-real-estate-agent-140-the-simple-lead-gen-systems-behind-a-30m-solo-agent-with-545534.md",
+    "transcript_word_count": 6131,
+    "transcript_language": "en"
   },
   {
     "guid": "3840d09a-7dd9-11f0-b2e7-f7aa0966f4d6",
@@ -57706,35 +57940,75 @@
     "duration": "5775",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML9783910508.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "banks",
+        "consumer-discretionary",
+        "real-estate",
+        "industrials"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "fiscal-debt",
+        "college-savings",
+        "rates-fed"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet",
+        "amazon",
+        "tmobile"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 2,
+        "consumer-discretionary": 2,
+        "real-estate": 1,
+        "industrials": 1,
+        "private-markets": 3,
+        "rates-fed": 2,
+        "fiscal-debt": 14,
+        "budgeting-saving": 20,
+        "college-savings": 5,
+        "alphabet": 2,
+        "amazon": 2,
+        "meta": 5,
+        "tmobile": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1,
-        "college-savings": 2.1,
-        "meta": 4.1
+        "banks": 0.1,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "fiscal-debt": 0.8,
+        "budgeting-saving": 1.1,
+        "college-savings": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "meta": 0.3,
+        "tmobile": 0.1
       },
       "entity_sentiment": {
-        "college-savings": 1.0
+        "college-savings": 1.0,
+        "budgeting-saving": 1.0,
+        "fiscal-debt": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": 0.0,
+        "fiscal-debt": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-financial-audit-she-came-here-to-fight-me-financial-audit-cbf726.md",
+    "transcript_word_count": 17249,
+    "transcript_language": "en"
   },
   {
     "guid": "c47d4633-f6a9-4f55-96d0-e11be37a1054",
@@ -57901,20 +58175,141 @@
     "duration": "00:40:22",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/faeba1e4-7ff5-4598-8f31-6b1df18d0dd8/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=faeba1e4-7ff5-4598-8f31-6b1df18d0dd8&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "technology",
+        "semiconductors",
+        "energy",
+        "crypto",
+        "industrials",
+        "media-entertainment"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "dealmaking",
+        "recession",
+        "geopolitics-tariffs",
+        "regulation-antitrust",
+        "bond-market",
+        "ai-boom",
+        "credit-markets"
+      ],
+      "stocks": [
+        "palantir",
+        "coinbase",
+        "nvidia",
+        "amazon",
+        "nasdaq",
+        "microsoft",
+        "sp500",
+        "netflix",
+        "bank-of-america"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 24,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 3,
+        "semiconductors": 2,
+        "ai-infrastructure": 5,
+        "energy": 2,
+        "consumer-discretionary": 4,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "crypto": 2,
+        "inflation": 18,
+        "rates-fed": 28,
+        "ai-boom": 2,
+        "recession": 3,
+        "credit-markets": 2,
+        "geopolitics-tariffs": 3,
+        "dealmaking": 10,
+        "regulation-antitrust": 3,
+        "bond-market": 3,
+        "nvidia": 4,
+        "microsoft": 3,
+        "amazon": 4,
+        "palantir": 6,
+        "bank-of-america": 1,
+        "coinbase": 5,
+        "sp500": 3,
+        "nasdaq": 4,
+        "netflix": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.6,
+        "energy": 0.3,
+        "consumer-discretionary": 0.5,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "crypto": 0.3,
+        "inflation": 2.3,
+        "rates-fed": 3.5,
+        "ai-boom": 0.3,
+        "recession": 0.4,
+        "credit-markets": 0.3,
+        "geopolitics-tariffs": 0.4,
+        "dealmaking": 1.3,
+        "regulation-antitrust": 0.4,
+        "bond-market": 0.4,
+        "nvidia": 0.5,
+        "microsoft": 0.4,
+        "amazon": 0.5,
+        "palantir": 0.8,
+        "bank-of-america": 0.1,
+        "coinbase": 0.6,
+        "sp500": 0.4,
+        "nasdaq": 0.5,
+        "netflix": 0.3
+      },
+      "entity_sentiment": {
+        "consumer-discretionary": 1.0,
+        "technology": 0.778,
+        "ai-infrastructure": 1.0,
+        "semiconductors": 1.0,
+        "crypto": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "inflation": 1.0,
+        "rates-fed": 0.778,
+        "recession": -1.0,
+        "dealmaking": 1.0,
+        "credit-markets": 1.0,
+        "ai-boom": 1.0,
+        "sp500": 1.0,
+        "nasdaq": 1.0,
+        "nvidia": 1.0,
+        "amazon": 1.0,
+        "coinbase": 1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -0.857,
+        "technology": -0.81,
+        "ai-infrastructure": -0.5,
+        "semiconductors": -0.5,
+        "crypto": -1.0,
+        "bond-market": -1.0,
+        "geopolitics-tariffs": -0.5,
+        "inflation": -0.727,
+        "rates-fed": -0.75,
+        "dealmaking": -0.667,
+        "credit-markets": -0.6,
+        "ai-boom": -0.636,
+        "netflix": -1.0,
+        "amazon": -0.857,
+        "coinbase": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-morning-call-software-sector-hit-by-double-whammy-fed-focus-meets-ai-opti-d18cab.md",
+    "transcript_word_count": 7907,
+    "transcript_language": "en"
   },
   {
     "guid": "ba2caa8a-18a1-11f1-98a4-2ffb1556c0e8",
@@ -66963,20 +67358,70 @@
     "duration": "1923",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML2784875357.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "insurance",
+        "private-markets",
+        "healthcare",
+        "real-estate"
+      ],
+      "themes": [
+        "insurance-products",
+        "budgeting-saving",
+        "diversification",
+        "fire-movement",
+        "passive-income"
+      ],
+      "stocks": [
+        "amazon",
+        "apple",
+        "tmobile",
+        "sp500"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "insurance": 9,
+        "healthcare": 6,
+        "real-estate": 1,
+        "private-markets": 7,
+        "budgeting-saving": 2,
+        "fire-movement": 1,
+        "passive-income": 1,
+        "diversification": 2,
+        "insurance-products": 3,
+        "apple": 1,
+        "amazon": 2,
+        "tmobile": 1,
+        "sp500": 1
+      },
+      "entity_mention_density": {
+        "insurance": 1.7,
+        "healthcare": 1.2,
+        "real-estate": 0.2,
+        "private-markets": 1.4,
+        "budgeting-saving": 0.4,
+        "fire-movement": 0.2,
+        "passive-income": 0.2,
+        "diversification": 0.4,
+        "insurance-products": 0.6,
+        "apple": 0.2,
+        "amazon": 0.4,
+        "tmobile": 0.2,
+        "sp500": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-11-earn-invest-741-ten-things-about-our-healthcare-system-3325ef.md",
+    "transcript_word_count": 5082,
+    "transcript_language": "en"
   },
   {
     "guid": "97ae4954-5e89-11f1-8aa4-0b743adb83cb",
@@ -68222,24 +68667,40 @@
         "hedge-funds",
         "small-caps-value-growth"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "berkshire",
+        "sp500",
+        "vanguard"
+      ],
+      "sentiment": -0.231,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "hedge-funds": 1,
-        "small-caps-value-growth": 1
+        "hedge-funds": 8,
+        "small-caps-value-growth": 8,
+        "berkshire": 1,
+        "sp500": 1,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "hedge-funds": 1.6,
-        "small-caps-value-growth": 1.6
+        "hedge-funds": 0.7,
+        "small-caps-value-growth": 0.7,
+        "berkshire": 0.1,
+        "sp500": 0.1,
+        "vanguard": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "small-caps-value-growth": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-chat-with-traders-325-jack-schwager-george-coyle-the-3-timeless-rules-shared-b-5b9493.md",
+    "transcript_word_count": 11015,
+    "transcript_language": "en"
   },
   {
     "guid": "Buzzsprout-19325261",
@@ -70145,26 +70606,55 @@
     "duration": "3022",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/www.claritaspod.com/measure/traffic.megaphone.fm/WWO8920458497.mp3?updated=1781020414",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "passive-income"
+      "sectors": [
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "real-estate-investing",
+        "retirement-planning",
+        "passive-income",
+        "budgeting-saving",
+        "behavioral-finance"
+      ],
+      "stocks": [
+        "fidelity"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "passive-income": 1
+        "real-estate": 7,
+        "budgeting-saving": 2,
+        "retirement-planning": 7,
+        "real-estate-investing": 12,
+        "passive-income": 3,
+        "behavioral-finance": 2,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "passive-income": 4.7
+        "real-estate": 0.9,
+        "budgeting-saving": 0.3,
+        "retirement-planning": 0.9,
+        "real-estate-investing": 1.6,
+        "passive-income": 0.4,
+        "behavioral-finance": 0.3,
+        "fidelity": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "passive-income": -1.0,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-afford-anything-q-a-why-do-i-still-feel-anxious-when-i-m-clearly-doing-well-7ed344.md",
+    "transcript_word_count": 7416,
+    "transcript_language": "en"
   },
   {
     "guid": "3e6b2c14-b52b-4b07-adf2-55e1c15e960b",
@@ -86268,29 +86758,86 @@
     "duration": "00:20:44",
     "audio_url": "https://dowjones.simplecastaudio.com/67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1/episodes/0b373e45-1781-42f7-9244-514278fe2db6/audio/128/default.mp3?aid=rss_feed&awCollectionId=67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1&awEpisodeId=0b373e45-1781-42f7-9244-514278fe2db6&feed=QeVni9a0",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "sp500",
-        "nasdaq"
+      "sectors": [
+        "energy",
+        "ai-infrastructure",
+        "semiconductors",
+        "utilities",
+        "consumer-discretionary",
+        "industrials"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "commodities",
+        "rates-fed",
+        "dealmaking",
+        "earnings",
+        "consumer-health"
+      ],
+      "stocks": [
+        "nasdaq",
+        "sp500",
+        "fidelity",
+        "russell2000"
+      ],
+      "sentiment": 1.0,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "sp500": 1,
-        "nasdaq": 1
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "energy": 6,
+        "utilities": 1,
+        "consumer-discretionary": 1,
+        "industrials": 1,
+        "inflation": 5,
+        "rates-fed": 1,
+        "commodities": 3,
+        "dealmaking": 1,
+        "earnings": 1,
+        "consumer-health": 1,
+        "sp500": 8,
+        "nasdaq": 18,
+        "russell2000": 1,
+        "fidelity": 3
       },
       "entity_mention_density": {
-        "sp500": 29.4,
-        "nasdaq": 29.4
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.6,
+        "energy": 1.8,
+        "utilities": 0.3,
+        "consumer-discretionary": 0.3,
+        "industrials": 0.3,
+        "inflation": 1.5,
+        "rates-fed": 0.3,
+        "commodities": 0.9,
+        "dealmaking": 0.3,
+        "earnings": 0.3,
+        "consumer-health": 0.3,
+        "sp500": 2.4,
+        "nasdaq": 5.3,
+        "russell2000": 0.3,
+        "fidelity": 0.9
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "sp500": 1.0,
+        "nasdaq": 1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "inflation": -1.0,
+        "commodities": -1.0,
+        "sp500": 1.0,
+        "nasdaq": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-28-stock-market-today-with-ibd-nasdaq-s-p-500-hit-highs-on-u-s-iran-deal-hopes-fslr-lly-aao-74cda3.md",
+    "transcript_word_count": 3362,
+    "transcript_language": "en"
   },
   {
     "guid": "a7f4af2c-05d5-11f1-8c9c-ef3fe1c73605",
@@ -90602,26 +91149,44 @@
     "duration": "3513",
     "audio_url": "https://www.buzzsprout.com/1989932/episodes/19241888-life-beyond-the-corporate-ladder-with-balu-masti-qualcomm.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology"
+      ],
       "themes": [],
       "stocks": [
-        "qualcomm"
+        "qualcomm",
+        "meta",
+        "intel"
       ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "qualcomm": 2
+        "technology": 4,
+        "meta": 1,
+        "intel": 1,
+        "qualcomm": 26
       },
       "entity_mention_density": {
-        "qualcomm": 24.7
+        "technology": 0.4,
+        "meta": 0.1,
+        "intel": 0.1,
+        "qualcomm": 2.9
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "qualcomm": -1.0,
+        "intel": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-retirement-power-play-life-beyond-the-corporate-ladder-with-balu-masti-qualcomm-241888.md",
+    "transcript_word_count": 8891,
+    "transcript_language": "en"
   },
   {
     "guid": "1914c0f7-6a82-4ae0-a435-04a53b3429f2",
@@ -100271,19 +100836,35 @@
     "audio_url": "https://traffic.megaphone.fm/RRM2941280376.mp3?updated=1779217471",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "elections-politics"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "elections-politics": 3,
+        "alphabet": 1
+      },
+      "entity_mention_density": {
+        "elections-politics": 0.7,
+        "alphabet": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-19-riskreversal-pod-rick-heitzmann-at-manhatta-standing-table-2-b5b52c.md",
+    "transcript_word_count": 4072,
+    "transcript_language": "en"
   },
   {
     "guid": "e1da92aa-4d52-11f1-aa2f-63ec88a3a47d",
