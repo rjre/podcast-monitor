@@ -1724,19 +1724,36 @@
     "duration": "989",
     "audio_url": "https://traffic.megaphone.fm/TTNSE3948158806.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "ai-infrastructure",
+        "private-markets"
+      ],
       "themes": [
-        "inflation",
         "earnings",
-        "bond-market"
+        "dealmaking",
+        "bond-market",
+        "rates-fed",
+        "inflation",
+        "credit-markets"
       ],
       "stocks": [
         "alphabet",
+        "amazon",
+        "meta",
+        "tesla",
         "jpmorgan",
+        "goldman-sachs",
         "sp500"
       ],
-      "sentiment": -1.0
-    }
+      "sentiment": -0.5
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-the-wall-street-skinny-why-jamie-dimon-won-t-buy-stocks-or-bonds-right-now-96cefe.md",
+    "transcript_word_count": 3270,
+    "transcript_language": "en",
+    "llm_summary": "JPMorgan's Jamie Dimon says he wouldn't buy US equities or Treasuries at current levels, and hosts point to record short interest, Alphabet's first-ever negative free cash flow quarter after another capex hike, and widening spreads on Meta/Oracle/SpaceX's 30-year bonds as signs that risk premium is too thin across every asset class ahead of next week's Fed meeting."
   },
   {
     "guid": "070409f8-fef5-4b9a-bda6-f0486e4c7251",
@@ -3773,11 +3790,38 @@
     "duration": "2205",
     "audio_url": "https://mcdn.podbean.com/mf/web/t7ppktx6uf4ukrft/BestStocksNow-260722.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "technology",
+        "energy",
+        "telecoms"
+      ],
+      "themes": [
+        "ai-boom",
+        "earnings",
+        "dealmaking",
+        "geopolitics-tariffs",
+        "regulation-antitrust"
+      ],
+      "stocks": [
+        "nvidia",
+        "amd",
+        "micron",
+        "tesla",
+        "alphabet",
+        "amazon",
+        "att",
+        "nasdaq"
+      ],
+      "sentiment": 0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-best-stocks-now-wednesday-july-22-2026-9712ec.md",
+    "transcript_word_count": 5479,
+    "transcript_language": "en",
+    "llm_summary": "Daily market recap: big gains across AI/semiconductor names (Micron up 12%, Sandisk, AMD's new OpenAI contract) even as SpaceX faces heavy share-lockup expirations and short interest ahead of its first earnings report, several states move to ban new data centers, and the host reiterates a long-standing bearish call on AT&T versus a bullish one on GE Vernova's nuclear/gas-turbine business and Dell's post-earnings surge."
   },
   {
     "guid": "6e14d568-85d5-11f1-9931-032f80102878",
@@ -5275,11 +5319,22 @@
     "duration": "35:48",
     "audio_url": "https://sphinx.acast.com/p/open/s/695ead68a32e86d775858194/e/6a5e8a5376f8ee25bb819a5f/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy"
+      ],
+      "themes": [
+        "regulation-antitrust",
+        "esg-climate"
+      ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": -0.4
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-slate-money-money-talks-plastic-plastic-everywhere-620777.md",
+    "transcript_word_count": 6258,
+    "transcript_language": "en",
+    "llm_summary": "Journalist Beth Gardner (author of 'Plastic Ink') traces plastic's origins to oil and gas petrochemical byproducts, details how the plastics industry borrowed greenwashing and PR tactics from Big Tobacco (including funding the recycling symbol and 'litter bug' campaigns), and argues 'extended producer responsibility' laws making manufacturers bear waste costs are the most promising lever for change."
   },
   {
     "guid": "36c46615-3e19-4706-893f-69f41317f1f0",
@@ -7159,10 +7214,18 @@
     "audio_url": "https://op3.dev/e/mcdn.podbean.com/mf/web/bfiz7e5izmqmhzsm/Clarification_on_Ep_237_HSA_Rules_for_Beneficiaries7vmo4.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "retirement-planning"
+      ],
       "stocks": [],
       "sentiment": 0.0
-    }
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-retire-with-style-clarification-on-ep-237-hsa-rules-for-beneficiaries-2daba0.md",
+    "transcript_word_count": 1032,
+    "transcript_language": "en",
+    "llm_summary": "A correction: unlike a spousal HSA beneficiary, a non-spousal beneficiary cannot use a decedent's saved medical receipts to offset the taxable income triggered when an inherited HSA terminates -- making an HSA a tax-inefficient asset to leave to non-spouse heirs, and often a better fit for a charitable beneficiary instead."
   },
   {
     "guid": "c298b4cc-b775-463e-8452-ecf77e34f753",
@@ -7605,10 +7668,20 @@
     "audio_url": "https://afp-956310-injected.calisto.simplecastaudio.com/ab975a59-96d1-442c-8b96-c8fba70005fe/episodes/02a0081f-d783-441e-b3fe-78b3680cf36b/audio/128/default.mp3?aid=rss_feed&awCollectionId=ab975a59-96d1-442c-8b96-c8fba70005fe&awEpisodeId=02a0081f-d783-441e-b3fe-78b3680cf36b&feed=Cyw1tJ_z",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "retirement-planning",
+        "passive-investing",
+        "emerging-markets"
+      ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-morningstar-investing-insights-don-t-leave-tax-savings-on-the-table-how-to-conduct-a-midyea-d2470f.md",
+    "transcript_word_count": 1933,
+    "transcript_language": "en",
+    "llm_summary": "Morningstar's Russ Kinnel picks IRA-friendly funds by strategy: simple one-stop options (target-date funds, Vanguard Total World), tax-efficient income funds for the 'maximize tax advantage' bucket (high-yield and multi-sector bond funds), and capital-appreciation picks split across emerging markets, value, and growth."
   },
   {
     "guid": "9b881d1e-8118-11f1-94b8-77891f4e74a0",
@@ -13229,13 +13302,35 @@
     "duration": "2517",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/4wuz8zw3ikk3w4jj/Macrovoices-2026-07-09-Adam-Parker.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "ai-boom"
+      "sectors": [
+        "semiconductors",
+        "energy",
+        "healthcare"
       ],
-      "stocks": [],
-      "sentiment": -1.0
-    }
+      "themes": [
+        "ai-boom",
+        "earnings",
+        "inflation",
+        "rates-fed",
+        "recession",
+        "commodities",
+        "currency-dollar",
+        "elections-politics",
+        "geopolitics-tariffs"
+      ],
+      "stocks": [
+        "micron",
+        "morgan-stanley",
+        "sp500"
+      ],
+      "sentiment": 0.5
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-macro-voices-macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifyin-49f27f.md",
+    "transcript_word_count": 7896,
+    "transcript_language": "en",
+    "llm_summary": "Trivariate's Adam Parker argues the US equity bull market has further to run on strong earnings even as valuations look stretched, favors energy as a rare diversifier uncorrelated to the crowded AI/semiconductor trade (with Micron still cheap by his simulations), sees a mispriced opportunity in healthcare, and says quality-factor investing has underperformed junk stocks for six years running."
   },
   {
     "guid": "0a4e5040-0440-4e2e-b7dd-a4781809428a",
@@ -14060,11 +14155,20 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "debt-payoff"
+        "debt-payoff",
+        "budgeting-saving",
+        "retirement-planning",
+        "passive-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.8
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-get-started-investing-how-this-29-year-old-nurse-paid-off-25k-debt-and-started-inv-e9540c.md",
+    "transcript_word_count": 4108,
+    "transcript_language": "en",
+    "llm_summary": "A 29-year-old nurse describes paying off $25,000 of credit-card debt and then building a simple, fully-automated investing habit -- weekly contributions into a diversified all-in-one ETF with no stock-picking, plus optimizing her retirement-account allocation -- as a template for reaching financial independence without complexity."
   },
   {
     "guid": "6a4e9d4ef8a80edf85f0f58b",
@@ -30457,12 +30561,31 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/bd6581ca-5dff-41c1-b4c5-b46b01441d87/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
     "tags": {
       "sectors": [
-        "industrials"
+        "energy",
+        "semiconductors",
+        "technology"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "themes": [
+        "geopolitics-tariffs",
+        "commodities",
+        "inflation",
+        "japan",
+        "emerging-markets",
+        "china",
+        "safe-havens",
+        "currency-dollar"
+      ],
+      "stocks": [
+        "jpmorgan"
+      ],
+      "sentiment": -0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-odd-lots-the-iran-war-s-lasting-scars-across-asia-441d87.md",
+    "transcript_word_count": 3168,
+    "transcript_language": "en",
+    "llm_summary": "Examines the uneven economic toll of the Iran war and Strait of Hormuz closure across Asia -- China cutting oil demand roughly 9%, Southeast Asian farmers and fishermen unable to afford fuel, Japan's inflation forcing BOJ rate-hike pressure, and a possible helium supply risk to chip manufacturing -- while wealthy economies drain strategic reserves and poorer ones ration demand instead."
   },
   {
     "guid": "6a319f2260728bbcda06b463",
@@ -30475,11 +30598,28 @@
     "duration": "20:08",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a319f2260728bbcda06b463/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "sectors": [
+        "ai-infrastructure"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "bond-market",
+        "currency-dollar",
+        "geopolitics-tariffs",
+        "fiscal-debt"
+      ],
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": -0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-unhedged-notes-from-the-ft-global-bond-summit-06b463.md",
+    "transcript_word_count": 3228,
+    "transcript_language": "en",
+    "llm_summary": "Reports from the FT Global Bond Summit: bond investors are quietly pricing 'three as the new two percent' for long-run inflation, watching new Fed chair Kevin Warsh's first press conference for signs of political independence, and increasingly diversifying away from US Treasuries ('de-treasuryization') as foreign demand broadens to non-US sovereign debt."
   },
   {
     "guid": "bfb178cd-e1fc-4f76-a082-a33c6c3be0a8",
@@ -31448,11 +31588,27 @@
     "duration": "00:17:27",
     "audio_url": "https://afp-956310-injected.calisto.simplecastaudio.com/d27c977a-47cf-41b9-923d-545b2b0f9f45/episodes/ff98b57b-965e-4772-8d93-cd6616431e1e/audio/128/default.mp3?aid=rss_feed&awCollectionId=d27c977a-47cf-41b9-923d-545b2b0f9f45&awEpisodeId=ff98b57b-965e-4772-8d93-cd6616431e1e&feed=3Or7cJoW",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "consumer-discretionary",
+        "consumer-staples",
+        "energy",
+        "banks"
+      ],
       "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "stocks": [
+        "alphabet",
+        "jpmorgan",
+        "exxon"
+      ],
+      "sentiment": 0.5
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-the-morning-filter-5-of-the-best-core-stocks-to-own-592d57.md",
+    "transcript_word_count": 3493,
+    "transcript_language": "en",
+    "llm_summary": "Morningstar's Dave Sekera picks one 'core stock' per sector to anchor a long-term portfolio -- Alphabet (comms), Lowe's (consumer cyclical), Procter & Gamble (staples), ExxonMobil (energy), and JPMorgan (financials) -- all rated with wide economic moats and exemplary capital allocation."
   },
   {
     "guid": "7d80da4c-da91-4785-9890-8a90ea817047",
@@ -58888,14 +59044,34 @@
     "duration": "00:25:37",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/2abef7ca-625f-4c74-9157-968d7da67c81/episodes/d93a11db-466b-4319-9c5e-d8b674ee3ef2/audio/128/default.mp3?aid=rss_feed&awCollectionId=2abef7ca-625f-4c74-9157-968d7da67c81&awEpisodeId=d93a11db-466b-4319-9c5e-d8b674ee3ef2&feed=VHAcgaw_",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "ai-boom",
-        "geopolitics-tariffs"
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "technology"
       ],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "themes": [
+        "geopolitics-tariffs",
+        "ai-boom",
+        "commodities",
+        "china",
+        "elections-politics",
+        "regulation-antitrust"
+      ],
+      "stocks": [
+        "nvidia",
+        "alphabet",
+        "apple",
+        "boeing",
+        "exxon"
+      ],
+      "sentiment": -0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-squawk-pod-weapons-of-mass-disruption-with-nyt-s-tom-friedman-5-8-26-952671.md",
+    "transcript_word_count": 5076,
+    "transcript_language": "en",
+    "llm_summary": "NYT's Tom Friedman argues the US and China need an 'arms control' framework for AI given its potential for mass disruption (citing Anthropic's new model), amid renewed US-Iran clashes near the Strait of Hormuz, a US tariff court setback, and Anthropic reportedly fundraising toward a $900B+ valuation on 80x revenue growth."
   },
   {
     "guid": "f49bba8b-d99c-4b76-91c8-b44401064175",
@@ -59498,11 +59674,21 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "inflation"
+        "inflation",
+        "budgeting-saving",
+        "retirement-planning",
+        "fire-movement",
+        "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-stacking-benjamins-40-ways-to-take-control-of-your-money-which-ones-actually-wo-SIkmS8.md",
+    "transcript_word_count": 8121,
+    "transcript_language": "en",
+    "llm_summary": "A roundtable revisits practical money habits -- automating savings to fight lifestyle inflation, understanding sequence-of-return risk, and debating whether the 4% withdrawal rule should be lower given longer lifespans -- while flagging that official inflation stats understate real erosion of purchasing power."
   },
   {
     "guid": "7971e28a-44ac-11f1-9c96-031801ad27dd",
@@ -61894,15 +62080,23 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM8777474756.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "real-estate"
       ],
       "themes": [
+        "debt-payoff",
         "budgeting-saving",
-        "debt-payoff"
+        "retirement-planning",
+        "real-estate-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-the-ramsey-show-live-from-charlotte-the-ramsey-show-on-tour-e0babd.md",
+    "transcript_word_count": 18667,
+    "transcript_language": "en",
+    "llm_summary": "Live audience Q&A covering Ramsey's Baby Steps framework -- paying off debt, building an emergency fund, investing 15% for retirement via 401(k)/Roth, and when it makes sense to invest in real estate (only after becoming completely debt-free, per the show's philosophy)."
   },
   {
     "guid": "4f37c72e-4582-11f1-a177-472cb4ec5cdb",
@@ -62895,12 +63089,18 @@
     "audio_url": "https://traffic.libsyn.com/secure/retirementstartstoday/RSTR451_Kids_Dont_Want.mp3?dest-id=317866",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [
-        "amazon"
+      "themes": [
+        "retirement-planning"
       ],
-      "sentiment": 0.0
-    }
+      "stocks": [],
+      "sentiment": 0.4
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-retirement-starts-today-sorry-your-kids-don-t-want-your-stuff-97d320.md",
+    "transcript_word_count": 3429,
+    "transcript_language": "en",
+    "llm_summary": "Discusses estate and gifting strategy for retirees: using the $19,000/person annual gift-tax exclusion to give money to adult children while it still has maximum impact ('give with warm hands'), plus Swedish death cleaning to simplify what heirs eventually inherit."
   },
   {
     "guid": "3e15d8d2-bfe5-11f0-a953-2f16ecf73587",
@@ -66024,14 +66224,25 @@
     "audio_url": "https://pdrl.fm/98e0b1/traffic.megaphone.fm/LSHML7281830977.mp3",
     "tags": {
       "sectors": [
-        "crypto"
+        "technology",
+        "ai-infrastructure"
       ],
-      "themes": [],
+      "themes": [
+        "ai-boom",
+        "dealmaking"
+      ],
       "stocks": [
-        "microsoft"
+        "microsoft",
+        "amazon"
       ],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.7
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-29-unchained-how-microsoft-won-in-its-revised-deal-with-openai-b5c344.md",
+    "transcript_word_count": 489,
+    "transcript_language": "en",
+    "llm_summary": "Analyzes Microsoft's revised, renegotiated agreement with OpenAI -- a non-exclusive IP license, continued revenue share through 2030, and reduced spending obligations -- concluding Microsoft comes out the clear winner, gaining a low-cost 'call option' on OpenAI's future model progress after OpenAI's flirtation with an Amazon deal reportedly breached its Microsoft contract."
   },
   {
     "guid": "5d38064e-43e4-11f1-bca1-279a85d8a414",
