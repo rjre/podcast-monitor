@@ -219,6 +219,7 @@ def main():
             if existing is not None and not args.retag:
                 continue
             ep["tags"] = tag_episode(ep, taxonomy)
+            ep["tags_source"] = "keyword"
             by_guid[ep["guid"]] = ep
             new_count += 1
 
