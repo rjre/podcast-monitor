@@ -13376,15 +13376,38 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML9556421386.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
+      "themes": [
+        "budgeting-saving",
+        "dividends-buybacks",
+        "insurance-products",
+        "fire-movement",
+        "inflation",
+        "passive-income",
+        "diversification"
+      ],
+      "stocks": [
+        "tmobile"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "inflation": 1,
+        "budgeting-saving": 6,
+        "fire-movement": 2,
+        "passive-income": 1,
+        "dividends-buybacks": 3,
+        "diversification": 1,
+        "insurance-products": 3,
+        "tmobile": 1
+      },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-earn-invest-751-ten-things-about-dying-a-millionaire-f9aba9.md",
+    "transcript_word_count": 5771,
+    "transcript_language": "en"
   },
   {
     "guid": "9eddca82-76ef-11f1-b6fe-d33d16622e02",
@@ -15013,19 +15036,30 @@
         "real-estate"
       ],
       "themes": [
-        "real-estate-investing"
+        "real-estate-investing",
+        "budgeting-saving",
+        "retirement-planning"
       ],
-      "stocks": [],
+      "stocks": [
+        "amazon"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "real-estate-investing": 1
+        "real-estate": 8,
+        "budgeting-saving": 2,
+        "retirement-planning": 1,
+        "real-estate-investing": 5,
+        "amazon": 2
       },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-diy-money-should-i-own-real-estate-93e750.md",
+    "transcript_word_count": 2250,
+    "transcript_language": "en"
   },
   {
     "guid": "567ae0ee-e1a8-4dfd-b1fe-4d342cb1c7f7",
@@ -20793,16 +20827,77 @@
     "duration": "2219",
     "audio_url": "https://mcdn.podbean.com/mf/web/a5tfe3uth38wibew/BestStocksNow-260709.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "crypto",
+        "energy",
+        "industrials"
+      ],
+      "themes": [
+        "dealmaking",
+        "inflation",
+        "ai-boom",
+        "rates-fed",
+        "recession",
+        "commodities",
+        "market-concentration"
+      ],
+      "stocks": [
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "tesla",
+        "costco",
+        "sp500",
+        "nasdaq",
+        "charles-schwab",
+        "amd",
+        "saudi-aramco",
+        "bitcoin"
+      ],
+      "sentiment": 0.143,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 5,
+        "ai-infrastructure": 6,
+        "energy": 2,
+        "industrials": 1,
+        "crypto": 3,
+        "inflation": 2,
+        "rates-fed": 1,
+        "ai-boom": 2,
+        "recession": 1,
+        "commodities": 1,
+        "dealmaking": 6,
+        "market-concentration": 1,
+        "nvidia": 8,
+        "microsoft": 7,
+        "alphabet": 6,
+        "tesla": 2,
+        "amd": 1,
+        "saudi-aramco": 1,
+        "costco": 2,
+        "bitcoin": 1,
+        "sp500": 2,
+        "nasdaq": 2,
+        "charles-schwab": 2
+      },
+      "entity_sentiment": {
+        "crypto": -1.0,
+        "ai-boom": -0.6,
+        "recession": -1.0,
+        "sp500": 1.0,
+        "alphabet": 1.0,
+        "nvidia": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-best-stocks-now-thursday-july-9-2026-784339.md",
+    "transcript_word_count": 4661,
+    "transcript_language": "en"
   },
   {
     "guid": "0839d2e2-7ba9-11f1-ada2-a704963c8209",
@@ -39559,15 +39654,46 @@
     "audio_url": "https://traffic.megaphone.fm/TIFM9816946393.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "themes": [
+        "recession",
+        "geopolitics-tariffs",
+        "regulation-antitrust",
+        "retirement-planning",
+        "dividends-buybacks",
+        "market-concentration"
+      ],
+      "stocks": [
+        "amazon",
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "cisco"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "recession": 1,
+        "geopolitics-tariffs": 1,
+        "regulation-antitrust": 1,
+        "retirement-planning": 1,
+        "dividends-buybacks": 1,
+        "market-concentration": 1,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 4,
+        "cisco": 1
+      },
+      "entity_sentiment": {
+        "recession": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-23-the-meb-faber-show-meb-faber-s-investing-in-america-out-july-4th-investing-in-a-0c7332.md",
+    "transcript_word_count": 4320,
+    "transcript_language": "en"
   },
   {
     "guid": "5f77c26a-bfe5-11f0-8a48-97585f59ac65",
@@ -40528,7 +40654,11 @@
       "entity_mentions": {},
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-economist-podcasts-trailer-tocqueville-road-trip-a7b494.md",
+    "transcript_word_count": 465,
+    "transcript_language": "en"
   },
   {
     "guid": "72533d6c-a51e-4e84-beb9-e18930c89e32",
@@ -41861,27 +41991,64 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC3448186157.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "semiconductors",
+        "ai-infrastructure",
+        "technology",
+        "real-estate",
+        "crypto",
+        "consumer-discretionary"
       ],
-      "themes": [],
+      "themes": [
+        "valuation",
+        "dealmaking",
+        "small-caps-value-growth",
+        "passive-income",
+        "diversification"
+      ],
       "stocks": [
+        "alphabet",
         "meta",
-        "nasdaq"
+        "bitcoin",
+        "amazon",
+        "sp500",
+        "nasdaq",
+        "netflix"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.158,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "meta": 1,
-        "nasdaq": 1
+        "technology": 2,
+        "semiconductors": 4,
+        "ai-infrastructure": 3,
+        "consumer-discretionary": 1,
+        "real-estate": 2,
+        "crypto": 2,
+        "dealmaking": 2,
+        "passive-income": 1,
+        "valuation": 4,
+        "small-caps-value-growth": 2,
+        "diversification": 1,
+        "alphabet": 11,
+        "amazon": 1,
+        "meta": 4,
+        "bitcoin": 2,
+        "sp500": 1,
+        "nasdaq": 1,
+        "netflix": 1
       },
       "entity_sentiment": {
         "ai-infrastructure": 1.0,
-        "nasdaq": 1.0
+        "valuation": 1.0,
+        "nasdaq": 1.0,
+        "alphabet": 1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-21-the-investor-s-podcast-we-study-billionaires-tip825-meta-adobe-booking-holdings-w-stig-brodersen-tobias-c-ef19af.md",
+    "transcript_word_count": 10460,
+    "transcript_language": "en"
   },
   {
     "guid": "f365ea98-9a94-4b8b-949a-37adc9315ab8",
@@ -43589,27 +43756,34 @@
       ],
       "themes": [
         "dealmaking",
-        "rates-fed"
+        "rates-fed",
+        "market-timing-dca"
       ],
       "stocks": [
         "bitcoin"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
         "semiconductors": 1,
-        "crypto": 4,
+        "crypto": 10,
         "rates-fed": 1,
-        "dealmaking": 2,
-        "bitcoin": 3
+        "dealmaking": 3,
+        "market-timing-dca": 1,
+        "bitcoin": 9
       },
       "entity_sentiment": {
-        "crypto": -1.0,
+        "crypto": 0.0,
+        "market-timing-dca": 1.0,
         "bitcoin": -1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-unchained-why-pandl-calls-gold-and-bitcoin-buys-here-f66b6e.md",
+    "transcript_word_count": 875,
+    "transcript_language": "en"
   },
   {
     "guid": "809e573c-d1ef-431c-b514-1da3aa14eed9",
@@ -46980,34 +47154,53 @@
     "tags": {
       "sectors": [
         "healthcare",
+        "real-estate",
         "consumer-discretionary"
       ],
       "themes": [
         "retirement-planning",
         "diversification",
-        "tax-planning"
+        "tax-planning",
+        "estate-planning",
+        "inflation",
+        "elections-politics",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "nvidia"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.4,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
+        "healthcare": 2,
         "consumer-discretionary": 1,
-        "retirement-planning": 9,
-        "diversification": 2,
-        "tax-planning": 2,
-        "amazon": 1
+        "real-estate": 2,
+        "inflation": 4,
+        "elections-politics": 3,
+        "retirement-planning": 27,
+        "dividends-buybacks": 1,
+        "diversification": 10,
+        "tax-planning": 10,
+        "estate-planning": 6,
+        "nvidia": 1,
+        "amazon": 2
       },
       "entity_sentiment": {
-        "retirement-planning": 0.333,
+        "real-estate": 1.0,
+        "retirement-planning": -0.2,
         "tax-planning": 0.333,
-        "diversification": 0.333
+        "diversification": 0.333,
+        "estate-planning": -1.0,
+        "inflation": -1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-retire-with-style-episode-233-should-you-worry-about-social-security-running-o-65f7be.md",
+    "transcript_word_count": 4650,
+    "transcript_language": "en"
   },
   {
     "guid": "f7525377-8f28-4a8e-9b7a-b46b00f2336e",
@@ -62078,16 +62271,32 @@
     "duration": "2198",
     "audio_url": "https://tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML2146840886.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
+      "sectors": [
+        "consumer-discretionary",
+        "media-entertainment"
+      ],
+      "themes": [
+        "earnings"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "consumer-discretionary": 3,
+        "media-entertainment": 2,
+        "earnings": 1,
+        "amazon": 2
+      },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-rule-breaker-investing-i-fought-the-law-and-the-law-won-vol-3-eea703.md",
+    "transcript_word_count": 5436,
+    "transcript_language": "en"
   },
   {
     "guid": "194b4870-59d9-4353-8756-b45e0104c371",
@@ -63722,16 +63931,38 @@
     "duration": "158",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/686e4747-a30b-431a-94dd-b45d00f023b6/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "insurance"
+      ],
+      "themes": [
+        "small-caps-value-growth",
+        "volatility",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "sp500",
+        "alphabet"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "insurance": 2,
+        "volatility": 2,
+        "small-caps-value-growth": 4,
+        "market-timing-dca": 2,
+        "alphabet": 1,
+        "sp500": 2
+      },
+      "entity_sentiment": {
+        "insurance": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-02-bloomberg-surveillance-single-best-idea-with-tom-keene-ted-mortonson-and-francis-ga-f023b6.md",
+    "transcript_word_count": 1105,
+    "transcript_language": "en"
   },
   {
     "guid": "f8044eb3-3aa9-4bb4-8330-476cc7045427",
@@ -66544,24 +66775,44 @@
     "audio_url": "https://traffic.megaphone.fm/THRH7454318216.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "ai-infrastructure",
+        "consumer-discretionary"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "rates-fed",
+        "consumer-health"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "tesla",
+        "costco"
+      ],
+      "sentiment": 0.778,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "inflation": 3
+        "semiconductors": 5,
+        "ai-infrastructure": 3,
+        "consumer-discretionary": 1,
+        "inflation": 13,
+        "rates-fed": 3,
+        "consumer-health": 1,
+        "tesla": 3,
+        "costco": 1
       },
       "entity_sentiment": {
-        "inflation": -1.0
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "inflation": 0.667,
+        "rates-fed": 1.0
       }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-30-reuters-morning-bid-week-in-review-hot-inflation-trillion-dollar-chips-and-blue-23493d.md",
+    "transcript_word_count": 1160,
+    "transcript_language": "en"
   },
   {
     "guid": "019909ba-ab60-4975-bbb2-b45900e53a59",
@@ -70885,28 +71136,47 @@
     "duration": "39:22",
     "audio_url": "https://traffic.libsyn.com/secure/bestinterest/MIX_140_TBI_4.mp3?dest-id=2640104",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "inflation",
-        "behavioral-finance",
         "diversification",
+        "retirement-planning",
+        "market-timing-dca",
+        "rates-fed",
+        "volatility",
+        "passive-income",
+        "behavioral-finance",
         "tax-planning",
         "estate-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "inflation": 4,
+        "real-estate": 7,
+        "inflation": 36,
+        "rates-fed": 1,
+        "volatility": 1,
+        "retirement-planning": 6,
+        "passive-income": 1,
         "behavioral-finance": 1,
-        "diversification": 1,
+        "diversification": 8,
         "tax-planning": 1,
-        "estate-planning": 1
+        "estate-planning": 1,
+        "market-timing-dca": 3
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "inflation": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-personal-finance-for-long-term-investors-the-14-retirement-risks-and-how-to-beat-them-pt-1-e140-e8753f.md",
+    "transcript_word_count": 7405,
+    "transcript_language": "en"
   },
   {
     "guid": "2c4a2f51-8cd5-41c3-84cc-fc7401d071cf",
@@ -76476,21 +76746,50 @@
         "private-markets"
       ],
       "themes": [
+        "retirement-planning",
+        "passive-investing",
         "regulation-antitrust",
-        "passive-investing"
+        "rates-fed",
+        "dealmaking",
+        "dividends-buybacks",
+        "small-caps-value-growth",
+        "diversification",
+        "college-savings",
+        "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "sp500",
+        "nasdaq"
+      ],
+      "sentiment": -0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "private-markets": 2,
-        "regulation-antitrust": 1,
-        "passive-investing": 1
+        "private-markets": 8,
+        "rates-fed": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 2,
+        "passive-investing": 10,
+        "retirement-planning": 14,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "college-savings": 1,
+        "market-timing-dca": 1,
+        "sp500": 3,
+        "nasdaq": 1
       },
-      "entity_sentiment": {}
+      "entity_sentiment": {
+        "private-markets": -1.0,
+        "retirement-planning": 1.0,
+        "sp500": 1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-rational-reminder-episode-410-the-state-of-investing-in-2026-cc9667.md",
+    "transcript_word_count": 8165,
+    "transcript_language": "en"
   },
   {
     "guid": "5e4e267c-bfe5-11f0-8a48-03d1e2ad390d",
@@ -90550,19 +90849,53 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/52d36a4f-fb2e-4e58-b28f-b44400e35917/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "real-estate",
+        "technology"
       ],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "esg-climate",
+        "market-structure",
+        "dividends-buybacks",
+        "dealmaking",
+        "passive-investing",
+        "market-timing-dca",
+        "rates-fed",
+        "volatility",
+        "hedge-funds",
+        "emerging-markets"
+      ],
+      "stocks": [
+        "amazon",
+        "vanguard"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "private-markets": 1
+        "technology": 1,
+        "real-estate": 2,
+        "private-markets": 9,
+        "rates-fed": 1,
+        "volatility": 1,
+        "dealmaking": 2,
+        "esg-climate": 8,
+        "hedge-funds": 1,
+        "passive-investing": 2,
+        "market-structure": 3,
+        "emerging-markets": 1,
+        "dividends-buybacks": 3,
+        "market-timing-dca": 2,
+        "amazon": 1,
+        "vanguard": 1
       },
       "entity_sentiment": {}
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-money-stuff-timeless-wisdom-a-mailbag-episode-e35917.md",
+    "transcript_word_count": 5830,
+    "transcript_language": "en"
   },
   {
     "guid": "0d417e21-d0f2-4232-9087-ddf78c41adf0",
@@ -95565,16 +95898,36 @@
     "duration": "1049",
     "audio_url": "https://www.buzzsprout.com/1989932/episodes/19045460-what-a-real-financial-plan-actually-looks-like.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_sentiment": {}
+      "sectors": [
+        "airlines-travel"
+      ],
+      "themes": [
+        "rates-fed",
+        "fire-movement",
+        "tax-planning"
+      ],
+      "stocks": [
+        "jpmorgan"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "airlines-travel": 1,
+        "rates-fed": 1,
+        "fire-movement": 1,
+        "tax-planning": 1,
+        "jpmorgan": 1
+      },
+      "entity_sentiment": {
+        "jpmorgan": -1.0
+      }
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-retirement-power-play-what-a-real-financial-plan-actually-looks-like-045460.md",
+    "transcript_word_count": 2932,
+    "transcript_language": "en"
   },
   {
     "guid": "69f816c231b7853e9b41f682",
