@@ -330,6 +330,20 @@ def divergent_entities(entities, min_mentions=5, top_n=5):
     return sorted(cands, key=lambda e: abs(e["sentiment_divergence"]), reverse=True)[:top_n]
 
 
+def turning_point_entities(entities, min_mentions=5, min_prior=3, top_n=5):
+    # Volume momentum (rising/falling) and tone momentum (turning_bullish/
+    # turning_bearish) are independent axes -- an entity can be discussed
+    # the same amount but with the mood flipping underneath.
+    cands = [e for e in entities if e.get("sentiment_trend") in ("turning_bullish", "turning_bearish")
+             and e["mentions"] >= min_mentions and e["prior_30d_mentions"] >= min_prior]
+    return sorted(cands, key=lambda e: abs(e["sentiment_shift"]), reverse=True)[:top_n]
+
+
+def most_volatile_entities(entities, min_mentions=8, top_n=5):
+    cands = [e for e in entities if e["mentions"] >= min_mentions and e.get("sentiment_volatility") is not None]
+    return sorted(cands, key=lambda e: e["sentiment_volatility"], reverse=True)[:top_n]
+
+
 def most_contested_entities(entities, min_mentions=5, min_contested=2, top_n=5):
     # min_contested avoids a single clashing episode out of a dozen ranking
     # above a topic genuinely fought over in several -- ratio alone is too
@@ -450,6 +464,38 @@ def render_things_to_notice(aggregates):
                 e["kind"], e["label"],
                 f"{e['buy_mentions']} buy call(s) vs {e['sell_mentions']} sell call(s)",
                 leaning.upper(), cls,
+            )
+
+    st.markdown("&nbsp;", unsafe_allow_html=True)
+    col_turning, col_volatile = st.columns(2)
+
+    with col_turning:
+        st.markdown("**\U0001F504 Turning point**")
+        st.caption("Same volume of coverage, but the mood underneath it has flipped in the last 30 days.")
+        turning = turning_point_entities(entities)
+        if not turning:
+            st.caption("No clear tone reversal right now.")
+        for e in turning:
+            bullish = e["sentiment_trend"] == "turning_bullish"
+            cls = "sent-bullish" if bullish else "sent-bearish"
+            arrow = "↗" if bullish else "↘"
+            render_notice_row(
+                e["kind"], e["label"],
+                f"tone was {e['prior_avg_sentiment']:+.2f} 30-60 days ago, now {e['recent_avg_sentiment']:+.2f}",
+                f"{arrow} {'bullish' if bullish else 'bearish'}", cls,
+            )
+
+    with col_volatile:
+        st.markdown("**\U0001F3A2 Most volatile tone**")
+        st.caption("Opinion swings wildly month to month, rather than settling on a consistent read.")
+        volatile = most_volatile_entities(entities)
+        if not volatile:
+            st.caption("Nothing with enough monthly history to judge volatility yet.")
+        for e in volatile:
+            render_notice_row(
+                e["kind"], e["label"],
+                f"tone swings ±{e['sentiment_volatility']:.2f} across months (avg {e['avg_sentiment']:+.2f})",
+                f"σ {e['sentiment_volatility']:.2f}", "sent-neutral",
             )
 
 

@@ -18,6 +18,7 @@ the JSON without re-running anything):
 import argparse
 import json
 import os
+import statistics
 import sys
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
@@ -29,6 +30,17 @@ from datetime import datetime, timedelta, timezone
 MOMENTUM_WINDOW_DAYS = 30
 TREND_RISING_PCT = 20.0
 TREND_FALLING_PCT = -20.0
+
+# How much avg_sentiment/avg_conviction has to move between the same two
+# windows to count as a real shift rather than noise, on their native -1..1
+# scale.
+SENTIMENT_SHIFT_THRESHOLD = 0.25
+CONVICTION_SHIFT_THRESHOLD = 0.3
+
+# Minimum months of history (from the monthly time series) before
+# sentiment_volatility is reported -- variance off 1-2 data points isn't a
+# real "how much does opinion swing" signal.
+MIN_MONTHS_FOR_VOLATILITY = 3
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -88,6 +100,22 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
         called it a buy vs. a sell -- an actionable tally, not just tone.
       - contested_episodes: how many episodes flagged this entity as
         entity_contested (meaningful bullish AND bearish language at once).
+
+    momentum_pct/trend track a shift in how MUCH an entity is discussed.
+    These three track a shift in HOW it's discussed -- the actual ask
+    behind this feature ("tease out changes in tone/sentiment"):
+      - sentiment_shift / sentiment_trend: avg_sentiment in the trailing
+        MOMENTUM_WINDOW_DAYS vs. the window before that. A sentiment of,
+        say, +0.1 tells you nothing about direction of travel -- this
+        does: "turning_bullish"/"turning_bearish"/"stable"/
+        "insufficient-data".
+      - conviction_shift / conviction_trend: same idea, for avg_conviction
+        -- "growing_confidence"/"growing_doubt" independent of whether the
+        tone itself moved.
+      - sentiment_volatility: standard deviation of the monthly avg_sentiment
+        series -- a topic with wide swings month to month (contested over
+        time) reads very differently from one that's been steadily +0.3
+        for a year, even if their overall averages match.
     """
     now = now or datetime.now(timezone.utc)
     recent_start = now - timedelta(days=MOMENTUM_WINDOW_DAYS)
@@ -105,7 +133,10 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
     def new_agg():
         return {"mentions": 0, "total_hits": 0, "sentiment_sum": 0.0, "sentiment_n": 0,
                  "recent": 0, "prior": 0, "conviction_sum": 0.0, "conviction_n": 0,
-                 "buy_mentions": 0, "sell_mentions": 0, "contested_episodes": 0}
+                 "buy_mentions": 0, "sell_mentions": 0, "contested_episodes": 0,
+                 "recent_sentiment_sum": 0.0, "prior_sentiment_sum": 0.0,
+                 "recent_conviction_sum": 0.0, "recent_conviction_n": 0,
+                 "prior_conviction_sum": 0.0, "prior_conviction_n": 0}
 
     totals = {k: defaultdict(new_agg) for k in labels}
     monthly = {k: defaultdict(lambda: defaultdict(lambda: {"mentions": 0, "sentiment_sum": 0.0})) for k in labels}
@@ -136,14 +167,23 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                 local_sentiment = entity_sentiment.get(entity_id, sentiment)
                 agg["sentiment_sum"] += local_sentiment
                 agg["sentiment_n"] += 1
+                local_conviction = entity_conviction.get(entity_id)
+                if local_conviction is not None:
+                    agg["conviction_sum"] += local_conviction
+                    agg["conviction_n"] += 1
                 if pub_dt is not None:
                     if pub_dt >= recent_start:
                         agg["recent"] += 1
+                        agg["recent_sentiment_sum"] += local_sentiment
+                        if local_conviction is not None:
+                            agg["recent_conviction_sum"] += local_conviction
+                            agg["recent_conviction_n"] += 1
                     elif pub_dt >= prior_start:
                         agg["prior"] += 1
-                if entity_id in entity_conviction:
-                    agg["conviction_sum"] += entity_conviction[entity_id]
-                    agg["conviction_n"] += 1
+                        agg["prior_sentiment_sum"] += local_sentiment
+                        if local_conviction is not None:
+                            agg["prior_conviction_sum"] += local_conviction
+                            agg["prior_conviction_n"] += 1
                 stance = entity_stance.get(entity_id)
                 if stance == "buy":
                     agg["buy_mentions"] += 1
@@ -171,6 +211,22 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
             trend = "flat"
         return pct, trend
 
+    def windowed_shift(recent_sum, recent_n, prior_sum, prior_n, threshold, rising_label, falling_label):
+        """Same before/after-window comparison as momentum(), but for an
+        average (sentiment or conviction) instead of a raw count."""
+        recent_avg = round(recent_sum / recent_n, 3) if recent_n else None
+        prior_avg = round(prior_sum / prior_n, 3) if prior_n else None
+        if recent_avg is None or prior_avg is None:
+            return recent_avg, prior_avg, None, "insufficient-data"
+        shift = round(recent_avg - prior_avg, 3)
+        if shift > threshold:
+            label = rising_label
+        elif shift < -threshold:
+            label = falling_label
+        else:
+            label = "stable"
+        return recent_avg, prior_avg, shift, label
+
     def finalize(kind):
         out = []
         for entity_id, agg in totals[kind].items():
@@ -182,6 +238,21 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                 {"month": m, "mentions": v["mentions"], "avg_sentiment": round(v["sentiment_sum"] / v["mentions"], 3)}
                 for m, v in sorted(monthly[kind][entity_id].items())
             ]
+
+            recent_avg_sentiment, prior_avg_sentiment, sentiment_shift, sentiment_trend = windowed_shift(
+                agg["recent_sentiment_sum"], agg["recent"], agg["prior_sentiment_sum"], agg["prior"],
+                SENTIMENT_SHIFT_THRESHOLD, "turning_bullish", "turning_bearish")
+            _, _, conviction_shift, conviction_trend = windowed_shift(
+                agg["recent_conviction_sum"], agg["recent_conviction_n"],
+                agg["prior_conviction_sum"], agg["prior_conviction_n"],
+                CONVICTION_SHIFT_THRESHOLD, "growing_confidence", "growing_doubt")
+
+            monthly_sentiments = [m["avg_sentiment"] for m in series]
+            sentiment_volatility = (
+                round(statistics.pstdev(monthly_sentiments), 3)
+                if len(monthly_sentiments) >= MIN_MONTHS_FOR_VOLATILITY else None
+            )
+
             out.append({
                 "id": entity_id,
                 "label": labels[kind].get(entity_id, entity_id),
@@ -189,11 +260,18 @@ def build_aggregates(episodes, taxonomy_raw, now=None):
                 "total_hits": agg["total_hits"],
                 "avg_sentiment": avg_sent,
                 "sentiment_divergence": round(avg_sent - global_avg_sentiment, 3),
+                "recent_avg_sentiment": recent_avg_sentiment,
+                "prior_avg_sentiment": prior_avg_sentiment,
+                "sentiment_shift": sentiment_shift,
+                "sentiment_trend": sentiment_trend,
+                "sentiment_volatility": sentiment_volatility,
                 "recent_30d_mentions": agg["recent"],
                 "prior_30d_mentions": agg["prior"],
                 "momentum_pct": momentum_pct,
                 "trend": trend,
                 "avg_conviction": avg_conviction,
+                "conviction_shift": conviction_shift,
+                "conviction_trend": conviction_trend,
                 "buy_mentions": agg["buy_mentions"],
                 "sell_mentions": agg["sell_mentions"],
                 "contested_episodes": agg["contested_episodes"],

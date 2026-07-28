@@ -220,6 +220,23 @@ before that: `rising`/`falling`/`flat`/`new`/`insufficient-data`),
 `entity_stance` called it a buy vs. a sell), `contested_episodes`, and the
 monthly time series.
 
+`momentum_pct`/`trend` track a shift in how *much* an entity is discussed.
+Three more fields track a shift in *how* it's discussed -- an entity can
+hold steady in coverage volume while the mood underneath it flips:
+
+- `sentiment_shift`/`sentiment_trend` (`recent_avg_sentiment` in the
+  trailing 30 days vs. `prior_avg_sentiment` in the 30 days before that):
+  `turning_bullish`/`turning_bearish`/`stable`/`insufficient-data`. A
+  sentiment of +0.1 alone tells you nothing about direction of travel --
+  this does.
+- `conviction_shift`/`conviction_trend`: the same idea for `avg_conviction`
+  -- `growing_confidence`/`growing_doubt`, independent of whether the tone
+  itself moved.
+- `sentiment_volatility`: standard deviation of the monthly `avg_sentiment`
+  series (once there are at least 3 months of history). A topic with wide
+  month-to-month swings reads very differently from one that's been
+  steadily +0.3 for a year, even if their overall averages match.
+
 ## Running it
 
 ```bash
