@@ -7569,12 +7569,19 @@
         "real-estate"
       ],
       "themes": [
+        "rates-fed",
         "housing",
         "real-estate-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-real-estate-rookie-the-housing-market-is-shifting-here-s-what-rookies-should-do-6c3e74.md",
+    "transcript_word_count": 3939,
+    "transcript_language": "en",
+    "llm_summary": "Advises new real estate investors not to try to time the market -- underwrite each deal conservatively on today's numbers rather than waiting for 'better' rates -- and to consider alternative strategies (short-term rentals, assisted living, out-of-state investing) when local cash flow doesn't pencil out in expensive markets."
   },
   {
     "guid": "6a59f9ae461a6a41901ae410",
@@ -11112,11 +11119,21 @@
       "sectors": [],
       "themes": [
         "budgeting-saving",
-        "fire-movement"
+        "debt-payoff",
+        "fire-movement",
+        "retirement-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-money-guy-show-financial-advisors-react-to-jaw-dropping-money-clips-1737cc.md",
+    "transcript_word_count": 2996,
+    "transcript_language": "en",
+    "llm_summary": "Advisors react to viral money clips -- debunking a misleading 'Pokemon cards beat the S&P 500' comparison (survivorship bias vs. a diversified index), warning that Disney-trip debt and DoorDash markups quietly erode budgets, and reiterating that a high credit score signals financial responsibility, not more debt."
   },
   {
     "guid": "d95b3c08-7512-4bb2-9edf-144f945d9e9a",
@@ -15204,11 +15221,24 @@
     "duration": "20:28",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a4d44034d6f6e9e984cc262/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "technology"
+      ],
+      "themes": [
+        "ai-boom",
+        "market-structure"
+      ],
+      "stocks": [
+        "sp500"
+      ],
       "sentiment": 0.0
-    }
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-07-unhedged-software-stocks-got-crushed-did-they-have-it-coming-4cc262.md",
+    "transcript_word_count": 3236,
+    "transcript_language": "en",
+    "llm_summary": "Examines whether the ~20% two-year decline in software/SaaS stocks versus a rallying broader market is an overreaction to AI-replaces-software fears, concluding mission-critical, regulation-embedded software (the 'system of record') is far more defensible than the market currently prices, while the Bank of England warns AI stocks now make up roughly half the S&P 500."
   },
   {
     "guid": "f137f4f6-79b5-11f1-b5af-830bf6a3b379",
@@ -15739,15 +15769,26 @@
     "audio_url": "https://traffic.libsyn.com/secure/907abc9d-4c7b-47a1-8cfc-11723daea7de/AA_-_EP.39_Anant_Kumar_-_AUDIO_V2.mp3?dest-id=4090161",
     "tags": {
       "sectors": [
+        "technology",
+        "real-estate",
         "private-markets"
       ],
       "themes": [
         "ai-boom",
-        "credit-markets"
+        "credit-markets",
+        "regulation-antitrust"
       ],
-      "stocks": [],
-      "sentiment": -1.0
-    }
+      "stocks": [
+        "microsoft"
+      ],
+      "sentiment": 0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-07-alternative-allocations-separating-noise-from-reality-in-the-private-credit-market-e-06c930.md",
+    "transcript_word_count": 4701,
+    "transcript_language": "en",
+    "llm_summary": "A private credit strategist argues recent headline scares (the First Brands/TriColor frauds, Jamie Dimon's 'cockroach' comment, AI disrupting SaaS) are overblown and non-systemic -- direct lending's software exposure varies hugely by manager, and companies with regulatory moats or proprietary compounding data (e.g. Epic in healthcare) are far more AI-resistant than generic horizontal software."
   },
   {
     "guid": "c0728bce-1159-46a9-9b71-ee73e35b6fb1",
@@ -20214,11 +20255,29 @@
     "duration": "00:07:07",
     "audio_url": "https://traffic.megaphone.fm/APO4238815506.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "sectors": [
+        "real-estate",
+        "technology",
+        "crypto"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "housing",
+        "consumer-health"
+      ],
+      "stocks": [
+        "alphabet",
+        "bitcoin"
+      ],
+      "sentiment": -0.4
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-one-rental-at-a-time-time-to-raise-rates-ester-george-2fe993.md",
+    "transcript_word_count": 1166,
+    "transcript_language": "en",
+    "llm_summary": "Daily real-estate/markets roundup: Fed officials flipping from expecting cuts to hikes, record-high US credit card delinquencies (13.1%), home affordability near record lows in LA/NYC/Boston, and MicroStrategy authorizing up to $1.25B in Bitcoin sales."
   },
   {
     "guid": "b276f8ce-4742-4660-a244-b47900fc0a5a",
@@ -24944,14 +25003,19 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving",
-        "fire-movement"
+        "fire-movement",
+        "career-income",
+        "budgeting-saving"
       ],
-      "stocks": [
-        "meta"
-      ],
-      "sentiment": 1.0
-    }
+      "stocks": [],
+      "sentiment": 0.5
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-journey-to-launch-episode-484-life-lately-working-less-living-more-embracing-u-9456cb.md",
+    "transcript_word_count": 7503,
+    "transcript_language": "en",
+    "llm_summary": "A personal, reflective solo episode on working less and embracing uncertainty after years of pursuing financial independence -- less a market or investing discussion than a check-in on lifestyle and career tradeoffs enabled by FIRE-style saving."
   },
   {
     "guid": "62b308ee-6f09-11f1-8fe5-07942492043d",
@@ -28208,12 +28272,21 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/69c148bb1a160b44db9c8fcc/e/6a3061966cf76d774570b816/media.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [
-        "meta"
+      "themes": [
+        "volatility",
+        "passive-investing",
+        "budgeting-saving",
+        "retirement-planning"
       ],
-      "sentiment": 0.0
-    }
+      "stocks": [],
+      "sentiment": 0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-money-girl-should-i-invest-a-lump-sum-or-equally-throughout-the-year-70b816.md",
+    "transcript_word_count": 1510,
+    "transcript_language": "en",
+    "llm_summary": "Explains dollar-cost averaging versus lump-sum investing for a bonus-funded IRA contribution -- lump sum wins on average since markets trend up over time, but DCA reduces regret risk and suits investors uncomfortable with volatility."
   },
   {
     "guid": "90aa3b1e-c37e-4480-af1f-b0da38b1885a",
@@ -33472,14 +33545,23 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM7440179903.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "real-estate"
       ],
       "themes": [
-        "budgeting-saving"
+        "debt-payoff",
+        "budgeting-saving",
+        "retirement-planning",
+        "real-estate-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-the-ramsey-show-live-from-anaheim-the-ramsey-show-on-tour-f5d347.md",
+    "transcript_word_count": 20014,
+    "transcript_language": "en",
+    "llm_summary": "Live audience Q&A on Ramsey's Baby Steps philosophy -- merging finances as a couple without merging arguments, using a VA loan, and managing a family rental property -- reinforcing debt-free living, budgeting as a team, and disciplined retirement investing."
   },
   {
     "guid": "110848fc-38a6-49af-ae80-8484dce8764c",
@@ -39992,11 +40074,23 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "inflation"
+        "japan",
+        "recession",
+        "volatility",
+        "passive-investing",
+        "market-structure"
       ],
-      "stocks": [],
-      "sentiment": -1.0
-    }
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": 0.5
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-rational-reminder-ben-carlson-investing-at-all-time-highs-412-c065fc.md",
+    "transcript_word_count": 11090,
+    "transcript_language": "en",
+    "llm_summary": "Ritholtz's Ben Carlson argues historical data shows investing at all-time highs is statistically fine (forward returns are typically as good or better than average), while Japan's 1989 bubble and multi-decade bust remains the legitimate historical exception worth understanding rather than dismissing -- and that recessionary bear markets are far deeper and longer than non-recessionary ones."
   },
   {
     "guid": "d1fa2ae4-5fa4-11f1-b6cb-1fe946ee4220",
@@ -44078,11 +44172,21 @@
       "sectors": [],
       "themes": [
         "debt-payoff",
-        "real-estate-investing"
+        "retirement-planning",
+        "real-estate-investing",
+        "passive-income"
       ],
-      "stocks": [],
-      "sentiment": 0.0
-    }
+      "stocks": [
+        "walmart"
+      ],
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-brown-ambition-using-a-401-k-loan-to-tackle-debt-smart-or-risky-ba-qa-de8818.md",
+    "transcript_word_count": 5037,
+    "transcript_language": "en",
+    "llm_summary": "Weighs whether a zero-interest 401(k) loan is a reasonable way to pay off high-interest debt (yes, if disciplined and employed, since you repay yourself) versus the risk it becomes due in full immediately upon job loss, and separately advises a $200K inheritance recipient to consider an investment property or index-fund investing over paying off a low-rate mortgage."
   },
   {
     "guid": "e0186e52-50e1-43c2-83ba-53eda179d147",
@@ -50152,10 +50256,21 @@
     "audio_url": "https://pdrl.fm/f4ec40/pscrb.fm/rss/p/mgln.ai/e/143/tracking.swap.fm/track/Vjambo9ifGBwbaCTlDBD/traffic.megaphone.fm/SONY8798241504.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "budgeting-saving",
+        "fire-movement",
+        "passive-investing"
+      ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.4
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-financial-tea-with-mrs-dow-jones-how-to-build-wealth-for-your-future-rich-self-569b6e.md",
+    "transcript_word_count": 5864,
+    "transcript_language": "en",
+    "llm_summary": "A personal-finance creator promotes her new book on 'action money' -- automating savings/investing before lifestyle creep absorbs a raise -- citing a Goldman Sachs finding that nearly 40% of Americans earning $300K+ live paycheck to paycheck due to lifestyle-creep-driven fixed costs."
   },
   {
     "guid": "f683dc86-b418-11ef-adc4-9fd5654ba1ba",
@@ -51849,12 +51964,31 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/747e9d28-f7df-4926-bc64-b44e0124705e/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "semiconductors"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 1.0
-    }
+      "themes": [
+        "geopolitics-tariffs",
+        "china",
+        "japan",
+        "ai-boom",
+        "fiscal-debt",
+        "safe-havens",
+        "volatility",
+        "hedge-funds",
+        "emerging-markets"
+      ],
+      "stocks": [
+        "nvidia"
+      ],
+      "sentiment": 0.1
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-19-odd-lots-deutsche-bank-s-ozan-tarman-and-aditya-singhal-on-understand-24705e.md",
+    "transcript_word_count": 6157,
+    "transcript_language": "en",
+    "llm_summary": "Deutsche Bank traders describe a market climbing a 'wall of worry' -- Strait of Hormuz tensions, UK gilt stress, and AI-driven job-loss fears all failing to derail the rally -- while arguing China's growing manufacturing self-sufficiency and its own competitive AI models (not just US capex) are the underappreciated multi-year risk to Western markets."
   },
   {
     "guid": "2591c68e-4e30-11f1-b14d-1f60edb5b52c",
@@ -57012,16 +57146,24 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/596ee8b36b3475a168b0d8f5/e/69e2e075d2febdbec9d46302/media.mp3",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "real-estate"
       ],
       "themes": [
-        "passive-investing"
+        "passive-investing",
+        "budgeting-saving",
+        "fire-movement",
+        "real-estate-investing"
       ],
-      "stocks": [
-        "meta"
-      ],
-      "sentiment": -1.0
-    }
+      "stocks": [],
+      "sentiment": -0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-simple-passive-cashflow-the-sandwich-generation-aging-parents-and-raising-kids-d46302.md",
+    "transcript_word_count": 2398,
+    "transcript_language": "en",
+    "llm_summary": "Discusses the financial toll of the 'sandwich generation' -- caregivers squeezed between funding kids' education and their own retirement -- and argues it delays access to higher-return alternative investments (real estate, private deals) until an inheritance or life change frees up capital and confidence."
   },
   {
     "guid": "a6ee3e2a-7dd8-11f0-8a84-b3cd45865744",
@@ -62001,14 +62143,21 @@
     "audio_url": "https://traffic.megaphone.fm/TTNSE3611502007.mp3",
     "tags": {
       "sectors": [
+        "banks",
         "private-markets"
       ],
       "themes": [
         "dealmaking"
       ],
       "stocks": [],
-      "sentiment": 0.0
-    }
+      "sentiment": -0.3
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-the-wall-street-skinny-gamestop-just-bid-56-billion-for-ebay-what-is-actually-going-127404.md",
+    "transcript_word_count": 3484,
+    "transcript_language": "en",
+    "llm_summary": "Breaks down GameStop's bizarre unsolicited $56B bid for eBay -- concluding the math doesn't work (GameStop's own $11B market cap can't credibly fund a cash-and-stock offer for a $46B target) and that no serious financing sits behind the announcement, unlike comparable Ellison-family-backed deals like Paramount-Warner Bros."
   },
   {
     "guid": "80fc0d3e-00a6-4726-b192-a9bef3bc1d3d",
@@ -62039,12 +62188,22 @@
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/rss.art19.com/episodes/74b4ddcd-d626-420e-96b9-5ad5a17268fd.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "market-structure"
+      ],
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.0
-    }
+      "sentiment": 0.2
+    },
+    "tags_source": "claude-manual",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-thoughts-on-the-market-hard-lessons-rick-rieder-W08D84.md",
+    "transcript_word_count": 251,
+    "transcript_language": "en",
+    "llm_summary": "BlackRock CIO Rick Rieder tells Morgan Stanley's Seth Carpenter that markets are frequently wrong for long stretches and that investors have to survive long enough to be proven right -- a short teaser for a longer 'Hard Lessons' interview on conviction and market timing."
   },
   {
     "guid": "8f2851dc-6e51-4404-8225-3fd22eb40866",
