@@ -1827,20 +1827,116 @@
     "duration": "2233",
     "audio_url": "https://mcdn.podbean.com/mf/web/ersmxjvkbfjsrp76/BestStocksNow-260727.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "energy",
+        "technology",
+        "ai-infrastructure",
+        "healthcare"
+      ],
+      "themes": [
+        "market-concentration",
+        "rates-fed",
+        "commodities",
+        "inflation",
+        "budgeting-saving",
+        "dealmaking",
+        "earnings",
+        "bond-market"
+      ],
+      "stocks": [
+        "tesla",
+        "sp500",
+        "nvidia",
+        "alphabet",
+        "microsoft",
+        "boeing",
+        "charles-schwab",
+        "amazon",
+        "amd",
+        "chevron",
+        "bitcoin",
+        "mastercard",
+        "broadcom",
+        "qualcomm"
+      ],
+      "sentiment": -0.118,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 19,
+        "ai-infrastructure": 1,
+        "energy": 5,
+        "healthcare": 1,
+        "inflation": 2,
+        "rates-fed": 4,
+        "commodities": 3,
+        "dealmaking": 1,
+        "earnings": 1,
+        "bond-market": 1,
+        "budgeting-saving": 2,
+        "market-concentration": 5,
+        "nvidia": 7,
+        "microsoft": 3,
+        "alphabet": 4,
+        "amazon": 1,
+        "tesla": 10,
+        "amd": 1,
+        "chevron": 1,
+        "boeing": 2,
+        "bitcoin": 1,
+        "sp500": 10,
+        "charles-schwab": 2,
+        "mastercard": 1,
+        "broadcom": 1,
+        "qualcomm": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 3.6,
+        "ai-infrastructure": 0.2,
+        "energy": 0.9,
+        "healthcare": 0.2,
+        "inflation": 0.4,
+        "rates-fed": 0.8,
+        "commodities": 0.6,
+        "dealmaking": 0.2,
+        "earnings": 0.2,
+        "bond-market": 0.2,
+        "budgeting-saving": 0.4,
+        "market-concentration": 0.9,
+        "nvidia": 1.3,
+        "microsoft": 0.6,
+        "alphabet": 0.8,
+        "amazon": 0.2,
+        "tesla": 1.9,
+        "amd": 0.2,
+        "chevron": 0.2,
+        "boeing": 0.4,
+        "bitcoin": 0.2,
+        "sp500": 1.9,
+        "charles-schwab": 0.4,
+        "mastercard": 0.2,
+        "broadcom": 0.2,
+        "qualcomm": 0.2
+      },
+      "entity_sentiment": {
+        "sp500": 1.0
+      },
+      "entity_conviction": {
+        "rates-fed": 1.0,
+        "tesla": 1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-27-best-stocks-now-monday-july-27-2026-2fecc9.md",
+    "transcript_word_count": 5326,
+    "transcript_language": "en"
   },
   {
     "guid": "360aa9ec-8943-11f1-a627-e3ae61210fbe",
@@ -10309,41 +10405,95 @@
     "audio_url": "https://op3.dev/e/mcdn.podbean.com/mf/web/xar7hq84chhkgmbj/Episode_238_SpaceX_Mega-IPOs_and_Indexing_When_to_Buy_When_to_Waita81es.mp3",
     "tags": {
       "sectors": [
+        "ai-infrastructure",
+        "private-markets",
+        "technology",
         "consumer-discretionary"
       ],
       "themes": [
         "dealmaking",
         "passive-investing",
-        "retirement-planning"
+        "retirement-planning",
+        "inflation",
+        "small-caps-value-growth",
+        "tax-planning"
       ],
       "stocks": [
-        "amazon"
+        "sp500",
+        "alphabet",
+        "meta",
+        "microsoft",
+        "amazon",
+        "tesla",
+        "saudi-aramco",
+        "russell2000"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.459,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 1,
+        "ai-infrastructure": 2,
         "consumer-discretionary": 1,
-        "dealmaking": 5,
-        "passive-investing": 4,
-        "retirement-planning": 1,
-        "amazon": 1
+        "private-markets": 2,
+        "inflation": 1,
+        "dealmaking": 25,
+        "passive-investing": 13,
+        "retirement-planning": 8,
+        "small-caps-value-growth": 1,
+        "tax-planning": 1,
+        "microsoft": 1,
+        "alphabet": 7,
+        "amazon": 1,
+        "meta": 3,
+        "tesla": 1,
+        "saudi-aramco": 1,
+        "sp500": 9,
+        "russell2000": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 3.4,
-        "dealmaking": 17.2,
-        "passive-investing": 13.7,
-        "retirement-planning": 3.4,
-        "amazon": 3.4
+        "technology": 0.2,
+        "ai-infrastructure": 0.3,
+        "consumer-discretionary": 0.2,
+        "private-markets": 0.3,
+        "inflation": 0.2,
+        "dealmaking": 4.4,
+        "passive-investing": 2.3,
+        "retirement-planning": 1.4,
+        "small-caps-value-growth": 0.2,
+        "tax-planning": 0.2,
+        "microsoft": 0.2,
+        "alphabet": 1.2,
+        "amazon": 0.2,
+        "meta": 0.5,
+        "tesla": 0.2,
+        "saudi-aramco": 0.2,
+        "sp500": 1.6,
+        "russell2000": 0.2
       },
       "entity_sentiment": {
-        "dealmaking": -1.0
+        "dealmaking": -1.0,
+        "passive-investing": 0.0,
+        "alphabet": -1.0,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "dealmaking": -0.333,
+        "alphabet": -1.0,
+        "sp500": -1.0,
+        "russell2000": -1.0
+      },
+      "entity_stance": {
+        "inflation": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-retire-with-style-episode-238-spacex-mega-ipos-and-indexing-when-to-buy-when-t-911804.md",
+    "transcript_word_count": 5449,
+    "transcript_language": "en"
   },
   {
     "guid": "7ab07237-380a-494a-a26a-e00e6e70ed47",
@@ -27760,35 +27910,67 @@
     "duration": "01:00:25",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/rationalreminder/RRP_-_EP.417_-_AUDIO_V1.0.mp3?dest-id=763774",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance"
+      ],
       "themes": [
         "diversification",
         "retirement-planning",
+        "insurance-products",
+        "inflation",
+        "budgeting-saving",
         "behavioral-finance",
-        "insurance-products"
+        "passive-investing",
+        "dividends-buybacks"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "retirement-planning": 2,
-        "behavioral-finance": 2,
-        "diversification": 8,
-        "insurance-products": 1
+        "insurance": 1,
+        "inflation": 7,
+        "passive-investing": 2,
+        "budgeting-saving": 7,
+        "retirement-planning": 25,
+        "dividends-buybacks": 1,
+        "behavioral-finance": 4,
+        "diversification": 40,
+        "insurance-products": 14
       },
       "entity_mention_density": {
-        "retirement-planning": 2.9,
-        "behavioral-finance": 2.9,
-        "diversification": 11.6,
-        "insurance-products": 1.5
+        "insurance": 0.1,
+        "inflation": 0.7,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.7,
+        "retirement-planning": 2.4,
+        "dividends-buybacks": 0.1,
+        "behavioral-finance": 0.4,
+        "diversification": 3.8,
+        "insurance-products": 1.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "diversification": 1.0,
+        "dividends-buybacks": 1.0
+      },
+      "entity_conviction": {
+        "diversification": 0.333,
+        "retirement-planning": -1.0,
+        "behavioral-finance": -1.0,
+        "passive-investing": 1.0,
+        "inflation": -1.0
+      },
+      "entity_stance": {
+        "retirement-planning": "buy",
+        "insurance-products": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-rational-reminder-a-financial-plan-for-your-entire-life-417-dr-paul-kaplan-7f269f.md",
+    "transcript_word_count": 9850,
+    "transcript_language": "en"
   },
   {
     "guid": "707ee67c-4355-48a2-b214-1c13a2cd1322",
@@ -29055,38 +29237,112 @@
     "duration": "5191",
     "audio_url": "https://chrt.fm/track/E6BB91/traffic.megaphone.fm/CWT6980012965.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare"
+      ],
       "themes": [
-        "fire-movement",
+        "college-savings",
+        "hedge-funds",
         "small-caps-value-growth",
-        "college-savings"
+        "rates-fed",
+        "dealmaking",
+        "market-structure",
+        "fire-movement",
+        "behavioral-finance"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet",
+        "amazon",
+        "tesla",
+        "nasdaq",
+        "goldman-sachs",
+        "netflix"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.03,
+      "sentiment_hits": 22,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "healthcare": 3,
+        "rates-fed": 1,
+        "dealmaking": 1,
+        "hedge-funds": 3,
+        "market-structure": 1,
         "fire-movement": 1,
-        "small-caps-value-growth": 1,
-        "college-savings": 1,
-        "meta": 2
+        "behavioral-finance": 1,
+        "small-caps-value-growth": 3,
+        "college-savings": 7,
+        "alphabet": 2,
+        "amazon": 2,
+        "meta": 8,
+        "tesla": 2,
+        "goldman-sachs": 1,
+        "nasdaq": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "fire-movement": 1.8,
-        "small-caps-value-growth": 1.8,
-        "college-savings": 1.8,
-        "meta": 3.5
+        "healthcare": 0.2,
+        "rates-fed": 0.1,
+        "dealmaking": 0.1,
+        "hedge-funds": 0.2,
+        "market-structure": 0.1,
+        "fire-movement": 0.1,
+        "behavioral-finance": 0.1,
+        "small-caps-value-growth": 0.2,
+        "college-savings": 0.4,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "meta": 0.5,
+        "tesla": 0.1,
+        "goldman-sachs": 0.1,
+        "nasdaq": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "meta": -1.0
+        "healthcare": -0.13,
+        "small-caps-value-growth": -0.032,
+        "dealmaking": -0.091,
+        "hedge-funds": -0.13,
+        "market-structure": -0.13,
+        "meta": -1.0,
+        "alphabet": -0.032,
+        "nasdaq": -0.13,
+        "amazon": -0.032,
+        "tesla": -0.032,
+        "goldman-sachs": -0.032
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "healthcare": -0.742,
+        "small-caps-value-growth": -0.917,
+        "rates-fed": -1.0,
+        "dealmaking": -0.489,
+        "hedge-funds": -0.742,
+        "market-structure": -0.742,
+        "alphabet": -0.917,
+        "nasdaq": -0.742,
+        "amazon": -0.917,
+        "tesla": -0.917,
+        "goldman-sachs": -0.917
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "healthcare",
+        "small-caps-value-growth",
+        "dealmaking",
+        "hedge-funds",
+        "market-structure",
+        "alphabet",
+        "nasdaq",
+        "amazon",
+        "tesla",
+        "goldman-sachs"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-chat-with-traders-327-david-capablanca-from-skid-row-showers-to-short-selling-b6c56a.md",
+    "transcript_word_count": 16379,
+    "transcript_language": "en"
   },
   {
     "guid": "38fc8858-7adb-11f1-be4c-df26c74db67c",
@@ -35568,24 +35824,38 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "inflation"
       ],
-      "stocks": [],
+      "stocks": [
+        "vanguard"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "inflation": 1,
+        "budgeting-saving": 2,
+        "vanguard": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8
+        "inflation": 2.1,
+        "budgeting-saving": 4.1,
+        "vanguard": 4.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-03-ramsey-everyday-millionaires-what-would-it-take-for-me-to-retire-at-50-2bc492.md",
+    "transcript_word_count": 313,
+    "transcript_language": "en"
   },
   {
     "guid": "6a477d9aecd123914320b4ad",
@@ -41060,20 +41330,40 @@
     "duration": "5112",
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/traffic.megaphone.fm/IWTYB7303443395.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "healthcare"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "retirement-planning",
+        "estate-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment": 0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "healthcare": 1,
+        "budgeting-saving": 3,
+        "retirement-planning": 3,
+        "estate-planning": 1
+      },
+      "entity_mention_density": {
+        "healthcare": 0.1,
+        "budgeting-saving": 0.2,
+        "retirement-planning": 0.2,
+        "estate-planning": 0.1
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-money-for-couples-with-ramit-sethi-267-she-makes-2x-more-than-me-i-feel-ashamed-ca5257.md",
+    "transcript_word_count": 14392,
+    "transcript_language": "en"
   },
   {
     "guid": "e1a9f142-7460-11f1-9154-177772a06a76",
@@ -54252,7 +54542,11 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-21-economist-podcasts-trailer-tocqueville-road-trip-b04fb7.md",
+    "transcript_word_count": 466,
+    "transcript_language": "en"
   },
   {
     "guid": "66976901-75b4-4e5e-9396-fe2f52006ca0",
@@ -60816,25 +61110,89 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/www.claritaspod.com/measure/traffic.megaphone.fm/WWO7012096958.mp3",
     "tags": {
       "sectors": [
-        "airlines-travel"
+        "airlines-travel",
+        "real-estate",
+        "technology",
+        "ai-infrastructure",
+        "insurance",
+        "consumer-staples"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "insurance-products",
+        "ai-boom",
+        "valuation"
+      ],
+      "stocks": [
+        "microsoft",
+        "alphabet",
+        "walmart",
+        "boeing",
+        "nvidia",
+        "palantir",
+        "disney",
+        "mastercard",
+        "salesforce"
+      ],
+      "sentiment": -0.667,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "airlines-travel": 1
+        "technology": 1,
+        "ai-infrastructure": 1,
+        "insurance": 1,
+        "consumer-staples": 1,
+        "real-estate": 2,
+        "airlines-travel": 4,
+        "ai-boom": 1,
+        "valuation": 1,
+        "insurance-products": 3,
+        "nvidia": 1,
+        "microsoft": 3,
+        "alphabet": 3,
+        "palantir": 1,
+        "boeing": 2,
+        "walmart": 3,
+        "disney": 1,
+        "mastercard": 1,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "airlines-travel": 2.3
+        "technology": 0.1,
+        "ai-infrastructure": 0.1,
+        "insurance": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.2,
+        "airlines-travel": 0.3,
+        "ai-boom": 0.1,
+        "valuation": 0.1,
+        "insurance-products": 0.3,
+        "nvidia": 0.1,
+        "microsoft": 0.3,
+        "alphabet": 0.3,
+        "palantir": 0.1,
+        "boeing": 0.2,
+        "walmart": 0.3,
+        "disney": 0.1,
+        "mastercard": 0.1,
+        "salesforce": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
+      "entity_conviction": {
+        "valuation": -1.0,
+        "nvidia": -1.0,
+        "microsoft": -1.0,
+        "salesforce": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-afford-anything-why-does-every-good-idea-die-in-a-meeting-with-hbs-prof-lind-388617.md",
+    "transcript_word_count": 11041,
+    "transcript_language": "en"
   },
   {
     "guid": "7c5d8438-3795-4b75-a0f1-40253a2f06d7",
@@ -77103,20 +77461,37 @@
     "duration": "1501",
     "audio_url": "https://mgln.ai/e/p820/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4b894cc7-34cc-4155-8d9e-b2aa01086686/53388f4a-bf6a-4f1a-951d-b46000ff87ed/audio.mp3?utm_source=Podcast&in_playlist=09b4fe67-f731-4362-8519-b2aa010866a1",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "media-entertainment"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "passive-income"
+      ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "media-entertainment": 1,
+        "budgeting-saving": 1,
+        "passive-income": 1
+      },
+      "entity_mention_density": {
+        "media-entertainment": 0.2,
+        "budgeting-saving": 0.2,
+        "passive-income": 0.2
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-05-brown-ambition-from-nanny-to-ceo-do-you-really-need-an-mba-ff87ed.md",
+    "transcript_word_count": 6421,
+    "transcript_language": "en"
   },
   {
     "guid": "ff871a3c-60ec-11f1-8f19-2f6ead30935d",
@@ -91679,23 +92054,41 @@
       "sectors": [
         "crypto"
       ],
-      "themes": [],
+      "themes": [
+        "diversification",
+        "inflation",
+        "rates-fed"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "crypto": 1
+        "crypto": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "diversification": 2
       },
       "entity_mention_density": {
-        "crypto": 2.5
+        "crypto": 0.4,
+        "inflation": 0.4,
+        "rates-fed": 0.4,
+        "diversification": 0.9
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "diversification": 1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-the-long-term-investor-why-smart-people-make-bad-investment-decisions-ep-258-599fbe.md",
+    "transcript_word_count": 1896,
+    "transcript_language": "en"
   },
   {
     "guid": "6a15a87c83dd9b6e11b0e911",
@@ -104859,26 +105252,49 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "retirement-planning",
+        "passive-investing"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "amazon",
+        "charles-schwab",
+        "berkshire"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dividends-buybacks": 1
+        "passive-investing": 1,
+        "retirement-planning": 4,
+        "dividends-buybacks": 20,
+        "amazon": 2,
+        "berkshire": 1,
+        "charles-schwab": 2
       },
       "entity_mention_density": {
-        "dividends-buybacks": 18.5
+        "passive-investing": 0.6,
+        "retirement-planning": 2.6,
+        "dividends-buybacks": 12.9,
+        "amazon": 1.3,
+        "berkshire": 0.6,
+        "charles-schwab": 1.3
       },
       "entity_sentiment": {
         "dividends-buybacks": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0,
+        "retirement-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-diy-money-should-i-reinvest-dividends-and-capital-gains-d4ea68.md",
+    "transcript_word_count": 1497,
+    "transcript_language": "en"
   },
   {
     "guid": "92e43557-a671-4b35-9582-0a01a8a0ea18",
@@ -117388,38 +117804,58 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/tracking.swap.fm/track/p5fhOfGH2wHmde5UefB4/traffic.megaphone.fm/BIGPOC2416195388.mp3?updated=1778239158",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "insurance"
       ],
       "themes": [
         "real-estate-investing",
+        "insurance-products",
         "inflation",
-        "housing"
+        "housing",
+        "dealmaking",
+        "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 1.0,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
+        "insurance": 2,
+        "real-estate": 14,
         "inflation": 1,
         "housing": 1,
-        "real-estate-investing": 4
+        "dealmaking": 1,
+        "debt-payoff": 1,
+        "real-estate-investing": 7,
+        "insurance-products": 3
       },
       "entity_mention_density": {
-        "real-estate": 3.0,
-        "inflation": 3.0,
-        "housing": 3.0,
-        "real-estate-investing": 12.0
+        "insurance": 0.4,
+        "real-estate": 2.8,
+        "inflation": 0.2,
+        "housing": 0.2,
+        "dealmaking": 0.2,
+        "debt-payoff": 0.2,
+        "real-estate-investing": 1.4,
+        "insurance-products": 0.6
       },
       "entity_sentiment": {
+        "real-estate": 1.0,
+        "real-estate-investing": 1.0,
         "inflation": 1.0,
         "housing": 1.0
       },
       "entity_conviction": {},
-      "entity_stance": {},
+      "entity_stance": {
+        "real-estate": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-biggerpockets-real-estate-5-paid-off-rentals-vs-15-with-mortgages-the-math-will-change-09d6c3.md",
+    "transcript_word_count": 4693,
+    "transcript_language": "en"
   },
   {
     "guid": "9f9be550-a84e-11f0-bc9e-7ff56cd596d5",
@@ -122305,20 +122741,58 @@
     "duration": "195",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/717d9fdf-a885-413c-a13d-b44100ea3695/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
+      "sectors": [
+        "insurance",
+        "technology",
+        "ai-infrastructure"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "currency-dollar",
+        "volatility",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "alphabet",
+        "sp500"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "technology": 1,
+        "ai-infrastructure": 1,
+        "insurance": 2,
+        "volatility": 1,
+        "currency-dollar": 2,
+        "budgeting-saving": 4,
+        "market-timing-dca": 1,
+        "alphabet": 2,
+        "sp500": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.7,
+        "ai-infrastructure": 0.7,
+        "insurance": 1.4,
+        "volatility": 0.7,
+        "currency-dollar": 1.4,
+        "budgeting-saving": 2.8,
+        "market-timing-dca": 0.7,
+        "alphabet": 1.4,
+        "sp500": 0.7
+      },
+      "entity_sentiment": {
+        "insurance": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-bloomberg-surveillance-single-best-idea-with-tom-keene-joumanna-bercetche-and-heath-ea3695.md",
+    "transcript_word_count": 1385,
+    "transcript_language": "en"
   },
   {
     "guid": "56376694-c9b8-4f00-b35b-b44100f01ad5",
@@ -124258,25 +124732,50 @@
       "sectors": [
         "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "real-estate-investing",
+        "rates-fed",
+        "passive-investing",
+        "retirement-planning"
+      ],
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "real-estate": 2
+        "real-estate": 6,
+        "rates-fed": 1,
+        "passive-investing": 1,
+        "retirement-planning": 1,
+        "real-estate-investing": 2,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "real-estate": 14.4
+        "real-estate": 3.5,
+        "rates-fed": 0.6,
+        "passive-investing": 0.6,
+        "retirement-planning": 0.6,
+        "real-estate-investing": 1.2,
+        "sp500": 0.6
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
       "entity_conviction": {
-        "real-estate": -1.0
+        "real-estate": -1.0,
+        "retirement-planning": -1.0,
+        "rates-fed": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-real-estate-the-ramsey-way-everyone-says-this-is-the-best-way-to-buy-a-home-are-they-ri-f4a1b6.md",
+    "transcript_word_count": 1568,
+    "transcript_language": "en"
   },
   {
     "guid": "530263cb-b876-42f6-b890-edf6fe9a6c43",
@@ -126933,28 +127432,75 @@
     "duration": "1065",
     "audio_url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/e70dac52/ca07f3c4.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "walmart"
+      "sectors": [
+        "energy",
+        "consumer-discretionary"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "labor-market",
+        "career-income",
+        "recession",
+        "rates-fed",
+        "inflation",
+        "commodities",
+        "consumer-health"
+      ],
+      "stocks": [
+        "walmart",
+        "nvidia"
+      ],
+      "sentiment": -0.158,
+      "sentiment_hits": 41,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "walmart": 1
+        "energy": 3,
+        "consumer-discretionary": 2,
+        "inflation": 1,
+        "rates-fed": 2,
+        "recession": 3,
+        "labor-market": 6,
+        "commodities": 1,
+        "consumer-health": 1,
+        "career-income": 4,
+        "nvidia": 1,
+        "walmart": 16
       },
       "entity_mention_density": {
-        "walmart": 6.0
+        "energy": 0.9,
+        "consumer-discretionary": 0.6,
+        "inflation": 0.3,
+        "rates-fed": 0.6,
+        "recession": 0.9,
+        "labor-market": 1.7,
+        "commodities": 0.3,
+        "consumer-health": 0.3,
+        "career-income": 1.2,
+        "nvidia": 0.3,
+        "walmart": 4.6
       },
       "entity_sentiment": {
-        "walmart": -1.0
+        "consumer-discretionary": -1.0,
+        "energy": -1.0,
+        "labor-market": -0.545,
+        "career-income": -0.167,
+        "commodities": -1.0,
+        "recession": -1.0,
+        "inflation": 1.0,
+        "rates-fed": 1.0,
+        "walmart": -0.529,
+        "nvidia": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "walmart"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-01-eurodollar-university-pawn-shops-just-issued-a-very-grim-warning-about-consumer-be-e2c326.md",
+    "transcript_word_count": 3275,
+    "transcript_language": "en"
   },
   {
     "guid": "e991ea8a-a84c-11f0-a576-d7b448f3ac1d",
