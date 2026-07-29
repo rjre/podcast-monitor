@@ -204,7 +204,7 @@
         "tesla",
         "paypal"
       ],
-      "sentiment": -0.2,
+      "sentiment": -0.098,
       "sentiment_hits": 25,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -265,9 +265,9 @@
         "semiconductors": 1.0,
         "private-markets": -1.0,
         "technology": 1.0,
-        "earnings": 1.0,
+        "earnings": 0.429,
         "dealmaking": -1.0,
-        "recession": -1.0,
+        "recession": -0.333,
         "china": 1.0,
         "sp500": 1.0,
         "boeing": -1.0,
@@ -285,7 +285,9 @@
         "nvidia": -1.0
       },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "recession"
+      ]
     },
     "tags_source": "keyword",
     "transcript_status": "done",
@@ -1231,7 +1233,7 @@
         "nvidia",
         "nasdaq"
       ],
-      "sentiment": 0.0,
+      "sentiment": -0.118,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -1261,23 +1263,21 @@
         "nasdaq": 4.5
       },
       "entity_sentiment": {
-        "ai-infrastructure": 0.0,
+        "ai-infrastructure": -0.176,
         "semiconductors": -1.0,
         "real-estate": -1.0,
         "dividends-buybacks": 1.0,
         "credit-markets": -0.333,
         "volatility": -1.0,
-        "geopolitics-tariffs": -0.333,
-        "rates-fed": 0.0,
-        "earnings": 0.0,
+        "geopolitics-tariffs": -0.667,
+        "rates-fed": -0.429,
+        "earnings": -0.429,
         "nasdaq": 1.0,
         "nvidia": -0.333
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": [
-        "ai-infrastructure"
-      ]
+      "entity_contested": []
     },
     "tags_source": "keyword"
   },
@@ -1394,7 +1394,7 @@
       "stocks": [
         "nvidia"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -1437,7 +1437,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.5,
+      "sentiment": 0.412,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -3352,7 +3352,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.5,
+      "sentiment": -0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {},
@@ -3790,7 +3790,7 @@
         "inflation"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -4402,7 +4402,7 @@
         "tsmc",
         "palantir"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -4564,7 +4564,7 @@
         "retirement-planning"
       ],
       "stocks": [],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -4576,7 +4576,7 @@
         "estate-planning": 9.9
       },
       "entity_sentiment": {
-        "estate-planning": 1.0
+        "estate-planning": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -6293,7 +6293,7 @@
         "alphabet",
         "paypal"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -6672,7 +6672,7 @@
         "alphabet",
         "tesla"
       ],
-      "sentiment": 0.0,
+      "sentiment": -0.143,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -6692,12 +6692,12 @@
         "tesla": 16.4
       },
       "entity_sentiment": {
-        "energy": 0.0,
-        "japan": 0.0,
-        "commodities": 0.0,
-        "bond-market": 0.0,
-        "alphabet": 0.0,
-        "tesla": 0.0
+        "energy": -0.429,
+        "japan": -0.429,
+        "commodities": -0.429,
+        "bond-market": -0.429,
+        "alphabet": -0.429,
+        "tesla": -0.429
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -7833,7 +7833,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.0,
+      "sentiment": -0.333,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -7970,7 +7970,7 @@
       "stocks": [
         "alphabet"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -8123,7 +8123,7 @@
         "vanguard",
         "tesla"
       ],
-      "sentiment": 0.833,
+      "sentiment": 0.455,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -9779,7 +9779,7 @@
         "earnings"
       ],
       "stocks": [],
-      "sentiment": 0.0,
+      "sentiment": -0.143,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -9793,8 +9793,8 @@
         "market-concentration": 17.5
       },
       "entity_sentiment": {
-        "market-concentration": 0.0,
-        "earnings": 0.0
+        "market-concentration": -0.429,
+        "earnings": -0.429
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -9990,7 +9990,7 @@
       "entity_sentiment": {
         "inflation": 1.0,
         "ai-boom": 1.0,
-        "rates-fed": 0.333,
+        "rates-fed": 1.0,
         "morgan-stanley": 1.0
       },
       "entity_conviction": {
@@ -10193,7 +10193,7 @@
       "stocks": [
         "jpmorgan"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -10594,7 +10594,7 @@
         "bank-of-america",
         "bitcoin"
       ],
-      "sentiment": -0.25,
+      "sentiment": -0.135,
       "sentiment_hits": 16,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -10663,11 +10663,11 @@
       },
       "entity_sentiment": {
         "ai-infrastructure": 1.0,
-        "technology": 0.0,
-        "semiconductors": 0.333,
+        "technology": 0.429,
+        "semiconductors": 0.167,
         "earnings": -1.0,
         "geopolitics-tariffs": -1.0,
-        "nasdaq": -1.0,
+        "nasdaq": -0.333,
         "amazon": 1.0,
         "goldman-sachs": -1.0,
         "amd": 1.0,
@@ -11483,7 +11483,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.714,
+      "sentiment": 0.562,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -11732,7 +11732,7 @@
         "alphabet",
         "meta"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -12128,7 +12128,7 @@
         "berkshire",
         "microstrategy"
       ],
-      "sentiment": -0.158,
+      "sentiment": -0.413,
       "sentiment_hits": 19,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -13498,7 +13498,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -14049,7 +14049,7 @@
         "vanguard",
         "charles-schwab"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -14845,7 +14845,7 @@
         "netflix",
         "alphabet"
       ],
-      "sentiment": -0.5,
+      "sentiment": -0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -15320,7 +15320,7 @@
         "paypal",
         "meta"
       ],
-      "sentiment": -0.5,
+      "sentiment": -0.167,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -15340,7 +15340,7 @@
         "paypal": 2.2
       },
       "entity_sentiment": {
-        "bitcoin": -1.0
+        "bitcoin": 1.0
       },
       "entity_conviction": {
         "bitcoin": -1.0
@@ -15759,7 +15759,7 @@
         "meta",
         "tesla"
       ],
-      "sentiment": 1.0,
+      "sentiment": 0.429,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -15788,7 +15788,7 @@
       },
       "entity_sentiment": {
         "real-estate": 1.0,
-        "retirement-planning": 1.0
+        "retirement-planning": -1.0
       },
       "entity_conviction": {
         "diversification": -1.0
@@ -16430,7 +16430,7 @@
         "alphabet",
         "tesla"
       ],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -16474,7 +16474,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.0,
+      "sentiment": -0.118,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -16571,7 +16571,7 @@
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.083,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -16589,7 +16589,7 @@
         "nasdaq": 5.7
       },
       "entity_sentiment": {
-        "real-estate": 0.333,
+        "real-estate": 0.167,
         "consumer-discretionary": 1.0,
         "dividends-buybacks": 0.0,
         "nasdaq": 0.0
@@ -16621,7 +16621,7 @@
       "stocks": [
         "alphabet"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -17335,7 +17335,7 @@
         "att",
         "tmobile"
       ],
-      "sentiment": -0.714,
+      "sentiment": 0.143,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -17371,7 +17371,7 @@
         "vanguard": 2.1
       },
       "entity_sentiment": {
-        "real-estate": -1.0,
+        "real-estate": 1.0,
         "dividends-buybacks": 1.0,
         "valuation": -1.0
       },
@@ -17650,7 +17650,7 @@
         "nvidia",
         "alphabet"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.093,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -17683,7 +17683,7 @@
         "dealmaking": 1.0
       },
       "entity_conviction": {
-        "ai-infrastructure": -0.818,
+        "ai-infrastructure": -0.918,
         "dealmaking": -1.0,
         "regulation-antitrust": -0.5,
         "nasdaq": -1.0,
@@ -18389,7 +18389,7 @@
       "stocks": [
         "paypal"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -18425,7 +18425,7 @@
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.118,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -19060,7 +19060,7 @@
         "retirement-planning"
       ],
       "stocks": [],
-      "sentiment": 0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -19774,7 +19774,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -19794,10 +19794,10 @@
         "amazon": 1.4
       },
       "entity_sentiment": {
-        "real-estate": -1.0,
-        "crypto": -1.0,
-        "passive-investing": -1.0,
-        "fire-movement": -1.0,
+        "real-estate": 1.0,
+        "crypto": 1.0,
+        "passive-investing": 1.0,
+        "fire-movement": 1.0,
         "amazon": 1.0
       },
       "entity_conviction": {},
@@ -20074,7 +20074,7 @@
         "housing"
       ],
       "stocks": [],
-      "sentiment": 1.0,
+      "sentiment": 0.892,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -20104,19 +20104,19 @@
         "insurance-products": 1.4
       },
       "entity_sentiment": {
-        "real-estate": 1.0,
+        "real-estate": 0.667,
         "crypto": 1.0,
         "insurance-products": 1.0,
-        "inflation": 1.0,
+        "inflation": 0.892,
         "elections-politics": 1.0,
         "housing": 1.0
       },
       "entity_conviction": {
-        "real-estate": -0.25,
-        "crypto": -0.25,
+        "real-estate": -0.189,
+        "crypto": -0.189,
         "insurance-products": 1.0,
-        "inflation": -0.4,
-        "elections-politics": -0.25,
+        "inflation": -0.318,
+        "elections-politics": -0.189,
         "estate-planning": 1.0
       },
       "entity_stance": {},
@@ -20545,7 +20545,7 @@
       "stocks": [
         "jpmorgan"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -21480,7 +21480,7 @@
         "dividends-buybacks"
       ],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -21784,7 +21784,7 @@
         "blackrock",
         "netflix"
       ],
-      "sentiment": 0.5,
+      "sentiment": 0.25,
       "sentiment_hits": 16,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -21848,11 +21848,11 @@
         "semiconductors": 1.0,
         "energy": 1.0,
         "rates-fed": -1.0,
-        "nvidia": 0.0
+        "nvidia": -1.0
       },
       "entity_conviction": {
         "consumer-discretionary": -1.0,
-        "ai-infrastructure": -0.333,
+        "ai-infrastructure": -0.481,
         "semiconductors": -0.6,
         "energy": -0.5,
         "rates-fed": -1.0,
@@ -21860,9 +21860,9 @@
         "geopolitics-tariffs": -1.0,
         "valuation": -1.0,
         "amazon": -1.0,
-        "alphabet": 0.0,
+        "alphabet": 0.429,
         "morgan-stanley": -1.0,
-        "nvidia": 0.0
+        "nvidia": 0.429
       },
       "entity_stance": {},
       "entity_contested": []
@@ -22026,7 +22026,7 @@
         "tsmc",
         "meta"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -22905,7 +22905,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.118,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -23923,7 +23923,7 @@
         "ai-boom"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -24096,7 +24096,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -24124,8 +24124,8 @@
         "amazon": 1.7
       },
       "entity_sentiment": {
-        "inflation": -1.0,
-        "recession": -1.0
+        "inflation": 1.0,
+        "recession": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -24405,7 +24405,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -24467,7 +24467,7 @@
         "market-concentration"
       ],
       "stocks": [],
-      "sentiment": -0.636,
+      "sentiment": -0.346,
       "sentiment_hits": 11,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -24491,14 +24491,14 @@
         "market-concentration": 4.5
       },
       "entity_sentiment": {
-        "energy": -0.5,
-        "real-estate": -0.5,
-        "inflation": -0.6,
-        "labor-market": -0.6,
-        "bond-market": -0.6,
-        "recession": -0.556,
-        "commodities": -0.5,
-        "market-concentration": -0.5
+        "energy": -0.081,
+        "real-estate": -0.081,
+        "inflation": -0.277,
+        "labor-market": -0.277,
+        "bond-market": -0.277,
+        "recession": -0.19,
+        "commodities": -0.081,
+        "market-concentration": -0.081
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -24860,7 +24860,7 @@
         "tsmc",
         "apple"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -26433,23 +26433,23 @@
         "berkshire": -0.6
       },
       "entity_conviction": {
-        "technology": -0.857,
-        "real-estate": -0.877,
-        "banks": -0.929,
-        "private-markets": -0.929,
-        "small-caps-value-growth": -0.864,
-        "behavioral-finance": -0.877,
-        "emerging-markets": -0.857,
+        "technology": -0.849,
+        "real-estate": -0.872,
+        "banks": -0.925,
+        "private-markets": -0.925,
+        "small-caps-value-growth": -0.857,
+        "behavioral-finance": -0.872,
+        "emerging-markets": -0.849,
         "inflation": -1.0,
         "rates-fed": -1.0,
-        "recession": -0.857,
-        "dividends-buybacks": -0.857,
-        "valuation": -0.877,
-        "real-estate-investing": -0.877,
-        "passive-investing": -0.929,
-        "market-structure": -0.929,
+        "recession": -0.849,
+        "dividends-buybacks": -0.849,
+        "valuation": -0.872,
+        "real-estate-investing": -0.872,
+        "passive-investing": -0.925,
+        "market-structure": -0.925,
         "dealmaking": -1.0,
-        "berkshire": -0.877
+        "berkshire": -0.872
       },
       "entity_stance": {},
       "entity_contested": []
@@ -26570,7 +26570,7 @@
       "stocks": [
         "microsoft"
       ],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -26586,7 +26586,7 @@
         "microsoft": 11.6
       },
       "entity_sentiment": {
-        "market-concentration": 1.0
+        "market-concentration": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -26733,7 +26733,7 @@
         "amd",
         "tsmc"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -26874,7 +26874,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": -0.429,
+      "sentiment": 0.25,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -26896,10 +26896,10 @@
         "morgan-stanley": 1.8
       },
       "entity_sentiment": {
-        "labor-market": -1.0
+        "labor-market": -0.412
       },
       "entity_conviction": {
-        "labor-market": -0.667,
+        "labor-market": -0.63,
         "credit-markets": 1.0
       },
       "entity_stance": {},
@@ -27394,7 +27394,7 @@
         "saudi-aramco",
         "bitcoin"
       ],
-      "sentiment": 0.143,
+      "sentiment": 0.254,
       "sentiment_hits": 14,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -27450,7 +27450,7 @@
       "entity_sentiment": {
         "crypto": -1.0,
         "ai-boom": -0.6,
-        "recession": -1.0,
+        "recession": 1.0,
         "sp500": 1.0,
         "alphabet": 1.0,
         "nvidia": 1.0
@@ -27596,7 +27596,7 @@
         "jpmorgan",
         "goldman-sachs"
       ],
-      "sentiment": -0.636,
+      "sentiment": -0.184,
       "sentiment_hits": 11,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -27620,7 +27620,7 @@
         "goldman-sachs": 0.3
       },
       "entity_sentiment": {
-        "private-markets": -0.5,
+        "private-markets": -0.286,
         "insurance": 1.0,
         "credit-markets": -1.0
       },
@@ -28065,7 +28065,7 @@
         "bitcoin",
         "microstrategy"
       ],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -28081,9 +28081,9 @@
         "bitcoin": 27.9
       },
       "entity_sentiment": {
-        "dividends-buybacks": 1.0,
-        "bitcoin": 1.0,
-        "microstrategy": 1.0
+        "dividends-buybacks": -1.0,
+        "bitcoin": -1.0,
+        "microstrategy": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -28437,7 +28437,7 @@
         "att",
         "verizon"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -29420,7 +29420,7 @@
         "labor-market"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -29432,8 +29432,8 @@
         "budgeting-saving": 6.0
       },
       "entity_sentiment": {
-        "labor-market": -1.0,
-        "budgeting-saving": -1.0
+        "labor-market": 1.0,
+        "budgeting-saving": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -30036,7 +30036,7 @@
         "tsmc",
         "vanguard"
       ],
-      "sentiment": 0.25,
+      "sentiment": -0.081,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -30077,15 +30077,15 @@
         "industrials": 1.0,
         "bond-market": -1.0,
         "emerging-markets": 0.0,
-        "diversification": -0.333,
-        "labor-market": 0.0,
-        "rates-fed": 0.333,
+        "diversification": -1.0,
+        "labor-market": -0.429,
+        "rates-fed": 0.167,
         "inflation": 1.0
       },
       "entity_conviction": {
         "bond-market": -1.0,
         "emerging-markets": -1.0,
-        "rates-fed": -0.333,
+        "rates-fed": 0.111,
         "inflation": -1.0
       },
       "entity_stance": {},
@@ -30461,7 +30461,7 @@
         "dealmaking"
       ],
       "stocks": [],
-      "sentiment": -0.5,
+      "sentiment": 0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -30479,11 +30479,11 @@
         "diversification": 7.3
       },
       "entity_sentiment": {
-        "ai-infrastructure": -1.0,
-        "small-caps-value-growth": -1.0,
-        "dealmaking": -1.0,
-        "market-concentration": -1.0,
-        "diversification": -1.0
+        "ai-infrastructure": 0.0,
+        "small-caps-value-growth": 0.333,
+        "dealmaking": 1.0,
+        "market-concentration": 0.333,
+        "diversification": 0.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -30626,7 +30626,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -31007,7 +31007,7 @@
         "amazon",
         "sp500"
       ],
-      "sentiment": -0.833,
+      "sentiment": 0.303,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -31031,9 +31031,9 @@
         "sp500": 0.2
       },
       "entity_sentiment": {
-        "retirement-planning": -1.0,
+        "retirement-planning": -0.167,
         "rates-fed": -1.0,
-        "inflation": -1.0
+        "inflation": 0.667
       },
       "entity_conviction": {
         "healthcare": -0.6,
@@ -32052,7 +32052,7 @@
       "stocks": [
         "nvidia"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -32309,7 +32309,7 @@
         "meta",
         "blackrock"
       ],
-      "sentiment": 0.048,
+      "sentiment": -0.118,
       "sentiment_hits": 21,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -32339,7 +32339,7 @@
         "blackrock": 0.4
       },
       "entity_sentiment": {
-        "ai-infrastructure": 0.0,
+        "ai-infrastructure": -0.417,
         "real-estate": -1.0,
         "recession": -1.0,
         "dealmaking": -1.0,
@@ -32354,9 +32354,7 @@
         "meta": -1.0
       },
       "entity_stance": {},
-      "entity_contested": [
-        "ai-infrastructure"
-      ]
+      "entity_contested": []
     },
     "tags_source": "keyword",
     "transcript_status": "done",
@@ -33757,7 +33755,7 @@
         "recession"
       ],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -33830,7 +33828,7 @@
       "stocks": [
         "blackrock"
       ],
-      "sentiment": -0.043,
+      "sentiment": -0.071,
       "sentiment_hits": 23,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -34076,7 +34074,7 @@
         "consumer-discretionary": -1.0,
         "airlines-travel": 0.333,
         "technology": 0.0,
-        "amazon": -0.5,
+        "amazon": -0.714,
         "alphabet": 0.0
       },
       "entity_stance": {},
@@ -34873,7 +34871,7 @@
         "meta",
         "netflix"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -35231,7 +35229,7 @@
         "labor-market"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -35446,7 +35444,7 @@
         "alphabet",
         "meta"
       ],
-      "sentiment": -0.111,
+      "sentiment": 0.08,
       "sentiment_hits": 18,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -35850,7 +35848,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {},
@@ -36394,7 +36392,7 @@
         "apple",
         "microsoft"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -37555,7 +37553,7 @@
         "alphabet",
         "nasdaq"
       ],
-      "sentiment": 0.25,
+      "sentiment": 0.091,
       "sentiment_hits": 16,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -37599,7 +37597,7 @@
         "passive-investing": 1.0,
         "volatility": -1.0,
         "recession": -1.0,
-        "sp500": 1.0
+        "sp500": 0.333
       },
       "entity_conviction": {
         "sp500": 0.0
@@ -37683,7 +37681,7 @@
         "regulation-antitrust"
       ],
       "stocks": [],
-      "sentiment": -0.5,
+      "sentiment": -0.412,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -37707,14 +37705,14 @@
         "regulation-antitrust": 2.7
       },
       "entity_sentiment": {
-        "semiconductors": -0.5,
-        "real-estate": -0.5,
-        "ai-infrastructure": -0.714,
+        "semiconductors": -0.412,
+        "real-estate": -0.412,
+        "ai-infrastructure": -0.655,
         "energy": -0.333,
-        "rates-fed": -0.714,
-        "labor-market": -0.714,
-        "inflation": -0.667,
-        "regulation-antitrust": -0.667
+        "rates-fed": -0.655,
+        "labor-market": -0.655,
+        "inflation": -0.583,
+        "regulation-antitrust": -0.583
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -38286,7 +38284,7 @@
       "stocks": [
         "mastercard"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -38338,7 +38336,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": -0.556,
+      "sentiment": -0.524,
       "sentiment_hits": 9,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -38573,7 +38571,7 @@
         "microsoft",
         "nvidia"
       ],
-      "sentiment": 0.667,
+      "sentiment": 0.63,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -38600,13 +38598,13 @@
       },
       "entity_sentiment": {
         "passive-investing": 1.0,
-        "small-caps-value-growth": 0.333,
-        "recession": 0.0,
-        "retirement-planning": 0.0,
-        "diversification": 0.0,
+        "small-caps-value-growth": 0.167,
+        "recession": -0.429,
+        "retirement-planning": -0.429,
+        "diversification": -0.429,
         "nvidia": 1.0,
         "microsoft": 1.0,
-        "sp500": 0.333
+        "sp500": 0.167
       },
       "entity_conviction": {
         "passive-investing": -0.333,
@@ -38784,7 +38782,7 @@
         "charles-schwab",
         "netflix"
       ],
-      "sentiment": 0.8,
+      "sentiment": 0.794,
       "sentiment_hits": 40,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -38808,24 +38806,24 @@
         "netflix": 0.2
       },
       "entity_sentiment": {
-        "fire-movement": 0.795,
-        "retirement-planning": 0.784,
-        "budgeting-saving": 0.778,
-        "career-income": 0.778,
-        "market-timing-dca": 0.778,
-        "nvidia": 0.795,
-        "charles-schwab": 0.778,
-        "netflix": 0.778
+        "fire-movement": 0.788,
+        "retirement-planning": 0.777,
+        "budgeting-saving": 0.77,
+        "career-income": 0.77,
+        "market-timing-dca": 0.77,
+        "nvidia": 0.788,
+        "charles-schwab": 0.77,
+        "netflix": 0.77
       },
       "entity_conviction": {
-        "fire-movement": -0.571,
-        "retirement-planning": -0.571,
-        "budgeting-saving": -0.571,
-        "career-income": -0.571,
-        "market-timing-dca": -0.571,
-        "nvidia": -0.571,
-        "charles-schwab": -0.571,
-        "netflix": -0.571
+        "fire-movement": -0.552,
+        "retirement-planning": -0.552,
+        "budgeting-saving": -0.552,
+        "career-income": -0.552,
+        "market-timing-dca": -0.552,
+        "nvidia": -0.552,
+        "charles-schwab": -0.552,
+        "netflix": -0.552
       },
       "entity_stance": {},
       "entity_contested": [
@@ -40182,7 +40180,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.231,
+      "sentiment": 0.194,
       "sentiment_hits": 13,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -40216,10 +40214,10 @@
         "morgan-stanley": 2.2
       },
       "entity_sentiment": {
-        "banks": 0.0,
+        "banks": -0.176,
         "semiconductors": -1.0,
         "ai-infrastructure": 0.0,
-        "consumer-discretionary": 0.333,
+        "consumer-discretionary": 0.167,
         "real-estate": 1.0,
         "recession": -1.0,
         "ai-boom": 0.0,
@@ -40236,7 +40234,6 @@
       },
       "entity_stance": {},
       "entity_contested": [
-        "banks",
         "ai-infrastructure",
         "ai-boom"
       ]
@@ -40340,7 +40337,7 @@
       ],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -40385,7 +40382,7 @@
         "hedge-funds"
       ],
       "stocks": [],
-      "sentiment": 0.429,
+      "sentiment": 0.143,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -41355,7 +41352,7 @@
         "microstrategy",
         "sp500"
       ],
-      "sentiment": -0.143,
+      "sentiment": -0.051,
       "sentiment_hits": 21,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -41400,7 +41397,7 @@
         "crypto": -0.333,
         "technology": 1.0,
         "semiconductors": 1.0,
-        "dealmaking": -0.333,
+        "dealmaking": -0.556,
         "ai-boom": -1.0,
         "rates-fed": -1.0,
         "bitcoin": -0.429,
@@ -41794,7 +41791,7 @@
         "amazon",
         "apple"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -42122,7 +42119,7 @@
         "microstrategy",
         "ethereum"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.083,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -42143,7 +42140,7 @@
         "crypto": 1.0,
         "dividends-buybacks": 1.0,
         "microstrategy": 1.0,
-        "bitcoin": 0.333,
+        "bitcoin": 0.167,
         "ethereum": 0.0
       },
       "entity_conviction": {},
@@ -42384,7 +42381,7 @@
         "microstrategy",
         "blackrock"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -42400,9 +42397,9 @@
         "blackrock": 5.3
       },
       "entity_sentiment": {
-        "bitcoin": -0.333,
-        "blackrock": -0.333,
-        "microstrategy": -0.333
+        "bitcoin": 0.333,
+        "blackrock": 0.333,
+        "microstrategy": 0.333
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -43011,7 +43008,7 @@
         "market-concentration"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -43025,9 +43022,9 @@
         "market-concentration": 5.6
       },
       "entity_sentiment": {
-        "market-concentration": -1.0,
-        "inflation": -1.0,
-        "rates-fed": -1.0
+        "market-concentration": 1.0,
+        "inflation": 1.0,
+        "rates-fed": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -43628,7 +43625,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -44161,7 +44158,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -44808,7 +44805,7 @@
         "nvidia",
         "apple"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -46288,7 +46285,7 @@
         "microsoft",
         "oracle"
       ],
-      "sentiment": 0.3,
+      "sentiment": 0.175,
       "sentiment_hits": 20,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -46347,7 +46344,7 @@
         "real-estate": 0.0,
         "diversification": 1.0,
         "valuation": -1.0,
-        "rates-fed": 1.0,
+        "rates-fed": -1.0,
         "berkshire": 1.0,
         "micron": 1.0,
         "alphabet": 1.0,
@@ -46702,7 +46699,7 @@
         "energy": 1.0,
         "ai-infrastructure": -1.0,
         "elections-politics": -1.0,
-        "geopolitics-tariffs": -0.5,
+        "geopolitics-tariffs": -0.412,
         "inflation": 0.0,
         "commodities": 1.0
       },
@@ -46812,7 +46809,7 @@
         "apple",
         "intel"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -48167,7 +48164,7 @@
         "alphabet",
         "meta"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -48212,7 +48209,7 @@
         "bond-market"
       ],
       "stocks": [],
-      "sentiment": 0.0,
+      "sentiment": -0.118,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -48234,19 +48231,17 @@
         "bond-market": 5.5
       },
       "entity_sentiment": {
-        "energy": 0.333,
+        "energy": 0.167,
         "real-estate": -1.0,
-        "rates-fed": 0.0,
-        "commodities": 0.333,
+        "rates-fed": -0.176,
+        "commodities": 0.167,
         "inflation": -1.0,
         "housing": -1.0,
         "bond-market": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": [
-        "rates-fed"
-      ]
+      "entity_contested": []
     },
     "tags_source": "keyword"
   },
@@ -48647,7 +48642,7 @@
         "dividends-buybacks"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -48659,8 +48654,8 @@
         "dividends-buybacks": 3.8
       },
       "entity_sentiment": {
-        "private-markets": -1.0,
-        "dividends-buybacks": -1.0
+        "private-markets": 1.0,
+        "dividends-buybacks": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -48879,7 +48874,7 @@
       "stocks": [
         "vanguard"
       ],
-      "sentiment": -0.333,
+      "sentiment": -0.424,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -48997,7 +48992,7 @@
         "bitcoin",
         "nasdaq"
       ],
-      "sentiment": -0.667,
+      "sentiment": -0.404,
       "sentiment_hits": 12,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -49198,7 +49193,7 @@
         "diversification"
       ],
       "stocks": [],
-      "sentiment": -0.692,
+      "sentiment": -0.516,
       "sentiment_hits": 13,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -49220,18 +49215,23 @@
         "diversification": 2.4
       },
       "entity_sentiment": {
-        "private-markets": -0.667,
-        "ai-infrastructure": -0.8,
-        "semiconductors": -0.8,
-        "diversification": -0.333,
-        "ai-boom": -0.8,
-        "rates-fed": -0.8,
-        "small-caps-value-growth": -0.8
+        "private-markets": -0.5,
+        "ai-infrastructure": -0.6,
+        "semiconductors": -0.6,
+        "diversification": -0.167,
+        "ai-boom": -0.6,
+        "rates-fed": -0.6,
+        "small-caps-value-growth": -0.6
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": [
-        "private-markets"
+        "private-markets",
+        "ai-infrastructure",
+        "semiconductors",
+        "ai-boom",
+        "rates-fed",
+        "small-caps-value-growth"
       ]
     },
     "tags_source": "keyword"
@@ -49943,7 +49943,7 @@
         "insurance-products"
       ],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": -0.143,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -50396,7 +50396,7 @@
         "dealmaking"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -50496,7 +50496,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.5,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -50519,15 +50519,13 @@
       },
       "entity_sentiment": {
         "real-estate": -1.0,
-        "housing": 0.0,
+        "housing": 0.5,
         "rates-fed": 1.0,
         "career-income": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": [
-        "housing"
-      ]
+      "entity_contested": []
     },
     "tags_source": "keyword"
   },
@@ -51424,7 +51422,7 @@
         "alphabet",
         "cisco"
       ],
-      "sentiment": -0.167,
+      "sentiment": -0.5,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -51459,7 +51457,7 @@
       "entity_conviction": {
         "dividends-buybacks": -1.0,
         "regulation-antitrust": 1.0,
-        "amazon": -0.6,
+        "amazon": -0.545,
         "microsoft": -1.0,
         "cisco": -1.0,
         "nvidia": -1.0
@@ -51845,7 +51843,7 @@
         "netflix",
         "disney"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -51986,7 +51984,7 @@
         "nasdaq",
         "sp500"
       ],
-      "sentiment": -0.176,
+      "sentiment": -0.237,
       "sentiment_hits": 17,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -52034,46 +52032,41 @@
         "fidelity": 0.4
       },
       "entity_sentiment": {
-        "consumer-discretionary": -0.2,
-        "energy": -0.333,
-        "real-estate": -0.143,
+        "consumer-discretionary": -0.317,
+        "energy": -0.5,
+        "real-estate": -0.308,
         "industrials": -1.0,
-        "inflation": -0.333,
+        "inflation": -0.5,
         "housing": -1.0,
         "geopolitics-tariffs": -1.0,
-        "dealmaking": 0.5,
-        "emerging-markets": 0.5,
-        "rates-fed": 0.5,
-        "costco": 0.0,
-        "walmart": -0.143,
-        "amazon": 0.5,
-        "nasdaq": 0.5
+        "dealmaking": 0.636,
+        "emerging-markets": 0.636,
+        "rates-fed": 0.636,
+        "costco": -0.143,
+        "walmart": -0.308,
+        "amazon": 0.636,
+        "nasdaq": 0.636
       },
       "entity_conviction": {
-        "consumer-discretionary": -0.76,
-        "energy": -0.647,
+        "consumer-discretionary": -0.745,
+        "energy": -0.627,
         "technology": -1.0,
-        "real-estate": -0.657,
-        "industrials": -0.6,
+        "real-estate": -0.639,
+        "industrials": -0.59,
         "consumer-health": -1.0,
-        "inflation": -0.657,
-        "geopolitics-tariffs": -0.652,
-        "dealmaking": -0.636,
-        "emerging-markets": -0.636,
-        "rates-fed": -0.6,
-        "costco": -0.684,
-        "walmart": -0.769,
-        "amazon": -0.733,
-        "nasdaq": -0.6
+        "inflation": -0.639,
+        "geopolitics-tariffs": -0.643,
+        "dealmaking": -0.592,
+        "emerging-markets": -0.592,
+        "rates-fed": -0.545,
+        "costco": -0.657,
+        "walmart": -0.732,
+        "amazon": -0.71,
+        "nasdaq": -0.545
       },
       "entity_stance": {},
       "entity_contested": [
-        "consumer-discretionary",
-        "energy",
-        "real-estate",
-        "inflation",
-        "costco",
-        "walmart"
+        "consumer-discretionary"
       ]
     },
     "tags_source": "keyword",
@@ -52661,7 +52654,7 @@
         "apple",
         "berkshire"
       ],
-      "sentiment": -0.818,
+      "sentiment": -0.455,
       "sentiment_hits": 11,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -52701,7 +52694,7 @@
         "inflation": -1.0,
         "apple": -1.0,
         "alphabet": -1.0,
-        "broadcom": -1.0
+        "broadcom": 1.0
       },
       "entity_conviction": {
         "semiconductors": -1.0,
@@ -54105,7 +54098,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -54510,7 +54503,7 @@
         "nasdaq",
         "netflix"
       ],
-      "sentiment": 0.158,
+      "sentiment": 0.368,
       "sentiment_hits": 19,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -54646,7 +54639,7 @@
         "dividends-buybacks"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -55169,7 +55162,7 @@
         "alphabet",
         "meta"
       ],
-      "sentiment": -0.833,
+      "sentiment": -0.5,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -55435,7 +55428,7 @@
         "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.167,
+      "sentiment": 0.5,
       "sentiment_hits": 12,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -55455,12 +55448,12 @@
         "debt-payoff": 0.2
       },
       "entity_sentiment": {
-        "real-estate": 0.091,
-        "rates-fed": 0.091,
-        "recession": 0.091,
-        "housing": 0.091,
-        "passive-investing": 0.091,
-        "debt-payoff": 0.091
+        "real-estate": 0.455,
+        "rates-fed": 0.455,
+        "recession": 0.455,
+        "housing": 0.455,
+        "passive-investing": 0.455,
+        "debt-payoff": 0.455
       },
       "entity_conviction": {
         "real-estate": -0.667,
@@ -55702,7 +55695,7 @@
       "stocks": [
         "nvidia"
       ],
-      "sentiment": -0.5,
+      "sentiment": -0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -55715,7 +55708,7 @@
       },
       "entity_sentiment": {
         "ai-infrastructure": -1.0,
-        "nvidia": -1.0
+        "nvidia": -0.333
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -57061,7 +57054,7 @@
         "tesla",
         "tsmc"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -57865,7 +57858,7 @@
         "chevron",
         "boeing"
       ],
-      "sentiment": 0.241,
+      "sentiment": 0.468,
       "sentiment_hits": 29,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -57937,7 +57930,7 @@
         "rates-fed": 0.667,
         "currency-dollar": 1.0,
         "bond-market": -1.0,
-        "geopolitics-tariffs": 0.0,
+        "geopolitics-tariffs": -0.429,
         "dividends-buybacks": 0.5,
         "dealmaking": 0.5,
         "sp500": 1.0,
@@ -57948,19 +57941,19 @@
       },
       "entity_conviction": {
         "semiconductors": 1.0,
-        "industrials": -0.333,
+        "industrials": -0.556,
         "defense-aerospace": 0.0,
         "inflation": -1.0,
         "rates-fed": 0.0,
         "regulation-antitrust": -1.0,
         "bond-market": -1.0,
         "geopolitics-tariffs": 1.0,
-        "dividends-buybacks": 0.333,
+        "dividends-buybacks": 0.556,
         "dealmaking": 0.0,
-        "nasdaq": 0.333,
+        "nasdaq": 0.556,
         "apple": 1.0,
         "bitcoin": -1.0,
-        "tesla": 0.333,
+        "tesla": 0.556,
         "alphabet": 1.0
       },
       "entity_stance": {},
@@ -58187,7 +58180,7 @@
         "microsoft",
         "fidelity"
       ],
-      "sentiment": -0.667,
+      "sentiment": -0.852,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -58216,8 +58209,8 @@
       },
       "entity_sentiment": {},
       "entity_conviction": {
-        "rates-fed": -0.2,
-        "inflation": -0.6,
+        "rates-fed": -0.227,
+        "inflation": -0.789,
         "fidelity": -1.0
       },
       "entity_stance": {},
@@ -58401,7 +58394,7 @@
         "sp500",
         "disney"
       ],
-      "sentiment": -0.091,
+      "sentiment": -0.168,
       "sentiment_hits": 22,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -58467,53 +58460,53 @@
         "disney": 0.1
       },
       "entity_sentiment": {
-        "ai-infrastructure": 0.0,
+        "ai-infrastructure": -0.06,
         "energy": -0.6,
-        "technology": 0.143,
-        "semiconductors": 0.143,
-        "industrials": 0.143,
-        "media-entertainment": 0.143,
-        "dealmaking": 0.143,
+        "technology": 0.094,
+        "semiconductors": 0.094,
+        "industrials": 0.094,
+        "media-entertainment": 0.094,
+        "dealmaking": 0.094,
         "recession": -1.0,
         "volatility": 1.0,
         "rates-fed": -0.6,
-        "inflation": 0.143,
+        "inflation": 0.094,
         "elections-politics": -0.6,
         "commodities": -0.6,
         "bond-market": -0.6,
-        "budgeting-saving": 0.143,
-        "diversification": 0.0,
-        "amazon": 0.143,
+        "budgeting-saving": 0.094,
+        "diversification": -0.06,
+        "amazon": 0.094,
         "nasdaq": -0.333,
-        "alphabet": 0.143,
-        "nvidia": 0.143,
-        "tesla": 0.143,
-        "disney": 0.143
+        "alphabet": 0.094,
+        "nvidia": 0.094,
+        "tesla": 0.094,
+        "disney": 0.094
       },
       "entity_conviction": {
-        "ai-infrastructure": -0.531,
-        "energy": -0.689,
-        "technology": -0.257,
-        "semiconductors": -0.257,
-        "industrials": -0.257,
-        "media-entertainment": -0.257,
-        "dealmaking": -0.235,
+        "ai-infrastructure": -0.504,
+        "energy": -0.68,
+        "technology": -0.205,
+        "semiconductors": -0.205,
+        "industrials": -0.205,
+        "media-entertainment": -0.205,
+        "dealmaking": -0.21,
         "recession": -1.0,
-        "volatility": -0.5,
-        "rates-fed": -0.744,
-        "inflation": -0.263,
-        "elections-politics": -0.771,
-        "commodities": -0.771,
-        "bond-market": -0.771,
-        "budgeting-saving": -0.257,
-        "diversification": -0.492,
-        "amazon": -0.257,
-        "nasdaq": -0.833,
+        "volatility": -0.286,
+        "rates-fed": -0.74,
+        "inflation": -0.216,
+        "elections-politics": -0.767,
+        "commodities": -0.767,
+        "bond-market": -0.767,
+        "budgeting-saving": -0.205,
+        "diversification": -0.465,
+        "amazon": -0.205,
+        "nasdaq": -0.829,
         "jpmorgan": -1.0,
-        "alphabet": -0.257,
-        "nvidia": -0.257,
-        "tesla": -0.257,
-        "disney": -0.257
+        "alphabet": -0.205,
+        "nvidia": -0.205,
+        "tesla": -0.205,
+        "disney": -0.205
       },
       "entity_stance": {},
       "entity_contested": [
@@ -59025,7 +59018,7 @@
         "tesla",
         "meta"
       ],
-      "sentiment": -0.5,
+      "sentiment": -0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -59721,7 +59714,7 @@
         "netflix",
         "bank-of-america"
       ],
-      "sentiment": 0.5,
+      "sentiment": 0.339,
       "sentiment_hits": 24,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -59781,43 +59774,46 @@
         "netflix": 0.3
       },
       "entity_sentiment": {
-        "consumer-discretionary": 1.0,
-        "technology": 0.778,
-        "ai-infrastructure": 1.0,
-        "semiconductors": 1.0,
+        "consumer-discretionary": 0.6,
+        "technology": 0.5,
+        "ai-infrastructure": 0.5,
+        "semiconductors": 0.6,
         "crypto": 1.0,
-        "geopolitics-tariffs": 1.0,
-        "inflation": 1.0,
-        "rates-fed": 0.778,
+        "geopolitics-tariffs": 0.5,
+        "inflation": 0.714,
+        "rates-fed": 0.5,
         "recession": -1.0,
-        "dealmaking": 1.0,
-        "credit-markets": 1.0,
-        "ai-boom": 1.0,
+        "dealmaking": 0.5,
+        "credit-markets": 0.5,
+        "ai-boom": 0.714,
         "sp500": 1.0,
         "nasdaq": 1.0,
         "nvidia": 1.0,
-        "amazon": 1.0,
+        "amazon": 0.5,
         "coinbase": 1.0
       },
       "entity_conviction": {
-        "consumer-discretionary": -0.857,
-        "technology": -0.81,
-        "ai-infrastructure": -0.5,
-        "semiconductors": -0.5,
+        "consumer-discretionary": -0.913,
+        "technology": -0.873,
+        "ai-infrastructure": -0.714,
+        "semiconductors": -0.714,
         "crypto": -1.0,
         "bond-market": -1.0,
-        "geopolitics-tariffs": -0.5,
-        "inflation": -0.727,
-        "rates-fed": -0.75,
-        "dealmaking": -0.667,
-        "credit-markets": -0.6,
-        "ai-boom": -0.636,
+        "geopolitics-tariffs": -0.714,
+        "inflation": -0.735,
+        "rates-fed": -0.769,
+        "dealmaking": -0.833,
+        "credit-markets": -0.789,
+        "ai-boom": -0.742,
         "netflix": -1.0,
-        "amazon": -0.857,
+        "amazon": -0.913,
         "coinbase": -1.0
       },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "technology",
+        "rates-fed"
+      ]
     },
     "tags_source": "keyword",
     "transcript_status": "done",
@@ -60151,7 +60147,7 @@
         "alphabet",
         "fidelity"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -60169,10 +60165,10 @@
         "fidelity": 2.6
       },
       "entity_sentiment": {
-        "real-estate": -1.0,
-        "fire-movement": -1.0,
-        "real-estate-investing": -1.0,
-        "fidelity": -1.0
+        "real-estate": 1.0,
+        "fire-movement": 1.0,
+        "real-estate-investing": 1.0,
+        "fidelity": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -60633,7 +60629,7 @@
         "vanguard",
         "alphabet"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.19,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -60669,7 +60665,7 @@
       "entity_conviction": {
         "insurance": -1.0,
         "real-estate": -1.0,
-        "retirement-planning": -0.455,
+        "retirement-planning": -0.538,
         "alphabet": -1.0
       },
       "entity_stance": {},
@@ -60919,7 +60915,7 @@
       "stocks": [
         "robinhood"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -61030,9 +61026,9 @@
         "bond-market": -1.0
       },
       "entity_conviction": {
-        "rates-fed": -0.5,
-        "inflation": -0.5,
-        "labor-market": -0.5
+        "rates-fed": -0.481,
+        "inflation": -0.412,
+        "labor-market": -0.412
       },
       "entity_stance": {},
       "entity_contested": []
@@ -61417,7 +61413,7 @@
         "amazon",
         "nvidia"
       ],
-      "sentiment": 0.4,
+      "sentiment": 0.227,
       "sentiment_hits": 10,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -61861,7 +61857,7 @@
         "bitcoin",
         "amazon"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.333,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -62419,7 +62415,7 @@
         "nasdaq",
         "broadcom"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.2,
       "sentiment_hits": 10,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -62483,7 +62479,7 @@
         "alphabet": -1.0,
         "costco": -1.0,
         "nvidia": -1.0,
-        "berkshire": -0.6,
+        "berkshire": -0.474,
         "walmart": -1.0
       },
       "entity_stance": {
@@ -62515,7 +62511,7 @@
         "dealmaking"
       ],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -63428,7 +63424,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": -0.5,
+      "sentiment": 0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -64039,7 +64035,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -64411,7 +64407,7 @@
         "earnings"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -64754,7 +64750,7 @@
         "tsmc",
         "jpmorgan"
       ],
-      "sentiment": -0.719,
+      "sentiment": -0.525,
       "sentiment_hits": 121,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -64830,14 +64826,14 @@
         "real-estate": -1.0,
         "behavioral-finance": -1.0,
         "dividends-buybacks": -1.0,
-        "rates-fed": -1.0,
+        "rates-fed": -0.6,
         "retirement-planning": -1.0,
-        "recession": -1.0,
+        "recession": 0.0,
         "fiscal-debt": 0.333,
         "housing": -1.0,
         "dealmaking": -1.0,
-        "sp500": -1.0,
-        "nvidia": -0.333,
+        "sp500": 0.333,
+        "nvidia": 1.0,
         "nasdaq": -1.0
       },
       "entity_conviction": {
@@ -65021,7 +65017,7 @@
         "alphabet",
         "sp500"
       ],
-      "sentiment": 0.333,
+      "sentiment": 0.524,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -65722,7 +65718,7 @@
         "tesla",
         "walmart"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -65819,7 +65815,7 @@
       },
       "entity_sentiment": {},
       "entity_conviction": {
-        "industrials": 0.333,
+        "industrials": 0.667,
         "banks": -1.0,
         "dealmaking": -1.0
       },
@@ -66715,18 +66711,18 @@
         "broadcom": -1.0
       },
       "entity_conviction": {
-        "technology": 0.0,
-        "ai-infrastructure": 0.0,
-        "telecoms": 0.0,
-        "private-markets": 0.0,
-        "dealmaking": 0.0,
-        "market-structure": 0.0,
-        "alphabet": 0.0,
-        "meta": 0.0,
-        "tesla": 0.0,
-        "goldman-sachs": 0.0,
-        "nasdaq": 0.0,
-        "broadcom": 0.0
+        "technology": -0.2,
+        "ai-infrastructure": -0.2,
+        "telecoms": -0.2,
+        "private-markets": -0.2,
+        "dealmaking": -0.2,
+        "market-structure": -0.2,
+        "alphabet": -0.2,
+        "meta": -0.2,
+        "tesla": -0.2,
+        "goldman-sachs": -0.2,
+        "nasdaq": -0.2,
+        "broadcom": -0.2
       },
       "entity_stance": {},
       "entity_contested": []
@@ -67705,7 +67701,7 @@
       "stocks": [
         "tesla"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -67852,7 +67848,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -67884,9 +67880,9 @@
         "morgan-stanley": 4.2
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0,
+        "ai-infrastructure": -1.0,
         "inflation": 1.0,
-        "rates-fed": 1.0,
+        "rates-fed": 0.0,
         "dealmaking": 1.0,
         "regulation-antitrust": 1.0
       },
@@ -69188,7 +69184,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": -0.5,
+      "sentiment": -0.455,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -69577,7 +69573,7 @@
       "stocks": [
         "tesla"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -70908,7 +70904,7 @@
         "palantir",
         "broadcom"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -70926,11 +70922,11 @@
         "broadcom": 2.8
       },
       "entity_sentiment": {
-        "dealmaking": -1.0,
-        "microsoft": -1.0,
-        "palantir": -1.0,
-        "broadcom": -1.0,
-        "tesla": -1.0
+        "dealmaking": 1.0,
+        "microsoft": 1.0,
+        "palantir": 1.0,
+        "broadcom": 1.0,
+        "tesla": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -71613,7 +71609,7 @@
         "amazon",
         "cisco"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -73032,7 +73028,7 @@
         "microstrategy",
         "oracle"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.168,
       "sentiment_hits": 28,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -73118,7 +73114,7 @@
         "dealmaking": 1.0,
         "bond-market": 0.0,
         "diversification": 1.0,
-        "ai-boom": -1.0,
+        "ai-boom": 0.0,
         "bitcoin": 0.5,
         "ethereum": 1.0,
         "blackrock": 0.333,
@@ -73239,7 +73235,7 @@
         "bitcoin",
         "nasdaq"
       ],
-      "sentiment": 0.667,
+      "sentiment": 0.63,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -73263,13 +73259,13 @@
         "nasdaq": 5.1
       },
       "entity_sentiment": {
-        "dividends-buybacks": 0.5,
-        "inflation": 0.667,
-        "rates-fed": 0.5,
-        "labor-market": 0.667,
-        "bond-market": 0.5,
+        "dividends-buybacks": 0.412,
+        "inflation": 0.63,
+        "rates-fed": 0.412,
+        "labor-market": 0.63,
+        "bond-market": 0.412,
         "dealmaking": 1.0,
-        "nasdaq": 0.5,
+        "nasdaq": 0.412,
         "bitcoin": 1.0
       },
       "entity_conviction": {},
@@ -73459,7 +73455,7 @@
         "sp500",
         "apple"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -74019,7 +74015,7 @@
         "citigroup",
         "bank-of-america"
       ],
-      "sentiment": 0.0,
+      "sentiment": -0.143,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -74039,7 +74035,7 @@
         "bitcoin": 12.9
       },
       "entity_sentiment": {
-        "bitcoin": 0.0
+        "bitcoin": -0.429
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -75336,7 +75332,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -75828,7 +75824,7 @@
         "palantir",
         "nasdaq"
       ],
-      "sentiment": -0.667,
+      "sentiment": 0.0,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -75848,16 +75844,23 @@
         "nasdaq": 2.4
       },
       "entity_sentiment": {
-        "private-markets": -1.0,
-        "dealmaking": -1.0,
-        "market-structure": -1.0,
-        "tesla": -1.0,
-        "palantir": -1.0,
-        "nasdaq": -1.0
+        "private-markets": 0.0,
+        "dealmaking": 0.0,
+        "market-structure": 0.0,
+        "tesla": 0.0,
+        "palantir": 0.0,
+        "nasdaq": 0.0
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "private-markets",
+        "dealmaking",
+        "market-structure",
+        "tesla",
+        "palantir",
+        "nasdaq"
+      ]
     },
     "tags_source": "keyword"
   },
@@ -75877,7 +75880,7 @@
       ],
       "themes": [],
       "stocks": [],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -76466,7 +76469,7 @@
         "alphabet",
         "tesla"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -76586,7 +76589,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -76608,10 +76611,10 @@
         "morgan-stanley": 2.8
       },
       "entity_sentiment": {
-        "consumer-discretionary": -1.0,
-        "geopolitics-tariffs": -1.0,
-        "inflation": -1.0,
-        "consumer-health": -1.0
+        "consumer-discretionary": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "inflation": 1.0,
+        "consumer-health": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -77189,7 +77192,7 @@
         "sp500",
         "meta"
       ],
-      "sentiment": 0.333,
+      "sentiment": 0.286,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -78390,7 +78393,7 @@
         "nvidia",
         "tsmc"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -78961,7 +78964,7 @@
         "amazon",
         "sp500"
       ],
-      "sentiment": 0.667,
+      "sentiment": 0.333,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -79892,7 +79895,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -79908,7 +79911,7 @@
         "amazon": 1.9
       },
       "entity_sentiment": {
-        "diversification": -1.0
+        "diversification": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -80122,7 +80125,7 @@
         "berkshire",
         "microstrategy"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -80491,7 +80494,7 @@
         "bitcoin",
         "nasdaq"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -80507,8 +80510,8 @@
         "nasdaq": 2.3
       },
       "entity_sentiment": {
-        "crypto": -1.0,
-        "nasdaq": -1.0
+        "crypto": 1.0,
+        "nasdaq": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -81022,7 +81025,7 @@
         "rates-fed"
       ],
       "stocks": [],
-      "sentiment": 0.0,
+      "sentiment": -0.351,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -81034,7 +81037,7 @@
         "labor-market": 3.2
       },
       "entity_sentiment": {
-        "labor-market": 0.333
+        "labor-market": -0.667
       },
       "entity_conviction": {
         "labor-market": -1.0
@@ -82303,7 +82306,7 @@
       ],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -83403,7 +83406,7 @@
         "hedge-funds": -1.0
       },
       "entity_conviction": {
-        "private-markets": -0.714,
+        "private-markets": -0.759,
         "passive-investing": 0.0,
         "hedge-funds": -1.0,
         "sp500": 0.0
@@ -83764,7 +83767,7 @@
         "intel",
         "qualcomm"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -84885,7 +84888,7 @@
         "vanguard",
         "amazon"
       ],
-      "sentiment": 0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -85583,7 +85586,7 @@
       "stocks": [
         "blackrock"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -85948,7 +85951,7 @@
         "ethereum",
         "netflix"
       ],
-      "sentiment": 0.455,
+      "sentiment": 0.636,
       "sentiment_hits": 11,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -86185,7 +86188,7 @@
         "alphabet",
         "charles-schwab"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -86757,7 +86760,7 @@
         "alphabet",
         "amazon"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -88459,7 +88462,7 @@
         "fidelity",
         "russell2000"
       ],
-      "sentiment": 1.0,
+      "sentiment": 0.804,
       "sentiment_hits": 21,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -88507,7 +88510,7 @@
         "inflation": -1.0,
         "commodities": -1.0,
         "sp500": 1.0,
-        "nasdaq": 0.0
+        "nasdaq": 0.429
       },
       "entity_stance": {},
       "entity_contested": []
@@ -88538,7 +88541,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -88976,7 +88979,7 @@
         "charles-schwab",
         "qualcomm"
       ],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -89998,7 +90001,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": 0.667,
+      "sentiment": 0.0,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {},
@@ -90122,7 +90125,7 @@
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.083,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -90140,11 +90143,11 @@
         "nasdaq": 5.5
       },
       "entity_sentiment": {
-        "inflation": 0.0,
-        "bond-market": 0.0,
-        "dividends-buybacks": 0.333,
-        "market-concentration": 0.333,
-        "nasdaq": 0.0
+        "inflation": -0.429,
+        "bond-market": -0.429,
+        "dividends-buybacks": 0.167,
+        "market-concentration": 0.167,
+        "nasdaq": -0.429
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -90257,7 +90260,7 @@
         "dealmaking"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -90936,7 +90939,7 @@
         "nasdaq",
         "russell2000"
       ],
-      "sentiment": 0.067,
+      "sentiment": -0.067,
       "sentiment_hits": 30,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -90987,7 +90990,7 @@
       },
       "entity_conviction": {
         "banks": -1.0,
-        "passive-investing": -0.455,
+        "passive-investing": -0.478,
         "bond-market": -1.0,
         "small-caps-value-growth": -1.0,
         "vanguard": -1.0,
@@ -91576,7 +91579,7 @@
       "stocks": [
         "berkshire"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.143,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -91912,7 +91915,7 @@
         "inflation": 1.0
       },
       "entity_conviction": {
-        "inflation": -0.6,
+        "inflation": -0.818,
         "diversification": -1.0
       },
       "entity_stance": {},
@@ -92238,7 +92241,7 @@
         "sp500",
         "russell2000"
       ],
-      "sentiment": 1.0,
+      "sentiment": 0.911,
       "sentiment_hits": 23,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -92347,7 +92350,7 @@
       "stocks": [
         "apple"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -93283,7 +93286,7 @@
         "inflation"
       ],
       "stocks": [],
-      "sentiment": -0.429,
+      "sentiment": -0.31,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -93305,9 +93308,9 @@
         "elections-politics": 1.0
       },
       "entity_conviction": {
-        "elections-politics": -0.6,
+        "elections-politics": -0.818,
         "inflation": -1.0,
-        "budgeting-saving": 0.0
+        "budgeting-saving": -0.429
       },
       "entity_stance": {},
       "entity_contested": []
@@ -93473,17 +93476,17 @@
         "vanguard": 0.0
       },
       "entity_conviction": {
-        "real-estate": -0.727,
-        "healthcare": -0.727,
-        "fire-movement": -0.75,
-        "real-estate-investing": -0.727,
-        "diversification": -0.727,
-        "college-savings": -0.727,
-        "passive-investing": -0.727,
-        "retirement-planning": -0.727,
-        "small-caps-value-growth": -0.727,
-        "alphabet": -0.727,
-        "vanguard": -0.727
+        "real-estate": -0.72,
+        "healthcare": -0.72,
+        "fire-movement": -0.744,
+        "real-estate-investing": -0.72,
+        "diversification": -0.72,
+        "college-savings": -0.72,
+        "passive-investing": -0.72,
+        "retirement-planning": -0.72,
+        "small-caps-value-growth": -0.72,
+        "alphabet": -0.72,
+        "vanguard": -0.72
       },
       "entity_stance": {
         "real-estate": "sell",
@@ -93651,7 +93654,7 @@
         "berkshire",
         "disney"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -94984,7 +94987,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -95433,7 +95436,7 @@
         "rates-fed"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -95544,7 +95547,7 @@
       "stocks": [
         "cisco"
       ],
-      "sentiment": -1.0,
+      "sentiment": -0.882,
       "sentiment_hits": 11,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -95564,12 +95567,12 @@
         "cisco": 4.3
       },
       "entity_sentiment": {
-        "private-markets": -1.0,
-        "ai-boom": -1.0,
-        "diversification": -1.0,
-        "market-timing-dca": -1.0,
-        "recession": -1.0,
-        "cisco": -1.0
+        "private-markets": -0.882,
+        "ai-boom": -0.882,
+        "diversification": -0.882,
+        "market-timing-dca": -0.882,
+        "recession": -0.714,
+        "cisco": -0.714
       },
       "entity_conviction": {
         "private-markets": -1.0,
@@ -95616,7 +95619,7 @@
         "alphabet",
         "amd"
       ],
-      "sentiment": 0.556,
+      "sentiment": 0.444,
       "sentiment_hits": 9,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -95655,13 +95658,13 @@
       },
       "entity_sentiment": {
         "energy": 0.0,
-        "semiconductors": 0.6,
+        "semiconductors": 0.474,
         "dealmaking": 1.0,
         "inflation": 0.0,
         "bond-market": 0.333,
         "commodities": 0.0,
         "small-caps-value-growth": 1.0,
-        "nvidia": 0.333
+        "nvidia": -0.111
       },
       "entity_conviction": {
         "semiconductors": 1.0,
@@ -95986,7 +95989,7 @@
         "walmart",
         "tesla"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -96033,7 +96036,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.25,
+      "sentiment": 0.0,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -97959,7 +97962,7 @@
         "microsoft",
         "amazon"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -98005,7 +98008,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.6,
+      "sentiment": 0.565,
       "sentiment_hits": 15,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -98135,7 +98138,7 @@
         "bitcoin",
         "sp500"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.083,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -98155,9 +98158,9 @@
         "sp500": 2.8
       },
       "entity_sentiment": {
-        "crypto": -0.333,
-        "bond-market": -0.333,
-        "inflation": -0.333,
+        "crypto": 0.167,
+        "bond-market": 0.167,
+        "inflation": 0.167,
         "rates-fed": -1.0,
         "sp500": -1.0,
         "bitcoin": -1.0
@@ -98538,7 +98541,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": 0.429,
+      "sentiment": 0.375,
       "sentiment_hits": 7,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -99014,7 +99017,7 @@
         "amazon",
         "meta"
       ],
-      "sentiment": 0.833,
+      "sentiment": 0.5,
       "sentiment_hits": 12,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -99177,10 +99180,10 @@
         "sp500": 1.0
       },
       "entity_conviction": {
-        "passive-investing": -0.333,
+        "passive-investing": -0.481,
         "retirement-planning": -1.0,
         "small-caps-value-growth": -1.0,
-        "sp500": 0.0
+        "sp500": -0.429
       },
       "entity_stance": {},
       "entity_contested": []
@@ -99776,7 +99779,7 @@
         "alphabet",
         "nvidia"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -99824,7 +99827,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": -0.5,
+      "sentiment": -0.167,
       "sentiment_hits": 12,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -99854,25 +99857,29 @@
         "morgan-stanley": 2.9
       },
       "entity_sentiment": {
-        "energy": -1.0,
-        "commodities": -1.0,
-        "inflation": -1.0,
+        "energy": -0.429,
+        "commodities": -0.333,
+        "inflation": 0.0,
         "labor-market": 1.0,
-        "recession": -1.0,
+        "recession": 0.333,
         "career-income": -1.0,
         "elections-politics": -1.0
       },
       "entity_conviction": {
-        "energy": 0.0,
-        "commodities": 0.0,
+        "energy": -0.429,
+        "commodities": -0.429,
         "bond-market": -1.0,
-        "inflation": -0.5,
+        "inflation": -0.714,
         "rates-fed": -1.0,
         "recession": 1.0,
         "morgan-stanley": -0.333
       },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "energy",
+        "commodities",
+        "inflation"
+      ]
     },
     "tags_source": "keyword"
   },
@@ -101511,7 +101518,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.25,
+      "sentiment": 0.039,
       "sentiment_hits": 16,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -101537,8 +101544,8 @@
       "entity_sentiment": {
         "energy": -1.0,
         "private-markets": -1.0,
-        "consumer-discretionary": 0.0,
-        "recession": 0.0,
+        "consumer-discretionary": -0.5,
+        "recession": -0.333,
         "commodities": -1.0,
         "labor-market": 1.0,
         "rates-fed": 1.0
@@ -101548,7 +101555,6 @@
       },
       "entity_stance": {},
       "entity_contested": [
-        "consumer-discretionary",
         "recession"
       ]
     },
@@ -101665,7 +101671,7 @@
         "dividends-buybacks"
       ],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -103043,7 +103049,7 @@
       "stocks": [
         "walmart"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -103125,7 +103131,7 @@
         "amazon",
         "nasdaq"
       ],
-      "sentiment": -0.25,
+      "sentiment": -0.189,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -103301,7 +103307,7 @@
         "meta",
         "broadcom"
       ],
-      "sentiment": -0.172,
+      "sentiment": -0.056,
       "sentiment_hits": 29,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -103377,10 +103383,10 @@
         "inflation": 0.0,
         "bond-market": -1.0,
         "ai-boom": 1.0,
-        "credit-markets": -1.0,
+        "credit-markets": -0.6,
         "emerging-markets": 1.0,
         "diversification": -1.0,
-        "recession": -1.0,
+        "recession": 0.0,
         "commodities": 1.0,
         "dealmaking": 0.333,
         "sp500": 1.0,
@@ -103396,7 +103402,7 @@
         "semiconductors": -1.0,
         "consumer-discretionary": -1.0,
         "banks": -1.0,
-        "inflation": -0.556,
+        "inflation": -0.524,
         "bond-market": 0.0,
         "rates-fed": -0.5,
         "earnings": -1.0,
@@ -103622,7 +103628,7 @@
         "mastercard",
         "salesforce"
       ],
-      "sentiment": 0.029,
+      "sentiment": 0.128,
       "sentiment_hits": 35,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -104754,7 +104760,7 @@
         "disney",
         "amazon"
       ],
-      "sentiment": 0.167,
+      "sentiment": -0.076,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -105308,7 +105314,7 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {},
@@ -105814,7 +105820,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -105937,7 +105943,7 @@
         "apple",
         "tesla"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -106391,8 +106397,8 @@
         "earnings": 7.5
       },
       "entity_sentiment": {
-        "inflation": 1.0,
-        "earnings": 1.0
+        "inflation": -1.0,
+        "earnings": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -106458,7 +106464,7 @@
         "small-caps-value-growth"
       ],
       "stocks": [],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -106477,8 +106483,8 @@
       },
       "entity_sentiment": {
         "insurance": 1.0,
-        "dividends-buybacks": -1.0,
-        "small-caps-value-growth": -1.0
+        "dividends-buybacks": 1.0,
+        "small-caps-value-growth": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -107377,7 +107383,7 @@
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.92,
+      "sentiment": 0.84,
       "sentiment_hits": 25,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -108213,7 +108219,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": -0.167,
+      "sentiment": -0.333,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -108243,11 +108249,11 @@
         "morgan-stanley": 2.4
       },
       "entity_sentiment": {
-        "energy": 0.0,
+        "energy": -0.429,
         "industrials": 1.0,
         "inflation": -1.0,
-        "recession": -0.333,
-        "commodities": 0.0
+        "recession": -0.667,
+        "commodities": -0.429
       },
       "entity_conviction": {
         "energy": -1.0,
@@ -108377,7 +108383,7 @@
         "cisco",
         "nvidia"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.5,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -110003,7 +110009,7 @@
         "walmart",
         "costco"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -110557,7 +110563,7 @@
         "alphabet",
         "sp500"
       ],
-      "sentiment": -0.273,
+      "sentiment": -0.091,
       "sentiment_hits": 22,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -110965,7 +110971,7 @@
       "stocks": [
         "meta"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -110989,7 +110995,7 @@
         "meta": 0.5
       },
       "entity_sentiment": {
-        "real-estate": -1.0
+        "real-estate": 0.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -111468,7 +111474,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.6,
+      "sentiment": 0.268,
       "sentiment_hits": 10,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -111722,7 +111728,7 @@
         "valuation"
       ],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": -0.385,
       "sentiment_hits": 9,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -111738,19 +111744,14 @@
         "valuation": 2.4
       },
       "entity_sentiment": {
-        "ai-infrastructure": -0.5,
-        "ai-boom": -0.5,
-        "esg-climate": -0.5,
-        "valuation": -0.5
+        "ai-infrastructure": -0.588,
+        "ai-boom": -0.588,
+        "esg-climate": -0.588,
+        "valuation": -0.588
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": [
-        "ai-infrastructure",
-        "ai-boom",
-        "esg-climate",
-        "valuation"
-      ]
+      "entity_contested": []
     },
     "tags_source": "keyword"
   },
@@ -111982,7 +111983,7 @@
         "amd",
         "tsmc"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -112953,7 +112954,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.167,
+      "sentiment": 0.333,
       "sentiment_hits": 3,
       "sentiment_confidence": 0.5,
       "entity_mentions": {
@@ -113070,7 +113071,7 @@
         "tesla",
         "microstrategy"
       ],
-      "sentiment": -0.333,
+      "sentiment": -0.467,
       "sentiment_hits": 6,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -113271,7 +113272,7 @@
         "bitcoin",
         "vanguard"
       ],
-      "sentiment": -0.032,
+      "sentiment": 0.007,
       "sentiment_hits": 31,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -113619,7 +113620,7 @@
       "stocks": [
         "nvidia"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -113979,7 +113980,7 @@
         "bond-market"
       ],
       "stocks": [],
-      "sentiment": 0.5,
+      "sentiment": 0.25,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -115474,7 +115475,7 @@
       ],
       "themes": [],
       "stocks": [],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -115932,7 +115933,7 @@
       "stocks": [
         "sp500"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -116420,7 +116421,7 @@
         "tsmc",
         "intel"
       ],
-      "sentiment": 0.0,
+      "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -116551,7 +116552,7 @@
         "alphabet",
         "bank-of-america"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.076,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -117900,7 +117901,7 @@
         "fire-movement": -1.0
       },
       "entity_conviction": {
-        "healthcare": -0.5,
+        "healthcare": -0.412,
         "retirement-planning": -1.0
       },
       "entity_stance": {},
@@ -118546,7 +118547,7 @@
         "amd",
         "nvidia"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -119996,7 +119997,7 @@
       "stocks": [
         "disney"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -121671,7 +121672,7 @@
       "stocks": [
         "amazon"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -122039,7 +122040,7 @@
         "ethereum",
         "blackrock"
       ],
-      "sentiment": 0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -122061,10 +122062,10 @@
         "blackrock": 7.8
       },
       "entity_sentiment": {
-        "crypto": 1.0,
-        "bitcoin": 1.0,
-        "coinbase": 1.0,
-        "ethereum": 1.0,
+        "crypto": 0.0,
+        "bitcoin": -1.0,
+        "coinbase": 0.0,
+        "ethereum": 0.0,
         "jpmorgan": 1.0,
         "goldman-sachs": 1.0,
         "blackrock": 1.0
@@ -122899,7 +122900,7 @@
       },
       "entity_sentiment": {},
       "entity_conviction": {
-        "private-markets": -0.467,
+        "private-markets": -0.444,
         "credit-markets": -1.0
       },
       "entity_stance": {},
@@ -122932,7 +122933,7 @@
       "stocks": [
         "berkshire"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -123133,7 +123134,7 @@
         "sp500",
         "nasdaq"
       ],
-      "sentiment": 0.077,
+      "sentiment": 0.129,
       "sentiment_hits": 13,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -123276,7 +123277,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.111,
+      "sentiment": 0.19,
       "sentiment_hits": 9,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -123297,7 +123298,7 @@
       },
       "entity_sentiment": {
         "semiconductors": 1.0,
-        "rates-fed": -0.2,
+        "rates-fed": -0.091,
         "inflation": -1.0,
         "morgan-stanley": 1.0
       },
@@ -124717,7 +124718,7 @@
       "stocks": [
         "alphabet"
       ],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 5,
       "sentiment_confidence": 0.833,
       "entity_mentions": {
@@ -125038,7 +125039,7 @@
       "stocks": [
         "nvidia"
       ],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -125744,7 +125745,7 @@
         "rates-fed"
       ],
       "stocks": [],
-      "sentiment": -0.333,
+      "sentiment": 0.0,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
@@ -126299,7 +126300,7 @@
         "apple",
         "meta"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -126380,7 +126381,7 @@
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.5,
+      "sentiment": 0.467,
       "sentiment_hits": 8,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
@@ -128221,7 +128222,7 @@
         "walmart",
         "meta"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -128547,7 +128548,7 @@
         "fidelity",
         "charles-schwab"
       ],
-      "sentiment": 0.333,
+      "sentiment": 0.275,
       "sentiment_hits": 4,
       "sentiment_confidence": 0.667,
       "entity_mentions": {
@@ -129627,7 +129628,7 @@
         "robinhood",
         "netflix"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -129782,13 +129783,13 @@
         "elections-politics": 1.0
       },
       "entity_conviction": {
-        "energy": -0.667,
-        "consumer-discretionary": -0.333,
+        "energy": -0.833,
+        "consumer-discretionary": -0.667,
         "rates-fed": -1.0,
-        "elections-politics": -0.6,
-        "consumer-health": -0.333,
-        "inflation": -0.714,
-        "commodities": 0.0,
+        "elections-politics": -0.545,
+        "consumer-health": -0.667,
+        "inflation": -0.846,
+        "commodities": -0.429,
         "geopolitics-tariffs": 0.0
       },
       "entity_stance": {},
@@ -131640,7 +131641,7 @@
         "fire-movement"
       ],
       "stocks": [],
-      "sentiment": 0.167,
+      "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
@@ -131650,7 +131651,7 @@
         "fire-movement": 27.2
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -131932,7 +131933,7 @@
       "stocks": [
         "alphabet"
       ],
-      "sentiment": -0.167,
+      "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {

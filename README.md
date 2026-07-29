@@ -27,6 +27,20 @@ coarse sentiment score. All stdlib Python: no API key, no paid dependency, no
 per-run cost. It's what keeps the dashboard populated with zero ongoing spend,
 and it's the automatic fallback whenever a better option isn't configured.
 
+Plain keyword counting is a genuinely blunt instrument on its own -- "I don't
+think there's a bubble" contains the word "bubble" and would naively score
+bearish. `pipeline/extract_themes.py` layers three targeted (still zero-token)
+fixes on top: **negation** (a "not"/"isn't"/"never"/... cue before a
+bullish/bearish word flips its polarity instead of just being ignored),
+**attribution** ("some people think X", "critics say Y" describes someone
+else's view, so it's down-weighted rather than counted as the speaker's own),
+and **contrast** (in "X, but Y", Y is usually the actual point -- the clause
+before "but"/"however" is weighted lower than the clause after it). This is
+still not real language understanding -- sarcasm is invisible, and a negation
+more than ~6 words from its target is missed -- but it catches the specific,
+common failure mode of a single trigger word driving the whole score in the
+wrong direction.
+
 **Full transcript + Claude analysis** is the real analysis path — it catches a
 hedged view, sarcasm, or a guest disagreeing with the host, none of which
 keyword matching can do, plus a one/two-sentence summary of the
