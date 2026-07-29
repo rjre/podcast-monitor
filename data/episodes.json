@@ -10244,20 +10244,78 @@
     "duration": "00:21:39",
     "audio_url": "https://dowjones.simplecastaudio.com/67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1/episodes/09cc2c81-55cb-4bab-aa65-e0cff3b7b066/audio/128/default.mp3?aid=rss_feed&awCollectionId=67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1&awEpisodeId=09cc2c81-55cb-4bab-aa65-e0cff3b7b066&feed=QeVni9a0",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "energy",
+        "semiconductors",
+        "ai-infrastructure",
+        "utilities"
+      ],
+      "themes": [
+        "dealmaking",
+        "earnings",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "nasdaq",
+        "alphabet",
+        "fidelity",
+        "sp500",
+        "charles-schwab",
+        "tesla"
+      ],
+      "sentiment": 0.474,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 2,
+        "ai-infrastructure": 1,
+        "energy": 3,
+        "utilities": 1,
+        "dealmaking": 4,
+        "earnings": 3,
+        "small-caps-value-growth": 1,
+        "alphabet": 8,
+        "tesla": 1,
+        "sp500": 3,
+        "nasdaq": 13,
+        "fidelity": 5,
+        "charles-schwab": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.5,
+        "ai-infrastructure": 0.2,
+        "energy": 0.7,
+        "utilities": 0.2,
+        "dealmaking": 0.9,
+        "earnings": 0.7,
+        "small-caps-value-growth": 0.2,
+        "alphabet": 1.8,
+        "tesla": 0.2,
+        "sp500": 0.7,
+        "nasdaq": 3.0,
+        "fidelity": 1.1,
+        "charles-schwab": 0.5
+      },
+      "entity_sentiment": {
+        "dealmaking": 1.0,
+        "earnings": 1.0,
+        "alphabet": 1.0
+      },
+      "entity_conviction": {
+        "dealmaking": -1.0,
+        "earnings": -1.0,
+        "nasdaq": -1.0,
+        "alphabet": -1.0,
+        "fidelity": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-stock-market-today-with-ibd-ai-stocks-lead-market-bounce-into-huge-earnings-ati-micron-d-1177fe.md",
+    "transcript_word_count": 4351,
+    "transcript_language": "en"
   },
   {
     "guid": "7024fa7c-d9e1-11f0-988b-679d67c6ec6b",
@@ -16908,27 +16966,69 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a5911137a878a33800f3e4b/media.mp3",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "technology",
+        "real-estate",
+        "crypto"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "bond-market",
+        "regulation-antitrust",
+        "passive-investing",
+        "retirement-planning"
+      ],
+      "stocks": [
+        "blackrock",
+        "tesla",
+        "sp500",
+        "robinhood"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "private-markets": 3
+        "technology": 1,
+        "real-estate": 1,
+        "crypto": 1,
+        "private-markets": 24,
+        "regulation-antitrust": 1,
+        "bond-market": 3,
+        "passive-investing": 1,
+        "retirement-planning": 1,
+        "tesla": 1,
+        "sp500": 1,
+        "blackrock": 2,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "private-markets": 27.0
+        "technology": 0.3,
+        "real-estate": 0.3,
+        "crypto": 0.3,
+        "private-markets": 7.0,
+        "regulation-antitrust": 0.3,
+        "bond-market": 0.9,
+        "passive-investing": 0.3,
+        "retirement-planning": 0.3,
+        "tesla": 0.3,
+        "sp500": 0.3,
+        "blackrock": 0.6,
+        "robinhood": 0.3
       },
       "entity_sentiment": {
-        "private-markets": -1.0
+        "private-markets": 0.0,
+        "real-estate": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-unhedged-should-private-credit-be-public-0f3e4b.md",
+    "transcript_word_count": 3342,
+    "transcript_language": "en"
   },
   {
     "guid": "5920eb5c-2fe6-49b0-a683-f75d4234bf11",
@@ -29702,29 +29802,46 @@
       "sectors": [],
       "themes": [
         "budgeting-saving",
-        "labor-market"
+        "labor-market",
+        "elections-politics",
+        "passive-income",
+        "valuation",
+        "insurance-products"
       ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "labor-market": 1,
-        "budgeting-saving": 2
+        "elections-politics": 1,
+        "budgeting-saving": 8,
+        "passive-income": 1,
+        "valuation": 1,
+        "insurance-products": 1
       },
       "entity_mention_density": {
-        "labor-market": 3.0,
-        "budgeting-saving": 6.0
+        "labor-market": 0.1,
+        "elections-politics": 0.1,
+        "budgeting-saving": 1.1,
+        "passive-income": 0.1,
+        "valuation": 0.1,
+        "insurance-products": 0.1
       },
       "entity_sentiment": {
         "labor-market": 1.0,
-        "budgeting-saving": 1.0
+        "budgeting-saving": 1.0,
+        "insurance-products": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-brown-ambition-summer-money-reboot-week-1-which-financial-season-are-you-in-2ccc64.md",
+    "transcript_word_count": 6687,
+    "transcript_language": "en"
   },
   {
     "guid": "fcff8e1e-3cf2-4719-857b-e14a7547899f",
@@ -30576,7 +30693,10 @@
     "duration": "00:17:52",
     "audio_url": "https://anchor.fm/s/fe33a85c/podcast/play/122507723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-7%2F427518806-44100-2-71914fce1a4e7.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "healthcare"
+      ],
       "themes": [
         "budgeting-saving"
       ],
@@ -30587,19 +30707,30 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
+        "insurance": 3,
+        "healthcare": 2,
+        "budgeting-saving": 3,
         "meta": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1,
-        "meta": 8.1
+        "insurance": 0.8,
+        "healthcare": 0.5,
+        "budgeting-saving": 0.8,
+        "meta": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-money-to-the-masses-money-vault-the-ultimate-travel-insurance-checklist-34b840.md",
+    "transcript_word_count": 3537,
+    "transcript_language": "en"
   },
   {
     "guid": "bcce14d7-64da-4c70-abc5-dfec6acfa15e",
@@ -33157,38 +33288,173 @@
     "duration": "00:40:28",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/0926be07-180d-43c9-b398-6eac2d759ada/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=0926be07-180d-43c9-b398-6eac2d759ada&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "energy",
+        "consumer-staples",
+        "banks",
+        "consumer-discretionary",
+        "real-estate"
+      ],
       "themes": [
+        "dealmaking",
+        "elections-politics",
         "rates-fed",
         "geopolitics-tariffs",
-        "dealmaking",
-        "regulation-antitrust"
+        "japan",
+        "labor-market",
+        "ai-boom",
+        "regulation-antitrust",
+        "diversification",
+        "inflation",
+        "housing",
+        "volatility",
+        "earnings",
+        "bond-market",
+        "emerging-markets",
+        "budgeting-saving",
+        "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "russell2000",
+        "nasdaq",
+        "apple",
+        "alphabet",
+        "amazon",
+        "palantir",
+        "jpmorgan",
+        "bank-of-america",
+        "sp500",
+        "charles-schwab"
+      ],
+      "sentiment": 0.224,
+      "sentiment_hits": 30,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "geopolitics-tariffs": 1,
-        "dealmaking": 1,
-        "regulation-antitrust": 1
+        "technology": 4,
+        "semiconductors": 3,
+        "ai-infrastructure": 6,
+        "banks": 1,
+        "energy": 3,
+        "consumer-discretionary": 1,
+        "consumer-staples": 2,
+        "real-estate": 1,
+        "inflation": 1,
+        "rates-fed": 7,
+        "ai-boom": 2,
+        "japan": 4,
+        "geopolitics-tariffs": 6,
+        "labor-market": 4,
+        "housing": 1,
+        "elections-politics": 8,
+        "volatility": 1,
+        "dealmaking": 9,
+        "regulation-antitrust": 2,
+        "earnings": 1,
+        "bond-market": 1,
+        "emerging-markets": 1,
+        "budgeting-saving": 1,
+        "diversification": 2,
+        "market-timing-dca": 1,
+        "apple": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "palantir": 1,
+        "jpmorgan": 1,
+        "bank-of-america": 1,
+        "sp500": 1,
+        "nasdaq": 2,
+        "russell2000": 3,
+        "charles-schwab": 1
       },
       "entity_mention_density": {
-        "rates-fed": 14.7,
-        "geopolitics-tariffs": 14.7,
-        "dealmaking": 14.7,
-        "regulation-antitrust": 14.7
+        "technology": 0.5,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.7,
+        "banks": 0.1,
+        "energy": 0.4,
+        "consumer-discretionary": 0.1,
+        "consumer-staples": 0.2,
+        "real-estate": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.8,
+        "ai-boom": 0.2,
+        "japan": 0.5,
+        "geopolitics-tariffs": 0.7,
+        "labor-market": 0.5,
+        "housing": 0.1,
+        "elections-politics": 1.0,
+        "volatility": 0.1,
+        "dealmaking": 1.1,
+        "regulation-antitrust": 0.2,
+        "earnings": 0.1,
+        "bond-market": 0.1,
+        "emerging-markets": 0.1,
+        "budgeting-saving": 0.1,
+        "diversification": 0.2,
+        "market-timing-dca": 0.1,
+        "apple": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "palantir": 0.1,
+        "jpmorgan": 0.1,
+        "bank-of-america": 0.1,
+        "sp500": 0.1,
+        "nasdaq": 0.2,
+        "russell2000": 0.4,
+        "charles-schwab": 0.1
       },
       "entity_sentiment": {
+        "semiconductors": 1.0,
+        "consumer-discretionary": 1.0,
+        "real-estate": 1.0,
         "dealmaking": 0.0,
-        "regulation-antitrust": 0.0
+        "regulation-antitrust": -0.5,
+        "rates-fed": -1.0,
+        "budgeting-saving": 1.0,
+        "elections-politics": -1.0,
+        "labor-market": 1.0,
+        "diversification": 1.0,
+        "housing": 1.0,
+        "market-timing-dca": 1.0,
+        "sp500": 1.0,
+        "nasdaq": -1.0,
+        "russell2000": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "technology": -1.0,
+        "consumer-discretionary": -1.0,
+        "ai-infrastructure": -1.0,
+        "real-estate": -1.0,
+        "dealmaking": 1.0,
+        "regulation-antitrust": -1.0,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "japan": 1.0,
+        "elections-politics": -1.0,
+        "labor-market": -1.0,
+        "ai-boom": -1.0,
+        "housing": -1.0,
+        "market-timing-dca": -1.0,
+        "volatility": -1.0,
+        "russell2000": 0.429
+      },
+      "entity_stance": {
+        "technology": "buy",
+        "ai-infrastructure": "buy",
+        "ai-boom": "buy",
+        "market-timing-dca": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-morning-call-markets-ai-and-fed-uncertainty-drive-the-second-half-7-6-26-9481e4.md",
+    "transcript_word_count": 8188,
+    "transcript_language": "en"
   },
   {
     "guid": "6a4b75084955fc4dc12ffcc7",
@@ -33879,20 +34145,38 @@
     "duration": "1746",
     "audio_url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/a31387dc/2b571ae3.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "industrials"
+      ],
+      "themes": [
+        "regulation-antitrust"
+      ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
+      "entity_mentions": {
+        "industrials": 1,
+        "regulation-antitrust": 1
+      },
+      "entity_mention_density": {
+        "industrials": 0.2,
+        "regulation-antitrust": 0.2
+      },
+      "entity_sentiment": {
+        "industrials": 1.0
+      },
+      "entity_conviction": {
+        "industrials": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-count-me-in-ep-361-connecting-members-around-the-world-a-conversation-wi-5b95d3.md",
+    "transcript_word_count": 5799,
+    "transcript_language": "en"
   },
   {
     "guid": "6682b8fc-2f1b-40a4-92d0-f5a9fdd369f4",
@@ -57548,40 +57832,55 @@
         "consumer-staples"
       ],
       "themes": [
+        "dividends-buybacks",
         "bond-market"
       ],
       "stocks": [
         "microsoft",
         "amazon",
-        "nasdaq"
+        "nasdaq",
+        "sp500"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "consumer-staples": 1,
-        "bond-market": 2,
-        "microsoft": 1,
-        "amazon": 1,
-        "nasdaq": 1
+        "consumer-discretionary": 2,
+        "consumer-staples": 2,
+        "bond-market": 3,
+        "dividends-buybacks": 7,
+        "microsoft": 3,
+        "amazon": 3,
+        "sp500": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "consumer-discretionary": 6.3,
-        "consumer-staples": 6.3,
-        "bond-market": 12.6,
-        "microsoft": 6.3,
-        "amazon": 6.3,
-        "nasdaq": 6.3
+        "consumer-discretionary": 2.0,
+        "consumer-staples": 2.0,
+        "bond-market": 3.0,
+        "dividends-buybacks": 6.9,
+        "microsoft": 3.0,
+        "amazon": 3.0,
+        "sp500": 1.0,
+        "nasdaq": 2.0
       },
       "entity_sentiment": {
-        "bond-market": 1.0
+        "consumer-discretionary": 1.0,
+        "bond-market": 1.0,
+        "dividends-buybacks": 1.0,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-the-dividend-cafe-thursday-june-18-2026-14338b.md",
+    "transcript_word_count": 856,
+    "transcript_language": "en"
   },
   {
     "guid": "6a344c1a6f90df4cb7b75f82",
@@ -66564,29 +66863,49 @@
         "crypto"
       ],
       "themes": [
-        "dealmaking",
-        "regulation-antitrust"
+        "regulation-antitrust",
+        "dealmaking"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "ethereum",
+        "nasdaq",
+        "blackrock",
+        "robinhood"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "crypto": 2,
-        "dealmaking": 1,
-        "regulation-antitrust": 1
+        "crypto": 46,
+        "dealmaking": 3,
+        "regulation-antitrust": 10,
+        "ethereum": 1,
+        "nasdaq": 1,
+        "blackrock": 1,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "crypto": 19.8,
-        "dealmaking": 9.9,
-        "regulation-antitrust": 9.9
+        "crypto": 8.0,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 1.7,
+        "ethereum": 0.2,
+        "nasdaq": 0.2,
+        "blackrock": 0.2,
+        "robinhood": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -1.0,
+        "regulation-antitrust": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-forward-guidance-blockworks-acquires-messari-edddfd.md",
+    "transcript_word_count": 5634,
+    "transcript_language": "en"
   },
   {
     "guid": "8216cbe6-6679-11f1-828d-d763b2bb80fb",
@@ -67612,33 +67931,89 @@
     "duration": "2171",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/73a98ee7-4125-43b1-b588-b4660129079f/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks"
+      ],
       "themes": [
-        "fire-movement"
+        "elections-politics",
+        "ai-boom",
+        "budgeting-saving",
+        "retirement-planning",
+        "college-savings",
+        "inflation",
+        "labor-market",
+        "debt-payoff",
+        "fire-movement",
+        "tax-planning",
+        "estate-planning"
       ],
       "stocks": [
+        "fidelity",
+        "bitcoin",
         "meta",
-        "bitcoin"
+        "att",
+        "sp500",
+        "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.083,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "banks": 2,
+        "inflation": 1,
+        "ai-boom": 2,
+        "labor-market": 1,
+        "elections-politics": 3,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
         "fire-movement": 1,
+        "retirement-planning": 2,
+        "tax-planning": 1,
+        "estate-planning": 1,
+        "college-savings": 2,
         "meta": 1,
-        "bitcoin": 1
+        "att": 1,
+        "bitcoin": 8,
+        "sp500": 1,
+        "vanguard": 1,
+        "fidelity": 10
       },
       "entity_mention_density": {
-        "fire-movement": 3.1,
-        "meta": 3.1,
-        "bitcoin": 3.1
+        "banks": 0.2,
+        "inflation": 0.1,
+        "ai-boom": 0.2,
+        "labor-market": 0.1,
+        "elections-politics": 0.3,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "tax-planning": 0.1,
+        "estate-planning": 0.1,
+        "college-savings": 0.2,
+        "meta": 0.1,
+        "att": 0.1,
+        "bitcoin": 0.9,
+        "sp500": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 1.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "inflation": 1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "ai-boom": -1.0,
+        "college-savings": 0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-how-to-money-friday-flight-overblown-ai-portfolio-powered-wealth-k-shaped-29079f.md",
+    "transcript_word_count": 8570,
+    "transcript_language": "en"
   },
   {
     "guid": "0b8ebdc8-51cb-4d16-8cb1-29421b5eef47",
@@ -82161,30 +82536,45 @@
       "sectors": [],
       "themes": [
         "retirement-planning",
+        "fire-movement",
+        "credit-markets",
+        "passive-investing",
         "budgeting-saving"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "credit-markets": 1,
+        "passive-investing": 1,
         "budgeting-saving": 1,
-        "retirement-planning": 4,
+        "fire-movement": 4,
+        "retirement-planning": 19,
         "meta": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.3,
-        "retirement-planning": 17.0,
-        "meta": 4.3
+        "credit-markets": 0.5,
+        "passive-investing": 0.5,
+        "budgeting-saving": 0.5,
+        "fire-movement": 2.1,
+        "retirement-planning": 9.9,
+        "meta": 0.5
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "fire-movement": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-money-girl-4-ways-to-fund-an-early-retirement-penalty-free-356acf.md",
+    "transcript_word_count": 1683,
+    "transcript_language": "en"
   },
   {
     "guid": "e25b00fa-5eb1-11f1-adcc-4f0d5a00676e",
@@ -108148,64 +108538,23 @@
     "tags": {
       "sectors": [
         "insurance",
-        "healthcare",
         "real-estate"
       ],
       "themes": [
-        "budgeting-saving",
         "debt-payoff",
-        "insurance-products",
         "retirement-planning",
-        "college-savings",
-        "passive-income"
+        "budgeting-saving",
+        "insurance-products"
       ],
-      "stocks": [
-        "meta"
-      ],
-      "sentiment": 0.84,
-      "sentiment_hits": 25,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "insurance": 1,
-        "healthcare": 1,
-        "real-estate": 1,
-        "budgeting-saving": 14,
-        "debt-payoff": 6,
-        "retirement-planning": 3,
-        "passive-income": 1,
-        "college-savings": 2,
-        "insurance-products": 5,
-        "meta": 1
-      },
-      "entity_mention_density": {
-        "insurance": 0.1,
-        "healthcare": 0.1,
-        "real-estate": 0.1,
-        "budgeting-saving": 0.7,
-        "debt-payoff": 0.3,
-        "retirement-planning": 0.2,
-        "passive-income": 0.1,
-        "college-savings": 0.1,
-        "insurance-products": 0.3,
-        "meta": 0.1
-      },
-      "entity_sentiment": {
-        "debt-payoff": 1.0,
-        "college-savings": -1.0
-      },
-      "entity_conviction": {
-        "budgeting-saving": -1.0,
-        "college-savings": -1.0,
-        "meta": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.7
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-15-the-ramsey-show-live-audience-money-questions-in-denver-62f16a.md",
     "transcript_word_count": 19234,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Live-audience call-in show covering typical debt-free celebrations, budgeting, retirement and insurance questions in the standard Ramsey baby-steps framework; no distinct market thesis beyond the usual pro-debt-payoff, pro-index-fund-retirement-investing stance."
   },
   {
     "guid": "9ed0b304-49e6-4f06-8d9c-49e83fd227c6",
@@ -108748,87 +109097,26 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/MGEEK2314030481.mp3",
     "tags": {
       "sectors": [
-        "real-estate",
-        "technology",
-        "semiconductors"
+        "real-estate"
       ],
       "themes": [
         "fire-movement",
         "retirement-planning",
         "tax-planning",
         "estate-planning",
-        "insurance-products",
-        "budgeting-saving",
-        "real-estate-investing",
-        "passive-investing"
+        "passive-investing",
+        "bond-market",
+        "real-estate-investing"
       ],
-      "stocks": [
-        "meta",
-        "berkshire",
-        "bitcoin"
-      ],
-      "sentiment": 1.0,
-      "sentiment_hits": 10,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 1,
-        "semiconductors": 1,
-        "real-estate": 4,
-        "passive-investing": 2,
-        "budgeting-saving": 3,
-        "fire-movement": 17,
-        "retirement-planning": 13,
-        "real-estate-investing": 3,
-        "tax-planning": 9,
-        "estate-planning": 7,
-        "insurance-products": 6,
-        "meta": 1,
-        "berkshire": 1,
-        "bitcoin": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.1,
-        "semiconductors": 0.1,
-        "real-estate": 0.5,
-        "passive-investing": 0.3,
-        "budgeting-saving": 0.4,
-        "fire-movement": 2.3,
-        "retirement-planning": 1.7,
-        "real-estate-investing": 0.4,
-        "tax-planning": 1.2,
-        "estate-planning": 0.9,
-        "insurance-products": 0.8,
-        "meta": 0.1,
-        "berkshire": 0.1,
-        "bitcoin": 0.1
-      },
-      "entity_sentiment": {
-        "fire-movement": 1.0,
-        "estate-planning": 1.0,
-        "tax-planning": 1.0,
-        "meta": 1.0
-      },
-      "entity_conviction": {
-        "real-estate": -1.0,
-        "fire-movement": -1.0,
-        "estate-planning": -1.0,
-        "budgeting-saving": -1.0,
-        "passive-investing": -1.0,
-        "tax-planning": -1.0,
-        "retirement-planning": -1.0,
-        "real-estate-investing": -1.0
-      },
-      "entity_stance": {
-        "tax-planning": "buy",
-        "retirement-planning": "buy"
-      },
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.3
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-15-biggerpockets-money-the-biggest-portfolio-mistakes-fire-investors-make-228e25.md",
     "transcript_word_count": 7321,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Hosts flag common FIRE portfolio mistakes: hoarding cash with no purpose, staying 100% equities into retirement despite no research supporting a 4% withdrawal rate at 100% equity allocation, under-optimizing long-horizon tax planning (Roth vs. traditional, MAGI-cliff ACA subsidy management), skipping estate planning, and lacking a clear withdrawal order of operations across account types."
   },
   {
     "guid": "a3e687eb-bd04-42f2-93a9-5d15c0244b6b",
@@ -110655,72 +110943,22 @@
       ],
       "themes": [
         "dealmaking",
-        "budgeting-saving"
+        "market-structure",
+        "market-concentration"
       ],
       "stocks": [
         "nasdaq",
         "sp500",
-        "tesla",
-        "nvidia",
-        "goldman-sachs",
-        "vanguard",
-        "mastercard"
+        "tesla"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 6,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "ai-infrastructure": 1,
-        "private-markets": 5,
-        "dealmaking": 29,
-        "budgeting-saving": 2,
-        "nvidia": 1,
-        "tesla": 4,
-        "goldman-sachs": 1,
-        "sp500": 7,
-        "nasdaq": 12,
-        "vanguard": 1,
-        "mastercard": 1
-      },
-      "entity_mention_density": {
-        "ai-infrastructure": 0.3,
-        "private-markets": 1.3,
-        "dealmaking": 7.6,
-        "budgeting-saving": 0.5,
-        "nvidia": 0.3,
-        "tesla": 1.0,
-        "goldman-sachs": 0.3,
-        "sp500": 1.8,
-        "nasdaq": 3.1,
-        "vanguard": 0.3,
-        "mastercard": 0.3
-      },
-      "entity_sentiment": {
-        "dealmaking": 1.0,
-        "mastercard": 1.0,
-        "goldman-sachs": 1.0,
-        "sp500": 0.333,
-        "nasdaq": 0.5,
-        "tesla": 0.0,
-        "nvidia": 1.0
-      },
-      "entity_conviction": {
-        "private-markets": -1.0,
-        "ai-infrastructure": -1.0,
-        "dealmaking": -0.306,
-        "sp500": -0.333,
-        "nasdaq": 0.111,
-        "tesla": 0.0,
-        "nvidia": 0.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.4
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-13-masters-in-business-at-the-money-is-spacex-ipo-breaking-capitalism-58ed86.md",
     "transcript_word_count": 3733,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Critical look at mega-cap IPOs (SpaceX, Anthropic, OpenAI) floating only ~5% of shares yet getting fast-tracked into the Nasdaq 100/S&P 500, which the guest argues hands insiders/private-equity backers liquidity at a rich valuation while forcing passive index funds to buy the pop -- a genuine market-structure risk for index investors, not just an IPO-specific story."
   },
   {
     "guid": "a02a6cf6-4f0d-11f1-a428-2f37626a0b88",
@@ -111439,35 +111677,18 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "small-caps-value-growth"
+        "small-caps-value-growth",
+        "behavioral-finance"
       ],
-      "stocks": [
-        "alphabet",
-        "sp500"
-      ],
-      "sentiment": -0.091,
-      "sentiment_hits": 22,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "small-caps-value-growth": 2,
-        "alphabet": 1,
-        "sp500": 1
-      },
-      "entity_mention_density": {
-        "small-caps-value-growth": 0.2,
-        "alphabet": 0.1,
-        "sp500": 0.1
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-13-chat-with-traders-323-alex-temiz-starbucks-barista-to-8-figure-short-selling-s-46dcc3.md",
     "transcript_word_count": 10767,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Trader interview on risk-management evolution -- hard stop-loss/auto-liquidation rules, sizing only into high-probability 'A+' setups, and adding to winners rather than losers -- is trading-psychology/risk-process content rather than a market or asset call."
   },
   {
     "guid": "05834c52-071f-4a7c-807c-b44900aefc51",
@@ -111843,51 +112064,20 @@
         "real-estate"
       ],
       "themes": [
-        "retirement-planning",
-        "college-savings",
-        "insurance-products",
-        "budgeting-saving",
+        "estate-planning",
         "debt-payoff",
-        "estate-planning"
+        "retirement-planning",
+        "insurance-products"
       ],
-      "stocks": [
-        "meta"
-      ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
-      "entity_mentions": {
-        "real-estate": 3,
-        "budgeting-saving": 1,
-        "debt-payoff": 1,
-        "retirement-planning": 2,
-        "estate-planning": 1,
-        "college-savings": 2,
-        "insurance-products": 2,
-        "meta": 1
-      },
-      "entity_mention_density": {
-        "real-estate": 1.6,
-        "budgeting-saving": 0.5,
-        "debt-payoff": 0.5,
-        "retirement-planning": 1.1,
-        "estate-planning": 0.5,
-        "college-savings": 1.1,
-        "insurance-products": 1.1,
-        "meta": 0.5
-      },
-      "entity_sentiment": {
-        "real-estate": 0.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-13-money-girl-what-happens-to-your-money-after-you-die-reissue-4f9a96.md",
     "transcript_word_count": 1758,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Practical estate-planning explainer on what happens to bank accounts, retirement accounts, debts and property after death -- wills, beneficiary designations, probate, and how debts are (and aren't) inherited -- informational rather than a market or asset call."
   },
   {
     "guid": "b8fa4ff2-4a36-11f1-a1c4-6b3179c8f75f",
@@ -112348,44 +112538,17 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "diversification",
-        "budgeting-saving",
-        "retirement-planning",
-        "tax-planning"
+        "retirement-planning"
       ],
-      "stocks": [
-        "amazon"
-      ],
-      "sentiment": 0.268,
-      "sentiment_hits": 10,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "budgeting-saving": 1,
-        "retirement-planning": 1,
-        "diversification": 2,
-        "tax-planning": 1,
-        "amazon": 1
-      },
-      "entity_mention_density": {
-        "budgeting-saving": 0.1,
-        "retirement-planning": 0.1,
-        "diversification": 0.2,
-        "tax-planning": 0.1,
-        "amazon": 0.1
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "tax-planning": -1.0,
-        "budgeting-saving": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-13-the-retirement-and-ira-show-enjoying-a-healthy-retirement-edu-2619-mp5309.md",
     "transcript_word_count": 8427,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "New recurring segment with a physician on 'health span vs. lifespan' -- average healthy years run roughly to age 68 (men) / 72 (women) before decline -- framed as directly informing how aggressively retirees should spend their 'fun number' early in retirement rather than stretching a 30-year safe withdrawal rate evenly."
   },
   {
     "guid": "26698cbd-784c-4b3b-b756-1e4ee3789d90",
@@ -112456,36 +112619,16 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC8493619019.mp3",
     "tags": {
       "sectors": [],
-      "themes": [
-        "small-caps-value-growth"
-      ],
-      "stocks": [
-        "amazon",
-        "berkshire"
-      ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "small-caps-value-growth": 1,
-        "amazon": 1,
-        "berkshire": 1
-      },
-      "entity_mention_density": {
-        "small-caps-value-growth": 3.2,
-        "amazon": 3.2,
-        "berkshire": 3.2
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "themes": [],
+      "stocks": [],
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-13-the-investor-s-podcast-we-study-billionaires-trailer-the-investor-s-podcast-show-formerly-we-study-billio-5cccb4.md",
     "transcript_word_count": 165,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Pure promotional trailer introducing the show's hosts and value-investing mission; no investment content or market commentary."
   },
   {
     "guid": "30b26c02-b82b-4d61-b0e7-9d310e83c28e",
@@ -112756,32 +112899,119 @@
     "duration": "00:40:15",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/3188076a-dfb0-4869-8caa-e52431b32874/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=3188076a-dfb0-4869-8caa-e52431b32874&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "energy",
+        "real-estate",
+        "consumer-discretionary",
+        "healthcare",
+        "industrials"
+      ],
       "themes": [
         "inflation",
-        "elections-politics"
+        "geopolitics-tariffs",
+        "rates-fed",
+        "elections-politics",
+        "commodities",
+        "labor-market",
+        "budgeting-saving",
+        "consumer-health",
+        "housing",
+        "fiscal-debt",
+        "bond-market",
+        "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "nasdaq"
+      ],
+      "sentiment": -0.044,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "inflation": 3,
-        "elections-politics": 1
+        "insurance": 5,
+        "energy": 5,
+        "healthcare": 2,
+        "consumer-discretionary": 4,
+        "real-estate": 5,
+        "industrials": 1,
+        "inflation": 79,
+        "rates-fed": 7,
+        "geopolitics-tariffs": 32,
+        "labor-market": 3,
+        "housing": 1,
+        "fiscal-debt": 1,
+        "elections-politics": 6,
+        "commodities": 5,
+        "bond-market": 1,
+        "consumer-health": 2,
+        "budgeting-saving": 3,
+        "estate-planning": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "inflation": 39.0,
-        "elections-politics": 13.0
+        "insurance": 0.7,
+        "energy": 0.7,
+        "healthcare": 0.3,
+        "consumer-discretionary": 0.5,
+        "real-estate": 0.7,
+        "industrials": 0.1,
+        "inflation": 10.7,
+        "rates-fed": 1.0,
+        "geopolitics-tariffs": 4.3,
+        "labor-market": 0.4,
+        "housing": 0.1,
+        "fiscal-debt": 0.1,
+        "elections-politics": 0.8,
+        "commodities": 0.7,
+        "bond-market": 0.1,
+        "consumer-health": 0.3,
+        "budgeting-saving": 0.4,
+        "estate-planning": 0.1,
+        "nasdaq": 0.1
       },
       "entity_sentiment": {
-        "inflation": -1.0,
-        "elections-politics": -1.0
+        "energy": 1.0,
+        "real-estate": 1.0,
+        "insurance": -1.0,
+        "healthcare": -1.0,
+        "inflation": -0.176,
+        "elections-politics": -1.0,
+        "geopolitics-tariffs": -0.111,
+        "commodities": -0.429,
+        "housing": 1.0,
+        "bond-market": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "real-estate": -0.565,
+        "insurance": -0.583,
+        "healthcare": -0.333,
+        "consumer-discretionary": -1.0,
+        "inflation": -0.605,
+        "elections-politics": -0.412,
+        "geopolitics-tariffs": -0.762,
+        "commodities": -0.623,
+        "budgeting-saving": -1.0,
+        "rates-fed": -0.429,
+        "housing": -1.0,
+        "bond-market": -1.0,
+        "estate-planning": -1.0,
+        "labor-market": -0.692,
+        "consumer-health": -1.0,
+        "fiscal-debt": 0.0,
+        "nasdaq": -0.667
+      },
+      "entity_stance": {
+        "inflation": "buy",
+        "labor-market": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-moody-s-talks-inside-economics-inflation-no-quick-fix-63664d.md",
+    "transcript_word_count": 7280,
+    "transcript_language": "en"
   },
   {
     "guid": "bfc417d0-4e43-11f1-9ecb-77d6eeda3b9e",
@@ -113372,74 +113602,17 @@
         "real-estate-investing",
         "retirement-planning",
         "tax-planning",
-        "elections-politics",
-        "inflation",
-        "fire-movement",
-        "passive-income",
-        "estate-planning",
-        "rates-fed",
-        "dividends-buybacks"
+        "passive-income"
       ],
-      "stocks": [
-        "walmart",
-        "vanguard",
-        "fidelity",
-        "alphabet"
-      ],
-      "sentiment": 1.0,
-      "sentiment_hits": 14,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "real-estate": 14,
-        "inflation": 2,
-        "rates-fed": 1,
-        "elections-politics": 3,
-        "fire-movement": 2,
-        "retirement-planning": 12,
-        "real-estate-investing": 15,
-        "passive-income": 2,
-        "dividends-buybacks": 1,
-        "tax-planning": 7,
-        "estate-planning": 2,
-        "alphabet": 1,
-        "walmart": 3,
-        "vanguard": 2,
-        "fidelity": 2
-      },
-      "entity_mention_density": {
-        "real-estate": 1.5,
-        "inflation": 0.2,
-        "rates-fed": 0.1,
-        "elections-politics": 0.3,
-        "fire-movement": 0.2,
-        "retirement-planning": 1.3,
-        "real-estate-investing": 1.6,
-        "passive-income": 0.2,
-        "dividends-buybacks": 0.1,
-        "tax-planning": 0.7,
-        "estate-planning": 0.2,
-        "alphabet": 0.1,
-        "walmart": 0.3,
-        "vanguard": 0.2,
-        "fidelity": 0.2
-      },
-      "entity_sentiment": {
-        "real-estate-investing": 1.0,
-        "tax-planning": 1.0
-      },
-      "entity_conviction": {
-        "real-estate": -1.0,
-        "elections-politics": -1.0,
-        "tax-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.5
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-12-afford-anything-q-a-should-i-sell-one-property-to-pay-off-another-694009.md",
     "transcript_word_count": 9284,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Hosts advise a FIRE'd landlord to weigh selling a well-paid-down rental for peace of mind against holding for long-term wealth building, noting cap rates track valuation tightly for multifamily (income-driven) but not single-family (emotion-driven) purchases; a separate segment favors Roth conversion ladders and 72(t)/SEPP withdrawals over pausing mega-backdoor Roth contributions for a near-FIRE saver."
   },
   {
     "guid": "afe43f7c-4e0f-11f1-9c10-6f577dfc65fc",
@@ -113935,79 +114108,30 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/695ead68a32e86d775858194/e/6a023a4e37a1e7308da7ac6a/media.mp3",
     "tags": {
       "sectors": [
-        "technology",
-        "banks",
         "crypto",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "private-markets"
       ],
       "themes": [
         "behavioral-finance",
-        "rates-fed",
+        "market-concentration",
         "elections-politics",
-        "regulation-antitrust",
-        "passive-investing"
+        "volatility",
+        "ai-boom"
       ],
       "stocks": [
-        "att",
         "bitcoin",
         "tesla",
         "microstrategy"
       ],
-      "sentiment": -0.467,
-      "sentiment_hits": 6,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 2,
-        "ai-infrastructure": 1,
-        "banks": 2,
-        "crypto": 2,
-        "rates-fed": 1,
-        "elections-politics": 1,
-        "regulation-antitrust": 1,
-        "passive-investing": 1,
-        "behavioral-finance": 2,
-        "tesla": 3,
-        "att": 5,
-        "microstrategy": 2,
-        "bitcoin": 4
-      },
-      "entity_mention_density": {
-        "technology": 0.3,
-        "ai-infrastructure": 0.1,
-        "banks": 0.3,
-        "crypto": 0.3,
-        "rates-fed": 0.1,
-        "elections-politics": 0.1,
-        "regulation-antitrust": 0.1,
-        "passive-investing": 0.1,
-        "behavioral-finance": 0.3,
-        "tesla": 0.4,
-        "att": 0.7,
-        "microstrategy": 0.3,
-        "bitcoin": 0.6
-      },
-      "entity_sentiment": {
-        "banks": -1.0,
-        "regulation-antitrust": 1.0,
-        "tesla": -1.0
-      },
-      "entity_conviction": {
-        "technology": 1.0,
-        "crypto": 0.333,
-        "passive-investing": -1.0,
-        "regulation-antitrust": -1.0,
-        "bitcoin": -1.0,
-        "tesla": -1.0,
-        "microstrategy": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.6
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-12-slate-money-money-talks-risk-maxxing-a7ac6a.md",
     "transcript_word_count": 6602,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A futurist and host discuss 'risk-maxxing' -- retail speculation via Kalshi/Polymarket, MicroStrategy's Bitcoin-hoarding strategy, and meme-stock behavior -- as a symptom of a shrinking economic floor; flags genuine systemic-risk concern if AI-era private giants (OpenAI, SpaceX) seen as 'too big to fail' have their valuations unwind, since a large slice of the market could be exposed."
   },
   {
     "guid": "5286815a-2989-11f1-996c-4fd7098f55ac",
@@ -114692,26 +114816,43 @@
     "duration": "207",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/4df7cc54-d95c-4a70-8c0c-b44700ec94fd/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "insurance"
+      ],
+      "themes": [
+        "inflation",
+        "budgeting-saving"
+      ],
       "stocks": [
         "blackrock"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "blackrock": 1
+        "insurance": 3,
+        "inflation": 1,
+        "budgeting-saving": 1,
+        "blackrock": 2
       },
       "entity_mention_density": {
-        "blackrock": 16.1
+        "insurance": 3.1,
+        "inflation": 1.0,
+        "budgeting-saving": 1.0,
+        "blackrock": 2.1
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "insurance": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-bloomberg-surveillance-single-best-idea-with-tom-keene-wei-li-leslie-vinjamuri-ec94fd.md",
+    "transcript_word_count": 900,
+    "transcript_language": "en"
   },
   {
     "guid": "3f880ea2-4d56-11f1-9bda-2f4cfdc8e23c",
@@ -115290,24 +115431,31 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "retirement-planning",
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 1,
+        "retirement-planning": 4
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.7
+        "budgeting-saving": 1.3,
+        "retirement-planning": 5.4
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-ramsey-everyday-millionaires-can-married-couples-combine-retirement-accounts-16c943.md",
+    "transcript_word_count": 571,
+    "transcript_language": "en"
   },
   {
     "guid": "04df5b0e-29dc-11f1-b64a-7721c62b5e1e",
@@ -118003,58 +118151,22 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/tracking.swap.fm/track/p5fhOfGH2wHmde5UefB4/traffic.megaphone.fm/BIGPOC2416195388.mp3?updated=1778239158",
     "tags": {
       "sectors": [
-        "real-estate",
-        "insurance"
+        "real-estate"
       ],
       "themes": [
         "real-estate-investing",
-        "insurance-products",
-        "inflation",
-        "housing",
-        "dealmaking",
-        "debt-payoff"
+        "debt-payoff",
+        "passive-income"
       ],
       "stocks": [],
-      "sentiment": 1.0,
-      "sentiment_hits": 10,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "insurance": 2,
-        "real-estate": 14,
-        "inflation": 1,
-        "housing": 1,
-        "dealmaking": 1,
-        "debt-payoff": 1,
-        "real-estate-investing": 7,
-        "insurance-products": 3
-      },
-      "entity_mention_density": {
-        "insurance": 0.4,
-        "real-estate": 2.8,
-        "inflation": 0.2,
-        "housing": 0.2,
-        "dealmaking": 0.2,
-        "debt-payoff": 0.2,
-        "real-estate-investing": 1.4,
-        "insurance-products": 0.6
-      },
-      "entity_sentiment": {
-        "real-estate": 1.0,
-        "real-estate-investing": 1.0,
-        "inflation": 1.0,
-        "housing": 1.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {
-        "real-estate": "buy"
-      },
-      "entity_contested": []
+      "sentiment": 0.6
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-08-biggerpockets-real-estate-5-paid-off-rentals-vs-15-with-mortgages-the-math-will-change-09d6c3.md",
     "transcript_word_count": 4693,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Detailed 30-year model shows scaling to 15 leveraged rentals nets ~$6.6M equity vs. $4.36M paying down debt on 5 properties, but the host explicitly chooses the deleveraging path for cash-flow certainty and time freedom over 13 extra years -- a real-world tilt away from maximum leverage among experienced investors nearing financial independence."
   },
   {
     "guid": "9f9be550-a84e-11f0-bc9e-7ff56cd596d5",
@@ -118251,30 +118363,19 @@
         "real-estate"
       ],
       "themes": [
+        "retirement-planning",
+        "debt-payoff",
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "real-estate": 1,
-        "budgeting-saving": 5
-      },
-      "entity_mention_density": {
-        "real-estate": 1.7,
-        "budgeting-saving": 8.6
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.6
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-08-ramsey-everyday-millionaires-i-m-54-with-no-retirement-savings-can-i-still-retire-comfort-de2cc0.md",
     "transcript_word_count": 403,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "54-year-old caller with no retirement savings is walked through a baby-steps plan -- 15% into growth-stock mutual funds plus paying off the house -- and reassured that starting now still puts him on track to become a millionaire by retirement."
   },
   {
     "guid": "Buzzsprout-19143987",
@@ -118288,29 +118389,54 @@
     "audio_url": "https://traffic.megaphone.fm/TTNSE2909476566.mp3",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "airlines-travel"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "dividends-buybacks",
+        "labor-market"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "private-markets": 2,
-        "dealmaking": 1
+        "airlines-travel": 2,
+        "private-markets": 12,
+        "labor-market": 1,
+        "dealmaking": 19,
+        "dividends-buybacks": 2,
+        "meta": 1
       },
       "entity_mention_density": {
-        "private-markets": 10.0,
-        "dealmaking": 5.0
+        "airlines-travel": 0.4,
+        "private-markets": 2.1,
+        "labor-market": 0.2,
+        "dealmaking": 3.4,
+        "dividends-buybacks": 0.4,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "private-markets": 0.0,
+        "labor-market": -1.0,
+        "meta": 1.0
+      },
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "airlines-travel": -1.0,
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-the-wall-street-skinny-burry-left-in-a-hurry-the-loophole-gamestop-could-use-to-pul-143987.md",
+    "transcript_word_count": 5428,
+    "transcript_language": "en"
   },
   {
     "guid": "69fd9e0b2ba0ef2ccacd1175",
@@ -122872,57 +122998,23 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/717d9fdf-a885-413c-a13d-b44100ea3695/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
       "sectors": [
-        "insurance",
-        "technology",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology"
       ],
       "themes": [
-        "budgeting-saving",
-        "currency-dollar",
-        "volatility",
-        "market-timing-dca"
+        "ai-boom"
       ],
       "stocks": [
-        "alphabet",
-        "sp500"
+        "citigroup"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
-      "entity_mentions": {
-        "technology": 1,
-        "ai-infrastructure": 1,
-        "insurance": 2,
-        "volatility": 1,
-        "currency-dollar": 2,
-        "budgeting-saving": 4,
-        "market-timing-dca": 1,
-        "alphabet": 2,
-        "sp500": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.7,
-        "ai-infrastructure": 0.7,
-        "insurance": 1.4,
-        "volatility": 0.7,
-        "currency-dollar": 1.4,
-        "budgeting-saving": 2.8,
-        "market-timing-dca": 0.7,
-        "alphabet": 1.4,
-        "sp500": 0.7
-      },
-      "entity_sentiment": {
-        "insurance": -1.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.6
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-05-bloomberg-surveillance-single-best-idea-with-tom-keene-joumanna-bercetche-and-heath-ea3695.md",
     "transcript_word_count": 1385,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Citigroup's Heath Terry lays out a bullish thesis on continued AI infrastructure capex as the market's 'single best idea,' arguing the buildout cycle still has room to run."
   },
   {
     "guid": "56376694-c9b8-4f00-b35b-b44100f01ad5",
@@ -124752,48 +124844,20 @@
       ],
       "themes": [
         "real-estate-investing",
-        "rates-fed",
-        "passive-investing",
-        "retirement-planning"
+        "debt-payoff",
+        "passive-investing"
       ],
       "stocks": [
         "sp500"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {
-        "real-estate": 6,
-        "rates-fed": 1,
-        "passive-investing": 1,
-        "retirement-planning": 1,
-        "real-estate-investing": 2,
-        "sp500": 1
-      },
-      "entity_mention_density": {
-        "real-estate": 3.5,
-        "rates-fed": 0.6,
-        "passive-investing": 0.6,
-        "retirement-planning": 0.6,
-        "real-estate-investing": 1.2,
-        "sp500": 0.6
-      },
-      "entity_sentiment": {
-        "real-estate": 1.0
-      },
-      "entity_conviction": {
-        "real-estate": -1.0,
-        "retirement-planning": -1.0,
-        "rates-fed": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.2
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-04-real-estate-the-ramsey-way-everyone-says-this-is-the-best-way-to-buy-a-home-are-they-ri-f4a1b6.md",
     "transcript_word_count": 1568,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Call-in show on down-payment sizing (avoiding PMI vs. keeping cash for renovations) and a caller weighing an out-of-state rental purchase; host firmly steers the caller away from a speculative out-of-state property and toward an S&P 500 index fund instead, favoring liquid public markets over opportunistic real estate."
   },
   {
     "guid": "530263cb-b876-42f6-b890-edf6fe9a6c43",
@@ -127451,74 +127515,26 @@
     "audio_url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/e70dac52/ca07f3c4.mp3",
     "tags": {
       "sectors": [
-        "energy",
         "consumer-discretionary"
       ],
       "themes": [
-        "labor-market",
-        "career-income",
         "recession",
+        "labor-market",
         "rates-fed",
         "inflation",
-        "commodities",
         "consumer-health"
       ],
       "stocks": [
-        "walmart",
-        "nvidia"
-      ],
-      "sentiment": -0.158,
-      "sentiment_hits": 41,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "energy": 3,
-        "consumer-discretionary": 2,
-        "inflation": 1,
-        "rates-fed": 2,
-        "recession": 3,
-        "labor-market": 6,
-        "commodities": 1,
-        "consumer-health": 1,
-        "career-income": 4,
-        "nvidia": 1,
-        "walmart": 16
-      },
-      "entity_mention_density": {
-        "energy": 0.9,
-        "consumer-discretionary": 0.6,
-        "inflation": 0.3,
-        "rates-fed": 0.6,
-        "recession": 0.9,
-        "labor-market": 1.7,
-        "commodities": 0.3,
-        "consumer-health": 0.3,
-        "career-income": 1.2,
-        "nvidia": 0.3,
-        "walmart": 4.6
-      },
-      "entity_sentiment": {
-        "consumer-discretionary": -1.0,
-        "energy": -1.0,
-        "labor-market": -0.545,
-        "career-income": -0.167,
-        "commodities": -1.0,
-        "recession": -1.0,
-        "inflation": 1.0,
-        "rates-fed": 1.0,
-        "walmart": -0.529,
-        "nvidia": -1.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": [
         "walmart"
-      ]
+      ],
+      "sentiment": -0.7
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-01-eurodollar-university-pawn-shops-just-issued-a-very-grim-warning-about-consumer-be-e2c326.md",
     "transcript_word_count": 3275,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Argues rising pawn-shop lending and low-income consumer distress data are a grim, overlooked signal that contradicts the Fed's 'resilient consumer' narrative, pointing to building recession risk beneath the headline data."
   },
   {
     "guid": "e991ea8a-a84c-11f0-a576-d7b448f3ac1d",
@@ -128278,97 +128294,27 @@
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/d1b706fa-ebcf-4415-9cf1-b822dd75c021.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
       "sectors": [
-        "real-estate",
         "private-markets",
+        "real-estate",
         "crypto"
       ],
       "themes": [
-        "insurance-products",
-        "fire-movement",
-        "real-estate-investing",
-        "small-caps-value-growth",
-        "diversification",
-        "tax-planning",
         "passive-investing",
-        "debt-payoff"
+        "diversification",
+        "behavioral-finance",
+        "tax-planning"
       ],
       "stocks": [
-        "berkshire",
-        "meta",
-        "amazon",
-        "bitcoin",
-        "ethereum"
+        "sp500"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 10,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "real-estate": 7,
-        "crypto": 2,
-        "private-markets": 3,
-        "passive-investing": 1,
-        "debt-payoff": 1,
-        "fire-movement": 2,
-        "real-estate-investing": 2,
-        "small-caps-value-growth": 2,
-        "diversification": 2,
-        "tax-planning": 2,
-        "insurance-products": 6,
-        "amazon": 1,
-        "meta": 3,
-        "berkshire": 4,
-        "bitcoin": 1,
-        "ethereum": 1
-      },
-      "entity_mention_density": {
-        "real-estate": 0.6,
-        "crypto": 0.2,
-        "private-markets": 0.2,
-        "passive-investing": 0.1,
-        "debt-payoff": 0.1,
-        "fire-movement": 0.2,
-        "real-estate-investing": 0.2,
-        "small-caps-value-growth": 0.2,
-        "diversification": 0.2,
-        "tax-planning": 0.2,
-        "insurance-products": 0.5,
-        "amazon": 0.1,
-        "meta": 0.2,
-        "berkshire": 0.3,
-        "bitcoin": 0.1,
-        "ethereum": 0.1
-      },
-      "entity_sentiment": {
-        "passive-investing": 1.0,
-        "diversification": 1.0,
-        "debt-payoff": 1.0,
-        "meta": 1.0,
-        "amazon": 1.0
-      },
-      "entity_conviction": {
-        "real-estate": -0.412,
-        "private-markets": -0.333,
-        "crypto": -1.0,
-        "passive-investing": -1.0,
-        "tax-planning": -1.0,
-        "small-caps-value-growth": 0.0,
-        "insurance-products": -1.0,
-        "diversification": 0.412,
-        "debt-payoff": -0.333,
-        "real-estate-investing": -1.0,
-        "berkshire": -1.0,
-        "meta": -1.0,
-        "ethereum": -1.0,
-        "amazon": -0.333
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-01-stacking-benjamins-invest-like-the-1-what-to-steal-what-to-scale-and-what-to-sk-5sbqBk.md",
     "transcript_word_count": 12133,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Panel discussion is broadly skeptical of alternative investments (private equity, real-estate syndications, art, farmland, leverage) for average investors, arguing liquid public index funds already deliver comparable or better risk-adjusted returns without illiquidity or fee drag; tax optimization is judged a second-order lever except at high net worth."
   },
   {
     "guid": "b72c4af6-3977-11f1-9b26-eb40774cab1a",
@@ -129775,20 +129721,34 @@
     "duration": "485",
     "audio_url": "https://traffic.megaphone.fm/OLD7620337396.mp3?updated=1776380069",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors"
+      ],
       "themes": [],
-      "stocks": [],
+      "stocks": [
+        "alphabet"
+      ],
       "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "semiconductors": 2,
+        "alphabet": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 1.2,
+        "alphabet": 1.2
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-30-optimal-finance-daily-3543-it-s-the-small-changes-that-make-you-rich-by-chris-rein-511bd1.md",
+    "transcript_word_count": 1442,
+    "transcript_language": "en"
   },
   {
     "guid": "a7f9d2d1-ea69-4b63-b482-5d87a27d806f",

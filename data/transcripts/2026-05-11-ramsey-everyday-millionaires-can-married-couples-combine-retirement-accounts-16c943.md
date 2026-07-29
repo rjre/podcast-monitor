@@ -1,0 +1,21 @@
+---
+title: "Can Married Couples Combine Retirement Accounts?"
+podcast: "Ramsey Everyday Millionaires"
+podcast_id: "ramsey-everyday-millionaires"
+published_at: "2026-05-11T10:00:00+00:00"
+guid: "55497d54-38ff-11f1-a344-cba2dd16c943"
+link: ""
+duration: "264"
+word_count: 571
+language: "en"
+tags_source: "keyword"
+sectors: []
+themes: ["retirement-planning", "budgeting-saving"]
+stocks: []
+sentiment: 0.167
+sentiment_hits: 1
+sentiment_confidence: 0.167
+entity_mentions: {"budgeting-saving": 1, "retirement-planning": 4}
+entity_mention_density: {"budgeting-saving": 1.3, "retirement-planning": 5.4}
+---
+This episode is brought to you by SmartVester. Connect with an investing pro near you at RamseySolutions.com slash SmartVester. Jesse's in an arbor Michigan. Hi Jesse, what's up? Hey, how are you, praise god? Yes sir, how can we help? Well I got a question for you. So I'm 58. My wife's 56, retirement's coming on probably around my age 62. She won't quite be there yet. But the question is, is when we go both to retire from the companies and I want to transfer the 401k that I have and then what she has into an IRA, roll it over, I don't understand why can't we combine? IRAs and 401k's, retirement plans do not have a marital component to them. They're all for individuals only. I don't know why you would need to combine them because if you both have access to the money because you're working together. Well, you can't put both things in. When will you retire to combine them into an IRA to get more of a compounding effect? Yeah, no it doesn't. So it's going to change it. It doesn't change the compounding at all. Two accounts of $100,000 each compound at exactly the same rate as one account of 200. I got you. You get no compounding advantage by combining them. Zero. I got you. Yeah. So no loss there, no problem. It's just a legality, a technicality. And so your 401k rolls over into an IRA and your name and you name your wife as a beneficiary. Hers rolls over into her name, she names you as a beneficiary. And as you pull money out of either one or both, you're sharing the money because you're married and we're talking about this. And we have a combined approach to life and that's how people prosper the most. So yeah, yeah, you're right on track with all that. But my wife has been a full-time mom since she was 40. So the retirement accounts are 90 some odd percent in my name. I mean, we've done Rath IRAs for her every year, but they've not added up to nowhere near what I can put in my 401k here at Ramsey, right? And so I've got the vast majority would be in my name, but she's got legal access to that in the event of a divorce. She's got beneficiary access in the event of death. She's got practical access in the event of life because I'm obviously going to share it with her. She's my wife. If we need any of that money, we're probably never touch it. But that's neither here nor there. So that's how you get at it. But that's a good question. And that's a common misconception mathematically. So in the way you can run it off in your head is let's say that you had $100,000 at 10% that means you'd have a $10,000 growth. And you got another account that has $100,000 at 10%. That's another $10,000 in growth. Or you had a $200,000 account at 10%. That's $20,000 in growth. And the other two are $10,000. So it's exactly the same. And the next year when it compounds, it's exactly the same. It's just in one pile versus two piles. Our brain likes to see a big pile. The total is still the same. The aggregate is still the same. And oftentimes people run out of that.
