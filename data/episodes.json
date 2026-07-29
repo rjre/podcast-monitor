@@ -113648,157 +113648,35 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "real-estate",
         "ai-infrastructure",
-        "private-markets",
-        "technology",
-        "consumer-discretionary",
-        "consumer-staples",
-        "industrials",
-        "crypto"
+        "crypto",
+        "real-estate",
+        "private-markets"
       ],
       "themes": [
-        "dealmaking",
-        "insurance-products",
-        "debt-payoff",
-        "recession",
-        "inflation",
         "valuation",
-        "elections-politics",
-        "real-estate-investing",
-        "dividends-buybacks",
-        "college-savings"
+        "ai-boom",
+        "recession",
+        "debt-payoff",
+        "dealmaking"
       ],
       "stocks": [
+        "nvidia",
         "amd",
         "tsmc",
-        "nvidia",
-        "alphabet",
         "amazon",
-        "tesla",
         "microsoft",
-        "apple",
-        "palantir",
-        "verizon",
-        "costco",
-        "sp500",
-        "robinhood",
-        "meta",
-        "coinbase",
-        "bitcoin",
-        "vanguard"
+        "vanguard",
+        "costco"
       ],
-      "sentiment": 0.007,
-      "sentiment_hits": 31,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 2,
-        "semiconductors": 5,
-        "ai-infrastructure": 3,
-        "consumer-discretionary": 1,
-        "consumer-staples": 1,
-        "real-estate": 5,
-        "industrials": 1,
-        "crypto": 1,
-        "private-markets": 3,
-        "inflation": 2,
-        "recession": 3,
-        "elections-politics": 1,
-        "dealmaking": 17,
-        "debt-payoff": 5,
-        "real-estate-investing": 1,
-        "dividends-buybacks": 1,
-        "valuation": 2,
-        "college-savings": 1,
-        "insurance-products": 7,
-        "nvidia": 11,
-        "apple": 2,
-        "microsoft": 4,
-        "alphabet": 6,
-        "amazon": 6,
-        "meta": 1,
-        "tesla": 5,
-        "amd": 24,
-        "tsmc": 24,
-        "palantir": 2,
-        "verizon": 2,
-        "costco": 2,
-        "coinbase": 1,
-        "bitcoin": 1,
-        "sp500": 2,
-        "vanguard": 1,
-        "robinhood": 2
-      },
-      "entity_mention_density": {
-        "technology": 0.1,
-        "semiconductors": 0.3,
-        "ai-infrastructure": 0.2,
-        "consumer-discretionary": 0.1,
-        "consumer-staples": 0.1,
-        "real-estate": 0.3,
-        "industrials": 0.1,
-        "crypto": 0.1,
-        "private-markets": 0.2,
-        "inflation": 0.1,
-        "recession": 0.2,
-        "elections-politics": 0.1,
-        "dealmaking": 0.9,
-        "debt-payoff": 0.3,
-        "real-estate-investing": 0.1,
-        "dividends-buybacks": 0.1,
-        "valuation": 0.1,
-        "college-savings": 0.1,
-        "insurance-products": 0.4,
-        "nvidia": 0.6,
-        "apple": 0.1,
-        "microsoft": 0.2,
-        "alphabet": 0.3,
-        "amazon": 0.3,
-        "meta": 0.1,
-        "tesla": 0.3,
-        "amd": 1.3,
-        "tsmc": 1.3,
-        "palantir": 0.1,
-        "verizon": 0.1,
-        "costco": 0.1,
-        "coinbase": 0.1,
-        "bitcoin": 0.1,
-        "sp500": 0.1,
-        "vanguard": 0.1,
-        "robinhood": 0.1
-      },
-      "entity_sentiment": {
-        "semiconductors": 1.0,
-        "recession": -1.0,
-        "valuation": -1.0,
-        "amd": 1.0,
-        "tsmc": 1.0,
-        "costco": -1.0,
-        "vanguard": -1.0
-      },
-      "entity_conviction": {
-        "private-markets": -1.0,
-        "technology": 0.0,
-        "real-estate": -1.0,
-        "insurance-products": 1.0,
-        "debt-payoff": 1.0,
-        "amd": 1.0,
-        "tsmc": -1.0,
-        "microsoft": -1.0,
-        "amazon": -1.0
-      },
-      "entity_stance": {
-        "dealmaking": "sell",
-        "dividends-buybacks": "sell",
-        "robinhood": "sell"
-      },
-      "entity_contested": []
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-12-market-mondays-mm-311-ai-stocks-explode-how-long-can-this-last-what-investm-4cfaea.md",
     "transcript_word_count": 18886,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A long, wide-ranging show built around the tension in its own title: excitement about the AI-stock rally set against explicit 'how long can this last' valuation worry (with hosts pushing back on simplistic 'high P/E means overvalued' framing) and a practical segment on which investments to avoid and how to handle debt."
   },
   {
     "guid": "350c957e-95e9-4dad-bcc3-7d9abc58c467",
@@ -114382,71 +114260,24 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "energy",
         "consumer-discretionary"
       ],
       "themes": [
-        "housing",
-        "real-estate-investing",
         "labor-market",
         "inflation",
         "consumer-health",
-        "budgeting-saving",
-        "rates-fed",
-        "bond-market"
+        "housing",
+        "real-estate-investing"
       ],
       "stocks": [],
-      "sentiment": 0.25,
-      "sentiment_hits": 8,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "energy": 4,
-        "consumer-discretionary": 4,
-        "real-estate": 13,
-        "inflation": 5,
-        "rates-fed": 1,
-        "labor-market": 6,
-        "housing": 12,
-        "bond-market": 1,
-        "consumer-health": 3,
-        "budgeting-saving": 3,
-        "real-estate-investing": 10
-      },
-      "entity_mention_density": {
-        "energy": 1.0,
-        "consumer-discretionary": 1.0,
-        "real-estate": 3.2,
-        "inflation": 1.2,
-        "rates-fed": 0.2,
-        "labor-market": 1.5,
-        "housing": 2.9,
-        "bond-market": 0.2,
-        "consumer-health": 0.7,
-        "budgeting-saving": 0.7,
-        "real-estate-investing": 2.4
-      },
-      "entity_sentiment": {
-        "real-estate": 0.2,
-        "consumer-discretionary": 1.0,
-        "energy": 0.0,
-        "housing": 0.0,
-        "labor-market": 0.333,
-        "real-estate-investing": 0.0
-      },
-      "entity_conviction": {
-        "labor-market": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": [
-        "real-estate",
-        "housing"
-      ]
+      "sentiment": -0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-11-afford-anything-bonus-the-economy-added-115-000-jobs-consumer-confidence-jus-c8e23c.md",
     "transcript_word_count": 3625,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A mixed macro update: April added 115,000 jobs (better than expected) but tech employment is down 11% from its 2022 peak and part-time-for-economic-reasons workers jumped 445,000 in a month; consumer sentiment hit a 74-year low even though actual spending hasn't dropped; the housing market is described as 'frozen' -- no spring rebound, weak sales, but a better negotiating position for buyers than sellers."
   },
   {
     "guid": "a2be3ca8-7445-4a8b-a58a-b4470106a436",
@@ -116951,71 +116782,25 @@
     "tags": {
       "sectors": [
         "crypto",
-        "real-estate",
-        "healthcare",
-        "energy"
+        "real-estate"
       ],
       "themes": [
-        "retirement-planning",
-        "labor-market",
         "debt-payoff",
+        "labor-market",
         "rates-fed",
-        "budgeting-saving",
-        "passive-investing"
+        "budgeting-saving"
       ],
       "stocks": [
-        "bitcoin",
-        "alphabet",
-        "bank-of-america"
+        "bitcoin"
       ],
-      "sentiment": 0.076,
-      "sentiment_hits": 5,
-      "sentiment_confidence": 0.833,
-      "entity_mentions": {
-        "energy": 1,
-        "healthcare": 3,
-        "real-estate": 9,
-        "crypto": 24,
-        "rates-fed": 3,
-        "labor-market": 5,
-        "passive-investing": 1,
-        "budgeting-saving": 3,
-        "debt-payoff": 5,
-        "retirement-planning": 8,
-        "alphabet": 2,
-        "bank-of-america": 1,
-        "bitcoin": 7
-      },
-      "entity_mention_density": {
-        "energy": 0.2,
-        "healthcare": 0.6,
-        "real-estate": 1.9,
-        "crypto": 5.1,
-        "rates-fed": 0.6,
-        "labor-market": 1.1,
-        "passive-investing": 0.2,
-        "budgeting-saving": 0.6,
-        "debt-payoff": 1.1,
-        "retirement-planning": 1.7,
-        "alphabet": 0.4,
-        "bank-of-america": 0.2,
-        "bitcoin": 1.5
-      },
-      "entity_sentiment": {
-        "crypto": 0.333,
-        "bitcoin": -1.0
-      },
-      "entity_conviction": {
-        "debt-payoff": 0.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.2
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-08-so-money-with-farnoosh-torabi-1980-ask-farnoosh-crypto-backed-mortgages-best-0-credit-card-62cf99.md",
     "transcript_word_count": 4495,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Farnoosh is skeptical of Fannie Mae's new crypto-backed mortgages, arguing it stacks volatile Bitcoin-collateral debt on top of a home loan and doesn't address the real housing problem (supply shortage, high rates); she also covers a stronger-than-expected April jobs report that nonetheless doesn't match how people say the economy feels, plus practical layoff-prep and balance-transfer-card advice."
   },
   {
     "guid": "3e1f69e4-4b02-11f1-ad1e-7b19f4afcb2a",
@@ -117555,77 +117340,25 @@
     "tags": {
       "sectors": [
         "private-markets",
-        "real-estate",
         "technology"
       ],
       "themes": [
         "esg-climate",
         "market-structure",
-        "dividends-buybacks",
-        "dealmaking",
-        "passive-investing",
-        "market-timing-dca",
-        "rates-fed",
-        "volatility",
-        "hedge-funds",
-        "emerging-markets"
+        "dealmaking"
       ],
       "stocks": [
         "amazon",
         "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "technology": 1,
-        "real-estate": 2,
-        "private-markets": 9,
-        "rates-fed": 1,
-        "volatility": 1,
-        "dealmaking": 2,
-        "esg-climate": 8,
-        "hedge-funds": 1,
-        "passive-investing": 2,
-        "market-structure": 3,
-        "emerging-markets": 1,
-        "dividends-buybacks": 3,
-        "market-timing-dca": 2,
-        "amazon": 1,
-        "vanguard": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.2,
-        "real-estate": 0.3,
-        "private-markets": 1.5,
-        "rates-fed": 0.2,
-        "volatility": 0.2,
-        "dealmaking": 0.3,
-        "esg-climate": 1.4,
-        "hedge-funds": 0.2,
-        "passive-investing": 0.3,
-        "market-structure": 0.5,
-        "emerging-markets": 0.2,
-        "dividends-buybacks": 0.5,
-        "market-timing-dca": 0.3,
-        "amazon": 0.2,
-        "vanguard": 0.2
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "private-markets": -1.0,
-        "passive-investing": 1.0,
-        "market-structure": -1.0,
-        "dividends-buybacks": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-08-money-stuff-timeless-wisdom-a-mailbag-episode-e35917.md",
     "transcript_word_count": 5830,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A relaxed mailbag covering favorite finance books, why ESG's 'G' (governance) doesn't really fit with the 'E' and 'S', and why stock price matters even though most public companies don't need IPO cash anymore -- it signals capital allocation, funds M&A and buybacks, and disciplines executives, illustrated by how meme-stock-era GameStop over-invested on a temporary price spike."
   },
   {
     "guid": "0d417e21-d0f2-4232-9087-ddf78c41adf0",
@@ -118307,47 +118040,19 @@
       ],
       "themes": [
         "fire-movement",
-        "retirement-planning",
-        "inflation",
-        "college-savings"
+        "retirement-planning"
       ],
       "stocks": [
         "fidelity"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
-      "entity_mentions": {
-        "healthcare": 3,
-        "inflation": 1,
-        "fire-movement": 2,
-        "retirement-planning": 2,
-        "college-savings": 1,
-        "fidelity": 1
-      },
-      "entity_mention_density": {
-        "healthcare": 0.6,
-        "inflation": 0.2,
-        "fire-movement": 0.4,
-        "retirement-planning": 0.4,
-        "college-savings": 0.2,
-        "fidelity": 0.2
-      },
-      "entity_sentiment": {
-        "fire-movement": -1.0
-      },
-      "entity_conviction": {
-        "healthcare": -0.412,
-        "retirement-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.05
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-08-hermoney-with-jean-chatzky-i-m-56-with-3m-saved-my-husband-says-we-can-t-afford-for-me-680e6c.md",
     "transcript_word_count": 4480,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Jean Chatzky coaches a 56-year-old with $3.2M saved who wants to retire early from a high-tech career but faces a healthcare-coverage gap and a husband who isn't on board; Chatzky's advice is cautiously encouraging -- get real numbers from an advisor, price out health insurance, and consider a lower-pressure bridge job rather than a flat no."
   },
   {
     "guid": "3e321678-bfe5-11f0-a953-23954d533696",
@@ -119390,79 +119095,30 @@
     "duration": "1938",
     "audio_url": "https://traffic.megaphone.fm/GGILR9239557376.mp3?updated=1777746211",
     "tags": {
-      "sectors": [
-        "airlines-travel"
-      ],
+      "sectors": [],
       "themes": [
-        "dividends-buybacks",
-        "retirement-planning",
         "labor-market",
-        "college-savings",
-        "career-income",
-        "diversification",
-        "rates-fed",
-        "geopolitics-tariffs",
         "currency-dollar",
-        "passive-income",
-        "tax-planning"
+        "career-income",
+        "college-savings",
+        "retirement-planning",
+        "tax-planning",
+        "dividends-buybacks",
+        "diversification",
+        "geopolitics-tariffs"
       ],
       "stocks": [
-        "amazon",
         "sp500",
         "fidelity"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {
-        "airlines-travel": 1,
-        "rates-fed": 1,
-        "geopolitics-tariffs": 1,
-        "labor-market": 4,
-        "currency-dollar": 1,
-        "retirement-planning": 7,
-        "passive-income": 1,
-        "career-income": 2,
-        "dividends-buybacks": 12,
-        "diversification": 2,
-        "tax-planning": 1,
-        "college-savings": 3,
-        "amazon": 1,
-        "sp500": 1,
-        "fidelity": 1
-      },
-      "entity_mention_density": {
-        "airlines-travel": 0.2,
-        "rates-fed": 0.2,
-        "geopolitics-tariffs": 0.2,
-        "labor-market": 1.0,
-        "currency-dollar": 0.2,
-        "retirement-planning": 1.7,
-        "passive-income": 0.2,
-        "career-income": 0.5,
-        "dividends-buybacks": 3.0,
-        "diversification": 0.5,
-        "tax-planning": 0.2,
-        "college-savings": 0.7,
-        "amazon": 0.2,
-        "sp500": 0.2,
-        "fidelity": 0.2
-      },
-      "entity_sentiment": {
-        "dividends-buybacks": 1.0,
-        "passive-income": 1.0
-      },
-      "entity_conviction": {
-        "labor-market": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.45
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-07-retire-sooner-are-ai-and-job-fears-overblown-what-the-data-shows-5a76a0.md",
     "transcript_word_count": 3842,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "The hosts debunk two prevailing fears with data: AI has not raised unemployment among recent college grads (still 5-6%, matching the last 20+ years) and dollar 'de-dollarization' worries are overblown (still ~59% of global reserves, near-universal in trade invoicing, and its trade-weighted value has actually risen over 50 years) -- a confidently reassuring, myth-busting episode despite surface-level 'worry'/'fear' language."
   },
   {
     "guid": "ded7d8ab-8fec-4c37-939d-02f593df229e",
@@ -123353,38 +123009,17 @@
         "real-estate"
       ],
       "themes": [
-        "regulation-antitrust",
         "credit-markets"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "real-estate": 1,
-        "private-markets": 28,
-        "credit-markets": 1,
-        "regulation-antitrust": 2
-      },
-      "entity_mention_density": {
-        "real-estate": 0.2,
-        "private-markets": 5.9,
-        "credit-markets": 0.2,
-        "regulation-antitrust": 0.4
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "private-markets": -0.444,
-        "credit-markets": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-05-alternative-allocations-the-illiquidity-premium-lessons-from-institutions-ep-37-4525ff.md",
     "transcript_word_count": 4499,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "An endowment-turned-fintech investor explains why illiquidity is a feature (not a bug) for long-horizon investors, highlights GP-led secondaries as a structural mismatch of capital versus opportunity, and flags tight credit spreads as a potential source of future stress worth watching -- measured and educational, not alarmist."
   },
   {
     "guid": "a5698f34-05d5-11f1-8c9c-d7d123398596",
@@ -123589,77 +123224,31 @@
       "sectors": [
         "consumer-discretionary",
         "crypto",
-        "industrials",
-        "healthcare"
+        "media-entertainment",
+        "industrials"
       ],
       "themes": [
-        "inflation",
-        "ai-boom",
         "earnings",
-        "dividends-buybacks"
+        "ai-boom",
+        "dividends-buybacks",
+        "crypto-regulation"
       ],
       "stocks": [
         "amazon",
-        "charles-schwab",
         "meta",
-        "alphabet",
-        "berkshire",
         "coinbase",
         "sp500",
-        "nasdaq"
+        "nasdaq",
+        "berkshire"
       ],
-      "sentiment": 0.129,
-      "sentiment_hits": 13,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "healthcare": 1,
-        "consumer-discretionary": 7,
-        "industrials": 2,
-        "crypto": 7,
-        "inflation": 1,
-        "ai-boom": 1,
-        "earnings": 1,
-        "dividends-buybacks": 1,
-        "alphabet": 2,
-        "amazon": 11,
-        "meta": 3,
-        "berkshire": 1,
-        "coinbase": 1,
-        "sp500": 1,
-        "nasdaq": 1,
-        "charles-schwab": 5
-      },
-      "entity_mention_density": {
-        "healthcare": 0.3,
-        "consumer-discretionary": 2.1,
-        "industrials": 0.6,
-        "crypto": 2.1,
-        "inflation": 0.3,
-        "ai-boom": 0.3,
-        "earnings": 0.3,
-        "dividends-buybacks": 0.3,
-        "alphabet": 0.6,
-        "amazon": 3.3,
-        "meta": 0.9,
-        "berkshire": 0.3,
-        "coinbase": 0.3,
-        "sp500": 0.3,
-        "nasdaq": 0.3,
-        "charles-schwab": 1.5
-      },
-      "entity_sentiment": {
-        "healthcare": -1.0,
-        "charles-schwab": 1.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.15
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-04-brew-markets-why-gamestop-wants-ebay-roblox-v-reddit-a-tale-of-two-earnin-962da7.md",
     "transcript_word_count": 3069,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A volatile earnings day: Roblox was crushed 18% on safety-driven guidance cuts while Reddit rallied 12% on accelerating ad growth; Amazon's expansion into third-party logistics hit FedEx/UPS shares while Coinbase gained on new stablecoin regulatory clarity; GameStop's skeptically-received bid for eBay overshadowed eBay's own strong earnings and AI-driven growth."
   },
   {
     "guid": "5fb19758-47fb-11f1-b734-47fbbffec901",
@@ -123899,48 +123488,22 @@
     "duration": "1049",
     "audio_url": "https://www.buzzsprout.com/1989932/episodes/19045460-what-a-real-financial-plan-actually-looks-like.mp3",
     "tags": {
-      "sectors": [
-        "airlines-travel"
-      ],
+      "sectors": [],
       "themes": [
-        "rates-fed",
-        "fire-movement",
-        "tax-planning"
+        "tax-planning",
+        "retirement-planning"
       ],
       "stocks": [
         "jpmorgan"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
-      "entity_mentions": {
-        "airlines-travel": 1,
-        "rates-fed": 1,
-        "fire-movement": 1,
-        "tax-planning": 1,
-        "jpmorgan": 1
-      },
-      "entity_mention_density": {
-        "airlines-travel": 0.3,
-        "rates-fed": 0.3,
-        "fire-movement": 0.3,
-        "tax-planning": 0.3,
-        "jpmorgan": 0.3
-      },
-      "entity_sentiment": {
-        "jpmorgan": -1.0
-      },
-      "entity_conviction": {
-        "tax-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-04-retirement-power-play-what-a-real-financial-plan-actually-looks-like-045460.md",
     "transcript_word_count": 2932,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "An advisor walks through the four pieces of a real financial plan -- income strategy, tax strategy, purpose-built investment structure, and pre-set decision rules for downturns -- citing JPMorgan's stat that markets see a ~14% average intra-year pullback as a normal baseline to plan around, not a warning sign."
   },
   {
     "guid": "69f816c231b7853e9b41f682",
@@ -124046,39 +123609,20 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/3a30244b-8a4e-475e-a57e-b44000f37c6b/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
       "sectors": [
-        "insurance"
+        "banks"
       ],
-      "themes": [
-        "budgeting-saving"
-      ],
+      "themes": [],
       "stocks": [
         "citigroup"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
-      "entity_mentions": {
-        "insurance": 2,
-        "budgeting-saving": 2,
-        "citigroup": 1
-      },
-      "entity_mention_density": {
-        "insurance": 2.0,
-        "budgeting-saving": 2.0,
-        "citigroup": 1.0
-      },
-      "entity_sentiment": {
-        "insurance": -1.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.2
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-04-bloomberg-surveillance-single-best-idea-with-tom-keene-stuart-kaiser-john-sterling-f37c6b.md",
     "transcript_word_count": 923,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Citigroup's Stuart Kaiser notes institutional and retail positioning is drifting back toward the 'so-so bullish' extremes seen in January, and suggests some caution is warranted near-term as the buying has gotten 'frenzied.'"
   },
   {
     "guid": "0078bf03-ef5c-4425-97b0-8ecd3137f9fc",
@@ -128201,79 +127745,26 @@
     "tags": {
       "sectors": [
         "insurance",
-        "technology",
-        "consumer-staples",
-        "industrials",
-        "media-entertainment"
+        "real-estate"
       ],
       "themes": [
         "college-savings",
         "debt-payoff",
-        "retirement-planning",
-        "inflation",
         "rates-fed",
-        "regulation-antitrust",
-        "fire-movement",
+        "labor-market",
         "real-estate-investing"
       ],
       "stocks": [
-        "fidelity",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
-      "entity_mentions": {
-        "technology": 1,
-        "insurance": 4,
-        "consumer-staples": 1,
-        "industrials": 1,
-        "media-entertainment": 1,
-        "inflation": 1,
-        "rates-fed": 1,
-        "regulation-antitrust": 1,
-        "debt-payoff": 2,
-        "fire-movement": 1,
-        "retirement-planning": 2,
-        "real-estate-investing": 1,
-        "college-savings": 6,
-        "meta": 2,
-        "fidelity": 6
-      },
-      "entity_mention_density": {
-        "technology": 0.1,
-        "insurance": 0.5,
-        "consumer-staples": 0.1,
-        "industrials": 0.1,
-        "media-entertainment": 0.1,
-        "inflation": 0.1,
-        "rates-fed": 0.1,
-        "regulation-antitrust": 0.1,
-        "debt-payoff": 0.3,
-        "fire-movement": 0.1,
-        "retirement-planning": 0.3,
-        "real-estate-investing": 0.1,
-        "college-savings": 0.8,
-        "meta": 0.3,
-        "fidelity": 0.8
-      },
-      "entity_sentiment": {
-        "regulation-antitrust": -1.0
-      },
-      "entity_conviction": {
-        "media-entertainment": -1.0,
-        "debt-payoff": -1.0,
-        "rates-fed": 1.0,
-        "inflation": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.15
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-01-how-to-money-friday-flight-college-cost-cutting-predictive-credit-scores-3b5b93.md",
     "transcript_word_count": 7670,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A personal-finance grab-bag: 3-year 'degree hacking' college programs, a rare window where private student-loan refinance rates beat federal rates, states moving to ban credit-score-based insurance pricing, and companies (including Meta) quietly cutting benefits like 401k match and parental leave -- flagged as a possible early warning sign of financial stress worth watching."
   },
   {
     "guid": "bc5cc088-0118-4507-b8ca-a2e043a34456",
@@ -129079,13 +128570,13 @@
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/TCP8912573232.mp3",
     "tags": {
       "sectors": [
-        "crypto"
+        "crypto",
+        "private-markets"
       ],
       "themes": [
-        "inflation",
-        "rates-fed",
         "diversification",
         "volatility",
+        "rates-fed",
         "bond-market"
       ],
       "stocks": [
@@ -129094,60 +128585,14 @@
         "fidelity",
         "charles-schwab"
       ],
-      "sentiment": 0.275,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
-      "entity_mentions": {
-        "crypto": 1,
-        "inflation": 2,
-        "rates-fed": 2,
-        "volatility": 1,
-        "bond-market": 1,
-        "diversification": 2,
-        "bitcoin": 4,
-        "ethereum": 2,
-        "fidelity": 1,
-        "charles-schwab": 1
-      },
-      "entity_mention_density": {
-        "crypto": 0.2,
-        "inflation": 0.3,
-        "rates-fed": 0.3,
-        "volatility": 0.2,
-        "bond-market": 0.2,
-        "diversification": 0.3,
-        "bitcoin": 0.7,
-        "ethereum": 0.3,
-        "fidelity": 0.2,
-        "charles-schwab": 0.2
-      },
-      "entity_sentiment": {
-        "crypto": 1.0,
-        "inflation": 1.0,
-        "rates-fed": 1.0,
-        "volatility": 1.0,
-        "fidelity": 1.0,
-        "charles-schwab": 1.0,
-        "bitcoin": 1.0,
-        "ethereum": 1.0
-      },
-      "entity_conviction": {
-        "crypto": -1.0,
-        "inflation": -1.0,
-        "volatility": -1.0,
-        "fidelity": -1.0,
-        "charles-schwab": -1.0,
-        "bitcoin": -1.0,
-        "ethereum": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-30-talking-wealth-how-to-improve-client-portfolios-631868.md",
     "transcript_word_count": 5609,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Modelist's Joe Mow describes building rules-based, tax-aware model portfolios for financial advisors -- including systematic Bitcoin/Ethereum allocation strategies (buy-and-hold, volatility-weighted, or trend-following) delivered via direct-indexing platforms -- an operationally descriptive fintech/advisor-tooling discussion, not a market call."
   },
   {
     "guid": "a92e1441-527d-4d4b-aab0-b43c01035bcb",
@@ -130801,61 +130246,17 @@
       ],
       "stocks": [
         "nvidia",
-        "amazon",
         "tsmc",
         "sp500"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
-      "entity_mentions": {
-        "semiconductors": 1,
-        "volatility": 2,
-        "retirement-planning": 1,
-        "dividends-buybacks": 6,
-        "nvidia": 2,
-        "amazon": 2,
-        "tsmc": 1,
-        "sp500": 1
-      },
-      "entity_mention_density": {
-        "semiconductors": 0.1,
-        "volatility": 0.3,
-        "retirement-planning": 0.1,
-        "dividends-buybacks": 0.9,
-        "nvidia": 0.3,
-        "amazon": 0.3,
-        "tsmc": 0.1,
-        "sp500": 0.1
-      },
-      "entity_sentiment": {
-        "semiconductors": 0.0,
-        "volatility": 0.0,
-        "retirement-planning": 0.0,
-        "dividends-buybacks": 0.0,
-        "nvidia": 0.0,
-        "amazon": 0.0,
-        "tsmc": 0.0,
-        "sp500": 0.0
-      },
-      "entity_conviction": {
-        "semiconductors": -1.0,
-        "volatility": -1.0,
-        "retirement-planning": -1.0,
-        "dividends-buybacks": -1.0,
-        "nvidia": -1.0,
-        "amazon": -1.0,
-        "tsmc": -1.0,
-        "sp500": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.05
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-29-rule-breaker-investing-april-2026-mailbag-harbor-hawthorne-higher-or-lower-a691af.md",
     "transcript_word_count": 6696,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "David Gardner counsels a reader to 'buy in thirds' rather than wait for dips, and helps another reader nearing retirement reframe a shift from growth into dividend stocks -- after a rough year (his growth portfolio down ~19%, the S&P down ~7% year-to-date) -- as prudent life-staging rather than abandoning growth investing."
   },
   {
     "guid": "149cb11f-22df-4fc3-9259-b43b01044481",
@@ -131095,65 +130496,22 @@
     "duration": "4072",
     "audio_url": "https://chrt.fm/track/E6BB91/traffic.megaphone.fm/CWT7235299037.mp3?updated=1777341833",
     "tags": {
-      "sectors": [
-        "crypto"
-      ],
+      "sectors": [],
       "themes": [
         "market-structure",
         "hedge-funds"
       ],
       "stocks": [
-        "meta",
-        "sp500",
-        "alphabet",
-        "att",
-        "walmart",
-        "bitcoin",
         "robinhood"
       ],
-      "sentiment": 0.846,
-      "sentiment_hits": 13,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "crypto": 1,
-        "hedge-funds": 1,
-        "market-structure": 7,
-        "alphabet": 1,
-        "meta": 3,
-        "att": 1,
-        "walmart": 1,
-        "bitcoin": 1,
-        "sp500": 3,
-        "robinhood": 1
-      },
-      "entity_mention_density": {
-        "crypto": 0.1,
-        "hedge-funds": 0.1,
-        "market-structure": 0.6,
-        "alphabet": 0.1,
-        "meta": 0.3,
-        "att": 0.1,
-        "walmart": 0.1,
-        "bitcoin": 0.1,
-        "sp500": 0.3,
-        "robinhood": 0.1
-      },
-      "entity_sentiment": {
-        "sp500": 1.0
-      },
-      "entity_conviction": {
-        "crypto": -1.0,
-        "sp500": -1.0,
-        "robinhood": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-29-chat-with-traders-322-stephen-kalayjian-what-43-years-in-the-markets-teaches-y-d3780d.md",
     "transcript_word_count": 10501,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A veteran floor trader recounts his 43-year career, trading discipline and risk-management philosophy, and his current mentoring/prop-firm business; despite an enthusiastic tone throughout, the episode expresses no actual bullish or bearish view on any market or asset -- it's a career retrospective, not an outlook."
   },
   {
     "guid": "dc41b1f2-42bc-11f1-ac96-4ba2e28f8991",
@@ -132248,51 +131606,24 @@
     "duration": "00:13:35",
     "audio_url": "https://anchor.fm/s/fe33a85c/podcast/play/119175690/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F423043207-44100-2-82d9673db3d8e.mp3",
     "tags": {
-      "sectors": [
-        "industrials"
-      ],
+      "sectors": [],
       "themes": [
         "fire-movement",
-        "inflation",
-        "budgeting-saving"
+        "budgeting-saving",
+        "retirement-planning",
+        "career-income"
       ],
       "stocks": [
-        "bitcoin",
-        "meta"
+        "bitcoin"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "industrials": 1,
-        "inflation": 4,
-        "budgeting-saving": 1,
-        "fire-movement": 5,
-        "meta": 2,
-        "bitcoin": 6
-      },
-      "entity_mention_density": {
-        "industrials": 0.3,
-        "inflation": 1.2,
-        "budgeting-saving": 0.3,
-        "fire-movement": 1.5,
-        "meta": 0.6,
-        "bitcoin": 1.8
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "industrials": -1.0,
-        "fire-movement": -1.0,
-        "inflation": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.3
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-29-money-to-the-masses-money-vault-how-to-inspire-your-children-to-build-wealth-018513.md",
     "transcript_word_count": 3104,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A father recounts teaching his daughter about compounding, budgeting, and the FIRE concept using a compound-interest calculator and the 4% withdrawal rule -- a warm personal-finance parenting story, not market commentary; Bitcoin is only mentioned as what the daughter recognized on a Bloomberg ticker, not analyzed."
   },
   {
     "guid": "4092a616-e37c-455d-90a1-3a5f46abd540",
