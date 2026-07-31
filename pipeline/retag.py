@@ -27,6 +27,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 
 from extract_themes import Taxonomy, tag_episode  # noqa: E402
+from insights import build_label_maps, generate_template_summary  # noqa: E402
 from manual_review import parse_frontmatter  # noqa: E402
 from run import CONFIG_DIR, DATA_DIR, ROOT, build_aggregates, load_json, save_json  # noqa: E402
 from transcribe import write_transcript_file  # noqa: E402
@@ -39,6 +40,7 @@ def main():
 
     taxonomy = Taxonomy(os.path.join(CONFIG_DIR, "taxonomy.json"))
     taxonomy_raw = load_json(os.path.join(CONFIG_DIR, "taxonomy.json"), {})
+    labels = build_label_maps(taxonomy_raw)
     episodes = load_json(os.path.join(DATA_DIR, "episodes.json"), [])
     by_guid = {ep["guid"]: ep for ep in episodes}
 
@@ -71,6 +73,8 @@ def main():
             if extra in tags:
                 ep["tags"][extra] = tags[extra]
         ep["tags_source"] = "keyword"
+        ep["episode_summary"] = generate_template_summary(ep["tags"], labels)
+        ep["episode_summary_source"] = "template"
         by_guid[ep["guid"]] = ep
 
     all_episodes = sorted(by_guid.values(), key=lambda e: e.get("published_at") or "", reverse=True)

@@ -204,6 +204,8 @@ def cmd_apply(args):
         ep["tags_source"] = "claude-manual"
         if tags["summary"]:
             ep["llm_summary"] = tags["summary"]
+            ep["episode_summary"] = tags["summary"]
+            ep["episode_summary_source"] = "claude-manual"
 
         transcript_path = ep.get("transcript_path")
         if transcript_path:

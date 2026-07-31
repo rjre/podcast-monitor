@@ -86,6 +86,52 @@ def _entity_ids(tags):
     return sorted(set(tags.get("sectors", []) + tags.get("themes", []) + tags.get("stocks", [])))
 
 
+def build_label_maps(taxonomy_raw):
+    """id -> label per taxonomy section, e.g. labels["themes"]["rates-fed"] ==
+    "Rates & Fed". Shared shape used by pipeline/run.py and streamlit_app.py's
+    own label_maps() -- kept here too so transcribe.py/retag.py can build a
+    template summary without importing run.py or streamlit_app.py."""
+    return {kind: {e["id"]: e["label"] for e in taxonomy_raw.get(kind, [])} for kind in ("sectors", "themes", "stocks")}
+
+
+def generate_template_summary(tags, labels):
+    """Zero-token, tag-derived summary sentence for episodes that haven't
+    had a genuine (claude-manual/llm) read yet -- explicitly a stand-in
+    assembled from structured tags, not a substitute for actually
+    understanding the transcript. Callers should prefer a genuine
+    tags["summary"]/ep["llm_summary"] when one exists and only fall back to
+    this."""
+    def names(kind, limit):
+        ids = tags.get(kind) or []
+        return [labels.get(kind, {}).get(i, i) for i in ids[:limit]]
+
+    sector_names = names("sectors", 3)
+    theme_names = names("themes", 4)
+    stock_names = names("stocks", 5)
+
+    parts = []
+    topics = sector_names + theme_names
+    if topics:
+        parts.append("Touches on " + ", ".join(topics) + ".")
+    if stock_names:
+        parts.append("Mentions " + ", ".join(stock_names) + ".")
+    if not parts:
+        parts.append("No specific sectors, themes, or stocks detected.")
+
+    sentiment = tags.get("sentiment", 0.0)
+    if sentiment >= 0.15:
+        tone = "leans bullish"
+    elif sentiment <= -0.15:
+        tone = "leans bearish"
+    else:
+        tone = "reads roughly neutral"
+    confidence = tags.get("sentiment_confidence")
+    conf_note = " (low confidence)" if confidence is not None and confidence < 0.34 else ""
+    parts.append(f"Tone {tone} ({sentiment:+.2f}){conf_note}.")
+
+    return " ".join(parts)
+
+
 def build_podcast_baselines(episodes):
     """podcast_id -> {avg_sentiment, avg_conviction, episode_count}, from
     every tagged episode that podcast has (not just transcribed ones)."""
@@ -112,6 +158,115 @@ def build_podcast_baselines(episodes):
             "episode_count": agg["n"],
         }
     return baselines
+
+
+def build_podcast_summaries(episodes, labels_by_id):
+    """Per-podcast rollup beyond the plain sentiment number in
+    build_podcast_baselines: what does this show actually talk about most,
+    and a one-line narrative summary of it -- "the show-level summary", as
+    opposed to build_podcast_theme_timeline's "how has that mix shifted
+    over time" view. Same BASELINE_MIN_EPISODES gate so a podcast with only
+    a trailer or two tagged doesn't get a confident-sounding summary from
+    noise."""
+    theme_counts, sector_counts, stock_counts = defaultdict(Counter), defaultdict(Counter), defaultdict(Counter)
+    sentiment_sums = defaultdict(lambda: [0.0, 0])
+    podcast_names = {}
+
+    for ep in episodes:
+        tags = ep.get("tags", {})
+        pid = ep.get("podcast_id")
+        if not pid or not _entity_ids(tags):
+            continue
+        podcast_names.setdefault(pid, ep.get("podcast_name", pid))
+        theme_counts[pid].update(tags.get("themes", []))
+        sector_counts[pid].update(tags.get("sectors", []))
+        stock_counts[pid].update(tags.get("stocks", []))
+        bucket = sentiment_sums[pid]
+        bucket[0] += tags.get("sentiment", 0.0)
+        bucket[1] += 1
+
+    def top_entries(counter, limit):
+        return [{"id": eid, "label": labels_by_id.get(eid, eid), "count": count}
+                for eid, count in counter.most_common(limit)]
+
+    summaries = {}
+    for pid, (total_sentiment, n) in sentiment_sums.items():
+        if n < BASELINE_MIN_EPISODES:
+            continue
+        avg_sentiment = round(total_sentiment / n, 3)
+        top_themes = top_entries(theme_counts[pid], 5)
+        top_sectors = top_entries(sector_counts[pid], 3)
+        top_stocks = top_entries(stock_counts[pid], 5)
+
+        tone = "leans bullish" if avg_sentiment >= 0.1 else "leans bearish" if avg_sentiment <= -0.1 else "reads roughly neutral"
+        theme_str = ", ".join(t["label"] for t in top_themes[:3])
+        sector_str = ", ".join(s["label"] for s in top_sectors[:2])
+        if theme_str:
+            focus = f"Most discussed: {theme_str}" + (f" (sectors: {sector_str})" if sector_str else "") + "."
+        else:
+            focus = "No dominant themes yet."
+        summary_text = f"{n} episodes tagged. {focus} Overall tone {tone} ({avg_sentiment:+.2f})."
+
+        summaries[pid] = {
+            "podcast_name": podcast_names.get(pid, pid),
+            "episode_count": n,
+            "avg_sentiment": avg_sentiment,
+            "top_themes": top_themes,
+            "top_sectors": top_sectors,
+            "top_stocks": top_stocks,
+            "summary_text": summary_text,
+        }
+    return summaries
+
+
+def build_podcast_theme_timeline(episodes, labels_by_id, top_n_themes=6):
+    """Per-podcast, per-month theme mention counts + avg sentiment -- how a
+    SHOW's own topic mix and tone have shifted over time, distinct from
+    run.py's per-entity monthly series (scoped to one theme/sector/stock
+    across the whole dataset, not one show) and from
+    build_podcast_summaries' all-time snapshot. Restricted to each
+    podcast's own top_n_themes overall so the chart stays a readable
+    multi-line/stacked series instead of one line per taxonomy theme ever
+    mentioned once."""
+    month_theme_counts = defaultdict(lambda: defaultdict(Counter))  # pid -> month -> Counter(theme_id)
+    month_sentiment = defaultdict(lambda: defaultdict(lambda: [0.0, 0]))  # pid -> month -> [sum, n]
+    overall_theme_counts = defaultdict(Counter)
+
+    for ep in episodes:
+        tags = ep.get("tags", {})
+        pid = ep.get("podcast_id")
+        month = (ep.get("published_at") or "")[:7]
+        if not pid or not month or not _entity_ids(tags):
+            continue
+        themes = tags.get("themes", [])
+        month_theme_counts[pid][month].update(themes)
+        overall_theme_counts[pid].update(themes)
+        bucket = month_sentiment[pid][month]
+        bucket[0] += tags.get("sentiment", 0.0)
+        bucket[1] += 1
+
+    timelines = {}
+    for pid, months in month_theme_counts.items():
+        total_eps = sum(month_sentiment[pid][m][1] for m in months)
+        if total_eps < BASELINE_MIN_EPISODES:
+            continue
+        top_theme_ids = [t for t, _ in overall_theme_counts[pid].most_common(top_n_themes)]
+        series = []
+        for month in sorted(months.keys()):
+            counter = months[month]
+            total_sent, n = month_sentiment[pid][month]
+            series.append({
+                "month": month,
+                "episode_count": n,
+                "avg_sentiment": round(total_sent / n, 3) if n else 0.0,
+                "theme_counts": {t: counter.get(t, 0) for t in top_theme_ids if counter.get(t, 0) > 0},
+            })
+        timelines[pid] = {
+            "top_theme_ids": top_theme_ids,
+            "top_theme_labels": [labels_by_id.get(t, t) for t in top_theme_ids],
+            "months": series,
+        }
+    return timelines
 
 
 def find_surprising_episodes(episodes, podcast_baselines, top_n=20):
@@ -251,6 +406,8 @@ def build_insights(episodes, taxonomy_raw):
     podcast_baselines = build_podcast_baselines(episodes)
     return {
         "podcast_baselines": podcast_baselines,
+        "podcast_summaries": build_podcast_summaries(episodes, labels_by_id),
+        "podcast_theme_timeline": build_podcast_theme_timeline(episodes, labels_by_id),
         "surprising_episodes": find_surprising_episodes(episodes, podcast_baselines),
         "contrarian_calls": find_contrarian_calls(episodes, labels_by_id),
         "entity_cooccurrence": build_cooccurrence(episodes, labels_by_id, kind_by_id),

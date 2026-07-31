@@ -223,6 +223,22 @@ All of the above are populated by the keyword tagger only; an
 `llm`/`claude-manual` tagging pass gives one holistic `sentiment` +
 `summary` instead.
 
+Every transcribed episode also carries `episode_summary` +
+`episode_summary_source`, so there's always *something* to show, honestly
+labeled by how it was produced:
+
+- `episode_summary_source: "claude-manual"` or `"llm"`: a genuine
+  human/Claude read of the transcript (the same text as `llm_summary`).
+- `episode_summary_source: "template"`: zero-token, assembled from the
+  episode's own `tags` (`generate_template_summary()` in
+  `pipeline/insights.py`) -- a stand-in description ("Touches on X, Y.
+  Mentions Z. Tone leans bullish (+0.32)."), not a read of the transcript.
+  This is what most episodes have, since most are still keyword-tagged.
+
+The dashboard's Episodes tab labels these differently (`SUMMARY` vs.
+`AUTO-SUMMARY (from tags, not a transcript read)`) so the distinction stays
+visible, not just in the data.
+
 `data/aggregates.json` gives you the same thing pre-rolled-up per entity:
 total mentions, `total_hits` (salience-weighted, sums entity_mentions
 rather than counting one per episode), average sentiment,
@@ -266,6 +282,20 @@ few signals that don't fit a "one entity at a time" shape:
   that deviate sharply from it. A naturally-bearish show turning bullish is
   a bigger tell than a naturally-bullish one being bullish, which the
   dataset-wide `sentiment_divergence` can't see.
+- `podcast_summaries`: a show-level rollup -- episode count, top
+  themes/sectors/stocks by frequency, all-time average sentiment, and a
+  one-line narrative `summary_text` stitched from those (e.g. "29 episodes
+  tagged. Most discussed: Financial Independence / FIRE, Retirement
+  Planning. Overall tone reads roughly neutral (+0.07)."). Gated on the
+  same minimum-episode threshold as `podcast_baselines` (3), so a show
+  with only a trailer or two tagged doesn't get a confident-sounding
+  summary from noise. Surfaced in the dashboard's Show Explorer tab.
+- `podcast_theme_timeline`: per-podcast, per-month mention counts (for
+  that show's own top 6 themes) plus average sentiment -- how a *show's*
+  topic mix and tone have shifted over time, distinct from the per-entity
+  monthly series above (which is scoped to one theme/sector/stock across
+  every podcast, not one show's own mix) and from `podcast_summaries`'
+  all-time snapshot. Also in Show Explorer, as a per-theme line chart.
 - `contrarian_calls`: within an entity+month where most episodes clearly
   agree on tone (>=70% one direction), the episode(s) that disagreed --
   the lone dissenting voice, not just the loudest opinion.
@@ -382,7 +412,11 @@ timeline above just stretches out proportionally.
   linking out to the original.
 - **Filters** (top bar, apply everywhere): toggle individual podcasts, filter
   to one theme/sector/stock (or click any bar/tag to jump straight to it),
-  a date-range preset, and free-text search over titles/show notes.
+  a date-range preset, free-text search over titles/show notes, and a
+  **Regions** filter (see below).
+- **Show Explorer** — pick one podcast to see its own show-level summary
+  (top themes/sectors/stocks, all-time tone) and a themes-over-time chart of
+  how that show's own topic mix has shifted month to month.
 - **Refresh** — re-pulls the JSON files (cache-busted) and re-renders; it
   does not itself run the pipeline (that happens via the scheduled Action or
   `pipeline/run.py`).
@@ -403,6 +437,22 @@ Finding an RSS feed URL for a new show: search `<podcast name> RSS feed`, or
 grab its Apple Podcasts ID from the podcasts.apple.com URL and query
 `https://itunes.apple.com/lookup?id=<id>&entity=podcast` — the `feedUrl`
 field in the response is what goes in `feed_url`.
+
+### Region -- most of this panel is US media
+
+Every podcast entry also needs a `region` (`us`, `uk`, `canada`,
+`australia`, or `europe`), based on the publisher/host's home base, not
+episode content. As of the last count, **91 of 101 tracked shows (~90%) are
+US-based** — worth keeping in mind before treating anything on this
+dashboard (a "crowd consensus," a "contrarian call," an overall sentiment
+read) as a global one rather than a US-financial-media one. The Streamlit
+dashboard surfaces this directly: an Overview callout states the current
+US-share of episodes in view, an "Episodes by region" expander breaks it
+down, a **Regions** multiselect filter (alongside Categories/Podcasts) lets
+you isolate or exclude any region, and **Manage podcasts** lists each show's
+region next to its category. Add a new podcast whose home base isn't
+US/UK/Canada/Australia by picking the closest fit or adding a new region id
+here and to `REGION_LABELS` in `streamlit_app.py`.
 
 ### Categories
 

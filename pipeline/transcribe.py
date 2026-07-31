@@ -46,6 +46,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
 
 from extract_themes import Taxonomy  # noqa: E402
+from insights import build_label_maps, generate_template_summary  # noqa: E402
 from run import CONFIG_DIR, DATA_DIR, build_aggregates, load_json, save_json  # noqa: E402
 
 TRANSCRIPT_DIR = os.path.join(DATA_DIR, "transcripts")
@@ -233,6 +234,7 @@ def main():
     by_guid = {ep["guid"]: ep for ep in episodes}
     taxonomy_raw = load_json(os.path.join(CONFIG_DIR, "taxonomy.json"), {})
     taxonomy = Taxonomy(os.path.join(CONFIG_DIR, "taxonomy.json"))
+    labels = build_label_maps(taxonomy_raw)
 
     todo = select_candidates(episodes, podcasts_cfg, args.limit, only_guid=args.guid)
     if not todo:
@@ -276,6 +278,11 @@ def main():
         ep["tags_source"] = source
         if tags.get("summary"):
             ep["llm_summary"] = tags["summary"]
+            ep["episode_summary"] = tags["summary"]
+            ep["episode_summary_source"] = source
+        else:
+            ep["episode_summary"] = generate_template_summary(ep["tags"], labels)
+            ep["episode_summary_source"] = "template"
         if tags.get("new_entities"):
             ep["llm_new_entities"] = tags["new_entities"]
         ep["transcript_status"] = "done"

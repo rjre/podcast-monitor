@@ -98,6 +98,22 @@ def category_maps(categories):
     return by_id
 
 
+# Podcasts are tagged with a "region" in config/podcasts.json (based on
+# publisher/host location, not episode content) so the dashboard can
+# highlight -- and let users filter for -- how geographically skewed the
+# panel is. As of the last count, ~90% of tracked shows are US-based, which
+# should color how any "consensus" or "crowd" read here is interpreted:
+# it's largely a US-media consensus, not a global one.
+REGION_LABELS = {
+    "us": "United States", "uk": "United Kingdom", "canada": "Canada",
+    "australia": "Australia", "europe": "Europe (other)",
+}
+
+
+def region_label(region_id):
+    return REGION_LABELS.get(region_id, region_id.title() if region_id else "Unknown")
+
+
 def podcast_color(podcast, categories_by_id, dark=False):
     cat = categories_by_id.get(podcast.get("category"))
     if not cat:
@@ -125,10 +141,14 @@ def episodes_to_df(episodes, podcasts_by_id, categories_by_id):
             "podcast_name": podcast.get("name", ep["podcast_id"]),
             "category_id": podcast.get("category", ""),
             "category_label": category.get("label", "Uncategorized"),
+            "region_id": podcast.get("region", ""),
+            "region_label": region_label(podcast.get("region", "")),
             "title": ep["title"],
             "link": ep.get("link") or "",
             "published_at": pd.to_datetime(ep["published_at"]) if ep.get("published_at") else pd.NaT,
             "summary": ep.get("summary", ""),
+            "episode_summary": ep.get("episode_summary", ""),
+            "episode_summary_source": ep.get("episode_summary_source", ""),
             "sectors": tags.get("sectors", []),
             "themes": tags.get("themes", []),
             "stocks": tags.get("stocks", []),
@@ -225,6 +245,77 @@ def render_sentiment_over_time(sub, height=140):
         .properties(height=height, width=220)
         .facet(facet=alt.Facet("label:N", title=None, sort=entity_order), columns=2)
         .resolve_scale(y="independent")
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def render_show_theme_timeline(timeline, height=280):
+    """Multi-line chart: a single show's own top themes, mention count per
+    month -- 'how has this show's topic mix shifted', built from
+    aggregates["podcast_theme_timeline"][podcast_id] (pipeline/insights.py's
+    build_podcast_theme_timeline). Unlike render_mentions_over_time this
+    doesn't explode data/episodes.json at render time -- the per-podcast
+    monthly counts are already precomputed, so months a theme wasn't
+    mentioned are filled in as 0 here for a continuous line instead of a gap.
+    """
+    months = timeline.get("months") or []
+    theme_ids = timeline.get("top_theme_ids") or []
+    theme_labels = timeline.get("top_theme_labels") or []
+    if not months or not theme_ids:
+        st.caption("Not enough tagged episodes yet for a theme timeline.")
+        return
+
+    rows = []
+    for entry in months:
+        month = entry["month"]
+        month_label = pd.Period(month, freq="M").strftime("%b %Y")
+        counts = entry.get("theme_counts", {})
+        for theme_id, theme_label in zip(theme_ids, theme_labels):
+            rows.append({
+                "month": month, "month_label": month_label,
+                "theme": theme_label, "mentions": counts.get(theme_id, 0),
+            })
+    df = pd.DataFrame(rows)
+    month_order = [m for m in df.sort_values("month")["month_label"].unique()]
+    color_range = [ENTITY_LINE_COLORS[i % len(ENTITY_LINE_COLORS)] for i in range(len(theme_labels))]
+
+    chart = (
+        alt.Chart(df)
+        .mark_line(point=alt.OverlayMarkDef(size=40, filled=True), strokeWidth=2)
+        .encode(
+            x=alt.X("month_label:N", title=None, sort=month_order),
+            y=alt.Y("mentions:Q", title="Episodes mentioning theme"),
+            color=alt.Color("theme:N", title=None, scale=alt.Scale(domain=theme_labels, range=color_range)),
+            tooltip=[alt.Tooltip("theme:N", title="Theme"), alt.Tooltip("month_label:N", title="Month"),
+                     alt.Tooltip("mentions:Q", title="Episodes")],
+        )
+        .properties(height=height)
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def render_region_breakdown(df, height=90):
+    """Horizontal bar of episode share by podcast region -- the point isn't
+    the chart, it's the callout above it: readers should know how US-heavy
+    the panel is before treating any 'crowd consensus' signal as global."""
+    if df.empty:
+        st.caption("No episodes in view.")
+        return
+    counts = df["region_label"].value_counts().reset_index()
+    counts.columns = ["region", "episodes"]
+    counts["share"] = counts["episodes"] / counts["episodes"].sum()
+    counts = counts.sort_values("episodes", ascending=False)
+
+    chart = (
+        alt.Chart(counts)
+        .mark_bar(color="#2a78d6")
+        .encode(
+            x=alt.X("episodes:Q", title="Episodes in view"),
+            y=alt.Y("region:N", title=None, sort="-x"),
+            tooltip=[alt.Tooltip("region:N", title="Region"), alt.Tooltip("episodes:Q", title="Episodes"),
+                     alt.Tooltip("share:Q", title="Share", format=".0%")],
+        )
+        .properties(height=height)
     )
     st.altair_chart(chart, use_container_width=True)
 
@@ -609,13 +700,22 @@ def main():
 
     # ---------------- Filters ----------------
     st.markdown("---")
-    fc1, fc2 = st.columns([2, 3])
+    fc1, fc_region, fc2 = st.columns([1.8, 1.6, 2.6])
     with fc1:
         category_labels = [c["label"] for c in categories]
         selected_categories = st.multiselect("Categories", category_labels, default=category_labels)
+    with fc_region:
+        region_options = sorted({region_label(p.get("region", "")) for p in podcasts})
+        selected_regions = st.multiselect(
+            "Regions", region_options, default=region_options,
+            help="Podcast is tagged by publisher/host location, not episode content. Most tracked "
+                 "shows are US-based -- use this to check whether a reading changes once non-US "
+                 "shows are isolated or excluded.",
+        )
     with fc2:
         podcasts_in_categories = [p for p in podcasts
-                                   if categories_by_id.get(p.get("category"), {}).get("label") in selected_categories]
+                                   if categories_by_id.get(p.get("category"), {}).get("label") in selected_categories
+                                   and region_label(p.get("region", "")) in selected_regions]
         podcast_names = [p["name"] for p in podcasts_in_categories]
         selected_podcasts = st.multiselect("Podcasts (narrow further)", podcast_names, default=podcast_names)
 
@@ -651,8 +751,8 @@ def main():
     tagged = df[df["tag_count"] > 0]
 
     # ---------------- Overview ----------------
-    tab_overview, tab_trends, tab_episodes, tab_manage = st.tabs(
-        ["Overview", "Trends", "Episodes", "Manage podcasts"]
+    tab_overview, tab_trends, tab_shows, tab_episodes, tab_manage = st.tabs(
+        ["Overview", "Trends", "Show Explorer", "Episodes", "Manage podcasts"]
     )
 
     with tab_overview:
@@ -668,6 +768,18 @@ def main():
         m3.metric("Net sentiment", word, f"{avg_sentiment:+.2f}")
         transcribed = int((df["transcript_status"] == "done").sum())
         m4.metric("Transcribed episodes", f"{transcribed}/{len(df)}")
+
+        if not df.empty:
+            us_share = float((df["region_id"] == "us").mean())
+            st.info(
+                f"\U0001F310 **{us_share:.0%} of episodes in view are from US-based podcasts.** "
+                "Treat any 'crowd consensus' or 'contrarian call' signal on this dashboard as a "
+                "reading of US financial media specifically, not a global one -- non-US shows are "
+                "a small enough slice that a genuinely different international view could be "
+                "diluted out. Use the Regions filter above to isolate or exclude them."
+            )
+            with st.expander("Episodes by region"):
+                render_region_breakdown(df)
 
         st.markdown("---")
         render_things_to_notice(aggregates)
@@ -716,6 +828,47 @@ def main():
             st.caption("Each episode's overall tone counted toward every theme/sector/stock it mentions.")
             render_sentiment_over_time(sub)
 
+    with tab_shows:
+        podcast_summaries = aggregates.get("podcast_summaries", {})
+        theme_timelines = aggregates.get("podcast_theme_timeline", {})
+        eligible_pids = [p["id"] for p in podcasts_in_categories if p["id"] in podcast_summaries]
+        if not eligible_pids:
+            st.caption("No show has enough tagged episodes yet for a show-level summary.")
+        else:
+            names_by_pid = {p["id"]: p["name"] for p in podcasts_in_categories}
+            eligible_pids.sort(key=lambda pid: names_by_pid.get(pid, pid))
+            chosen_name = st.selectbox("Show", [names_by_pid[pid] for pid in eligible_pids])
+            chosen_pid = next(pid for pid in eligible_pids if names_by_pid[pid] == chosen_name)
+            show = podcast_summaries[chosen_pid]
+
+            st.subheader(chosen_name)
+            st.markdown(show["summary_text"])
+            m1, m2, m3 = st.columns(3)
+            m1.metric("Episodes tagged", show["episode_count"])
+            word, _ = sentiment_word(show["avg_sentiment"])
+            m2.metric("All-time tone", word, f"{show['avg_sentiment']:+.2f}")
+            baseline = aggregates.get("podcast_baselines", {}).get(chosen_pid, {})
+            m3.metric("Avg conviction", f"{baseline.get('avg_conviction'):+.2f}" if baseline.get("avg_conviction") is not None else "—")
+
+            c1, c2 = st.columns(2)
+            with c1:
+                st.caption("Top themes")
+                for t in show["top_themes"]:
+                    st.markdown(f"- {t['label']} ({t['count']})")
+            with c2:
+                st.caption("Top sectors & stocks")
+                for t in show["top_sectors"] + show["top_stocks"]:
+                    st.markdown(f"- {t['label']} ({t['count']})")
+
+            st.markdown("---")
+            st.subheader("Themes over time")
+            st.caption("How often this show's own top themes have come up, month by month.")
+            timeline = theme_timelines.get(chosen_pid)
+            if timeline:
+                render_show_theme_timeline(timeline)
+            else:
+                st.caption("Not enough tagged episodes yet for a theme timeline.")
+
     with tab_episodes:
         st.caption(f"Showing {min(len(df), 200)} of {len(df)} matching episodes")
         shown = df.sort_values("published_at", ascending=False).head(200)
@@ -733,6 +886,15 @@ def main():
                 if ep["transcript_status"] == "done" else ""
             )
             title_html = f'<a href="{ep["link"]}" target="_blank">{ep["title"]}</a>' if ep["link"] else ep["title"]
+            summary_html = ""
+            if ep["episode_summary"]:
+                is_genuine = ep["episode_summary_source"] in ("claude-manual", "llm")
+                badge = "SUMMARY" if is_genuine else "AUTO-SUMMARY (from tags, not a transcript read)"
+                summary_html = (
+                    f'<div style="font-size:12.5px; color:#65635f; margin:5px 0 2px;">'
+                    f'<span style="font-size:9.5px; letter-spacing:.03em; color:#9b9992;">{badge}</span><br/>'
+                    f'{ep["episode_summary"]}</div>'
+                )
             st.markdown(
                 f"""<div class="ep-row">
                 <span style="color:#898781; font-size:12.5px;">{date_str}</span> ·
@@ -740,6 +902,7 @@ def main():
                 <span class="sent-badge {cls}" style="float:right;">{word}</span>
                 <div style="font-weight:600; margin:4px 0;">{title_html}</div>
                 <div>{pills}</div>
+                {summary_html}
                 </div>""",
                 unsafe_allow_html=True,
             )
@@ -759,13 +922,14 @@ def main():
                 continue
             with st.expander(f"{cat['label']} ({len(shows)})", expanded=len(categories) <= 2):
                 for p in shows:
-                    cols = st.columns([0.4, 3, 2])
+                    cols = st.columns([0.4, 3, 1.5, 1.5])
                     cols[0].markdown(
                         f'<div style="width:12px;height:12px;border-radius:50%;background:{cat["color"]};margin-top:6px;"></div>',
                         unsafe_allow_html=True,
                     )
                     cols[1].markdown(f"**{p['name']}**  \n{p.get('publisher', '')}")
-                    cols[2].markdown("Active" if p.get("active", True) else "Inactive")
+                    cols[2].markdown(region_label(p.get("region", "")))
+                    cols[3].markdown("Active" if p.get("active", True) else "Inactive")
         st.info(
             "This view is read-only. To add, remove, or disable a podcast, edit "
             "`config/podcasts.json` in the repository and commit — the next pipeline "
