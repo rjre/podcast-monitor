@@ -901,8 +901,7 @@ def main():
                 <strong>{ep['podcast_name']}</strong>{transcript_note}
                 <span class="sent-badge {cls}" style="float:right;">{word}</span>
                 <div style="font-weight:600; margin:4px 0;">{title_html}</div>
-                <div>{pills}</div>
-                {summary_html}
+                <div>{pills}</div>{summary_html}
                 </div>""",
                 unsafe_allow_html=True,
             )
