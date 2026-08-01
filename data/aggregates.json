@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T06:20:35.862638+00:00",
+  "generated_at": "2026-08-01T08:34:23.575110+00:00",
   "global_avg_sentiment": 0.03,
   "sectors": [
     {
@@ -9,14 +9,14 @@
       "total_hits": 1364,
       "avg_sentiment": 0.073,
       "sentiment_divergence": 0.043,
-      "recent_avg_sentiment": 0.072,
-      "prior_avg_sentiment": 0.05,
-      "sentiment_shift": 0.022,
+      "recent_avg_sentiment": 0.07,
+      "prior_avg_sentiment": 0.052,
+      "sentiment_shift": 0.018,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.142,
-      "recent_30d_mentions": 142,
-      "prior_30d_mentions": 160,
-      "momentum_pct": -11.2,
+      "recent_30d_mentions": 141,
+      "prior_30d_mentions": 161,
+      "momentum_pct": -12.4,
       "trend": "flat",
       "avg_conviction": -0.645,
       "conviction_shift": 0.046,
@@ -53,18 +53,18 @@
     {
       "id": "crypto",
       "label": "Crypto & Digital Assets",
-      "mentions": 295,
-      "total_hits": 1101,
-      "avg_sentiment": -0.046,
-      "sentiment_divergence": -0.076,
-      "recent_avg_sentiment": 0.023,
+      "mentions": 296,
+      "total_hits": 1102,
+      "avg_sentiment": -0.044,
+      "sentiment_divergence": -0.074,
+      "recent_avg_sentiment": 0.028,
       "prior_avg_sentiment": -0.054,
-      "sentiment_shift": 0.077,
+      "sentiment_shift": 0.082,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.058,
-      "recent_30d_mentions": 92,
+      "sentiment_volatility": 0.06,
+      "recent_30d_mentions": 93,
       "prior_30d_mentions": 109,
-      "momentum_pct": -15.6,
+      "momentum_pct": -14.7,
       "trend": "flat",
       "avg_conviction": -0.926,
       "conviction_shift": 0.246,
@@ -73,7 +73,7 @@
       "sell_mentions": 0,
       "contested_episodes": 1,
       "first_seen": "2026-04-28T14:05:00+00:00",
-      "last_seen": "2026-07-31T19:41:00+00:00",
+      "last_seen": "2026-07-31T22:45:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -93,26 +93,26 @@
         },
         {
           "month": "2026-07",
-          "mentions": 99,
-          "avg_sentiment": 0.011
+          "mentions": 100,
+          "avg_sentiment": 0.016
         }
       ]
     },
     {
       "id": "ai-infrastructure",
       "label": "AI Infrastructure",
-      "mentions": 263,
-      "total_hits": 771,
-      "avg_sentiment": 0.128,
-      "sentiment_divergence": 0.098,
-      "recent_avg_sentiment": 0.07,
+      "mentions": 266,
+      "total_hits": 775,
+      "avg_sentiment": 0.135,
+      "sentiment_divergence": 0.105,
+      "recent_avg_sentiment": 0.091,
       "prior_avg_sentiment": 0.124,
-      "sentiment_shift": -0.054,
+      "sentiment_shift": -0.033,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.054,
-      "recent_30d_mentions": 89,
+      "sentiment_volatility": 0.046,
+      "recent_30d_mentions": 92,
       "prior_30d_mentions": 87,
-      "momentum_pct": 2.3,
+      "momentum_pct": 5.7,
       "trend": "flat",
       "avg_conviction": -0.705,
       "conviction_shift": 0.25,
@@ -121,7 +121,7 @@
       "sell_mentions": 0,
       "contested_episodes": 10,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T17:39:59+00:00",
+      "last_seen": "2026-07-31T22:45:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -141,8 +141,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 91,
-          "avg_sentiment": 0.057
+          "mentions": 94,
+          "avg_sentiment": 0.078
         }
       ]
     },
@@ -197,18 +197,18 @@
     {
       "id": "energy",
       "label": "Energy & Oil",
-      "mentions": 199,
-      "total_hits": 392,
-      "avg_sentiment": 0.052,
-      "sentiment_divergence": 0.022,
-      "recent_avg_sentiment": 0.072,
+      "mentions": 200,
+      "total_hits": 393,
+      "avg_sentiment": 0.051,
+      "sentiment_divergence": 0.021,
+      "recent_avg_sentiment": 0.071,
       "prior_avg_sentiment": 0.052,
-      "sentiment_shift": 0.02,
+      "sentiment_shift": 0.019,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.057,
-      "recent_30d_mentions": 72,
+      "sentiment_volatility": 0.059,
+      "recent_30d_mentions": 73,
       "prior_30d_mentions": 49,
-      "momentum_pct": 46.9,
+      "momentum_pct": 49.0,
       "trend": "rising",
       "avg_conviction": -0.604,
       "conviction_shift": -0.388,
@@ -217,7 +217,7 @@
       "sell_mentions": 0,
       "contested_episodes": 4,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T17:39:59+00:00",
+      "last_seen": "2026-08-01T04:00:00+00:00",
       "lifecycle_stage": "growing",
       "monthly": [
         {
@@ -239,24 +239,29 @@
           "month": "2026-07",
           "mentions": 76,
           "avg_sentiment": 0.054
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
     {
       "id": "technology",
       "label": "Technology",
-      "mentions": 185,
-      "total_hits": 250,
-      "avg_sentiment": 0.003,
-      "sentiment_divergence": -0.027,
-      "recent_avg_sentiment": 0.003,
+      "mentions": 186,
+      "total_hits": 251,
+      "avg_sentiment": 0.008,
+      "sentiment_divergence": -0.022,
+      "recent_avg_sentiment": 0.018,
       "prior_avg_sentiment": -0.099,
-      "sentiment_shift": 0.102,
+      "sentiment_shift": 0.117,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.144,
-      "recent_30d_mentions": 66,
+      "sentiment_volatility": 0.142,
+      "recent_30d_mentions": 67,
       "prior_30d_mentions": 62,
-      "momentum_pct": 6.5,
+      "momentum_pct": 8.1,
       "trend": "flat",
       "avg_conviction": -0.772,
       "conviction_shift": -0.176,
@@ -265,7 +270,7 @@
       "sell_mentions": 0,
       "contested_episodes": 3,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T16:59:01+00:00",
+      "last_seen": "2026-07-31T22:45:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -285,26 +290,26 @@
         },
         {
           "month": "2026-07",
-          "mentions": 67,
-          "avg_sentiment": -0.012
+          "mentions": 68,
+          "avg_sentiment": 0.003
         }
       ]
     },
     {
       "id": "private-markets",
       "label": "Private Equity & Credit",
-      "mentions": 142,
-      "total_hits": 445,
-      "avg_sentiment": -0.1,
-      "sentiment_divergence": -0.13,
-      "recent_avg_sentiment": -0.187,
-      "prior_avg_sentiment": -0.05,
-      "sentiment_shift": -0.137,
+      "mentions": 143,
+      "total_hits": 446,
+      "avg_sentiment": -0.095,
+      "sentiment_divergence": -0.125,
+      "recent_avg_sentiment": -0.177,
+      "prior_avg_sentiment": -0.043,
+      "sentiment_shift": -0.134,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.147,
+      "sentiment_volatility": 0.142,
       "recent_30d_mentions": 34,
-      "prior_30d_mentions": 51,
-      "momentum_pct": -33.3,
+      "prior_30d_mentions": 52,
+      "momentum_pct": -34.6,
       "trend": "falling",
       "avg_conviction": -0.354,
       "conviction_shift": 0.895,
@@ -313,7 +318,7 @@
       "sell_mentions": 1,
       "contested_episodes": 4,
       "first_seen": "2026-04-30T08:00:00+00:00",
-      "last_seen": "2026-07-31T17:39:59+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "declining",
       "monthly": [
         {
@@ -333,8 +338,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 36,
-          "avg_sentiment": -0.176
+          "mentions": 37,
+          "avg_sentiment": -0.154
         }
       ]
     },
@@ -437,18 +442,18 @@
     {
       "id": "industrials",
       "label": "Industrials",
-      "mentions": 88,
-      "total_hits": 137,
-      "avg_sentiment": 0.135,
-      "sentiment_divergence": 0.105,
-      "recent_avg_sentiment": 0.042,
+      "mentions": 89,
+      "total_hits": 140,
+      "avg_sentiment": 0.145,
+      "sentiment_divergence": 0.115,
+      "recent_avg_sentiment": 0.076,
       "prior_avg_sentiment": 0.207,
-      "sentiment_shift": -0.165,
+      "sentiment_shift": -0.131,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.064,
-      "recent_30d_mentions": 27,
+      "sentiment_volatility": 0.048,
+      "recent_30d_mentions": 28,
       "prior_30d_mentions": 29,
-      "momentum_pct": -6.9,
+      "momentum_pct": -3.4,
       "trend": "flat",
       "avg_conviction": -0.62,
       "conviction_shift": -0.469,
@@ -457,7 +462,7 @@
       "sell_mentions": 0,
       "contested_episodes": 1,
       "first_seen": "2026-05-02T00:24:38+00:00",
-      "last_seen": "2026-07-29T20:30:00+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -472,26 +477,26 @@
         },
         {
           "month": "2026-07",
-          "mentions": 27,
-          "avg_sentiment": 0.042
+          "mentions": 28,
+          "avg_sentiment": 0.076
         }
       ]
     },
     {
       "id": "insurance",
       "label": "Insurance",
-      "mentions": 80,
-      "total_hits": 366,
-      "avg_sentiment": -0.094,
-      "sentiment_divergence": -0.124,
-      "recent_avg_sentiment": 0.001,
-      "prior_avg_sentiment": -0.287,
-      "sentiment_shift": 0.288,
+      "mentions": 81,
+      "total_hits": 367,
+      "avg_sentiment": -0.093,
+      "sentiment_divergence": -0.123,
+      "recent_avg_sentiment": -0.013,
+      "prior_avg_sentiment": -0.269,
+      "sentiment_shift": 0.256,
       "sentiment_trend": "turning_bullish",
-      "sentiment_volatility": 0.16,
+      "sentiment_volatility": 0.143,
       "recent_30d_mentions": 24,
-      "prior_30d_mentions": 33,
-      "momentum_pct": -27.3,
+      "prior_30d_mentions": 34,
+      "momentum_pct": -29.4,
       "trend": "falling",
       "avg_conviction": -0.651,
       "conviction_shift": 0.365,
@@ -500,7 +505,7 @@
       "sell_mentions": 2,
       "contested_episodes": 0,
       "first_seen": "2026-04-30T19:05:00+00:00",
-      "last_seen": "2026-07-31T09:00:00+00:00",
+      "last_seen": "2026-08-01T06:00:20+00:00",
       "lifecycle_stage": "declining",
       "monthly": [
         {
@@ -522,6 +527,11 @@
           "month": "2026-07",
           "mentions": 25,
           "avg_sentiment": -0.039
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
@@ -922,18 +932,18 @@
     {
       "id": "inflation",
       "label": "Inflation",
-      "mentions": 485,
-      "total_hits": 1424,
+      "mentions": 486,
+      "total_hits": 1425,
       "avg_sentiment": 0.061,
       "sentiment_divergence": 0.031,
-      "recent_avg_sentiment": 0.073,
+      "recent_avg_sentiment": 0.072,
       "prior_avg_sentiment": -0.021,
-      "sentiment_shift": 0.094,
+      "sentiment_shift": 0.093,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.143,
-      "recent_30d_mentions": 154,
+      "recent_30d_mentions": 155,
       "prior_30d_mentions": 151,
-      "momentum_pct": 2.0,
+      "momentum_pct": 2.6,
       "trend": "flat",
       "avg_conviction": -0.566,
       "conviction_shift": -0.387,
@@ -942,7 +952,7 @@
       "sell_mentions": 1,
       "contested_episodes": 11,
       "first_seen": "2026-04-29T10:10:00+00:00",
-      "last_seen": "2026-07-31T19:40:31+00:00",
+      "last_seen": "2026-07-31T20:25:25+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -962,7 +972,7 @@
         },
         {
           "month": "2026-07",
-          "mentions": 161,
+          "mentions": 162,
           "avg_sentiment": 0.057
         }
       ]
@@ -970,8 +980,8 @@
     {
       "id": "rates-fed",
       "label": "Interest Rates & Fed Policy",
-      "mentions": 453,
-      "total_hits": 1204,
+      "mentions": 455,
+      "total_hits": 1206,
       "avg_sentiment": 0.003,
       "sentiment_divergence": -0.027,
       "recent_avg_sentiment": 0.025,
@@ -979,9 +989,9 @@
       "sentiment_shift": 0.071,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.047,
-      "recent_30d_mentions": 152,
+      "recent_30d_mentions": 154,
       "prior_30d_mentions": 157,
-      "momentum_pct": -3.2,
+      "momentum_pct": -1.9,
       "trend": "flat",
       "avg_conviction": -0.585,
       "conviction_shift": -0.05,
@@ -990,7 +1000,7 @@
       "sell_mentions": 0,
       "contested_episodes": 6,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T19:40:31+00:00",
+      "last_seen": "2026-07-31T20:56:02+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1010,35 +1020,35 @@
         },
         {
           "month": "2026-07",
-          "mentions": 160,
-          "avg_sentiment": -0.008
+          "mentions": 162,
+          "avg_sentiment": -0.007
         }
       ]
     },
     {
       "id": "budgeting-saving",
       "label": "Budgeting & Saving",
-      "mentions": 384,
-      "total_hits": 852,
+      "mentions": 385,
+      "total_hits": 853,
       "avg_sentiment": 0.184,
       "sentiment_divergence": 0.154,
-      "recent_avg_sentiment": 0.2,
-      "prior_avg_sentiment": 0.144,
-      "sentiment_shift": 0.056,
+      "recent_avg_sentiment": 0.197,
+      "prior_avg_sentiment": 0.146,
+      "sentiment_shift": 0.051,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.034,
+      "sentiment_volatility": 0.076,
       "recent_30d_mentions": 115,
-      "prior_30d_mentions": 132,
-      "momentum_pct": -12.9,
+      "prior_30d_mentions": 133,
+      "momentum_pct": -13.5,
       "trend": "flat",
       "avg_conviction": -0.695,
-      "conviction_shift": -0.115,
+      "conviction_shift": -0.06,
       "conviction_trend": "stable",
       "buy_mentions": 2,
       "sell_mentions": 0,
       "contested_episodes": 3,
       "first_seen": "2026-04-28T11:27:29+00:00",
-      "last_seen": "2026-07-31T15:00:00+00:00",
+      "last_seen": "2026-08-01T07:00:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1060,6 +1070,11 @@
           "month": "2026-07",
           "mentions": 123,
           "avg_sentiment": 0.204
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
@@ -1114,18 +1129,18 @@
     {
       "id": "retirement-planning",
       "label": "Retirement Planning",
-      "mentions": 240,
-      "total_hits": 1010,
+      "mentions": 241,
+      "total_hits": 1015,
       "avg_sentiment": 0.088,
       "sentiment_divergence": 0.058,
-      "recent_avg_sentiment": 0.086,
+      "recent_avg_sentiment": 0.085,
       "prior_avg_sentiment": 0.057,
-      "sentiment_shift": 0.029,
+      "sentiment_shift": 0.028,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.028,
-      "recent_30d_mentions": 83,
+      "sentiment_volatility": 0.044,
+      "recent_30d_mentions": 84,
       "prior_30d_mentions": 83,
-      "momentum_pct": 0.0,
+      "momentum_pct": 1.2,
       "trend": "flat",
       "avg_conviction": -0.708,
       "conviction_shift": -0.239,
@@ -1134,7 +1149,7 @@
       "sell_mentions": 0,
       "contested_episodes": 4,
       "first_seen": "2026-04-28T15:59:57+00:00",
-      "last_seen": "2026-07-31T09:00:00+00:00",
+      "last_seen": "2026-08-01T06:00:20+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1156,24 +1171,29 @@
           "month": "2026-07",
           "mentions": 87,
           "avg_sentiment": 0.086
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
     {
       "id": "fire-movement",
       "label": "Financial Independence / FIRE",
-      "mentions": 204,
-      "total_hits": 438,
-      "avg_sentiment": 0.181,
-      "sentiment_divergence": 0.151,
-      "recent_avg_sentiment": 0.23,
-      "prior_avg_sentiment": 0.227,
-      "sentiment_shift": 0.003,
+      "mentions": 205,
+      "total_hits": 439,
+      "avg_sentiment": 0.18,
+      "sentiment_divergence": 0.15,
+      "recent_avg_sentiment": 0.225,
+      "prior_avg_sentiment": 0.228,
+      "sentiment_shift": -0.003,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.152,
+      "sentiment_volatility": 0.142,
       "recent_30d_mentions": 70,
-      "prior_30d_mentions": 67,
-      "momentum_pct": 4.5,
+      "prior_30d_mentions": 68,
+      "momentum_pct": 2.9,
       "trend": "flat",
       "avg_conviction": -0.57,
       "conviction_shift": -0.436,
@@ -1182,7 +1202,7 @@
       "sell_mentions": 0,
       "contested_episodes": 3,
       "first_seen": "2026-04-29T01:30:00+00:00",
-      "last_seen": "2026-07-31T11:00:00+00:00",
+      "last_seen": "2026-08-01T07:00:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1204,6 +1224,11 @@
           "month": "2026-07",
           "mentions": 73,
           "avg_sentiment": 0.245
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
@@ -1214,14 +1239,14 @@
       "total_hits": 247,
       "avg_sentiment": -0.061,
       "sentiment_divergence": -0.091,
-      "recent_avg_sentiment": -0.024,
-      "prior_avg_sentiment": -0.192,
-      "sentiment_shift": 0.168,
+      "recent_avg_sentiment": -0.01,
+      "prior_avg_sentiment": -0.208,
+      "sentiment_shift": 0.198,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.113,
-      "recent_30d_mentions": 71,
-      "prior_30d_mentions": 50,
-      "momentum_pct": 42.0,
+      "recent_30d_mentions": 70,
+      "prior_30d_mentions": 51,
+      "momentum_pct": 37.3,
       "trend": "rising",
       "avg_conviction": -0.716,
       "conviction_shift": -0.473,
@@ -1258,18 +1283,18 @@
     {
       "id": "bond-market",
       "label": "Bond Market & Yields",
-      "mentions": 166,
-      "total_hits": 273,
-      "avg_sentiment": -0.033,
-      "sentiment_divergence": -0.063,
-      "recent_avg_sentiment": -0.028,
+      "mentions": 167,
+      "total_hits": 274,
+      "avg_sentiment": -0.032,
+      "sentiment_divergence": -0.062,
+      "recent_avg_sentiment": -0.024,
       "prior_avg_sentiment": -0.107,
-      "sentiment_shift": 0.079,
+      "sentiment_shift": 0.083,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.118,
-      "recent_30d_mentions": 48,
+      "sentiment_volatility": 0.12,
+      "recent_30d_mentions": 49,
       "prior_30d_mentions": 51,
-      "momentum_pct": -5.9,
+      "momentum_pct": -3.9,
       "trend": "flat",
       "avg_conviction": -0.555,
       "conviction_shift": 0.62,
@@ -1278,7 +1303,7 @@
       "sell_mentions": 0,
       "contested_episodes": 5,
       "first_seen": "2026-04-29T19:57:00+00:00",
-      "last_seen": "2026-07-31T09:00:00+00:00",
+      "last_seen": "2026-08-01T00:03:10+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1300,6 +1325,11 @@
           "month": "2026-07",
           "mentions": 51,
           "avg_sentiment": -0.033
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.167
         }
       ]
     },
@@ -1354,18 +1384,18 @@
     {
       "id": "real-estate-investing",
       "label": "Real Estate Investing",
-      "mentions": 153,
-      "total_hits": 416,
-      "avg_sentiment": 0.182,
-      "sentiment_divergence": 0.152,
-      "recent_avg_sentiment": 0.189,
+      "mentions": 154,
+      "total_hits": 417,
+      "avg_sentiment": 0.181,
+      "sentiment_divergence": 0.151,
+      "recent_avg_sentiment": 0.185,
       "prior_avg_sentiment": 0.144,
-      "sentiment_shift": 0.045,
+      "sentiment_shift": 0.041,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.076,
-      "recent_30d_mentions": 43,
+      "recent_30d_mentions": 44,
       "prior_30d_mentions": 53,
-      "momentum_pct": -18.9,
+      "momentum_pct": -17.0,
       "trend": "flat",
       "avg_conviction": -0.662,
       "conviction_shift": 0.026,
@@ -1374,7 +1404,7 @@
       "sell_mentions": 3,
       "contested_episodes": 0,
       "first_seen": "2026-04-29T10:00:00+00:00",
-      "last_seen": "2026-07-31T11:00:00+00:00",
+      "last_seen": "2026-07-31T20:56:02+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1394,26 +1424,26 @@
         },
         {
           "month": "2026-07",
-          "mentions": 46,
-          "avg_sentiment": 0.18
+          "mentions": 47,
+          "avg_sentiment": 0.177
         }
       ]
     },
     {
       "id": "passive-investing",
       "label": "Passive Investing",
-      "mentions": 149,
-      "total_hits": 363,
-      "avg_sentiment": 0.185,
-      "sentiment_divergence": 0.155,
-      "recent_avg_sentiment": 0.171,
+      "mentions": 150,
+      "total_hits": 364,
+      "avg_sentiment": 0.184,
+      "sentiment_divergence": 0.154,
+      "recent_avg_sentiment": 0.168,
       "prior_avg_sentiment": 0.27,
-      "sentiment_shift": -0.099,
+      "sentiment_shift": -0.102,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.046,
-      "recent_30d_mentions": 45,
+      "recent_30d_mentions": 46,
       "prior_30d_mentions": 54,
-      "momentum_pct": -16.7,
+      "momentum_pct": -14.8,
       "trend": "flat",
       "avg_conviction": -0.646,
       "conviction_shift": 0.283,
@@ -1422,7 +1452,7 @@
       "sell_mentions": 1,
       "contested_episodes": 4,
       "first_seen": "2026-04-29T11:00:00+00:00",
-      "last_seen": "2026-07-31T15:04:00+00:00",
+      "last_seen": "2026-07-31T20:56:02+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1442,26 +1472,26 @@
         },
         {
           "month": "2026-07",
-          "mentions": 47,
-          "avg_sentiment": 0.185
+          "mentions": 48,
+          "avg_sentiment": 0.182
         }
       ]
     },
     {
       "id": "geopolitics-tariffs",
       "label": "Geopolitics & Tariffs",
-      "mentions": 142,
-      "total_hits": 308,
-      "avg_sentiment": 0.052,
-      "sentiment_divergence": 0.022,
-      "recent_avg_sentiment": 0.003,
+      "mentions": 144,
+      "total_hits": 316,
+      "avg_sentiment": 0.065,
+      "sentiment_divergence": 0.035,
+      "recent_avg_sentiment": 0.039,
       "prior_avg_sentiment": -0.042,
-      "sentiment_shift": 0.045,
+      "sentiment_shift": 0.081,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.106,
-      "recent_30d_mentions": 53,
+      "sentiment_volatility": 0.373,
+      "recent_30d_mentions": 55,
       "prior_30d_mentions": 40,
-      "momentum_pct": 32.5,
+      "momentum_pct": 37.5,
       "trend": "rising",
       "avg_conviction": -0.31,
       "conviction_shift": -0.279,
@@ -1470,7 +1500,7 @@
       "sell_mentions": 0,
       "contested_episodes": 2,
       "first_seen": "2026-04-28T20:15:00+00:00",
-      "last_seen": "2026-07-31T13:41:00+00:00",
+      "last_seen": "2026-08-01T00:03:10+00:00",
       "lifecycle_stage": "growing",
       "monthly": [
         {
@@ -1490,26 +1520,31 @@
         },
         {
           "month": "2026-07",
-          "mentions": 54,
-          "avg_sentiment": -0.0
+          "mentions": 55,
+          "avg_sentiment": 0.018
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 1.0
         }
       ]
     },
     {
       "id": "diversification",
       "label": "Diversification & Asset Allocation",
-      "mentions": 141,
-      "total_hits": 372,
-      "avg_sentiment": 0.06,
-      "sentiment_divergence": 0.03,
-      "recent_avg_sentiment": -0.029,
+      "mentions": 142,
+      "total_hits": 373,
+      "avg_sentiment": 0.066,
+      "sentiment_divergence": 0.036,
+      "recent_avg_sentiment": -0.005,
       "prior_avg_sentiment": 0.101,
-      "sentiment_shift": -0.13,
+      "sentiment_shift": -0.106,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.049,
-      "recent_30d_mentions": 42,
+      "sentiment_volatility": 0.04,
+      "recent_30d_mentions": 43,
       "prior_30d_mentions": 49,
-      "momentum_pct": -14.3,
+      "momentum_pct": -12.2,
       "trend": "flat",
       "avg_conviction": -0.511,
       "conviction_shift": 0.291,
@@ -1518,7 +1553,7 @@
       "sell_mentions": 0,
       "contested_episodes": 3,
       "first_seen": "2026-04-28T15:59:57+00:00",
-      "last_seen": "2026-07-31T09:00:00+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -1538,26 +1573,26 @@
         },
         {
           "month": "2026-07",
-          "mentions": 44,
-          "avg_sentiment": -0.014
+          "mentions": 45,
+          "avg_sentiment": 0.008
         }
       ]
     },
     {
       "id": "commodities",
       "label": "Commodities",
-      "mentions": 129,
-      "total_hits": 183,
+      "mentions": 130,
+      "total_hits": 184,
       "avg_sentiment": 0.033,
       "sentiment_divergence": 0.003,
-      "recent_avg_sentiment": 0.076,
+      "recent_avg_sentiment": 0.075,
       "prior_avg_sentiment": -0.067,
-      "sentiment_shift": 0.143,
+      "sentiment_shift": 0.142,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.07,
-      "recent_30d_mentions": 48,
+      "sentiment_volatility": 0.067,
+      "recent_30d_mentions": 49,
       "prior_30d_mentions": 32,
-      "momentum_pct": 50.0,
+      "momentum_pct": 53.1,
       "trend": "rising",
       "avg_conviction": -0.654,
       "conviction_shift": -0.872,
@@ -1566,7 +1601,7 @@
       "sell_mentions": 0,
       "contested_episodes": 4,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T17:39:59+00:00",
+      "last_seen": "2026-08-01T04:00:00+00:00",
       "lifecycle_stage": "growing",
       "monthly": [
         {
@@ -1588,6 +1623,11 @@
           "month": "2026-07",
           "mentions": 50,
           "avg_sentiment": 0.033
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
@@ -1791,14 +1831,14 @@
       "avg_sentiment": 0.221,
       "sentiment_divergence": 0.191,
       "recent_avg_sentiment": 0.307,
-      "prior_avg_sentiment": 0.383,
-      "sentiment_shift": -0.076,
+      "prior_avg_sentiment": 0.395,
+      "sentiment_shift": -0.088,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.176,
       "recent_30d_mentions": 27,
-      "prior_30d_mentions": 34,
-      "momentum_pct": -20.6,
-      "trend": "falling",
+      "prior_30d_mentions": 33,
+      "momentum_pct": -18.2,
+      "trend": "flat",
       "avg_conviction": -0.657,
       "conviction_shift": -0.718,
       "conviction_trend": "growing_doubt",
@@ -1807,7 +1847,7 @@
       "contested_episodes": 0,
       "first_seen": "2026-04-29T08:00:00+00:00",
       "last_seen": "2026-07-31T09:00:00+00:00",
-      "lifecycle_stage": "declining",
+      "lifecycle_stage": "steady",
       "monthly": [
         {
           "month": "2026-04",
@@ -1977,14 +2017,14 @@
       "total_hits": 137,
       "avg_sentiment": 0.241,
       "sentiment_divergence": 0.211,
-      "recent_avg_sentiment": 0.277,
-      "prior_avg_sentiment": 0.213,
-      "sentiment_shift": 0.064,
+      "recent_avg_sentiment": 0.275,
+      "prior_avg_sentiment": 0.217,
+      "sentiment_shift": 0.058,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.11,
-      "recent_30d_mentions": 25,
-      "prior_30d_mentions": 29,
-      "momentum_pct": -13.8,
+      "recent_30d_mentions": 24,
+      "prior_30d_mentions": 30,
+      "momentum_pct": -20.0,
       "trend": "flat",
       "avg_conviction": -1.0,
       "conviction_shift": 0.0,
@@ -2062,6 +2102,59 @@
       ]
     },
     {
+      "id": "estate-planning",
+      "label": "Estate Planning",
+      "mentions": 74,
+      "total_hits": 165,
+      "avg_sentiment": 0.04,
+      "sentiment_divergence": 0.01,
+      "recent_avg_sentiment": 0.139,
+      "prior_avg_sentiment": -0.017,
+      "sentiment_shift": 0.156,
+      "sentiment_trend": "stable",
+      "sentiment_volatility": 0.065,
+      "recent_30d_mentions": 21,
+      "prior_30d_mentions": 28,
+      "momentum_pct": -25.0,
+      "trend": "falling",
+      "avg_conviction": -0.578,
+      "conviction_shift": 0.116,
+      "conviction_trend": "stable",
+      "buy_mentions": 0,
+      "sell_mentions": 0,
+      "contested_episodes": 0,
+      "first_seen": "2026-04-30T09:30:00+00:00",
+      "last_seen": "2026-08-01T06:00:20+00:00",
+      "lifecycle_stage": "declining",
+      "monthly": [
+        {
+          "month": "2026-04",
+          "mentions": 1,
+          "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-05",
+          "mentions": 24,
+          "avg_sentiment": 0.021
+        },
+        {
+          "month": "2026-06",
+          "mentions": 27,
+          "avg_sentiment": -0.03
+        },
+        {
+          "month": "2026-07",
+          "mentions": 21,
+          "avg_sentiment": 0.155
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
+        }
+      ]
+    },
+    {
       "id": "tax-planning",
       "label": "Tax Planning",
       "mentions": 73,
@@ -2110,68 +2203,20 @@
       ]
     },
     {
-      "id": "estate-planning",
-      "label": "Estate Planning",
-      "mentions": 73,
-      "total_hits": 161,
-      "avg_sentiment": 0.04,
-      "sentiment_divergence": 0.01,
-      "recent_avg_sentiment": 0.146,
-      "prior_avg_sentiment": -0.017,
-      "sentiment_shift": 0.163,
-      "sentiment_trend": "stable",
-      "sentiment_volatility": 0.071,
-      "recent_30d_mentions": 20,
-      "prior_30d_mentions": 28,
-      "momentum_pct": -28.6,
-      "trend": "falling",
-      "avg_conviction": -0.578,
-      "conviction_shift": 0.116,
-      "conviction_trend": "stable",
-      "buy_mentions": 0,
-      "sell_mentions": 0,
-      "contested_episodes": 0,
-      "first_seen": "2026-04-30T09:30:00+00:00",
-      "last_seen": "2026-07-30T10:00:00+00:00",
-      "lifecycle_stage": "declining",
-      "monthly": [
-        {
-          "month": "2026-04",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-05",
-          "mentions": 24,
-          "avg_sentiment": 0.021
-        },
-        {
-          "month": "2026-06",
-          "mentions": 27,
-          "avg_sentiment": -0.03
-        },
-        {
-          "month": "2026-07",
-          "mentions": 21,
-          "avg_sentiment": 0.155
-        }
-      ]
-    },
-    {
       "id": "insurance-products",
       "label": "Insurance Products",
       "mentions": 68,
       "total_hits": 157,
       "avg_sentiment": 0.218,
       "sentiment_divergence": 0.188,
-      "recent_avg_sentiment": 0.404,
-      "prior_avg_sentiment": 0.002,
-      "sentiment_shift": 0.402,
+      "recent_avg_sentiment": 0.407,
+      "prior_avg_sentiment": 0.019,
+      "sentiment_shift": 0.388,
       "sentiment_trend": "turning_bullish",
       "sentiment_volatility": 0.156,
-      "recent_30d_mentions": 24,
-      "prior_30d_mentions": 18,
-      "momentum_pct": 33.3,
+      "recent_30d_mentions": 23,
+      "prior_30d_mentions": 19,
+      "momentum_pct": 21.1,
       "trend": "rising",
       "avg_conviction": -0.704,
       "conviction_shift": 0.667,
@@ -2202,6 +2247,59 @@
           "month": "2026-07",
           "mentions": 26,
           "avg_sentiment": 0.373
+        }
+      ]
+    },
+    {
+      "id": "hedge-funds",
+      "label": "Hedge Funds",
+      "mentions": 64,
+      "total_hits": 122,
+      "avg_sentiment": -0.01,
+      "sentiment_divergence": -0.04,
+      "recent_avg_sentiment": 0.012,
+      "prior_avg_sentiment": 0.038,
+      "sentiment_shift": -0.026,
+      "sentiment_trend": "stable",
+      "sentiment_volatility": 0.018,
+      "recent_30d_mentions": 24,
+      "prior_30d_mentions": 20,
+      "momentum_pct": 20.0,
+      "trend": "flat",
+      "avg_conviction": -0.843,
+      "conviction_shift": 0.315,
+      "conviction_trend": "growing_confidence",
+      "buy_mentions": 1,
+      "sell_mentions": 0,
+      "contested_episodes": 1,
+      "first_seen": "2026-04-29T15:00:00+00:00",
+      "last_seen": "2026-08-01T04:00:00+00:00",
+      "lifecycle_stage": "steady",
+      "monthly": [
+        {
+          "month": "2026-04",
+          "mentions": 2,
+          "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-05",
+          "mentions": 17,
+          "avg_sentiment": -0.04
+        },
+        {
+          "month": "2026-06",
+          "mentions": 21,
+          "avg_sentiment": -0.011
+        },
+        {
+          "month": "2026-07",
+          "mentions": 23,
+          "avg_sentiment": 0.012
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
@@ -2250,54 +2348,6 @@
           "month": "2026-07",
           "mentions": 25,
           "avg_sentiment": -0.142
-        }
-      ]
-    },
-    {
-      "id": "hedge-funds",
-      "label": "Hedge Funds",
-      "mentions": 61,
-      "total_hits": 116,
-      "avg_sentiment": -0.01,
-      "sentiment_divergence": -0.04,
-      "recent_avg_sentiment": 0.013,
-      "prior_avg_sentiment": 0.038,
-      "sentiment_shift": -0.025,
-      "sentiment_trend": "stable",
-      "sentiment_volatility": 0.02,
-      "recent_30d_mentions": 21,
-      "prior_30d_mentions": 20,
-      "momentum_pct": 5.0,
-      "trend": "flat",
-      "avg_conviction": -0.843,
-      "conviction_shift": 0.315,
-      "conviction_trend": "growing_confidence",
-      "buy_mentions": 1,
-      "sell_mentions": 0,
-      "contested_episodes": 1,
-      "first_seen": "2026-04-29T15:00:00+00:00",
-      "last_seen": "2026-07-31T16:59:01+00:00",
-      "lifecycle_stage": "steady",
-      "monthly": [
-        {
-          "month": "2026-04",
-          "mentions": 2,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-05",
-          "mentions": 17,
-          "avg_sentiment": -0.04
-        },
-        {
-          "month": "2026-06",
-          "mentions": 21,
-          "avg_sentiment": -0.011
-        },
-        {
-          "month": "2026-07",
-          "mentions": 21,
-          "avg_sentiment": 0.013
         }
       ]
     },
@@ -2491,27 +2541,27 @@
     {
       "id": "market-structure",
       "label": "Market Structure & Liquidity",
-      "mentions": 42,
-      "total_hits": 54,
-      "avg_sentiment": -0.081,
-      "sentiment_divergence": -0.111,
-      "recent_avg_sentiment": -0.244,
+      "mentions": 43,
+      "total_hits": 55,
+      "avg_sentiment": -0.064,
+      "sentiment_divergence": -0.094,
+      "recent_avg_sentiment": -0.174,
       "prior_avg_sentiment": 0.015,
-      "sentiment_shift": -0.259,
-      "sentiment_trend": "turning_bearish",
-      "sentiment_volatility": 0.104,
-      "recent_30d_mentions": 12,
+      "sentiment_shift": -0.189,
+      "sentiment_trend": "stable",
+      "sentiment_volatility": 0.074,
+      "recent_30d_mentions": 13,
       "prior_30d_mentions": 12,
-      "momentum_pct": 0.0,
+      "momentum_pct": 8.3,
       "trend": "flat",
-      "avg_conviction": -0.622,
-      "conviction_shift": -0.634,
+      "avg_conviction": -0.717,
+      "conviction_shift": -0.689,
       "conviction_trend": "growing_doubt",
       "buy_mentions": 0,
       "sell_mentions": 0,
       "contested_episodes": 3,
       "first_seen": "2026-04-29T15:00:00+00:00",
-      "last_seen": "2026-07-28T20:08:00+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -2531,8 +2581,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 12,
-          "avg_sentiment": -0.244
+          "mentions": 13,
+          "avg_sentiment": -0.174
         }
       ]
     },
@@ -2625,19 +2675,19 @@
     {
       "id": "credit-markets",
       "label": "Credit Markets",
-      "mentions": 31,
-      "total_hits": 61,
-      "avg_sentiment": -0.088,
-      "sentiment_divergence": -0.118,
-      "recent_avg_sentiment": -0.217,
+      "mentions": 33,
+      "total_hits": 63,
+      "avg_sentiment": -0.092,
+      "sentiment_divergence": -0.122,
+      "recent_avg_sentiment": -0.21,
       "prior_avg_sentiment": -0.07,
-      "sentiment_shift": -0.147,
+      "sentiment_shift": -0.14,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.14,
-      "recent_30d_mentions": 13,
+      "sentiment_volatility": 0.137,
+      "recent_30d_mentions": 15,
       "prior_30d_mentions": 11,
-      "momentum_pct": 18.2,
-      "trend": "flat",
+      "momentum_pct": 36.4,
+      "trend": "rising",
       "avg_conviction": 0.322,
       "conviction_shift": 1.695,
       "conviction_trend": "growing_confidence",
@@ -2645,8 +2695,8 @@
       "sell_mentions": 0,
       "contested_episodes": 0,
       "first_seen": "2026-05-01T08:30:00+00:00",
-      "last_seen": "2026-07-30T22:02:00+00:00",
-      "lifecycle_stage": "steady",
+      "last_seen": "2026-07-31T22:16:00+00:00",
+      "lifecycle_stage": "growing",
       "monthly": [
         {
           "month": "2026-05",
@@ -2660,8 +2710,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 13,
-          "avg_sentiment": -0.217
+          "mentions": 15,
+          "avg_sentiment": -0.21
         }
       ]
     },
@@ -2807,18 +2857,18 @@
     {
       "id": "esg-climate",
       "label": "ESG & Climate",
-      "mentions": 18,
-      "total_hits": 36,
-      "avg_sentiment": -0.025,
-      "sentiment_divergence": -0.055,
-      "recent_avg_sentiment": -0.137,
+      "mentions": 19,
+      "total_hits": 37,
+      "avg_sentiment": 0.029,
+      "sentiment_divergence": -0.001,
+      "recent_avg_sentiment": 0.005,
       "prior_avg_sentiment": 0.1,
-      "sentiment_shift": -0.237,
+      "sentiment_shift": -0.095,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.097,
-      "recent_30d_mentions": 7,
+      "sentiment_volatility": 0.046,
+      "recent_30d_mentions": 8,
       "prior_30d_mentions": 5,
-      "momentum_pct": 40.0,
+      "momentum_pct": 60.0,
       "trend": "rising",
       "avg_conviction": -0.666,
       "conviction_shift": 0.667,
@@ -2827,7 +2877,7 @@
       "sell_mentions": 0,
       "contested_episodes": 0,
       "first_seen": "2026-05-01T00:03:27+00:00",
-      "last_seen": "2026-07-30T08:01:00+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "growing",
       "monthly": [
         {
@@ -2842,8 +2892,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 7,
-          "avg_sentiment": -0.137
+          "mentions": 8,
+          "avg_sentiment": 0.005
         }
       ]
     },
@@ -2891,6 +2941,49 @@
       ]
     },
     {
+      "id": "crypto-regulation",
+      "label": "Crypto Regulation",
+      "mentions": 11,
+      "total_hits": 12,
+      "avg_sentiment": 0.198,
+      "sentiment_divergence": 0.168,
+      "recent_avg_sentiment": 0.4,
+      "prior_avg_sentiment": 0.0,
+      "sentiment_shift": 0.4,
+      "sentiment_trend": "turning_bullish",
+      "sentiment_volatility": 0.18,
+      "recent_30d_mentions": 5,
+      "prior_30d_mentions": 1,
+      "momentum_pct": 400.0,
+      "trend": "rising",
+      "avg_conviction": null,
+      "conviction_shift": null,
+      "conviction_trend": "insufficient-data",
+      "buy_mentions": 0,
+      "sell_mentions": 0,
+      "contested_episodes": 0,
+      "first_seen": "2026-05-01T13:28:00+00:00",
+      "last_seen": "2026-07-31T21:00:00+00:00",
+      "lifecycle_stage": "growing",
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 5,
+          "avg_sentiment": 0.037
+        },
+        {
+          "month": "2026-06",
+          "mentions": 1,
+          "avg_sentiment": 0.0
+        },
+        {
+          "month": "2026-07",
+          "mentions": 5,
+          "avg_sentiment": 0.4
+        }
+      ]
+    },
+    {
       "id": "currency-dollar",
       "label": "Currency & Dollar",
       "mentions": 11,
@@ -2934,63 +3027,20 @@
       ]
     },
     {
-      "id": "crypto-regulation",
-      "label": "Crypto Regulation",
-      "mentions": 10,
-      "total_hits": 11,
-      "avg_sentiment": 0.218,
-      "sentiment_divergence": 0.188,
-      "recent_avg_sentiment": 0.5,
-      "prior_avg_sentiment": 0.0,
-      "sentiment_shift": 0.5,
-      "sentiment_trend": "turning_bullish",
-      "sentiment_volatility": 0.227,
-      "recent_30d_mentions": 4,
-      "prior_30d_mentions": 1,
-      "momentum_pct": 300.0,
-      "trend": "rising",
-      "avg_conviction": null,
-      "conviction_shift": null,
-      "conviction_trend": "insufficient-data",
-      "buy_mentions": 0,
-      "sell_mentions": 0,
-      "contested_episodes": 0,
-      "first_seen": "2026-05-01T13:28:00+00:00",
-      "last_seen": "2026-07-21T13:55:00+00:00",
-      "lifecycle_stage": "growing",
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 5,
-          "avg_sentiment": 0.037
-        },
-        {
-          "month": "2026-06",
-          "mentions": 1,
-          "avg_sentiment": 0.0
-        },
-        {
-          "month": "2026-07",
-          "mentions": 4,
-          "avg_sentiment": 0.5
-        }
-      ]
-    },
-    {
       "id": "china",
       "label": "China Economy",
       "mentions": 9,
       "total_hits": 9,
       "avg_sentiment": 0.129,
       "sentiment_divergence": 0.099,
-      "recent_avg_sentiment": 0.073,
-      "prior_avg_sentiment": 0.4,
-      "sentiment_shift": -0.327,
-      "sentiment_trend": "turning_bearish",
+      "recent_avg_sentiment": 0.133,
+      "prior_avg_sentiment": 0.211,
+      "sentiment_shift": -0.078,
+      "sentiment_trend": "stable",
       "sentiment_volatility": 0.174,
-      "recent_30d_mentions": 5,
-      "prior_30d_mentions": 2,
-      "momentum_pct": 150.0,
+      "recent_30d_mentions": 4,
+      "prior_30d_mentions": 3,
+      "momentum_pct": 33.3,
       "trend": "rising",
       "avg_conviction": null,
       "conviction_shift": null,
@@ -3067,18 +3117,18 @@
     {
       "id": "meta",
       "label": "Meta",
-      "mentions": 369,
-      "total_hits": 540,
+      "mentions": 370,
+      "total_hits": 541,
       "avg_sentiment": 0.07,
       "sentiment_divergence": 0.04,
-      "recent_avg_sentiment": 0.08,
+      "recent_avg_sentiment": 0.079,
       "prior_avg_sentiment": 0.071,
-      "sentiment_shift": 0.009,
+      "sentiment_shift": 0.008,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.015,
-      "recent_30d_mentions": 124,
+      "recent_30d_mentions": 125,
       "prior_30d_mentions": 122,
-      "momentum_pct": 1.6,
+      "momentum_pct": 2.5,
       "trend": "flat",
       "avg_conviction": -0.686,
       "conviction_shift": 0.033,
@@ -3087,7 +3137,7 @@
       "sell_mentions": 0,
       "contested_episodes": 0,
       "first_seen": "2026-04-29T08:00:00+00:00",
-      "last_seen": "2026-07-31T15:00:00+00:00",
+      "last_seen": "2026-07-31T21:00:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -3107,7 +3157,7 @@
         },
         {
           "month": "2026-07",
-          "mentions": 133,
+          "mentions": 134,
           "avg_sentiment": 0.078
         }
       ]
@@ -3115,18 +3165,18 @@
     {
       "id": "amazon",
       "label": "Amazon",
-      "mentions": 317,
-      "total_hits": 578,
-      "avg_sentiment": 0.118,
-      "sentiment_divergence": 0.088,
-      "recent_avg_sentiment": 0.1,
-      "prior_avg_sentiment": 0.066,
-      "sentiment_shift": 0.034,
+      "mentions": 318,
+      "total_hits": 579,
+      "avg_sentiment": 0.117,
+      "sentiment_divergence": 0.087,
+      "recent_avg_sentiment": 0.097,
+      "prior_avg_sentiment": 0.068,
+      "sentiment_shift": 0.029,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.053,
+      "sentiment_volatility": 0.073,
       "recent_30d_mentions": 108,
-      "prior_30d_mentions": 112,
-      "momentum_pct": -3.6,
+      "prior_30d_mentions": 113,
+      "momentum_pct": -4.4,
       "trend": "flat",
       "avg_conviction": -0.689,
       "conviction_shift": -0.415,
@@ -3135,7 +3185,7 @@
       "sell_mentions": 1,
       "contested_episodes": 3,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T17:21:26+00:00",
+      "last_seen": "2026-08-01T01:39:18+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -3157,24 +3207,29 @@
           "month": "2026-07",
           "mentions": 112,
           "avg_sentiment": 0.093
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
     {
       "id": "alphabet",
       "label": "Alphabet / Google",
-      "mentions": 262,
-      "total_hits": 554,
+      "mentions": 263,
+      "total_hits": 555,
       "avg_sentiment": 0.03,
       "sentiment_divergence": 0.0,
-      "recent_avg_sentiment": -0.021,
+      "recent_avg_sentiment": -0.02,
       "prior_avg_sentiment": -0.023,
-      "sentiment_shift": 0.002,
+      "sentiment_shift": 0.003,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.129,
-      "recent_30d_mentions": 94,
+      "sentiment_volatility": 0.122,
+      "recent_30d_mentions": 95,
       "prior_30d_mentions": 103,
-      "momentum_pct": -8.7,
+      "momentum_pct": -7.8,
       "trend": "flat",
       "avg_conviction": -0.728,
       "conviction_shift": -0.199,
@@ -3183,7 +3238,7 @@
       "sell_mentions": 0,
       "contested_episodes": 4,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T08:30:00+00:00",
+      "last_seen": "2026-08-01T01:39:18+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -3205,14 +3260,19 @@
           "month": "2026-07",
           "mentions": 96,
           "avg_sentiment": -0.02
+        },
+        {
+          "month": "2026-08",
+          "mentions": 1,
+          "avg_sentiment": 0.0
         }
       ]
     },
     {
       "id": "bitcoin",
       "label": "Bitcoin",
-      "mentions": 254,
-      "total_hits": 864,
+      "mentions": 255,
+      "total_hits": 865,
       "avg_sentiment": -0.012,
       "sentiment_divergence": -0.042,
       "recent_avg_sentiment": 0.016,
@@ -3220,9 +3280,9 @@
       "sentiment_shift": 0.025,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.045,
-      "recent_30d_mentions": 72,
+      "recent_30d_mentions": 73,
       "prior_30d_mentions": 108,
-      "momentum_pct": -33.3,
+      "momentum_pct": -32.4,
       "trend": "falling",
       "avg_conviction": -0.585,
       "conviction_shift": 0.122,
@@ -3231,7 +3291,7 @@
       "sell_mentions": 0,
       "contested_episodes": 2,
       "first_seen": "2026-04-28T14:05:00+00:00",
-      "last_seen": "2026-07-31T16:26:00+00:00",
+      "last_seen": "2026-07-31T21:00:00+00:00",
       "lifecycle_stage": "declining",
       "monthly": [
         {
@@ -3251,7 +3311,7 @@
         },
         {
           "month": "2026-07",
-          "mentions": 75,
+          "mentions": 76,
           "avg_sentiment": -0.003
         }
       ]
@@ -3355,18 +3415,18 @@
     {
       "id": "tesla",
       "label": "Tesla",
-      "mentions": 141,
-      "total_hits": 277,
-      "avg_sentiment": 0.029,
-      "sentiment_divergence": -0.001,
-      "recent_avg_sentiment": -0.034,
+      "mentions": 142,
+      "total_hits": 281,
+      "avg_sentiment": 0.03,
+      "sentiment_divergence": 0.0,
+      "recent_avg_sentiment": -0.03,
       "prior_avg_sentiment": 0.004,
-      "sentiment_shift": -0.038,
+      "sentiment_shift": -0.034,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.083,
-      "recent_30d_mentions": 56,
+      "sentiment_volatility": 0.082,
+      "recent_30d_mentions": 57,
       "prior_30d_mentions": 52,
-      "momentum_pct": 7.7,
+      "momentum_pct": 9.6,
       "trend": "flat",
       "avg_conviction": -0.674,
       "conviction_shift": -0.212,
@@ -3375,7 +3435,7 @@
       "sell_mentions": 0,
       "contested_episodes": 4,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T10:37:11+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -3395,8 +3455,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 56,
-          "avg_sentiment": -0.034
+          "mentions": 57,
+          "avg_sentiment": -0.03
         }
       ]
     },
@@ -3451,19 +3511,19 @@
     {
       "id": "microsoft",
       "label": "Microsoft",
-      "mentions": 134,
-      "total_hits": 275,
-      "avg_sentiment": -0.012,
-      "sentiment_divergence": -0.042,
-      "recent_avg_sentiment": 0.002,
+      "mentions": 137,
+      "total_hits": 282,
+      "avg_sentiment": -0.006,
+      "sentiment_divergence": -0.036,
+      "recent_avg_sentiment": 0.019,
       "prior_avg_sentiment": -0.087,
-      "sentiment_shift": 0.089,
+      "sentiment_shift": 0.106,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.122,
-      "recent_30d_mentions": 45,
+      "recent_30d_mentions": 48,
       "prior_30d_mentions": 39,
-      "momentum_pct": 15.4,
-      "trend": "flat",
+      "momentum_pct": 23.1,
+      "trend": "rising",
       "avg_conviction": -0.646,
       "conviction_shift": -0.326,
       "conviction_trend": "growing_doubt",
@@ -3471,8 +3531,8 @@
       "sell_mentions": 0,
       "contested_episodes": 3,
       "first_seen": "2026-04-28T15:12:54+00:00",
-      "last_seen": "2026-07-31T09:00:00+00:00",
-      "lifecycle_stage": "steady",
+      "last_seen": "2026-07-31T22:45:00+00:00",
+      "lifecycle_stage": "growing",
       "monthly": [
         {
           "month": "2026-04",
@@ -3491,27 +3551,27 @@
         },
         {
           "month": "2026-07",
-          "mentions": 47,
-          "avg_sentiment": 0.023
+          "mentions": 50,
+          "avg_sentiment": 0.038
         }
       ]
     },
     {
       "id": "morgan-stanley",
       "label": "Morgan Stanley",
-      "mentions": 117,
-      "total_hits": 260,
-      "avg_sentiment": 0.142,
-      "sentiment_divergence": 0.112,
-      "recent_avg_sentiment": 0.103,
+      "mentions": 118,
+      "total_hits": 268,
+      "avg_sentiment": 0.15,
+      "sentiment_divergence": 0.12,
+      "recent_avg_sentiment": 0.123,
       "prior_avg_sentiment": 0.147,
-      "sentiment_shift": -0.044,
+      "sentiment_shift": -0.024,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.048,
-      "recent_30d_mentions": 42,
+      "sentiment_volatility": 0.04,
+      "recent_30d_mentions": 43,
       "prior_30d_mentions": 35,
-      "momentum_pct": 20.0,
-      "trend": "flat",
+      "momentum_pct": 22.9,
+      "trend": "rising",
       "avg_conviction": -0.002,
       "conviction_shift": -0.333,
       "conviction_trend": "growing_doubt",
@@ -3519,8 +3579,8 @@
       "sell_mentions": 0,
       "contested_episodes": 1,
       "first_seen": "2026-04-28T20:00:00+00:00",
-      "last_seen": "2026-07-31T16:59:01+00:00",
-      "lifecycle_stage": "steady",
+      "last_seen": "2026-07-31T20:30:00+00:00",
+      "lifecycle_stage": "growing",
       "monthly": [
         {
           "month": "2026-04",
@@ -3539,8 +3599,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 43,
-          "avg_sentiment": 0.088
+          "mentions": 44,
+          "avg_sentiment": 0.109
         }
       ]
     },
@@ -3590,18 +3650,18 @@
     {
       "id": "jpmorgan",
       "label": "JPMorgan",
-      "mentions": 84,
-      "total_hits": 134,
-      "avg_sentiment": -0.009,
-      "sentiment_divergence": -0.039,
-      "recent_avg_sentiment": -0.034,
+      "mentions": 85,
+      "total_hits": 136,
+      "avg_sentiment": -0.007,
+      "sentiment_divergence": -0.037,
+      "recent_avg_sentiment": -0.026,
       "prior_avg_sentiment": -0.056,
-      "sentiment_shift": 0.022,
+      "sentiment_shift": 0.03,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.439,
-      "recent_30d_mentions": 27,
+      "sentiment_volatility": 0.44,
+      "recent_30d_mentions": 28,
       "prior_30d_mentions": 30,
-      "momentum_pct": -10.0,
+      "momentum_pct": -6.7,
       "trend": "flat",
       "avg_conviction": -1.0,
       "conviction_shift": 0.0,
@@ -3610,7 +3670,7 @@
       "sell_mentions": 0,
       "contested_episodes": 0,
       "first_seen": "2026-04-29T13:40:00+00:00",
-      "last_seen": "2026-07-31T19:41:00+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
       "lifecycle_stage": "steady",
       "monthly": [
         {
@@ -3630,8 +3690,8 @@
         },
         {
           "month": "2026-07",
-          "mentions": 28,
-          "avg_sentiment": -0.032
+          "mentions": 29,
+          "avg_sentiment": -0.026
         }
       ]
     },
@@ -4351,6 +4411,49 @@
       ]
     },
     {
+      "id": "costco",
+      "label": "Costco",
+      "mentions": 27,
+      "total_hits": 57,
+      "avg_sentiment": 0.138,
+      "sentiment_divergence": 0.108,
+      "recent_avg_sentiment": 0.041,
+      "prior_avg_sentiment": 0.023,
+      "sentiment_shift": 0.018,
+      "sentiment_trend": "stable",
+      "sentiment_volatility": 0.138,
+      "recent_30d_mentions": 8,
+      "prior_30d_mentions": 8,
+      "momentum_pct": 0.0,
+      "trend": "flat",
+      "avg_conviction": -0.706,
+      "conviction_shift": -0.448,
+      "conviction_trend": "growing_doubt",
+      "buy_mentions": 0,
+      "sell_mentions": 1,
+      "contested_episodes": 0,
+      "first_seen": "2026-05-06T09:00:00+00:00",
+      "last_seen": "2026-07-31T20:30:00+00:00",
+      "lifecycle_stage": "steady",
+      "monthly": [
+        {
+          "month": "2026-05",
+          "mentions": 10,
+          "avg_sentiment": 0.321
+        },
+        {
+          "month": "2026-06",
+          "mentions": 8,
+          "avg_sentiment": 0.023
+        },
+        {
+          "month": "2026-07",
+          "mentions": 9,
+          "avg_sentiment": 0.036
+        }
+      ]
+    },
+    {
       "id": "bank-of-america",
       "label": "Bank of America",
       "mentions": 27,
@@ -4481,49 +4584,6 @@
           "month": "2026-07",
           "mentions": 7,
           "avg_sentiment": 0.376
-        }
-      ]
-    },
-    {
-      "id": "costco",
-      "label": "Costco",
-      "mentions": 26,
-      "total_hits": 56,
-      "avg_sentiment": 0.137,
-      "sentiment_divergence": 0.107,
-      "recent_avg_sentiment": 0.023,
-      "prior_avg_sentiment": 0.023,
-      "sentiment_shift": 0.0,
-      "sentiment_trend": "stable",
-      "sentiment_volatility": 0.141,
-      "recent_30d_mentions": 7,
-      "prior_30d_mentions": 8,
-      "momentum_pct": -12.5,
-      "trend": "flat",
-      "avg_conviction": -0.706,
-      "conviction_shift": -0.448,
-      "conviction_trend": "growing_doubt",
-      "buy_mentions": 0,
-      "sell_mentions": 1,
-      "contested_episodes": 0,
-      "first_seen": "2026-05-06T09:00:00+00:00",
-      "last_seen": "2026-07-15T00:14:47+00:00",
-      "lifecycle_stage": "steady",
-      "monthly": [
-        {
-          "month": "2026-05",
-          "mentions": 10,
-          "avg_sentiment": 0.321
-        },
-        {
-          "month": "2026-06",
-          "mentions": 8,
-          "avg_sentiment": 0.023
-        },
-        {
-          "month": "2026-07",
-          "mentions": 8,
-          "avg_sentiment": 0.02
         }
       ]
     },
@@ -5326,10 +5386,70 @@
     }
   ],
   "podcast_baselines": {
-    "unchained": {
-      "avg_sentiment": -0.031,
+    "optimal-finance-daily": {
+      "avg_sentiment": 0.04,
+      "avg_conviction": 1.0,
+      "episode_count": 75
+    },
+    "the-retirement-and-ira-show": {
+      "avg_sentiment": 0.026,
+      "avg_conviction": -0.437,
+      "episode_count": 26
+    },
+    "slate-money": {
+      "avg_sentiment": -0.073,
+      "avg_conviction": -0.8,
+      "episode_count": 16
+    },
+    "stock-market-today-with-ibd": {
+      "avg_sentiment": 0.056,
+      "avg_conviction": -0.659,
+      "episode_count": 36
+    },
+    "investtalk": {
+      "avg_sentiment": 0.03,
       "avg_conviction": -1.0,
-      "episode_count": 93
+      "episode_count": 67
+    },
+    "unchained": {
+      "avg_sentiment": -0.026,
+      "avg_conviction": -1.0,
+      "episode_count": 94
+    },
+    "the-wall-street-skinny": {
+      "avg_sentiment": -0.04,
+      "avg_conviction": -1.0,
+      "episode_count": 16
+    },
+    "masters-in-business": {
+      "avg_sentiment": 0.12,
+      "avg_conviction": -0.933,
+      "episode_count": 20
+    },
+    "planet-money": {
+      "avg_sentiment": 0.012,
+      "avg_conviction": -1.0,
+      "episode_count": 28
+    },
+    "so-money-with-farnoosh-torabi": {
+      "avg_sentiment": -0.008,
+      "avg_conviction": -0.667,
+      "episode_count": 22
+    },
+    "motley-fool-hidden-gems": {
+      "avg_sentiment": 0.143,
+      "avg_conviction": -0.74,
+      "episode_count": 88
+    },
+    "thoughts-on-the-market": {
+      "avg_sentiment": 0.123,
+      "avg_conviction": -0.373,
+      "episode_count": 68
+    },
+    "bloomberg-surveillance": {
+      "avg_sentiment": 0.018,
+      "avg_conviction": -1.0,
+      "episode_count": 121
     },
     "moody-s-talks-inside-economics": {
       "avg_sentiment": 0.011,
@@ -5380,11 +5500,6 @@
       "avg_sentiment": 0.182,
       "avg_conviction": -0.5,
       "episode_count": 32
-    },
-    "bloomberg-surveillance": {
-      "avg_sentiment": 0.018,
-      "avg_conviction": -1.0,
-      "episode_count": 120
     },
     "the-dividend-cafe": {
       "avg_sentiment": 0.07,
@@ -5476,35 +5591,10 @@
       "avg_conviction": -0.924,
       "episode_count": 15
     },
-    "investtalk": {
-      "avg_sentiment": 0.027,
-      "avg_conviction": -1.0,
-      "episode_count": 66
-    },
-    "the-wall-street-skinny": {
-      "avg_sentiment": -0.031,
-      "avg_conviction": -1.0,
-      "episode_count": 15
-    },
-    "stock-market-today-with-ibd": {
-      "avg_sentiment": 0.058,
-      "avg_conviction": -0.659,
-      "episode_count": 35
-    },
     "brew-markets": {
       "avg_sentiment": 0.013,
       "avg_conviction": -0.5,
       "episode_count": 63
-    },
-    "motley-fool-hidden-gems": {
-      "avg_sentiment": 0.143,
-      "avg_conviction": -0.74,
-      "episode_count": 87
-    },
-    "thoughts-on-the-market": {
-      "avg_sentiment": 0.115,
-      "avg_conviction": -0.367,
-      "episode_count": 67
     },
     "unhedged": {
       "avg_sentiment": 0.027,
@@ -5556,11 +5646,6 @@
       "avg_conviction": null,
       "episode_count": 13
     },
-    "optimal-finance-daily": {
-      "avg_sentiment": 0.04,
-      "avg_conviction": 1.0,
-      "episode_count": 74
-    },
     "the-acquirers-podcast": {
       "avg_sentiment": -0.041,
       "avg_conviction": -0.434,
@@ -5580,11 +5665,6 @@
       "avg_sentiment": 0.024,
       "avg_conviction": -1.0,
       "episode_count": 14
-    },
-    "masters-in-business": {
-      "avg_sentiment": 0.126,
-      "avg_conviction": -0.933,
-      "episode_count": 19
     },
     "equity-mates-investing-podcast": {
       "avg_sentiment": 0.048,
@@ -5616,11 +5696,6 @@
       "avg_conviction": -1.0,
       "episode_count": 13
     },
-    "so-money-with-farnoosh-torabi": {
-      "avg_sentiment": -0.008,
-      "avg_conviction": -0.667,
-      "episode_count": 21
-    },
     "journey-to-launch": {
       "avg_sentiment": 0.798,
       "avg_conviction": -0.894,
@@ -5635,16 +5710,6 @@
       "avg_sentiment": 0.006,
       "avg_conviction": -0.361,
       "episode_count": 14
-    },
-    "planet-money": {
-      "avg_sentiment": 0.012,
-      "avg_conviction": -1.0,
-      "episode_count": 27
-    },
-    "the-retirement-and-ira-show": {
-      "avg_sentiment": 0.027,
-      "avg_conviction": -0.437,
-      "episode_count": 25
     },
     "money-to-the-masses": {
       "avg_sentiment": -0.016,
@@ -5731,11 +5796,6 @@
       "avg_conviction": null,
       "episode_count": 13
     },
-    "slate-money": {
-      "avg_sentiment": -0.078,
-      "avg_conviction": -0.8,
-      "episode_count": 15
-    },
     "retirement-power-play": {
       "avg_sentiment": 0.15,
       "avg_conviction": -1.0,
@@ -5798,10 +5858,385 @@
     }
   },
   "podcast_summaries": {
+    "optimal-finance-daily": {
+      "podcast_name": "Optimal Finance Daily",
+      "episode_count": 75,
+      "avg_sentiment": 0.04,
+      "top_themes": [
+        {
+          "id": "budgeting-saving",
+          "label": "Budgeting & Saving",
+          "count": 26
+        },
+        {
+          "id": "fire-movement",
+          "label": "Financial Independence / FIRE",
+          "count": 20
+        },
+        {
+          "id": "retirement-planning",
+          "label": "Retirement Planning",
+          "count": 11
+        },
+        {
+          "id": "debt-payoff",
+          "label": "Debt Payoff",
+          "count": 10
+        },
+        {
+          "id": "passive-investing",
+          "label": "Passive Investing",
+          "count": 7
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 8
+        },
+        {
+          "id": "healthcare",
+          "label": "Healthcare & Pharma",
+          "count": 3
+        },
+        {
+          "id": "consumer-discretionary",
+          "label": "Consumer Discretionary",
+          "count": 2
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 10
+        },
+        {
+          "id": "sp500",
+          "label": "S&P 500",
+          "count": 7
+        },
+        {
+          "id": "vanguard",
+          "label": "Vanguard",
+          "count": 4
+        },
+        {
+          "id": "fidelity",
+          "label": "Fidelity",
+          "count": 2
+        },
+        {
+          "id": "meta",
+          "label": "Meta",
+          "count": 1
+        }
+      ],
+      "summary_text": "75 episodes tagged. Most discussed: Budgeting & Saving, Financial Independence / FIRE, Retirement Planning (sectors: Real Estate, Healthcare & Pharma). Overall tone reads roughly neutral (+0.04)."
+    },
+    "the-retirement-and-ira-show": {
+      "podcast_name": "The Retirement and IRA Show",
+      "episode_count": 26,
+      "avg_sentiment": 0.026,
+      "top_themes": [
+        {
+          "id": "retirement-planning",
+          "label": "Retirement Planning",
+          "count": 23
+        },
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 4
+        },
+        {
+          "id": "estate-planning",
+          "label": "Estate Planning",
+          "count": 3
+        },
+        {
+          "id": "diversification",
+          "label": "Diversification & Asset Allocation",
+          "count": 3
+        },
+        {
+          "id": "tax-planning",
+          "label": "Tax Planning",
+          "count": 3
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "insurance",
+          "label": "Insurance",
+          "count": 7
+        },
+        {
+          "id": "healthcare",
+          "label": "Healthcare & Pharma",
+          "count": 4
+        },
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 4
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "fidelity",
+          "label": "Fidelity",
+          "count": 2
+        },
+        {
+          "id": "vanguard",
+          "label": "Vanguard",
+          "count": 1
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 1
+        }
+      ],
+      "summary_text": "26 episodes tagged. Most discussed: Retirement Planning, Inflation, Estate Planning (sectors: Insurance, Healthcare & Pharma). Overall tone reads roughly neutral (+0.03)."
+    },
+    "slate-money": {
+      "podcast_name": "Slate Money",
+      "episode_count": 16,
+      "avg_sentiment": -0.073,
+      "top_themes": [
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 4
+        },
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 3
+        },
+        {
+          "id": "commodities",
+          "label": "Commodities",
+          "count": 2
+        },
+        {
+          "id": "geopolitics-tariffs",
+          "label": "Geopolitics & Tariffs",
+          "count": 2
+        },
+        {
+          "id": "regulation-antitrust",
+          "label": "Regulation & Antitrust",
+          "count": 2
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "energy",
+          "label": "Energy & Oil",
+          "count": 3
+        },
+        {
+          "id": "crypto",
+          "label": "Crypto & Digital Assets",
+          "count": 3
+        },
+        {
+          "id": "ai-infrastructure",
+          "label": "AI Infrastructure",
+          "count": 2
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "bitcoin",
+          "label": "Bitcoin",
+          "count": 3
+        },
+        {
+          "id": "jpmorgan",
+          "label": "JPMorgan",
+          "count": 2
+        },
+        {
+          "id": "tesla",
+          "label": "Tesla",
+          "count": 2
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 2
+        },
+        {
+          "id": "nvidia",
+          "label": "Nvidia",
+          "count": 1
+        }
+      ],
+      "summary_text": "16 episodes tagged. Most discussed: Interest Rates & Fed Policy, Inflation, Commodities (sectors: Energy & Oil, Crypto & Digital Assets). Overall tone reads roughly neutral (-0.07)."
+    },
+    "stock-market-today-with-ibd": {
+      "podcast_name": "Stock Market Today With IBD",
+      "episode_count": 36,
+      "avg_sentiment": 0.056,
+      "top_themes": [
+        {
+          "id": "small-caps-value-growth",
+          "label": "Small-Caps, Value & Growth",
+          "count": 5
+        },
+        {
+          "id": "bond-market",
+          "label": "Bond Market & Yields",
+          "count": 3
+        },
+        {
+          "id": "dealmaking",
+          "label": "IPOs & Dealmaking",
+          "count": 2
+        },
+        {
+          "id": "earnings",
+          "label": "Corporate Earnings",
+          "count": 2
+        },
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 2
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "semiconductors",
+          "label": "Semiconductors",
+          "count": 9
+        },
+        {
+          "id": "energy",
+          "label": "Energy & Oil",
+          "count": 3
+        },
+        {
+          "id": "ai-infrastructure",
+          "label": "AI Infrastructure",
+          "count": 2
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "nasdaq",
+          "label": "Nasdaq",
+          "count": 21
+        },
+        {
+          "id": "sp500",
+          "label": "S&P 500",
+          "count": 6
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 5
+        },
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 3
+        },
+        {
+          "id": "fidelity",
+          "label": "Fidelity",
+          "count": 3
+        }
+      ],
+      "summary_text": "36 episodes tagged. Most discussed: Small-Caps, Value & Growth, Bond Market & Yields, IPOs & Dealmaking (sectors: Semiconductors, Energy & Oil). Overall tone reads roughly neutral (+0.06)."
+    },
+    "investtalk": {
+      "podcast_name": "InvestTalk",
+      "episode_count": 67,
+      "avg_sentiment": 0.03,
+      "top_themes": [
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 18
+        },
+        {
+          "id": "bond-market",
+          "label": "Bond Market & Yields",
+          "count": 15
+        },
+        {
+          "id": "passive-investing",
+          "label": "Passive Investing",
+          "count": 13
+        },
+        {
+          "id": "dividends-buybacks",
+          "label": "Dividends & Buybacks",
+          "count": 13
+        },
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 12
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 9
+        },
+        {
+          "id": "energy",
+          "label": "Energy & Oil",
+          "count": 9
+        },
+        {
+          "id": "technology",
+          "label": "Technology",
+          "count": 6
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "vanguard",
+          "label": "Vanguard",
+          "count": 17
+        },
+        {
+          "id": "charles-schwab",
+          "label": "Charles Schwab",
+          "count": 5
+        },
+        {
+          "id": "bitcoin",
+          "label": "Bitcoin",
+          "count": 4
+        },
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 3
+        },
+        {
+          "id": "nvidia",
+          "label": "Nvidia",
+          "count": 3
+        }
+      ],
+      "summary_text": "67 episodes tagged. Most discussed: Inflation, Bond Market & Yields, Passive Investing (sectors: Real Estate, Energy & Oil). Overall tone reads roughly neutral (+0.03)."
+    },
     "unchained": {
       "podcast_name": "Unchained",
-      "episode_count": 93,
-      "avg_sentiment": -0.031,
+      "episode_count": 94,
+      "avg_sentiment": -0.026,
       "top_themes": [
         {
           "id": "regulation-antitrust",
@@ -5833,16 +6268,16 @@
         {
           "id": "crypto",
           "label": "Crypto & Digital Assets",
-          "count": 87
+          "count": 88
         },
         {
           "id": "ai-infrastructure",
           "label": "AI Infrastructure",
-          "count": 5
+          "count": 6
         },
         {
-          "id": "banks",
-          "label": "Banks & Financials",
+          "id": "technology",
+          "label": "Technology",
           "count": 4
         }
       ],
@@ -5873,7 +6308,541 @@
           "count": 14
         }
       ],
-      "summary_text": "93 episodes tagged. Most discussed: Regulation & Antitrust, IPOs & Dealmaking, Dividends & Buybacks (sectors: Crypto & Digital Assets, AI Infrastructure). Overall tone reads roughly neutral (-0.03)."
+      "summary_text": "94 episodes tagged. Most discussed: Regulation & Antitrust, IPOs & Dealmaking, Dividends & Buybacks (sectors: Crypto & Digital Assets, AI Infrastructure). Overall tone reads roughly neutral (-0.03)."
+    },
+    "the-wall-street-skinny": {
+      "podcast_name": "The Wall Street Skinny",
+      "episode_count": 16,
+      "avg_sentiment": -0.04,
+      "top_themes": [
+        {
+          "id": "hedge-funds",
+          "label": "Hedge Funds",
+          "count": 5
+        },
+        {
+          "id": "dealmaking",
+          "label": "IPOs & Dealmaking",
+          "count": 5
+        },
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 4
+        },
+        {
+          "id": "credit-markets",
+          "label": "Credit Markets",
+          "count": 3
+        },
+        {
+          "id": "bond-market",
+          "label": "Bond Market & Yields",
+          "count": 3
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "private-markets",
+          "label": "Private Equity & Credit",
+          "count": 12
+        },
+        {
+          "id": "ai-infrastructure",
+          "label": "AI Infrastructure",
+          "count": 5
+        },
+        {
+          "id": "banks",
+          "label": "Banks & Financials",
+          "count": 3
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 4
+        },
+        {
+          "id": "tesla",
+          "label": "Tesla",
+          "count": 4
+        },
+        {
+          "id": "morgan-stanley",
+          "label": "Morgan Stanley",
+          "count": 4
+        },
+        {
+          "id": "sp500",
+          "label": "S&P 500",
+          "count": 3
+        },
+        {
+          "id": "nvidia",
+          "label": "Nvidia",
+          "count": 2
+        }
+      ],
+      "summary_text": "16 episodes tagged. Most discussed: Hedge Funds, IPOs & Dealmaking, Interest Rates & Fed Policy (sectors: Private Equity & Credit, AI Infrastructure). Overall tone reads roughly neutral (-0.04)."
+    },
+    "masters-in-business": {
+      "podcast_name": "Masters in Business",
+      "episode_count": 20,
+      "avg_sentiment": 0.12,
+      "top_themes": [
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 5
+        },
+        {
+          "id": "passive-investing",
+          "label": "Passive Investing",
+          "count": 4
+        },
+        {
+          "id": "retirement-planning",
+          "label": "Retirement Planning",
+          "count": 3
+        },
+        {
+          "id": "dealmaking",
+          "label": "IPOs & Dealmaking",
+          "count": 3
+        },
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 3
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "private-markets",
+          "label": "Private Equity & Credit",
+          "count": 4
+        },
+        {
+          "id": "crypto",
+          "label": "Crypto & Digital Assets",
+          "count": 3
+        },
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 2
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "sp500",
+          "label": "S&P 500",
+          "count": 4
+        },
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 3
+        },
+        {
+          "id": "bitcoin",
+          "label": "Bitcoin",
+          "count": 2
+        },
+        {
+          "id": "goldman-sachs",
+          "label": "Goldman Sachs",
+          "count": 2
+        },
+        {
+          "id": "mastercard",
+          "label": "Mastercard",
+          "count": 2
+        }
+      ],
+      "summary_text": "20 episodes tagged. Most discussed: Inflation, Passive Investing, Retirement Planning (sectors: Private Equity & Credit, Crypto & Digital Assets). Overall tone leans bullish (+0.12)."
+    },
+    "planet-money": {
+      "podcast_name": "Planet Money",
+      "episode_count": 28,
+      "avg_sentiment": 0.012,
+      "top_themes": [
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 3
+        },
+        {
+          "id": "regulation-antitrust",
+          "label": "Regulation & Antitrust",
+          "count": 2
+        },
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 2
+        },
+        {
+          "id": "college-savings",
+          "label": "College Savings & Student Debt",
+          "count": 1
+        },
+        {
+          "id": "elections-politics",
+          "label": "Elections & Politics",
+          "count": 1
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "industrials",
+          "label": "Industrials",
+          "count": 3
+        },
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 2
+        },
+        {
+          "id": "energy",
+          "label": "Energy & Oil",
+          "count": 1
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "meta",
+          "label": "Meta",
+          "count": 28
+        },
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 2
+        },
+        {
+          "id": "charles-schwab",
+          "label": "Charles Schwab",
+          "count": 1
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 1
+        },
+        {
+          "id": "chevron",
+          "label": "Chevron",
+          "count": 1
+        }
+      ],
+      "summary_text": "28 episodes tagged. Most discussed: Inflation, Regulation & Antitrust, Interest Rates & Fed Policy (sectors: Industrials, Real Estate). Overall tone reads roughly neutral (+0.01)."
+    },
+    "so-money-with-farnoosh-torabi": {
+      "podcast_name": "So Money with Farnoosh Torabi",
+      "episode_count": 22,
+      "avg_sentiment": -0.008,
+      "top_themes": [
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 5
+        },
+        {
+          "id": "budgeting-saving",
+          "label": "Budgeting & Saving",
+          "count": 4
+        },
+        {
+          "id": "retirement-planning",
+          "label": "Retirement Planning",
+          "count": 4
+        },
+        {
+          "id": "fire-movement",
+          "label": "Financial Independence / FIRE",
+          "count": 4
+        },
+        {
+          "id": "debt-payoff",
+          "label": "Debt Payoff",
+          "count": 4
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 7
+        },
+        {
+          "id": "crypto",
+          "label": "Crypto & Digital Assets",
+          "count": 2
+        },
+        {
+          "id": "technology",
+          "label": "Technology",
+          "count": 1
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "bitcoin",
+          "label": "Bitcoin",
+          "count": 3
+        },
+        {
+          "id": "microsoft",
+          "label": "Microsoft",
+          "count": 2
+        },
+        {
+          "id": "vanguard",
+          "label": "Vanguard",
+          "count": 1
+        },
+        {
+          "id": "charles-schwab",
+          "label": "Charles Schwab",
+          "count": 1
+        }
+      ],
+      "summary_text": "22 episodes tagged. Most discussed: Interest Rates & Fed Policy, Budgeting & Saving, Retirement Planning (sectors: Real Estate, Crypto & Digital Assets). Overall tone reads roughly neutral (-0.01)."
+    },
+    "motley-fool-hidden-gems": {
+      "podcast_name": "Motley Fool Hidden Gems",
+      "episode_count": 88,
+      "avg_sentiment": 0.143,
+      "top_themes": [
+        {
+          "id": "dealmaking",
+          "label": "IPOs & Dealmaking",
+          "count": 20
+        },
+        {
+          "id": "earnings",
+          "label": "Corporate Earnings",
+          "count": 14
+        },
+        {
+          "id": "ai-boom",
+          "label": "AI & Machine Learning",
+          "count": 7
+        },
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 6
+        },
+        {
+          "id": "passive-investing",
+          "label": "Passive Investing",
+          "count": 6
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "ai-infrastructure",
+          "label": "AI Infrastructure",
+          "count": 16
+        },
+        {
+          "id": "technology",
+          "label": "Technology",
+          "count": 14
+        },
+        {
+          "id": "semiconductors",
+          "label": "Semiconductors",
+          "count": 11
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "nvidia",
+          "label": "Nvidia",
+          "count": 25
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 23
+        },
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 19
+        },
+        {
+          "id": "tesla",
+          "label": "Tesla",
+          "count": 12
+        },
+        {
+          "id": "microsoft",
+          "label": "Microsoft",
+          "count": 12
+        }
+      ],
+      "summary_text": "88 episodes tagged. Most discussed: IPOs & Dealmaking, Corporate Earnings, AI & Machine Learning (sectors: AI Infrastructure, Technology). Overall tone leans bullish (+0.14)."
+    },
+    "thoughts-on-the-market": {
+      "podcast_name": "Thoughts on the Market",
+      "episode_count": 68,
+      "avg_sentiment": 0.123,
+      "top_themes": [
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 33
+        },
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 30
+        },
+        {
+          "id": "geopolitics-tariffs",
+          "label": "Geopolitics & Tariffs",
+          "count": 16
+        },
+        {
+          "id": "commodities",
+          "label": "Commodities",
+          "count": 15
+        },
+        {
+          "id": "bond-market",
+          "label": "Bond Market & Yields",
+          "count": 14
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "ai-infrastructure",
+          "label": "AI Infrastructure",
+          "count": 33
+        },
+        {
+          "id": "semiconductors",
+          "label": "Semiconductors",
+          "count": 25
+        },
+        {
+          "id": "energy",
+          "label": "Energy & Oil",
+          "count": 18
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "morgan-stanley",
+          "label": "Morgan Stanley",
+          "count": 68
+        },
+        {
+          "id": "bitcoin",
+          "label": "Bitcoin",
+          "count": 1
+        },
+        {
+          "id": "nasdaq",
+          "label": "Nasdaq",
+          "count": 1
+        },
+        {
+          "id": "microsoft",
+          "label": "Microsoft",
+          "count": 1
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 1
+        }
+      ],
+      "summary_text": "68 episodes tagged. Most discussed: Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs (sectors: AI Infrastructure, Semiconductors). Overall tone leans bullish (+0.12)."
+    },
+    "bloomberg-surveillance": {
+      "podcast_name": "Bloomberg Surveillance",
+      "episode_count": 121,
+      "avg_sentiment": 0.018,
+      "top_themes": [
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 36
+        },
+        {
+          "id": "inflation",
+          "label": "Inflation",
+          "count": 29
+        },
+        {
+          "id": "geopolitics-tariffs",
+          "label": "Geopolitics & Tariffs",
+          "count": 9
+        },
+        {
+          "id": "bond-market",
+          "label": "Bond Market & Yields",
+          "count": 9
+        },
+        {
+          "id": "labor-market",
+          "label": "Labor Market",
+          "count": 8
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "energy",
+          "label": "Energy & Oil",
+          "count": 5
+        },
+        {
+          "id": "private-markets",
+          "label": "Private Equity & Credit",
+          "count": 5
+        },
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 4
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "morgan-stanley",
+          "label": "Morgan Stanley",
+          "count": 21
+        },
+        {
+          "id": "jpmorgan",
+          "label": "JPMorgan",
+          "count": 17
+        },
+        {
+          "id": "citigroup",
+          "label": "Citigroup",
+          "count": 16
+        },
+        {
+          "id": "goldman-sachs",
+          "label": "Goldman Sachs",
+          "count": 12
+        },
+        {
+          "id": "bank-of-america",
+          "label": "Bank of America",
+          "count": 7
+        }
+      ],
+      "summary_text": "121 episodes tagged. Most discussed: Interest Rates & Fed Policy, Inflation, Geopolitics & Tariffs (sectors: Energy & Oil, Private Equity & Credit). Overall tone reads roughly neutral (+0.02)."
     },
     "moody-s-talks-inside-economics": {
       "podcast_name": "Moody's Talks - Inside Economics",
@@ -6619,83 +7588,6 @@
         }
       ],
       "summary_text": "32 episodes tagged. Most discussed: Budgeting & Saving, College Savings & Student Debt, Retirement Planning (sectors: Crypto & Digital Assets, Private Equity & Credit). Overall tone leans bullish (+0.18)."
-    },
-    "bloomberg-surveillance": {
-      "podcast_name": "Bloomberg Surveillance",
-      "episode_count": 120,
-      "avg_sentiment": 0.018,
-      "top_themes": [
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 35
-        },
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 28
-        },
-        {
-          "id": "geopolitics-tariffs",
-          "label": "Geopolitics & Tariffs",
-          "count": 9
-        },
-        {
-          "id": "bond-market",
-          "label": "Bond Market & Yields",
-          "count": 9
-        },
-        {
-          "id": "labor-market",
-          "label": "Labor Market",
-          "count": 8
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "energy",
-          "label": "Energy & Oil",
-          "count": 5
-        },
-        {
-          "id": "private-markets",
-          "label": "Private Equity & Credit",
-          "count": 5
-        },
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 4
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "morgan-stanley",
-          "label": "Morgan Stanley",
-          "count": 21
-        },
-        {
-          "id": "jpmorgan",
-          "label": "JPMorgan",
-          "count": 17
-        },
-        {
-          "id": "citigroup",
-          "label": "Citigroup",
-          "count": 16
-        },
-        {
-          "id": "goldman-sachs",
-          "label": "Goldman Sachs",
-          "count": 12
-        },
-        {
-          "id": "bank-of-america",
-          "label": "Bank of America",
-          "count": 7
-        }
-      ],
-      "summary_text": "120 episodes tagged. Most discussed: Interest Rates & Fed Policy, Inflation, Geopolitics & Tariffs (sectors: Energy & Oil, Private Equity & Credit). Overall tone reads roughly neutral (+0.02)."
     },
     "the-dividend-cafe": {
       "podcast_name": "The Dividend Cafe",
@@ -8008,237 +8900,6 @@
       ],
       "summary_text": "15 episodes tagged. Most discussed: Inflation, Budgeting & Saving, Housing Market (sectors: Real Estate, Semiconductors). Overall tone reads roughly neutral (+0.04)."
     },
-    "investtalk": {
-      "podcast_name": "InvestTalk",
-      "episode_count": 66,
-      "avg_sentiment": 0.027,
-      "top_themes": [
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 18
-        },
-        {
-          "id": "bond-market",
-          "label": "Bond Market & Yields",
-          "count": 14
-        },
-        {
-          "id": "passive-investing",
-          "label": "Passive Investing",
-          "count": 13
-        },
-        {
-          "id": "dividends-buybacks",
-          "label": "Dividends & Buybacks",
-          "count": 13
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 12
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 9
-        },
-        {
-          "id": "energy",
-          "label": "Energy & Oil",
-          "count": 9
-        },
-        {
-          "id": "technology",
-          "label": "Technology",
-          "count": 6
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "vanguard",
-          "label": "Vanguard",
-          "count": 17
-        },
-        {
-          "id": "charles-schwab",
-          "label": "Charles Schwab",
-          "count": 5
-        },
-        {
-          "id": "bitcoin",
-          "label": "Bitcoin",
-          "count": 4
-        },
-        {
-          "id": "amazon",
-          "label": "Amazon",
-          "count": 3
-        },
-        {
-          "id": "nvidia",
-          "label": "Nvidia",
-          "count": 3
-        }
-      ],
-      "summary_text": "66 episodes tagged. Most discussed: Inflation, Bond Market & Yields, Passive Investing (sectors: Real Estate, Energy & Oil). Overall tone reads roughly neutral (+0.03)."
-    },
-    "the-wall-street-skinny": {
-      "podcast_name": "The Wall Street Skinny",
-      "episode_count": 15,
-      "avg_sentiment": -0.031,
-      "top_themes": [
-        {
-          "id": "dealmaking",
-          "label": "IPOs & Dealmaking",
-          "count": 5
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 4
-        },
-        {
-          "id": "hedge-funds",
-          "label": "Hedge Funds",
-          "count": 4
-        },
-        {
-          "id": "bond-market",
-          "label": "Bond Market & Yields",
-          "count": 3
-        },
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 3
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "private-markets",
-          "label": "Private Equity & Credit",
-          "count": 12
-        },
-        {
-          "id": "ai-infrastructure",
-          "label": "AI Infrastructure",
-          "count": 5
-        },
-        {
-          "id": "banks",
-          "label": "Banks & Financials",
-          "count": 3
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 4
-        },
-        {
-          "id": "tesla",
-          "label": "Tesla",
-          "count": 4
-        },
-        {
-          "id": "morgan-stanley",
-          "label": "Morgan Stanley",
-          "count": 4
-        },
-        {
-          "id": "sp500",
-          "label": "S&P 500",
-          "count": 3
-        },
-        {
-          "id": "nvidia",
-          "label": "Nvidia",
-          "count": 2
-        }
-      ],
-      "summary_text": "15 episodes tagged. Most discussed: IPOs & Dealmaking, Interest Rates & Fed Policy, Hedge Funds (sectors: Private Equity & Credit, AI Infrastructure). Overall tone reads roughly neutral (-0.03)."
-    },
-    "stock-market-today-with-ibd": {
-      "podcast_name": "Stock Market Today With IBD",
-      "episode_count": 35,
-      "avg_sentiment": 0.058,
-      "top_themes": [
-        {
-          "id": "small-caps-value-growth",
-          "label": "Small-Caps, Value & Growth",
-          "count": 5
-        },
-        {
-          "id": "bond-market",
-          "label": "Bond Market & Yields",
-          "count": 3
-        },
-        {
-          "id": "dealmaking",
-          "label": "IPOs & Dealmaking",
-          "count": 2
-        },
-        {
-          "id": "earnings",
-          "label": "Corporate Earnings",
-          "count": 2
-        },
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 2
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "semiconductors",
-          "label": "Semiconductors",
-          "count": 9
-        },
-        {
-          "id": "energy",
-          "label": "Energy & Oil",
-          "count": 3
-        },
-        {
-          "id": "ai-infrastructure",
-          "label": "AI Infrastructure",
-          "count": 2
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "nasdaq",
-          "label": "Nasdaq",
-          "count": 21
-        },
-        {
-          "id": "sp500",
-          "label": "S&P 500",
-          "count": 6
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 4
-        },
-        {
-          "id": "fidelity",
-          "label": "Fidelity",
-          "count": 3
-        },
-        {
-          "id": "nvidia",
-          "label": "Nvidia",
-          "count": 2
-        }
-      ],
-      "summary_text": "35 episodes tagged. Most discussed: Small-Caps, Value & Growth, Bond Market & Yields, IPOs & Dealmaking (sectors: Semiconductors, Energy & Oil). Overall tone reads roughly neutral (+0.06)."
-    },
     "brew-markets": {
       "podcast_name": "Brew Markets",
       "episode_count": 63,
@@ -8315,160 +8976,6 @@
         }
       ],
       "summary_text": "63 episodes tagged. Most discussed: IPOs & Dealmaking, Interest Rates & Fed Policy, Corporate Earnings (sectors: Technology, AI Infrastructure). Overall tone reads roughly neutral (+0.01)."
-    },
-    "motley-fool-hidden-gems": {
-      "podcast_name": "Motley Fool Hidden Gems",
-      "episode_count": 87,
-      "avg_sentiment": 0.143,
-      "top_themes": [
-        {
-          "id": "dealmaking",
-          "label": "IPOs & Dealmaking",
-          "count": 20
-        },
-        {
-          "id": "earnings",
-          "label": "Corporate Earnings",
-          "count": 14
-        },
-        {
-          "id": "ai-boom",
-          "label": "AI & Machine Learning",
-          "count": 7
-        },
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 6
-        },
-        {
-          "id": "passive-investing",
-          "label": "Passive Investing",
-          "count": 6
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "ai-infrastructure",
-          "label": "AI Infrastructure",
-          "count": 15
-        },
-        {
-          "id": "technology",
-          "label": "Technology",
-          "count": 14
-        },
-        {
-          "id": "semiconductors",
-          "label": "Semiconductors",
-          "count": 11
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "nvidia",
-          "label": "Nvidia",
-          "count": 25
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 23
-        },
-        {
-          "id": "amazon",
-          "label": "Amazon",
-          "count": 19
-        },
-        {
-          "id": "microsoft",
-          "label": "Microsoft",
-          "count": 12
-        },
-        {
-          "id": "tesla",
-          "label": "Tesla",
-          "count": 11
-        }
-      ],
-      "summary_text": "87 episodes tagged. Most discussed: IPOs & Dealmaking, Corporate Earnings, AI & Machine Learning (sectors: AI Infrastructure, Technology). Overall tone leans bullish (+0.14)."
-    },
-    "thoughts-on-the-market": {
-      "podcast_name": "Thoughts on the Market",
-      "episode_count": 67,
-      "avg_sentiment": 0.115,
-      "top_themes": [
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 33
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 30
-        },
-        {
-          "id": "geopolitics-tariffs",
-          "label": "Geopolitics & Tariffs",
-          "count": 15
-        },
-        {
-          "id": "commodities",
-          "label": "Commodities",
-          "count": 15
-        },
-        {
-          "id": "bond-market",
-          "label": "Bond Market & Yields",
-          "count": 14
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "ai-infrastructure",
-          "label": "AI Infrastructure",
-          "count": 32
-        },
-        {
-          "id": "semiconductors",
-          "label": "Semiconductors",
-          "count": 25
-        },
-        {
-          "id": "energy",
-          "label": "Energy & Oil",
-          "count": 18
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "morgan-stanley",
-          "label": "Morgan Stanley",
-          "count": 67
-        },
-        {
-          "id": "bitcoin",
-          "label": "Bitcoin",
-          "count": 1
-        },
-        {
-          "id": "nasdaq",
-          "label": "Nasdaq",
-          "count": 1
-        },
-        {
-          "id": "microsoft",
-          "label": "Microsoft",
-          "count": 1
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 1
-        }
-      ],
-      "summary_text": "67 episodes tagged. Most discussed: Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs (sectors: AI Infrastructure, Semiconductors). Overall tone leans bullish (+0.12)."
     },
     "unhedged": {
       "podcast_name": "Unhedged",
@@ -9215,83 +9722,6 @@
       ],
       "summary_text": "13 episodes tagged. Most discussed: Hedge Funds, Emerging Markets, Diversification & Asset Allocation (sectors: Private Equity & Credit, Real Estate). Overall tone reads roughly neutral (+0.01)."
     },
-    "optimal-finance-daily": {
-      "podcast_name": "Optimal Finance Daily",
-      "episode_count": 74,
-      "avg_sentiment": 0.04,
-      "top_themes": [
-        {
-          "id": "budgeting-saving",
-          "label": "Budgeting & Saving",
-          "count": 25
-        },
-        {
-          "id": "fire-movement",
-          "label": "Financial Independence / FIRE",
-          "count": 19
-        },
-        {
-          "id": "retirement-planning",
-          "label": "Retirement Planning",
-          "count": 11
-        },
-        {
-          "id": "debt-payoff",
-          "label": "Debt Payoff",
-          "count": 10
-        },
-        {
-          "id": "passive-investing",
-          "label": "Passive Investing",
-          "count": 7
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 8
-        },
-        {
-          "id": "healthcare",
-          "label": "Healthcare & Pharma",
-          "count": 3
-        },
-        {
-          "id": "consumer-discretionary",
-          "label": "Consumer Discretionary",
-          "count": 2
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "amazon",
-          "label": "Amazon",
-          "count": 10
-        },
-        {
-          "id": "sp500",
-          "label": "S&P 500",
-          "count": 7
-        },
-        {
-          "id": "vanguard",
-          "label": "Vanguard",
-          "count": 4
-        },
-        {
-          "id": "fidelity",
-          "label": "Fidelity",
-          "count": 2
-        },
-        {
-          "id": "meta",
-          "label": "Meta",
-          "count": 1
-        }
-      ],
-      "summary_text": "74 episodes tagged. Most discussed: Budgeting & Saving, Financial Independence / FIRE, Retirement Planning (sectors: Real Estate, Healthcare & Pharma). Overall tone reads roughly neutral (+0.04)."
-    },
     "the-acquirers-podcast": {
       "podcast_name": "The Acquirers Podcast",
       "episode_count": 9,
@@ -9564,83 +9994,6 @@
         }
       ],
       "summary_text": "14 episodes tagged. Most discussed: IPOs & Dealmaking (sectors: Technology, Private Equity & Credit). Overall tone reads roughly neutral (+0.02)."
-    },
-    "masters-in-business": {
-      "podcast_name": "Masters in Business",
-      "episode_count": 19,
-      "avg_sentiment": 0.126,
-      "top_themes": [
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 5
-        },
-        {
-          "id": "passive-investing",
-          "label": "Passive Investing",
-          "count": 4
-        },
-        {
-          "id": "retirement-planning",
-          "label": "Retirement Planning",
-          "count": 3
-        },
-        {
-          "id": "dealmaking",
-          "label": "IPOs & Dealmaking",
-          "count": 3
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 3
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "private-markets",
-          "label": "Private Equity & Credit",
-          "count": 4
-        },
-        {
-          "id": "crypto",
-          "label": "Crypto & Digital Assets",
-          "count": 3
-        },
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 2
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "sp500",
-          "label": "S&P 500",
-          "count": 4
-        },
-        {
-          "id": "amazon",
-          "label": "Amazon",
-          "count": 3
-        },
-        {
-          "id": "goldman-sachs",
-          "label": "Goldman Sachs",
-          "count": 2
-        },
-        {
-          "id": "mastercard",
-          "label": "Mastercard",
-          "count": 2
-        },
-        {
-          "id": "microsoft",
-          "label": "Microsoft",
-          "count": 2
-        }
-      ],
-      "summary_text": "19 episodes tagged. Most discussed: Inflation, Passive Investing, Retirement Planning (sectors: Private Equity & Credit, Crypto & Digital Assets). Overall tone leans bullish (+0.13)."
     },
     "equity-mates-investing-podcast": {
       "podcast_name": "Equity Mates Investing Podcast",
@@ -10099,78 +10452,6 @@
       ],
       "summary_text": "13 episodes tagged. Most discussed: Passive Income & Side Hustles, Retirement Planning, Debt Payoff (sectors: Media & Entertainment, Real Estate). Overall tone reads roughly neutral (+0.08)."
     },
-    "so-money-with-farnoosh-torabi": {
-      "podcast_name": "So Money with Farnoosh Torabi",
-      "episode_count": 21,
-      "avg_sentiment": -0.008,
-      "top_themes": [
-        {
-          "id": "budgeting-saving",
-          "label": "Budgeting & Saving",
-          "count": 4
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 4
-        },
-        {
-          "id": "retirement-planning",
-          "label": "Retirement Planning",
-          "count": 4
-        },
-        {
-          "id": "fire-movement",
-          "label": "Financial Independence / FIRE",
-          "count": 4
-        },
-        {
-          "id": "debt-payoff",
-          "label": "Debt Payoff",
-          "count": 4
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 7
-        },
-        {
-          "id": "crypto",
-          "label": "Crypto & Digital Assets",
-          "count": 2
-        },
-        {
-          "id": "technology",
-          "label": "Technology",
-          "count": 1
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "bitcoin",
-          "label": "Bitcoin",
-          "count": 3
-        },
-        {
-          "id": "microsoft",
-          "label": "Microsoft",
-          "count": 1
-        },
-        {
-          "id": "vanguard",
-          "label": "Vanguard",
-          "count": 1
-        },
-        {
-          "id": "charles-schwab",
-          "label": "Charles Schwab",
-          "count": 1
-        }
-      ],
-      "summary_text": "21 episodes tagged. Most discussed: Budgeting & Saving, Interest Rates & Fed Policy, Retirement Planning (sectors: Real Estate, Crypto & Digital Assets). Overall tone reads roughly neutral (-0.01)."
-    },
     "journey-to-launch": {
       "podcast_name": "Journey To Launch",
       "episode_count": 14,
@@ -10391,150 +10672,6 @@
         }
       ],
       "summary_text": "14 episodes tagged. Most discussed: Diversification & Asset Allocation, Interest Rates & Fed Policy, Inflation (sectors: Crypto & Digital Assets, Semiconductors). Overall tone reads roughly neutral (+0.01)."
-    },
-    "planet-money": {
-      "podcast_name": "Planet Money",
-      "episode_count": 27,
-      "avg_sentiment": 0.012,
-      "top_themes": [
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 3
-        },
-        {
-          "id": "regulation-antitrust",
-          "label": "Regulation & Antitrust",
-          "count": 2
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 2
-        },
-        {
-          "id": "college-savings",
-          "label": "College Savings & Student Debt",
-          "count": 1
-        },
-        {
-          "id": "elections-politics",
-          "label": "Elections & Politics",
-          "count": 1
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "industrials",
-          "label": "Industrials",
-          "count": 3
-        },
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 2
-        },
-        {
-          "id": "energy",
-          "label": "Energy & Oil",
-          "count": 1
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "meta",
-          "label": "Meta",
-          "count": 27
-        },
-        {
-          "id": "amazon",
-          "label": "Amazon",
-          "count": 2
-        },
-        {
-          "id": "charles-schwab",
-          "label": "Charles Schwab",
-          "count": 1
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 1
-        },
-        {
-          "id": "chevron",
-          "label": "Chevron",
-          "count": 1
-        }
-      ],
-      "summary_text": "27 episodes tagged. Most discussed: Inflation, Regulation & Antitrust, Interest Rates & Fed Policy (sectors: Industrials, Real Estate). Overall tone reads roughly neutral (+0.01)."
-    },
-    "the-retirement-and-ira-show": {
-      "podcast_name": "The Retirement and IRA Show",
-      "episode_count": 25,
-      "avg_sentiment": 0.027,
-      "top_themes": [
-        {
-          "id": "retirement-planning",
-          "label": "Retirement Planning",
-          "count": 22
-        },
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 4
-        },
-        {
-          "id": "diversification",
-          "label": "Diversification & Asset Allocation",
-          "count": 3
-        },
-        {
-          "id": "tax-planning",
-          "label": "Tax Planning",
-          "count": 3
-        },
-        {
-          "id": "estate-planning",
-          "label": "Estate Planning",
-          "count": 2
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "insurance",
-          "label": "Insurance",
-          "count": 6
-        },
-        {
-          "id": "healthcare",
-          "label": "Healthcare & Pharma",
-          "count": 4
-        },
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 4
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "fidelity",
-          "label": "Fidelity",
-          "count": 2
-        },
-        {
-          "id": "vanguard",
-          "label": "Vanguard",
-          "count": 1
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 1
-        }
-      ],
-      "summary_text": "25 episodes tagged. Most discussed: Retirement Planning, Inflation, Diversification & Asset Allocation (sectors: Insurance, Healthcare & Pharma). Overall tone reads roughly neutral (+0.03)."
     },
     "money-to-the-masses": {
       "podcast_name": "Money to the Masses",
@@ -11659,83 +11796,6 @@
       "top_stocks": [],
       "summary_text": "13 episodes tagged. Most discussed: Real Estate Investing (sectors: Real Estate). Overall tone reads roughly neutral (+0.01)."
     },
-    "slate-money": {
-      "podcast_name": "Slate Money",
-      "episode_count": 15,
-      "avg_sentiment": -0.078,
-      "top_themes": [
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 4
-        },
-        {
-          "id": "inflation",
-          "label": "Inflation",
-          "count": 3
-        },
-        {
-          "id": "geopolitics-tariffs",
-          "label": "Geopolitics & Tariffs",
-          "count": 2
-        },
-        {
-          "id": "regulation-antitrust",
-          "label": "Regulation & Antitrust",
-          "count": 2
-        },
-        {
-          "id": "dealmaking",
-          "label": "IPOs & Dealmaking",
-          "count": 2
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "crypto",
-          "label": "Crypto & Digital Assets",
-          "count": 3
-        },
-        {
-          "id": "energy",
-          "label": "Energy & Oil",
-          "count": 2
-        },
-        {
-          "id": "ai-infrastructure",
-          "label": "AI Infrastructure",
-          "count": 2
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "bitcoin",
-          "label": "Bitcoin",
-          "count": 3
-        },
-        {
-          "id": "jpmorgan",
-          "label": "JPMorgan",
-          "count": 2
-        },
-        {
-          "id": "tesla",
-          "label": "Tesla",
-          "count": 2
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 2
-        },
-        {
-          "id": "nvidia",
-          "label": "Nvidia",
-          "count": 1
-        }
-      ],
-      "summary_text": "15 episodes tagged. Most discussed: Interest Rates & Fed Policy, Inflation, Geopolitics & Tariffs (sectors: Crypto & Digital Assets, Energy & Oil). Overall tone reads roughly neutral (-0.08)."
-    },
     "retirement-power-play": {
       "podcast_name": "Retirement Power Play",
       "episode_count": 4,
@@ -12581,6 +12641,354 @@
     }
   },
   "podcast_theme_timeline": {
+    "optimal-finance-daily": {
+      "top_theme_ids": [
+        "budgeting-saving",
+        "fire-movement",
+        "retirement-planning",
+        "debt-payoff",
+        "passive-investing",
+        "college-savings"
+      ],
+      "top_theme_labels": [
+        "Budgeting & Saving",
+        "Financial Independence / FIRE",
+        "Retirement Planning",
+        "Debt Payoff",
+        "Passive Investing",
+        "College Savings & Student Debt"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 2,
+          "avg_sentiment": 0.066,
+          "theme_counts": {
+            "budgeting-saving": 1,
+            "fire-movement": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 23,
+          "avg_sentiment": -0.014,
+          "theme_counts": {
+            "budgeting-saving": 7,
+            "fire-movement": 6,
+            "retirement-planning": 3,
+            "debt-payoff": 2,
+            "passive-investing": 1
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 23,
+          "avg_sentiment": 0.087,
+          "theme_counts": {
+            "budgeting-saving": 9,
+            "fire-movement": 4,
+            "retirement-planning": 2,
+            "debt-payoff": 2,
+            "passive-investing": 2,
+            "college-savings": 3
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 26,
+          "avg_sentiment": 0.045,
+          "theme_counts": {
+            "budgeting-saving": 8,
+            "fire-movement": 8,
+            "retirement-planning": 6,
+            "debt-payoff": 6,
+            "passive-investing": 4,
+            "college-savings": 3
+          }
+        },
+        {
+          "month": "2026-08",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "budgeting-saving": 1,
+            "fire-movement": 1
+          }
+        }
+      ]
+    },
+    "the-retirement-and-ira-show": {
+      "top_theme_ids": [
+        "retirement-planning",
+        "inflation",
+        "estate-planning",
+        "diversification",
+        "tax-planning",
+        "elections-politics"
+      ],
+      "top_theme_labels": [
+        "Retirement Planning",
+        "Inflation",
+        "Estate Planning",
+        "Diversification & Asset Allocation",
+        "Tax Planning",
+        "Elections & Politics"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "retirement-planning": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 8,
+          "avg_sentiment": 0.033,
+          "theme_counts": {
+            "retirement-planning": 6,
+            "inflation": 2,
+            "diversification": 1,
+            "tax-planning": 2
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 8,
+          "avg_sentiment": -0.101,
+          "theme_counts": {
+            "retirement-planning": 8,
+            "diversification": 1,
+            "elections-politics": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 8,
+          "avg_sentiment": 0.153,
+          "theme_counts": {
+            "retirement-planning": 7,
+            "inflation": 2,
+            "estate-planning": 2,
+            "diversification": 1,
+            "tax-planning": 1,
+            "elections-politics": 1
+          }
+        },
+        {
+          "month": "2026-08",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "retirement-planning": 1,
+            "estate-planning": 1
+          }
+        }
+      ]
+    },
+    "slate-money": {
+      "top_theme_ids": [
+        "rates-fed",
+        "inflation",
+        "commodities",
+        "geopolitics-tariffs",
+        "regulation-antitrust",
+        "dealmaking"
+      ],
+      "top_theme_labels": [
+        "Interest Rates & Fed Policy",
+        "Inflation",
+        "Commodities",
+        "Geopolitics & Tariffs",
+        "Regulation & Antitrust",
+        "IPOs & Dealmaking"
+      ],
+      "months": [
+        {
+          "month": "2026-05",
+          "episode_count": 4,
+          "avg_sentiment": -0.066,
+          "theme_counts": {
+            "rates-fed": 1,
+            "inflation": 1
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 6,
+          "avg_sentiment": -0.139,
+          "theme_counts": {
+            "rates-fed": 3,
+            "inflation": 2,
+            "commodities": 1,
+            "geopolitics-tariffs": 1,
+            "regulation-antitrust": 1,
+            "dealmaking": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 5,
+          "avg_sentiment": -0.013,
+          "theme_counts": {
+            "geopolitics-tariffs": 1,
+            "regulation-antitrust": 1,
+            "dealmaking": 1
+          }
+        },
+        {
+          "month": "2026-08",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "commodities": 1
+          }
+        }
+      ]
+    },
+    "stock-market-today-with-ibd": {
+      "top_theme_ids": [
+        "small-caps-value-growth",
+        "bond-market",
+        "dealmaking",
+        "earnings",
+        "inflation",
+        "commodities"
+      ],
+      "top_theme_labels": [
+        "Small-Caps, Value & Growth",
+        "Bond Market & Yields",
+        "IPOs & Dealmaking",
+        "Corporate Earnings",
+        "Inflation",
+        "Commodities"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 1,
+          "avg_sentiment": 0.167,
+          "theme_counts": {}
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 13,
+          "avg_sentiment": 0.145,
+          "theme_counts": {
+            "small-caps-value-growth": 3,
+            "bond-market": 2,
+            "dealmaking": 1,
+            "earnings": 1,
+            "inflation": 1,
+            "commodities": 2
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 10,
+          "avg_sentiment": -0.017,
+          "theme_counts": {
+            "inflation": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 11,
+          "avg_sentiment": 0.013,
+          "theme_counts": {
+            "small-caps-value-growth": 2,
+            "bond-market": 1,
+            "dealmaking": 1,
+            "earnings": 1
+          }
+        },
+        {
+          "month": "2026-08",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {}
+        }
+      ]
+    },
+    "investtalk": {
+      "top_theme_ids": [
+        "inflation",
+        "bond-market",
+        "passive-investing",
+        "dividends-buybacks",
+        "rates-fed",
+        "commodities"
+      ],
+      "top_theme_labels": [
+        "Inflation",
+        "Bond Market & Yields",
+        "Passive Investing",
+        "Dividends & Buybacks",
+        "Interest Rates & Fed Policy",
+        "Commodities"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 2,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "inflation": 1,
+            "dividends-buybacks": 1,
+            "commodities": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 21,
+          "avg_sentiment": 0.008,
+          "theme_counts": {
+            "inflation": 5,
+            "bond-market": 6,
+            "passive-investing": 4,
+            "dividends-buybacks": 2,
+            "rates-fed": 3,
+            "commodities": 4
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 20,
+          "avg_sentiment": 0.006,
+          "theme_counts": {
+            "inflation": 7,
+            "bond-market": 4,
+            "passive-investing": 6,
+            "dividends-buybacks": 8,
+            "rates-fed": 6,
+            "commodities": 2
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 23,
+          "avg_sentiment": 0.066,
+          "theme_counts": {
+            "inflation": 5,
+            "bond-market": 4,
+            "passive-investing": 3,
+            "dividends-buybacks": 2,
+            "rates-fed": 3,
+            "commodities": 4
+          }
+        },
+        {
+          "month": "2026-08",
+          "episode_count": 1,
+          "avg_sentiment": 0.167,
+          "theme_counts": {
+            "bond-market": 1
+          }
+        }
+      ]
+    },
     "unchained": {
       "top_theme_ids": [
         "regulation-antitrust",
@@ -12634,8 +13042,8 @@
         },
         {
           "month": "2026-07",
-          "episode_count": 33,
-          "avg_sentiment": -0.0,
+          "episode_count": 34,
+          "avg_sentiment": 0.015,
           "theme_counts": {
             "regulation-antitrust": 7,
             "dealmaking": 1,
@@ -12643,6 +13051,447 @@
             "elections-politics": 5,
             "rates-fed": 2,
             "market-structure": 4
+          }
+        }
+      ]
+    },
+    "the-wall-street-skinny": {
+      "top_theme_ids": [
+        "hedge-funds",
+        "dealmaking",
+        "rates-fed",
+        "credit-markets",
+        "bond-market",
+        "inflation"
+      ],
+      "top_theme_labels": [
+        "Hedge Funds",
+        "IPOs & Dealmaking",
+        "Interest Rates & Fed Policy",
+        "Credit Markets",
+        "Bond Market & Yields",
+        "Inflation"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 1,
+          "avg_sentiment": -0.167,
+          "theme_counts": {
+            "rates-fed": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 5,
+          "avg_sentiment": -0.093,
+          "theme_counts": {
+            "hedge-funds": 2,
+            "dealmaking": 2,
+            "rates-fed": 2,
+            "bond-market": 1,
+            "inflation": 2
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 5,
+          "avg_sentiment": 0.2,
+          "theme_counts": {
+            "hedge-funds": 2,
+            "dealmaking": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 5,
+          "avg_sentiment": -0.2,
+          "theme_counts": {
+            "hedge-funds": 1,
+            "dealmaking": 2,
+            "rates-fed": 1,
+            "credit-markets": 3,
+            "bond-market": 2,
+            "inflation": 1
+          }
+        }
+      ]
+    },
+    "masters-in-business": {
+      "top_theme_ids": [
+        "inflation",
+        "passive-investing",
+        "retirement-planning",
+        "dealmaking",
+        "rates-fed",
+        "geopolitics-tariffs"
+      ],
+      "top_theme_labels": [
+        "Inflation",
+        "Passive Investing",
+        "Retirement Planning",
+        "IPOs & Dealmaking",
+        "Interest Rates & Fed Policy",
+        "Geopolitics & Tariffs"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 1,
+          "avg_sentiment": 0.3,
+          "theme_counts": {
+            "retirement-planning": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 5,
+          "avg_sentiment": 0.087,
+          "theme_counts": {
+            "inflation": 1,
+            "passive-investing": 1,
+            "dealmaking": 1
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 7,
+          "avg_sentiment": 0.091,
+          "theme_counts": {
+            "inflation": 3,
+            "passive-investing": 1,
+            "dealmaking": 1,
+            "rates-fed": 2,
+            "geopolitics-tariffs": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 7,
+          "avg_sentiment": 0.148,
+          "theme_counts": {
+            "inflation": 1,
+            "passive-investing": 2,
+            "retirement-planning": 2,
+            "dealmaking": 1,
+            "rates-fed": 1,
+            "geopolitics-tariffs": 1
+          }
+        }
+      ]
+    },
+    "planet-money": {
+      "top_theme_ids": [
+        "inflation",
+        "regulation-antitrust",
+        "rates-fed",
+        "college-savings",
+        "elections-politics",
+        "labor-market"
+      ],
+      "top_theme_labels": [
+        "Inflation",
+        "Regulation & Antitrust",
+        "Interest Rates & Fed Policy",
+        "College Savings & Student Debt",
+        "Elections & Politics",
+        "Labor Market"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {}
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 9,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "inflation": 1,
+            "rates-fed": 1
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 8,
+          "avg_sentiment": 0.021,
+          "theme_counts": {
+            "inflation": 1,
+            "regulation-antitrust": 2,
+            "rates-fed": 1,
+            "elections-politics": 1,
+            "labor-market": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 10,
+          "avg_sentiment": 0.017,
+          "theme_counts": {
+            "inflation": 1,
+            "college-savings": 1
+          }
+        }
+      ]
+    },
+    "so-money-with-farnoosh-torabi": {
+      "top_theme_ids": [
+        "rates-fed",
+        "budgeting-saving",
+        "retirement-planning",
+        "fire-movement",
+        "debt-payoff",
+        "housing"
+      ],
+      "top_theme_labels": [
+        "Interest Rates & Fed Policy",
+        "Budgeting & Saving",
+        "Retirement Planning",
+        "Financial Independence / FIRE",
+        "Debt Payoff",
+        "Housing Market"
+      ],
+      "months": [
+        {
+          "month": "2026-05",
+          "episode_count": 6,
+          "avg_sentiment": -0.061,
+          "theme_counts": {
+            "rates-fed": 1,
+            "budgeting-saving": 1,
+            "fire-movement": 1,
+            "debt-payoff": 2,
+            "housing": 1
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 8,
+          "avg_sentiment": 0.024,
+          "theme_counts": {
+            "rates-fed": 2,
+            "budgeting-saving": 2,
+            "retirement-planning": 3,
+            "fire-movement": 2,
+            "debt-payoff": 2,
+            "housing": 3
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 8,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "rates-fed": 2,
+            "budgeting-saving": 1,
+            "retirement-planning": 1,
+            "fire-movement": 1
+          }
+        }
+      ]
+    },
+    "motley-fool-hidden-gems": {
+      "top_theme_ids": [
+        "dealmaking",
+        "earnings",
+        "ai-boom",
+        "inflation",
+        "passive-investing",
+        "rates-fed"
+      ],
+      "top_theme_labels": [
+        "IPOs & Dealmaking",
+        "Corporate Earnings",
+        "AI & Machine Learning",
+        "Inflation",
+        "Passive Investing",
+        "Interest Rates & Fed Policy"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 3,
+          "avg_sentiment": 0.167,
+          "theme_counts": {
+            "earnings": 2
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 29,
+          "avg_sentiment": 0.167,
+          "theme_counts": {
+            "dealmaking": 7,
+            "earnings": 4,
+            "ai-boom": 5,
+            "inflation": 4,
+            "passive-investing": 1,
+            "rates-fed": 3
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 28,
+          "avg_sentiment": 0.116,
+          "theme_counts": {
+            "dealmaking": 8,
+            "earnings": 4,
+            "passive-investing": 3,
+            "rates-fed": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 28,
+          "avg_sentiment": 0.143,
+          "theme_counts": {
+            "dealmaking": 5,
+            "earnings": 4,
+            "ai-boom": 2,
+            "inflation": 2,
+            "passive-investing": 2,
+            "rates-fed": 1
+          }
+        }
+      ]
+    },
+    "thoughts-on-the-market": {
+      "top_theme_ids": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "commodities",
+        "bond-market",
+        "labor-market"
+      ],
+      "top_theme_labels": [
+        "Inflation",
+        "Interest Rates & Fed Policy",
+        "Geopolitics & Tariffs",
+        "Commodities",
+        "Bond Market & Yields",
+        "Labor Market"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 3,
+          "avg_sentiment": 0.222,
+          "theme_counts": {
+            "inflation": 2,
+            "rates-fed": 2,
+            "geopolitics-tariffs": 1,
+            "commodities": 1,
+            "bond-market": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 21,
+          "avg_sentiment": 0.157,
+          "theme_counts": {
+            "inflation": 9,
+            "rates-fed": 8,
+            "geopolitics-tariffs": 4,
+            "commodities": 6,
+            "bond-market": 3,
+            "labor-market": 4
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 21,
+          "avg_sentiment": 0.163,
+          "theme_counts": {
+            "inflation": 10,
+            "rates-fed": 9,
+            "geopolitics-tariffs": 5,
+            "commodities": 3,
+            "bond-market": 4,
+            "labor-market": 3
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 23,
+          "avg_sentiment": 0.042,
+          "theme_counts": {
+            "inflation": 12,
+            "rates-fed": 11,
+            "geopolitics-tariffs": 6,
+            "commodities": 5,
+            "bond-market": 6,
+            "labor-market": 4
+          }
+        }
+      ]
+    },
+    "bloomberg-surveillance": {
+      "top_theme_ids": [
+        "rates-fed",
+        "inflation",
+        "geopolitics-tariffs",
+        "bond-market",
+        "labor-market",
+        "ai-boom"
+      ],
+      "top_theme_labels": [
+        "Interest Rates & Fed Policy",
+        "Inflation",
+        "Geopolitics & Tariffs",
+        "Bond Market & Yields",
+        "Labor Market",
+        "AI & Machine Learning"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 6,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "rates-fed": 3,
+            "inflation": 1,
+            "ai-boom": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 33,
+          "avg_sentiment": 0.026,
+          "theme_counts": {
+            "rates-fed": 4,
+            "inflation": 8,
+            "geopolitics-tariffs": 6,
+            "bond-market": 6,
+            "labor-market": 1,
+            "ai-boom": 1
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 43,
+          "avg_sentiment": 0.031,
+          "theme_counts": {
+            "rates-fed": 16,
+            "inflation": 10,
+            "bond-market": 2,
+            "labor-market": 2,
+            "ai-boom": 1
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 39,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "rates-fed": 13,
+            "inflation": 10,
+            "geopolitics-tariffs": 3,
+            "bond-market": 1,
+            "labor-market": 5,
+            "ai-boom": 3
           }
         }
       ]
@@ -13254,74 +14103,6 @@
           "theme_counts": {
             "budgeting-saving": 10,
             "college-savings": 2
-          }
-        }
-      ]
-    },
-    "bloomberg-surveillance": {
-      "top_theme_ids": [
-        "rates-fed",
-        "inflation",
-        "geopolitics-tariffs",
-        "bond-market",
-        "labor-market",
-        "ai-boom"
-      ],
-      "top_theme_labels": [
-        "Interest Rates & Fed Policy",
-        "Inflation",
-        "Geopolitics & Tariffs",
-        "Bond Market & Yields",
-        "Labor Market",
-        "AI & Machine Learning"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 6,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "rates-fed": 3,
-            "inflation": 1,
-            "ai-boom": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 33,
-          "avg_sentiment": 0.026,
-          "theme_counts": {
-            "rates-fed": 4,
-            "inflation": 8,
-            "geopolitics-tariffs": 6,
-            "bond-market": 6,
-            "labor-market": 1,
-            "ai-boom": 1
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 43,
-          "avg_sentiment": 0.031,
-          "theme_counts": {
-            "rates-fed": 16,
-            "inflation": 10,
-            "bond-market": 2,
-            "labor-market": 2,
-            "ai-boom": 1
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 38,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "rates-fed": 12,
-            "inflation": 9,
-            "geopolitics-tariffs": 3,
-            "bond-market": 1,
-            "labor-market": 5,
-            "ai-boom": 3
           }
         }
       ]
@@ -14441,194 +15222,6 @@
         }
       ]
     },
-    "investtalk": {
-      "top_theme_ids": [
-        "inflation",
-        "bond-market",
-        "passive-investing",
-        "dividends-buybacks",
-        "rates-fed",
-        "commodities"
-      ],
-      "top_theme_labels": [
-        "Inflation",
-        "Bond Market & Yields",
-        "Passive Investing",
-        "Dividends & Buybacks",
-        "Interest Rates & Fed Policy",
-        "Commodities"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 2,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "inflation": 1,
-            "dividends-buybacks": 1,
-            "commodities": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 21,
-          "avg_sentiment": 0.008,
-          "theme_counts": {
-            "inflation": 5,
-            "bond-market": 6,
-            "passive-investing": 4,
-            "dividends-buybacks": 2,
-            "rates-fed": 3,
-            "commodities": 4
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 20,
-          "avg_sentiment": 0.006,
-          "theme_counts": {
-            "inflation": 7,
-            "bond-market": 4,
-            "passive-investing": 6,
-            "dividends-buybacks": 8,
-            "rates-fed": 6,
-            "commodities": 2
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 23,
-          "avg_sentiment": 0.066,
-          "theme_counts": {
-            "inflation": 5,
-            "bond-market": 4,
-            "passive-investing": 3,
-            "dividends-buybacks": 2,
-            "rates-fed": 3,
-            "commodities": 4
-          }
-        }
-      ]
-    },
-    "the-wall-street-skinny": {
-      "top_theme_ids": [
-        "dealmaking",
-        "rates-fed",
-        "hedge-funds",
-        "bond-market",
-        "inflation",
-        "credit-markets"
-      ],
-      "top_theme_labels": [
-        "IPOs & Dealmaking",
-        "Interest Rates & Fed Policy",
-        "Hedge Funds",
-        "Bond Market & Yields",
-        "Inflation",
-        "Credit Markets"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 1,
-          "avg_sentiment": -0.167,
-          "theme_counts": {
-            "rates-fed": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 5,
-          "avg_sentiment": -0.093,
-          "theme_counts": {
-            "dealmaking": 2,
-            "rates-fed": 2,
-            "hedge-funds": 2,
-            "bond-market": 1,
-            "inflation": 2
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 5,
-          "avg_sentiment": 0.2,
-          "theme_counts": {
-            "dealmaking": 1,
-            "hedge-funds": 2
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 4,
-          "avg_sentiment": -0.209,
-          "theme_counts": {
-            "dealmaking": 2,
-            "rates-fed": 1,
-            "bond-market": 2,
-            "inflation": 1,
-            "credit-markets": 2
-          }
-        }
-      ]
-    },
-    "stock-market-today-with-ibd": {
-      "top_theme_ids": [
-        "small-caps-value-growth",
-        "bond-market",
-        "dealmaking",
-        "earnings",
-        "inflation",
-        "commodities"
-      ],
-      "top_theme_labels": [
-        "Small-Caps, Value & Growth",
-        "Bond Market & Yields",
-        "IPOs & Dealmaking",
-        "Corporate Earnings",
-        "Inflation",
-        "Commodities"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 1,
-          "avg_sentiment": 0.167,
-          "theme_counts": {}
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 13,
-          "avg_sentiment": 0.145,
-          "theme_counts": {
-            "small-caps-value-growth": 3,
-            "bond-market": 2,
-            "dealmaking": 1,
-            "earnings": 1,
-            "inflation": 1,
-            "commodities": 2
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 10,
-          "avg_sentiment": -0.017,
-          "theme_counts": {
-            "inflation": 1
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 11,
-          "avg_sentiment": 0.013,
-          "theme_counts": {
-            "small-caps-value-growth": 2,
-            "bond-market": 1,
-            "dealmaking": 1,
-            "earnings": 1
-          }
-        }
-      ]
-    },
     "brew-markets": {
       "top_theme_ids": [
         "dealmaking",
@@ -14693,142 +15286,6 @@
             "earnings": 3,
             "elections-politics": 2,
             "inflation": 1
-          }
-        }
-      ]
-    },
-    "motley-fool-hidden-gems": {
-      "top_theme_ids": [
-        "dealmaking",
-        "earnings",
-        "ai-boom",
-        "inflation",
-        "passive-investing",
-        "rates-fed"
-      ],
-      "top_theme_labels": [
-        "IPOs & Dealmaking",
-        "Corporate Earnings",
-        "AI & Machine Learning",
-        "Inflation",
-        "Passive Investing",
-        "Interest Rates & Fed Policy"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 3,
-          "avg_sentiment": 0.167,
-          "theme_counts": {
-            "earnings": 2
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 29,
-          "avg_sentiment": 0.167,
-          "theme_counts": {
-            "dealmaking": 7,
-            "earnings": 4,
-            "ai-boom": 5,
-            "inflation": 4,
-            "passive-investing": 1,
-            "rates-fed": 3
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 28,
-          "avg_sentiment": 0.116,
-          "theme_counts": {
-            "dealmaking": 8,
-            "earnings": 4,
-            "passive-investing": 3,
-            "rates-fed": 1
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 27,
-          "avg_sentiment": 0.142,
-          "theme_counts": {
-            "dealmaking": 5,
-            "earnings": 4,
-            "ai-boom": 2,
-            "inflation": 2,
-            "passive-investing": 2,
-            "rates-fed": 1
-          }
-        }
-      ]
-    },
-    "thoughts-on-the-market": {
-      "top_theme_ids": [
-        "inflation",
-        "rates-fed",
-        "geopolitics-tariffs",
-        "commodities",
-        "bond-market",
-        "labor-market"
-      ],
-      "top_theme_labels": [
-        "Inflation",
-        "Interest Rates & Fed Policy",
-        "Geopolitics & Tariffs",
-        "Commodities",
-        "Bond Market & Yields",
-        "Labor Market"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 3,
-          "avg_sentiment": 0.222,
-          "theme_counts": {
-            "inflation": 2,
-            "rates-fed": 2,
-            "geopolitics-tariffs": 1,
-            "commodities": 1,
-            "bond-market": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 21,
-          "avg_sentiment": 0.157,
-          "theme_counts": {
-            "inflation": 9,
-            "rates-fed": 8,
-            "geopolitics-tariffs": 4,
-            "commodities": 6,
-            "bond-market": 3,
-            "labor-market": 4
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 21,
-          "avg_sentiment": 0.163,
-          "theme_counts": {
-            "inflation": 10,
-            "rates-fed": 9,
-            "geopolitics-tariffs": 5,
-            "commodities": 3,
-            "bond-market": 4,
-            "labor-market": 3
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 22,
-          "avg_sentiment": 0.013,
-          "theme_counts": {
-            "inflation": 12,
-            "rates-fed": 11,
-            "geopolitics-tariffs": 5,
-            "commodities": 5,
-            "bond-market": 6,
-            "labor-market": 4
           }
         }
       ]
@@ -15411,73 +15868,6 @@
         }
       ]
     },
-    "optimal-finance-daily": {
-      "top_theme_ids": [
-        "budgeting-saving",
-        "fire-movement",
-        "retirement-planning",
-        "debt-payoff",
-        "passive-investing",
-        "college-savings"
-      ],
-      "top_theme_labels": [
-        "Budgeting & Saving",
-        "Financial Independence / FIRE",
-        "Retirement Planning",
-        "Debt Payoff",
-        "Passive Investing",
-        "College Savings & Student Debt"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 2,
-          "avg_sentiment": 0.066,
-          "theme_counts": {
-            "budgeting-saving": 1,
-            "fire-movement": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 23,
-          "avg_sentiment": -0.014,
-          "theme_counts": {
-            "budgeting-saving": 7,
-            "fire-movement": 6,
-            "retirement-planning": 3,
-            "debt-payoff": 2,
-            "passive-investing": 1
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 23,
-          "avg_sentiment": 0.087,
-          "theme_counts": {
-            "budgeting-saving": 9,
-            "fire-movement": 4,
-            "retirement-planning": 2,
-            "debt-payoff": 2,
-            "passive-investing": 2,
-            "college-savings": 3
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 26,
-          "avg_sentiment": 0.045,
-          "theme_counts": {
-            "budgeting-saving": 8,
-            "fire-movement": 8,
-            "retirement-planning": 6,
-            "debt-payoff": 6,
-            "passive-investing": 4,
-            "college-savings": 3
-          }
-        }
-      ]
-    },
     "the-acquirers-podcast": {
       "top_theme_ids": [
         "hedge-funds",
@@ -15711,69 +16101,6 @@
           "avg_sentiment": -0.1,
           "theme_counts": {
             "dealmaking": 5
-          }
-        }
-      ]
-    },
-    "masters-in-business": {
-      "top_theme_ids": [
-        "inflation",
-        "passive-investing",
-        "retirement-planning",
-        "dealmaking",
-        "rates-fed",
-        "geopolitics-tariffs"
-      ],
-      "top_theme_labels": [
-        "Inflation",
-        "Passive Investing",
-        "Retirement Planning",
-        "IPOs & Dealmaking",
-        "Interest Rates & Fed Policy",
-        "Geopolitics & Tariffs"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 1,
-          "avg_sentiment": 0.3,
-          "theme_counts": {
-            "retirement-planning": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 5,
-          "avg_sentiment": 0.087,
-          "theme_counts": {
-            "inflation": 1,
-            "passive-investing": 1,
-            "dealmaking": 1
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 7,
-          "avg_sentiment": 0.091,
-          "theme_counts": {
-            "inflation": 3,
-            "passive-investing": 1,
-            "dealmaking": 1,
-            "rates-fed": 2,
-            "geopolitics-tariffs": 1
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 6,
-          "avg_sentiment": 0.172,
-          "theme_counts": {
-            "inflation": 1,
-            "passive-investing": 2,
-            "retirement-planning": 2,
-            "dealmaking": 1,
-            "rates-fed": 1,
-            "geopolitics-tariffs": 1
           }
         }
       ]
@@ -16136,62 +16463,6 @@
         }
       ]
     },
-    "so-money-with-farnoosh-torabi": {
-      "top_theme_ids": [
-        "budgeting-saving",
-        "rates-fed",
-        "retirement-planning",
-        "fire-movement",
-        "debt-payoff",
-        "housing"
-      ],
-      "top_theme_labels": [
-        "Budgeting & Saving",
-        "Interest Rates & Fed Policy",
-        "Retirement Planning",
-        "Financial Independence / FIRE",
-        "Debt Payoff",
-        "Housing Market"
-      ],
-      "months": [
-        {
-          "month": "2026-05",
-          "episode_count": 6,
-          "avg_sentiment": -0.061,
-          "theme_counts": {
-            "budgeting-saving": 1,
-            "rates-fed": 1,
-            "fire-movement": 1,
-            "debt-payoff": 2,
-            "housing": 1
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 8,
-          "avg_sentiment": 0.024,
-          "theme_counts": {
-            "budgeting-saving": 2,
-            "rates-fed": 2,
-            "retirement-planning": 3,
-            "fire-movement": 2,
-            "debt-payoff": 2,
-            "housing": 3
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 7,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "budgeting-saving": 1,
-            "rates-fed": 1,
-            "retirement-planning": 1,
-            "fire-movement": 1
-          }
-        }
-      ]
-    },
     "journey-to-launch": {
       "top_theme_ids": [
         "budgeting-saving",
@@ -16364,124 +16635,6 @@
             "inflation": 1,
             "emerging-markets": 1,
             "bond-market": 1
-          }
-        }
-      ]
-    },
-    "planet-money": {
-      "top_theme_ids": [
-        "inflation",
-        "regulation-antitrust",
-        "rates-fed",
-        "college-savings",
-        "elections-politics",
-        "labor-market"
-      ],
-      "top_theme_labels": [
-        "Inflation",
-        "Regulation & Antitrust",
-        "Interest Rates & Fed Policy",
-        "College Savings & Student Debt",
-        "Elections & Politics",
-        "Labor Market"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 1,
-          "avg_sentiment": 0.0,
-          "theme_counts": {}
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 9,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "inflation": 1,
-            "rates-fed": 1
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 8,
-          "avg_sentiment": 0.021,
-          "theme_counts": {
-            "inflation": 1,
-            "regulation-antitrust": 2,
-            "rates-fed": 1,
-            "elections-politics": 1,
-            "labor-market": 1
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 9,
-          "avg_sentiment": 0.019,
-          "theme_counts": {
-            "inflation": 1,
-            "college-savings": 1
-          }
-        }
-      ]
-    },
-    "the-retirement-and-ira-show": {
-      "top_theme_ids": [
-        "retirement-planning",
-        "inflation",
-        "diversification",
-        "tax-planning",
-        "estate-planning",
-        "elections-politics"
-      ],
-      "top_theme_labels": [
-        "Retirement Planning",
-        "Inflation",
-        "Diversification & Asset Allocation",
-        "Tax Planning",
-        "Estate Planning",
-        "Elections & Politics"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 1,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "retirement-planning": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 8,
-          "avg_sentiment": 0.033,
-          "theme_counts": {
-            "retirement-planning": 6,
-            "inflation": 2,
-            "diversification": 1,
-            "tax-planning": 2
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 8,
-          "avg_sentiment": -0.101,
-          "theme_counts": {
-            "retirement-planning": 8,
-            "diversification": 1,
-            "elections-politics": 1
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 8,
-          "avg_sentiment": 0.153,
-          "theme_counts": {
-            "retirement-planning": 7,
-            "inflation": 2,
-            "diversification": 1,
-            "tax-planning": 1,
-            "estate-planning": 2,
-            "elections-politics": 1
           }
         }
       ]
@@ -17356,58 +17509,6 @@
         }
       ]
     },
-    "slate-money": {
-      "top_theme_ids": [
-        "rates-fed",
-        "inflation",
-        "geopolitics-tariffs",
-        "regulation-antitrust",
-        "dealmaking",
-        "bond-market"
-      ],
-      "top_theme_labels": [
-        "Interest Rates & Fed Policy",
-        "Inflation",
-        "Geopolitics & Tariffs",
-        "Regulation & Antitrust",
-        "IPOs & Dealmaking",
-        "Bond Market & Yields"
-      ],
-      "months": [
-        {
-          "month": "2026-05",
-          "episode_count": 4,
-          "avg_sentiment": -0.066,
-          "theme_counts": {
-            "rates-fed": 1,
-            "inflation": 1
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 6,
-          "avg_sentiment": -0.139,
-          "theme_counts": {
-            "rates-fed": 3,
-            "inflation": 2,
-            "geopolitics-tariffs": 1,
-            "regulation-antitrust": 1,
-            "dealmaking": 1,
-            "bond-market": 2
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 5,
-          "avg_sentiment": -0.013,
-          "theme_counts": {
-            "geopolitics-tariffs": 1,
-            "regulation-antitrust": 1,
-            "dealmaking": 1
-          }
-        }
-      ]
-    },
     "retirement-power-play": {
       "top_theme_ids": [
         "retirement-planning",
@@ -18046,8 +18147,8 @@
       "podcast_name": "Thoughts on the Market",
       "published_at": "2026-07-30T20:30:00+00:00",
       "sentiment": -1.0,
-      "podcast_baseline_sentiment": 0.115,
-      "surprise": -1.115
+      "podcast_baseline_sentiment": 0.123,
+      "surprise": -1.123
     },
     {
       "guid": "gid://art19-episode-locator/V0/oKjoNKLq9o7LkIVWwxbBJAXrIUsemr0NpA7mzi53zJM",
@@ -18066,8 +18167,8 @@
       "podcast_name": "The Wall Street Skinny",
       "published_at": "2026-06-11T15:00:00+00:00",
       "sentiment": 1.0,
-      "podcast_baseline_sentiment": -0.031,
-      "surprise": 1.031
+      "podcast_baseline_sentiment": -0.04,
+      "surprise": 1.04
     },
     {
       "guid": "https://www.theretirementandirashow.com/?p=5340",
@@ -18076,8 +18177,8 @@
       "podcast_name": "The Retirement and IRA Show",
       "published_at": "2026-06-24T13:47:05+00:00",
       "sentiment": -1.0,
-      "podcast_baseline_sentiment": 0.027,
-      "surprise": -1.027
+      "podcast_baseline_sentiment": 0.026,
+      "surprise": -1.026
     },
     {
       "guid": "a17f4403-9de3-4def-bf8d-b481002ccc64",
@@ -18126,8 +18227,8 @@
       "podcast_name": "The Retirement and IRA Show",
       "published_at": "2026-07-15T06:00:54+00:00",
       "sentiment": 0.892,
-      "podcast_baseline_sentiment": 0.027,
-      "surprise": 0.865
+      "podcast_baseline_sentiment": 0.026,
+      "surprise": 0.866
     },
     {
       "guid": "b8f4b4cc-1936-4cbf-9f01-b5505872dd11",
@@ -18140,6 +18241,16 @@
       "surprise": 0.859
     },
     {
+      "guid": "36914a22-5943-11f1-bed4-cbfe1956b062",
+      "title": "S&P 500, Nasdaq Hit Highs As AI, Chips Run; Caterpillar, Viavi, Twilio Flash Buy Signals",
+      "podcast_id": "stock-market-today-with-ibd",
+      "podcast_name": "Stock Market Today With IBD",
+      "published_at": "2026-05-26T20:41:00+00:00",
+      "sentiment": 0.911,
+      "podcast_baseline_sentiment": 0.056,
+      "surprise": 0.855
+    },
+    {
       "guid": "f7ec02f4-0324-4618-b73e-aafa585c637a",
       "title": "All Hell Breaks Loose: BlackRock, JP Morgan, Blue Owl, OpenAI",
       "podcast_id": "eurodollar-university",
@@ -18148,16 +18259,6 @@
       "sentiment": -1.0,
       "podcast_baseline_sentiment": -0.145,
       "surprise": -0.855
-    },
-    {
-      "guid": "36914a22-5943-11f1-bed4-cbfe1956b062",
-      "title": "S&P 500, Nasdaq Hit Highs As AI, Chips Run; Caterpillar, Viavi, Twilio Flash Buy Signals",
-      "podcast_id": "stock-market-today-with-ibd",
-      "podcast_name": "Stock Market Today With IBD",
-      "published_at": "2026-05-26T20:41:00+00:00",
-      "sentiment": 0.911,
-      "podcast_baseline_sentiment": 0.058,
-      "surprise": 0.853
     },
     {
       "guid": "1d5972b8-635c-4e4f-a12e-b44900f8f0bd",
@@ -18200,6 +18301,16 @@
       "surprise": 0.808
     },
     {
+      "guid": "gid://art19-episode-locator/V0/5TwPkZN923Od7YI5Rujmw9mtxd9BIAixRaQX19C11Sc",
+      "title": "AI\u2019s Next Stress Test",
+      "podcast_id": "thoughts-on-the-market",
+      "podcast_name": "Thoughts on the Market",
+      "published_at": "2026-07-07T22:00:00+00:00",
+      "sentiment": -0.667,
+      "podcast_baseline_sentiment": 0.123,
+      "surprise": -0.79
+    },
+    {
       "guid": "gid://art19-episode-locator/V0/ht70JKGtg3oZh747tdvZpIQXzC3W42zaKiIFyZc1Qms",
       "title": "Everything You Actually Need to Know About Social Security Right Now (SB1873)",
       "podcast_id": "stacking-benjamins",
@@ -18208,16 +18319,6 @@
       "sentiment": 0.833,
       "podcast_baseline_sentiment": 0.048,
       "surprise": 0.785
-    },
-    {
-      "guid": "gid://art19-episode-locator/V0/5TwPkZN923Od7YI5Rujmw9mtxd9BIAixRaQX19C11Sc",
-      "title": "AI\u2019s Next Stress Test",
-      "podcast_id": "thoughts-on-the-market",
-      "podcast_name": "Thoughts on the Market",
-      "published_at": "2026-07-07T22:00:00+00:00",
-      "sentiment": -0.667,
-      "podcast_baseline_sentiment": 0.115,
-      "surprise": -0.782
     },
     {
       "guid": "2fb93f94-5d92-41dc-94d2-729a105b95d3",
@@ -18420,7 +18521,7 @@
       "b_label": "Verizon",
       "b_kind": "stock",
       "co_occurrences": 8,
-      "lift": 99.63
+      "lift": 100.09
     },
     {
       "a": "att",
@@ -18430,7 +18531,7 @@
       "b_label": "Verizon",
       "b_kind": "stock",
       "co_occurrences": 6,
-      "lift": 74.72
+      "lift": 75.07
     },
     {
       "a": "att",
@@ -18440,7 +18541,7 @@
       "b_label": "T-Mobile",
       "b_kind": "stock",
       "co_occurrences": 5,
-      "lift": 62.27
+      "lift": 62.56
     },
     {
       "a": "amd",
@@ -18450,7 +18551,7 @@
       "b_label": "Intel",
       "b_kind": "stock",
       "co_occurrences": 5,
-      "lift": 33.36
+      "lift": 33.51
     },
     {
       "a": "disney",
@@ -18460,7 +18561,7 @@
       "b_label": "Media & Entertainment",
       "b_kind": "sector",
       "co_occurrences": 9,
-      "lift": 27.71
+      "lift": 27.84
     },
     {
       "a": "intel",
@@ -18470,7 +18571,7 @@
       "b_label": "TSMC",
       "b_kind": "stock",
       "co_occurrences": 5,
-      "lift": 24.58
+      "lift": 24.69
     },
     {
       "a": "costco",
@@ -18480,7 +18581,7 @@
       "b_label": "Walmart",
       "b_kind": "stock",
       "co_occurrences": 10,
-      "lift": 23.43
+      "lift": 22.67
     },
     {
       "a": "apple",
@@ -18490,7 +18591,7 @@
       "b_label": "Intel",
       "b_kind": "stock",
       "co_occurrences": 5,
-      "lift": 22.24
+      "lift": 22.34
     },
     {
       "a": "safe-havens",
@@ -18500,7 +18601,7 @@
       "b_label": "Volatility & Vol Regime",
       "b_kind": "theme",
       "co_occurrences": 5,
-      "lift": 19.46
+      "lift": 19.55
     },
     {
       "a": "amd",
@@ -18510,7 +18611,7 @@
       "b_label": "TSMC",
       "b_kind": "stock",
       "co_occurrences": 7,
-      "lift": 18.43
+      "lift": 18.52
     },
     {
       "a": "consumer-discretionary",
@@ -18520,7 +18621,7 @@
       "b_label": "Consumer Health",
       "b_kind": "theme",
       "co_occurrences": 34,
-      "lift": 17.75
+      "lift": 17.83
     },
     {
       "a": "russell2000",
@@ -18530,7 +18631,7 @@
       "b_label": "Small-Caps, Value & Growth",
       "b_kind": "theme",
       "co_occurrences": 8,
-      "lift": 16.1
+      "lift": 16.18
     },
     {
       "a": "emerging-markets",
@@ -18540,7 +18641,7 @@
       "b_label": "Utilities & Power",
       "b_kind": "sector",
       "co_occurrences": 5,
-      "lift": 15.92
+      "lift": 15.99
     },
     {
       "a": "media-entertainment",
@@ -18550,7 +18651,7 @@
       "b_label": "Netflix",
       "b_kind": "stock",
       "co_occurrences": 10,
-      "lift": 15.7
+      "lift": 15.77
     },
     {
       "a": "bank-of-america",
@@ -18560,7 +18661,7 @@
       "b_label": "JPMorgan",
       "b_kind": "stock",
       "co_occurrences": 12,
-      "lift": 14.83
+      "lift": 14.72
     },
     {
       "a": "currency-dollar",
@@ -18570,7 +18671,7 @@
       "b_label": "Geopolitics & Tariffs",
       "b_kind": "theme",
       "co_occurrences": 8,
-      "lift": 14.35
+      "lift": 14.22
     },
     {
       "a": "market-timing-dca",
@@ -18580,7 +18681,7 @@
       "b_label": "Volatility & Vol Regime",
       "b_kind": "theme",
       "co_occurrences": 12,
-      "lift": 14.01
+      "lift": 14.08
     },
     {
       "a": "amd",
@@ -18590,7 +18691,7 @@
       "b_label": "Nvidia",
       "b_kind": "stock",
       "co_occurrences": 24,
-      "lift": 13.72
+      "lift": 13.79
     },
     {
       "a": "earnings",
@@ -18600,7 +18701,7 @@
       "b_label": "Russell 2000",
       "b_kind": "stock",
       "co_occurrences": 5,
-      "lift": 13.58
+      "lift": 13.64
     },
     {
       "a": "russell2000",
@@ -18610,13 +18711,13 @@
       "b_label": "S&P 500",
       "b_kind": "stock",
       "co_occurrences": 8,
-      "lift": 13.54
+      "lift": 13.6
     }
   ],
   "guests": [
     {
       "name": "Jim Cramer",
-      "episode_count": 65,
+      "episode_count": 66,
       "avg_sentiment": 0.013,
       "top_entities": [
         "ai-infrastructure",
