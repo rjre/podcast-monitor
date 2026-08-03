@@ -85,7 +85,13 @@ def transcribe_file(path, model_size="base", model=None):
 
     if model is None:
         model = WhisperModel(model_size, device="cpu", compute_type="int8")
-    segments, info = model.transcribe(path, beam_size=1, vad_filter=True)
+    # Every podcast in config/podcasts.json is English-language. Without
+    # language="en", Whisper's language auto-detection occasionally locks
+    # onto a short noisy/musical segment and misdetects the whole episode
+    # as some other language, which then decodes as a handful of garbled
+    # words instead of a real transcript (near-total transcription failure
+    # that still silently reports success).
+    segments, info = model.transcribe(path, beam_size=1, vad_filter=True, language="en")
     text = " ".join(seg.text.strip() for seg in segments)
     return text.strip(), info
 
