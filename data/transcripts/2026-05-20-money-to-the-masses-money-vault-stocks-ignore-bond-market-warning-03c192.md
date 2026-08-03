@@ -8,15 +8,11 @@ link: "https://podcasters.spotify.com/pod/show/mttm7/episodes/Money-Vault---Stoc
 duration: "00:17:58"
 word_count: 43
 language: "el"
-tags_source: "keyword"
-sectors: ["consumer-discretionary"]
-themes: ["recession", "bond-market", "consumer-health"]
-stocks: ["meta"]
-sentiment: -0.167
-sentiment_hits: 3
-sentiment_confidence: 0.5
-entity_mentions: {"consumer-discretionary": 1, "recession": 1, "bond-market": 1, "consumer-health": 1, "meta": 2}
-entity_mention_density: {"consumer-discretionary": 5.2, "recession": 5.2, "bond-market": 5.2, "consumer-health": 5.2, "meta": 10.4}
-entity_sentiment: {"consumer-discretionary": -1.0, "bond-market": -1.0, "consumer-health": -1.0, "recession": -1.0, "meta": -1.0}
+tags_source: "claude-manual"
+sectors: []
+themes: ["recession", "bond-market"]
+stocks: []
+sentiment: -0.3
+summary: "Transcript is badly garbled/mistranscribed (misdetected as Greek), but the surviving fragment references stocks \"ignoring\" a bond-market warning tied to weakening consumer spending and recession risk, per the episode title."
 ---
 αιει gonna be a a a a a to be a a a a a a a a a a a a a a κερδοδοδοδοδοδοδοδοδοδοδο damp and consumer spending for example, the economy to start to contract. We get the recession, Έχ Είμαστε

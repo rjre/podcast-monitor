@@ -8,14 +8,11 @@ link: ""
 duration: "435"
 word_count: 121
 language: "en"
-tags_source: "keyword"
+tags_source: "claude-manual"
 sectors: ["semiconductors", "ai-infrastructure"]
-themes: ["rates-fed"]
+themes: ["rates-fed", "geopolitics-tariffs"]
 stocks: ["boeing"]
-sentiment: 0.0
-sentiment_hits: 0
-sentiment_confidence: 0.0
-entity_mentions: {"semiconductors": 1, "ai-infrastructure": 1, "rates-fed": 2, "boeing": 1}
-entity_mention_density: {"semiconductors": 5.1, "ai-infrastructure": 5.1, "rates-fed": 10.2, "boeing": 5.1}
+sentiment: 0.1
+summary: "Brief update noting Nvidia CEO Jensen Huang joined a last-minute delegation amid AI-chip-to-China policy debate, and that Trump said China would place a ~$200B Boeing order (its first in over a decade, though smaller than an earlier-floated $500B figure) -- with Fed commentary also in focus."
 ---
 with the 100 AI chips to China, even even though it's CEO-C Yo-Jensen Huayn came on the trip last minute edition. Additionally, Trump told Fox News yesterday-Nuz-Yas today that Boeing China would be ordering new planes around at 200 worth. That is a big deal that would be the my first order from China and over a decade. It was far less than the 500 that even get an announcement on whether the current trade troops would be extended any further So, that's what, that's what I mean. That's, that's what I mean. But wash has some major challenges challenges ahead of him, doesn't he? Well, that's the way to how the Fed is feeling right now and comments from Fed's

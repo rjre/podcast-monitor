@@ -8,15 +8,11 @@ link: ""
 duration: "1438"
 word_count: 44
 language: "ar"
-tags_source: "keyword"
+tags_source: "claude-manual"
 sectors: []
-themes: ["inflation", "elections-politics"]
-stocks: ["bitcoin", "goldman-sachs"]
-sentiment: 0.167
-sentiment_hits: 1
-sentiment_confidence: 0.167
-entity_mentions: {"inflation": 2, "elections-politics": 1, "goldman-sachs": 1, "bitcoin": 2}
-entity_mention_density: {"inflation": 4.0, "elections-politics": 2.0, "goldman-sachs": 2.0, "bitcoin": 4.0}
-entity_sentiment: {"elections-politics": 1.0}
+themes: []
+stocks: []
+sentiment: 0.0
+summary: "Transcript is almost entirely garbled/mistranscribed (misdetected as Arabic), yielding no usable content."
 ---
 , لا. لا. لا. لا. لا. ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... a لقد فعلت
