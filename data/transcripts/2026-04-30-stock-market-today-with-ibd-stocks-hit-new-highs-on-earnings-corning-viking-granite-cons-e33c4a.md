@@ -8,15 +8,11 @@ link: "https://stock-market-today-with-ibd.simplecast.com/episodes/stocks-hit-ne
 duration: "00:21:56"
 word_count: 22
 language: "hu"
-tags_source: "keyword"
+tags_source: "claude-manual"
 sectors: []
 themes: []
 stocks: ["sp500"]
-sentiment: 0.167
-sentiment_hits: 1
-sentiment_confidence: 0.167
-entity_mentions: {"sp500": 1}
-entity_mention_density: {"sp500": 18.5}
-entity_sentiment: {"sp500": 1.0}
+sentiment: 0.1
+summary: "Transcript audio was badly garbled/mistranscribed (misdetected as Hungarian), leaving only a fragment noting the S&P 500 was up about 1% on the day -- no other reliable content could be extracted."
 ---
 They, the small is gained on the day, the S&P 500 500, 500, up about a 1% ött, ilyen a a for
