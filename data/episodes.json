@@ -1922,32 +1922,58 @@
     "duration": "29:47",
     "audio_url": "https://sphinx.acast.com/p/open/s/65675c71c3ca8a0012804645/e/6a750c39237988582e74f4fa/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=4ITkv6gysa2xZVgYjabbGC7e08fx3L21AglxNJFusa4",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "insurance"
+      ],
       "themes": [
         "college-savings",
+        "budgeting-saving",
         "retirement-planning",
+        "recession",
+        "insurance-products",
         "estate-planning"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "retirement-planning": 1,
+        "insurance": 1,
+        "healthcare": 4,
+        "recession": 2,
+        "budgeting-saving": 3,
+        "retirement-planning": 3,
         "estate-planning": 1,
-        "college-savings": 3
+        "college-savings": 8,
+        "insurance-products": 2
       },
       "entity_mention_density": {
-        "retirement-planning": 5.0,
-        "estate-planning": 5.0,
-        "college-savings": 14.9
+        "insurance": 0.2,
+        "healthcare": 0.8,
+        "recession": 0.4,
+        "budgeting-saving": 0.6,
+        "retirement-planning": 0.6,
+        "estate-planning": 0.2,
+        "college-savings": 1.5,
+        "insurance-products": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "recession": 0.0
+      },
+      "entity_conviction": {
+        "recession": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, College Savings & Student Debt, Budgeting & Saving, Retirement Planning, Recession Risk. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-so-money-with-farnoosh-torabi-2019-ask-farnoosh-what-to-ask-my-parents-before-they-retire-74f4fa.md",
+    "transcript_word_count": 4992,
+    "transcript_language": "en"
   },
   {
     "guid": "e6ae37d0-8936-11f1-8ed0-b340ea3b5632",
@@ -5157,29 +5183,82 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/traffic.megaphone.fm/SLT3422082896.mp3",
     "tags": {
       "sectors": [
-        "consumer-staples"
+        "media-entertainment",
+        "banks",
+        "consumer-staples",
+        "real-estate"
       ],
       "themes": [
-        "labor-market"
+        "tax-planning",
+        "ai-boom",
+        "labor-market",
+        "regulation-antitrust"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "att",
+        "amazon",
+        "charles-schwab",
+        "disney",
+        "costco"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "banks": 1,
         "consumer-staples": 1,
-        "labor-market": 1
+        "real-estate": 1,
+        "media-entertainment": 2,
+        "ai-boom": 1,
+        "labor-market": 1,
+        "regulation-antitrust": 1,
+        "tax-planning": 2,
+        "amazon": 4,
+        "att": 7,
+        "costco": 2,
+        "charles-schwab": 4,
+        "disney": 3
       },
       "entity_mention_density": {
-        "consumer-staples": 3.8,
-        "labor-market": 3.8
+        "banks": 0.2,
+        "consumer-staples": 0.2,
+        "real-estate": 0.2,
+        "media-entertainment": 0.4,
+        "ai-boom": 0.2,
+        "labor-market": 0.2,
+        "regulation-antitrust": 0.2,
+        "tax-planning": 0.4,
+        "amazon": 0.8,
+        "att": 1.3,
+        "costco": 0.4,
+        "charles-schwab": 0.8,
+        "disney": 0.6
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "att": -1.0,
+        "charles-schwab": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": 0.0,
+        "media-entertainment": 0.0,
+        "ai-boom": 0.0,
+        "regulation-antitrust": 0.0,
+        "att": -0.333,
+        "charles-schwab": -1.0,
+        "amazon": 0.0,
+        "costco": 0.0,
+        "disney": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, Banks & Financials, Consumer Staples, Tax Planning, AI & Machine Learning, Labor Market, Regulation & Antitrust. Mentions AT&T, Amazon, Charles Schwab, Disney, Costco. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-the-clark-howard-podcast-08-05-26-starting-a-small-business-automated-check-out-warni-25a0d4.md",
+    "transcript_word_count": 4926,
+    "transcript_language": "en"
   },
   {
     "guid": "6a6fb24fbfc42315fe578b02",
@@ -5718,28 +5797,121 @@
     "duration": "1922",
     "audio_url": "https://traffic.megaphone.fm/BWG3604561581.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "bond-market"
+      "sectors": [
+        "banks",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "themes": [
+        "rates-fed",
+        "bond-market",
+        "passive-investing",
+        "housing",
+        "inflation",
+        "japan",
+        "volatility",
+        "market-structure"
+      ],
+      "stocks": [
+        "sp500",
+        "amazon",
+        "jpmorgan",
+        "nasdaq"
+      ],
+      "sentiment": -0.273,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "bond-market": 2
+        "banks": 2,
+        "real-estate": 2,
+        "inflation": 1,
+        "rates-fed": 15,
+        "japan": 1,
+        "housing": 2,
+        "volatility": 1,
+        "bond-market": 7,
+        "passive-investing": 4,
+        "market-structure": 1,
+        "amazon": 1,
+        "jpmorgan": 1,
+        "sp500": 5,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "bond-market": 7.9
+        "banks": 0.4,
+        "real-estate": 0.4,
+        "inflation": 0.2,
+        "rates-fed": 2.6,
+        "japan": 0.2,
+        "housing": 0.4,
+        "volatility": 0.2,
+        "bond-market": 1.2,
+        "passive-investing": 0.7,
+        "market-structure": 0.2,
+        "amazon": 0.2,
+        "jpmorgan": 0.2,
+        "sp500": 0.9,
+        "nasdaq": 0.2
       },
       "entity_sentiment": {
-        "bond-market": -1.0
+        "banks": 0.0,
+        "bond-market": -0.111,
+        "inflation": 0.0,
+        "rates-fed": 0.0,
+        "japan": 0.0,
+        "housing": 0.0,
+        "volatility": 0.0,
+        "market-structure": 0.0,
+        "sp500": 0.0,
+        "jpmorgan": 0.0,
+        "nasdaq": 0.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_conviction": {
+        "banks": -0.952,
+        "bond-market": -0.952,
+        "inflation": -0.952,
+        "rates-fed": -0.952,
+        "japan": -0.952,
+        "housing": -0.952,
+        "volatility": -0.952,
+        "market-structure": -0.952,
+        "sp500": -0.952,
+        "jpmorgan": -0.952,
+        "nasdaq": -0.952
+      },
+      "entity_stance": {
+        "banks": "sell",
+        "bond-market": "sell",
+        "inflation": "sell",
+        "rates-fed": "sell",
+        "japan": "sell",
+        "housing": "sell",
+        "volatility": "sell",
+        "market-structure": "sell",
+        "sp500": "sell",
+        "jpmorgan": "sell",
+        "nasdaq": "sell"
+      },
+      "entity_contested": [
+        "banks",
+        "bond-market",
+        "inflation",
+        "rates-fed",
+        "japan",
+        "housing",
+        "volatility",
+        "market-structure",
+        "sp500",
+        "jpmorgan",
+        "nasdaq"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Real Estate, Interest Rates & Fed Policy, Bond Market & Yields, Passive Investing, Housing Market. Mentions S&P 500, Amazon, JPMorgan, Nasdaq. Tone leans bearish (-0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-forward-guidance-the-portfolio-built-to-survive-every-crash-jared-dillian-51f44a.md",
+    "transcript_word_count": 5428,
+    "transcript_language": "en"
   },
   {
     "guid": "https://www.theretirementandirashow.com/?p=5362",
@@ -6527,40 +6699,66 @@
         "consumer-discretionary"
       ],
       "themes": [
-        "retirement-planning",
         "inflation",
-        "diversification"
+        "retirement-planning",
+        "rates-fed",
+        "diversification",
+        "insurance-products",
+        "estate-planning",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "ethereum"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 1.0,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "consumer-discretionary": 1,
-        "inflation": 1,
-        "retirement-planning": 2,
-        "diversification": 1,
-        "amazon": 1
+        "inflation": 21,
+        "rates-fed": 3,
+        "retirement-planning": 4,
+        "dividends-buybacks": 1,
+        "diversification": 3,
+        "estate-planning": 2,
+        "insurance-products": 3,
+        "amazon": 1,
+        "ethereum": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 3.4,
-        "inflation": 3.4,
-        "retirement-planning": 6.7,
-        "diversification": 3.4,
-        "amazon": 3.4
+        "consumer-discretionary": 0.2,
+        "inflation": 3.8,
+        "rates-fed": 0.5,
+        "retirement-planning": 0.7,
+        "dividends-buybacks": 0.2,
+        "diversification": 0.5,
+        "estate-planning": 0.4,
+        "insurance-products": 0.5,
+        "amazon": 0.2,
+        "ethereum": 0.2
       },
       "entity_sentiment": {
         "diversification": 1.0,
         "inflation": 1.0,
         "retirement-planning": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "diversification": -1.0,
+        "estate-planning": -1.0
+      },
+      "entity_stance": {
+        "inflation": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Inflation, Retirement Planning, Interest Rates & Fed Policy, Diversification & Asset Allocation. Mentions Amazon, Ethereum. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-04-retire-with-style-episode-240-does-sequence-risk-last-longer-than-you-think-97a5f2.md",
+    "transcript_word_count": 5193,
+    "transcript_language": "en"
   },
   {
     "guid": "3bf45e3c-7e20-471c-bf69-3fc46b901b5b",
@@ -14964,26 +15162,49 @@
     "duration": "1222",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/37633b9a-d66d-4006-80bb-b49601535d4f/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance"
+      ],
       "themes": [
+        "budgeting-saving",
         "fire-movement"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "vanguard",
+        "tesla"
+      ],
+      "sentiment": 0.219,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "fire-movement": 1
+        "insurance": 1,
+        "budgeting-saving": 2,
+        "fire-movement": 1,
+        "tesla": 4,
+        "vanguard": 7
       },
       "entity_mention_density": {
-        "fire-movement": 8.9
+        "insurance": 0.2,
+        "budgeting-saving": 0.4,
+        "fire-movement": 0.2,
+        "tesla": 0.9,
+        "vanguard": 1.6
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "insurance": -1.0,
+        "vanguard": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Budgeting & Saving, Financial Independence / FIRE. Mentions Vanguard, Tesla. Tone leans bullish (+0.22).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-masters-in-business-at-the-money-living-a-life-of-purpose-535d4f.md",
+    "transcript_word_count": 4334,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/AKQc53RyHwcX_AX6a8zJNP3ZZaFExErexlGr3UjpD0Q",
@@ -42040,25 +42261,142 @@
     "audio_url": "https://afp-956310-injected.calisto.simplecastaudio.com/d27c977a-47cf-41b9-923d-545b2b0f9f45/episodes/ce178689-975d-4d3c-8627-3620892630d5/audio/128/default.mp3?aid=rss_feed&awCollectionId=d27c977a-47cf-41b9-923d-545b2b0f9f45&awEpisodeId=ce178689-975d-4d3c-8627-3620892630d5&feed=3Or7cJoW",
     "tags": {
       "sectors": [
-        "banks"
+        "banks",
+        "semiconductors",
+        "energy",
+        "private-markets",
+        "ai-infrastructure",
+        "insurance",
+        "telecoms",
+        "technology"
       ],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "inflation",
+        "dividends-buybacks",
+        "valuation",
+        "commodities",
+        "rates-fed",
+        "ai-boom",
+        "earnings",
+        "dealmaking",
+        "bond-market",
+        "diversification"
+      ],
+      "stocks": [
+        "microsoft",
+        "broadcom",
+        "verizon",
+        "charles-schwab",
+        "amd",
+        "tsmc",
+        "tmobile",
+        "goldman-sachs",
+        "morgan-stanley",
+        "sp500"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "banks": 1
+        "technology": 1,
+        "semiconductors": 7,
+        "ai-infrastructure": 2,
+        "banks": 8,
+        "insurance": 2,
+        "energy": 7,
+        "telecoms": 2,
+        "private-markets": 4,
+        "inflation": 16,
+        "rates-fed": 4,
+        "ai-boom": 4,
+        "commodities": 5,
+        "dealmaking": 1,
+        "earnings": 2,
+        "bond-market": 1,
+        "dividends-buybacks": 7,
+        "valuation": 6,
+        "diversification": 1,
+        "microsoft": 8,
+        "amd": 1,
+        "tsmc": 1,
+        "verizon": 3,
+        "tmobile": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 1,
+        "sp500": 1,
+        "charles-schwab": 3,
+        "broadcom": 5
       },
       "entity_mention_density": {
-        "banks": 90.9
+        "technology": 0.1,
+        "semiconductors": 1.0,
+        "ai-infrastructure": 0.3,
+        "banks": 1.1,
+        "insurance": 0.3,
+        "energy": 1.0,
+        "telecoms": 0.3,
+        "private-markets": 0.5,
+        "inflation": 2.2,
+        "rates-fed": 0.5,
+        "ai-boom": 0.5,
+        "commodities": 0.7,
+        "dealmaking": 0.1,
+        "earnings": 0.3,
+        "bond-market": 0.1,
+        "dividends-buybacks": 1.0,
+        "valuation": 0.8,
+        "diversification": 0.1,
+        "microsoft": 1.1,
+        "amd": 0.1,
+        "tsmc": 0.1,
+        "verizon": 0.4,
+        "tmobile": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.1,
+        "sp500": 0.1,
+        "charles-schwab": 0.4,
+        "broadcom": 0.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "banks": -1.0,
+        "energy": -1.0,
+        "semiconductors": 0.0,
+        "commodities": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": -1.0,
+        "valuation": -1.0,
+        "ai-boom": 1.0,
+        "goldman-sachs": -1.0,
+        "morgan-stanley": -1.0,
+        "microsoft": 1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "energy": -1.0,
+        "semiconductors": -1.0,
+        "commodities": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "valuation": -0.5,
+        "ai-boom": -1.0,
+        "earnings": -1.0,
+        "amd": -1.0,
+        "tmobile": -1.0,
+        "verizon": -1.0,
+        "microsoft": -1.0,
+        "charles-schwab": -1.0,
+        "broadcom": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Semiconductors, Energy & Oil, Inflation, Dividends & Buybacks, Valuation, Commodities. Mentions Microsoft, Broadcom, Verizon, Charles Schwab, AMD. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-the-morning-filter-5-high-conviction-stocks-to-buy-88f351.md",
+    "transcript_word_count": 7284,
+    "transcript_language": "en"
   },
   {
     "guid": "2ff68563-7285-41f6-ad54-b48600dad88a",
@@ -62582,20 +62920,61 @@
     "duration": "00:08:19",
     "audio_url": "https://traffic.megaphone.fm/APO9923981570.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "real-estate",
+        "consumer-discretionary"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "labor-market",
+        "consumer-health",
+        "housing"
+      ],
+      "stocks": [
+        "bitcoin"
+      ],
+      "sentiment": -0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "consumer-discretionary": 2,
+        "real-estate": 3,
+        "inflation": 7,
+        "rates-fed": 4,
+        "labor-market": 3,
+        "housing": 1,
+        "consumer-health": 2,
+        "bitcoin": 2
+      },
+      "entity_mention_density": {
+        "consumer-discretionary": 1.5,
+        "real-estate": 2.3,
+        "inflation": 5.3,
+        "rates-fed": 3.0,
+        "labor-market": 2.3,
+        "housing": 0.8,
+        "consumer-health": 1.5,
+        "bitcoin": 1.5
+      },
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "labor-market": -1.0,
+        "inflation": -1.0
+      },
+      "entity_conviction": {
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Consumer Discretionary, Inflation, Interest Rates & Fed Policy, Labor Market, Consumer Health. Mentions Bitcoin. Tone leans bearish (-0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-one-rental-at-a-time-the-american-dream-is-dead-7aaba8.md",
+    "transcript_word_count": 1235,
+    "transcript_language": "en"
   },
   {
     "guid": "bcf2a88e-05d5-11f1-92e5-ff9ba08e2b7e",
@@ -67265,25 +67644,70 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/774dd005-8b31-4ba1-9549-b474011e8753/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "autos-ev",
+        "insurance",
+        "airlines-travel",
+        "ai-infrastructure",
+        "crypto"
       ],
-      "themes": [],
+      "themes": [
+        "ai-boom",
+        "geopolitics-tariffs",
+        "valuation",
+        "china",
+        "dealmaking"
+      ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.059,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1
+        "ai-infrastructure": 1,
+        "insurance": 4,
+        "energy": 11,
+        "autos-ev": 7,
+        "airlines-travel": 2,
+        "crypto": 1,
+        "ai-boom": 2,
+        "china": 1,
+        "geopolitics-tariffs": 2,
+        "dealmaking": 1,
+        "valuation": 2
       },
       "entity_mention_density": {
-        "energy": 6.0
+        "ai-infrastructure": 0.1,
+        "insurance": 0.6,
+        "energy": 1.6,
+        "autos-ev": 1.0,
+        "airlines-travel": 0.3,
+        "crypto": 0.1,
+        "ai-boom": 0.3,
+        "china": 0.1,
+        "geopolitics-tariffs": 0.3,
+        "dealmaking": 0.1,
+        "valuation": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 1.0,
+        "insurance": -1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "autos-ev": -1.0,
+        "china": -1.0,
+        "geopolitics-tariffs": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Autos & EVs, Insurance, AI & Machine Learning, Geopolitics & Tariffs, Valuation, China Economy. Tone reads roughly neutral (+0.06).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-odd-lots-rory-johnston-on-why-his-200-oil-prediction-didn-t-turn-out-1e8753.md",
+    "transcript_word_count": 6822,
+    "transcript_language": "en"
   },
   {
     "guid": "86e4c3ab-1834-4853-a2c1-b47301298b77",
@@ -72781,7 +73205,8 @@
     "audio_url": "https://traffic.megaphone.fm/RRM6611257892.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "industrials"
       ],
       "themes": [],
       "stocks": [],
@@ -72789,17 +73214,25 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "technology": 1
+        "technology": 3,
+        "industrials": 1
       },
       "entity_mention_density": {
-        "technology": 2.8
+        "technology": 0.6,
+        "industrials": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Industrials. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-23-riskreversal-pod-ilir-sela-at-grimaldi-s-pizzeria-standing-table-5-f3db12.md",
+    "transcript_word_count": 4795,
+    "transcript_language": "en"
   },
   {
     "guid": "0394628e-eda6-11f0-b3ce-f39330817d65",
@@ -75332,23 +75765,30 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving",
         "fire-movement",
-        "retirement-planning"
+        "budgeting-saving",
+        "retirement-planning",
+        "passive-income"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": 0.278,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "fire-movement": 1,
-        "retirement-planning": 1
+        "budgeting-saving": 3,
+        "fire-movement": 5,
+        "retirement-planning": 1,
+        "passive-income": 1,
+        "meta": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.6,
-        "fire-movement": 1.6,
-        "retirement-planning": 1.6
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.4,
+        "retirement-planning": 0.1,
+        "passive-income": 0.1,
+        "meta": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {
@@ -75357,7 +75797,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Financial Independence / FIRE, Budgeting & Saving, Retirement Planning, Passive Income & Side Hustles. Mentions Meta. Tone leans bullish (+0.28).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-choosefi-604-getting-personal-with-personal-finance-bill-yount-5eef94.md",
+    "transcript_word_count": 10962,
+    "transcript_language": "en"
   },
   {
     "guid": "f747079c-b418-11ef-adc4-f7a006e99c5e",
@@ -99402,55 +99848,88 @@
       "sectors": [
         "private-markets",
         "technology",
+        "energy",
         "ai-infrastructure"
       ],
       "themes": [
-        "market-concentration",
         "volatility",
+        "dealmaking",
+        "market-concentration",
+        "hedge-funds",
         "passive-investing",
         "market-structure"
       ],
       "stocks": [
         "tesla",
         "sp500",
-        "nasdaq"
+        "nasdaq",
+        "nvidia",
+        "microsoft",
+        "alphabet"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.286,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
+        "technology": 3,
         "ai-infrastructure": 1,
-        "private-markets": 2,
-        "volatility": 1,
+        "energy": 2,
+        "private-markets": 6,
+        "volatility": 10,
+        "dealmaking": 6,
+        "hedge-funds": 1,
         "passive-investing": 1,
         "market-structure": 1,
-        "market-concentration": 2,
-        "tesla": 2,
-        "sp500": 2,
-        "nasdaq": 2
+        "market-concentration": 4,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "tesla": 17,
+        "sp500": 10,
+        "nasdaq": 6
       },
       "entity_mention_density": {
-        "technology": 3.0,
-        "ai-infrastructure": 3.0,
-        "private-markets": 6.0,
-        "volatility": 3.0,
-        "passive-investing": 3.0,
-        "market-structure": 3.0,
-        "market-concentration": 6.0,
-        "tesla": 6.0,
-        "sp500": 6.0,
-        "nasdaq": 6.0
+        "technology": 0.4,
+        "ai-infrastructure": 0.1,
+        "energy": 0.3,
+        "private-markets": 0.9,
+        "volatility": 1.4,
+        "dealmaking": 0.9,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.1,
+        "market-structure": 0.1,
+        "market-concentration": 0.6,
+        "nvidia": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "tesla": 2.5,
+        "sp500": 1.4,
+        "nasdaq": 0.9
       },
       "entity_sentiment": {
         "passive-investing": 0.0,
         "market-concentration": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "technology": -1.0,
+        "volatility": -1.0,
+        "dealmaking": -1.0,
+        "hedge-funds": -1.0,
+        "tesla": -1.0,
+        "nasdaq": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Technology, Energy & Oil, Volatility & Vol Regime, IPOs & Dealmaking, Market Concentration / Mega-cap, Hedge Funds. Mentions Tesla, S&P 500, Nasdaq, Nvidia, Microsoft. Tone leans bullish (+0.29).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-06-the-wall-street-skinny-spacex-just-rewrote-the-rules-of-the-stock-market-and-most-p-302689.md",
+    "transcript_word_count": 6590,
+    "transcript_language": "en"
   },
   {
     "guid": "4a38275a-5f5e-11f1-b816-33b0d10b227e",
@@ -107266,35 +107745,74 @@
     "duration": "2382",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS2021561860.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "media-entertainment",
+        "industrials",
+        "airlines-travel"
+      ],
       "themes": [
         "budgeting-saving",
-        "ai-boom"
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "currency-dollar"
       ],
       "stocks": [
-        "amazon"
+        "bitcoin",
+        "disney",
+        "amazon",
+        "alphabet"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.8,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "real-estate": 2,
+        "industrials": 1,
+        "media-entertainment": 2,
+        "airlines-travel": 1,
+        "inflation": 1,
+        "rates-fed": 1,
         "ai-boom": 1,
-        "budgeting-saving": 5,
-        "amazon": 1
+        "currency-dollar": 1,
+        "budgeting-saving": 27,
+        "alphabet": 1,
+        "amazon": 2,
+        "bitcoin": 9,
+        "disney": 3
       },
       "entity_mention_density": {
-        "ai-boom": 2.2,
-        "budgeting-saving": 10.8,
-        "amazon": 2.2
+        "real-estate": 0.2,
+        "industrials": 0.1,
+        "media-entertainment": 0.2,
+        "airlines-travel": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "currency-dollar": 0.1,
+        "budgeting-saving": 3.1,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "bitcoin": 1.0,
+        "disney": 0.3
       },
       "entity_sentiment": {
         "amazon": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -0.6
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Media & Entertainment, Industrials, Budgeting & Saving, Inflation, Interest Rates & Fed Policy, AI & Machine Learning. Mentions Bitcoin, Disney, Amazon, Alphabet / Google. Tone leans bullish (+0.80).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-02-the-investing-for-beginners-podcast-aar52-financial-realities-of-home-improvement-fbc937.md",
+    "transcript_word_count": 8319,
+    "transcript_language": "en"
   },
   {
     "guid": "0ce9bc14-545b-11f1-a6db-2fd02c2f8ea2",
@@ -114693,21 +115211,27 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "crypto": 1,
+        "ai-infrastructure": 2,
+        "crypto": 2,
         "morgan-stanley": 3
       },
       "entity_mention_density": {
         "ai-infrastructure": 1.6,
         "crypto": 1.6,
-        "morgan-stanley": 4.8
+        "morgan-stanley": 2.4
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Crypto & Digital Assets. Mentions Morgan Stanley. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-thoughts-on-the-market-the-battle-for-the-future-of-gaming-MWHNqE.md",
+    "transcript_word_count": 625,
+    "transcript_language": "en"
   },
   {
     "guid": "6a1691f16f9f212718af9d48",
@@ -124735,17 +125259,23 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "retirement-planning",
+        "budgeting-saving",
+        "real-estate-investing"
       ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 1,
+        "retirement-planning": 10,
+        "real-estate-investing": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.6
+        "budgeting-saving": 1.0,
+        "retirement-planning": 9.6,
+        "real-estate-investing": 1.0
       },
       "entity_sentiment": {},
       "entity_conviction": {},
@@ -124753,7 +125283,13 @@
       "entity_contested": []
     },
     "tags_source": "keyword",
-    "llm_summary": "Transcript is heavily garbled/mistranscribed (misdetected as Khmer), but the fragment reflects standard Ramsey advice: pay off the house before directing extra money to retirement investing beyond an employer match."
+    "llm_summary": "Transcript is heavily garbled/mistranscribed (misdetected as Khmer), but the fragment reflects standard Ramsey advice: pay off the house before directing extra money to retirement investing beyond an employer match.",
+    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving, Real Estate Investing. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-ramsey-everyday-millionaires-what-should-i-invest-in-after-maxing-out-my-401-k-7b60a7.md",
+    "transcript_word_count": 867,
+    "transcript_language": "en"
   },
   {
     "guid": "19c76bb8-5431-11f1-90e9-7b646f4eeae3",
@@ -151448,21 +151984,76 @@
     "duration": "00:21:56",
     "audio_url": "https://dowjones.simplecastaudio.com/67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1/episodes/0474ef99-c3ff-486e-83cb-8f60f38c16ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1&awEpisodeId=0474ef99-c3ff-486e-83cb-8f60f38c16ba&feed=QeVni9a0",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "energy",
+        "technology",
+        "banks",
+        "industrials"
+      ],
+      "themes": [
+        "commodities",
+        "earnings",
+        "small-caps-value-growth",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "fidelity",
+        "nasdaq",
+        "sp500",
+        "russell2000"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "banks": 1,
+        "energy": 4,
+        "industrials": 1,
+        "commodities": 4,
+        "earnings": 1,
+        "small-caps-value-growth": 1,
+        "market-timing-dca": 1,
+        "sp500": 1,
+        "nasdaq": 3,
+        "russell2000": 1,
+        "fidelity": 5
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "banks": 0.2,
+        "energy": 1.0,
+        "industrials": 0.2,
+        "commodities": 1.0,
+        "earnings": 0.2,
+        "small-caps-value-growth": 0.2,
+        "market-timing-dca": 0.2,
+        "sp500": 0.2,
+        "nasdaq": 0.7,
+        "russell2000": 0.2,
+        "fidelity": 1.2
+      },
+      "entity_sentiment": {
+        "energy": 1.0,
+        "commodities": 1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "commodities": -1.0,
+        "market-timing-dca": -1.0,
+        "earnings": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
     "tags_source": "keyword",
-    "llm_summary": "Transcript audio was badly garbled/mistranscribed (misdetected as Hungarian), leaving only a fragment noting the S&P 500 was up about 1% on the day -- no other reliable content could be extracted."
+    "llm_summary": "Transcript audio was badly garbled/mistranscribed (misdetected as Hungarian), leaving only a fragment noting the S&P 500 was up about 1% on the day -- no other reliable content could be extracted.",
+    "episode_summary": "Touches on Energy & Oil, Technology, Banks & Financials, Commodities, Corporate Earnings, Small-Caps, Value & Growth, Market Timing & Dollar-Cost Averaging. Mentions Fidelity, Nasdaq, S&P 500, Russell 2000. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-30-stock-market-today-with-ibd-stocks-hit-new-highs-on-earnings-corning-viking-granite-cons-e33c4a.md",
+    "transcript_word_count": 4046,
+    "transcript_language": "en"
   },
   {
     "guid": "d518e5de-ac14-40af-8825-294903f06428",
