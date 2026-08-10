@@ -1715,29 +1715,25 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "diversification",
+        "dividends-buybacks",
         "emerging-markets",
-        "dividends-buybacks"
+        "valuation",
+        "inflation",
+        "market-concentration"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {
-        "emerging-markets": 2,
-        "dividends-buybacks": 2
-      },
-      "entity_mention_density": {
-        "emerging-markets": 5.9,
-        "dividends-buybacks": 5.9
-      },
-      "entity_sentiment": {
-        "dividends-buybacks": -1.0
-      },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": -0.5
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-the-meb-faber-show-cambria-fund-profile-cambria-global-value-etf-gval-93042f.md",
+    "transcript_word_count": 2236,
+    "transcript_language": "en",
+    "episode_summary": "Touches on Diversification & Asset Allocation, Dividends & Buybacks, Emerging Markets, Valuation. Mentions S&P 500. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template"
   },
   {
     "guid": "e707879c-c3c8-11f0-b1f3-270312fd7c46",
@@ -87172,29 +87168,89 @@
     "audio_url": "https://mcdn.podbean.com/mf/web/g8jvcsi93xc82ppg/Brandon_Diggs-esv2-50p-bg-10p-music-10p6cutx.mp3",
     "tags": {
       "sectors": [
-        "crypto"
+        "crypto",
+        "real-estate",
+        "ai-infrastructure",
+        "materials-mining"
       ],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "japan",
+        "hedge-funds",
+        "market-structure"
+      ],
       "stocks": [
-        "bitcoin"
+        "bitcoin",
+        "ethereum",
+        "coinbase",
+        "meta",
+        "tesla",
+        "sp500",
+        "nasdaq",
+        "blackrock"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "crypto": 4,
-        "bitcoin": 1
+        "ai-infrastructure": 1,
+        "real-estate": 6,
+        "materials-mining": 1,
+        "crypto": 57,
+        "inflation": 2,
+        "japan": 1,
+        "hedge-funds": 1,
+        "market-structure": 1,
+        "meta": 3,
+        "tesla": 3,
+        "coinbase": 6,
+        "bitcoin": 44,
+        "ethereum": 28,
+        "sp500": 1,
+        "nasdaq": 1,
+        "blackrock": 1
       },
       "entity_mention_density": {
-        "crypto": 42.1,
-        "bitcoin": 10.5
+        "ai-infrastructure": 0.1,
+        "real-estate": 0.6,
+        "materials-mining": 0.1,
+        "crypto": 5.5,
+        "inflation": 0.2,
+        "japan": 0.1,
+        "hedge-funds": 0.1,
+        "market-structure": 0.1,
+        "meta": 0.3,
+        "tesla": 0.3,
+        "coinbase": 0.6,
+        "bitcoin": 4.3,
+        "ethereum": 2.7,
+        "sp500": 0.1,
+        "nasdaq": 0.1,
+        "blackrock": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "crypto": -1.0,
+        "market-structure": -1.0,
+        "bitcoin": 0.5,
+        "ethereum": 0.333
+      },
+      "entity_conviction": {
+        "crypto": 1.0,
+        "bitcoin": 1.0,
+        "ethereum": -1.0
+      },
+      "entity_stance": {
+        "bitcoin": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Real Estate, AI Infrastructure, Inflation, Japan & Yen, Hedge Funds, Market Structure & Liquidity. Mentions Bitcoin, Ethereum, Coinbase, Meta, Tesla. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-14-the-crypto-podcast-119-productive-crypto-generate-cash-flow-without-selling-you-5fa60b.md",
+    "transcript_word_count": 10218,
+    "transcript_language": "en"
   },
   {
     "guid": "c7bef1d9-ccb8-48e6-ab53-cca91cf012df",

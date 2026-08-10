@@ -96,6 +96,47 @@ def transcribe_file(path, model_size="base", model=None):
     return text.strip(), info
 
 
+MIN_AUDIO_COVERAGE = 0.85  # decoded audio must cover at least this fraction of the RSS-declared duration
+
+
+def download_and_transcribe(ep, model, max_attempts=3):
+    """Download + transcribe with a retry loop guarding against truncated
+    downloads. A stalled/short-circuited HTTP transfer produces a valid but
+    short mp3 file -- transcribe_file() then "succeeds" on just the first
+    few minutes (e.g. an intro ad) while reporting transcript_status: done,
+    silently discarding the rest of the episode. faster-whisper's TranscriptionInfo
+    exposes the decoded audio's actual duration, so compare that against the
+    RSS <duration> and retry the download if it's suspiciously short instead
+    of trusting the transcription just because it didn't raise.
+    """
+    expected = duration_seconds(ep.get("duration"))
+    last_exc = None
+    for attempt in range(1, max_attempts + 1):
+        with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmp:
+            tmp_path = tmp.name
+        try:
+            download_audio(ep["audio_url"], tmp_path)
+            text, info = transcribe_file(tmp_path, model=model)
+        except Exception as exc:
+            last_exc = exc
+            print(f"    attempt {attempt}/{max_attempts} failed ({exc}); retrying", file=sys.stderr)
+            continue
+        finally:
+            if os.path.exists(tmp_path):
+                os.remove(tmp_path)
+
+        decoded_duration = getattr(info, "duration", None)
+        if expected and decoded_duration and decoded_duration < MIN_AUDIO_COVERAGE * expected:
+            last_exc = RuntimeError(
+                f"truncated download: decoded {decoded_duration:.0f}s of {expected}s expected"
+            )
+            print(f"    attempt {attempt}/{max_attempts}: {last_exc}; retrying", file=sys.stderr)
+            continue
+
+        return text, info
+    raise last_exc or RuntimeError("transcription failed after retries")
+
+
 def slugify(text, max_len=60):
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return slug[:max_len].rstrip("-")
@@ -252,17 +293,11 @@ def main():
 
     for i, ep in enumerate(todo, 1):
         print(f"[{i}/{len(todo)}] {ep['podcast_name']}: {ep['title']}")
-        with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmp:
-            tmp_path = tmp.name
         try:
-            download_audio(ep["audio_url"], tmp_path)
-            text, info = transcribe_file(tmp_path, model=model)
+            text, info = download_and_transcribe(ep, model)
         except Exception as exc:
             print(f"    failed: {exc}", file=sys.stderr)
             continue
-        finally:
-            if os.path.exists(tmp_path):
-                os.remove(tmp_path)
 
         if not text:
             print("    empty transcript, skipping")
