@@ -1,0 +1,22 @@
+---
+title: "How Long Can the Fed Hold On?"
+podcast: "Thoughts on the Market"
+podcast_id: "thoughts-on-the-market"
+published_at: "2026-08-05T20:00:00+00:00"
+guid: "gid://art19-episode-locator/V0/AMoMGPCGSPM2BfZ4CzGnQn91FjYFsvMbs3IFh4nOQDs"
+link: ""
+duration: "00:03:58"
+word_count: 620
+language: "en"
+tags_source: "keyword"
+sectors: ["industrials"]
+themes: ["rates-fed", "inflation", "bond-market", "labor-market"]
+stocks: ["morgan-stanley"]
+sentiment: -0.333
+sentiment_hits: 2
+sentiment_confidence: 0.333
+entity_mentions: {"industrials": 2, "inflation": 26, "rates-fed": 34, "labor-market": 2, "bond-market": 3, "morgan-stanley": 5}
+entity_mention_density: {"industrials": 1.5, "inflation": 20.1, "rates-fed": 26.3, "labor-market": 1.5, "bond-market": 2.3, "morgan-stanley": 3.9}
+entity_sentiment: {"rates-fed": -1.0, "bond-market": -1.0, "inflation": -1.0}
+---
+Welcome to Thoughts on the Market. I'm Andrew Sheets, global head of fixed income research at Morgan Stanley. Today, can the Fed hold the line? It's Wednesday, August 5th at 2pm in London. The Federal Reserve has a difficult job. The US economy is a complex and varied ecosystem that covers everything from brain surgery to your burger order. The Fed is asked to keep prices stable and people employed using, for the most part, just one simple tool, a short-term interest rate. And without any control over what government policy or global events might bring. Currently, the Fed probably feels pretty good about its success with one half of this in the job market, given that the unemployment rate is near historical lows. But it probably feels less successful about price stability. Over the last five years, overall prices in the US economy have risen over 20% based on the Fed's preferred inflation measure. That's roughly double the increase that a goal of 2% annual inflation would otherwise bring. Into this complexity steps a new Fed share, Kevin Warsch. He has emphasized two changes for his tenure. First, that inflation is too high and needs to come down. And second, that the Fed is historically communicated too much with the market, which chair Warsch thinks has helped contribute to investors potentially taking too much risk, while also restricting the Fed's options to act. What markets are now processing is a potential tension between these two goals. After all, high inflation is an immediate issue. In a world where the Fed is hoping to keep price increases at about 2% per year, their preferred measure, PCE, inflation, is rising more than 3% on an annualized basis, over the last 3, 6, and 12 months. In the latest ISM manufacturing survey, measure of price increases among manufacturers is well above normal. In the face of that, one option for the Fed to combat this inflation would have been to raise interest rates. It didn't do that. Another would be to suggest that it was very close to taking action and likely to move soon. It didn't do that either. Indeed, our economists think that the market took chair Warsch's lack of guidance and action at the most recent Fed's meeting, to suggest a pretty high bar for rate hikes, and even the potential to redefine the Fed's 2% inflation target in favor of something more general and unspecified. The result was a market reaction that would suggest less focus on inflation. The prospects for rate hikes were reduced, the yield curve steepened, led by a sell-off of long-end yields, measures of expected inflation rose, and the US dollar weakened. In the day's sense, markets have settled a bit. But the result is going to be a market that is now going to be much more sensitive to incoming inflation data. If that inflation data moderates in the second half of this year, as we at Morgan Stanley expect, then the Fed's approach could look justified as the data suggests that neither action nor more communication about what they're going to do is necessary. But if inflation doesn't cooperate, the challenge becomes immediate. Christopher Waller, another member of the Fed, recently said that, quote, Thank you, as always, for your time. If you find thoughts on the market useful, let us know by leaving a review where you listen, and also tell a friend or colleague about us today. The preceding content is informational only and based on information available when created. It is not an offer or solicitation, nor is it tax or legal advice. It does not consider your financial circumstances and objectives and may not be suitable for you.
