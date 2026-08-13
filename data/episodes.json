@@ -2346,28 +2346,44 @@
       ],
       "themes": [
         "real-estate-investing",
-        "budgeting-saving"
+        "budgeting-saving",
+        "dealmaking"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1.0,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "real-estate": 4,
-        "budgeting-saving": 1,
-        "real-estate-investing": 2
+        "real-estate": 12,
+        "dealmaking": 1,
+        "budgeting-saving": 3,
+        "real-estate-investing": 6,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "real-estate": 13.3,
-        "budgeting-saving": 3.3,
-        "real-estate-investing": 6.6
+        "real-estate": 2.7,
+        "dealmaking": 0.2,
+        "budgeting-saving": 0.7,
+        "real-estate-investing": 1.3,
+        "amazon": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "real-estate-investing": -1.0,
+        "budgeting-saving": -1.0,
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-real-estate-rookie-what-most-rookies-get-wrong-when-picking-a-rental-market-roo-810207.md",
+    "transcript_word_count": 4203,
+    "transcript_language": "en"
   },
   {
     "guid": "5b889714-cfe5-41f8-9248-9c4f1a1bd0a5",
