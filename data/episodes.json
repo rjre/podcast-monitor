@@ -3127,33 +3127,52 @@
     "duration": "00:15:47",
     "audio_url": "https://anchor.fm/s/fe33a85c/podcast/play/123864719/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-6%2F429348265-44100-2-46d69aafe5ccb.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary"
+      ],
       "themes": [
         "budgeting-saving",
+        "retirement-planning",
+        "fire-movement",
         "housing"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2.0,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "consumer-discretionary": 1,
         "housing": 1,
-        "budgeting-saving": 2,
+        "budgeting-saving": 6,
+        "fire-movement": 2,
+        "retirement-planning": 3,
+        "alphabet": 1,
         "meta": 2
       },
       "entity_mention_density": {
-        "housing": 6.1,
-        "budgeting-saving": 12.1,
-        "meta": 12.1
+        "consumer-discretionary": 0.3,
+        "housing": 0.3,
+        "budgeting-saving": 1.7,
+        "fire-movement": 0.6,
+        "retirement-planning": 0.9,
+        "alphabet": 0.3,
+        "meta": 0.6
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-money-to-the-masses-money-vault-personal-finance-numbers-everyone-should-know-9c4296.md",
+    "transcript_word_count": 3298,
+    "transcript_language": "en"
   },
   {
     "guid": "d09774a4-e12c-4e82-97c2-17519d37f5f8",
@@ -13676,31 +13695,81 @@
     "audio_url": "https://traffic.megaphone.fm/APO8410683035.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "ai-infrastructure",
+        "semiconductors",
+        "insurance",
+        "banks",
+        "telecoms"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "credit-markets",
+        "earnings"
+      ],
       "stocks": [
-        "amazon"
+        "alphabet",
+        "nvidia",
+        "amazon",
+        "berkshire",
+        "morgan-stanley",
+        "bank-of-america"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.038,
+      "sentiment_hits": 11.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 2,
-        "amazon": 3
+        "technology": 11,
+        "semiconductors": 7,
+        "ai-infrastructure": 8,
+        "banks": 1,
+        "insurance": 2,
+        "telecoms": 1,
+        "credit-markets": 1,
+        "dealmaking": 2,
+        "earnings": 1,
+        "nvidia": 6,
+        "alphabet": 7,
+        "amazon": 3,
+        "morgan-stanley": 1,
+        "bank-of-america": 1,
+        "berkshire": 2
       },
       "entity_mention_density": {
-        "technology": 8.7,
-        "amazon": 13.0
+        "technology": 2.0,
+        "semiconductors": 1.2,
+        "ai-infrastructure": 1.4,
+        "banks": 0.2,
+        "insurance": 0.4,
+        "telecoms": 0.2,
+        "credit-markets": 0.2,
+        "dealmaking": 0.4,
+        "earnings": 0.2,
+        "nvidia": 1.1,
+        "alphabet": 1.2,
+        "amazon": 0.5,
+        "morgan-stanley": 0.2,
+        "bank-of-america": 0.2,
+        "berkshire": 0.4
       },
       "entity_sentiment": {
-        "amazon": 1.0
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "credit-markets": -1.0,
+        "alphabet": 1.0,
+        "amazon": 1.0,
+        "nvidia": 0.0,
+        "morgan-stanley": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-04-patrick-boyle-on-finance-big-tech-s-hidden-debt-problem-d25ccf.md",
+    "transcript_word_count": 5378,
+    "transcript_language": "en"
   },
   {
     "guid": "70db1f96-d9e1-11f0-988b-3b957aa7908a",
@@ -88033,24 +88102,39 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "rates-fed"
+        "rates-fed",
+        "inflation",
+        "bond-market",
+        "budgeting-saving"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
+      "sentiment_hits": 0.0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "rates-fed": 2
+        "inflation": 9,
+        "rates-fed": 26,
+        "bond-market": 2,
+        "budgeting-saving": 1
       },
       "entity_mention_density": {
-        "rates-fed": 20.0
+        "inflation": 2.5,
+        "rates-fed": 7.1,
+        "bond-market": 0.5,
+        "budgeting-saving": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-unhedged-kevin-warsh-s-first-remarks-b75f82.md",
+    "transcript_word_count": 3542,
+    "transcript_language": "en"
   },
   {
     "guid": "901e1495-aa23-4390-b807-586ef635611c",
@@ -94778,20 +94862,56 @@
     "duration": "445",
     "audio_url": "https://traffic.megaphone.fm/THRH4950988066.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "insurance",
+        "energy"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "rates-fed",
+        "japan",
+        "commodities"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": 0.51,
+      "sentiment_hits": 4.0,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "insurance": 1,
+        "energy": 1,
+        "rates-fed": 2,
+        "japan": 1,
+        "geopolitics-tariffs": 3,
+        "commodities": 1,
+        "alphabet": 1
+      },
+      "entity_mention_density": {
+        "insurance": 0.7,
+        "energy": 0.7,
+        "rates-fed": 1.4,
+        "japan": 0.7,
+        "geopolitics-tariffs": 2.1,
+        "commodities": 0.7,
+        "alphabet": 0.7
+      },
+      "entity_sentiment": {
+        "energy": 1.0,
+        "commodities": 1.0,
+        "rates-fed": 1.0
+      },
+      "entity_conviction": {
+        "japan": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-reuters-morning-bid-special-edition-iran-deal-4121e3.md",
+    "transcript_word_count": 1258,
+    "transcript_language": "en"
   },
   {
     "guid": "2077b759-0a21-4b83-9772-92a00bf007b3",
@@ -125358,31 +125478,50 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "industrials"
+        "industrials",
+        "consumer-discretionary"
       ],
       "themes": [
-        "housing"
+        "housing",
+        "inflation",
+        "behavioral-finance"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.189,
+      "sentiment_hits": 8.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "industrials": 1,
-        "housing": 2
+        "consumer-discretionary": 1,
+        "real-estate": 14,
+        "industrials": 3,
+        "inflation": 1,
+        "housing": 16,
+        "behavioral-finance": 1
       },
       "entity_mention_density": {
-        "real-estate": 13.8,
-        "industrials": 6.9,
-        "housing": 13.8
+        "consumer-discretionary": 0.3,
+        "real-estate": 4.9,
+        "industrials": 1.0,
+        "inflation": 0.3,
+        "housing": 5.6,
+        "behavioral-finance": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 0.2,
+        "housing": 0.0,
+        "behavioral-finance": -1.0
+      },
+      "entity_conviction": {
+        "behavioral-finance": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-economist-podcasts-what-price-victory-ukraine-on-the-front-foot-211f72.md",
+    "transcript_word_count": 2722,
+    "transcript_language": "en"
   },
   {
     "guid": "2ab46198-3f59-11f1-a70f-cf12c438f68c",
@@ -130917,32 +131056,69 @@
     "duration": "447",
     "audio_url": "https://traffic.megaphone.fm/THRH5904057155.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy"
+      ],
       "themes": [
         "rates-fed",
-        "elections-politics"
+        "elections-politics",
+        "consumer-health",
+        "inflation",
+        "commodities",
+        "earnings",
+        "bond-market"
       ],
-      "stocks": [],
+      "stocks": [
+        "walmart"
+      ],
       "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment_hits": 5.0,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "rates-fed": 1,
-        "elections-politics": 1
+        "energy": 4,
+        "inflation": 1,
+        "rates-fed": 4,
+        "elections-politics": 3,
+        "commodities": 1,
+        "earnings": 1,
+        "bond-market": 1,
+        "consumer-health": 2,
+        "walmart": 8
       },
       "entity_mention_density": {
-        "rates-fed": 5.6,
-        "elections-politics": 5.6
+        "energy": 2.7,
+        "inflation": 0.7,
+        "rates-fed": 2.7,
+        "elections-politics": 2.0,
+        "commodities": 0.7,
+        "earnings": 0.7,
+        "bond-market": 0.7,
+        "consumer-health": 1.3,
+        "walmart": 5.4
       },
       "entity_sentiment": {
-        "rates-fed": 1.0,
-        "elections-politics": 1.0
+        "rates-fed": 0.333,
+        "elections-politics": 0.0,
+        "consumer-health": -1.0,
+        "inflation": -1.0,
+        "bond-market": -1.0,
+        "walmart": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "rates-fed": -1.0,
+        "earnings": -1.0,
+        "consumer-health": -1.0,
+        "walmart": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-reuters-morning-bid-nacho-time-just-yet-1f8c64.md",
+    "transcript_word_count": 1314,
+    "transcript_language": "en"
   },
   {
     "guid": "377d28f2-7dd9-11f0-b2e7-23d2c4e920c1",
@@ -135098,33 +135274,110 @@
     "duration": "00:17:58",
     "audio_url": "https://anchor.fm/s/fe33a85c/podcast/play/120249771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-20%2F424539537-44100-2-ded568da86ce.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "energy",
+        "consumer-discretionary",
+        "crypto"
+      ],
       "themes": [
-        "bond-market"
+        "bond-market",
+        "inflation",
+        "rates-fed",
+        "recession",
+        "diversification",
+        "commodities",
+        "consumer-health",
+        "dividends-buybacks",
+        "behavioral-finance"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "bitcoin",
+        "sp500",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.629,
+      "sentiment_hits": 23.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "bond-market": 1,
-        "meta": 2
+        "technology": 4,
+        "semiconductors": 1,
+        "energy": 1,
+        "consumer-discretionary": 1,
+        "crypto": 1,
+        "inflation": 12,
+        "rates-fed": 11,
+        "recession": 6,
+        "commodities": 1,
+        "bond-market": 20,
+        "consumer-health": 1,
+        "dividends-buybacks": 1,
+        "behavioral-finance": 1,
+        "diversification": 4,
+        "meta": 2,
+        "bitcoin": 1,
+        "sp500": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "bond-market": 6.7,
-        "meta": 13.4
+        "technology": 1.1,
+        "semiconductors": 0.3,
+        "energy": 0.3,
+        "consumer-discretionary": 0.3,
+        "crypto": 0.3,
+        "inflation": 3.4,
+        "rates-fed": 3.1,
+        "recession": 1.7,
+        "commodities": 0.3,
+        "bond-market": 5.7,
+        "consumer-health": 0.3,
+        "dividends-buybacks": 0.3,
+        "behavioral-finance": 0.3,
+        "diversification": 1.1,
+        "meta": 0.6,
+        "bitcoin": 0.3,
+        "sp500": 0.3,
+        "nasdaq": 0.3
       },
       "entity_sentiment": {
-        "bond-market": -1.0
+        "crypto": 1.0,
+        "energy": 1.0,
+        "semiconductors": 1.0,
+        "technology": -1.0,
+        "consumer-discretionary": -1.0,
+        "bond-market": -0.882,
+        "diversification": 1.0,
+        "inflation": -0.862,
+        "rates-fed": -0.862,
+        "behavioral-finance": -1.0,
+        "commodities": 1.0,
+        "recession": -1.0,
+        "consumer-health": -1.0,
+        "bitcoin": 1.0,
+        "sp500": 1.0,
+        "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -0.333,
+        "consumer-discretionary": -0.333,
+        "bond-market": -0.5,
+        "inflation": -0.364,
+        "dividends-buybacks": 1.0,
+        "rates-fed": -0.176,
+        "recession": -0.333,
+        "consumer-health": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
     "tags_source": "keyword",
-    "llm_summary": "Transcript is badly garbled/mistranscribed (misdetected as Greek), but the surviving fragment references stocks \"ignoring\" a bond-market warning tied to weakening consumer spending and recession risk, per the episode title."
+    "llm_summary": "Transcript is badly garbled/mistranscribed (misdetected as Greek), but the surviving fragment references stocks \"ignoring\" a bond-market warning tied to weakening consumer spending and recession risk, per the episode title.",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-money-to-the-masses-money-vault-stocks-ignore-bond-market-warning-03c192.md",
+    "transcript_word_count": 3383,
+    "transcript_language": "en"
   },
   {
     "guid": "449ec870-3751-45c8-8249-08f44ea4d5dc",
@@ -145298,33 +145551,80 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a0377c692e9663a6f1886ac/media.mp3",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "semiconductors",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "consumer-staples",
+        "materials-mining",
+        "media-entertainment"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "dealmaking",
+        "dividends-buybacks",
+        "geopolitics-tariffs"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "alphabet",
+        "amazon",
+        "intel",
+        "sp500"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
+      "sentiment_hits": 0.0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
+        "semiconductors": 13,
+        "ai-infrastructure": 1,
         "consumer-discretionary": 1,
-        "inflation": 1,
-        "nvidia": 1
+        "consumer-staples": 1,
+        "materials-mining": 1,
+        "media-entertainment": 1,
+        "inflation": 4,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 2,
+        "dividends-buybacks": 2,
+        "nvidia": 14,
+        "alphabet": 3,
+        "amazon": 2,
+        "intel": 1,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 8.9,
-        "inflation": 8.9,
-        "nvidia": 8.9
+        "semiconductors": 3.2,
+        "ai-infrastructure": 0.2,
+        "consumer-discretionary": 0.2,
+        "consumer-staples": 0.2,
+        "materials-mining": 0.2,
+        "media-entertainment": 0.2,
+        "inflation": 1.0,
+        "geopolitics-tariffs": 0.2,
+        "dealmaking": 0.5,
+        "dividends-buybacks": 0.5,
+        "nvidia": 3.5,
+        "alphabet": 0.7,
+        "amazon": 0.5,
+        "intel": 0.2,
+        "sp500": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "media-entertainment": -1.0,
+        "materials-mining": -1.0,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "nvidia": -1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-unhedged-can-gamestop-buy-ebay-1886ac.md",
+    "transcript_word_count": 3904,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/VbUqFXPJDkt0qaZTxrH17y-jb2GXN-Hp2H0jX1cm_Rc",
@@ -152023,19 +152323,43 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/d556eb54-6160-4c85-95f4-47d9f5216c49/a/theeconomistallaudio/e/69fc6417727202335908cc9b/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=wTBn6vkyojB2ACxQyZLq_812yH53rfsnZo5LIRrnhcc",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "geopolitics-tariffs",
+        "inflation",
+        "recession",
+        "regulation-antitrust"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.111,
+      "sentiment_hits": 6.0,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "inflation": 1,
+        "recession": 1,
+        "geopolitics-tariffs": 2,
+        "regulation-antitrust": 1
+      },
+      "entity_mention_density": {
+        "inflation": 0.3,
+        "recession": 0.3,
+        "geopolitics-tariffs": 0.6,
+        "regulation-antitrust": 0.3
+      },
+      "entity_sentiment": {
+        "recession": 0.429
+      },
+      "entity_conviction": {
+        "regulation-antitrust": -1.0,
+        "geopolitics-tariffs": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-economist-podcasts-a-hatred-normalised-antisemitism-in-britain-08cc9b.md",
+    "transcript_word_count": 2963,
+    "transcript_language": "en"
   },
   {
     "guid": "284f9c88-3f59-11f1-a70f-e39ceb3ce92d",
@@ -158187,32 +158511,100 @@
     "duration": "00:32:49",
     "audio_url": "https://traffic.megaphone.fm/APO1574427382.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "industrials",
+        "energy",
+        "private-markets"
+      ],
       "themes": [
-        "inflation"
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "labor-market",
+        "housing",
+        "credit-markets",
+        "fiscal-debt",
+        "market-timing-dca",
+        "recession",
+        "commodities",
+        "bond-market",
+        "budgeting-saving",
+        "diversification"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "alphabet",
+        "sp500"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.25,
+      "sentiment_hits": 16.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 3,
-        "amazon": 4
+        "energy": 1,
+        "real-estate": 6,
+        "industrials": 5,
+        "private-markets": 1,
+        "inflation": 43,
+        "rates-fed": 18,
+        "recession": 1,
+        "credit-markets": 2,
+        "geopolitics-tariffs": 6,
+        "labor-market": 4,
+        "housing": 3,
+        "fiscal-debt": 2,
+        "commodities": 1,
+        "bond-market": 1,
+        "budgeting-saving": 1,
+        "diversification": 1,
+        "market-timing-dca": 2,
+        "alphabet": 1,
+        "amazon": 4,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "inflation": 21.1,
-        "amazon": 28.2
+        "energy": 0.2,
+        "real-estate": 1.2,
+        "industrials": 1.0,
+        "private-markets": 0.2,
+        "inflation": 8.7,
+        "rates-fed": 3.6,
+        "recession": 0.2,
+        "credit-markets": 0.4,
+        "geopolitics-tariffs": 1.2,
+        "labor-market": 0.8,
+        "housing": 0.6,
+        "fiscal-debt": 0.4,
+        "commodities": 0.2,
+        "bond-market": 0.2,
+        "budgeting-saving": 0.2,
+        "diversification": 0.2,
+        "market-timing-dca": 0.4,
+        "alphabet": 0.2,
+        "amazon": 0.8,
+        "sp500": 0.2
       },
       "entity_sentiment": {
-        "inflation": -1.0
+        "inflation": -0.143,
+        "market-timing-dca": 1.0,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": 0.0,
+        "fiscal-debt": -1.0,
+        "recession": -1.0,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": 1.0,
+        "labor-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-03-patrick-boyle-on-finance-is-inflation-about-to-get-much-worse-9ce946.md",
+    "transcript_word_count": 4829,
+    "transcript_language": "en"
   },
   {
     "guid": "e6761e14-0747-4613-8d83-9f37fc3931ab",
@@ -161907,31 +162299,43 @@
         "energy"
       ],
       "themes": [
+        "elections-politics",
         "commodities",
-        "elections-politics"
+        "geopolitics-tariffs",
+        "inflation"
       ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.714,
+      "sentiment_hits": 7.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 4,
-        "elections-politics": 1,
-        "commodities": 2
+        "energy": 13,
+        "inflation": 1,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 11,
+        "commodities": 5
       },
       "entity_mention_density": {
-        "energy": 24.2,
-        "elections-politics": 6.1,
-        "commodities": 12.1
+        "energy": 3.9,
+        "inflation": 0.3,
+        "geopolitics-tariffs": 0.6,
+        "elections-politics": 3.3,
+        "commodities": 1.5
       },
       "entity_sentiment": {
         "energy": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "elections-politics": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-30-economist-podcasts-drill-pickle-oil-prices-still-misjudge-shock-b5035f.md",
+    "transcript_word_count": 3186,
+    "transcript_language": "en"
   },
   {
     "guid": "db6b7011-c833-4aff-8961-5a850b3541fb",
