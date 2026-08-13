@@ -93008,45 +93008,76 @@
     "duration": "443",
     "audio_url": "https://traffic.megaphone.fm/THRH1970089385.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology"
+      ],
       "themes": [
-        "rates-fed",
         "japan",
-        "dealmaking",
-        "bond-market"
+        "bond-market",
+        "rates-fed",
+        "inflation",
+        "dealmaking"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "sp500",
+        "intel",
+        "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.333,
+      "sentiment_hits": 9.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "japan": 1,
-        "dealmaking": 1,
-        "bond-market": 1,
-        "nvidia": 1
+        "technology": 1,
+        "inflation": 2,
+        "rates-fed": 3,
+        "japan": 4,
+        "dealmaking": 2,
+        "bond-market": 4,
+        "nvidia": 5,
+        "intel": 1,
+        "sp500": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "rates-fed": 6.5,
-        "japan": 6.5,
-        "dealmaking": 6.5,
-        "bond-market": 6.5,
-        "nvidia": 6.5
+        "technology": 0.7,
+        "inflation": 1.5,
+        "rates-fed": 2.2,
+        "japan": 2.9,
+        "dealmaking": 1.5,
+        "bond-market": 2.9,
+        "nvidia": 3.6,
+        "intel": 0.7,
+        "sp500": 1.5,
+        "nasdaq": 0.7
       },
       "entity_sentiment": {
+        "technology": 1.0,
         "rates-fed": 0.333,
         "japan": 0.333,
-        "dealmaking": 0.333,
+        "dealmaking": 0.5,
         "bond-market": 0.333,
-        "nvidia": 0.333
+        "nvidia": 0.5
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": 1.0,
+        "rates-fed": -1.0,
+        "japan": 0.429,
+        "dealmaking": -1.0,
+        "bond-market": -1.0,
+        "nvidia": -1.0,
+        "intel": -1.0,
+        "sp500": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-reuters-morning-bid-yen-for-more-ba109f.md",
+    "transcript_word_count": 1223,
+    "transcript_language": "en"
   },
   {
     "guid": "a76fa55a-7dd8-11f0-8a84-df9f5f63175e",
@@ -148557,26 +148588,96 @@
     "duration": "00:30:40",
     "audio_url": "https://traffic.megaphone.fm/APO4659508280.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "amazon"
+      "sectors": [
+        "consumer-discretionary",
+        "crypto",
+        "technology",
+        "banks",
+        "real-estate",
+        "private-markets"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "budgeting-saving",
+        "housing",
+        "bond-market",
+        "hedge-funds",
+        "valuation"
+      ],
+      "stocks": [
+        "amazon",
+        "bitcoin",
+        "berkshire",
+        "alphabet",
+        "tesla",
+        "nvidia",
+        "oracle"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "amazon": 3
+        "technology": 2,
+        "banks": 1,
+        "consumer-discretionary": 4,
+        "real-estate": 1,
+        "crypto": 3,
+        "private-markets": 1,
+        "housing": 1,
+        "dealmaking": 4,
+        "bond-market": 1,
+        "hedge-funds": 1,
+        "budgeting-saving": 3,
+        "valuation": 1,
+        "nvidia": 1,
+        "alphabet": 4,
+        "amazon": 6,
+        "tesla": 3,
+        "berkshire": 5,
+        "bitcoin": 6,
+        "oracle": 1
       },
       "entity_mention_density": {
-        "amazon": 22.2
+        "technology": 0.4,
+        "banks": 0.2,
+        "consumer-discretionary": 0.8,
+        "real-estate": 0.2,
+        "crypto": 0.6,
+        "private-markets": 0.2,
+        "housing": 0.2,
+        "dealmaking": 0.8,
+        "bond-market": 0.2,
+        "hedge-funds": 0.2,
+        "budgeting-saving": 0.6,
+        "valuation": 0.2,
+        "nvidia": 0.2,
+        "alphabet": 0.8,
+        "amazon": 1.2,
+        "tesla": 0.6,
+        "berkshire": 1.0,
+        "bitcoin": 1.2,
+        "oracle": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "amazon": -1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "technology": -1.0,
+        "crypto": -1.0,
+        "dealmaking": -1.0,
+        "budgeting-saving": -1.0,
+        "nvidia": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-10-patrick-boyle-on-finance-the-dumbest-takeover-bid-9da5f2.md",
+    "transcript_word_count": 4998,
+    "transcript_language": "en"
   },
   {
     "guid": "17150fd4-4ac1-11f1-ac6d-63e7c88eb213",
