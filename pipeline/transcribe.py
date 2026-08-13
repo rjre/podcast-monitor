@@ -218,7 +218,7 @@ def tag_with_best_available(episode, text, taxonomy, taxonomy_raw):
     return taxonomy.tag(text), "keyword"
 
 
-def select_candidates(episodes, podcasts_cfg, limit, only_guid=None):
+def select_candidates(episodes, podcasts_cfg, limit, only_guid=None, only_podcast_ids=None):
     """Pick episodes to transcribe next.
 
     Round-robin across podcasts (shortest-first within each show), not a
@@ -230,6 +230,8 @@ def select_candidates(episodes, podcasts_cfg, limit, only_guid=None):
     once before starting on anyone's second episode.
     """
     active_ids = {p["id"] for p in podcasts_cfg["podcasts"] if p.get("active", True)}
+    if only_podcast_ids:
+        active_ids &= set(only_podcast_ids)
     candidates = [
         ep for ep in episodes
         if ep.get("podcast_id") in active_ids
@@ -272,7 +274,10 @@ def main():
     parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--model", default="base", help="faster-whisper model size (tiny/base/small/medium)")
     parser.add_argument("--guid", default=None, help="Transcribe one specific episode by guid")
+    parser.add_argument("--podcast-ids", default=None,
+                         help="Comma-separated podcast_id values to restrict this batch to")
     args = parser.parse_args()
+    only_podcast_ids = [p.strip() for p in args.podcast_ids.split(",")] if args.podcast_ids else None
 
     os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
 
@@ -283,7 +288,8 @@ def main():
     taxonomy = Taxonomy(os.path.join(CONFIG_DIR, "taxonomy.json"))
     labels = build_label_maps(taxonomy_raw)
 
-    todo = select_candidates(episodes, podcasts_cfg, args.limit, only_guid=args.guid)
+    todo = select_candidates(episodes, podcasts_cfg, args.limit, only_guid=args.guid,
+                              only_podcast_ids=only_podcast_ids)
     if not todo:
         print("Nothing to transcribe (no untranscribed episodes with an audio_url).")
         return
