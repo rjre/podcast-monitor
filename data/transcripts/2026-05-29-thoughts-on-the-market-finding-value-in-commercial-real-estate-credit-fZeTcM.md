@@ -1,0 +1,22 @@
+---
+title: "Finding Value in Commercial Real Estate Credit"
+podcast: "Thoughts on the Market"
+podcast_id: "thoughts-on-the-market"
+published_at: "2026-05-29T20:00:00+00:00"
+guid: "gid://art19-episode-locator/V0/fVwKI2LD3YmEOi35IYLo5_2ZbEd9QdkS1csOYfZeTcM"
+link: ""
+duration: "00:04:03"
+word_count: 625
+language: "en"
+tags_source: "keyword"
+sectors: ["real-estate"]
+themes: ["rates-fed", "bond-market", "valuation"]
+stocks: ["morgan-stanley"]
+sentiment: -0.167
+sentiment_hits: 12
+sentiment_confidence: 1.0
+entity_mentions: {"real-estate": 10, "rates-fed": 6, "bond-market": 4, "valuation": 2, "morgan-stanley": 3}
+entity_mention_density: {"real-estate": 7.9, "rates-fed": 4.8, "bond-market": 3.2, "valuation": 1.6, "morgan-stanley": 2.4}
+entity_sentiment: {"real-estate": 1.0, "rates-fed": -1.0}
+---
+Welcome to Thoughts on the Market. I'm Andrew Sheetz, global head of fixed income research at Morgan Stanley. Today, why commercial real estate debt could be overlooked and undervalued? It's Friday, May 29th at 2pm in London. Bond yields have risen this year and it's attracting strong flows into fixed income markets. The problem is that all of that demand is narrowing the risk premium that one receives. Spreads on US mortgage bonds are richer than 89% of observations over the last 20 years. Spreads on the US high yield market, well, they're richer than 96% of the time. And spreads on US investment grade, it's 99%. We live in a world where the risk premium on most bonds is very low versus history. But there are exceptions. One is debt backed by commercial mortgages or so-called CNBS. Spreads here, notably and unusually, are significantly higher than the longer an average. It is a market that we like. Commercial property is largely comprised of lending against office buildings, apartments, retail complexes, and industrial sites like warehouses. The first three have faced major challenges over the last five years. Office values have slumped as investors feared more people working from home. Apartments have suffered from significant supply and building conceived in a low rate world as this has come online. And retail has faced long-run concern about the trend of more online shopping. And the rise of interest rates, well, that's loomed over everything. A building in a lot of ways is a lot like a bond, promising a dependable stream of rents over time. When an investor can get that stream of cash flows from the bond market, commercial property prices must adjust to lower to remain competitive. These challenges are material, but they are also not new. Indeed, investors may recall that fears around commercial property peaked way back in early 2023, following significant rate hikes by the Federal Reserve. Back then, there were widespread fears that commercial property weakness would ricochet back and threaten the banking system. Three years later, those worst fears have not been realized, and while defaults and restructurings have happened, overall commercial property fundamentals are beginning to pick back up. Commercial property transaction volumes increased 27% in the US in the first quarter, relative to a year prior, and prices are rising up about 5% over the same period. The amount of commercial real estate debt being originated is up about 40% over the last year, a sign that lenders are coming back. And the number of commercial deals that are becoming distressed and unable to pay their bills, they just saw their first quarterly decline since all of those problems in early 2023. Part of this recovery in the commercial real estate market may be explained by US growth, which continues to be resilient. And some of it mirrors other cycles. When rates rose and commercial lending markets weakened, the construction of new properties really slowed down. It takes several years to build a building, and so it's only now that the impact of everything that was not built is starting to be felt. With less supply coming online, the value of existing property is better supported, especially relative to the more elevated risk premiums on offer for its debt. Thank you, as always, for your time. If you find thoughts on the market useful, let us know by leaving a review wherever you listen, and also tell a friend or colleague about us today. The preceding content is informational only and based on information available when created. It is not an offer or solicitation, nor is it tax or legal advice. It does not consider your financial circumstances and objectives and may not be suitable for you.
