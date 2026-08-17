@@ -3458,24 +3458,56 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "rates-fed"
+        "rates-fed",
+        "japan",
+        "currency-dollar",
+        "inflation",
+        "bond-market",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 5.0,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "rates-fed": 1
+        "inflation": 2,
+        "rates-fed": 14,
+        "japan": 3,
+        "bond-market": 2,
+        "currency-dollar": 3,
+        "diversification": 1,
+        "alphabet": 1
       },
       "entity_mention_density": {
-        "rates-fed": 10.1
+        "inflation": 0.5,
+        "rates-fed": 3.7,
+        "japan": 0.8,
+        "bond-market": 0.5,
+        "currency-dollar": 0.8,
+        "diversification": 0.3,
+        "alphabet": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "rates-fed": -1.0,
+        "inflation": -1.0
+      },
+      "entity_conviction": {
+        "rates-fed": -1.0,
+        "japan": -1.0,
+        "inflation": -1.0,
+        "bond-market": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-11-unhedged-why-the-yen-matters-9a6705.md",
+    "transcript_word_count": 3673,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/EsKrLEd2IslUvZGDzqpLcfA4kmMlBowy8F-kRQEKTBA",
@@ -51914,36 +51946,65 @@
     "audio_url": "https://traffic.megaphone.fm/APO3548983508.mp3",
     "tags": {
       "sectors": [
-        "defense-aerospace"
+        "defense-aerospace",
+        "semiconductors",
+        "consumer-staples"
       ],
       "themes": [
+        "budgeting-saving",
+        "geopolitics-tariffs",
         "fiscal-debt",
-        "budgeting-saving"
+        "real-estate-investing",
+        "inflation"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "amd",
+        "sp500"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 9.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "defense-aerospace": 1,
-        "fiscal-debt": 1,
-        "budgeting-saving": 1,
-        "amazon": 3
+        "semiconductors": 1,
+        "consumer-staples": 1,
+        "defense-aerospace": 5,
+        "inflation": 1,
+        "geopolitics-tariffs": 3,
+        "fiscal-debt": 2,
+        "budgeting-saving": 4,
+        "real-estate-investing": 2,
+        "amazon": 3,
+        "amd": 1,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "defense-aerospace": 4.0,
-        "fiscal-debt": 4.0,
-        "budgeting-saving": 4.0,
-        "amazon": 12.0
+        "semiconductors": 0.2,
+        "consumer-staples": 0.2,
+        "defense-aerospace": 1.0,
+        "inflation": 0.2,
+        "geopolitics-tariffs": 0.6,
+        "fiscal-debt": 0.4,
+        "budgeting-saving": 0.8,
+        "real-estate-investing": 0.4,
+        "amazon": 0.6,
+        "amd": 0.2,
+        "sp500": 0.2
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "defense-aerospace": -1.0,
+        "amazon": 1.0,
+        "sp500": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-12-patrick-boyle-on-finance-is-russia-actually-losing-e1ea24.md",
+    "transcript_word_count": 4661,
+    "transcript_language": "en"
   },
   {
     "guid": "5b56028e-0124-4252-8f99-a3ce52ed6cc5",
@@ -57890,32 +57951,50 @@
     "audio_url": "https://traffic.megaphone.fm/THRH5196525387.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "energy"
       ],
       "themes": [
         "rates-fed",
-        "bond-market"
+        "bond-market",
+        "inflation"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.667,
+      "sentiment_hits": 4.0,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "semiconductors": 2,
-        "rates-fed": 1,
-        "bond-market": 1
+        "semiconductors": 3,
+        "energy": 1,
+        "inflation": 2,
+        "rates-fed": 5,
+        "bond-market": 5
       },
       "entity_mention_density": {
-        "semiconductors": 13.4,
-        "rates-fed": 6.7,
-        "bond-market": 6.7
+        "semiconductors": 2.2,
+        "energy": 0.7,
+        "inflation": 1.4,
+        "rates-fed": 3.6,
+        "bond-market": 3.6
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": 0.0,
+        "energy": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": -0.333,
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-reuters-morning-bid-oil-spikes-chips-slide-ec723e.md",
+    "transcript_word_count": 1238,
+    "transcript_language": "en"
   },
   {
     "guid": "30184a14-3f59-11f1-a70f-1b5f8bfae394",
@@ -73688,26 +73767,71 @@
     "duration": "00:37:20",
     "audio_url": "https://traffic.megaphone.fm/APO8917314996.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "industrials",
+        "insurance",
+        "healthcare",
+        "consumer-staples",
+        "real-estate",
+        "materials-mining"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "recession",
+        "budgeting-saving",
+        "housing"
+      ],
       "stocks": [
+        "alphabet",
         "amazon"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.028,
+      "sentiment_hits": 15.0,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 1,
+        "healthcare": 1,
+        "consumer-staples": 1,
+        "real-estate": 1,
+        "industrials": 5,
+        "materials-mining": 1,
+        "recession": 3,
+        "geopolitics-tariffs": 5,
+        "housing": 1,
+        "budgeting-saving": 2,
+        "alphabet": 3,
         "amazon": 3
       },
       "entity_mention_density": {
-        "amazon": 13.1
+        "insurance": 0.2,
+        "healthcare": 0.2,
+        "consumer-staples": 0.2,
+        "real-estate": 0.2,
+        "industrials": 0.8,
+        "materials-mining": 0.2,
+        "recession": 0.5,
+        "geopolitics-tariffs": 0.8,
+        "housing": 0.2,
+        "budgeting-saving": 0.3,
+        "alphabet": 0.5,
+        "amazon": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "recession": 0.0,
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "housing": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-28-patrick-boyle-on-finance-brexit-10-years-on-what-it-actually-cost-britain-ecbb7c.md",
+    "transcript_word_count": 6128,
+    "transcript_language": "en"
   },
   {
     "guid": "bogleheads.podbean.com/c2e6defd-de09-30bf-8812-9845a2d22dcc",
@@ -115584,34 +115708,50 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "inflation",
+        "passive-income",
         "volatility",
-        "retirement-planning"
+        "retirement-planning",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "meta",
-        "vanguard"
+        "vanguard",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 5.0,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "volatility": 1,
-        "retirement-planning": 1,
+        "inflation": 11,
+        "volatility": 2,
+        "retirement-planning": 2,
+        "passive-income": 9,
+        "dividends-buybacks": 1,
         "meta": 2,
-        "vanguard": 2
+        "vanguard": 9
       },
       "entity_mention_density": {
-        "volatility": 4.7,
-        "retirement-planning": 4.7,
-        "meta": 9.5,
-        "vanguard": 9.5
+        "inflation": 3.2,
+        "volatility": 0.6,
+        "retirement-planning": 0.6,
+        "passive-income": 2.6,
+        "dividends-buybacks": 0.3,
+        "meta": 0.6,
+        "vanguard": 2.6
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "volatility": -1.0,
+        "inflation": -0.333
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-money-to-the-masses-money-vault-alternative-to-the-4-rule-1b0e94.md",
+    "transcript_word_count": 3276,
+    "transcript_language": "en"
   },
   {
     "guid": "179208b3-b95f-45c2-bd3d-5dcad463d46d",
@@ -146247,29 +146387,51 @@
     "duration": "454",
     "audio_url": "https://traffic.megaphone.fm/THRH5895846723.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology"
+      ],
       "themes": [
         "inflation",
-        "rates-fed"
+        "rates-fed",
+        "elections-politics",
+        "bond-market"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2.0,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "inflation": 2,
-        "rates-fed": 1
+        "technology": 1,
+        "inflation": 5,
+        "rates-fed": 5,
+        "elections-politics": 4,
+        "bond-market": 1
       },
       "entity_mention_density": {
-        "inflation": 12.9,
-        "rates-fed": 6.5
+        "technology": 0.8,
+        "inflation": 3.9,
+        "rates-fed": 3.9,
+        "elections-politics": 3.2,
+        "bond-market": 0.8
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "bond-market": -1.0,
+        "elections-politics": -1.0
+      },
+      "entity_conviction": {
+        "technology": 1.0,
+        "rates-fed": 0.333,
+        "inflation": -1.0,
+        "elections-politics": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-reuters-morning-bid-warshed-and-ready-be1143.md",
+    "transcript_word_count": 1113,
+    "transcript_language": "en"
   },
   {
     "guid": "292f24b6-3f59-11f1-a70f-13fb44fad777",
@@ -147753,32 +147915,47 @@
     "audio_url": "https://sphinx.acast.com/p/open/s/d556eb54-6160-4c85-95f4-47d9f5216c49/a/theeconomistallaudio/e/6a01ab22b443364556d135ba/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=tGmC7QRIQ75FKYxIxed8K2UFsSQlDAWfhBC5mL7_PZk",
     "tags": {
       "sectors": [
-        "energy",
-        "airlines-travel"
+        "airlines-travel",
+        "energy"
       ],
       "themes": [
         "elections-politics"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "goldman-sachs"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 3.0,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "energy": 1,
-        "airlines-travel": 1,
-        "elections-politics": 2
+        "energy": 2,
+        "airlines-travel": 15,
+        "elections-politics": 20,
+        "goldman-sachs": 1
       },
       "entity_mention_density": {
-        "energy": 6.4,
-        "airlines-travel": 6.4,
-        "elections-politics": 12.7
+        "energy": 0.6,
+        "airlines-travel": 4.7,
+        "elections-politics": 6.3,
+        "goldman-sachs": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "airlines-travel": -1.0,
+        "elections-politics": 1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "airlines-travel": -1.0,
+        "elections-politics": -0.5
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-economist-podcasts-keir-hunters-will-britain-s-pm-go-d135ba.md",
+    "transcript_word_count": 3007,
+    "transcript_language": "en"
   },
   {
     "guid": "2959bfe6-3f59-11f1-a70f-abf2158d3031",
