@@ -151101,16 +151101,12 @@
       "sectors": [
         "semiconductors",
         "ai-infrastructure",
-        "consumer-discretionary",
-        "consumer-staples",
-        "materials-mining",
-        "media-entertainment"
+        "consumer-discretionary"
       ],
       "themes": [
-        "inflation",
         "dealmaking",
-        "dividends-buybacks",
-        "geopolitics-tariffs"
+        "inflation",
+        "market-concentration"
       ],
       "stocks": [
         "nvidia",
@@ -151119,60 +151115,16 @@
         "intel",
         "sp500"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0.0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "semiconductors": 13,
-        "ai-infrastructure": 1,
-        "consumer-discretionary": 1,
-        "consumer-staples": 1,
-        "materials-mining": 1,
-        "media-entertainment": 1,
-        "inflation": 4,
-        "geopolitics-tariffs": 1,
-        "dealmaking": 2,
-        "dividends-buybacks": 2,
-        "nvidia": 14,
-        "alphabet": 3,
-        "amazon": 2,
-        "intel": 1,
-        "sp500": 1
-      },
-      "entity_mention_density": {
-        "semiconductors": 3.2,
-        "ai-infrastructure": 0.2,
-        "consumer-discretionary": 0.2,
-        "consumer-staples": 0.2,
-        "materials-mining": 0.2,
-        "media-entertainment": 0.2,
-        "inflation": 1.0,
-        "geopolitics-tariffs": 0.2,
-        "dealmaking": 0.5,
-        "dividends-buybacks": 0.5,
-        "nvidia": 3.5,
-        "alphabet": 0.7,
-        "amazon": 0.5,
-        "intel": 0.2,
-        "sp500": 0.2
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "media-entertainment": -1.0,
-        "materials-mining": -1.0,
-        "inflation": -1.0,
-        "geopolitics-tariffs": -1.0,
-        "nvidia": -1.0,
-        "sp500": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.2
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-12-unhedged-can-gamestop-buy-ebay-1886ac.md",
     "transcript_word_count": 3904,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "FT's Unhedged breaks down GameStop's hostile eBay bid as a leveraged, weak-governance structure that effectively makes Ryan Cohen eBay's CEO via GameStop's 'wrapping paper,' and discusses whether Cerebras Systems' new ~$50B valuation and in-house chips from Google and Amazon signal real competition emerging for Nvidia's high AI-chip margins; closes bullish on continued inflation risk.",
+    "episode_summary": "FT's Unhedged breaks down GameStop's hostile eBay bid as a leveraged, weak-governance structure that effectively makes Ryan Cohen eBay's CEO via GameStop's 'wrapping paper,' and discusses whether Cerebras Systems' new ~$50B valuation and in-house chips from Google and Amazon signal real competition emerging for Nvidia's high AI-chip margins; closes bullish on continued inflation risk.",
+    "episode_summary_source": "claude-manual"
   },
   {
     "guid": "gid://art19-episode-locator/V0/VbUqFXPJDkt0qaZTxrH17y-jb2GXN-Hp2H0jX1cm_Rc",
@@ -151796,50 +151748,26 @@
     "audio_url": "https://traffic.megaphone.fm/THRH5895846723.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "energy"
       ],
       "themes": [
         "inflation",
         "rates-fed",
+        "bond-market",
         "elections-politics",
-        "bond-market"
+        "geopolitics-tariffs"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2.0,
-      "sentiment_confidence": 0.333,
-      "entity_mentions": {
-        "technology": 1,
-        "inflation": 5,
-        "rates-fed": 5,
-        "elections-politics": 4,
-        "bond-market": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.8,
-        "inflation": 3.9,
-        "rates-fed": 3.9,
-        "elections-politics": 3.2,
-        "bond-market": 0.8
-      },
-      "entity_sentiment": {
-        "bond-market": -1.0,
-        "elections-politics": -1.0
-      },
-      "entity_conviction": {
-        "technology": 1.0,
-        "rates-fed": 0.333,
-        "inflation": -1.0,
-        "elections-politics": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.4
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-12-reuters-morning-bid-warshed-and-ready-be1143.md",
     "transcript_word_count": 1113,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Markets wobble as Trump says the Iran ceasefire is 'on life support,' sending Brent above $105 ahead of a US CPI report expected to show headline inflation jumping to 3.7% (highest in three years) just as Kevin Warsh is set to be confirmed as Fed chair, while UK gilt yields hit their highest since 1998 as Starmer's own cabinet turns against him.",
+    "episode_summary": "Markets wobble as Trump says the Iran ceasefire is 'on life support,' sending Brent above $105 ahead of a US CPI report expected to show headline inflation jumping to 3.7% (highest in three years) just as Kevin Warsh is set to be confirmed as Fed chair, while UK gilt yields hit their highest since 1998 as Starmer's own cabinet turns against him.",
+    "episode_summary_source": "claude-manual"
   },
   {
     "guid": "292f24b6-3f59-11f1-a70f-13fb44fad777",
@@ -153327,45 +153255,23 @@
         "energy"
       ],
       "themes": [
-        "elections-politics"
+        "elections-politics",
+        "geopolitics-tariffs",
+        "commodities"
       ],
       "stocks": [
         "goldman-sachs"
       ],
-      "sentiment": -0.118,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
-      "entity_mentions": {
-        "energy": 2,
-        "airlines-travel": 16,
-        "elections-politics": 20,
-        "goldman-sachs": 1
-      },
-      "entity_mention_density": {
-        "energy": 0.6,
-        "airlines-travel": 5.1,
-        "elections-politics": 6.3,
-        "goldman-sachs": 0.3
-      },
-      "entity_sentiment": {
-        "airlines-travel": -1.0,
-        "elections-politics": 1.0
-      },
-      "entity_conviction": {
-        "energy": -1.0,
-        "airlines-travel": -1.0,
-        "elections-politics": -0.5
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.3
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Airlines & Travel, Energy & Oil, Elections & Politics. Mentions Goldman Sachs. Tone reads roughly neutral (-0.12).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Covers the political crisis threatening UK PM Keir Starmer's position after catastrophic local election losses, alongside the jet fuel shock from the Strait of Hormuz closure that has already forced Spirit Airlines out of business and pushed fuel to roughly a quarter of airline operating costs, with Goldman Sachs still forecasting a modest capacity increase this summer despite the squeeze.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-11-economist-podcasts-keir-hunters-will-britain-s-pm-go-d135ba.md",
     "transcript_word_count": 3004,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Covers the political crisis threatening UK PM Keir Starmer's position after catastrophic local election losses, alongside the jet fuel shock from the Strait of Hormuz closure that has already forced Spirit Airlines out of business and pushed fuel to roughly a quarter of airline operating costs, with Goldman Sachs still forecasting a modest capacity increase this summer despite the squeeze."
   },
   {
     "guid": "2959bfe6-3f59-11f1-a70f-abf2158d3031",
@@ -154477,94 +154383,30 @@
     "tags": {
       "sectors": [
         "consumer-discretionary",
-        "crypto",
         "technology",
-        "banks",
-        "real-estate",
         "private-markets"
       ],
       "themes": [
         "dealmaking",
-        "budgeting-saving",
-        "housing",
-        "bond-market",
-        "hedge-funds",
-        "valuation"
+        "valuation",
+        "hedge-funds"
       ],
       "stocks": [
         "amazon",
-        "bitcoin",
         "berkshire",
-        "alphabet",
-        "tesla",
-        "nvidia",
-        "oracle"
+        "bitcoin",
+        "nvidia"
       ],
-      "sentiment": -0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
-      "entity_mentions": {
-        "technology": 2,
-        "banks": 1,
-        "consumer-discretionary": 4,
-        "real-estate": 1,
-        "crypto": 3,
-        "private-markets": 1,
-        "housing": 1,
-        "dealmaking": 4,
-        "bond-market": 1,
-        "hedge-funds": 1,
-        "budgeting-saving": 3,
-        "valuation": 1,
-        "nvidia": 1,
-        "alphabet": 4,
-        "amazon": 6,
-        "tesla": 3,
-        "berkshire": 5,
-        "bitcoin": 6,
-        "oracle": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.4,
-        "banks": 0.2,
-        "consumer-discretionary": 0.8,
-        "real-estate": 0.2,
-        "crypto": 0.6,
-        "private-markets": 0.2,
-        "housing": 0.2,
-        "dealmaking": 0.8,
-        "bond-market": 0.2,
-        "hedge-funds": 0.2,
-        "budgeting-saving": 0.6,
-        "valuation": 0.2,
-        "nvidia": 0.2,
-        "alphabet": 0.8,
-        "amazon": 1.2,
-        "tesla": 0.6,
-        "berkshire": 1.0,
-        "bitcoin": 1.2,
-        "oracle": 0.2
-      },
-      "entity_sentiment": {
-        "amazon": -1.0
-      },
-      "entity_conviction": {
-        "consumer-discretionary": -1.0,
-        "technology": -1.0,
-        "crypto": -1.0,
-        "dealmaking": -1.0,
-        "budgeting-saving": -1.0,
-        "nvidia": -1.0,
-        "tesla": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.5
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-10-patrick-boyle-on-finance-the-dumbest-takeover-bid-9da5f2.md",
     "transcript_word_count": 4998,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Dissects GameStop's $56 billion unsolicited hostile bid for eBay as poorly structured -- funded by unauthorized stock, a non-binding 'highly confident' loan letter, and CEO Ryan Cohen's own outsized compensation incentives -- noting Michael Burry sold his entire GameStop stake this week over leverage concerns (7.7x EBITDA).",
+    "episode_summary": "Dissects GameStop's $56 billion unsolicited hostile bid for eBay as poorly structured -- funded by unauthorized stock, a non-binding 'highly confident' loan letter, and CEO Ryan Cohen's own outsized compensation incentives -- noting Michael Burry sold his entire GameStop stake this week over leverage concerns (7.7x EBITDA).",
+    "episode_summary_source": "claude-manual"
   },
   {
     "guid": "17150fd4-4ac1-11f1-ac6d-63e7c88eb213",
@@ -156279,66 +156121,24 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/tracking.swap.fm/track/p5fhOfGH2wHmde5UefB4/traffic.megaphone.fm/BIGPOC6596258544.mp3?updated=1778239528",
     "tags": {
       "sectors": [
-        "real-estate",
-        "insurance"
+        "real-estate"
       ],
       "themes": [
         "real-estate-investing",
-        "rates-fed",
-        "inflation",
-        "passive-income",
-        "tax-planning"
+        "tax-planning",
+        "passive-income"
       ],
-      "stocks": [
-        "bitcoin"
-      ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {
-        "insurance": 2,
-        "real-estate": 22,
-        "inflation": 1,
-        "rates-fed": 3,
-        "real-estate-investing": 12,
-        "passive-income": 1,
-        "tax-planning": 1,
-        "bitcoin": 7
-      },
-      "entity_mention_density": {
-        "insurance": 0.4,
-        "real-estate": 4.1,
-        "inflation": 0.2,
-        "rates-fed": 0.6,
-        "real-estate-investing": 2.2,
-        "passive-income": 0.2,
-        "tax-planning": 0.2,
-        "bitcoin": 1.3
-      },
-      "entity_sentiment": {
-        "real-estate": 1.0,
-        "real-estate-investing": 1.0,
-        "inflation": 1.0,
-        "tax-planning": 1.0,
-        "bitcoin": 1.0
-      },
-      "entity_conviction": {
-        "real-estate": -1.0,
-        "real-estate-investing": -1.0,
-        "inflation": -1.0,
-        "tax-planning": -1.0,
-        "bitcoin": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Real Estate, Insurance, Real Estate Investing, Interest Rates & Fed Policy, Inflation, Passive Income & Side Hustles. Mentions Bitcoin. Tone leans bullish (+0.17) (low confidence).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Hosts advise maximizing volume and execution on cold calling and driving for dollars before trying new deal-finding strategies, weigh self-managing vs. hiring a property manager, and analyze whether a negative-cash-flow rental in an expensive market like the Bay Area can still make sense given appreciation and tax-depreciation benefits.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-08-real-estate-rookie-should-you-ever-buy-a-rental-property-with-negative-cash-flo-d596d5.md",
     "transcript_word_count": 5098,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Hosts advise maximizing volume and execution on cold calling and driving for dollars before trying new deal-finding strategies, weigh self-managing vs. hiring a property manager, and analyze whether a negative-cash-flow rental in an expensive market like the Bay Area can still make sense given appreciation and tax-depreciation benefits."
   },
   {
     "guid": "11d7deba-4abd-11f1-b105-17c1078bb6ce",
@@ -157946,44 +157746,24 @@
     "duration": "19:59",
     "audio_url": "https://sphinx.acast.com/p/open/s/d556eb54-6160-4c85-95f4-47d9f5216c49/a/theeconomistallaudio/e/69fc6417727202335908cc9b/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=wTBn6vkyojB2ACxQyZLq_812yH53rfsnZo5LIRrnhcc",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary"
+      ],
       "themes": [
         "geopolitics-tariffs",
-        "inflation",
-        "recession",
-        "regulation-antitrust"
+        "currency-dollar"
       ],
       "stocks": [],
-      "sentiment": 0.111,
-      "sentiment_hits": 6.0,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "inflation": 1,
-        "recession": 1,
-        "geopolitics-tariffs": 2,
-        "regulation-antitrust": 1
-      },
-      "entity_mention_density": {
-        "inflation": 0.3,
-        "recession": 0.3,
-        "geopolitics-tariffs": 0.6,
-        "regulation-antitrust": 0.3
-      },
-      "entity_sentiment": {
-        "recession": 0.429
-      },
-      "entity_conviction": {
-        "regulation-antitrust": -1.0,
-        "geopolitics-tariffs": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-07-economist-podcasts-a-hatred-normalised-antisemitism-in-britain-08cc9b.md",
     "transcript_word_count": 2963,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A segment explains why American luxury brands like Ralph Lauren and Coach are outperforming European rivals LVMH and Kering, citing tighter distribution control, more accessible $200-500 price points, and current preppy/90s fashion trends, compounded by dollar strength hurting European tourist spending.",
+    "episode_summary": "A segment explains why American luxury brands like Ralph Lauren and Coach are outperforming European rivals LVMH and Kering, citing tighter distribution control, more accessible $200-500 price points, and current preppy/90s fashion trends, compounded by dollar strength hurting European tourist spending.",
+    "episode_summary_source": "claude-manual"
   },
   {
     "guid": "284f9c88-3f59-11f1-a70f-e39ceb3ce92d",
@@ -158285,135 +158065,34 @@
       "sectors": [
         "private-markets",
         "insurance",
-        "technology",
         "energy",
         "consumer-discretionary"
       ],
       "themes": [
         "dealmaking",
         "valuation",
-        "recession",
-        "hedge-funds",
-        "small-caps-value-growth",
-        "inflation",
-        "elections-politics",
-        "commodities",
-        "budgeting-saving",
-        "dividends-buybacks"
+        "credit-markets",
+        "hedge-funds"
       ],
       "stocks": [
-        "amazon",
         "berkshire",
+        "amazon",
         "alphabet",
         "apple",
         "meta",
         "sp500",
-        "nvidia",
-        "walmart"
+        "nvidia"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 8,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 1,
-        "insurance": 3,
-        "energy": 1,
-        "consumer-discretionary": 1,
-        "private-markets": 4,
-        "inflation": 1,
-        "recession": 2,
-        "elections-politics": 1,
-        "commodities": 1,
-        "dealmaking": 9,
-        "hedge-funds": 2,
-        "budgeting-saving": 1,
-        "dividends-buybacks": 1,
-        "valuation": 3,
-        "small-caps-value-growth": 2,
-        "nvidia": 1,
-        "apple": 3,
-        "alphabet": 5,
-        "amazon": 8,
-        "meta": 2,
-        "berkshire": 7,
-        "walmart": 1,
-        "sp500": 2
-      },
-      "entity_mention_density": {
-        "technology": 0.1,
-        "insurance": 0.3,
-        "energy": 0.1,
-        "consumer-discretionary": 0.1,
-        "private-markets": 0.4,
-        "inflation": 0.1,
-        "recession": 0.2,
-        "elections-politics": 0.1,
-        "commodities": 0.1,
-        "dealmaking": 0.8,
-        "hedge-funds": 0.2,
-        "budgeting-saving": 0.1,
-        "dividends-buybacks": 0.1,
-        "valuation": 0.3,
-        "small-caps-value-growth": 0.2,
-        "nvidia": 0.1,
-        "apple": 0.3,
-        "alphabet": 0.4,
-        "amazon": 0.7,
-        "meta": 0.2,
-        "berkshire": 0.6,
-        "walmart": 0.1,
-        "sp500": 0.2
-      },
-      "entity_sentiment": {
-        "insurance": 0.6,
-        "technology": 0.6,
-        "energy": 0.6,
-        "consumer-discretionary": 0.6,
-        "private-markets": 0.6,
-        "valuation": 0.6,
-        "dealmaking": 0.6,
-        "recession": -1.0,
-        "inflation": 0.6,
-        "commodities": 0.6,
-        "budgeting-saving": 0.6,
-        "dividends-buybacks": 0.6,
-        "berkshire": 0.6,
-        "amazon": 0.6,
-        "alphabet": 0.6,
-        "nvidia": 0.6,
-        "sp500": 0.6
-      },
-      "entity_conviction": {
-        "insurance": -0.926,
-        "technology": -0.922,
-        "energy": -0.922,
-        "consumer-discretionary": -0.922,
-        "private-markets": -0.922,
-        "valuation": -0.922,
-        "dealmaking": -0.927,
-        "recession": -1.0,
-        "inflation": -0.922,
-        "commodities": -0.922,
-        "budgeting-saving": -0.922,
-        "dividends-buybacks": -0.922,
-        "berkshire": -0.926,
-        "amazon": -0.922,
-        "alphabet": -0.922,
-        "apple": -1.0,
-        "walmart": -1.0,
-        "nvidia": -0.922,
-        "sp500": -0.922
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.2
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Private Equity & Credit, Insurance, Technology, IPOs & Dealmaking, Valuation, Recession Risk, Hedge Funds. Mentions Amazon, Berkshire Hathaway, Alphabet / Google, Apple, Meta. Tone reads roughly neutral (+0.00).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Berkshire historian Adam Mead discusses the 2026 annual meeting under new CEO Greg Abel, including BNSF margin potential, buybacks priced near intrinsic value (~$486/share), the Tokyo Marine reinsurance deal, and the Pilot Travel Centers litigation, plus a broader warning about EBITDA abuse and private-credit leverage risk (citing Blackstone fund redemption pressure) echoing prior credit cycles.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-07-the-acquirers-podcast-author-and-investor-adam-mead-on-berkshire-hathaway-brk-a-br-2b4786.md",
     "transcript_word_count": 10984,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Berkshire historian Adam Mead discusses the 2026 annual meeting under new CEO Greg Abel, including BNSF margin potential, buybacks priced near intrinsic value (~$486/share), the Tokyo Marine reinsurance deal, and the Pilot Travel Centers litigation, plus a broader warning about EBITDA abuse and private-credit leverage risk (citing Blackstone fund redemption pressure) echoing prior credit cycles."
   },
   {
     "guid": "7a8aaf0e-47e9-11f1-a2d1-030e826b82d5",
@@ -159469,59 +159148,23 @@
     "duration": "1297",
     "audio_url": "https://media.transistor.fm/86867516/b8410f54.mp3",
     "tags": {
-      "sectors": [
-        "healthcare",
-        "insurance"
-      ],
+      "sectors": [],
       "themes": [
         "retirement-planning",
-        "diversification",
         "tax-planning",
-        "budgeting-saving",
-        "dividends-buybacks"
+        "diversification"
       ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
-      "entity_mentions": {
-        "insurance": 3,
-        "healthcare": 10,
-        "budgeting-saving": 1,
-        "retirement-planning": 11,
-        "dividends-buybacks": 1,
-        "diversification": 7,
-        "tax-planning": 2
-      },
-      "entity_mention_density": {
-        "insurance": 0.6,
-        "healthcare": 2.1,
-        "budgeting-saving": 0.2,
-        "retirement-planning": 2.3,
-        "dividends-buybacks": 0.2,
-        "diversification": 1.5,
-        "tax-planning": 0.4
-      },
-      "entity_sentiment": {
-        "dividends-buybacks": 1.0
-      },
-      "entity_conviction": {
-        "healthcare": -1.0,
-        "insurance": -1.0,
-        "retirement-planning": -1.0,
-        "budgeting-saving": -1.0,
-        "tax-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.2
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Retirement Planning, Diversification & Asset Allocation, Tax Planning, Budgeting & Saving. Tone leans bullish (+0.17).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Explains five risks of concentrating retirement savings in tax-deferred accounts (future tax-rate uncertainty, RMDs, loss of income control, psychological spending friction, inflexibility) and recommends building tax diversification across pre-tax, Roth, and taxable brokerage accounts, including Roth conversions during early-retirement gap years.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-06-retirement-answers-why-your-401-k-isn-t-enough-the-ideal-retirement-mix-3736e6.md",
     "transcript_word_count": 4586,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Explains five risks of concentrating retirement savings in tax-deferred accounts (future tax-rate uncertainty, RMDs, loss of income control, psychological spending friction, inflexibility) and recommends building tax diversification across pre-tax, Roth, and taxable brokerage accounts, including Roth conversions during early-retirement gap years."
   },
   {
     "guid": "100d3074-d0ea-41bd-9420-4e1a3fa9cbf0",
@@ -160067,83 +159710,28 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "crypto",
-        "media-entertainment",
-        "healthcare"
+        "crypto"
       ],
       "themes": [
         "retirement-planning",
-        "debt-payoff",
-        "inflation",
-        "passive-investing",
         "housing",
+        "debt-payoff",
         "behavioral-finance",
-        "college-savings"
+        "passive-investing"
       ],
       "stocks": [
-        "disney",
         "sp500"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 9,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "healthcare": 2,
-        "real-estate": 5,
-        "media-entertainment": 4,
-        "crypto": 5,
-        "inflation": 3,
-        "housing": 1,
-        "passive-investing": 3,
-        "debt-payoff": 5,
-        "retirement-planning": 10,
-        "behavioral-finance": 1,
-        "college-savings": 1,
-        "sp500": 2,
-        "disney": 6
-      },
-      "entity_mention_density": {
-        "healthcare": 0.4,
-        "real-estate": 0.9,
-        "media-entertainment": 0.7,
-        "crypto": 0.9,
-        "inflation": 0.5,
-        "housing": 0.2,
-        "passive-investing": 0.5,
-        "debt-payoff": 0.9,
-        "retirement-planning": 1.8,
-        "behavioral-finance": 0.2,
-        "college-savings": 0.2,
-        "sp500": 0.4,
-        "disney": 1.1
-      },
-      "entity_sentiment": {
-        "crypto": -1.0,
-        "real-estate": -1.0,
-        "inflation": -1.0,
-        "housing": -1.0,
-        "debt-payoff": -1.0,
-        "college-savings": -1.0,
-        "passive-investing": -1.0,
-        "retirement-planning": -1.0
-      },
-      "entity_conviction": {
-        "crypto": -0.167,
-        "real-estate": -1.0,
-        "debt-payoff": -1.0,
-        "passive-investing": -0.167,
-        "retirement-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.1
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Media & Entertainment, Retirement Planning, Debt Payoff, Inflation, Passive Investing. Mentions Disney, S&P 500. Tone leans bearish (-0.33).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Author Beth Kobliner discusses how young people today face worse housing affordability but better retirement-savings habits than prior generations, warns that sports gambling and crypto speculation are displacing sound investing among Gen Z, and recommends 401(k) catch-up contributions and backdoor Roth conversions for those behind on retirement savings.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-06-hermoney-with-jean-chatzky-ep-526-this-mother-s-day-pass-it-on-slow-and-steady-still-wi-056c31.md",
     "transcript_word_count": 5281,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Author Beth Kobliner discusses how young people today face worse housing affordability but better retirement-savings habits than prior generations, warns that sports gambling and crypto speculation are displacing sound investing among Gen Z, and recommends 401(k) catch-up contributions and backdoor Roth conversions for those behind on retirement savings."
   },
   {
     "guid": "5dba9376-bfe5-11f0-8a48-630a5bb90cc8",
@@ -160775,158 +160363,40 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "consumer-discretionary",
         "semiconductors",
         "industrials",
         "energy",
-        "real-estate",
-        "technology",
-        "consumer-staples",
-        "media-entertainment",
-        "private-markets"
+        "technology"
       ],
       "themes": [
         "ai-boom",
-        "budgeting-saving",
-        "rates-fed",
-        "passive-investing",
-        "elections-politics",
+        "earnings",
         "dealmaking",
-        "regulation-antitrust",
-        "hedge-funds",
-        "passive-income",
-        "dividends-buybacks"
+        "market-concentration"
       ],
       "stocks": [
         "amazon",
-        "microsoft",
         "alphabet",
+        "microsoft",
+        "meta",
         "nvidia",
         "amd",
-        "sp500",
         "cisco",
-        "meta",
+        "oracle",
+        "sp500",
         "nasdaq",
-        "charles-schwab",
-        "netflix",
-        "disney"
+        "charles-schwab"
       ],
-      "sentiment": 0.701,
-      "sentiment_hits": 14,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 1,
-        "semiconductors": 4,
-        "ai-infrastructure": 21,
-        "energy": 2,
-        "consumer-discretionary": 6,
-        "consumer-staples": 1,
-        "real-estate": 2,
-        "industrials": 4,
-        "media-entertainment": 1,
-        "private-markets": 1,
-        "rates-fed": 2,
-        "ai-boom": 3,
-        "elections-politics": 1,
-        "dealmaking": 1,
-        "regulation-antitrust": 1,
-        "hedge-funds": 1,
-        "passive-investing": 2,
-        "budgeting-saving": 3,
-        "passive-income": 1,
-        "dividends-buybacks": 1,
-        "nvidia": 4,
-        "microsoft": 7,
-        "alphabet": 7,
-        "amazon": 8,
-        "meta": 1,
-        "cisco": 2,
-        "amd": 4,
-        "sp500": 3,
-        "nasdaq": 1,
-        "charles-schwab": 1,
-        "netflix": 1,
-        "disney": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.1,
-        "semiconductors": 0.5,
-        "ai-infrastructure": 2.7,
-        "energy": 0.3,
-        "consumer-discretionary": 0.8,
-        "consumer-staples": 0.1,
-        "real-estate": 0.3,
-        "industrials": 0.5,
-        "media-entertainment": 0.1,
-        "private-markets": 0.1,
-        "rates-fed": 0.3,
-        "ai-boom": 0.4,
-        "elections-politics": 0.1,
-        "dealmaking": 0.1,
-        "regulation-antitrust": 0.1,
-        "hedge-funds": 0.1,
-        "passive-investing": 0.3,
-        "budgeting-saving": 0.4,
-        "passive-income": 0.1,
-        "dividends-buybacks": 0.1,
-        "nvidia": 0.5,
-        "microsoft": 0.9,
-        "alphabet": 0.9,
-        "amazon": 1.0,
-        "meta": 0.1,
-        "cisco": 0.3,
-        "amd": 0.5,
-        "sp500": 0.4,
-        "nasdaq": 0.1,
-        "charles-schwab": 0.1,
-        "netflix": 0.1,
-        "disney": 0.1
-      },
-      "entity_sentiment": {
-        "ai-infrastructure": 0.0,
-        "semiconductors": 1.0,
-        "industrials": 1.0,
-        "technology": 1.0,
-        "energy": 1.0,
-        "ai-boom": 1.0,
-        "passive-investing": 1.0,
-        "elections-politics": 1.0,
-        "dealmaking": 1.0,
-        "hedge-funds": 1.0,
-        "amazon": 0.333,
-        "amd": 0.0,
-        "microsoft": 0.333,
-        "alphabet": 0.333,
-        "meta": 0.0,
-        "nvidia": 1.0,
-        "sp500": 1.0
-      },
-      "entity_conviction": {
-        "ai-infrastructure": -0.632,
-        "industrials": -0.75,
-        "consumer-discretionary": -1.0,
-        "media-entertainment": -1.0,
-        "real-estate": -1.0,
-        "ai-boom": -0.846,
-        "dividends-buybacks": -1.0,
-        "budgeting-saving": -1.0,
-        "amazon": -1.0,
-        "amd": -1.0,
-        "netflix": -1.0,
-        "disney": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": [
-        "ai-infrastructure"
-      ]
+      "sentiment": 0.7
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on AI Infrastructure, Consumer Discretionary, Semiconductors, AI & Machine Learning, Budgeting & Saving, Interest Rates & Fed Policy, Passive Investing. Mentions Amazon, Microsoft, Alphabet / Google, Nvidia, AMD. Tone leans bullish (+0.70).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Cramer argues the AI data center boom is 'seismic' and broader than the market realizes, naming Amazon and Alphabet as the two publicly traded winners funded by Anthropic/OpenAI capex, gives an extensive buy list across chips/power/infrastructure names, and features interviews with Rockwell Automation's CEO on reshoring/automation demand and Waters Corp's CEO on its life-sciences acquisition.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-05-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-5-26-70691f.md",
     "transcript_word_count": 7804,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Cramer argues the AI data center boom is 'seismic' and broader than the market realizes, naming Amazon and Alphabet as the two publicly traded winners funded by Anthropic/OpenAI capex, gives an extensive buy list across chips/power/infrastructure names, and features interviews with Rockwell Automation's CEO on reshoring/automation demand and Waters Corp's CEO on its life-sciences acquisition."
   },
   {
     "guid": "d7b1d894-48c3-11f1-8826-5b69c1b38e70",
@@ -162104,158 +161574,35 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "crypto",
-        "airlines-travel",
-        "real-estate",
-        "consumer-discretionary",
-        "technology",
-        "energy",
-        "utilities"
+        "semiconductors",
+        "crypto"
       ],
       "themes": [
-        "dealmaking",
-        "earnings",
-        "rates-fed",
-        "inflation",
+        "ai-boom",
         "fiscal-debt",
         "market-concentration",
-        "ai-boom",
-        "recession",
-        "consumer-health",
-        "budgeting-saving",
-        "insurance-products"
+        "inflation",
+        "rates-fed"
       ],
       "stocks": [
-        "bitcoin",
         "nvidia",
-        "alphabet",
-        "amd",
-        "tsmc",
-        "sp500",
-        "blackrock",
-        "qualcomm",
+        "micron",
+        "bitcoin",
         "amazon",
-        "berkshire",
-        "broadcom",
-        "microsoft",
-        "tesla",
-        "ethereum",
-        "nasdaq",
-        "vanguard",
-        "netflix",
-        "disney",
-        "salesforce"
+        "alphabet",
+        "intel",
+        "tsmc"
       ],
-      "sentiment": 0.136,
-      "sentiment_hits": 27,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 2,
-        "ai-infrastructure": 15,
-        "energy": 1,
-        "utilities": 1,
-        "consumer-discretionary": 3,
-        "real-estate": 4,
-        "airlines-travel": 5,
-        "crypto": 7,
-        "inflation": 2,
-        "rates-fed": 3,
-        "ai-boom": 1,
-        "recession": 1,
-        "fiscal-debt": 2,
-        "dealmaking": 7,
-        "earnings": 4,
-        "consumer-health": 1,
-        "budgeting-saving": 1,
-        "market-concentration": 2,
-        "insurance-products": 1,
-        "nvidia": 11,
-        "microsoft": 1,
-        "alphabet": 7,
-        "amazon": 2,
-        "tesla": 1,
-        "amd": 3,
-        "tsmc": 3,
-        "berkshire": 2,
-        "bitcoin": 17,
-        "ethereum": 1,
-        "sp500": 3,
-        "nasdaq": 1,
-        "vanguard": 1,
-        "blackrock": 3,
-        "netflix": 1,
-        "disney": 1,
-        "salesforce": 1,
-        "broadcom": 2,
-        "qualcomm": 3
-      },
-      "entity_mention_density": {
-        "technology": 0.1,
-        "ai-infrastructure": 0.8,
-        "energy": 0.1,
-        "utilities": 0.1,
-        "consumer-discretionary": 0.2,
-        "real-estate": 0.2,
-        "airlines-travel": 0.3,
-        "crypto": 0.4,
-        "inflation": 0.1,
-        "rates-fed": 0.2,
-        "ai-boom": 0.1,
-        "recession": 0.1,
-        "fiscal-debt": 0.1,
-        "dealmaking": 0.4,
-        "earnings": 0.2,
-        "consumer-health": 0.1,
-        "budgeting-saving": 0.1,
-        "market-concentration": 0.1,
-        "insurance-products": 0.1,
-        "nvidia": 0.6,
-        "microsoft": 0.1,
-        "alphabet": 0.4,
-        "amazon": 0.1,
-        "tesla": 0.1,
-        "amd": 0.2,
-        "tsmc": 0.2,
-        "berkshire": 0.1,
-        "bitcoin": 0.9,
-        "ethereum": 0.1,
-        "sp500": 0.2,
-        "nasdaq": 0.1,
-        "vanguard": 0.1,
-        "blackrock": 0.2,
-        "netflix": 0.1,
-        "disney": 0.1,
-        "salesforce": 0.1,
-        "broadcom": 0.1,
-        "qualcomm": 0.2
-      },
-      "entity_sentiment": {
-        "ai-infrastructure": -1.0,
-        "real-estate": -1.0,
-        "fiscal-debt": 1.0,
-        "recession": -1.0
-      },
-      "entity_conviction": {
-        "energy": -1.0,
-        "earnings": -1.0,
-        "dealmaking": 1.0,
-        "market-concentration": -1.0,
-        "rates-fed": -1.0,
-        "nvidia": -0.5,
-        "amd": -1.0,
-        "broadcom": -1.0,
-        "qualcomm": 1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.5
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on AI Infrastructure, Crypto & Digital Assets, Airlines & Travel, IPOs & Dealmaking, Corporate Earnings, Interest Rates & Fed Policy, Inflation. Mentions Bitcoin, Nvidia, Alphabet / Google, AMD, TSMC. Tone reads roughly neutral (+0.14).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Hosts share options-trading case studies on Micron and SanDisk (some gains exceeding 1,000%) framed around holding AI-infrastructure and memory stocks for the long term, argue the AI capex/earnings story remains intact despite an expected new-Fed-chair pullback, and warn that ballooning US national debt (now 100% of GDP) will keep funneling capital into mega-cap tech and Bitcoin.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-05-market-mondays-mm-310-stocks-at-all-time-highs-1-400-options-gain-exact-pri-158a98.md",
     "transcript_word_count": 19585,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Hosts share options-trading case studies on Micron and SanDisk (some gains exceeding 1,000%) framed around holding AI-infrastructure and memory stocks for the long term, argue the AI capex/earnings story remains intact despite an expected new-Fed-chair pullback, and warn that ballooning US national debt (now 100% of GDP) will keep funneling capital into mega-cap tech and Bitcoin."
   },
   {
     "guid": "4afa05b0-4b4c-43c0-bf76-8d45f2ad008a",
@@ -163457,41 +162804,19 @@
         "real-estate"
       ],
       "themes": [
-        "ai-boom",
-        "budgeting-saving"
+        "ai-boom"
       ],
-      "stocks": [
-        "alphabet"
-      ],
-      "sentiment": -0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
-      "entity_mentions": {
-        "real-estate": 20,
-        "ai-boom": 8,
-        "budgeting-saving": 1,
-        "alphabet": 8
-      },
-      "entity_mention_density": {
-        "real-estate": 2.8,
-        "ai-boom": 1.1,
-        "budgeting-saving": 0.1,
-        "alphabet": 1.1
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "real-estate": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Real Estate, AI & Machine Learning, Budgeting & Saving. Mentions Alphabet / Google. Tone leans bearish (-0.67).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Real estate coach Lauren Lucas explains how to build AI agents (using platforms like twin.so, Claude, and Manus) to automate real estate business tasks such as market research, lead generation, and content creation, concluding that AI will augment rather than replace real estate agents.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-04-the-millionaire-real-estate-agent-133-stop-prompting-start-delegating-your-first-ai-agent-with-9a6c43.md",
     "transcript_word_count": 6765,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Real estate coach Lauren Lucas explains how to build AI agents (using platforms like twin.so, Claude, and Manus) to automate real estate business tasks such as market research, lead generation, and content creation, concluding that AI will augment rather than replace real estate agents."
   },
   {
     "guid": "69f4b6dead98579289aa87ce",
@@ -164454,98 +163779,28 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "industrials",
-        "energy",
-        "private-markets"
+        "energy"
       ],
       "themes": [
         "inflation",
         "rates-fed",
-        "geopolitics-tariffs",
+        "fiscal-debt",
         "labor-market",
         "housing",
-        "credit-markets",
-        "fiscal-debt",
-        "market-timing-dca",
-        "recession",
-        "commodities",
         "bond-market",
-        "budgeting-saving",
-        "diversification"
+        "geopolitics-tariffs"
       ],
-      "stocks": [
-        "amazon",
-        "alphabet",
-        "sp500"
-      ],
-      "sentiment": 0.25,
-      "sentiment_hits": 16.0,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "energy": 1,
-        "real-estate": 6,
-        "industrials": 5,
-        "private-markets": 1,
-        "inflation": 43,
-        "rates-fed": 18,
-        "recession": 1,
-        "credit-markets": 2,
-        "geopolitics-tariffs": 6,
-        "labor-market": 4,
-        "housing": 3,
-        "fiscal-debt": 2,
-        "commodities": 1,
-        "bond-market": 1,
-        "budgeting-saving": 1,
-        "diversification": 1,
-        "market-timing-dca": 2,
-        "alphabet": 1,
-        "amazon": 4,
-        "sp500": 1
-      },
-      "entity_mention_density": {
-        "energy": 0.2,
-        "real-estate": 1.2,
-        "industrials": 1.0,
-        "private-markets": 0.2,
-        "inflation": 8.7,
-        "rates-fed": 3.6,
-        "recession": 0.2,
-        "credit-markets": 0.4,
-        "geopolitics-tariffs": 1.2,
-        "labor-market": 0.8,
-        "housing": 0.6,
-        "fiscal-debt": 0.4,
-        "commodities": 0.2,
-        "bond-market": 0.2,
-        "budgeting-saving": 0.2,
-        "diversification": 0.2,
-        "market-timing-dca": 0.4,
-        "alphabet": 0.2,
-        "amazon": 0.8,
-        "sp500": 0.2
-      },
-      "entity_sentiment": {
-        "inflation": -0.143,
-        "market-timing-dca": 1.0,
-        "rates-fed": -1.0,
-        "geopolitics-tariffs": 0.0,
-        "fiscal-debt": -1.0,
-        "recession": -1.0,
-        "sp500": 1.0
-      },
-      "entity_conviction": {
-        "inflation": 1.0,
-        "labor-market": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": -0.5
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-03-patrick-boyle-on-finance-is-inflation-about-to-get-much-worse-9ce946.md",
     "transcript_word_count": 4829,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Argues US inflation is set to worsen structurally, not just from the Iran-driven oil shock, due to reversing demographic tailwinds, tariff pass-through, a tightening labor market, persistent 7%-of-GDP fiscal deficits, and understated housing costs, all pressuring Fed independence as political pressure mounts on incoming Chair Kevin Warsh.",
+    "episode_summary": "Argues US inflation is set to worsen structurally, not just from the Iran-driven oil shock, due to reversing demographic tailwinds, tariff pass-through, a tightening labor market, persistent 7%-of-GDP fiscal deficits, and understated housing costs, all pressuring Fed independence as political pressure mounts on incoming Chair Kevin Warsh.",
+    "episode_summary_source": "claude-manual"
   },
   {
     "guid": "e6761e14-0747-4613-8d83-9f37fc3931ab",
@@ -166596,77 +165851,26 @@
     "duration": "1762",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/traffic.megaphone.fm/SLT4784254349.mp3?updated=1777077202",
     "tags": {
-      "sectors": [
-        "autos-ev",
-        "insurance",
-        "consumer-discretionary"
-      ],
+      "sectors": [],
       "themes": [
         "retirement-planning",
-        "insurance-products",
-        "elections-politics",
-        "real-estate-investing",
         "college-savings",
-        "rates-fed",
-        "debt-payoff"
+        "insurance-products"
       ],
       "stocks": [
-        "fidelity",
-        "verizon",
-        "amazon"
+        "amazon",
+        "fidelity"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {
-        "insurance": 1,
-        "consumer-discretionary": 1,
-        "autos-ev": 9,
-        "rates-fed": 1,
-        "elections-politics": 3,
-        "debt-payoff": 1,
-        "retirement-planning": 8,
-        "real-estate-investing": 3,
-        "college-savings": 2,
-        "insurance-products": 5,
-        "amazon": 2,
-        "verizon": 3,
-        "fidelity": 7
-      },
-      "entity_mention_density": {
-        "insurance": 0.2,
-        "consumer-discretionary": 0.2,
-        "autos-ev": 1.7,
-        "rates-fed": 0.2,
-        "elections-politics": 0.6,
-        "debt-payoff": 0.2,
-        "retirement-planning": 1.5,
-        "real-estate-investing": 0.6,
-        "college-savings": 0.4,
-        "insurance-products": 1.0,
-        "amazon": 0.4,
-        "verizon": 0.6,
-        "fidelity": 1.4
-      },
-      "entity_sentiment": {
-        "autos-ev": -1.0
-      },
-      "entity_conviction": {
-        "autos-ev": -1.0,
-        "college-savings": -1.0,
-        "elections-politics": -1.0,
-        "retirement-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.1
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Autos & EVs, Insurance, Consumer Discretionary, Retirement Planning, Insurance Products, Elections & Politics, Real Estate Investing. Mentions Fidelity, Verizon, Amazon. Tone leans bearish (-0.17) (low confidence).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Clark Howard corrects prior listener-flagged mistakes on mortgage/rental conversion and credit disputes, discusses security-camera privacy tradeoffs, and advises an Amazon employee to use Fidelity's low-fee 'Freedom Index' target-date fund in his 401(k), plus guidance on 529 plans for grad school and buying independent term life insurance over employer coverage.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-05-01-the-clark-howard-podcast-05-01-26-clark-answers-his-critics-on-clark-stinks-security-621e12.md",
     "transcript_word_count": 4949,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Clark Howard corrects prior listener-flagged mistakes on mortgage/rental conversion and credit disputes, discusses security-camera privacy tradeoffs, and advises an Amazon employee to use Fidelity's low-fee 'Freedom Index' target-date fund in his 401(k), plus guidance on 529 plans for grad school and buying independent term life insurance over employer coverage."
   },
   {
     "guid": "69f2e512be5ab6849c987072",
@@ -168059,84 +167263,27 @@
     "audio_url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/15f537c4/a5d05a9a.mp3",
     "tags": {
       "sectors": [
-        "energy",
         "banks",
-        "private-markets",
-        "insurance",
-        "consumer-discretionary"
+        "energy"
       ],
       "themes": [
-        "inflation",
         "rates-fed",
-        "commodities",
-        "labor-market",
+        "inflation",
         "recession",
-        "consumer-health",
-        "japan",
-        "geopolitics-tariffs"
+        "labor-market",
+        "bond-market"
       ],
       "stocks": [],
-      "sentiment": -0.254,
-      "sentiment_hits": 14,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "banks": 9,
-        "insurance": 1,
-        "energy": 10,
-        "consumer-discretionary": 1,
-        "private-markets": 2,
-        "inflation": 15,
-        "rates-fed": 14,
-        "recession": 2,
-        "japan": 1,
-        "geopolitics-tariffs": 1,
-        "labor-market": 4,
-        "commodities": 7,
-        "consumer-health": 2
-      },
-      "entity_mention_density": {
-        "banks": 2.4,
-        "insurance": 0.3,
-        "energy": 2.7,
-        "consumer-discretionary": 0.3,
-        "private-markets": 0.5,
-        "inflation": 4.0,
-        "rates-fed": 3.8,
-        "recession": 0.5,
-        "japan": 0.3,
-        "geopolitics-tariffs": 0.3,
-        "labor-market": 1.1,
-        "commodities": 1.9,
-        "consumer-health": 0.5
-      },
-      "entity_sentiment": {
-        "banks": -1.0,
-        "energy": 0.2,
-        "private-markets": 0.0,
-        "insurance": 1.0,
-        "consumer-discretionary": -1.0,
-        "rates-fed": 1.0,
-        "commodities": 0.5,
-        "inflation": 0.333,
-        "labor-market": -1.0,
-        "geopolitics-tariffs": -1.0,
-        "recession": 0.429
-      },
-      "entity_conviction": {
-        "banks": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": [
-        "energy"
-      ]
+      "sentiment": -0.4
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Energy & Oil, Banks & Financials, Private Equity & Credit, Inflation, Interest Rates & Fed Policy, Commodities, Labor Market. Tone leans bearish (-0.25).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Argues European banks' record government-bond buying (152.1B euros in Q1) and aggressively tightening lending standards signal they don't believe the ECB's rate-hike rhetoric will stick, given a weakening labor market and services sentiment at multi-year lows -- drawing parallels to the 2008 and 2011 policy mistakes.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-30-eurodollar-university-omg-did-you-see-what-just-happened-to-european-banks-7088f6.md",
     "transcript_word_count": 3558,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Argues European banks' record government-bond buying (152.1B euros in Q1) and aggressively tightening lending standards signal they don't believe the ECB's rate-hike rhetoric will stick, given a weakening labor market and services sentiment at multi-year lows -- drawing parallels to the 2008 and 2011 policy mistakes."
   },
   {
     "guid": "c2f772f0-449b-11f1-a0d0-5fc4665cb6f5",
@@ -168346,43 +167493,21 @@
         "energy"
       ],
       "themes": [
-        "elections-politics",
         "commodities",
         "geopolitics-tariffs",
         "inflation"
       ],
       "stocks": [],
-      "sentiment": 0.714,
-      "sentiment_hits": 7.0,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "energy": 13,
-        "inflation": 1,
-        "geopolitics-tariffs": 2,
-        "elections-politics": 11,
-        "commodities": 5
-      },
-      "entity_mention_density": {
-        "energy": 3.9,
-        "inflation": 0.3,
-        "geopolitics-tariffs": 0.6,
-        "elections-politics": 3.3,
-        "commodities": 1.5
-      },
-      "entity_sentiment": {
-        "energy": 1.0
-      },
-      "entity_conviction": {
-        "elections-politics": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": -0.3
     },
-    "tags_source": "keyword",
+    "tags_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-30-economist-podcasts-drill-pickle-oil-prices-still-misjudge-shock-b5035f.md",
     "transcript_word_count": 3186,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "The Economist's commodities editor explains why Brent above $125 still understates the scale of the Strait of Hormuz closure -- the largest oil supply shock in history at roughly 13 million barrels/day -- because exhausted buffers (strategic reserves, demand destruction in Asia/Africa) and a 3-4 month lag to normalize supply mean prices likely have further to rise.",
+    "episode_summary": "The Economist's commodities editor explains why Brent above $125 still understates the scale of the Strait of Hormuz closure -- the largest oil supply shock in history at roughly 13 million barrels/day -- because exhausted buffers (strategic reserves, demand destruction in Asia/Africa) and a 3-4 month lag to normalize supply mean prices likely have further to rise.",
+    "episode_summary_source": "claude-manual"
   },
   {
     "guid": "db6b7011-c833-4aff-8961-5a850b3541fb",
@@ -168670,50 +167795,26 @@
     "audio_url": "https://pdrl.fm/f4ec40/pscrb.fm/rss/p/mgln.ai/e/143/tracking.swap.fm/track/Vjambo9ifGBwbaCTlDBD/traffic.megaphone.fm/SONY5810992119.mp3?updated=1777477928",
     "tags": {
       "sectors": [
-        "private-markets"
+        "media-entertainment",
+        "private-markets",
+        "consumer-discretionary"
       ],
       "themes": [
         "dealmaking",
-        "inflation",
-        "passive-investing",
-        "budgeting-saving"
+        "tax-planning",
+        "market-concentration"
       ],
-      "stocks": [
-        "meta"
-      ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {
-        "private-markets": 1,
-        "inflation": 1,
-        "dealmaking": 10,
-        "passive-investing": 1,
-        "budgeting-saving": 1,
-        "meta": 1
-      },
-      "entity_mention_density": {
-        "private-markets": 0.1,
-        "inflation": 0.1,
-        "dealmaking": 1.0,
-        "passive-investing": 0.1,
-        "budgeting-saving": 0.1,
-        "meta": 0.1
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "meta": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": -0.1
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Private Equity & Credit, IPOs & Dealmaking, Inflation, Passive Investing, Budgeting & Saving. Mentions Meta. Tone leans bullish (+0.17) (low confidence).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "Analyzes the Jersey Mike's IPO as an overpriced Blackstone exit (39x revenue despite a 23% net income decline) and breaks down the Met Gala's finances -- tax-deductible $75,000 tickets, Vogue's monetization of the event, and the controversy over Jeff Bezos sponsoring this year's gala.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-30-financial-tea-with-mrs-dow-jones-the-money-behind-the-met-gala-ft-amy-odell-04eef7.md",
     "transcript_word_count": 9487,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "Analyzes the Jersey Mike's IPO as an overpriced Blackstone exit (39x revenue despite a 23% net income decline) and breaks down the Met Gala's finances -- tax-deductible $75,000 tickets, Vogue's monetization of the event, and the controversy over Jeff Bezos sponsoring this year's gala."
   },
   {
     "guid": "f5764522-b418-11ef-adc4-fffa520ceca3",
@@ -168919,74 +168020,27 @@
       "themes": [
         "earnings",
         "market-concentration",
-        "dividends-buybacks"
+        "labor-market"
       ],
       "stocks": [
-        "nasdaq",
         "alphabet",
-        "microsoft",
         "amazon",
+        "meta",
+        "microsoft",
+        "nasdaq",
         "sp500",
         "russell2000"
       ],
-      "sentiment": 1.0,
-      "sentiment_hits": 11,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "technology": 2,
-        "semiconductors": 1,
-        "industrials": 1,
-        "earnings": 3,
-        "dividends-buybacks": 1,
-        "market-concentration": 3,
-        "microsoft": 4,
-        "alphabet": 6,
-        "amazon": 4,
-        "sp500": 3,
-        "nasdaq": 7,
-        "russell2000": 1
-      },
-      "entity_mention_density": {
-        "technology": 0.6,
-        "semiconductors": 0.3,
-        "industrials": 0.3,
-        "earnings": 0.9,
-        "dividends-buybacks": 0.3,
-        "market-concentration": 0.9,
-        "microsoft": 1.2,
-        "alphabet": 1.8,
-        "amazon": 1.2,
-        "sp500": 0.9,
-        "nasdaq": 2.1,
-        "russell2000": 0.3
-      },
-      "entity_sentiment": {
-        "earnings": 1.0,
-        "alphabet": 1.0,
-        "sp500": 1.0,
-        "nasdaq": 1.0,
-        "amazon": 1.0,
-        "microsoft": 1.0
-      },
-      "entity_conviction": {
-        "market-concentration": -1.0,
-        "earnings": -1.0,
-        "alphabet": -1.0,
-        "sp500": 1.0,
-        "nasdaq": -1.0,
-        "amazon": -0.333,
-        "microsoft": 0.333
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.5
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Technology, Semiconductors, Industrials, Corporate Earnings, Market Concentration / Mega-cap, Dividends & Buybacks. Mentions Nasdaq, Alphabet / Google, Microsoft, Amazon, S&P 500. Tone leans bullish (+1.00).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "IBD analysts review Q1 earnings reactions: Alphabet and Amazon post strong beats (Alphabet EPS $5.11 vs. $2.63 estimate, Amazon cloud up 28%) while Teradyne plunges 19% despite blowout numbers as a lesson in taking profits ahead of earnings, and Meta/Microsoft enter earnings from technical weakness amid cost-cutting and layoffs.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-29-stock-market-today-with-ibd-techs-outperform-as-fed-holds-steady-on-rates-teradyne-cater-af3173.md",
     "transcript_word_count": 3318,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "IBD analysts review Q1 earnings reactions: Alphabet and Amazon post strong beats (Alphabet EPS $5.11 vs. $2.63 estimate, Amazon cloud up 28%) while Teradyne plunges 19% despite blowout numbers as a lesson in taking profits ahead of earnings, and Meta/Microsoft enter earnings from technical weakness amid cost-cutting and layoffs."
   },
   {
     "guid": "924319fc-05d5-11f1-ae17-93eb45865c17",
@@ -170319,99 +169373,26 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM7522637919.mp3?updated=1777414737",
     "tags": {
       "sectors": [
-        "real-estate",
-        "healthcare",
-        "telecoms"
+        "insurance",
+        "real-estate"
       ],
       "themes": [
-        "budgeting-saving",
-        "retirement-planning",
         "debt-payoff",
-        "housing",
-        "passive-investing",
-        "estate-planning",
-        "rates-fed",
-        "real-estate-investing",
-        "passive-income",
-        "insurance-products"
+        "retirement-planning",
+        "insurance-products",
+        "budgeting-saving"
       ],
-      "stocks": [
-        "tesla",
-        "alphabet",
-        "amazon",
-        "att",
-        "verizon",
-        "disney"
-      ],
-      "sentiment": 0.277,
-      "sentiment_hits": 16,
-      "sentiment_confidence": 1.0,
-      "entity_mentions": {
-        "healthcare": 3,
-        "real-estate": 5,
-        "telecoms": 1,
-        "rates-fed": 1,
-        "housing": 4,
-        "passive-investing": 2,
-        "budgeting-saving": 25,
-        "debt-payoff": 11,
-        "retirement-planning": 12,
-        "real-estate-investing": 1,
-        "passive-income": 1,
-        "estate-planning": 2,
-        "insurance-products": 1,
-        "alphabet": 2,
-        "amazon": 1,
-        "tesla": 4,
-        "att": 1,
-        "verizon": 1,
-        "disney": 1
-      },
-      "entity_mention_density": {
-        "healthcare": 0.1,
-        "real-estate": 0.2,
-        "telecoms": 0.0,
-        "rates-fed": 0.0,
-        "housing": 0.2,
-        "passive-investing": 0.1,
-        "budgeting-saving": 1.1,
-        "debt-payoff": 0.5,
-        "retirement-planning": 0.5,
-        "real-estate-investing": 0.0,
-        "passive-income": 0.0,
-        "estate-planning": 0.1,
-        "insurance-products": 0.0,
-        "alphabet": 0.1,
-        "amazon": 0.0,
-        "tesla": 0.2,
-        "att": 0.0,
-        "verizon": 0.0,
-        "disney": 0.0
-      },
-      "entity_sentiment": {
-        "budgeting-saving": -1.0,
-        "debt-payoff": 0.0,
-        "retirement-planning": -1.0,
-        "alphabet": -1.0,
-        "tesla": -1.0
-      },
-      "entity_conviction": {
-        "real-estate": 1.0,
-        "budgeting-saving": -0.545,
-        "debt-payoff": -1.0,
-        "retirement-planning": -1.0,
-        "estate-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "stocks": [],
+      "sentiment": -0.2
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Telecoms, Budgeting & Saving, Retirement Planning, Debt Payoff, Housing Market. Mentions Tesla, Alphabet / Google, Amazon, AT&T, Verizon. Tone leans bullish (+0.28).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "General Ramsey call-in show covering multiple callers, with recurring advice to avoid whole life insurance and annuities in favor of Roth/401(k) contributions and low-cost index funds, plus mortgage payoff and refinancing guidance.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-29-the-ramsey-show-a-life-built-on-debt-is-a-life-built-on-risk-5076a9.md",
     "transcript_word_count": 23355,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "General Ramsey call-in show covering multiple callers, with recurring advice to avoid whole life insurance and annuities in favor of Roth/401(k) contributions and low-cost index funds, plus mortgage payoff and refinancing guidance."
   },
   {
     "guid": "96f0d7f2-fd54-11f0-9db1-efa5de4bd2db",
@@ -170485,40 +169466,20 @@
       "sectors": [],
       "themes": [
         "retirement-planning",
-        "budgeting-saving",
-        "tax-planning",
-        "diversification"
+        "diversification",
+        "tax-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {
-        "budgeting-saving": 2,
-        "retirement-planning": 10,
-        "diversification": 1,
-        "tax-planning": 2
-      },
-      "entity_mention_density": {
-        "budgeting-saving": 1.9,
-        "retirement-planning": 9.6,
-        "diversification": 1.0,
-        "tax-planning": 1.9
-      },
-      "entity_sentiment": {},
-      "entity_conviction": {
-        "retirement-planning": -1.0
-      },
-      "entity_stance": {},
-      "entity_contested": []
+      "sentiment": 0.0
     },
-    "tags_source": "keyword",
-    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving, Tax Planning, Diversification & Asset Allocation. Tone reads roughly neutral (+0.00) (low confidence).",
-    "episode_summary_source": "template",
+    "tags_source": "claude-manual",
+    "episode_summary": "A 62-year-old caller nearing retirement is advised against buying an annuity recommended by his financial advisor, and instead to keep his 401(k) diversified across mutual fund types and consider gradually rolling into a Roth.",
+    "episode_summary_source": "claude-manual",
     "transcript_status": "done",
     "transcript_path": "data/transcripts/2026-04-29-ramsey-everyday-millionaires-my-financial-advisor-wants-me-to-buy-an-annuity-is-that-a-go-2c990a.md",
     "transcript_word_count": 856,
-    "transcript_language": "en"
+    "transcript_language": "en",
+    "llm_summary": "A 62-year-old caller nearing retirement is advised against buying an annuity recommended by his financial advisor, and instead to keep his 401(k) diversified across mutual fund types and consider gradually rolling into a Roth."
   },
   {
     "guid": "9f6722ac-a84e-11f0-bc9e-db80966630dd",
