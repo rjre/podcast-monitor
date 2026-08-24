@@ -2042,26 +2042,60 @@
     "duration": "1467",
     "audio_url": "https://mgln.ai/e/p820/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4b894cc7-34cc-4155-8d9e-b2aa01086686/bfbe9c41-e04d-4010-8bc9-b4ad00389a5e/audio.mp3?utm_source=Podcast&in_playlist=09b4fe67-f731-4362-8519-b2aa010866a1",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "fidelity"
+      "sectors": [
+        "real-estate",
+        "healthcare"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "retirement-planning",
+        "passive-income",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "fidelity",
+        "vanguard",
+        "charles-schwab"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "fidelity": 1
+        "healthcare": 1,
+        "real-estate": 8,
+        "retirement-planning": 12,
+        "passive-income": 1,
+        "dividends-buybacks": 1,
+        "vanguard": 3,
+        "fidelity": 23,
+        "charles-schwab": 3
       },
       "entity_mention_density": {
-        "fidelity": 6.0
+        "healthcare": 0.2,
+        "real-estate": 1.2,
+        "retirement-planning": 1.8,
+        "passive-income": 0.2,
+        "dividends-buybacks": 0.2,
+        "vanguard": 0.5,
+        "fidelity": 3.5,
+        "charles-schwab": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": -1.0
+      },
+      "entity_conviction": {
+        "retirement-planning": -1.0,
+        "fidelity": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Retirement Planning, Passive Income & Side Hustles, Dividends & Buybacks. Mentions Fidelity, Vanguard, Charles Schwab. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-21-brown-ambition-my-mom-s-36-000-retirement-ba-qa-389a5e.md",
+    "transcript_word_count": 6449,
+    "transcript_language": "en"
   },
   {
     "guid": "5b68f104-2989-11f1-996c-cff6e33c7bf7",
@@ -3220,32 +3254,58 @@
     "duration": "1883",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/TCP6373638676.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "private-markets"
+      ],
+      "themes": [
+        "dealmaking",
+        "budgeting-saving",
+        "estate-planning"
+      ],
       "stocks": [
         "robinhood",
-        "fidelity",
-        "charles-schwab"
+        "charles-schwab",
+        "fidelity"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "private-markets": 1,
+        "dealmaking": 2,
+        "budgeting-saving": 1,
+        "estate-planning": 1,
         "fidelity": 1,
-        "charles-schwab": 1,
-        "robinhood": 3
+        "charles-schwab": 2,
+        "robinhood": 18
       },
       "entity_mention_density": {
-        "fidelity": 2.7,
-        "charles-schwab": 2.7,
-        "robinhood": 8.0
+        "private-markets": 0.2,
+        "dealmaking": 0.3,
+        "budgeting-saving": 0.2,
+        "estate-planning": 0.2,
+        "fidelity": 0.2,
+        "charles-schwab": 0.3,
+        "robinhood": 3.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "robinhood": 0.0
+      },
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "robinhood": 0.0,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, IPOs & Dealmaking, Budgeting & Saving, Estate Planning. Mentions Robinhood, Charles Schwab, Fidelity. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-talking-wealth-27-million-clients-walk-into-an-ria-f519ee.md",
+    "transcript_word_count": 5694,
+    "transcript_language": "en"
   },
   {
     "guid": "b54dc83c-11d7-4c1e-8a7c-b4ac00f5edf1",
@@ -4652,20 +4712,42 @@
     "duration": "00:08:41",
     "audio_url": "https://traffic.megaphone.fm/APO6978840692.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "real-estate-investing"
+      ],
+      "stocks": [
+        "verizon"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "real-estate": 4,
+        "real-estate-investing": 1,
+        "verizon": 3
+      },
+      "entity_mention_density": {
+        "real-estate": 1.9,
+        "real-estate-investing": 0.5,
+        "verizon": 1.4
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Real Estate Investing. Mentions Verizon. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-one-rental-at-a-time-where-to-get-loans-if-conventional-financing-is-not-an-optio-3bfd90.md",
+    "transcript_word_count": 1988,
+    "transcript_language": "en"
   },
   {
     "guid": "87a3bfac-9c06-11f1-a3f1-9fb2b231dea6",
@@ -5049,33 +5131,64 @@
     "duration": "3119",
     "audio_url": "https://chrt.fm/track/E6BB91/traffic.megaphone.fm/CWT9989525188.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto"
+      ],
       "themes": [
-        "market-structure"
+        "market-structure",
+        "dealmaking",
+        "regulation-antitrust",
+        "inflation",
+        "volatility"
       ],
       "stocks": [
-        "robinhood"
+        "robinhood",
+        "charles-schwab",
+        "alphabet"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.667,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "market-structure": 1,
-        "robinhood": 8
+        "crypto": 2,
+        "inflation": 1,
+        "volatility": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 2,
+        "market-structure": 8,
+        "alphabet": 1,
+        "charles-schwab": 3,
+        "robinhood": 18
       },
       "entity_mention_density": {
-        "market-structure": 2.1,
-        "robinhood": 16.6
+        "crypto": 0.2,
+        "inflation": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.2,
+        "market-structure": 0.8,
+        "alphabet": 0.1,
+        "charles-schwab": 0.3,
+        "robinhood": 1.9
       },
       "entity_sentiment": {
         "market-structure": -1.0,
         "robinhood": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -1.0,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Market Structure & Liquidity, IPOs & Dealmaking, Regulation & Antitrust, Inflation. Mentions Robinhood, Charles Schwab, Alphabet / Google. Tone leans bearish (-0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-chat-with-traders-330-steve-quirk-from-chicago-pit-trader-to-robinhood-exec-ceda02.md",
+    "transcript_word_count": 9143,
+    "transcript_language": "en"
   },
   {
     "guid": "456c416a-8d8d-4b52-8932-b4ab00e91b41",
@@ -6113,23 +6226,45 @@
       "sectors": [
         "crypto"
       ],
-      "themes": [],
+      "themes": [
+        "retirement-planning",
+        "diversification",
+        "tax-planning",
+        "estate-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.303,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "crypto": 1
+        "crypto": 1,
+        "retirement-planning": 3,
+        "diversification": 3,
+        "tax-planning": 1,
+        "estate-planning": 1
       },
       "entity_mention_density": {
-        "crypto": 2.4
+        "crypto": 0.5,
+        "retirement-planning": 1.5,
+        "diversification": 1.5,
+        "tax-planning": 0.5,
+        "estate-planning": 0.5
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "diversification": 0.429,
+        "tax-planning": 0.429
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Retirement Planning, Diversification & Asset Allocation, Tax Planning, Estate Planning. Tone leans bullish (+0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-the-long-term-investor-you-ve-made-a-ton-of-smart-financial-choices-now-what-ep-270-b37cb3.md",
+    "transcript_word_count": 1570,
+    "transcript_language": "en"
   },
   {
     "guid": "d3594708-49b5-464f-a29c-1f92c115d119",
@@ -9372,9 +9507,9 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {},
       "entity_mention_density": {},
       "entity_sentiment": {},
@@ -9382,7 +9517,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "No specific sectors, themes, or stocks detected. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-prof-g-markets-prof-g-markets-is-taking-a-break-you-should-too-225692.md",
+    "transcript_word_count": 663,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/7mGSNFKpID023g7aEDnNf_lwVXnzniQod0fy_v85rMw",
@@ -25015,20 +25156,64 @@
     "duration": "1292",
     "audio_url": "https://www.buzzsprout.com/1989932/episodes/19569322-buffered-etfs-a-smarter-way-to-stay-invested.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "technology"
+      ],
+      "themes": [
+        "passive-investing",
+        "small-caps-value-growth",
+        "dealmaking",
+        "retirement-planning"
+      ],
+      "stocks": [
+        "sp500",
+        "nasdaq",
+        "mastercard",
+        "qualcomm"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "dealmaking": 1,
+        "passive-investing": 6,
+        "retirement-planning": 1,
+        "small-caps-value-growth": 2,
+        "sp500": 10,
+        "nasdaq": 1,
+        "mastercard": 1,
+        "qualcomm": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.5,
+        "dealmaking": 0.3,
+        "passive-investing": 1.6,
+        "retirement-planning": 0.3,
+        "small-caps-value-growth": 0.5,
+        "sp500": 2.7,
+        "nasdaq": 0.3,
+        "mastercard": 0.3,
+        "qualcomm": 0.3
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "dealmaking": -1.0,
+        "small-caps-value-growth": -1.0,
+        "retirement-planning": -1.0,
+        "qualcomm": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Passive Investing, Small-Caps, Value & Growth, IPOs & Dealmaking, Retirement Planning. Mentions S&P 500, Nasdaq, Mastercard, Qualcomm. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-retirement-power-play-buffered-etfs-a-smarter-way-to-stay-invested-569322.md",
+    "transcript_word_count": 3661,
+    "transcript_language": "en"
   },
   {
     "guid": "e6b7ad62-c3c8-11f0-b1f3-e731523d5ed6",
@@ -50036,22 +50221,37 @@
       "themes": [
         "retirement-planning"
       ],
-      "stocks": [],
+      "stocks": [
+        "vanguard",
+        "fidelity"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "retirement-planning": 7
+        "retirement-planning": 120,
+        "vanguard": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 52.6
+        "retirement-planning": 21.5,
+        "vanguard": 0.2,
+        "fidelity": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "retirement-planning": -0.429
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning. Mentions Vanguard, Fidelity. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-retirement-answers-does-my-roth-401k-satisfy-the-5-year-roth-ira-rule-53132a.md",
+    "transcript_word_count": 5446,
+    "transcript_language": "en"
   },
   {
     "guid": "fa858d56-3e2d-4281-a049-01da3a0a132b",
@@ -72128,24 +72328,43 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "fire-movement",
+        "budgeting-saving",
+        "retirement-planning"
       ],
-      "stocks": [],
+      "stocks": [
+        "alphabet",
+        "att"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 1,
+        "fire-movement": 2,
+        "retirement-planning": 1,
+        "alphabet": 1,
+        "att": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.7
+        "budgeting-saving": 0.6,
+        "fire-movement": 1.2,
+        "retirement-planning": 0.6,
+        "alphabet": 0.6,
+        "att": 0.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Financial Independence / FIRE, Budgeting & Saving, Retirement Planning. Mentions Alphabet / Google, AT&T. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-optimal-finance-daily-3623-part-2-wealth-advice-that-should-be-obvious-by-mr-money-21b35c.md",
+    "transcript_word_count": 1392,
+    "transcript_language": "en"
   },
   {
     "guid": "73a62bfc-7b54-11f1-bd3b-77e38d43d829",
@@ -74091,59 +74310,114 @@
       "sectors": [
         "semiconductors",
         "real-estate",
+        "ai-infrastructure",
         "private-markets"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "labor-market",
+        "housing",
+        "recession"
       ],
       "stocks": [
+        "fidelity",
         "microsoft",
-        "amazon",
-        "palantir",
         "nasdaq",
+        "palantir",
+        "amazon",
+        "nvidia",
+        "alphabet",
+        "tesla",
+        "sp500",
         "salesforce"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.0,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "real-estate": 1,
-        "private-markets": 1,
-        "dealmaking": 2,
-        "microsoft": 1,
-        "amazon": 1,
-        "palantir": 1,
-        "nasdaq": 1,
+        "semiconductors": 6,
+        "ai-infrastructure": 2,
+        "real-estate": 5,
+        "private-markets": 2,
+        "recession": 1,
+        "labor-market": 3,
+        "housing": 2,
+        "dealmaking": 5,
+        "nvidia": 2,
+        "microsoft": 8,
+        "alphabet": 2,
+        "amazon": 3,
+        "tesla": 2,
+        "palantir": 4,
+        "sp500": 1,
+        "nasdaq": 7,
+        "fidelity": 10,
         "salesforce": 1
       },
       "entity_mention_density": {
-        "semiconductors": 3.2,
-        "real-estate": 3.2,
-        "private-markets": 3.2,
-        "dealmaking": 6.4,
-        "microsoft": 3.2,
-        "amazon": 3.2,
-        "palantir": 3.2,
-        "nasdaq": 3.2,
-        "salesforce": 3.2
+        "semiconductors": 1.1,
+        "ai-infrastructure": 0.4,
+        "real-estate": 0.9,
+        "private-markets": 0.4,
+        "recession": 0.2,
+        "labor-market": 0.5,
+        "housing": 0.4,
+        "dealmaking": 0.9,
+        "nvidia": 0.4,
+        "microsoft": 1.4,
+        "alphabet": 0.4,
+        "amazon": 0.5,
+        "tesla": 0.4,
+        "palantir": 0.7,
+        "sp500": 0.2,
+        "nasdaq": 1.2,
+        "fidelity": 1.8,
+        "salesforce": 0.2
       },
       "entity_sentiment": {
         "semiconductors": -1.0,
         "real-estate": -1.0,
         "private-markets": -1.0,
-        "dealmaking": -1.0,
-        "amazon": -1.0,
-        "microsoft": -1.0,
+        "dealmaking": 0.0,
+        "recession": -1.0,
+        "labor-market": 1.0,
+        "amazon": -0.333,
+        "microsoft": 0.0,
         "palantir": -1.0,
-        "nasdaq": -1.0,
-        "salesforce": -1.0
+        "nasdaq": 0.0,
+        "salesforce": -1.0,
+        "nvidia": 1.0,
+        "tesla": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "real-estate": -1.0,
+        "private-markets": -1.0,
+        "dealmaking": -0.765,
+        "housing": -1.0,
+        "labor-market": -1.0,
+        "amazon": -0.875,
+        "microsoft": -0.833,
+        "palantir": -1.0,
+        "nasdaq": -0.765,
+        "alphabet": -1.0,
+        "sp500": 0.0,
+        "nvidia": -0.875,
+        "tesla": -0.765
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "microsoft",
+        "nasdaq"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Real Estate, AI Infrastructure, IPOs & Dealmaking, Labor Market, Housing Market, Recession Risk. Mentions Fidelity, Microsoft, Nasdaq, Palantir, Amazon. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-riskreversal-pod-patient-equity-capital-is-a-virtue-f845a7.md",
+    "transcript_word_count": 5292,
+    "transcript_language": "en"
   },
   {
     "guid": "e80b4638-7688-11f1-a92e-4b3d703fd5f6",
@@ -81244,50 +81518,150 @@
     "audio_url": "https://traffic.megaphone.fm/BWG2362163340.mp3",
     "tags": {
       "sectors": [
-        "crypto"
+        "crypto",
+        "ai-infrastructure",
+        "real-estate",
+        "semiconductors",
+        "energy"
       ],
       "themes": [
-        "labor-market",
         "inflation",
         "rates-fed",
-        "market-structure"
+        "labor-market",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "market-structure",
+        "market-concentration",
+        "commodities",
+        "volatility",
+        "dealmaking",
+        "bond-market"
       ],
       "stocks": [
         "bitcoin",
-        "alphabet"
+        "nasdaq",
+        "alphabet",
+        "amazon"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.13,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "crypto": 1,
-        "inflation": 1,
-        "rates-fed": 1,
-        "labor-market": 2,
-        "market-structure": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 3,
+        "energy": 1,
+        "real-estate": 2,
+        "crypto": 8,
+        "inflation": 26,
+        "rates-fed": 20,
+        "geopolitics-tariffs": 5,
+        "labor-market": 11,
+        "elections-politics": 3,
+        "commodities": 1,
+        "volatility": 1,
+        "dealmaking": 1,
+        "bond-market": 1,
+        "market-structure": 3,
+        "market-concentration": 2,
         "alphabet": 1,
-        "bitcoin": 2
+        "amazon": 1,
+        "bitcoin": 10,
+        "nasdaq": 5
       },
       "entity_mention_density": {
-        "crypto": 4.0,
-        "inflation": 4.0,
-        "rates-fed": 4.0,
-        "labor-market": 8.1,
-        "market-structure": 4.0,
-        "alphabet": 4.0,
-        "bitcoin": 8.1
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.4,
+        "energy": 0.1,
+        "real-estate": 0.2,
+        "crypto": 0.9,
+        "inflation": 3.1,
+        "rates-fed": 2.3,
+        "geopolitics-tariffs": 0.6,
+        "labor-market": 1.3,
+        "elections-politics": 0.4,
+        "commodities": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.1,
+        "bond-market": 0.1,
+        "market-structure": 0.4,
+        "market-concentration": 0.2,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "bitcoin": 1.2,
+        "nasdaq": 0.6
       },
       "entity_sentiment": {
-        "market-structure": -1.0,
-        "labor-market": 0.0,
-        "inflation": 1.0,
-        "bitcoin": -1.0
+        "crypto": 0.158,
+        "semiconductors": 0.158,
+        "ai-infrastructure": 0.158,
+        "energy": 0.158,
+        "real-estate": 0.158,
+        "market-structure": 0.1,
+        "labor-market": 0.143,
+        "inflation": 0.2,
+        "rates-fed": 0.158,
+        "geopolitics-tariffs": 0.158,
+        "elections-politics": 0.158,
+        "commodities": 0.158,
+        "volatility": 0.158,
+        "dealmaking": 0.158,
+        "bond-market": 0.158,
+        "market-concentration": 0.158,
+        "bitcoin": 0.1,
+        "amazon": 0.158,
+        "nasdaq": 0.158
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -0.915,
+        "semiconductors": -0.915,
+        "ai-infrastructure": -0.915,
+        "energy": -0.915,
+        "real-estate": -0.915,
+        "market-structure": -0.915,
+        "labor-market": -0.917,
+        "inflation": -0.917,
+        "rates-fed": -0.917,
+        "geopolitics-tariffs": -0.915,
+        "elections-politics": -0.915,
+        "commodities": -0.915,
+        "volatility": -0.915,
+        "dealmaking": -0.915,
+        "bond-market": -0.915,
+        "market-concentration": -0.915,
+        "bitcoin": -0.915,
+        "amazon": -0.915,
+        "nasdaq": -0.915
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "crypto",
+        "semiconductors",
+        "ai-infrastructure",
+        "energy",
+        "real-estate",
+        "market-structure",
+        "labor-market",
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "commodities",
+        "volatility",
+        "dealmaking",
+        "bond-market",
+        "market-concentration",
+        "bitcoin",
+        "amazon",
+        "nasdaq"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, AI Infrastructure, Real Estate, Inflation, Interest Rates & Fed Policy, Labor Market, Geopolitics & Tariffs. Mentions Bitcoin, Nasdaq, Alphabet / Google, Amazon. Tone reads roughly neutral (+0.13).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-03-forward-guidance-the-ai-trade-is-finally-cracking-weekly-roundup-bebb2c.md",
+    "transcript_word_count": 8269,
+    "transcript_language": "en"
   },
   {
     "guid": "57a24351-0466-45c0-a28b-19073278aa56",
@@ -96619,19 +96993,47 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/traffic.megaphone.fm/RHAPSODYVOICES3394542466.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
+      "themes": [
+        "recession",
+        "inflation",
+        "real-estate-investing",
+        "passive-income"
+      ],
+      "stocks": [
+        "jpmorgan"
+      ],
+      "sentiment": 0.286,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "inflation": 1,
+        "recession": 3,
+        "real-estate-investing": 1,
+        "passive-income": 1,
+        "jpmorgan": 2
+      },
+      "entity_mention_density": {
+        "inflation": 0.2,
+        "recession": 0.5,
+        "real-estate-investing": 0.2,
+        "passive-income": 0.2,
+        "jpmorgan": 0.4
+      },
+      "entity_sentiment": {
+        "recession": -1.0,
+        "jpmorgan": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Recession Risk, Inflation, Real Estate Investing, Passive Income & Side Hustles. Mentions JPMorgan. Tone leans bullish (+0.29).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-hermoney-with-jean-chatzky-ep-533-living-off-your-acorns-how-to-plan-for-all-4-phases-o-92043d.md",
+    "transcript_word_count": 5445,
+    "transcript_language": "en"
   },
   {
     "guid": "5f8a858a-bfe5-11f0-8a48-c37d5f33d4e7",
@@ -119184,26 +119586,71 @@
     "duration": "2867",
     "audio_url": "https://tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML5375123723.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "alphabet"
+      "sectors": [
+        "technology"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "passive-investing",
+        "retirement-planning",
+        "ai-boom",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "alphabet",
+        "disney",
+        "nvidia",
+        "microsoft",
+        "amazon",
+        "nasdaq"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "alphabet": 2
+        "technology": 2,
+        "ai-boom": 1,
+        "dealmaking": 6,
+        "passive-investing": 4,
+        "retirement-planning": 2,
+        "dividends-buybacks": 1,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 12,
+        "amazon": 1,
+        "nasdaq": 1,
+        "disney": 3
       },
       "entity_mention_density": {
-        "alphabet": 14.8
+        "technology": 0.2,
+        "ai-boom": 0.1,
+        "dealmaking": 0.7,
+        "passive-investing": 0.4,
+        "retirement-planning": 0.2,
+        "dividends-buybacks": 0.1,
+        "nvidia": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 1.3,
+        "amazon": 0.1,
+        "nasdaq": 0.1,
+        "disney": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "alphabet": -1.0
+      },
+      "entity_conviction": {
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, IPOs & Dealmaking, Passive Investing, Retirement Planning, AI & Machine Learning. Mentions Alphabet / Google, Disney, Nvidia, Microsoft, Amazon. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-rule-breaker-investing-stock-stories-vol-12-time-travel-investing-bd13a5.md",
+    "transcript_word_count": 8772,
+    "transcript_language": "en"
   },
   {
     "guid": "b421ed43-9b1b-4f2e-a814-b46500fed5fe",
@@ -120811,30 +121258,63 @@
     "duration": "00:18:39",
     "audio_url": "https://anchor.fm/s/fe33a85c/podcast/play/121240784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-9%2F425823231-44100-2-3020285abf6da.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "technology",
+        "semiconductors"
+      ],
       "themes": [
-        "behavioral-finance"
+        "behavioral-finance",
+        "rates-fed"
       ],
       "stocks": [
-        "meta"
+        "nvidia",
+        "meta",
+        "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.158,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "behavioral-finance": 2,
-        "meta": 2
+        "technology": 2,
+        "semiconductors": 2,
+        "crypto": 3,
+        "rates-fed": 1,
+        "behavioral-finance": 16,
+        "nvidia": 4,
+        "meta": 2,
+        "berkshire": 2
       },
       "entity_mention_density": {
-        "behavioral-finance": 11.5,
-        "meta": 11.5
+        "technology": 0.6,
+        "semiconductors": 0.6,
+        "crypto": 0.8,
+        "rates-fed": 0.3,
+        "behavioral-finance": 4.5,
+        "nvidia": 1.1,
+        "meta": 0.6,
+        "berkshire": 0.6
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "technology": -1.0,
+        "semiconductors": -1.0,
+        "behavioral-finance": 0.333,
+        "nvidia": 0.5,
+        "berkshire": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "behavioral-finance"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Technology, Semiconductors, Behavioral Finance & Psychology, Interest Rates & Fed Policy. Mentions Nvidia, Meta, Berkshire Hathaway. Tone leans bearish (-0.16).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-money-to-the-masses-money-vault-investor-biases-to-avoid-1da625.md",
+    "transcript_word_count": 3411,
+    "transcript_language": "en"
   },
   {
     "guid": "f92a4c59-16db-4530-b6af-4b5fb172fb68",
@@ -140540,49 +141020,131 @@
     "audio_url": "https://traffic.megaphone.fm/APO4370878354.mp3",
     "tags": {
       "sectors": [
-        "semiconductors",
         "technology",
-        "ai-infrastructure"
+        "semiconductors",
+        "ai-infrastructure",
+        "crypto",
+        "energy",
+        "healthcare",
+        "consumer-discretionary"
       ],
       "themes": [
+        "esg-climate",
         "market-concentration",
-        "ai-boom"
+        "dealmaking",
+        "rates-fed",
+        "valuation",
+        "ai-boom",
+        "recession",
+        "commodities",
+        "bond-market",
+        "hedge-funds",
+        "passive-investing"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "morgan-stanley",
+        "tesla",
+        "jpmorgan",
+        "sp500",
+        "nasdaq",
+        "microsoft",
+        "amazon"
       ],
-      "sentiment": -0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.176,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "semiconductors": 3,
-        "ai-infrastructure": 1,
+        "technology": 5,
+        "semiconductors": 4,
+        "ai-infrastructure": 3,
+        "energy": 1,
+        "healthcare": 1,
+        "consumer-discretionary": 1,
+        "crypto": 2,
+        "rates-fed": 2,
         "ai-boom": 1,
-        "market-concentration": 4,
-        "nvidia": 2
+        "recession": 1,
+        "commodities": 1,
+        "dealmaking": 3,
+        "esg-climate": 8,
+        "bond-market": 1,
+        "hedge-funds": 1,
+        "passive-investing": 1,
+        "valuation": 2,
+        "market-concentration": 7,
+        "nvidia": 4,
+        "microsoft": 1,
+        "amazon": 1,
+        "tesla": 3,
+        "jpmorgan": 2,
+        "morgan-stanley": 4,
+        "sp500": 2,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "technology": 2.8,
-        "semiconductors": 8.4,
-        "ai-infrastructure": 2.8,
-        "ai-boom": 2.8,
-        "market-concentration": 11.2,
-        "nvidia": 5.6
+        "technology": 0.4,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.3,
+        "energy": 0.1,
+        "healthcare": 0.1,
+        "consumer-discretionary": 0.1,
+        "crypto": 0.2,
+        "rates-fed": 0.2,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.3,
+        "esg-climate": 0.7,
+        "bond-market": 0.1,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.1,
+        "valuation": 0.2,
+        "market-concentration": 0.6,
+        "nvidia": 0.4,
+        "microsoft": 0.1,
+        "amazon": 0.1,
+        "tesla": 0.3,
+        "jpmorgan": 0.2,
+        "morgan-stanley": 0.4,
+        "sp500": 0.2,
+        "nasdaq": 0.2
       },
       "entity_sentiment": {
         "semiconductors": -1.0,
         "technology": -1.0,
         "ai-infrastructure": -1.0,
+        "energy": 1.0,
         "market-concentration": -1.0,
         "ai-boom": -1.0,
+        "commodities": 1.0,
+        "recession": -1.0,
         "nvidia": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -0.2,
+        "energy": -1.0,
+        "healthcare": -1.0,
+        "market-concentration": -1.0,
+        "rates-fed": 1.0,
+        "commodities": -1.0,
+        "dealmaking": -1.0,
+        "passive-investing": 1.0,
+        "esg-climate": -1.0,
+        "sp500": -1.0,
+        "tesla": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, AI Infrastructure, ESG & Climate, Market Concentration / Mega-cap, IPOs & Dealmaking, Interest Rates & Fed Policy. Mentions Nvidia, Morgan Stanley, Tesla, JPMorgan, S&P 500. Tone leans bullish (+0.18).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-28-excess-returns-cheap-is-a-warning-not-a-thesis-adam-parker-on-what-this-mar-6a7c7c.md",
+    "transcript_word_count": 10787,
+    "transcript_language": "en"
   },
   {
     "guid": "macrovoices.podbean.com/76713994-8dcd-32bf-81c0-a7cf7af353c0",
