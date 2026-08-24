@@ -13038,36 +13038,74 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/47ddd736-1246-4f9d-b13d-b4a501333219/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
       "sectors": [
-        "banks"
+        "banks",
+        "consumer-staples",
+        "technology",
+        "real-estate"
       ],
       "themes": [
-        "fire-movement",
-        "retirement-planning"
+        "retirement-planning",
+        "inflation",
+        "budgeting-saving",
+        "passive-investing",
+        "fire-movement"
       ],
       "stocks": [
-        "meta"
+        "fidelity",
+        "vanguard",
+        "meta",
+        "costco"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "banks": 1,
+        "technology": 1,
+        "banks": 6,
+        "consumer-staples": 5,
+        "real-estate": 1,
+        "inflation": 6,
+        "passive-investing": 1,
+        "budgeting-saving": 3,
         "fire-movement": 1,
-        "retirement-planning": 1,
-        "meta": 1
+        "retirement-planning": 9,
+        "meta": 1,
+        "costco": 1,
+        "vanguard": 2,
+        "fidelity": 4
       },
       "entity_mention_density": {
-        "banks": 3.0,
-        "fire-movement": 3.0,
-        "retirement-planning": 3.0,
-        "meta": 3.0
+        "technology": 0.1,
+        "banks": 0.6,
+        "consumer-staples": 0.5,
+        "real-estate": 0.1,
+        "inflation": 0.6,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.9,
+        "meta": 0.1,
+        "costco": 0.1,
+        "vanguard": 0.2,
+        "fidelity": 0.4
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "banks": -1.0,
+        "consumer-staples": -1.0,
+        "technology": -1.0,
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Consumer Staples, Technology, Retirement Planning, Inflation, Budgeting & Saving, Passive Investing. Mentions Fidelity, Vanguard, Meta, Costco. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-14-how-to-money-friday-flight-cash-hoarding-spendy-sports-wfh-fees-1179-333219.md",
+    "transcript_word_count": 9405,
+    "transcript_language": "en"
   },
   {
     "guid": "c3653195-f5f4-4572-9408-add36ffbb72f",
@@ -24829,19 +24867,47 @@
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/TCP5106618561.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "themes": [
+        "regulation-antitrust",
+        "ai-boom",
+        "dealmaking",
+        "tax-planning"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
+      "entity_mentions": {
+        "ai-boom": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 4,
+        "tax-planning": 1,
+        "alphabet": 2
+      },
+      "entity_mention_density": {
+        "ai-boom": 0.2,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.7,
+        "tax-planning": 0.2,
+        "alphabet": 0.4
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "regulation-antitrust": -1.0,
+        "ai-boom": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Regulation & Antitrust, AI & Machine Learning, IPOs & Dealmaking, Tax Planning. Mentions Alphabet / Google. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-talking-wealth-how-much-aum-do-you-need-to-start-an-ria-64f869.md",
+    "transcript_word_count": 5300,
+    "transcript_language": "en"
   },
   {
     "guid": "8ea17a1e-380a-479b-ab18-b49e010fce1a",
@@ -101865,26 +101931,46 @@
         "private-markets"
       ],
       "themes": [
-        "hedge-funds"
+        "hedge-funds",
+        "budgeting-saving",
+        "diversification",
+        "rates-fed",
+        "market-structure"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "private-markets": 1,
-        "hedge-funds": 1
+        "private-markets": 3,
+        "rates-fed": 1,
+        "hedge-funds": 10,
+        "market-structure": 1,
+        "budgeting-saving": 3,
+        "diversification": 2
       },
       "entity_mention_density": {
-        "private-markets": 5.4,
-        "hedge-funds": 5.4
+        "private-markets": 0.3,
+        "rates-fed": 0.1,
+        "hedge-funds": 1.1,
+        "market-structure": 0.1,
+        "budgeting-saving": 0.3,
+        "diversification": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Hedge Funds, Budgeting & Saving, Diversification & Asset Allocation, Interest Rates & Fed Policy. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-capital-allocators-homegrown-cio-at-williams-college-abigail-wattley-ep-507-4714bb.md",
+    "transcript_word_count": 8961,
+    "transcript_language": "en"
   },
   {
     "guid": "17a4a1ec-ade5-4a93-b9fc-d7949b94e373",
@@ -177256,42 +177342,101 @@
     "audio_url": "https://traffic.megaphone.fm/RRM7388523995.mp3?updated=1777650519",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "technology",
+        "consumer-discretionary",
+        "private-markets"
       ],
       "themes": [
-        "inflation",
         "rates-fed",
-        "volatility"
+        "bond-market",
+        "inflation",
+        "volatility",
+        "valuation",
+        "dealmaking",
+        "commodities",
+        "passive-investing",
+        "consumer-health",
+        "budgeting-saving"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "stocks": [
+        "nvidia",
+        "chevron",
+        "sp500"
+      ],
+      "sentiment": -0.506,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "inflation": 1,
-        "rates-fed": 1,
-        "volatility": 1
+        "technology": 1,
+        "energy": 7,
+        "consumer-discretionary": 1,
+        "private-markets": 1,
+        "inflation": 7,
+        "rates-fed": 11,
+        "commodities": 1,
+        "volatility": 4,
+        "dealmaking": 2,
+        "bond-market": 8,
+        "passive-investing": 1,
+        "consumer-health": 1,
+        "budgeting-saving": 1,
+        "valuation": 3,
+        "nvidia": 2,
+        "chevron": 2,
+        "sp500": 2
       },
       "entity_mention_density": {
-        "energy": 5.6,
-        "inflation": 5.6,
-        "rates-fed": 5.6,
-        "volatility": 5.6
+        "technology": 0.2,
+        "energy": 1.4,
+        "consumer-discretionary": 0.2,
+        "private-markets": 0.2,
+        "inflation": 1.4,
+        "rates-fed": 2.1,
+        "commodities": 0.2,
+        "volatility": 0.8,
+        "dealmaking": 0.4,
+        "bond-market": 1.6,
+        "passive-investing": 0.2,
+        "consumer-health": 0.2,
+        "budgeting-saving": 0.2,
+        "valuation": 0.6,
+        "nvidia": 0.4,
+        "chevron": 0.4,
+        "sp500": 0.4
       },
       "entity_sentiment": {
-        "energy": -1.0,
+        "energy": -0.333,
         "rates-fed": 1.0,
-        "volatility": 0.333,
-        "inflation": 0.0
+        "volatility": 0.5,
+        "inflation": 0.0,
+        "bond-market": -0.5,
+        "valuation": -1.0,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "technology": -1.0,
+        "private-markets": -1.0,
+        "volatility": -1.0,
+        "bond-market": -1.0,
+        "passive-investing": -1.0,
+        "dealmaking": -1.0,
+        "valuation": -1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
       "entity_contested": [
         "inflation"
       ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Technology, Consumer Discretionary, Interest Rates & Fed Policy, Bond Market & Yields, Inflation, Volatility & Vol Regime. Mentions Nvidia, Chevron, S&P 500. Tone leans bearish (-0.51).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-riskreversal-pod-danny-moses-they-shot-3-barrels-into-this-market-it-s-still-8d9e62.md",
+    "transcript_word_count": 4948,
+    "transcript_language": "en"
   },
   {
     "guid": "1a83aaed-d124-46ee-92b3-9d01d897d320",
