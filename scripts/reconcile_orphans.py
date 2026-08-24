@@ -1,21 +1,24 @@
 """Reconcile transcript .md files that exist on disk but aren't reflected in
 episodes.json yet -- happens when transcribe.py's process is killed mid-batch
 (it only saves episodes.json once, after the whole batch loop finishes)."""
+import glob
 import json
 import os
 import re
-import subprocess
 import sys
 
 sys.path.insert(0, "pipeline")
 from run import load_json, save_json, build_aggregates, CONFIG_DIR, DATA_DIR
 
 TRANSCRIPT_DIR = os.path.join(DATA_DIR, "transcripts")
+REPO_ROOT = os.path.dirname(DATA_DIR)
 
 
 def parse_frontmatter(path):
     text = open(path, encoding="utf-8").read()
     fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+    if not fm_match:
+        return None
     fm_text = fm_match.group(1)
 
     def get(key, default=None):
@@ -51,28 +54,41 @@ def parse_frontmatter(path):
     }
 
 
-def find_orphans():
-    out = subprocess.run(
-        ["git", "status", "--porcelain", "data/transcripts/"],
-        capture_output=True, text=True, check=True,
-    ).stdout
+def find_orphans(by_guid):
+    """A file is an orphan if episodes.json doesn't already show it as the
+    done, keyword-tagged transcript for its guid. Driven entirely by
+    episodes.json state, not git status -- a file's git status (M/??) is
+    incidental to the working tree/branch and says nothing about whether its
+    episode has already been reconciled or upgraded to claude-manual tags,
+    so using it as the orphan signal risks clobbering that upgrade back to
+    keyword tags whenever the file merely shows as modified (e.g. mid-merge)."""
     orphans = []
-    for line in out.splitlines():
-        status, path = line[:2], line[3:]
-        if "?" in status or "M" in status:
-            if path.endswith(".md"):
-                orphans.append(path)
+    for abs_path in sorted(glob.glob(os.path.join(TRANSCRIPT_DIR, "*.md"))):
+        path = os.path.relpath(abs_path, REPO_ROOT)
+        fm = parse_frontmatter(abs_path)
+        if fm is None:
+            continue
+        guid = fm["guid"]
+        e = by_guid.get(guid)
+        if e is None:
+            continue
+        if e.get("tags_source") == "claude-manual":
+            continue
+        if e.get("transcript_status") == "done" and e.get("transcript_path") == path:
+            continue
+        orphans.append(path)
     return orphans
 
 
 def main():
-    orphans = find_orphans()
+    eps = load_json(os.path.join(DATA_DIR, "episodes.json"), [])
+    by_guid = {e["guid"]: e for e in eps}
+
+    orphans = find_orphans(by_guid)
     if not orphans:
         print("No orphaned transcript files.")
         return
 
-    eps = load_json(os.path.join(DATA_DIR, "episodes.json"), [])
-    by_guid = {e["guid"]: e for e in eps}
     reconciled = 0
     for path in orphans:
         fm = parse_frontmatter(path)
