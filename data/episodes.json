@@ -38819,47 +38819,76 @@
     "duration": "27:23",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a6959436d5608c352991f83/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "ai-infrastructure",
+        "industrials"
+      ],
+      "themes": [
+        "regulation-antitrust"
+      ],
       "stocks": [
         "nasdaq",
         "microsoft",
         "alphabet",
         "amazon",
         "cisco",
+        "nvidia",
+        "broadcom",
         "apple",
-        "meta",
-        "broadcom"
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "technology": 3,
+        "semiconductors": 2,
+        "ai-infrastructure": 2,
+        "industrials": 1,
+        "regulation-antitrust": 3,
+        "nvidia": 4,
         "apple": 1,
-        "microsoft": 2,
-        "alphabet": 2,
-        "amazon": 2,
+        "microsoft": 8,
+        "alphabet": 5,
+        "amazon": 5,
         "meta": 1,
-        "cisco": 2,
-        "nasdaq": 11,
-        "broadcom": 1
+        "cisco": 5,
+        "nasdaq": 15,
+        "broadcom": 3
       },
       "entity_mention_density": {
-        "apple": 2.2,
-        "microsoft": 4.4,
-        "alphabet": 4.4,
-        "amazon": 4.4,
-        "meta": 2.2,
-        "cisco": 4.4,
-        "nasdaq": 24.3,
-        "broadcom": 2.2
+        "technology": 0.6,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.4,
+        "industrials": 0.2,
+        "regulation-antitrust": 0.6,
+        "nvidia": 0.8,
+        "apple": 0.2,
+        "microsoft": 1.6,
+        "alphabet": 1.0,
+        "amazon": 1.0,
+        "meta": 0.2,
+        "cisco": 1.0,
+        "nasdaq": 3.0,
+        "broadcom": 0.6
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "regulation-antitrust": 0.0,
+        "cisco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, AI Infrastructure, Regulation & Antitrust. Mentions Nasdaq, Microsoft, Alphabet / Google, Amazon, Cisco. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-equity-mates-investing-podcast-cybersecurity-the-ai-too-dangerous-to-release-to-the-public-991f83.md",
+    "transcript_word_count": 4565,
+    "transcript_language": "en"
   },
   {
     "guid": "6a69b07628d86e1b33d2687c",
@@ -159430,20 +159459,108 @@
     "duration": "00:43:58",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/a882ec7f-9ec7-4b4e-a9a0-86b88e8e6d66/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=a882ec7f-9ec7-4b4e-a9a0-86b88e8e6d66&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "crypto",
+        "real-estate",
+        "technology",
+        "consumer-discretionary",
+        "semiconductors",
+        "energy",
+        "industrials"
+      ],
+      "themes": [
+        "dealmaking",
+        "bond-market",
+        "inflation",
+        "rates-fed",
+        "ai-boom"
+      ],
+      "stocks": [
+        "nvidia",
+        "palantir",
+        "walmart",
+        "microsoft",
+        "costco",
+        "tesla",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": -0.524,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 3,
+        "semiconductors": 1,
+        "ai-infrastructure": 16,
+        "energy": 1,
+        "consumer-discretionary": 2,
+        "real-estate": 4,
+        "industrials": 1,
+        "crypto": 5,
+        "inflation": 4,
+        "rates-fed": 3,
+        "ai-boom": 1,
+        "dealmaking": 6,
+        "bond-market": 6,
+        "nvidia": 4,
+        "microsoft": 2,
+        "tesla": 1,
+        "palantir": 4,
+        "costco": 2,
+        "walmart": 3,
+        "nasdaq": 1,
+        "charles-schwab": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.3,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 1.8,
+        "energy": 0.1,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.5,
+        "industrials": 0.1,
+        "crypto": 0.6,
+        "inflation": 0.5,
+        "rates-fed": 0.3,
+        "ai-boom": 0.1,
+        "dealmaking": 0.7,
+        "bond-market": 0.7,
+        "nvidia": 0.5,
+        "microsoft": 0.2,
+        "tesla": 0.1,
+        "palantir": 0.5,
+        "costco": 0.2,
+        "walmart": 0.3,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1
+      },
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "bond-market": 1.0,
+        "rates-fed": -1.0,
+        "dealmaking": -1.0,
+        "charles-schwab": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "crypto": -1.0,
+        "dealmaking": -1.0,
+        "nvidia": -1.0,
+        "costco": -1.0,
+        "palantir": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Crypto & Digital Assets, Real Estate, IPOs & Dealmaking, Bond Market & Yields, Inflation, Interest Rates & Fed Policy. Mentions Nvidia, Palantir, Walmart, Microsoft, Costco. Tone leans bearish (-0.52).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-15-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-15-26-5acdb4.md",
+    "transcript_word_count": 8840,
+    "transcript_language": "en"
   },
   {
     "guid": "29957706-50b2-11f1-a3ff-7b62687bc748",
@@ -170166,20 +170283,55 @@
     "duration": "220",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/e8ddb81f-177a-4e48-b65a-b44400eae3d6/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "consumer-discretionary"
+      ],
+      "themes": [
+        "inflation",
+        "retirement-planning",
+        "market-concentration"
+      ],
+      "stocks": [
+        "charles-schwab",
+        "sp500"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "consumer-discretionary": 1,
+        "inflation": 3,
+        "retirement-planning": 2,
+        "market-concentration": 1,
+        "sp500": 1,
+        "charles-schwab": 2
+      },
+      "entity_mention_density": {
+        "consumer-discretionary": 1.4,
+        "inflation": 4.1,
+        "retirement-planning": 2.7,
+        "market-concentration": 1.4,
+        "sp500": 1.4,
+        "charles-schwab": 2.7
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "market-concentration": -1.0,
+        "inflation": -1.0,
+        "charles-schwab": -1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Inflation, Retirement Planning, Market Concentration / Mega-cap. Mentions Charles Schwab, S&P 500. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-bloomberg-surveillance-single-best-idea-with-tom-keene-kevin-gordon-john-stoltzfus-eae3d6.md",
+    "transcript_word_count": 676,
+    "transcript_language": "en"
   },
   {
     "guid": "051fc72a-7c87-4c6c-989f-0f5b3e4d00da",
@@ -175779,41 +175931,82 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS2406497235.mp3?updated=1777946078",
     "tags": {
       "sectors": [
-        "autos-ev"
+        "autos-ev",
+        "energy"
       ],
       "themes": [
         "budgeting-saving",
-        "ai-boom"
+        "retirement-planning",
+        "ai-boom",
+        "real-estate-investing"
       ],
       "stocks": [
         "tesla",
+        "alphabet",
         "amazon"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "autos-ev": 4,
+        "energy": 2,
+        "autos-ev": 17,
         "ai-boom": 1,
-        "budgeting-saving": 2,
+        "budgeting-saving": 10,
+        "retirement-planning": 2,
+        "real-estate-investing": 1,
+        "alphabet": 1,
         "amazon": 1,
-        "tesla": 2
+        "tesla": 8
       },
       "entity_mention_density": {
-        "autos-ev": 7.7,
-        "ai-boom": 1.9,
-        "budgeting-saving": 3.9,
-        "amazon": 1.9,
-        "tesla": 3.9
+        "energy": 0.2,
+        "autos-ev": 1.9,
+        "ai-boom": 0.1,
+        "budgeting-saving": 1.1,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "tesla": 0.9
       },
       "entity_sentiment": {
-        "amazon": 1.0
+        "autos-ev": -0.333,
+        "energy": -0.333,
+        "budgeting-saving": -0.333,
+        "retirement-planning": -0.333,
+        "real-estate-investing": -0.333,
+        "tesla": -0.333,
+        "amazon": 1.0,
+        "alphabet": -0.333
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "autos-ev": 0.895,
+        "energy": 0.895,
+        "budgeting-saving": 0.895,
+        "retirement-planning": 0.895,
+        "real-estate-investing": 0.895,
+        "tesla": 0.895,
+        "alphabet": 0.895
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "autos-ev",
+        "energy",
+        "budgeting-saving",
+        "retirement-planning",
+        "real-estate-investing",
+        "tesla",
+        "alphabet"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Autos & EVs, Energy & Oil, Budgeting & Saving, Retirement Planning, AI & Machine Learning, Real Estate Investing. Mentions Tesla, Alphabet / Google, Amazon. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-the-investing-for-beginners-podcast-aar48-the-real-cost-of-going-electric-c6ce4d.md",
+    "transcript_word_count": 8456,
+    "transcript_language": "en"
   },
   {
     "guid": "5da1fe6a-bfe5-11f0-8a48-7b7d9b730e65",
