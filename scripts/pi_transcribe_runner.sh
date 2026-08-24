@@ -1,7 +1,7 @@
 #!/bin/bash
 # Runs on the Raspberry Pi, working the OTHER half of the podcast backlog so
 # it never duplicates work the cloud sandbox is already doing. Small batches
-# (15 episodes) with a git commit+push checkpoint after each one, since a
+# (4 episodes) with a git commit+push checkpoint after each one, since a
 # reboot/network drop should lose at most one small batch.
 set -uo pipefail
 cd "$(dirname "$0")/.."   # repo root
@@ -35,7 +35,7 @@ PYEOF
   # so prefer it if your Pi can keep up. Override by exporting WHISPER_MODEL.
   MODEL="${WHISPER_MODEL:-base}"
 
-  python3 pipeline/transcribe.py --limit 15 --model "$MODEL" --podcast-ids "$PI_IDS" >> "$LOG" 2>&1
+  python3 pipeline/transcribe.py --limit 4 --model "$MODEL" --podcast-ids "$PI_IDS" >> "$LOG" 2>&1
 
   git add data/episodes.json data/aggregates.json data/transcripts/ >> "$LOG" 2>&1
   if ! git diff --cached --quiet; then
