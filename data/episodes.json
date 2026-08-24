@@ -645,29 +645,58 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/ebd979c4-5bba-45fa-8bd9-621b7a9f115a/67_-_Invest_in_Real_Estate_-_Without_Becoming_a_Landlord.mp3?dest-id=5000840",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "insurance"
       ],
       "themes": [
-        "real-estate-investing"
+        "real-estate-investing",
+        "dividends-buybacks",
+        "passive-income",
+        "estate-planning"
       ],
-      "stocks": [],
+      "stocks": [
+        "alphabet"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 11,
-        "real-estate-investing": 1
+        "insurance": 1,
+        "real-estate": 64,
+        "real-estate-investing": 10,
+        "passive-income": 2,
+        "dividends-buybacks": 6,
+        "estate-planning": 2,
+        "alphabet": 2
       },
       "entity_mention_density": {
-        "real-estate": 77.5,
-        "real-estate-investing": 7.0
+        "insurance": 0.3,
+        "real-estate": 22.1,
+        "real-estate-investing": 3.5,
+        "passive-income": 0.7,
+        "dividends-buybacks": 2.1,
+        "estate-planning": 0.7,
+        "alphabet": 0.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "insurance": -1.0,
+        "dividends-buybacks": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.667,
+        "passive-income": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Real Estate Investing, Dividends & Buybacks, Passive Income & Side Hustles, Estate Planning. Mentions Alphabet / Google. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-23-real-estate-this-week-invest-in-real-estate-without-becoming-a-landlord-b41ad9.md",
+    "transcript_word_count": 2752,
+    "transcript_language": "en"
   },
   {
     "guid": "2737e4f8-5e31-4cda-a0fa-0b9e6b3425ae",
@@ -4732,23 +4761,51 @@
       "sectors": [
         "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "retirement-planning",
+        "budgeting-saving",
+        "elections-politics",
+        "estate-planning"
+      ],
+      "stocks": [
+        "vanguard",
+        "netflix"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "real-estate": 1
+        "real-estate": 2,
+        "elections-politics": 1,
+        "budgeting-saving": 3,
+        "retirement-planning": 4,
+        "estate-planning": 1,
+        "vanguard": 7,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "real-estate": 7.9
+        "real-estate": 0.7,
+        "elections-politics": 0.3,
+        "budgeting-saving": 1.0,
+        "retirement-planning": 1.3,
+        "estate-planning": 0.3,
+        "vanguard": 2.3,
+        "netflix": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "retirement-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Retirement Planning, Budgeting & Saving, Elections & Politics, Estate Planning. Mentions Vanguard, Netflix. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-masters-in-business-at-the-money-fan-favorite-the-finances-of-divorce-7296ea.md",
+    "transcript_word_count": 2933,
+    "transcript_language": "en"
   },
   {
     "guid": "292a77f8-9c1b-11f1-a443-eb729177ac8b",
@@ -39188,40 +39245,60 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "retirement-planning",
+        "dealmaking",
+        "fire-movement",
         "ai-boom"
       ],
       "stocks": [
-        "nvidia",
         "amazon",
+        "nvidia",
         "palantir"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.908,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "ai-boom": 1,
-        "nvidia": 1,
-        "amazon": 1,
-        "palantir": 1
+        "dealmaking": 2,
+        "fire-movement": 2,
+        "retirement-planning": 5,
+        "nvidia": 7,
+        "amazon": 8,
+        "palantir": 2
       },
       "entity_mention_density": {
-        "ai-boom": 8.2,
-        "nvidia": 8.2,
-        "amazon": 8.2,
-        "palantir": 8.2
+        "ai-boom": 0.1,
+        "dealmaking": 0.3,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.6,
+        "nvidia": 0.9,
+        "amazon": 1.0,
+        "palantir": 0.3
       },
       "entity_sentiment": {
-        "ai-boom": 1.0
+        "ai-boom": 1.0,
+        "fire-movement": 1.0,
+        "nvidia": 1.0,
+        "amazon": 1.0
       },
       "entity_conviction": {
-        "nvidia": -1.0,
-        "amazon": -1.0,
+        "fire-movement": -1.0,
+        "retirement-planning": -1.0,
+        "nvidia": -0.333,
+        "amazon": -0.333,
         "palantir": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, IPOs & Dealmaking, Financial Independence / FIRE, AI & Machine Learning. Mentions Amazon, Nvidia, Palantir. Tone leans bullish (+0.91).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-rule-breaker-investing-july-2026-mailbag-year-twelve-begins-8c21e6.md",
+    "transcript_word_count": 7792,
+    "transcript_language": "en"
   },
   {
     "guid": "92ec8de0-340a-4f68-b196-205c566bb198",
@@ -183252,26 +183329,97 @@
     "duration": "00:59:16",
     "audio_url": "https://anchor.fm/s/10bb8090/podcast/play/119235305/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-29%2F0cd04871-791d-b2f8-68a4-f639ef7b28ee.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "alphabet"
+      "sectors": [
+        "insurance"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "small-caps-value-growth",
+        "passive-investing",
+        "retirement-planning",
+        "fire-movement",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "vanguard",
+        "sp500",
+        "fidelity",
+        "charles-schwab",
+        "microsoft",
+        "alphabet",
+        "meta",
+        "russell2000"
+      ],
+      "sentiment": -0.076,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "alphabet": 1
+        "insurance": 1,
+        "passive-investing": 12,
+        "fire-movement": 1,
+        "retirement-planning": 9,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 23,
+        "microsoft": 1,
+        "alphabet": 1,
+        "meta": 1,
+        "sp500": 10,
+        "russell2000": 1,
+        "vanguard": 27,
+        "fidelity": 2,
+        "charles-schwab": 2
       },
       "entity_mention_density": {
-        "alphabet": 11.5
+        "insurance": 0.1,
+        "passive-investing": 1.4,
+        "fire-movement": 0.1,
+        "retirement-planning": 1.1,
+        "dividends-buybacks": 0.1,
+        "small-caps-value-growth": 2.8,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "sp500": 1.2,
+        "russell2000": 0.1,
+        "vanguard": 3.3,
+        "fidelity": 0.2,
+        "charles-schwab": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "passive-investing": -0.091,
+        "retirement-planning": -0.167,
+        "dividends-buybacks": 0.0,
+        "small-caps-value-growth": 0.0,
+        "sp500": 0.0,
+        "vanguard": -0.091,
+        "russell2000": 0.0,
+        "fidelity": -0.167,
+        "charles-schwab": -0.167
+      },
+      "entity_conviction": {
+        "passive-investing": -1.0,
+        "retirement-planning": -0.962,
+        "dividends-buybacks": -1.0,
+        "small-caps-value-growth": -1.0,
+        "fire-movement": -0.556,
+        "sp500": -1.0,
+        "vanguard": -1.0,
+        "russell2000": -1.0,
+        "fidelity": -1.0,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "passive-investing",
+        "vanguard"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Small-Caps, Value & Growth, Passive Investing, Retirement Planning, Financial Independence / FIRE. Mentions Vanguard, S&P 500, Fidelity, Charles Schwab, Microsoft. Tone reads roughly neutral (-0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-29-sound-investing-2026-best-in-class-etf-portfolios-b994e6.md",
+    "transcript_word_count": 8200,
+    "transcript_language": "en"
   },
   {
     "guid": "de7a4f7e-c909-43df-971c-0c869774f169",
