@@ -1,0 +1,19 @@
+---
+title: "Prof G Markets Is Taking A Break \u2014 You Should Too"
+podcast: "Prof G Markets"
+podcast_id: "prof-g-markets"
+published_at: "2026-08-17T08:15:00+00:00"
+guid: "dd0d7fb8-969e-11f1-9fa5-afaa0e225692"
+link: ""
+duration: "255"
+word_count: 663
+language: "en"
+tags_source: "keyword"
+sectors: []
+themes: []
+stocks: []
+sentiment: -0.167
+sentiment_hits: 1
+sentiment_confidence: 0.167
+---
+If money is evil, then that building is hell. Show them stuff! They're not watching show, show! Hey everyone, Ed Elson here, host of ProfG Markets. I have some good news for you and I also have some bad news. I will start with the bad news. The bad news is that this is the final message that we will be publishing for a while. The good news is it's not that long of a while. We will be back two weeks from now on Monday, August 31st, with a brand new episode. From there we will be continuing our coverage of the markets and the economy as usual. Until then, though, we will be on vacation. I will be in Austria, where I will be gallivanting around the Bavarian Alps. I believe our producer, player will be in France and Scott will be God knows where. Probably conducting some psychedelic experiment in a visa, perhaps even meek and nose. Now I understand this might be a disappointment for our regular listeners who want to get their daily briefing. I get that but let me also make the case to you as to why this is actually a good thing. As you know, the quality of this show is highly correlated with our ability to be just good at our jobs. And according to academic research, turns out taking vacation actually makes you better at your job. Yes, a longitudinal study from the Behavioral Science Institute showed that taking vacations leads to greater cognitive flexibility as well as higher levels of originality. Another study from the University of Queensland also found that vacations increase your ability to focus your attention and to concentrate. These results were proven with both subjective measures and objective physiological measures too. In other words, as much as you might think that my trip to a beautiful Alpine resort is for me, the truth is it's actually for you I'm doing it purely out of my love of the game that is podcasting. So you're welcome. But in all seriousness, we need a break. The new cycle this year has been insane from the launch of the Iran War to the explosion of the AI super cycle and perhaps the bubble underlying it. We have been covering a lot this year and so we do want to take a moment to step back from it all I will be turning my phone and my notifications off. I will not be reading the news. I'm encouraging my team to do the same and my proposal to you, if you're able is to join us on that. I think there is a lot to be learned from not reading the news. I think some of our best ideas come from a place of stasis. The moments where we're not doing anything or even thinking about anything at all. Of course, isn't the way to be all of the time. You also need to be informed. You need to take action. But I do believe that it's good for our minds and our careers to pause every once in a while. So that's what we're doing. We're taking a pause as I said, we'll be back on Monday, August 31st. Our first episode will be an episode that we pre-recorded. Scott and I talked about the meaning of money. What it does for us, why we should care about it. It turned out to be a surprisingly emotional discussion. It was actually quite moving. So I'm excited for you to hear it. And then on September 1st, we will be blasting back into the news cycle. We'll be breaking down the markets. We'll be breaking down AI. Everything that will be impacting the economy and we will be doing that with more rigor than ever before. And you can hold me to that. Until then, I hope you enjoy the rest of your summer. This is Prof. G. Markets. Goodbye for now.
