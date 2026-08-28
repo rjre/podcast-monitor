@@ -8729,27 +8729,49 @@
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM2575475184.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "crypto",
+        "semiconductors"
       ],
-      "themes": [],
+      "themes": [
+        "college-savings",
+        "budgeting-saving"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "real-estate": 3
+        "semiconductors": 1,
+        "real-estate": 9,
+        "crypto": 2,
+        "budgeting-saving": 1,
+        "college-savings": 2
       },
       "entity_mention_density": {
-        "real-estate": 22.2
+        "semiconductors": 0.4,
+        "real-estate": 3.4,
+        "crypto": 0.8,
+        "budgeting-saving": 0.4,
+        "college-savings": 0.8
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "crypto": -1.0
+      },
       "entity_conviction": {
         "real-estate": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Semiconductors, College Savings & Student Debt, Budgeting & Saving. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-real-estate-the-ramsey-way-why-homes-are-so-expensive-today-4705a8.md",
+    "transcript_word_count": 2497,
+    "transcript_language": "en"
   },
   {
     "guid": "743faa9a-9f97-11f1-8427-f373905d2c53",
@@ -60492,26 +60514,53 @@
     "duration": "1983",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML7080221783.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
-        "fire-movement"
+        "budgeting-saving",
+        "fire-movement",
+        "dividends-buybacks",
+        "diversification",
+        "real-estate-investing",
+        "passive-income"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.667,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 2
+        "real-estate": 1,
+        "budgeting-saving": 12,
+        "fire-movement": 6,
+        "real-estate-investing": 1,
+        "passive-income": 1,
+        "dividends-buybacks": 3,
+        "diversification": 2
       },
       "entity_mention_density": {
-        "fire-movement": 33.9
+        "real-estate": 0.2,
+        "budgeting-saving": 2.0,
+        "fire-movement": 1.0,
+        "real-estate-investing": 0.2,
+        "passive-income": 0.2,
+        "dividends-buybacks": 0.5,
+        "diversification": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "fire-movement": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving, Financial Independence / FIRE, Dividends & Buybacks, Diversification & Asset Allocation. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-earn-invest-753-ten-things-we-do-differently-with-our-finances-875126.md",
+    "transcript_word_count": 5860,
+    "transcript_language": "en"
   },
   {
     "guid": "61be25c8-8335-11f1-a899-b3d3be8a5689",
@@ -61222,30 +61271,76 @@
     "duration": "1173",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML8929801184.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "banks",
+        "industrials"
+      ],
       "themes": [
+        "ai-boom",
+        "recession",
         "earnings"
       ],
       "stocks": [
-        "alphabet"
+        "alphabet",
+        "nvidia",
+        "microsoft",
+        "tesla"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "ai-infrastructure": 3,
+        "banks": 1,
+        "industrials": 1,
+        "ai-boom": 1,
+        "recession": 1,
         "earnings": 1,
-        "alphabet": 3
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 10,
+        "tesla": 1
       },
       "entity_mention_density": {
-        "earnings": 3.6,
-        "alphabet": 10.9
+        "ai-infrastructure": 0.8,
+        "banks": 0.3,
+        "industrials": 0.3,
+        "ai-boom": 0.3,
+        "recession": 0.3,
+        "earnings": 0.3,
+        "nvidia": 0.3,
+        "microsoft": 0.3,
+        "alphabet": 2.6,
+        "tesla": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "industrials": -1.0,
+        "recession": -1.0,
+        "alphabet": -1.0,
+        "microsoft": -1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "ai-infrastructure": -0.826,
+        "industrials": -0.5,
+        "ai-boom": -1.0,
+        "recession": -0.5,
+        "alphabet": -0.831,
+        "tesla": -1.0,
+        "nvidia": -1.0,
+        "microsoft": -0.5
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Banks & Financials, Industrials, AI & Machine Learning, Recession Risk, Corporate Earnings. Mentions Alphabet / Google, Nvidia, Microsoft, Tesla. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-motley-fool-hidden-gems-alphabet-s-new-model-novo-s-lawsuit-1215ff.md",
+    "transcript_word_count": 3524,
+    "transcript_language": "en"
   },
   {
     "guid": "4a6fb310-137d-4300-b63c-5c76a65c7ce8",
@@ -102639,40 +102734,78 @@
     "audio_url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/feeds.choosefi.com/podcast/audio/794.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "technology"
       ],
       "themes": [
         "passive-income",
         "fire-movement",
         "real-estate-investing",
-        "budgeting-saving"
+        "budgeting-saving",
+        "passive-investing",
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "fidelity",
+        "meta",
+        "costco",
+        "vanguard",
+        "charles-schwab"
+      ],
+      "sentiment": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "budgeting-saving": 1,
-        "fire-movement": 5,
-        "real-estate-investing": 2,
-        "passive-income": 6
+        "technology": 1,
+        "real-estate": 10,
+        "passive-investing": 2,
+        "budgeting-saving": 3,
+        "fire-movement": 10,
+        "real-estate-investing": 6,
+        "passive-income": 19,
+        "dividends-buybacks": 1,
+        "meta": 1,
+        "costco": 1,
+        "vanguard": 1,
+        "fidelity": 2,
+        "charles-schwab": 1
       },
       "entity_mention_density": {
-        "real-estate": 1.6,
-        "budgeting-saving": 1.6,
-        "fire-movement": 8.0,
-        "real-estate-investing": 3.2,
-        "passive-income": 9.6
+        "technology": 0.1,
+        "real-estate": 0.7,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.7,
+        "real-estate-investing": 0.4,
+        "passive-income": 1.3,
+        "dividends-buybacks": 0.1,
+        "meta": 0.1,
+        "costco": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 0.1,
+        "charles-schwab": 0.1
       },
       "entity_sentiment": {
-        "real-estate": -1.0
+        "real-estate": -1.0,
+        "passive-income": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "fire-movement": -0.412,
+        "passive-income": -1.0,
+        "passive-investing": -1.0,
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Technology, Passive Income & Side Hustles, Financial Independence / FIRE, Real Estate Investing, Budgeting & Saving. Mentions Fidelity, Meta, Costco, Vanguard, Charles Schwab. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-choosefi-605-retire-in-less-than-10-years-988e36.md",
+    "transcript_word_count": 14125,
+    "transcript_language": "en"
   },
   {
     "guid": "1ccbe22b-d2ab-46a3-877b-062cfc3e64cd",
