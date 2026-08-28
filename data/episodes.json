@@ -16986,26 +16986,60 @@
         "real-estate"
       ],
       "themes": [
-        "ai-boom"
+        "ai-boom",
+        "dividends-buybacks",
+        "retirement-planning",
+        "passive-income",
+        "rates-fed",
+        "dealmaking"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "meta",
+        "tesla",
+        "verizon"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 1,
-        "ai-boom": 3
+        "real-estate": 21,
+        "rates-fed": 1,
+        "ai-boom": 3,
+        "dealmaking": 1,
+        "retirement-planning": 2,
+        "passive-income": 2,
+        "dividends-buybacks": 3,
+        "meta": 2,
+        "tesla": 1,
+        "verizon": 1
       },
       "entity_mention_density": {
-        "real-estate": 2.0,
-        "ai-boom": 6.1
+        "real-estate": 2.4,
+        "rates-fed": 0.1,
+        "ai-boom": 0.3,
+        "dealmaking": 0.1,
+        "retirement-planning": 0.2,
+        "passive-income": 0.2,
+        "dividends-buybacks": 0.3,
+        "meta": 0.2,
+        "tesla": 0.1,
+        "verizon": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI & Machine Learning, Dividends & Buybacks, Retirement Planning, Passive Income & Side Hustles. Mentions Meta, Tesla, Verizon. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-the-millionaire-real-estate-agent-148-stop-buying-leads-get-more-listings-from-your-database-w-33caab.md",
+    "transcript_word_count": 8186,
+    "transcript_language": "en"
   },
   {
     "guid": "6a82d1a0ff328abd84724cf0",
@@ -27602,19 +27636,44 @@
     "audio_url": "https://www.buzzsprout.com/1551448/episodes/19464479-the-shocking-reality-of-what-a-5m-retirement-looks-like-in-2026-early-retirement-hotline.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "fire-movement",
+        "retirement-planning",
+        "diversification",
+        "tax-planning"
+      ],
+      "stocks": [
+        "microsoft"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "fire-movement": 1,
+        "retirement-planning": 1,
+        "diversification": 1,
+        "tax-planning": 1,
+        "microsoft": 1
+      },
+      "entity_mention_density": {
+        "fire-movement": 0.3,
+        "retirement-planning": 0.3,
+        "diversification": 0.3,
+        "tax-planning": 0.3,
+        "microsoft": 0.3
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Financial Independence / FIRE, Retirement Planning, Diversification & Asset Allocation, Tax Planning. Mentions Microsoft. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-10-early-retirement-financial-freedom-the-shocking-reality-of-what-a-5m-retirement-looks-like-in-2-464479.md",
+    "transcript_word_count": 3243,
+    "transcript_language": "en"
   },
   {
     "guid": "8c106c26-8c33-11f1-a8de-7b2ba2ffcff3",
@@ -43843,30 +43902,157 @@
     "duration": "2892",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/869660eb-ce05-49d9-82c6-b495015d64dd/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "technology",
+        "energy",
+        "materials-mining",
+        "media-entertainment",
+        "crypto"
+      ],
       "themes": [
+        "passive-income",
+        "market-timing-dca",
+        "passive-investing",
+        "inflation",
+        "budgeting-saving",
+        "recession",
+        "safe-havens",
+        "currency-dollar",
+        "debt-payoff",
         "fire-movement"
       ],
       "stocks": [
-        "meta"
+        "netflix",
+        "meta",
+        "sp500",
+        "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 2,
+        "energy": 2,
+        "healthcare": 4,
+        "materials-mining": 1,
+        "media-entertainment": 1,
+        "crypto": 1,
+        "inflation": 2,
+        "recession": 1,
+        "safe-havens": 1,
+        "currency-dollar": 1,
+        "passive-investing": 3,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
         "fire-movement": 1,
-        "meta": 1
+        "passive-income": 7,
+        "market-timing-dca": 4,
+        "meta": 2,
+        "sp500": 1,
+        "vanguard": 1,
+        "netflix": 4
       },
       "entity_mention_density": {
-        "fire-movement": 2.6,
-        "meta": 2.6
+        "technology": 0.2,
+        "energy": 0.2,
+        "healthcare": 0.4,
+        "materials-mining": 0.1,
+        "media-entertainment": 0.1,
+        "crypto": 0.1,
+        "inflation": 0.2,
+        "recession": 0.1,
+        "safe-havens": 0.1,
+        "currency-dollar": 0.1,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "passive-income": 0.6,
+        "market-timing-dca": 0.4,
+        "meta": 0.2,
+        "sp500": 0.1,
+        "vanguard": 0.1,
+        "netflix": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_sentiment": {
+        "technology": 0.4,
+        "energy": 0.4,
+        "media-entertainment": 0.4,
+        "crypto": 0.4,
+        "inflation": 0.4,
+        "recession": 0.4,
+        "safe-havens": 0.4,
+        "currency-dollar": 0.4,
+        "passive-investing": 0.4,
+        "debt-payoff": 0.4,
+        "market-timing-dca": 0.4,
+        "meta": 0.4,
+        "sp500": 0.4,
+        "vanguard": 0.4,
+        "netflix": 0.4
+      },
+      "entity_conviction": {
+        "technology": -0.333,
+        "energy": -0.333,
+        "media-entertainment": -0.333,
+        "crypto": -0.333,
+        "budgeting-saving": -1.0,
+        "passive-income": -1.0,
+        "inflation": -0.333,
+        "recession": -0.333,
+        "safe-havens": -0.333,
+        "currency-dollar": -0.333,
+        "passive-investing": -0.333,
+        "debt-payoff": -0.333,
+        "market-timing-dca": -0.333,
+        "meta": -0.333,
+        "sp500": -0.333,
+        "vanguard": -0.333,
+        "netflix": -0.333
+      },
+      "entity_stance": {
+        "technology": "buy",
+        "energy": "buy",
+        "media-entertainment": "buy",
+        "crypto": "buy",
+        "inflation": "buy",
+        "recession": "buy",
+        "safe-havens": "buy",
+        "currency-dollar": "buy",
+        "passive-investing": "buy",
+        "debt-payoff": "buy",
+        "market-timing-dca": "buy",
+        "meta": "buy",
+        "sp500": "buy",
+        "vanguard": "buy",
+        "netflix": "buy"
+      },
+      "entity_contested": [
+        "technology",
+        "energy",
+        "media-entertainment",
+        "crypto",
+        "inflation",
+        "recession",
+        "safe-havens",
+        "currency-dollar",
+        "passive-investing",
+        "debt-payoff",
+        "market-timing-dca",
+        "meta",
+        "sp500",
+        "vanguard",
+        "netflix"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Technology, Energy & Oil, Passive Income & Side Hustles, Market Timing & Dollar-Cost Averaging, Passive Investing, Inflation. Mentions Netflix, Meta, S&P 500, Vanguard. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-31-how-to-money-popular-money-advice-that-just-ain-t-right-1173-5d64dd.md",
+    "transcript_word_count": 10544,
+    "transcript_language": "en"
   },
   {
     "guid": "9f744263-03a9-48b9-9a65-0c1f485f8fac",
@@ -120917,32 +121103,66 @@
     "duration": "1291",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4312328188.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "passive-investing",
-        "college-savings"
+      "sectors": [
+        "semiconductors",
+        "banks",
+        "consumer-discretionary"
       ],
-      "stocks": [],
+      "themes": [
+        "college-savings",
+        "passive-investing",
+        "retirement-planning",
+        "debt-payoff",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "sp500",
+        "netflix"
+      ],
       "sentiment": 0.333,
       "sentiment_hits": 2,
       "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "passive-investing": 1,
-        "college-savings": 1
+        "semiconductors": 1,
+        "banks": 1,
+        "consumer-discretionary": 1,
+        "passive-investing": 3,
+        "debt-payoff": 1,
+        "retirement-planning": 2,
+        "dividends-buybacks": 1,
+        "college-savings": 4,
+        "sp500": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "passive-investing": 4.7,
-        "college-savings": 4.7
+        "semiconductors": 0.2,
+        "banks": 0.2,
+        "consumer-discretionary": 0.2,
+        "passive-investing": 0.7,
+        "debt-payoff": 0.2,
+        "retirement-planning": 0.4,
+        "dividends-buybacks": 0.2,
+        "college-savings": 0.9,
+        "sp500": 0.2,
+        "netflix": 0.2
       },
       "entity_sentiment": {
         "college-savings": 1.0,
         "passive-investing": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "banks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Banks & Financials, Consumer Discretionary, College Savings & Student Debt, Passive Investing, Retirement Planning, Debt Payoff. Mentions S&P 500, Netflix. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-money-guy-show-financial-advisors-react-to-insane-money-clips-99be96.md",
+    "transcript_word_count": 4310,
+    "transcript_language": "en"
   },
   {
     "guid": "e9fa0c21-e1aa-476e-8392-5880e8b24040",
