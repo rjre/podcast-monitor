@@ -5237,41 +5237,96 @@
     "audio_url": "https://traffic.libsyn.com/secure/bestinterest/MIX_149_TBI_2.mp3?dest-id=2640104",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "consumer-discretionary",
+        "technology",
+        "ai-infrastructure"
       ],
       "themes": [
-        "diversification",
         "tax-planning",
+        "diversification",
+        "budgeting-saving",
+        "retirement-planning",
+        "inflation",
+        "ai-boom",
+        "dealmaking",
         "fire-movement",
+        "valuation",
+        "volatility",
+        "market-concentration",
         "behavioral-finance",
         "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "microsoft",
+        "berkshire",
+        "vanguard"
+      ],
+      "sentiment": 0.102,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "fire-movement": 1,
+        "technology": 1,
+        "ai-infrastructure": 1,
+        "consumer-discretionary": 4,
+        "inflation": 2,
+        "ai-boom": 2,
+        "volatility": 1,
+        "dealmaking": 2,
+        "budgeting-saving": 5,
+        "fire-movement": 2,
+        "retirement-planning": 4,
+        "valuation": 2,
+        "market-concentration": 1,
         "behavioral-finance": 1,
-        "diversification": 3,
-        "tax-planning": 2,
-        "estate-planning": 1
+        "diversification": 7,
+        "tax-planning": 11,
+        "estate-planning": 1,
+        "microsoft": 1,
+        "berkshire": 1,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 2.2,
-        "fire-movement": 2.2,
-        "behavioral-finance": 2.2,
-        "diversification": 6.6,
-        "tax-planning": 4.4,
-        "estate-planning": 2.2
+        "technology": 0.1,
+        "ai-infrastructure": 0.1,
+        "consumer-discretionary": 0.5,
+        "inflation": 0.3,
+        "ai-boom": 0.3,
+        "volatility": 0.1,
+        "dealmaking": 0.3,
+        "budgeting-saving": 0.7,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.5,
+        "valuation": 0.3,
+        "market-concentration": 0.1,
+        "behavioral-finance": 0.1,
+        "diversification": 0.9,
+        "tax-planning": 1.5,
+        "estate-planning": 0.1,
+        "microsoft": 0.1,
+        "berkshire": 0.1,
+        "vanguard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "tax-planning": 1.0,
+        "budgeting-saving": 0.765,
+        "market-concentration": -1.0,
+        "ai-boom": -1.0,
+        "dealmaking": -1.0
+      },
+      "entity_conviction": {
+        "diversification": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Technology, AI Infrastructure, Tax Planning, Diversification & Asset Allocation, Budgeting & Saving, Retirement Planning. Mentions Microsoft, Berkshire Hathaway, Vanguard. Tone reads roughly neutral (+0.10).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-26-personal-finance-for-long-term-investors-even-pros-make-this-simple-tax-planning-error-ama-e149-11141d.md",
+    "transcript_word_count": 6955,
+    "transcript_language": "en"
   },
   {
     "guid": "9447dcb0-f30d-4657-9f78-ac60b5a1ade5",
@@ -96267,51 +96322,85 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/b46a44f5-12f6-4684-89ba-e8495cbc6589.mp3?source=feed",
     "tags": {
       "sectors": [
-        "semiconductors",
-        "real-estate"
+        "real-estate",
+        "semiconductors"
       ],
       "themes": [
         "labor-market",
+        "dividends-buybacks",
         "inflation",
+        "rates-fed",
         "bond-market",
-        "small-caps-value-growth"
+        "small-caps-value-growth",
+        "valuation"
       ],
       "stocks": [
-        "nasdaq"
+        "nasdaq",
+        "sp500"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
         "semiconductors": 2,
-        "real-estate": 2,
-        "inflation": 1,
-        "labor-market": 3,
-        "bond-market": 1,
-        "small-caps-value-growth": 1,
-        "nasdaq": 1
+        "real-estate": 4,
+        "inflation": 2,
+        "rates-fed": 2,
+        "labor-market": 4,
+        "bond-market": 2,
+        "dividends-buybacks": 4,
+        "valuation": 1,
+        "small-caps-value-growth": 2,
+        "sp500": 1,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "semiconductors": 10.8,
-        "real-estate": 10.8,
-        "inflation": 5.4,
-        "labor-market": 16.1,
-        "bond-market": 5.4,
-        "small-caps-value-growth": 5.4,
-        "nasdaq": 5.4
+        "semiconductors": 1.4,
+        "real-estate": 2.7,
+        "inflation": 1.4,
+        "rates-fed": 1.4,
+        "labor-market": 2.7,
+        "bond-market": 1.4,
+        "dividends-buybacks": 2.7,
+        "valuation": 0.7,
+        "small-caps-value-growth": 1.4,
+        "sp500": 0.7,
+        "nasdaq": 2.0
       },
       "entity_sentiment": {
         "semiconductors": -1.0,
         "real-estate": -1.0,
+        "inflation": -1.0,
+        "bond-market": -1.0,
+        "labor-market": -1.0,
+        "dividends-buybacks": -1.0,
+        "small-caps-value-growth": -1.0,
+        "rates-fed": -1.0,
+        "valuation": -1.0,
+        "nasdaq": -1.0,
+        "sp500": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "inflation": -1.0,
+        "bond-market": -1.0,
         "labor-market": -1.0,
         "small-caps-value-growth": -1.0,
-        "nasdaq": -1.0
+        "rates-fed": -1.0,
+        "valuation": -1.0,
+        "nasdaq": -1.0,
+        "sp500": -1.0
       },
-      "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Semiconductors, Labor Market, Dividends & Buybacks, Inflation, Interest Rates & Fed Policy. Mentions Nasdaq, S&P 500. Tone leans bearish (-0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-the-dividend-cafe-wednesday-july-1-2026-3efcc3.md",
+    "transcript_word_count": 1295,
+    "transcript_language": "en"
   },
   {
     "guid": "beb732ac-758d-11f1-a0c1-c33d1c77f30c",
@@ -126441,25 +126530,54 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/ebd979c4-5bba-45fa-8bd9-621b7a9f115a/57_-_The_Summer_Market.mp3?dest-id=5000840",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "energy"
       ],
-      "themes": [],
+      "themes": [
+        "housing",
+        "rates-fed",
+        "inflation",
+        "commodities"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "real-estate": 4
+        "energy": 1,
+        "real-estate": 35,
+        "inflation": 1,
+        "rates-fed": 4,
+        "housing": 29,
+        "commodities": 1
       },
       "entity_mention_density": {
-        "real-estate": 27.2
+        "energy": 0.3,
+        "real-estate": 10.4,
+        "inflation": 0.3,
+        "rates-fed": 1.2,
+        "housing": 8.7,
+        "commodities": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "housing": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.333,
+        "housing": -0.744
+      },
+      "entity_stance": {
+        "real-estate": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Housing Market, Interest Rates & Fed Policy, Inflation, Commodities. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-14-real-estate-this-week-the-summer-market-57241d.md",
+    "transcript_word_count": 3205,
+    "transcript_language": "en"
   },
   {
     "guid": "15a27d00-64be-11f1-a3c1-375cd2159d74",
@@ -153040,32 +153158,85 @@
     "duration": "3106",
     "audio_url": "https://traffic.megaphone.fm/TIFM8459546626.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation",
-        "dealmaking",
-        "behavioral-finance"
+      "sectors": [
+        "industrials",
+        "banks",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "volatility",
+        "inflation",
+        "behavioral-finance",
+        "diversification",
+        "rates-fed",
+        "dealmaking",
+        "ai-boom",
+        "retirement-planning",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "nvidia",
+        "alphabet",
+        "tesla",
+        "jpmorgan"
+      ],
+      "sentiment": -0.697,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "dealmaking": 1,
-        "behavioral-finance": 1
+        "banks": 1,
+        "real-estate": 1,
+        "industrials": 2,
+        "inflation": 4,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "volatility": 5,
+        "dealmaking": 2,
+        "retirement-planning": 1,
+        "dividends-buybacks": 1,
+        "behavioral-finance": 3,
+        "diversification": 3,
+        "nvidia": 1,
+        "alphabet": 1,
+        "tesla": 1,
+        "jpmorgan": 1
       },
       "entity_mention_density": {
-        "inflation": 3.2,
-        "dealmaking": 3.2,
-        "behavioral-finance": 3.2
+        "banks": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.3,
+        "inflation": 0.5,
+        "rates-fed": 0.3,
+        "ai-boom": 0.1,
+        "volatility": 0.6,
+        "dealmaking": 0.3,
+        "retirement-planning": 0.1,
+        "dividends-buybacks": 0.1,
+        "behavioral-finance": 0.4,
+        "diversification": 0.4,
+        "nvidia": 0.1,
+        "alphabet": 0.1,
+        "tesla": 0.1,
+        "jpmorgan": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "behavioral-finance": 0.333,
+        "volatility": -1.0
+      },
+      "entity_conviction": {
+        "inflation": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Banks & Financials, Real Estate, Volatility & Vol Regime, Inflation, Behavioral Finance & Psychology, Diversification & Asset Allocation. Mentions Nvidia, Alphabet / Google, Tesla, JPMorgan. Tone leans bearish (-0.70).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-the-meb-faber-show-william-goetzmann-from-babylon-to-bubbles-a-5-000-year-histo-beaa94.md",
+    "transcript_word_count": 7585,
+    "transcript_language": "en"
   },
   {
     "guid": "3ec258e6-bfe5-11f0-a953-87710ce1cd85",
