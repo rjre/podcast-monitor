@@ -2192,20 +2192,81 @@
     "duration": "1151",
     "audio_url": "https://mcdn.podbean.com/mf/web/bg9ni394vkzfhuwm/BestStocksNow-260827.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "technology"
+      ],
+      "themes": [
+        "rates-fed",
+        "ai-boom",
+        "earnings"
+      ],
+      "stocks": [
+        "nvidia",
+        "salesforce",
+        "palantir",
+        "charles-schwab",
+        "microsoft",
+        "tsmc",
+        "bank-of-america",
+        "sp500",
+        "broadcom"
+      ],
+      "sentiment": 1.0,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 5,
+        "rates-fed": 1,
+        "ai-boom": 1,
+        "earnings": 1,
+        "nvidia": 26,
+        "microsoft": 1,
+        "tsmc": 1,
+        "palantir": 7,
+        "bank-of-america": 1,
+        "sp500": 1,
+        "charles-schwab": 2,
+        "salesforce": 16,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.8,
+        "semiconductors": 2.1,
+        "rates-fed": 0.4,
+        "ai-boom": 0.4,
+        "earnings": 0.4,
+        "nvidia": 10.9,
+        "microsoft": 0.4,
+        "tsmc": 0.4,
+        "palantir": 2.9,
+        "bank-of-america": 0.4,
+        "sp500": 0.4,
+        "charles-schwab": 0.8,
+        "salesforce": 6.7,
+        "broadcom": 0.4
+      },
+      "entity_sentiment": {
+        "nvidia": 1.0,
+        "salesforce": 1.0,
+        "bank-of-america": 1.0
+      },
+      "entity_conviction": {
+        "nvidia": -1.0,
+        "palantir": -1.0,
+        "salesforce": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, Interest Rates & Fed Policy, AI & Machine Learning, Corporate Earnings. Mentions Nvidia, Salesforce, Palantir, Charles Schwab, Microsoft. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-best-stocks-now-thursday-aug-27-2026-1a9a1b.md",
+    "transcript_word_count": 2392,
+    "transcript_language": "en"
   },
   {
     "guid": "8b49702a-f2d0-4fe8-9200-730a714331b7",
@@ -47319,29 +47380,127 @@
     "duration": "4028",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/bccy4c7mz7kdth37/Macrovoices-2026-07-30-Jim-Bianco.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "semiconductors",
+        "industrials",
+        "technology",
+        "banks",
+        "insurance",
+        "real-estate",
+        "defense-aerospace"
+      ],
       "themes": [
         "rates-fed",
-        "inflation"
+        "inflation",
+        "bond-market",
+        "ai-boom",
+        "commodities",
+        "safe-havens",
+        "market-concentration"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "sp500",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "silicon-valley-bank",
+        "nasdaq"
+      ],
+      "sentiment": -0.102,
+      "sentiment_hits": 48,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "rates-fed": 2
+        "technology": 1,
+        "semiconductors": 3,
+        "ai-infrastructure": 18,
+        "banks": 1,
+        "insurance": 1,
+        "energy": 5,
+        "real-estate": 1,
+        "industrials": 2,
+        "defense-aerospace": 1,
+        "inflation": 51,
+        "rates-fed": 68,
+        "ai-boom": 5,
+        "commodities": 2,
+        "safe-havens": 2,
+        "bond-market": 6,
+        "market-concentration": 1,
+        "microsoft": 3,
+        "alphabet": 3,
+        "amazon": 1,
+        "silicon-valley-bank": 1,
+        "sp500": 5,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "inflation": 18.5,
-        "rates-fed": 37.0
+        "technology": 0.1,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 1.6,
+        "banks": 0.1,
+        "insurance": 0.1,
+        "energy": 0.4,
+        "real-estate": 0.1,
+        "industrials": 0.2,
+        "defense-aerospace": 0.1,
+        "inflation": 4.4,
+        "rates-fed": 5.9,
+        "ai-boom": 0.4,
+        "commodities": 0.2,
+        "safe-havens": 0.2,
+        "bond-market": 0.5,
+        "market-concentration": 0.1,
+        "microsoft": 0.3,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "silicon-valley-bank": 0.1,
+        "sp500": 0.4,
+        "nasdaq": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": 0.333,
+        "energy": 0.17,
+        "inflation": -0.04,
+        "rates-fed": 0.318,
+        "ai-boom": 1.0,
+        "bond-market": 0.286,
+        "commodities": 0.209,
+        "safe-havens": 0.125,
+        "sp500": -0.111,
+        "alphabet": 1.0,
+        "nasdaq": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "real-estate": -1.0,
+        "energy": -1.0,
+        "inflation": -0.423,
+        "rates-fed": -0.259,
+        "ai-boom": -1.0,
+        "bond-market": -1.0,
+        "commodities": -1.0,
+        "safe-havens": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "energy",
+        "inflation",
+        "rates-fed",
+        "bond-market",
+        "commodities",
+        "sp500"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Semiconductors, Interest Rates & Fed Policy, Inflation, Bond Market & Yields, AI & Machine Learning. Mentions S&P 500, Microsoft, Alphabet / Google, Amazon, Silicon Valley Bank / SVB legacy. Tone reads roughly neutral (-0.10).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-macro-voices-macrovoices-543-jim-bianco-who-solves-inflation-the-fed-or-t-49e31e.md",
+    "transcript_word_count": 11533,
+    "transcript_language": "en"
   },
   {
     "guid": "eb15e419-d5a4-4a0a-ba47-1907e4fe03fc",
@@ -81762,29 +81921,89 @@
     "audio_url": "https://traffic.megaphone.fm/TIFM8635046244.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "crypto"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "dividends-buybacks",
+        "rates-fed",
+        "hedge-funds",
+        "passive-investing",
+        "retirement-planning",
+        "fire-movement",
+        "real-estate-investing",
+        "passive-income",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "bitcoin",
+        "berkshire",
+        "microstrategy",
+        "sp500"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "real-estate": 2,
-        "inflation": 1
+        "real-estate": 35,
+        "crypto": 12,
+        "inflation": 14,
+        "rates-fed": 3,
+        "hedge-funds": 2,
+        "passive-investing": 2,
+        "fire-movement": 1,
+        "retirement-planning": 2,
+        "real-estate-investing": 1,
+        "passive-income": 1,
+        "dividends-buybacks": 13,
+        "diversification": 1,
+        "berkshire": 1,
+        "microstrategy": 1,
+        "bitcoin": 8,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "real-estate": 6.7,
-        "inflation": 3.3
+        "real-estate": 3.4,
+        "crypto": 1.2,
+        "inflation": 1.4,
+        "rates-fed": 0.3,
+        "hedge-funds": 0.2,
+        "passive-investing": 0.2,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 0.1,
+        "passive-income": 0.1,
+        "dividends-buybacks": 1.3,
+        "diversification": 0.1,
+        "berkshire": 0.1,
+        "microstrategy": 0.1,
+        "bitcoin": 0.8,
+        "sp500": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.6,
+        "crypto": -1.0,
+        "inflation": -1.0,
+        "retirement-planning": -1.0,
+        "dividends-buybacks": -1.0,
+        "passive-income": -1.0,
+        "bitcoin": -1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Inflation, Dividends & Buybacks, Interest Rates & Fed Policy, Hedge Funds. Mentions Bitcoin, Berkshire Hathaway, MicroStrategy / Strategy, S&P 500. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-10-the-meb-faber-show-joseph-moore-how-to-get-rich-in-american-history-300-years-o-407878.md",
+    "transcript_word_count": 10003,
+    "transcript_language": "en"
   },
   {
     "guid": "e610d3f2-c3c8-11f0-b1f3-1bb672ced26e",
@@ -119943,38 +120162,93 @@
     "duration": "29:26",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a32124d180319722ab1f69a/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "banks",
+        "energy",
+        "private-markets",
+        "insurance",
+        "consumer-discretionary",
+        "industrials"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "safe-havens",
+        "valuation",
+        "inflation",
+        "dividends-buybacks"
       ],
       "stocks": [
         "meta",
         "nasdaq",
+        "tesla",
+        "sp500",
         "uber"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.111,
+      "sentiment_hits": 18,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 3,
-        "meta": 2,
-        "nasdaq": 2,
+        "banks": 2,
+        "insurance": 1,
+        "energy": 2,
+        "healthcare": 3,
+        "consumer-discretionary": 1,
+        "industrials": 1,
+        "private-markets": 2,
+        "inflation": 1,
+        "safe-havens": 3,
+        "dealmaking": 26,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "meta": 5,
+        "tesla": 1,
+        "sp500": 1,
+        "nasdaq": 3,
         "uber": 1
       },
       "entity_mention_density": {
-        "dealmaking": 6.9,
-        "meta": 4.6,
-        "nasdaq": 4.6,
-        "uber": 2.3
+        "banks": 0.3,
+        "insurance": 0.2,
+        "energy": 0.3,
+        "healthcare": 0.5,
+        "consumer-discretionary": 0.2,
+        "industrials": 0.2,
+        "private-markets": 0.3,
+        "inflation": 0.2,
+        "safe-havens": 0.5,
+        "dealmaking": 4.5,
+        "dividends-buybacks": 0.2,
+        "valuation": 0.3,
+        "meta": 0.9,
+        "tesla": 0.2,
+        "sp500": 0.2,
+        "nasdaq": 0.5,
+        "uber": 0.2
       },
       "entity_sentiment": {
-        "dealmaking": -1.0
+        "insurance": -1.0,
+        "dealmaking": -1.0,
+        "valuation": -1.0,
+        "nasdaq": 1.0,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": -1.0,
+        "consumer-discretionary": -1.0,
+        "dealmaking": -1.0,
+        "valuation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Banks & Financials, Energy & Oil, IPOs & Dealmaking, Gold & Safe Havens, Valuation, Inflation. Mentions Meta, Nasdaq, Tesla, S&P 500, Uber. Tone reads roughly neutral (-0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-equity-mates-investing-podcast-let-the-oil-flow-our-ipo-warning-last-chance-tax-moves-b1f69a.md",
+    "transcript_word_count": 5307,
+    "transcript_language": "en"
   },
   {
     "guid": "2251c3bc-b8b6-4612-ad59-b46c013448f5",
