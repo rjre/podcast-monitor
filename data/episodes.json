@@ -13810,20 +13810,136 @@
     "duration": "00:40:32",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/152e205d-4bb4-4970-9b66-1ed921352aa9/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=152e205d-4bb4-4970-9b66-1ed921352aa9&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "real-estate",
+        "industrials",
+        "technology",
+        "semiconductors",
+        "energy",
+        "ai-infrastructure",
+        "utilities",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "bond-market",
+        "housing",
+        "rates-fed",
+        "dealmaking",
+        "elections-politics",
+        "inflation",
+        "commodities",
+        "geopolitics-tariffs",
+        "fiscal-debt",
+        "volatility",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "tesla",
+        "nvidia",
+        "boeing",
+        "walmart",
+        "sp500",
+        "nasdaq",
+        "broadcom"
+      ],
+      "sentiment": 0.117,
+      "sentiment_hits": 24,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 4,
+        "semiconductors": 4,
+        "ai-infrastructure": 1,
+        "energy": 4,
+        "utilities": 1,
+        "real-estate": 13,
+        "industrials": 6,
+        "defense-aerospace": 1,
+        "inflation": 5,
+        "rates-fed": 7,
+        "geopolitics-tariffs": 1,
+        "housing": 9,
+        "fiscal-debt": 1,
+        "elections-politics": 6,
+        "commodities": 2,
+        "volatility": 1,
+        "dealmaking": 7,
+        "bond-market": 20,
+        "dividends-buybacks": 1,
+        "nvidia": 4,
+        "tesla": 6,
+        "boeing": 1,
+        "walmart": 1,
+        "sp500": 1,
+        "nasdaq": 1,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.5,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 0.1,
+        "energy": 0.5,
+        "utilities": 0.1,
+        "real-estate": 1.7,
+        "industrials": 0.8,
+        "defense-aerospace": 0.1,
+        "inflation": 0.6,
+        "rates-fed": 0.9,
+        "geopolitics-tariffs": 0.1,
+        "housing": 1.2,
+        "fiscal-debt": 0.1,
+        "elections-politics": 0.8,
+        "commodities": 0.3,
+        "volatility": 0.1,
+        "dealmaking": 0.9,
+        "bond-market": 2.6,
+        "dividends-buybacks": 0.1,
+        "nvidia": 0.5,
+        "tesla": 0.8,
+        "boeing": 0.1,
+        "walmart": 0.1,
+        "sp500": 0.1,
+        "nasdaq": 0.1,
+        "broadcom": 0.1
+      },
+      "entity_sentiment": {
+        "technology": -1.0,
+        "energy": 1.0,
+        "real-estate": 1.0,
+        "industrials": -1.0,
+        "bond-market": -0.31,
+        "volatility": 1.0,
+        "dealmaking": 1.0,
+        "rates-fed": 0.0,
+        "commodities": 1.0,
+        "inflation": -1.0,
+        "housing": 1.0,
+        "elections-politics": -1.0,
+        "walmart": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.333,
+        "industrials": -1.0,
+        "bond-market": -0.73,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "housing": -0.333,
+        "geopolitics-tariffs": -1.0,
+        "elections-politics": -1.0,
+        "nvidia": -1.0,
+        "walmart": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "bond-market"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Technology, Bond Market & Yields, Housing Market, Interest Rates & Fed Policy, IPOs & Dealmaking. Mentions Tesla, Nvidia, Boeing, Walmart, S&P 500. Tone reads roughly neutral (+0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-morning-call-morning-call-8-19-26-d032ef.md",
+    "transcript_word_count": 7721,
+    "transcript_language": "en"
   },
   {
     "guid": "be6b9e44-18a1-11f1-98a4-eb176b30f6b1",
@@ -131569,8 +131685,11 @@
     "duration": "372",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM7323049469.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare"
+      ],
       "themes": [
+        "retirement-planning",
         "budgeting-saving"
       ],
       "stocks": [],
@@ -131578,17 +131697,27 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "healthcare": 1,
+        "budgeting-saving": 1,
+        "retirement-planning": 5
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "healthcare": 0.8,
+        "budgeting-saving": 0.8,
+        "retirement-planning": 4.1
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Retirement Planning, Budgeting & Saving. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-ramsey-everyday-millionaires-should-i-take-my-employer-s-offer-of-deferred-equity-instead-c9a79c.md",
+    "transcript_word_count": 1022,
+    "transcript_language": "en"
   },
   {
     "guid": "6a292bfe74e72c6295da43f4",
@@ -147438,19 +147567,45 @@
     "audio_url": "https://www.buzzsprout.com/1551448/episodes/19092385-why-i-want-to-work-part-time-in-retirement-road-to-retirement.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "retirement-planning",
+        "fire-movement",
+        "budgeting-saving",
+        "dividends-buybacks"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "budgeting-saving": 1,
+        "fire-movement": 6,
+        "retirement-planning": 11,
+        "dividends-buybacks": 1
+      },
+      "entity_mention_density": {
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.7,
+        "retirement-planning": 1.4,
+        "dividends-buybacks": 0.1
+      },
+      "entity_sentiment": {
+        "fire-movement": 1.0
+      },
+      "entity_conviction": {
+        "retirement-planning": 0.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Financial Independence / FIRE, Budgeting & Saving, Dividends & Buybacks. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-01-early-retirement-financial-freedom-why-i-want-to-work-part-time-in-retirement-road-to-retiremen-092385.md",
+    "transcript_word_count": 7936,
+    "transcript_language": "en"
   },
   {
     "guid": "566a9920-38ff-11f1-a344-2fff3d9bc94c",
@@ -170434,31 +170589,147 @@
     "duration": "00:56:06",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/d34bd19b-6ca3-4cdf-8320-8a00b8ac17fa/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=d34bd19b-6ca3-4cdf-8320-8a00b8ac17fa&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "crypto",
+        "real-estate",
+        "semiconductors",
+        "ai-infrastructure",
+        "technology",
+        "energy"
+      ],
       "themes": [
         "rates-fed",
-        "bond-market"
+        "inflation",
+        "bond-market",
+        "recession",
+        "consumer-health",
+        "diversification",
+        "elections-politics",
+        "dividends-buybacks",
+        "geopolitics-tariffs",
+        "housing",
+        "commodities",
+        "safe-havens",
+        "career-income",
+        "market-concentration"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": -0.148,
+      "sentiment_hits": 26,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 2,
-        "bond-market": 1
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 2,
+        "energy": 1,
+        "consumer-discretionary": 5,
+        "real-estate": 3,
+        "crypto": 4,
+        "inflation": 16,
+        "rates-fed": 45,
+        "recession": 4,
+        "geopolitics-tariffs": 2,
+        "housing": 1,
+        "elections-politics": 3,
+        "commodities": 1,
+        "safe-havens": 1,
+        "bond-market": 8,
+        "consumer-health": 4,
+        "career-income": 1,
+        "dividends-buybacks": 3,
+        "market-concentration": 1,
+        "diversification": 4,
+        "sp500": 3
       },
       "entity_mention_density": {
-        "rates-fed": 23.0,
-        "bond-market": 11.5
+        "technology": 0.1,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.2,
+        "energy": 0.1,
+        "consumer-discretionary": 0.5,
+        "real-estate": 0.3,
+        "crypto": 0.4,
+        "inflation": 1.7,
+        "rates-fed": 4.9,
+        "recession": 0.4,
+        "geopolitics-tariffs": 0.2,
+        "housing": 0.1,
+        "elections-politics": 0.3,
+        "commodities": 0.1,
+        "safe-havens": 0.1,
+        "bond-market": 0.9,
+        "consumer-health": 0.4,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.3,
+        "market-concentration": 0.1,
+        "diversification": 0.4,
+        "sp500": 0.3
       },
       "entity_sentiment": {
-        "bond-market": 1.0
+        "technology": 1.0,
+        "semiconductors": -0.167,
+        "ai-infrastructure": 1.0,
+        "consumer-discretionary": -0.2,
+        "real-estate": -0.2,
+        "energy": -1.0,
+        "rates-fed": 0.026,
+        "bond-market": -0.333,
+        "inflation": -0.167,
+        "geopolitics-tariffs": 1.0,
+        "dividends-buybacks": 1.0,
+        "market-concentration": 0.0,
+        "diversification": 0.0,
+        "housing": 0.0,
+        "consumer-health": -0.2,
+        "commodities": -1.0,
+        "recession": -0.882,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "consumer-discretionary": 1.0,
+        "real-estate": 0.167,
+        "energy": 0.167,
+        "rates-fed": -0.584,
+        "bond-market": -0.943,
+        "inflation": -1.0,
+        "geopolitics-tariffs": 0.167,
+        "dividends-buybacks": -1.0,
+        "elections-politics": -0.545,
+        "market-concentration": -0.429,
+        "diversification": -0.429,
+        "safe-havens": -1.0,
+        "consumer-health": 1.0,
+        "commodities": 0.167,
+        "recession": -0.667,
+        "sp500": -1.0
+      },
+      "entity_stance": {
+        "bond-market": "sell",
+        "safe-havens": "sell",
+        "sp500": "sell"
+      },
+      "entity_contested": [
+        "semiconductors",
+        "consumer-discretionary",
+        "real-estate",
+        "rates-fed",
+        "inflation",
+        "housing",
+        "consumer-health"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Crypto & Digital Assets, Real Estate, Interest Rates & Fed Policy, Inflation, Bond Market & Yields, Recession Risk. Mentions S&P 500. Tone reads roughly neutral (-0.15).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-15-moody-s-talks-inside-economics-focus-on-the-fed-d99909.md",
+    "transcript_word_count": 9066,
+    "transcript_language": "en"
   },
   {
     "guid": "2ad4d8fd-0be9-45df-9fc2-a5a65ee7f950",
