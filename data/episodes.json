@@ -8412,25 +8412,45 @@
     "duration": "1408",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL8293537987.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
+        "retirement-planning",
+        "insurance-products",
+        "passive-investing",
         "budgeting-saving",
+        "debt-payoff",
         "fire-movement",
         "college-savings"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
+        "real-estate": 2,
+        "passive-investing": 1,
         "budgeting-saving": 1,
+        "debt-payoff": 1,
         "fire-movement": 1,
-        "college-savings": 1
+        "retirement-planning": 12,
+        "college-savings": 1,
+        "insurance-products": 2,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.3,
-        "fire-movement": 4.3,
-        "college-savings": 4.3
+        "real-estate": 0.4,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.2,
+        "fire-movement": 0.2,
+        "retirement-planning": 2.3,
+        "college-savings": 0.2,
+        "insurance-products": 0.4,
+        "sp500": 0.2
       },
       "entity_sentiment": {
         "fire-movement": 1.0
@@ -8439,7 +8459,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Retirement Planning, Insurance Products, Passive Investing, Budgeting & Saving. Mentions S&P 500. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-money-guy-show-financial-advisors-react-to-youtuber-financial-advice-83d405.md",
+    "transcript_word_count": 5002,
+    "transcript_language": "en"
   },
   {
     "guid": "f41b237c-a84c-11f0-a576-2b1a131e738d",
@@ -61702,32 +61728,75 @@
     "duration": "01:00:51",
     "audio_url": "https://anchor.fm/s/10bb8090/podcast/play/123176201/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-22%2F1cbcecca-6af1-e1a2-073c-6e38a5cc6626.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "recession",
-        "diversification"
+        "inflation",
+        "small-caps-value-growth",
+        "diversification",
+        "credit-markets",
+        "emerging-markets",
+        "housing",
+        "retirement-planning",
+        "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "sp500"
+      ],
+      "sentiment": -0.66,
+      "sentiment_hits": 30,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "recession": 1,
-        "diversification": 1
+        "real-estate": 1,
+        "inflation": 9,
+        "recession": 11,
+        "credit-markets": 2,
+        "housing": 1,
+        "emerging-markets": 2,
+        "retirement-planning": 1,
+        "small-caps-value-growth": 4,
+        "diversification": 3,
+        "market-timing-dca": 1,
+        "sp500": 6
       },
       "entity_mention_density": {
-        "recession": 2.4,
-        "diversification": 2.4
+        "real-estate": 0.1,
+        "inflation": 1.3,
+        "recession": 1.6,
+        "credit-markets": 0.3,
+        "housing": 0.1,
+        "emerging-markets": 0.3,
+        "retirement-planning": 0.1,
+        "small-caps-value-growth": 0.6,
+        "diversification": 0.4,
+        "market-timing-dca": 0.1,
+        "sp500": 0.9
       },
       "entity_sentiment": {
-        "recession": -1.0,
-        "diversification": -1.0
+        "recession": -0.923,
+        "diversification": -1.0,
+        "retirement-planning": -1.0,
+        "sp500": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "recession": -1.0,
+        "diversification": -1.0,
+        "small-caps-value-growth": -1.0,
+        "housing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Recession Risk, Inflation, Small-Caps, Value & Growth, Diversification & Asset Allocation. Mentions S&P 500. Tone leans bearish (-0.66).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-sound-investing-stuff-happens-perspective-from-ben-carlson-s-risk-and-reward-4309c0.md",
+    "transcript_word_count": 6601,
+    "transcript_language": "en"
   },
   {
     "guid": "pwstreet.podbean.com/ec2aa548-f440-351a-a2bf-b81dc39712ec",
@@ -66743,24 +66812,38 @@
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM6818121024.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "private-markets"
       ],
       "themes": [
-        "housing"
+        "elections-politics",
+        "rates-fed",
+        "housing",
+        "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "real-estate": 3,
-        "housing": 1
+        "real-estate": 11,
+        "private-markets": 1,
+        "rates-fed": 1,
+        "housing": 1,
+        "elections-politics": 7,
+        "budgeting-saving": 1
       },
       "entity_mention_density": {
-        "real-estate": 20.0,
-        "housing": 6.7
+        "real-estate": 3.7,
+        "private-markets": 0.3,
+        "rates-fed": 0.3,
+        "housing": 0.3,
+        "elections-politics": 2.3,
+        "budgeting-saving": 0.3
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
       "entity_conviction": {
         "real-estate": -1.0,
         "housing": -1.0
@@ -66768,7 +66851,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Elections & Politics, Interest Rates & Fed Policy, Housing Market, Budgeting & Saving. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-real-estate-the-ramsey-way-i-can-t-afford-a-home-i-have-done-everything-right-5ba210.md",
+    "transcript_word_count": 2834,
+    "transcript_language": "en"
   },
   {
     "guid": "6a5deeca76f8ee25bb4bbf9c",
@@ -127831,26 +127920,46 @@
     "duration": "1515",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/4f5c11ea-4513-45e7-b3d2-daa362e5bdfb/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=4f5c11ea-4513-45e7-b3d2-daa362e5bdfb&feed=hvWWWzRv&t=podcast&e=nx-s1-5856509&p=510289&d=1515&size=24250915",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "semiconductors",
+        "real-estate"
+      ],
+      "themes": [
+        "real-estate-investing",
+        "housing"
+      ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "semiconductors": 1,
+        "real-estate": 1,
+        "housing": 1,
+        "real-estate-investing": 3,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 3.5
+        "semiconductors": 0.2,
+        "real-estate": 0.2,
+        "housing": 0.2,
+        "real-estate-investing": 0.6,
+        "meta": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Real Estate, Real Estate Investing, Housing Market. Mentions Meta. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-planet-money-it-s-my-tree-why-can-t-i-cut-it-down-25fa99.md",
+    "transcript_word_count": 4551,
+    "transcript_language": "en"
   },
   {
     "guid": "6dfc504c-d9e1-11f0-988b-cf803490ce8e",
