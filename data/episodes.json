@@ -1348,42 +1348,85 @@
     "duration": "01:00:13",
     "audio_url": "https://traffic.megaphone.fm/APO8402558800.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "consumer-discretionary"
+      ],
       "themes": [
-        "hedge-funds",
-        "small-caps-value-growth",
         "dealmaking",
+        "small-caps-value-growth",
+        "hedge-funds",
         "valuation"
       ],
       "stocks": [
         "amazon",
-        "meta"
+        "tesla",
+        "meta",
+        "walmart",
+        "sp500",
+        "charles-schwab",
+        "jpmorgan",
+        "berkshire"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "dealmaking": 1,
+        "consumer-discretionary": 1,
+        "real-estate": 2,
+        "private-markets": 2,
+        "dealmaking": 11,
         "hedge-funds": 2,
         "valuation": 1,
-        "small-caps-value-growth": 2,
-        "amazon": 6,
-        "meta": 2
+        "small-caps-value-growth": 3,
+        "amazon": 13,
+        "meta": 2,
+        "tesla": 3,
+        "jpmorgan": 1,
+        "berkshire": 1,
+        "walmart": 2,
+        "sp500": 2,
+        "charles-schwab": 2
       },
       "entity_mention_density": {
-        "dealmaking": 2.4,
-        "hedge-funds": 4.9,
-        "valuation": 2.4,
-        "small-caps-value-growth": 4.9,
-        "amazon": 14.6,
-        "meta": 4.9
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.2,
+        "private-markets": 0.2,
+        "dealmaking": 0.9,
+        "hedge-funds": 0.2,
+        "valuation": 0.1,
+        "small-caps-value-growth": 0.2,
+        "amazon": 1.1,
+        "meta": 0.2,
+        "tesla": 0.2,
+        "jpmorgan": 0.1,
+        "berkshire": 0.1,
+        "walmart": 0.2,
+        "sp500": 0.2,
+        "charles-schwab": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "dealmaking": 0.333
+      },
+      "entity_conviction": {
+        "consumer-discretionary": 0.0,
+        "dealmaking": -1.0,
+        "amazon": 0.0,
+        "berkshire": -1.0,
+        "tesla": -1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Consumer Discretionary, IPOs & Dealmaking, Small-Caps, Value & Growth, Hedge Funds, Valuation. Mentions Amazon, Tesla, Meta, Walmart, S&P 500. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-the-acquirers-podcast-i-studied-every-100-bagger-stock-in-history-here-s-what-i-fo-fbdd26.md",
+    "transcript_word_count": 11650,
+    "transcript_language": "en"
   },
   {
     "guid": "5f64fe10-d448-11f0-8877-ef97b041cd40",
@@ -17266,20 +17309,42 @@
     "duration": "48:42",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.109_Gary_Klein_-_SUMMER_SERIES_2026_-_AUDIO_V3.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "media-entertainment"
+      ],
+      "themes": [
+        "hedge-funds"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "media-entertainment": 1,
+        "hedge-funds": 1,
+        "amazon": 1
+      },
+      "entity_mention_density": {
+        "media-entertainment": 0.1,
+        "hedge-funds": 0.1,
+        "amazon": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, Hedge Funds. Mentions Amazon. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-capital-allocators-best-of-pre-mortem-analysis-gary-klein-cf097a.md",
+    "transcript_word_count": 9399,
+    "transcript_language": "en"
   },
   {
     "guid": "1cfe9322-8dea-11f1-8ef8-a3b31f73f571",
@@ -29075,32 +29140,56 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/ebd979c4-5bba-45fa-8bd9-621b7a9f115a/65_-_The_Midyear_Housing_Forecast.mp3?dest-id=5000840",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "energy"
       ],
       "themes": [
         "rates-fed",
-        "housing"
+        "housing",
+        "inflation",
+        "geopolitics-tariffs",
+        "commodities",
+        "real-estate-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "real-estate": 8,
-        "rates-fed": 1,
-        "housing": 1
+        "energy": 1,
+        "real-estate": 46,
+        "inflation": 2,
+        "rates-fed": 9,
+        "geopolitics-tariffs": 2,
+        "housing": 4,
+        "commodities": 1,
+        "real-estate-investing": 1
       },
       "entity_mention_density": {
-        "real-estate": 66.7,
-        "rates-fed": 8.3,
-        "housing": 8.3
+        "energy": 0.3,
+        "real-estate": 14.2,
+        "inflation": 0.6,
+        "rates-fed": 2.8,
+        "geopolitics-tariffs": 0.6,
+        "housing": 1.2,
+        "commodities": 0.3,
+        "real-estate-investing": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "rates-fed": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Interest Rates & Fed Policy, Housing Market, Inflation, Geopolitics & Tariffs. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-09-real-estate-this-week-the-midyear-housing-forecast-80b73a.md",
+    "transcript_word_count": 3126,
+    "transcript_language": "en"
   },
   {
     "guid": "6f2c0245-6b80-4823-b028-8f66415a3d23",
@@ -81453,33 +81542,54 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "dividends-buybacks",
         "geopolitics-tariffs",
         "safe-havens",
         "volatility",
-        "dividends-buybacks"
+        "bond-market"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.303,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "geopolitics-tariffs": 3,
-        "safe-havens": 2,
+        "geopolitics-tariffs": 5,
+        "safe-havens": 4,
         "volatility": 1,
-        "dividends-buybacks": 1
+        "bond-market": 1,
+        "dividends-buybacks": 6
       },
       "entity_mention_density": {
-        "geopolitics-tariffs": 15.3,
-        "safe-havens": 10.2,
-        "volatility": 5.1,
-        "dividends-buybacks": 5.1
+        "geopolitics-tariffs": 3.6,
+        "safe-havens": 2.9,
+        "volatility": 0.7,
+        "bond-market": 0.7,
+        "dividends-buybacks": 4.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "safe-havens": 0.364,
+        "dividends-buybacks": 0.364,
+        "geopolitics-tariffs": 0.364,
+        "volatility": 0.364,
+        "bond-market": 0.364
+      },
+      "entity_conviction": {
+        "safe-havens": 0.0,
+        "dividends-buybacks": 0.0,
+        "geopolitics-tariffs": 0.0,
+        "volatility": 0.0,
+        "bond-market": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Dividends & Buybacks, Geopolitics & Tariffs, Gold & Safe Havens, Volatility & Vol Regime. Tone leans bullish (+0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-the-dividend-cafe-wednesday-july-8-2026-d3b0cf.md",
+    "transcript_word_count": 1195,
+    "transcript_language": "en"
   },
   {
     "guid": "785c7df8-7b05-11f1-a459-b3ada2afa356",
