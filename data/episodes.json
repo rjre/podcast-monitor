@@ -1040,32 +1040,71 @@
     "duration": "1736",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/23fe5a8c-d1c2-4e74-975b-b4b30028ce5d/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "insurance",
+        "crypto",
+        "industrials"
+      ],
       "themes": [
         "rates-fed",
         "inflation",
-        "bond-market"
+        "bond-market",
+        "budgeting-saving",
+        "elections-politics",
+        "housing"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.692,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "rates-fed": 5,
-        "bond-market": 1
+        "ai-infrastructure": 4,
+        "insurance": 2,
+        "industrials": 1,
+        "crypto": 2,
+        "inflation": 19,
+        "rates-fed": 31,
+        "housing": 1,
+        "elections-politics": 2,
+        "bond-market": 9,
+        "budgeting-saving": 3
       },
       "entity_mention_density": {
-        "inflation": 5.1,
-        "rates-fed": 25.5,
-        "bond-market": 5.1
+        "ai-infrastructure": 0.7,
+        "insurance": 0.3,
+        "industrials": 0.2,
+        "crypto": 0.3,
+        "inflation": 3.2,
+        "rates-fed": 5.3,
+        "housing": 0.2,
+        "elections-politics": 0.3,
+        "bond-market": 1.5,
+        "budgeting-saving": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "insurance": -1.0,
+        "rates-fed": 1.0,
+        "inflation": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "bond-market": -1.0,
+        "housing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Insurance, Crypto & Digital Assets, Interest Rates & Fed Policy, Inflation, Bond Market & Yields, Budgeting & Saving. Tone leans bullish (+0.69).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-odd-lots-kansas-city-fed-president-jeffrey-schmid-on-the-first-jackso-28ce5d.md",
+    "transcript_word_count": 5660,
+    "transcript_language": "en"
   },
   {
     "guid": "b324a08e-dea3-42b2-813d-fec5b475d2bb",
@@ -3917,26 +3956,163 @@
     "duration": "00:38:07",
     "audio_url": "https://dowjones.simplecastaudio.com/fe30a23b-9a6c-4ef3-aebe-ffd83da0b186/episodes/290409a6-9060-4c25-a8e5-39eac0e6b905/audio/128/default.mp3?aid=rss_feed&awCollectionId=fe30a23b-9a6c-4ef3-aebe-ffd83da0b186&awEpisodeId=290409a6-9060-4c25-a8e5-39eac0e6b905&feed=XyZBmBkh",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "nvidia"
+      "sectors": [
+        "materials-mining",
+        "ai-infrastructure",
+        "technology",
+        "consumer-discretionary",
+        "real-estate",
+        "private-markets"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "dividends-buybacks",
+        "diversification",
+        "elections-politics",
+        "regulation-antitrust",
+        "earnings",
+        "bond-market",
+        "hedge-funds",
+        "valuation",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "nvidia",
+        "walmart",
+        "sp500",
+        "alphabet",
+        "amazon",
+        "costco",
+        "microsoft",
+        "amd",
+        "salesforce"
+      ],
+      "sentiment": 0.048,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "nvidia": 1
+        "technology": 3,
+        "ai-infrastructure": 6,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "materials-mining": 8,
+        "private-markets": 1,
+        "inflation": 16,
+        "rates-fed": 16,
+        "geopolitics-tariffs": 5,
+        "elections-politics": 1,
+        "regulation-antitrust": 1,
+        "earnings": 1,
+        "bond-market": 1,
+        "hedge-funds": 1,
+        "dividends-buybacks": 3,
+        "valuation": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 2,
+        "nvidia": 15,
+        "microsoft": 1,
+        "alphabet": 3,
+        "amazon": 3,
+        "amd": 1,
+        "costco": 3,
+        "walmart": 8,
+        "sp500": 5,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "nvidia": 14.9
+        "technology": 0.4,
+        "ai-infrastructure": 0.8,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "materials-mining": 1.1,
+        "private-markets": 0.1,
+        "inflation": 2.2,
+        "rates-fed": 2.2,
+        "geopolitics-tariffs": 0.7,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.1,
+        "bond-market": 0.1,
+        "hedge-funds": 0.1,
+        "dividends-buybacks": 0.4,
+        "valuation": 0.1,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.3,
+        "nvidia": 2.1,
+        "microsoft": 0.1,
+        "alphabet": 0.4,
+        "amazon": 0.4,
+        "amd": 0.1,
+        "costco": 0.4,
+        "walmart": 1.1,
+        "sp500": 0.7,
+        "salesforce": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_sentiment": {
+        "consumer-discretionary": -1.0,
+        "ai-infrastructure": -0.333,
+        "materials-mining": -0.333,
+        "private-markets": -0.333,
+        "rates-fed": -0.333,
+        "diversification": 1.0,
+        "inflation": 0.0,
+        "dividends-buybacks": -0.333,
+        "geopolitics-tariffs": -0.333,
+        "regulation-antitrust": -0.333,
+        "bond-market": -0.333,
+        "valuation": -0.333,
+        "nvidia": 1.0,
+        "alphabet": -0.333,
+        "amazon": -0.333,
+        "microsoft": 1.0,
+        "walmart": -0.333
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "consumer-discretionary": -1.0,
+        "ai-infrastructure": -0.565,
+        "materials-mining": -0.565,
+        "private-markets": -0.565,
+        "rates-fed": -0.588,
+        "inflation": -0.565,
+        "dividends-buybacks": -0.565,
+        "geopolitics-tariffs": -0.565,
+        "regulation-antitrust": -0.565,
+        "bond-market": -0.565,
+        "valuation": -0.565,
+        "nvidia": -1.0,
+        "alphabet": -0.565,
+        "amazon": -0.565,
+        "walmart": -1.0,
+        "costco": -1.0
+      },
+      "entity_stance": {
+        "ai-infrastructure": "buy",
+        "materials-mining": "buy",
+        "private-markets": "buy",
+        "rates-fed": "buy",
+        "inflation": "buy",
+        "dividends-buybacks": "buy",
+        "geopolitics-tariffs": "buy",
+        "regulation-antitrust": "buy",
+        "bond-market": "buy",
+        "valuation": "buy",
+        "alphabet": "buy",
+        "amazon": "buy"
+      },
+      "entity_contested": [
+        "inflation"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Materials & Mining, AI Infrastructure, Technology, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Dividends & Buybacks. Mentions Nvidia, Walmart, S&P 500, Alphabet / Google, Amazon. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-barron-s-live-talking-markets-with-michael-cuggino-4FC281.md",
+    "transcript_word_count": 7230,
+    "transcript_language": "en"
   },
   {
     "guid": "5e134a3c-cece-489d-baad-7d5df48129da",
@@ -4068,32 +4244,102 @@
     "duration": "00:21:52",
     "audio_url": "https://dowjones.simplecastaudio.com/67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1/episodes/e14925b2-e0d6-48d0-a012-2a460c9a6ae8/audio/128/default.mp3?aid=rss_feed&awCollectionId=67b63c4b-0923-42d2-ba4f-d3aec4dbb9d1&awEpisodeId=e14925b2-e0d6-48d0-a012-2a460c9a6ae8&feed=QeVni9a0",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "crypto",
+        "semiconductors",
+        "ai-infrastructure",
+        "energy"
+      ],
+      "themes": [
+        "small-caps-value-growth",
+        "inflation",
+        "rates-fed",
+        "commodities",
+        "crypto-regulation",
+        "earnings"
+      ],
       "stocks": [
         "nvidia",
-        "robinhood"
+        "nasdaq",
+        "bitcoin",
+        "robinhood",
+        "salesforce",
+        "sp500",
+        "russell2000",
+        "charles-schwab"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.664,
+      "sentiment_hits": 25,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "nvidia": 1,
-        "robinhood": 1
+        "semiconductors": 2,
+        "ai-infrastructure": 1,
+        "energy": 1,
+        "crypto": 6,
+        "inflation": 1,
+        "rates-fed": 1,
+        "commodities": 1,
+        "crypto-regulation": 1,
+        "earnings": 1,
+        "small-caps-value-growth": 2,
+        "nvidia": 8,
+        "bitcoin": 3,
+        "sp500": 1,
+        "nasdaq": 4,
+        "russell2000": 1,
+        "charles-schwab": 1,
+        "robinhood": 3,
+        "salesforce": 3
       },
       "entity_mention_density": {
-        "nvidia": 32.3,
-        "robinhood": 32.3
+        "semiconductors": 0.5,
+        "ai-infrastructure": 0.3,
+        "energy": 0.3,
+        "crypto": 1.5,
+        "inflation": 0.3,
+        "rates-fed": 0.3,
+        "commodities": 0.3,
+        "crypto-regulation": 0.3,
+        "earnings": 0.3,
+        "small-caps-value-growth": 0.5,
+        "nvidia": 2.0,
+        "bitcoin": 0.8,
+        "sp500": 0.3,
+        "nasdaq": 1.0,
+        "russell2000": 0.3,
+        "charles-schwab": 0.3,
+        "robinhood": 0.8,
+        "salesforce": 0.8
       },
       "entity_sentiment": {
+        "crypto": 1.0,
+        "ai-infrastructure": 1.0,
         "nvidia": 1.0,
-        "robinhood": 1.0
+        "robinhood": 1.0,
+        "bitcoin": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": 1.0,
+        "crypto": -0.5,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "commodities": 1.0,
+        "crypto-regulation": 1.0,
+        "nvidia": -1.0,
+        "nasdaq": -0.333,
+        "salesforce": 1.0,
+        "bitcoin": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Semiconductors, AI Infrastructure, Small-Caps, Value & Growth, Inflation, Interest Rates & Fed Policy, Commodities. Mentions Nvidia, Nasdaq, Bitcoin, Robinhood, Salesforce. Tone leans bullish (+0.66).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-stock-market-today-with-ibd-cautious-rally-into-nvidia-earnings-robinhood-interactive-br-657c89.md",
+    "transcript_word_count": 3876,
+    "transcript_language": "en"
   },
   {
     "guid": "00aac1ec-05d6-11f1-a338-77789656de50",
@@ -11613,24 +11859,62 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "behavioral-finance"
+        "behavioral-finance",
+        "fire-movement",
+        "budgeting-saving",
+        "insurance-products",
+        "inflation",
+        "recession",
+        "passive-income",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "behavioral-finance": 2
+        "inflation": 2,
+        "recession": 1,
+        "budgeting-saving": 3,
+        "fire-movement": 6,
+        "passive-income": 1,
+        "behavioral-finance": 22,
+        "diversification": 1,
+        "insurance-products": 3,
+        "amazon": 4
       },
       "entity_mention_density": {
-        "behavioral-finance": 28.6
+        "inflation": 0.3,
+        "recession": 0.2,
+        "budgeting-saving": 0.5,
+        "fire-movement": 1.0,
+        "passive-income": 0.2,
+        "behavioral-finance": 3.6,
+        "diversification": 0.2,
+        "insurance-products": 0.5,
+        "amazon": 0.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "behavioral-finance": 1.0,
+        "inflation": 1.0,
+        "recession": 1.0
+      },
+      "entity_conviction": {
+        "behavioral-finance": -0.5,
+        "insurance-products": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Behavioral Finance & Psychology, Financial Independence / FIRE, Budgeting & Saving, Insurance Products. Mentions Amazon. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-earn-invest-761-ten-things-about-behavioral-finance-04dfdc.md",
+    "transcript_word_count": 5990,
+    "transcript_language": "en"
   },
   {
     "guid": "e947bca2-9505-11f1-8559-9bf185e4a935",
@@ -16630,30 +16914,64 @@
     "duration": "5798",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML3385220008.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "healthcare"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "retirement-planning",
+        "rates-fed",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet",
+        "walmart",
+        "microsoft",
+        "qualcomm"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "meta": 2
+        "healthcare": 1,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "budgeting-saving": 9,
+        "debt-payoff": 1,
+        "retirement-planning": 2,
+        "microsoft": 1,
+        "alphabet": 5,
+        "meta": 6,
+        "walmart": 4,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.9,
-        "meta": 3.9
+        "healthcare": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.3,
+        "meta": 0.3,
+        "walmart": 0.2,
+        "qualcomm": 0.1
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Healthcare & Pharma, Budgeting & Saving, Retirement Planning, Interest Rates & Fed Policy, Debt Payoff. Mentions Meta, Alphabet / Google, Walmart, Microsoft, Qualcomm. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-financial-audit-i-exposed-her-hidden-affair-on-financial-audit-ad76fd.md",
+    "transcript_word_count": 16716,
+    "transcript_language": "en"
   },
   {
     "guid": "6a831c1f6e5b5bfda68292a5",
@@ -19641,20 +19959,68 @@
     "duration": "00:29:06",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/2abef7ca-625f-4c74-9157-968d7da67c81/episodes/8f7e04b8-1764-4c6b-8d4c-05f63dd07480/audio/128/default.mp3?aid=rss_feed&awCollectionId=2abef7ca-625f-4c74-9157-968d7da67c81&awEpisodeId=8f7e04b8-1764-4c6b-8d4c-05f63dd07480&feed=VHAcgaw_",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "media-entertainment",
+        "ai-infrastructure",
+        "real-estate",
+        "crypto",
+        "private-markets"
+      ],
+      "themes": [
+        "elections-politics",
+        "inflation",
+        "regulation-antitrust"
+      ],
+      "stocks": [
+        "tesla",
+        "nasdaq",
+        "netflix"
+      ],
+      "sentiment": -0.118,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "ai-infrastructure": 1,
+        "real-estate": 1,
+        "media-entertainment": 2,
+        "crypto": 1,
+        "private-markets": 1,
+        "inflation": 1,
+        "elections-politics": 4,
+        "regulation-antitrust": 1,
+        "tesla": 1,
+        "nasdaq": 1,
+        "netflix": 1
+      },
+      "entity_mention_density": {
+        "ai-infrastructure": 0.2,
+        "real-estate": 0.2,
+        "media-entertainment": 0.4,
+        "crypto": 0.2,
+        "private-markets": 0.2,
+        "inflation": 0.2,
+        "elections-politics": 0.7,
+        "regulation-antitrust": 0.2,
+        "tesla": 0.2,
+        "nasdaq": 0.2,
+        "netflix": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "media-entertainment": -1.0,
+        "elections-politics": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, AI Infrastructure, Real Estate, Elections & Politics, Inflation, Regulation & Antitrust. Mentions Tesla, Nasdaq, Netflix. Tone reads roughly neutral (-0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-14-squawk-pod-a-wisconsin-upset-gary-vee-s-next-bet-8-14-26-cd67f2.md",
+    "transcript_word_count": 5347,
+    "transcript_language": "en"
   },
   {
     "guid": "1e5a1b71-f583-4bc1-9a13-b4a60105f264",
@@ -38060,36 +38426,98 @@
     "audio_url": "https://traffic.megaphone.fm/CLS6565465184.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "industrials"
       ],
       "themes": [
-        "regulation-antitrust"
+        "dealmaking",
+        "credit-markets",
+        "regulation-antitrust",
+        "inflation",
+        "recession",
+        "labor-market",
+        "hedge-funds",
+        "budgeting-saving"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "amd",
+        "fidelity"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.043,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "regulation-antitrust": 1,
-        "nvidia": 2
+        "technology": 6,
+        "semiconductors": 8,
+        "ai-infrastructure": 19,
+        "industrials": 4,
+        "inflation": 1,
+        "recession": 1,
+        "credit-markets": 2,
+        "labor-market": 1,
+        "dealmaking": 3,
+        "regulation-antitrust": 2,
+        "hedge-funds": 1,
+        "budgeting-saving": 1,
+        "nvidia": 15,
+        "microsoft": 3,
+        "alphabet": 3,
+        "amazon": 3,
+        "amd": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "technology": 1.7,
-        "regulation-antitrust": 1.7,
-        "nvidia": 3.5
+        "technology": 0.5,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 1.6,
+        "industrials": 0.3,
+        "inflation": 0.1,
+        "recession": 0.1,
+        "credit-markets": 0.2,
+        "labor-market": 0.1,
+        "dealmaking": 0.3,
+        "regulation-antitrust": 0.2,
+        "hedge-funds": 0.1,
+        "budgeting-saving": 0.1,
+        "nvidia": 1.3,
+        "microsoft": 0.3,
+        "alphabet": 0.3,
+        "amazon": 0.3,
+        "amd": 0.1,
+        "fidelity": 0.1
       },
       "entity_sentiment": {
+        "industrials": 1.0,
         "regulation-antitrust": 0.0,
+        "recession": -1.0,
+        "inflation": -1.0,
+        "labor-market": -1.0,
         "nvidia": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": 0.0,
+        "ai-infrastructure": -0.73,
+        "industrials": -1.0,
+        "dealmaking": 1.0,
+        "hedge-funds": -1.0,
+        "nvidia": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, IPOs & Dealmaking, Credit Markets, Regulation & Antitrust, Inflation. Mentions Nvidia, Microsoft, Alphabet / Google, Amazon, AMD. Tone reads roughly neutral (+0.04).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-04-invest-like-the-best-gavin-baker-ai-market-jitters-invest-like-the-best-ep-485-74605f.md",
+    "transcript_word_count": 11244,
+    "transcript_language": "en"
   },
   {
     "guid": "6ab092ce-8718-11f1-8e8b-53a9444c27a4",
@@ -46744,42 +47172,68 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/520ecf53-b976-4097-8eec-eac8dcca2050.mp3?source=feed",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "technology",
+        "ai-infrastructure",
+        "real-estate"
       ],
       "themes": [
-        "bond-market",
         "rates-fed",
-        "geopolitics-tariffs",
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "bond-market",
+        "geopolitics-tariffs"
       ],
       "stocks": [
-        "nasdaq"
+        "nasdaq",
+        "sp500"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.476,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
+        "technology": 1,
         "ai-infrastructure": 1,
-        "rates-fed": 1,
+        "real-estate": 1,
+        "rates-fed": 9,
         "geopolitics-tariffs": 1,
-        "bond-market": 2,
-        "dividends-buybacks": 1,
-        "nasdaq": 1
+        "bond-market": 4,
+        "dividends-buybacks": 5,
+        "sp500": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "ai-infrastructure": 5.7,
-        "rates-fed": 5.7,
-        "geopolitics-tariffs": 5.7,
-        "bond-market": 11.4,
-        "dividends-buybacks": 5.7,
-        "nasdaq": 5.7
+        "technology": 0.7,
+        "ai-infrastructure": 0.7,
+        "real-estate": 0.7,
+        "rates-fed": 6.4,
+        "geopolitics-tariffs": 0.7,
+        "bond-market": 2.9,
+        "dividends-buybacks": 3.6,
+        "sp500": 0.7,
+        "nasdaq": 1.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": -1.0,
+        "real-estate": -1.0,
+        "rates-fed": -0.714,
+        "bond-market": -0.556,
+        "nasdaq": -0.556,
+        "sp500": -0.556
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "real-estate": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Real Estate, Interest Rates & Fed Policy, Dividends & Buybacks, Bond Market & Yields, Geopolitics & Tariffs. Mentions Nasdaq, S&P 500. Tone leans bearish (-0.48).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-the-dividend-cafe-wednesday-july-29-2026-b9387f.md",
+    "transcript_word_count": 1227,
+    "transcript_language": "en"
   },
   {
     "guid": "9215ada6-77c1-41a9-a09a-b496014ac81d",
@@ -72507,28 +72961,43 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "crypto"
+        "crypto",
+        "utilities"
       ],
       "themes": [
-        "elections-politics"
+        "elections-politics",
+        "ai-boom"
       ],
       "stocks": [
-        "bitcoin"
+        "bitcoin",
+        "att",
+        "verizon",
+        "tmobile"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 3,
-        "crypto": 2,
-        "elections-politics": 1,
-        "bitcoin": 2
+        "ai-infrastructure": 9,
+        "utilities": 1,
+        "crypto": 6,
+        "ai-boom": 1,
+        "elections-politics": 4,
+        "att": 1,
+        "verizon": 1,
+        "tmobile": 1,
+        "bitcoin": 3
       },
       "entity_mention_density": {
-        "ai-infrastructure": 9.9,
-        "crypto": 6.6,
-        "elections-politics": 3.3,
-        "bitcoin": 6.6
+        "ai-infrastructure": 4.3,
+        "utilities": 0.5,
+        "crypto": 2.9,
+        "ai-boom": 0.5,
+        "elections-politics": 1.9,
+        "att": 0.5,
+        "verizon": 0.5,
+        "tmobile": 0.5,
+        "bitcoin": 1.4
       },
       "entity_sentiment": {
         "ai-infrastructure": -0.333,
@@ -72536,11 +73005,23 @@
         "elections-politics": 0.0,
         "bitcoin": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "crypto": -1.0,
+        "utilities": 1.0,
+        "elections-politics": -1.0,
+        "ai-boom": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Crypto & Digital Assets, Utilities & Power, Elections & Politics, AI & Machine Learning. Mentions Bitcoin, AT&T, Verizon, T-Mobile. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-unchained-sam-lyman-puts-70-odds-on-clarity-passing-before-recess-d47604.md",
+    "transcript_word_count": 1774,
+    "transcript_language": "en"
   },
   {
     "guid": "c110a0ed-17e6-441e-8457-bffdef96033e",
@@ -80112,29 +80593,57 @@
     "duration": "21:56",
     "audio_url": "https://sphinx.acast.com/p/open/s/6478a825654260001190a7cb/e/6a4fe54d2b60482dd26d76ac/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy",
+        "real-estate"
+      ],
       "themes": [
+        "inflation",
         "rates-fed",
-        "inflation"
+        "geopolitics-tariffs",
+        "elections-politics",
+        "commodities"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "inflation": 1,
-        "rates-fed": 2
+        "energy": 2,
+        "real-estate": 1,
+        "inflation": 31,
+        "rates-fed": 26,
+        "geopolitics-tariffs": 4,
+        "elections-politics": 2,
+        "commodities": 2
       },
       "entity_mention_density": {
-        "inflation": 9.9,
-        "rates-fed": 19.8
+        "energy": 0.5,
+        "real-estate": 0.3,
+        "inflation": 8.3,
+        "rates-fed": 6.9,
+        "geopolitics-tariffs": 1.1,
+        "elections-politics": 0.5,
+        "commodities": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "rates-fed": 1.0,
+        "inflation": 1.0
+      },
+      "entity_conviction": {
+        "rates-fed": -1.0,
+        "inflation": -0.2
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Elections & Politics. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-unhedged-the-fed-s-silent-treatment-6d76ac.md",
+    "transcript_word_count": 3644,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/7Z9a4ccEIzuP6tb21mCyaoK-DVYGvbfBg3R_WH2PoOs",
@@ -81284,52 +81793,115 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "insurance"
+        "technology",
+        "insurance",
+        "energy",
+        "consumer-staples",
+        "utilities",
+        "healthcare"
       ],
       "themes": [
-        "market-concentration",
         "volatility",
+        "market-concentration",
         "emerging-markets",
-        "market-timing-dca"
+        "diversification",
+        "market-timing-dca",
+        "credit-markets",
+        "commodities",
+        "small-caps-value-growth"
       ],
       "stocks": [
+        "sp500",
         "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.022,
+      "sentiment_hits": 45,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 2,
-        "insurance": 1,
-        "volatility": 1,
-        "emerging-markets": 1,
-        "market-concentration": 3,
-        "market-timing-dca": 1,
-        "nasdaq": 2
+        "technology": 3,
+        "semiconductors": 5,
+        "insurance": 3,
+        "energy": 2,
+        "utilities": 1,
+        "healthcare": 1,
+        "consumer-staples": 2,
+        "credit-markets": 1,
+        "commodities": 1,
+        "volatility": 6,
+        "emerging-markets": 4,
+        "market-concentration": 5,
+        "small-caps-value-growth": 1,
+        "diversification": 3,
+        "market-timing-dca": 2,
+        "sp500": 17,
+        "nasdaq": 4
       },
       "entity_mention_density": {
-        "semiconductors": 5.4,
-        "insurance": 2.7,
-        "volatility": 2.7,
-        "emerging-markets": 2.7,
-        "market-concentration": 8.1,
-        "market-timing-dca": 2.7,
-        "nasdaq": 5.4
+        "technology": 0.3,
+        "semiconductors": 0.5,
+        "insurance": 0.3,
+        "energy": 0.2,
+        "utilities": 0.1,
+        "healthcare": 0.1,
+        "consumer-staples": 0.2,
+        "credit-markets": 0.1,
+        "commodities": 0.1,
+        "volatility": 0.6,
+        "emerging-markets": 0.4,
+        "market-concentration": 0.5,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.3,
+        "market-timing-dca": 0.2,
+        "sp500": 1.7,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
-        "semiconductors": -0.5,
-        "insurance": -1.0,
+        "semiconductors": 0.2,
+        "insurance": -0.5,
+        "technology": 0.6,
+        "consumer-staples": 1.0,
+        "healthcare": 1.0,
+        "energy": 0.6,
         "market-concentration": -0.5,
-        "volatility": -1.0,
-        "emerging-markets": -1.0,
+        "volatility": 0.111,
+        "emerging-markets": 0.0,
         "market-timing-dca": -1.0,
-        "nasdaq": -1.0
+        "credit-markets": 0.6,
+        "commodities": 0.6,
+        "diversification": 0.6,
+        "nasdaq": -1.0,
+        "sp500": 0.167
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -0.843,
+        "insurance": -1.0,
+        "technology": -0.839,
+        "utilities": 0.0,
+        "energy": -0.921,
+        "market-concentration": -1.0,
+        "volatility": -0.924,
+        "emerging-markets": -0.915,
+        "credit-markets": -0.915,
+        "commodities": -0.915,
+        "diversification": -0.915,
+        "nasdaq": -1.0,
+        "sp500": -0.828
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "semiconductors",
+        "volatility",
+        "emerging-markets",
+        "sp500"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, Insurance, Volatility & Vol Regime, Market Concentration / Mega-cap, Emerging Markets, Diversification & Asset Allocation. Mentions S&P 500, Nasdaq. Tone reads roughly neutral (+0.02).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-excess-returns-big-uptrend-tech-momentum-fading-katie-stockton-on-the-rotat-cd1322.md",
+    "transcript_word_count": 9483,
+    "transcript_language": "en"
   },
   {
     "guid": "5260d3a0-024d-4f0a-a6b2-fed55e982b8e",
@@ -81384,20 +81956,84 @@
     "duration": "1832",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7778320858.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "insurance",
+        "energy"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "commodities",
+        "dealmaking",
+        "regulation-antitrust"
+      ],
+      "stocks": [
+        "goldman-sachs",
+        "meta",
+        "sp500",
+        "nasdaq"
+      ],
+      "sentiment": -0.423,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 1,
+        "insurance": 1,
+        "energy": 1,
+        "inflation": 6,
+        "rates-fed": 2,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 2,
+        "commodities": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 1,
+        "meta": 1,
+        "goldman-sachs": 2,
+        "sp500": 1,
+        "nasdaq": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "semiconductors": 0.2,
+        "insurance": 0.2,
+        "energy": 0.2,
+        "inflation": 1.2,
+        "rates-fed": 0.4,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 0.4,
+        "commodities": 0.2,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.2,
+        "meta": 0.2,
+        "goldman-sachs": 0.4,
+        "sp500": 0.2,
+        "nasdaq": 0.2
+      },
+      "entity_sentiment": {
+        "insurance": -1.0,
+        "energy": 1.0,
+        "inflation": 1.0,
+        "commodities": 1.0
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Insurance, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Elections & Politics. Mentions Goldman Sachs, Meta, S&P 500, Nasdaq. Tone leans bearish (-0.42).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-prof-g-markets-what-wall-street-got-wrong-about-iran-0b2759.md",
+    "transcript_word_count": 5008,
+    "transcript_language": "en"
   },
   {
     "guid": "ee665e22-5abb-4981-a58d-b481016ff97e",
@@ -87735,22 +88371,37 @@
         "real-estate"
       ],
       "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet",
+        "tesla"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 2
+        "real-estate": 13,
+        "alphabet": 1,
+        "tesla": 1
       },
       "entity_mention_density": {
-        "real-estate": 5.9
+        "real-estate": 1.5,
+        "alphabet": 0.1,
+        "tesla": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate. Mentions Alphabet / Google, Tesla. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-the-millionaire-real-estate-agent-142-grow-your-database-through-real-estate-video-marketing-w-381d34.md",
+    "transcript_word_count": 8411,
+    "transcript_language": "en"
   },
   {
     "guid": "39be29ea-7dd9-11f0-b2e7-af25e0f8e214",
@@ -160100,45 +160751,103 @@
     "duration": "3937",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/www.claritaspod.com/measure/traffic.megaphone.fm/WWO1586652620.mp3?updated=1779384933",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "hedge-funds",
-        "elections-politics",
-        "dealmaking",
-        "passive-investing",
-        "behavioral-finance",
-        "college-savings"
+      "sectors": [
+        "technology",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": -0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "themes": [
+        "passive-investing",
+        "inflation",
+        "hedge-funds",
+        "dealmaking",
+        "diversification",
+        "college-savings",
+        "emerging-markets",
+        "elections-politics",
+        "fire-movement",
+        "behavioral-finance",
+        "bond-market",
+        "market-structure",
+        "market-concentration"
+      ],
+      "stocks": [
+        "nvidia",
+        "alphabet",
+        "goldman-sachs",
+        "morgan-stanley",
+        "robinhood"
+      ],
+      "sentiment": 0.2,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "elections-politics": 1,
-        "dealmaking": 1,
-        "hedge-funds": 2,
-        "passive-investing": 1,
-        "behavioral-finance": 1,
-        "college-savings": 1
+        "technology": 3,
+        "real-estate": 2,
+        "inflation": 6,
+        "elections-politics": 2,
+        "dealmaking": 4,
+        "bond-market": 1,
+        "hedge-funds": 6,
+        "passive-investing": 17,
+        "market-structure": 1,
+        "emerging-markets": 3,
+        "fire-movement": 2,
+        "market-concentration": 1,
+        "behavioral-finance": 2,
+        "diversification": 4,
+        "college-savings": 4,
+        "nvidia": 6,
+        "alphabet": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 1,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "elections-politics": 1.9,
-        "dealmaking": 1.9,
-        "hedge-funds": 3.9,
-        "passive-investing": 1.9,
-        "behavioral-finance": 1.9,
-        "college-savings": 1.9
+        "technology": 0.2,
+        "real-estate": 0.2,
+        "inflation": 0.5,
+        "elections-politics": 0.2,
+        "dealmaking": 0.3,
+        "bond-market": 0.1,
+        "hedge-funds": 0.5,
+        "passive-investing": 1.4,
+        "market-structure": 0.1,
+        "emerging-markets": 0.2,
+        "fire-movement": 0.2,
+        "market-concentration": 0.1,
+        "behavioral-finance": 0.2,
+        "diversification": 0.3,
+        "college-savings": 0.3,
+        "nvidia": 0.5,
+        "alphabet": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.1,
+        "robinhood": 0.1
       },
       "entity_sentiment": {
         "hedge-funds": -1.0,
-        "passive-investing": -1.0,
+        "passive-investing": 0.333,
         "behavioral-finance": -1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "elections-politics": -1.0,
+        "passive-investing": -1.0,
+        "fire-movement": -1.0,
+        "inflation": -1.0,
+        "market-structure": -1.0
+      },
+      "entity_stance": {
+        "passive-investing": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Real Estate, Passive Investing, Inflation, Hedge Funds, IPOs & Dealmaking. Mentions Nvidia, Alphabet / Google, Goldman Sachs, Morgan Stanley, Robinhood. Tone leans bullish (+0.20).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-afford-anything-the-5-ways-investors-behave-when-things-go-wrong-with-clare-150445.md",
+    "transcript_word_count": 11896,
+    "transcript_language": "en"
   },
   {
     "guid": "53fbc496-2989-11f1-996c-8705200c0fdf",
@@ -185204,32 +185913,73 @@
     "audio_url": "https://pdcn.co/e/dts.podtrac.com/redirect.mp3/media.transistor.fm/30cc635e/db598b17.mp3",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "consumer-staples",
+        "private-markets"
       ],
       "themes": [
+        "rates-fed",
+        "inflation",
         "commodities",
-        "bond-market"
+        "recession",
+        "geopolitics-tariffs",
+        "labor-market",
+        "bond-market",
+        "japan"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "commodities": 1,
-        "bond-market": 1
+        "energy": 13,
+        "consumer-staples": 1,
+        "private-markets": 1,
+        "inflation": 16,
+        "rates-fed": 19,
+        "recession": 4,
+        "japan": 1,
+        "geopolitics-tariffs": 4,
+        "labor-market": 2,
+        "commodities": 12,
+        "bond-market": 2
       },
       "entity_mention_density": {
-        "energy": 6.5,
-        "commodities": 6.5,
-        "bond-market": 6.5
+        "energy": 3.4,
+        "consumer-staples": 0.3,
+        "private-markets": 0.3,
+        "inflation": 4.2,
+        "rates-fed": 5.0,
+        "recession": 1.1,
+        "japan": 0.3,
+        "geopolitics-tariffs": 1.1,
+        "labor-market": 0.5,
+        "commodities": 3.2,
+        "bond-market": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": -1.0,
+        "commodities": -1.0,
+        "rates-fed": 1.0,
+        "inflation": 0.333,
+        "recession": -0.2
+      },
+      "entity_conviction": {
+        "rates-fed": 0.0,
+        "inflation": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "recession"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Consumer Staples, Private Equity & Credit, Interest Rates & Fed Policy, Inflation, Commodities, Recession Risk. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-eurodollar-university-you-won-t-believe-what-the-yield-curve-just-predicted-b40866.md",
+    "transcript_word_count": 3616,
+    "transcript_language": "en"
   },
   {
     "guid": "27f3f086-3f59-11f1-a70f-674315e0babd",
