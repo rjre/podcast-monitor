@@ -73303,25 +73303,77 @@
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.511_Frank_Danieli_-_AUDIO_V2.mp3?dest-id=482814",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "technology",
+        "banks",
+        "insurance",
+        "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "credit-markets",
+        "diversification",
+        "dealmaking",
+        "regulation-antitrust",
+        "hedge-funds",
+        "bank-stress"
+      ],
+      "stocks": [
+        "amazon",
+        "silicon-valley-bank"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "private-markets": 6
+        "technology": 5,
+        "banks": 2,
+        "insurance": 1,
+        "real-estate": 1,
+        "private-markets": 24,
+        "inflation": 2,
+        "rates-fed": 4,
+        "credit-markets": 2,
+        "dealmaking": 1,
+        "regulation-antitrust": 1,
+        "hedge-funds": 1,
+        "bank-stress": 1,
+        "diversification": 2,
+        "amazon": 1,
+        "silicon-valley-bank": 1
       },
       "entity_mention_density": {
-        "private-markets": 22.6
+        "technology": 0.5,
+        "banks": 0.2,
+        "insurance": 0.1,
+        "real-estate": 0.1,
+        "private-markets": 2.5,
+        "inflation": 0.2,
+        "rates-fed": 0.4,
+        "credit-markets": 0.2,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 0.1,
+        "bank-stress": 0.1,
+        "diversification": 0.2,
+        "amazon": 0.1,
+        "silicon-valley-bank": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "regulation-antitrust": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Technology, Banks & Financials, Interest Rates & Fed Policy, Inflation, Credit Markets, Diversification & Asset Allocation. Mentions Amazon, Silicon Valley Bank / SVB legacy. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-capital-allocators-roadmap-for-private-credit-from-australia-frank-danieli-of-m-52f020.md",
+    "transcript_word_count": 9337,
+    "transcript_language": "en"
   },
   {
     "guid": "d7719dca-73f6-11f1-b1f0-6f8d16f9aba9",
@@ -79178,25 +79230,43 @@
       "sectors": [
         "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "real-estate-investing",
+        "budgeting-saving",
+        "college-savings"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "real-estate": 3
+        "real-estate": 9,
+        "budgeting-saving": 2,
+        "real-estate-investing": 4,
+        "college-savings": 2
       },
       "entity_mention_density": {
-        "real-estate": 22.6
+        "real-estate": 3.5,
+        "budgeting-saving": 0.8,
+        "real-estate-investing": 1.6,
+        "college-savings": 0.8
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
       "entity_conviction": {
         "real-estate": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Real Estate Investing, Budgeting & Saving, College Savings & Student Debt. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-real-estate-the-ramsey-way-are-we-house-poor-8b37d0.md",
+    "transcript_word_count": 2428,
+    "transcript_language": "en"
   },
   {
     "guid": "7db87fa4-7e9d-11f1-90c4-23001735fbfd",
@@ -99139,41 +99209,94 @@
     "duration": "47:47",
     "audio_url": "https://traffic.libsyn.com/secure/bestinterest/MIX_144_TBI_2.mp3?dest-id=2640104",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets"
+      ],
       "themes": [
         "diversification",
+        "inflation",
+        "hedge-funds",
+        "passive-investing",
+        "rates-fed",
+        "budgeting-saving",
+        "recession",
+        "fire-movement",
         "retirement-planning",
         "behavioral-finance",
         "tax-planning",
         "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "berkshire",
+        "sp500",
+        "meta",
+        "jpmorgan",
+        "costco",
+        "charles-schwab"
+      ],
+      "sentiment": 0.429,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "private-markets": 1,
+        "inflation": 7,
+        "rates-fed": 2,
+        "recession": 1,
+        "hedge-funds": 3,
+        "passive-investing": 3,
+        "budgeting-saving": 2,
+        "fire-movement": 1,
         "retirement-planning": 1,
         "behavioral-finance": 1,
-        "diversification": 3,
+        "diversification": 9,
         "tax-planning": 1,
-        "estate-planning": 1
+        "estate-planning": 1,
+        "meta": 1,
+        "jpmorgan": 1,
+        "berkshire": 4,
+        "costco": 1,
+        "sp500": 3,
+        "charles-schwab": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 2.1,
-        "behavioral-finance": 2.1,
-        "diversification": 6.3,
-        "tax-planning": 2.1,
-        "estate-planning": 2.1
+        "private-markets": 0.1,
+        "inflation": 0.8,
+        "rates-fed": 0.2,
+        "recession": 0.1,
+        "hedge-funds": 0.3,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "behavioral-finance": 0.1,
+        "diversification": 1.0,
+        "tax-planning": 0.1,
+        "estate-planning": 0.1,
+        "meta": 0.1,
+        "jpmorgan": 0.1,
+        "berkshire": 0.4,
+        "costco": 0.1,
+        "sp500": 0.3,
+        "charles-schwab": 0.1
       },
       "entity_sentiment": {
         "diversification": 1.0,
-        "retirement-planning": 1.0
+        "retirement-planning": 1.0,
+        "recession": -1.0,
+        "rates-fed": -1.0,
+        "berkshire": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Diversification & Asset Allocation, Inflation, Hedge Funds, Passive Investing. Mentions Berkshire Hathaway, S&P 500, Meta, JPMorgan, Costco. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-personal-finance-for-long-term-investors-are-you-hoarding-hustling-or-harvesting-in-retirement-e144-1c9d4a.md",
+    "transcript_word_count": 8443,
+    "transcript_language": "en"
   },
   {
     "guid": "b399f628-3ce1-444d-8247-72ecd9c20f59",
@@ -194051,29 +194174,72 @@
         "real-estate"
       ],
       "themes": [
+        "fire-movement",
         "college-savings",
-        "fire-movement"
+        "budgeting-saving",
+        "rates-fed",
+        "debt-payoff",
+        "retirement-planning",
+        "housing"
       ],
-      "stocks": [],
+      "stocks": [
+        "alphabet",
+        "meta",
+        "disney"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "fire-movement": 1,
-        "college-savings": 2
+        "real-estate": 3,
+        "rates-fed": 3,
+        "housing": 1,
+        "budgeting-saving": 6,
+        "debt-payoff": 2,
+        "fire-movement": 14,
+        "retirement-planning": 2,
+        "college-savings": 11,
+        "alphabet": 1,
+        "meta": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "real-estate": 3.6,
-        "fire-movement": 1.8,
-        "college-savings": 3.6
+        "real-estate": 0.2,
+        "rates-fed": 0.2,
+        "housing": 0.1,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.2,
+        "fire-movement": 1.1,
+        "retirement-planning": 0.2,
+        "college-savings": 0.9,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "budgeting-saving": -1.0,
+        "housing": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "fire-movement": -1.0,
+        "college-savings": -1.0,
+        "rates-fed": -1.0,
+        "budgeting-saving": -1.0,
+        "debt-payoff": -1.0,
+        "housing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Financial Independence / FIRE, College Savings & Student Debt, Budgeting & Saving, Interest Rates & Fed Policy. Mentions Alphabet / Google, Meta, Disney. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-03-catching-up-to-fi-borderless-fi-starting-over-at-37-after-divorce-bronwyn-cand-3931ab.md",
+    "transcript_word_count": 12283,
+    "transcript_language": "en"
   },
   {
     "guid": "d0eae652-42fd-11f1-ba45-fbb86bfccdb8",
