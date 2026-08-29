@@ -34228,35 +34228,96 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML1099611645.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "private-markets",
+        "technology",
+        "consumer-staples",
+        "airlines-travel"
       ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "rates-fed",
+        "labor-market",
+        "elections-politics",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "walmart",
+        "amazon",
+        "disney",
+        "costco",
+        "meta",
+        "alphabet",
+        "tmobile",
+        "jpmorgan",
+        "netflix"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.231,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "budgeting-saving": 2,
-        "meta": 2
+        "technology": 1,
+        "consumer-staples": 1,
+        "real-estate": 7,
+        "airlines-travel": 1,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "labor-market": 1,
+        "elections-politics": 1,
+        "budgeting-saving": 15,
+        "debt-payoff": 1,
+        "alphabet": 1,
+        "amazon": 13,
+        "meta": 3,
+        "tmobile": 1,
+        "jpmorgan": 1,
+        "costco": 6,
+        "walmart": 21,
+        "netflix": 1,
+        "disney": 8
       },
       "entity_mention_density": {
-        "real-estate": 2.0,
-        "budgeting-saving": 4.1,
-        "meta": 4.1
+        "technology": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.4,
+        "airlines-travel": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "labor-market": 0.1,
+        "elections-politics": 0.1,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.7,
+        "meta": 0.2,
+        "tmobile": 0.1,
+        "jpmorgan": 0.1,
+        "costco": 0.3,
+        "walmart": 1.2,
+        "netflix": 0.1,
+        "disney": 0.5
       },
       "entity_sentiment": {
-        "budgeting-saving": 1.0
+        "budgeting-saving": 1.0,
+        "debt-payoff": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "budgeting-saving": 1.0,
+        "amazon": -1.0,
+        "walmart": -0.333,
+        "costco": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Technology, Budgeting & Saving, Interest Rates & Fed Policy, Labor Market, Elections & Politics. Mentions Walmart, Amazon, Disney, Costco, Meta. Tone leans bearish (-0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-financial-audit-she-destroyed-my-sanity-financial-audit-cbde2d.md",
+    "transcript_word_count": 16883,
+    "transcript_language": "en"
   },
   {
     "guid": "902f3405-5a04-49c9-9387-dc3fb3423e59",
@@ -170443,20 +170504,55 @@
     "duration": "245",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/7d093745-76ac-4b1e-aae8-b45000ee786d/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "energy"
+      ],
+      "themes": [
+        "inflation",
+        "ai-boom",
+        "labor-market",
+        "retirement-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.73,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "energy": 1,
+        "inflation": 2,
+        "ai-boom": 2,
+        "labor-market": 2,
+        "retirement-planning": 2
+      },
+      "entity_mention_density": {
+        "technology": 1.0,
+        "energy": 1.0,
+        "inflation": 2.0,
+        "ai-boom": 2.0,
+        "labor-market": 2.0,
+        "retirement-planning": 2.0
+      },
+      "entity_sentiment": {
+        "labor-market": 1.0,
+        "inflation": 1.0
+      },
+      "entity_conviction": {
+        "ai-boom": -1.0,
+        "labor-market": -1.0,
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Energy & Oil, Inflation, AI & Machine Learning, Labor Market, Retirement Planning. Tone leans bullish (+0.73).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-bloomberg-surveillance-single-best-idea-with-tom-keene-paul-sankey-james-egelhof-ee786d.md",
+    "transcript_word_count": 963,
+    "transcript_language": "en"
   },
   {
     "guid": "5c1711c9-c1ff-4d94-a5d2-b45000f66c84",
@@ -176059,25 +176155,54 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/ebd979c4-5bba-45fa-8bd9-621b7a9f115a/53_-_Coming_Up_with_the_Cash.mp3?dest-id=5000840",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "media-entertainment"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "retirement-planning",
+        "debt-payoff",
+        "budgeting-saving",
+        "career-income"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 3
+        "real-estate": 21,
+        "media-entertainment": 1,
+        "budgeting-saving": 2,
+        "debt-payoff": 4,
+        "retirement-planning": 5,
+        "career-income": 1,
+        "alphabet": 1
       },
       "entity_mention_density": {
-        "real-estate": 28.6
+        "real-estate": 5.4,
+        "media-entertainment": 0.3,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 1.0,
+        "retirement-planning": 1.3,
+        "career-income": 0.3,
+        "alphabet": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Media & Entertainment, Retirement Planning, Debt Payoff, Budgeting & Saving, Career & Income Growth. Mentions Alphabet / Google. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-17-real-estate-this-week-coming-up-with-the-cash-13afe0.md",
+    "transcript_word_count": 3807,
+    "transcript_language": "en"
   },
   {
     "guid": "0a2279d2-1fb5-40fd-9413-34b5e65aa1a2",
@@ -187637,26 +187762,65 @@
     "duration": "01:01:37",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/24e88ba4-83b0-41ee-b205-2caf3a006c21/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=24e88ba4-83b0-41ee-b205-2caf3a006c21&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "real-estate"
+      ],
       "themes": [
-        "labor-market"
+        "labor-market",
+        "inflation",
+        "ai-boom"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.252,
+      "sentiment_hits": 25,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "labor-market": 3
+        "ai-infrastructure": 3,
+        "consumer-discretionary": 2,
+        "real-estate": 2,
+        "crypto": 11,
+        "inflation": 8,
+        "ai-boom": 1,
+        "labor-market": 27
       },
       "entity_mention_density": {
-        "labor-market": 40.5
+        "ai-infrastructure": 0.3,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.2,
+        "crypto": 1.0,
+        "inflation": 0.7,
+        "ai-boom": 0.1,
+        "labor-market": 2.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "consumer-discretionary": 1.0,
+        "real-estate": 1.0,
+        "labor-market": -0.351,
+        "ai-boom": 1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": 1.0,
+        "ai-infrastructure": 1.0,
+        "real-estate": -0.391,
+        "labor-market": -0.787,
+        "ai-boom": -0.636,
+        "inflation": -0.333
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "labor-market"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, AI Infrastructure, Consumer Discretionary, Labor Market, Inflation, AI & Machine Learning. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-moody-s-talks-inside-economics-jobs-soft-stable-or-something-else-751286.md",
+    "transcript_word_count": 10638,
+    "transcript_language": "en"
   },
   {
     "guid": "b5dd3b8a-3cea-11f1-a79d-cbbe8ad764fd",
