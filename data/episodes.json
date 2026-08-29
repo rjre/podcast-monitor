@@ -191,25 +191,62 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/ebd979c4-5bba-45fa-8bd9-621b7a9f115a/68_-_Mortgages_Outside_the_Box.mp3?dest-id=5000840",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "insurance"
       ],
-      "themes": [],
+      "themes": [
+        "rates-fed",
+        "housing",
+        "budgeting-saving",
+        "passive-income",
+        "recession",
+        "retirement-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "real-estate": 3
+        "insurance": 1,
+        "real-estate": 16,
+        "rates-fed": 6,
+        "recession": 1,
+        "housing": 3,
+        "budgeting-saving": 3,
+        "retirement-planning": 1,
+        "passive-income": 2
       },
       "entity_mention_density": {
-        "real-estate": 22.4
+        "insurance": 0.3,
+        "real-estate": 4.3,
+        "rates-fed": 1.6,
+        "recession": 0.3,
+        "housing": 0.8,
+        "budgeting-saving": 0.8,
+        "retirement-planning": 0.3,
+        "passive-income": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "recession": -1.0,
+        "passive-income": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "rates-fed": -1.0,
+        "budgeting-saving": 1.0,
+        "passive-income": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Interest Rates & Fed Policy, Housing Market, Budgeting & Saving, Passive Income & Side Hustles. Tone leans bearish (-0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-29-real-estate-this-week-mortgages-outside-the-box-99c015.md",
+    "transcript_word_count": 3629,
+    "transcript_language": "en"
   },
   {
     "guid": "ed1ddc9a-0462-49b4-824a-d24ed8a751a1",
@@ -71271,32 +71308,70 @@
     "duration": "1:13:19",
     "audio_url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/feeds.choosefi.com/podcast/audio/813.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-staples",
+        "real-estate",
+        "industrials",
+        "crypto"
+      ],
       "themes": [
         "fire-movement",
         "retirement-planning",
+        "budgeting-saving",
+        "dividends-buybacks",
+        "behavioral-finance",
         "estate-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 1.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1,
-        "retirement-planning": 1,
+        "consumer-staples": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "crypto": 1,
+        "budgeting-saving": 3,
+        "fire-movement": 7,
+        "retirement-planning": 6,
+        "dividends-buybacks": 3,
+        "behavioral-finance": 1,
         "estate-planning": 1
       },
       "entity_mention_density": {
-        "fire-movement": 1.6,
-        "retirement-planning": 1.6,
-        "estate-planning": 1.6
+        "consumer-staples": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "crypto": 0.1,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.4,
+        "retirement-planning": 0.4,
+        "dividends-buybacks": 0.2,
+        "behavioral-finance": 0.1,
+        "estate-planning": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "fire-movement": 1.0,
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "crypto": -1.0,
+        "fire-movement": -0.821,
+        "retirement-planning": -0.899,
+        "budgeting-saving": -0.259,
+        "dividends-buybacks": -1.0,
+        "behavioral-finance": -0.899
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Staples, Real Estate, Industrials, Financial Independence / FIRE, Retirement Planning, Budgeting & Saving, Dividends & Buybacks. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-choosefi-608-die-with-zero-revisited-9b0e6e.md",
+    "transcript_word_count": 15103,
+    "transcript_language": "en"
   },
   {
     "guid": "f87a3508-b418-11ef-adc4-4b9da48a95c3",
@@ -146705,42 +146780,111 @@
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/06a13d1a-fe65-45da-88fb-9d3c1f047b19/stream.mp3",
     "tags": {
       "sectors": [
-        "defense-aerospace"
+        "defense-aerospace",
+        "private-markets",
+        "ai-infrastructure",
+        "technology",
+        "insurance",
+        "industrials",
+        "autos-ev",
+        "semiconductors",
+        "telecoms"
       ],
       "themes": [
+        "rates-fed",
+        "dividends-buybacks",
+        "inflation",
+        "passive-investing",
+        "commodities",
+        "esg-climate",
         "bond-market",
-        "passive-investing"
+        "retirement-planning",
+        "small-caps-value-growth",
+        "insurance-products"
       ],
       "stocks": [
         "vanguard",
-        "fidelity"
+        "fidelity",
+        "verizon",
+        "nasdaq"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.884,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "defense-aerospace": 3,
+        "technology": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 3,
+        "insurance": 2,
+        "telecoms": 1,
+        "industrials": 2,
+        "autos-ev": 2,
+        "defense-aerospace": 7,
+        "private-markets": 7,
+        "inflation": 4,
+        "rates-fed": 11,
+        "commodities": 1,
+        "esg-climate": 1,
         "bond-market": 1,
-        "passive-investing": 1,
-        "vanguard": 1,
-        "fidelity": 1
+        "passive-investing": 2,
+        "retirement-planning": 1,
+        "dividends-buybacks": 11,
+        "small-caps-value-growth": 1,
+        "insurance-products": 1,
+        "verizon": 2,
+        "nasdaq": 1,
+        "vanguard": 6,
+        "fidelity": 5
       },
       "entity_mention_density": {
-        "defense-aerospace": 14.4,
-        "bond-market": 4.8,
-        "passive-investing": 4.8,
-        "vanguard": 4.8,
-        "fidelity": 4.8
+        "technology": 0.3,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.5,
+        "insurance": 0.3,
+        "telecoms": 0.2,
+        "industrials": 0.3,
+        "autos-ev": 0.3,
+        "defense-aerospace": 1.1,
+        "private-markets": 1.1,
+        "inflation": 0.6,
+        "rates-fed": 1.8,
+        "commodities": 0.2,
+        "esg-climate": 0.2,
+        "bond-market": 0.2,
+        "passive-investing": 0.3,
+        "retirement-planning": 0.2,
+        "dividends-buybacks": 1.8,
+        "small-caps-value-growth": 0.2,
+        "insurance-products": 0.2,
+        "verizon": 0.3,
+        "nasdaq": 0.2,
+        "vanguard": 1.0,
+        "fidelity": 0.8
       },
       "entity_sentiment": {
         "defense-aerospace": 1.0,
-        "bond-market": 1.0
+        "private-markets": 1.0,
+        "autos-ev": 1.0,
+        "bond-market": 1.0,
+        "nasdaq": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": 1.0,
+        "industrials": -1.0,
+        "telecoms": -1.0,
+        "dividends-buybacks": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Defense & Aerospace, Private Equity & Credit, AI Infrastructure, Interest Rates & Fed Policy, Dividends & Buybacks, Inflation, Passive Investing. Mentions Vanguard, Fidelity, Verizon, Nasdaq. Tone leans bullish (+0.88).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-06-investtalk-defense-stocks-2026-how-the-global-security-boom-creates-lon-38771a.md",
+    "transcript_word_count": 5981,
+    "transcript_language": "en"
   },
   {
     "guid": "934dff73-2235-429c-8d48-3f0b617443d1",
@@ -193750,48 +193894,84 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/69fc12663e294ebb0bbf1226/media.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "industrials",
+        "semiconductors"
       ],
       "themes": [
         "inflation",
-        "geopolitics-tariffs"
+        "rates-fed",
+        "geopolitics-tariffs",
+        "recession"
       ],
       "stocks": [
-        "nasdaq",
         "nvidia",
+        "nasdaq",
         "amazon",
-        "meta",
-        "blackrock"
+        "blackrock",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 4,
-        "inflation": 2,
-        "geopolitics-tariffs": 1,
-        "nvidia": 2,
-        "amazon": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 13,
+        "consumer-discretionary": 2,
+        "real-estate": 30,
+        "industrials": 2,
+        "inflation": 10,
+        "rates-fed": 5,
+        "recession": 2,
+        "geopolitics-tariffs": 4,
+        "nvidia": 4,
+        "amazon": 3,
         "meta": 1,
-        "nasdaq": 3,
-        "blackrock": 1
+        "nasdaq": 4,
+        "blackrock": 3
       },
       "entity_mention_density": {
-        "real-estate": 10.0,
-        "inflation": 5.0,
-        "geopolitics-tariffs": 2.5,
-        "nvidia": 5.0,
-        "amazon": 5.0,
-        "meta": 2.5,
-        "nasdaq": 7.5,
-        "blackrock": 2.5
+        "semiconductors": 0.1,
+        "ai-infrastructure": 1.9,
+        "consumer-discretionary": 0.3,
+        "real-estate": 4.3,
+        "industrials": 0.3,
+        "inflation": 1.4,
+        "rates-fed": 0.7,
+        "recession": 0.3,
+        "geopolitics-tariffs": 0.6,
+        "nvidia": 0.6,
+        "amazon": 0.4,
+        "meta": 0.1,
+        "nasdaq": 0.6,
+        "blackrock": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "ai-infrastructure": -1.0,
+        "rates-fed": 1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "ai-infrastructure": 1.0,
+        "consumer-discretionary": -1.0,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "rates-fed": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, Consumer Discretionary, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Recession Risk. Mentions Nvidia, Nasdaq, Amazon, BlackRock, Meta. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-equity-mates-investing-podcast-what-s-hot-what-s-not-in-commercial-property-with-jason-hulj-bf1226.md",
+    "transcript_word_count": 6587,
+    "transcript_language": "en"
   },
   {
     "guid": "macrovoices.podbean.com/b38be333-f937-32d3-8512-33330b38e884",
