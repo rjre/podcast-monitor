@@ -3912,26 +3912,59 @@
       "sectors": [],
       "themes": [
         "small-caps-value-growth",
-        "diversification"
+        "diversification",
+        "inflation",
+        "market-timing-dca"
       ],
-      "stocks": [],
+      "stocks": [
+        "sp500",
+        "vanguard",
+        "microsoft",
+        "berkshire"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "small-caps-value-growth": 3,
-        "diversification": 1
+        "inflation": 5,
+        "small-caps-value-growth": 54,
+        "diversification": 6,
+        "market-timing-dca": 4,
+        "microsoft": 7,
+        "berkshire": 1,
+        "sp500": 19,
+        "vanguard": 9
       },
       "entity_mention_density": {
-        "small-caps-value-growth": 23.3,
-        "diversification": 7.8
+        "inflation": 0.6,
+        "small-caps-value-growth": 6.3,
+        "diversification": 0.7,
+        "market-timing-dca": 0.5,
+        "microsoft": 0.8,
+        "berkshire": 0.1,
+        "sp500": 2.2,
+        "vanguard": 1.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "small-caps-value-growth": 1.0
+      },
+      "entity_conviction": {
+        "small-caps-value-growth": -0.714,
+        "diversification": 0.429,
+        "market-timing-dca": -1.0,
+        "sp500": -1.0,
+        "microsoft": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Small-Caps, Value & Growth, Diversification & Asset Allocation, Inflation, Market Timing & Dollar-Cost Averaging. Mentions S&P 500, Vanguard, Microsoft, Berkshire Hathaway. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-26-sound-investing-paul-and-chris-follow-up-the-rick-ferri-small-cap-value-deba-c0e1dd.md",
+    "transcript_word_count": 8383,
+    "transcript_language": "en"
   },
   {
     "guid": "a0bf22a3-8af3-4542-89a3-abba6d480bf2",
@@ -108849,32 +108882,148 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC9559664629.mp3",
     "tags": {
       "sectors": [
+        "real-estate",
         "ai-infrastructure",
-        "real-estate"
+        "telecoms",
+        "crypto",
+        "technology"
       ],
-      "themes": [],
+      "themes": [
+        "dividends-buybacks",
+        "dealmaking",
+        "inflation",
+        "rates-fed",
+        "small-caps-value-growth",
+        "geopolitics-tariffs",
+        "earnings"
+      ],
       "stocks": [
-        "meta"
+        "att",
+        "tmobile",
+        "netflix",
+        "verizon",
+        "sp500",
+        "berkshire",
+        "bitcoin",
+        "meta",
+        "amd"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.12,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "real-estate": 1,
-        "meta": 1
+        "technology": 1,
+        "ai-infrastructure": 6,
+        "real-estate": 26,
+        "telecoms": 3,
+        "crypto": 2,
+        "inflation": 3,
+        "rates-fed": 3,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 8,
+        "earnings": 1,
+        "dividends-buybacks": 15,
+        "small-caps-value-growth": 3,
+        "meta": 1,
+        "amd": 1,
+        "att": 7,
+        "verizon": 4,
+        "tmobile": 7,
+        "berkshire": 2,
+        "bitcoin": 2,
+        "sp500": 3,
+        "netflix": 7
       },
       "entity_mention_density": {
-        "ai-infrastructure": 2.5,
-        "real-estate": 2.5,
-        "meta": 2.5
+        "technology": 0.1,
+        "ai-infrastructure": 0.4,
+        "real-estate": 1.7,
+        "telecoms": 0.2,
+        "crypto": 0.1,
+        "inflation": 0.2,
+        "rates-fed": 0.2,
+        "geopolitics-tariffs": 0.1,
+        "dealmaking": 0.5,
+        "earnings": 0.1,
+        "dividends-buybacks": 1.0,
+        "small-caps-value-growth": 0.2,
+        "meta": 0.1,
+        "amd": 0.1,
+        "att": 0.5,
+        "verizon": 0.3,
+        "tmobile": 0.5,
+        "berkshire": 0.1,
+        "bitcoin": 0.1,
+        "sp500": 0.2,
+        "netflix": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -0.333,
+        "real-estate": -0.091,
+        "telecoms": 0.03,
+        "crypto": 0.043,
+        "technology": -1.0,
+        "dealmaking": -0.022,
+        "small-caps-value-growth": 0.0,
+        "inflation": 0.043,
+        "geopolitics-tariffs": 0.043,
+        "dividends-buybacks": -0.167,
+        "rates-fed": -0.333,
+        "earnings": -1.0,
+        "amd": 0.0,
+        "att": -0.2,
+        "verizon": -0.2,
+        "tmobile": -0.2,
+        "bitcoin": 0.043,
+        "sp500": 0.043,
+        "netflix": -0.04,
+        "berkshire": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.397,
+        "real-estate": -0.501,
+        "telecoms": -0.616,
+        "crypto": -0.613,
+        "technology": -0.503,
+        "dealmaking": -0.515,
+        "small-caps-value-growth": -0.677,
+        "inflation": -0.463,
+        "geopolitics-tariffs": -0.495,
+        "dividends-buybacks": -0.449,
+        "rates-fed": -0.397,
+        "earnings": -0.503,
+        "amd": -1.0,
+        "att": -0.485,
+        "verizon": -0.485,
+        "tmobile": -0.538,
+        "bitcoin": -0.613,
+        "sp500": -0.526,
+        "netflix": -0.463,
+        "berkshire": -0.259
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "real-estate",
+        "telecoms",
+        "crypto",
+        "dealmaking",
+        "inflation",
+        "geopolitics-tariffs",
+        "att",
+        "verizon",
+        "tmobile",
+        "bitcoin",
+        "sp500",
+        "netflix"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, Telecoms, Dividends & Buybacks, IPOs & Dealmaking, Inflation, Interest Rates & Fed Policy. Mentions AT&T, T-Mobile, Netflix, Verizon, S&P 500. Tone reads roughly neutral (-0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-25-the-investor-s-podcast-we-study-billionaires-tip826-american-tower-amt-the-wide-moat-business-your-phone-1dd37a.md",
+    "transcript_word_count": 14987,
+    "transcript_language": "en"
   },
   {
     "guid": "3b81f334-2061-4087-b134-3c04cbb7bc9b",
@@ -182293,30 +182442,54 @@
     "duration": "30:26",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a014b2201625126bd49321b/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks"
+      ],
       "themes": [
-        "estate-planning"
+        "estate-planning",
+        "passive-income",
+        "inflation",
+        "retirement-planning"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "estate-planning": 4,
+        "banks": 1,
+        "inflation": 1,
+        "retirement-planning": 1,
+        "passive-income": 2,
+        "estate-planning": 30,
         "meta": 1
       },
       "entity_mention_density": {
-        "estate-planning": 10.3,
-        "meta": 2.6
+        "banks": 0.2,
+        "inflation": 0.2,
+        "retirement-planning": 0.2,
+        "passive-income": 0.3,
+        "estate-planning": 5.1,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "estate-planning": 1.0
+      },
+      "entity_conviction": {
+        "estate-planning": -0.667,
+        "passive-income": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Estate Planning, Passive Income & Side Hustles, Inflation, Retirement Planning. Mentions Meta. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-equity-mates-investing-podcast-lump-sums-inheritance-and-the-mistakes-that-cost-you-with-dy-49321b.md",
+    "transcript_word_count": 5547,
+    "transcript_language": "en"
   },
   {
     "guid": "6a014a93204368da6a078a86",
@@ -188348,20 +188521,110 @@
     "duration": "00:44:04",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/cb192f8e-990f-4fa7-836b-b5c240adb397/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=cb192f8e-990f-4fa7-836b-b5c240adb397&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "healthcare",
+        "technology",
+        "insurance",
+        "industrials",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "behavioral-finance",
+        "rates-fed",
+        "ai-boom",
+        "dealmaking",
+        "hedge-funds",
+        "budgeting-saving",
+        "valuation"
+      ],
+      "stocks": [
+        "amazon",
+        "amd",
+        "nvidia",
+        "microsoft",
+        "meta",
+        "berkshire",
+        "alphabet",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": 0.733,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 5,
+        "ai-infrastructure": 12,
+        "insurance": 1,
+        "healthcare": 2,
+        "industrials": 1,
+        "defense-aerospace": 1,
+        "rates-fed": 1,
+        "ai-boom": 1,
+        "dealmaking": 1,
+        "hedge-funds": 1,
+        "budgeting-saving": 1,
+        "valuation": 1,
+        "behavioral-finance": 4,
+        "nvidia": 2,
+        "microsoft": 2,
+        "alphabet": 1,
+        "amazon": 12,
+        "meta": 2,
+        "amd": 10,
+        "berkshire": 2,
+        "nasdaq": 1,
+        "charles-schwab": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 0.6,
+        "ai-infrastructure": 1.4,
+        "insurance": 0.1,
+        "healthcare": 0.2,
+        "industrials": 0.1,
+        "defense-aerospace": 0.1,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "dealmaking": 0.1,
+        "hedge-funds": 0.1,
+        "budgeting-saving": 0.1,
+        "valuation": 0.1,
+        "behavioral-finance": 0.5,
+        "nvidia": 0.2,
+        "microsoft": 0.2,
+        "alphabet": 0.1,
+        "amazon": 1.4,
+        "meta": 0.2,
+        "amd": 1.2,
+        "berkshire": 0.2,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "semiconductors": 1.0,
+        "rates-fed": 1.0,
+        "ai-boom": 1.0,
+        "nvidia": 1.0,
+        "amd": 0.333
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Healthcare & Pharma, Behavioral Finance & Psychology, Interest Rates & Fed Policy, AI & Machine Learning, IPOs & Dealmaking. Mentions Amazon, AMD, Nvidia, Microsoft, Meta. Tone leans bullish (+0.73).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-6-26-d0d2b8.md",
+    "transcript_word_count": 8432,
+    "transcript_language": "en"
   },
   {
     "guid": "82477726-499d-11f1-8972-93972b510100",
