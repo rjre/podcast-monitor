@@ -33437,38 +33437,90 @@
     "audio_url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/feeds.choosefi.com/podcast/audio/818.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "banks"
       ],
       "themes": [
-        "fire-movement",
+        "retirement-planning",
         "college-savings",
+        "budgeting-saving",
+        "fire-movement",
+        "housing",
+        "debt-payoff",
+        "inflation",
         "real-estate-investing"
       ],
-      "stocks": [],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon",
+        "meta",
+        "sp500"
+      ],
+      "sentiment": -0.25,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 3,
-        "fire-movement": 3,
+        "banks": 1,
+        "real-estate": 16,
+        "inflation": 1,
+        "housing": 4,
+        "budgeting-saving": 7,
+        "debt-payoff": 2,
+        "fire-movement": 7,
+        "retirement-planning": 15,
         "real-estate-investing": 1,
-        "college-savings": 2
+        "college-savings": 13,
+        "amazon": 3,
+        "meta": 2,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "real-estate": 5.3,
-        "fire-movement": 5.3,
-        "real-estate-investing": 1.8,
-        "college-savings": 3.5
+        "banks": 0.1,
+        "real-estate": 1.1,
+        "inflation": 0.1,
+        "housing": 0.3,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.5,
+        "retirement-planning": 1.1,
+        "real-estate-investing": 0.1,
+        "college-savings": 0.9,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "sp500": 0.1
       },
       "entity_sentiment": {
-        "real-estate": -1.0,
-        "real-estate-investing": -1.0
+        "real-estate": -0.6,
+        "banks": -1.0,
+        "fire-movement": -1.0,
+        "college-savings": -1.0,
+        "real-estate-investing": -1.0,
+        "retirement-planning": -1.0,
+        "housing": 0.0,
+        "inflation": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -0.524,
+        "banks": -0.688,
+        "fire-movement": -0.524,
+        "college-savings": -0.574,
+        "budgeting-saving": 1.0,
+        "retirement-planning": -0.362,
+        "housing": -0.688,
+        "inflation": -0.524,
+        "amazon": -0.2,
+        "sp500": -0.2,
+        "meta": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Retirement Planning, College Savings & Student Debt, Budgeting & Saving, Financial Independence / FIRE. Mentions Amazon, Meta, S&P 500. Tone leans bearish (-0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-10-choosefi-611-choosefi-classic-financial-independence-on-an-ordinary-i-758ac4.md",
+    "transcript_word_count": 13662,
+    "transcript_language": "en"
   },
   {
     "guid": "fa463a26-b418-11ef-adc4-6b871c76908b",
@@ -98373,26 +98425,89 @@
     "duration": "3493",
     "audio_url": "https://traffic.megaphone.fm/TIFM6977449089.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "industrials",
+        "banks",
+        "energy",
+        "telecoms"
+      ],
       "themes": [
-        "geopolitics-tariffs"
+        "rates-fed",
+        "geopolitics-tariffs",
+        "fiscal-debt",
+        "regulation-antitrust",
+        "elections-politics",
+        "china",
+        "bond-market"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "geopolitics-tariffs": 1
+        "semiconductors": 4,
+        "ai-infrastructure": 5,
+        "banks": 3,
+        "energy": 3,
+        "telecoms": 1,
+        "industrials": 4,
+        "rates-fed": 7,
+        "china": 1,
+        "geopolitics-tariffs": 4,
+        "fiscal-debt": 3,
+        "elections-politics": 2,
+        "regulation-antitrust": 3,
+        "bond-market": 1
       },
       "entity_mention_density": {
-        "geopolitics-tariffs": 3.6
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.5,
+        "banks": 0.3,
+        "energy": 0.3,
+        "telecoms": 0.1,
+        "industrials": 0.4,
+        "rates-fed": 0.8,
+        "china": 0.1,
+        "geopolitics-tariffs": 0.4,
+        "fiscal-debt": 0.3,
+        "elections-politics": 0.2,
+        "regulation-antitrust": 0.3,
+        "bond-market": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 0.333,
+        "industrials": 0.333,
+        "semiconductors": 0.333,
+        "telecoms": 0.333,
+        "geopolitics-tariffs": 0.333,
+        "fiscal-debt": 0.333,
+        "elections-politics": 0.333,
+        "rates-fed": 0.333,
+        "bond-market": 0.333
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "industrials": -1.0,
+        "semiconductors": -1.0,
+        "telecoms": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "fiscal-debt": -1.0,
+        "elections-politics": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Industrials, Interest Rates & Fed Policy, Geopolitics & Tariffs, Government Debt & Fiscal Policy, Regulation & Antitrust. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-03-the-meb-faber-show-the-secret-sauce-behind-250-years-of-american-success-mckins-c27bb9.md",
+    "transcript_word_count": 8859,
+    "transcript_language": "en"
   },
   {
     "guid": "e5fc639a-c3c8-11f0-b1f3-7ffb3fa01197",
@@ -110985,23 +111100,46 @@
       "sectors": [
         "consumer-discretionary"
       ],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "budgeting-saving",
+        "passive-income"
+      ],
+      "stocks": [
+        "alphabet",
+        "amazon",
+        "netflix"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "consumer-discretionary": 1
+        "consumer-discretionary": 1,
+        "budgeting-saving": 1,
+        "passive-income": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 2.1
+        "consumer-discretionary": 0.6,
+        "budgeting-saving": 0.6,
+        "passive-income": 0.6,
+        "alphabet": 0.6,
+        "amazon": 0.6,
+        "netflix": 0.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Budgeting & Saving, Passive Income & Side Hustles. Mentions Alphabet / Google, Amazon, Netflix. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-optimal-finance-daily-3608-5-tips-to-have-a-successful-no-spend-month-by-amanda-br-dc0302.md",
+    "transcript_word_count": 1269,
+    "transcript_language": "en"
   },
   {
     "guid": "4b5542dc-3883-4d86-835d-b459002dc3af",
@@ -143905,20 +144043,62 @@
     "duration": "2885",
     "audio_url": "https://www.buzzsprout.com/1551448/episodes/19092437-ex-cybersecurity-expert-reveals-how-he-retired-at-52-road-to-retirement.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "insurance",
+        "telecoms"
+      ],
+      "themes": [
+        "retirement-planning",
+        "fire-movement",
+        "estate-planning",
+        "inflation",
+        "dividends-buybacks",
+        "tax-planning"
+      ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "insurance": 1,
+        "telecoms": 1,
+        "inflation": 2,
+        "fire-movement": 5,
+        "retirement-planning": 8,
+        "dividends-buybacks": 1,
+        "tax-planning": 1,
+        "estate-planning": 3
+      },
+      "entity_mention_density": {
+        "insurance": 0.1,
+        "telecoms": 0.1,
+        "inflation": 0.2,
+        "fire-movement": 0.5,
+        "retirement-planning": 0.8,
+        "dividends-buybacks": 0.1,
+        "tax-planning": 0.1,
+        "estate-planning": 0.3
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "telecoms": -0.275,
+        "fire-movement": -1.0,
+        "retirement-planning": -0.275,
+        "inflation": -0.342,
+        "tax-planning": -0.275,
+        "estate-planning": -0.541,
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Telecoms, Retirement Planning, Financial Independence / FIRE, Estate Planning, Inflation. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-early-retirement-financial-freedom-ex-cybersecurity-expert-reveals-how-he-retired-at-52-road-to-092437.md",
+    "transcript_word_count": 10021,
+    "transcript_language": "en"
   },
   {
     "guid": "573bf2f4-38ff-11f1-a344-7bce0338ac40",
