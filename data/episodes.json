@@ -10208,25 +10208,56 @@
     "audio_url": "https://audio3.redcircle.com/episodes/e26ab6c1-97e5-4b79-a44b-e0214e81f8ef/stream.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "ai-infrastructure"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "ai-boom",
+        "passive-income"
+      ],
+      "stocks": [
+        "alphabet",
+        "amazon",
+        "meta",
+        "netflix"
+      ],
+      "sentiment": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "real-estate": 3
+        "ai-infrastructure": 1,
+        "real-estate": 29,
+        "ai-boom": 1,
+        "passive-income": 1,
+        "alphabet": 9,
+        "amazon": 2,
+        "meta": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "real-estate": 10.2
+        "ai-infrastructure": 0.1,
+        "real-estate": 2.7,
+        "ai-boom": 0.1,
+        "passive-income": 0.1,
+        "alphabet": 0.8,
+        "amazon": 0.2,
+        "meta": 0.2,
+        "netflix": 0.1
       },
       "entity_sentiment": {},
       "entity_conviction": {},
-      "entity_stance": {},
+      "entity_stance": {
+        "real-estate": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, AI & Machine Learning, Passive Income & Side Hustles. Mentions Alphabet / Google, Amazon, Meta, Netflix. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-the-millionaire-real-estate-agent-149-make-ai-work-for-your-real-estate-business-with-john-lee-775fa6.md",
+    "transcript_word_count": 10600,
+    "transcript_language": "en"
   },
   {
     "guid": "956ace1a-7dd9-11f0-af69-1f562a51731c",
@@ -80240,20 +80271,113 @@
     "duration": "2236",
     "audio_url": "https://mcdn.podbean.com/mf/web/efrs6i6ubj29xtw9/BestStocksNow-260714.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "banks",
+        "semiconductors",
+        "energy",
+        "ai-infrastructure"
+      ],
+      "themes": [
+        "inflation",
+        "dealmaking",
+        "regulation-antitrust",
+        "earnings",
+        "small-caps-value-growth",
+        "dividends-buybacks",
+        "diversification"
+      ],
+      "stocks": [
+        "goldman-sachs",
+        "jpmorgan",
+        "sp500",
+        "amazon",
+        "tesla",
+        "bank-of-america",
+        "nasdaq",
+        "charles-schwab",
+        "intel",
+        "amd",
+        "exxon"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 4,
+        "ai-infrastructure": 1,
+        "banks": 5,
+        "energy": 3,
+        "inflation": 8,
+        "dealmaking": 5,
+        "regulation-antitrust": 2,
+        "earnings": 2,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 2,
+        "diversification": 1,
+        "amazon": 2,
+        "tesla": 2,
+        "intel": 1,
+        "amd": 1,
+        "jpmorgan": 18,
+        "goldman-sachs": 19,
+        "bank-of-america": 2,
+        "exxon": 1,
+        "sp500": 15,
+        "nasdaq": 2,
+        "charles-schwab": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.8,
+        "ai-infrastructure": 0.2,
+        "banks": 0.9,
+        "energy": 0.6,
+        "inflation": 1.5,
+        "dealmaking": 0.9,
+        "regulation-antitrust": 0.4,
+        "earnings": 0.4,
+        "dividends-buybacks": 0.2,
+        "small-caps-value-growth": 0.4,
+        "diversification": 0.2,
+        "amazon": 0.4,
+        "tesla": 0.4,
+        "intel": 0.2,
+        "amd": 0.2,
+        "jpmorgan": 3.4,
+        "goldman-sachs": 3.6,
+        "bank-of-america": 0.4,
+        "exxon": 0.2,
+        "sp500": 2.8,
+        "nasdaq": 0.4,
+        "charles-schwab": 0.4
+      },
+      "entity_sentiment": {
+        "semiconductors": -1.0,
+        "nasdaq": -1.0,
+        "sp500": -1.0,
+        "jpmorgan": -1.0,
+        "goldman-sachs": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": 1.0,
+        "banks": -1.0,
+        "inflation": -1.0,
+        "dealmaking": -1.0,
+        "dividends-buybacks": -1.0,
+        "sp500": 0.0,
+        "jpmorgan": -1.0,
+        "bank-of-america": -1.0,
+        "goldman-sachs": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Semiconductors, Energy & Oil, Inflation, IPOs & Dealmaking, Regulation & Antitrust, Corporate Earnings. Mentions Goldman Sachs, JPMorgan, S&P 500, Amazon, Tesla. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-14-best-stocks-now-tuesday-july-14-2026-1b5ce6.md",
+    "transcript_word_count": 5303,
+    "transcript_language": "en"
   },
   {
     "guid": "b39831ba-2759-4099-ac1e-b48700f95441",
@@ -119503,21 +119627,27 @@
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
         "budgeting-saving": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "budgeting-saving": 0.8
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-ramsey-everyday-millionaires-should-i-retire-now-or-work-longer-for-a-bigger-pension-c15fc9.md",
+    "transcript_word_count": 1067,
+    "transcript_language": "en"
   },
   {
     "guid": "05c84580-29dc-11f1-b64a-47996b9636b1",
@@ -193675,25 +193805,160 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/p7quvugtmxpkw9r4/Macrovoices-2026-05-07-Louis-Vincent-Gave.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "energy",
+        "semiconductors",
+        "ai-infrastructure",
+        "industrials",
+        "technology",
+        "consumer-discretionary"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "commodities",
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "elections-politics",
+        "volatility",
+        "dividends-buybacks",
+        "valuation",
+        "recession",
+        "insurance-products",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "sp500",
+        "nvidia",
+        "tsmc",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "boeing",
+        "bitcoin"
+      ],
+      "sentiment": 0.522,
+      "sentiment_hits": 46,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1
+        "technology": 1,
+        "semiconductors": 12,
+        "ai-infrastructure": 6,
+        "energy": 23,
+        "consumer-discretionary": 1,
+        "industrials": 3,
+        "inflation": 7,
+        "rates-fed": 3,
+        "ai-boom": 2,
+        "recession": 1,
+        "elections-politics": 2,
+        "commodities": 8,
+        "volatility": 2,
+        "dividends-buybacks": 2,
+        "valuation": 2,
+        "insurance-products": 1,
+        "market-timing-dca": 1,
+        "nvidia": 3,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "tsmc": 2,
+        "boeing": 1,
+        "bitcoin": 1,
+        "sp500": 11
       },
       "entity_mention_density": {
-        "semiconductors": 14.1
+        "technology": 0.1,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.4,
+        "energy": 1.7,
+        "consumer-discretionary": 0.1,
+        "industrials": 0.2,
+        "inflation": 0.5,
+        "rates-fed": 0.2,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 0.6,
+        "volatility": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "insurance-products": 0.1,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.2,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "tsmc": 0.1,
+        "boeing": 0.1,
+        "bitcoin": 0.1,
+        "sp500": 0.8
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_sentiment": {
+        "semiconductors": 0.613,
+        "energy": 0.586,
+        "industrials": 0.643,
+        "ai-infrastructure": -1.0,
+        "volatility": 0.643,
+        "commodities": 0.586,
+        "rates-fed": 0.643,
+        "inflation": 0.655,
+        "recession": 1.0,
+        "ai-boom": -0.333,
+        "elections-politics": 0.643,
+        "market-timing-dca": 0.643,
+        "sp500": 0.613,
+        "alphabet": 0.643
+      },
+      "entity_conviction": {
+        "semiconductors": -0.636,
+        "energy": -0.667,
+        "industrials": -0.647,
+        "ai-infrastructure": -1.0,
+        "volatility": -0.636,
+        "commodities": -0.636,
+        "rates-fed": -0.636,
+        "inflation": -0.636,
+        "elections-politics": -0.636,
+        "market-timing-dca": -0.636,
+        "sp500": -0.657,
+        "microsoft": -1.0,
+        "amazon": -1.0,
+        "bitcoin": -1.0,
+        "alphabet": -0.636
+      },
+      "entity_stance": {
+        "semiconductors": "buy",
+        "energy": "buy",
+        "industrials": "buy",
+        "volatility": "buy",
+        "commodities": "buy",
+        "rates-fed": "buy",
+        "inflation": "buy",
+        "elections-politics": "buy",
+        "market-timing-dca": "buy",
+        "sp500": "buy",
+        "alphabet": "buy"
+      },
+      "entity_contested": [
+        "semiconductors",
+        "energy",
+        "industrials",
+        "volatility",
+        "commodities",
+        "rates-fed",
+        "inflation",
+        "elections-politics",
+        "market-timing-dca",
+        "sp500",
+        "alphabet"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Semiconductors, AI Infrastructure, Commodities, Inflation, Interest Rates & Fed Policy, AI & Machine Learning. Mentions S&P 500, Nvidia, TSMC, Microsoft, Alphabet / Google. Tone leans bullish (+0.52).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-macro-voices-macrovoices-531-louis-vincent-gave-semiconductors-ai-iran-co-38e884.md",
+    "transcript_word_count": 13578,
+    "transcript_language": "en"
   },
   {
     "guid": "72c9791c-f60d-405b-938b-e1360f410038",
