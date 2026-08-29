@@ -50125,30 +50125,116 @@
     "duration": "2465",
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/9e4cab95-5463-45f1-81fd-178cca8d47fa/stream.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "semiconductors",
+        "ai-infrastructure",
+        "banks",
+        "energy",
+        "real-estate",
+        "industrials"
+      ],
       "themes": [
-        "hedge-funds"
+        "inflation",
+        "rates-fed",
+        "hedge-funds",
+        "bond-market",
+        "dividends-buybacks",
+        "ai-boom",
+        "japan",
+        "geopolitics-tariffs",
+        "commodities",
+        "volatility"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "nasdaq",
+        "nvidia",
+        "tesla",
+        "bitcoin",
+        "sp500",
+        "russell2000"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.474,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "hedge-funds": 1,
-        "amazon": 2
+        "semiconductors": 1,
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "energy": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "private-markets": 7,
+        "inflation": 9,
+        "rates-fed": 8,
+        "ai-boom": 1,
+        "japan": 1,
+        "geopolitics-tariffs": 1,
+        "commodities": 1,
+        "volatility": 1,
+        "bond-market": 3,
+        "hedge-funds": 6,
+        "dividends-buybacks": 2,
+        "nvidia": 1,
+        "amazon": 9,
+        "tesla": 1,
+        "bitcoin": 1,
+        "sp500": 1,
+        "nasdaq": 3,
+        "russell2000": 1
       },
       "entity_mention_density": {
-        "hedge-funds": 5.6,
-        "amazon": 11.3
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.2,
+        "banks": 0.2,
+        "energy": 0.2,
+        "real-estate": 0.2,
+        "industrials": 0.2,
+        "private-markets": 1.1,
+        "inflation": 1.4,
+        "rates-fed": 1.2,
+        "ai-boom": 0.2,
+        "japan": 0.2,
+        "geopolitics-tariffs": 0.2,
+        "commodities": 0.2,
+        "volatility": 0.2,
+        "bond-market": 0.5,
+        "hedge-funds": 0.9,
+        "dividends-buybacks": 0.3,
+        "nvidia": 0.2,
+        "amazon": 1.4,
+        "tesla": 0.2,
+        "bitcoin": 0.2,
+        "sp500": 0.2,
+        "nasdaq": 0.5,
+        "russell2000": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "banks": -1.0,
+        "hedge-funds": -1.0,
+        "rates-fed": 1.0,
+        "volatility": -1.0
+      },
+      "entity_conviction": {
+        "hedge-funds": -1.0,
+        "bond-market": -1.0,
+        "rates-fed": 0.0,
+        "amazon": -1.0,
+        "bitcoin": 1.0
+      },
+      "entity_stance": {
+        "hedge-funds": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Semiconductors, AI Infrastructure, Inflation, Interest Rates & Fed Policy, Hedge Funds, Bond Market & Yields. Mentions Amazon, Nasdaq, Nvidia, Tesla, Bitcoin. Tone leans bullish (+0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-investtalk-is-the-us-dollar-losing-its-edge-the-dollar-outlook-in-the-a-bc62a4.md",
+    "transcript_word_count": 6259,
+    "transcript_language": "en"
   },
   {
     "guid": "b88d09ac-8b0d-11f1-a06e-ab599854bc6f",
@@ -68195,23 +68281,39 @@
       "sectors": [
         "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "real-estate-investing"
+      ],
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": -0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "real-estate": 3
+        "real-estate": 23,
+        "real-estate-investing": 1,
+        "meta": 1
       },
       "entity_mention_density": {
-        "real-estate": 8.7
+        "real-estate": 2.3,
+        "real-estate-investing": 0.1,
+        "meta": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Real Estate Investing. Mentions Meta. Tone leans bearish (-0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-the-millionaire-real-estate-agent-144-from-selling-homes-to-building-a-250-million-wealth-plan-31f4fa.md",
+    "transcript_word_count": 9532,
+    "transcript_language": "en"
   },
   {
     "guid": "3a081078-7dd9-11f0-b2e7-2f0b110dda3c",
@@ -81600,33 +81702,125 @@
     "duration": "4401",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC8692168972.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "telecoms",
+        "semiconductors",
+        "industrials",
+        "crypto",
+        "consumer-discretionary",
+        "private-markets"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "regulation-antitrust",
+        "valuation",
+        "behavioral-finance",
+        "dividends-buybacks",
+        "small-caps-value-growth"
       ],
       "stocks": [
         "tesla",
-        "meta"
+        "alphabet",
+        "amazon",
+        "meta",
+        "paypal",
+        "bitcoin",
+        "sp500",
+        "nvidia",
+        "microsoft",
+        "salesforce"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.385,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "meta": 1,
-        "tesla": 3
+        "technology": 5,
+        "semiconductors": 2,
+        "ai-infrastructure": 13,
+        "consumer-discretionary": 1,
+        "telecoms": 3,
+        "industrials": 2,
+        "crypto": 2,
+        "private-markets": 1,
+        "dealmaking": 25,
+        "regulation-antitrust": 6,
+        "dividends-buybacks": 1,
+        "valuation": 3,
+        "behavioral-finance": 3,
+        "small-caps-value-growth": 1,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 13,
+        "amazon": 3,
+        "meta": 3,
+        "tesla": 27,
+        "bitcoin": 2,
+        "sp500": 2,
+        "paypal": 3,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "dealmaking": 2.7,
-        "meta": 2.7,
-        "tesla": 8.0
+        "technology": 0.3,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.9,
+        "consumer-discretionary": 0.1,
+        "telecoms": 0.2,
+        "industrials": 0.1,
+        "crypto": 0.1,
+        "private-markets": 0.1,
+        "dealmaking": 1.7,
+        "regulation-antitrust": 0.4,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.2,
+        "behavioral-finance": 0.2,
+        "small-caps-value-growth": 0.1,
+        "nvidia": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.9,
+        "amazon": 0.2,
+        "meta": 0.2,
+        "tesla": 1.8,
+        "bitcoin": 0.1,
+        "sp500": 0.1,
+        "paypal": 0.2,
+        "salesforce": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": 1.0,
+        "dealmaking": -1.0,
+        "valuation": -1.0,
+        "dividends-buybacks": 1.0,
+        "tesla": -1.0,
+        "alphabet": -1.0,
+        "microsoft": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.706,
+        "technology": 0.0,
+        "private-markets": 0.0,
+        "dealmaking": -0.043,
+        "valuation": -1.0,
+        "behavioral-finance": -1.0,
+        "dividends-buybacks": 1.0,
+        "regulation-antitrust": -1.0,
+        "tesla": -0.5,
+        "meta": 1.0,
+        "alphabet": -0.2,
+        "amazon": 1.0,
+        "nvidia": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Telecoms, IPOs & Dealmaking, Regulation & Antitrust, Valuation, Behavioral Finance & Psychology. Mentions Tesla, Alphabet / Google, Amazon, Meta, PayPal. Tone leans bearish (-0.39).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-12-the-investor-s-podcast-we-study-billionaires-tip830-spacex-spcx-is-it-really-worth-2-trillion-dollars-w-k-427b3c.md",
+    "transcript_word_count": 14460,
+    "transcript_language": "en"
   },
   {
     "guid": "17e6b2b9-abbe-4e35-a0ed-b464004cf5f2",
@@ -169597,41 +169791,114 @@
     "audio_url": "https://anchor.fm/s/10bb8090/podcast/play/120293168/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-20%2F4985e6d8-bb24-3649-c57a-f110654edec0.m4a",
     "tags": {
       "sectors": [
+        "crypto",
         "real-estate",
-        "crypto"
+        "energy"
       ],
       "themes": [
+        "small-caps-value-growth",
         "passive-investing",
-        "small-caps-value-growth"
+        "inflation",
+        "diversification",
+        "retirement-planning",
+        "rates-fed",
+        "market-concentration",
+        "market-timing-dca"
       ],
       "stocks": [
-        "bitcoin"
+        "sp500",
+        "vanguard",
+        "bitcoin",
+        "amazon",
+        "fidelity",
+        "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.615,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "crypto": 1,
-        "passive-investing": 1,
-        "small-caps-value-growth": 1,
-        "bitcoin": 1
+        "energy": 1,
+        "real-estate": 12,
+        "crypto": 13,
+        "inflation": 7,
+        "rates-fed": 3,
+        "passive-investing": 9,
+        "retirement-planning": 4,
+        "market-concentration": 3,
+        "small-caps-value-growth": 10,
+        "diversification": 5,
+        "market-timing-dca": 1,
+        "amazon": 2,
+        "berkshire": 1,
+        "bitcoin": 4,
+        "sp500": 5,
+        "vanguard": 5,
+        "fidelity": 2
       },
       "entity_mention_density": {
-        "real-estate": 2.9,
-        "crypto": 2.9,
-        "passive-investing": 2.9,
-        "small-caps-value-growth": 2.9,
-        "bitcoin": 2.9
+        "energy": 0.1,
+        "real-estate": 1.0,
+        "crypto": 1.1,
+        "inflation": 0.6,
+        "rates-fed": 0.3,
+        "passive-investing": 0.8,
+        "retirement-planning": 0.3,
+        "market-concentration": 0.3,
+        "small-caps-value-growth": 0.9,
+        "diversification": 0.4,
+        "market-timing-dca": 0.1,
+        "amazon": 0.2,
+        "berkshire": 0.1,
+        "bitcoin": 0.3,
+        "sp500": 0.4,
+        "vanguard": 0.4,
+        "fidelity": 0.2
       },
       "entity_sentiment": {
-        "passive-investing": 0.0
+        "crypto": -0.6,
+        "real-estate": -1.0,
+        "small-caps-value-growth": -0.6,
+        "passive-investing": -0.459,
+        "diversification": -0.6,
+        "market-concentration": -0.6,
+        "inflation": -0.6,
+        "retirement-planning": -0.6,
+        "bitcoin": -0.6,
+        "amazon": -0.6,
+        "sp500": -0.6,
+        "vanguard": -0.6,
+        "berkshire": -0.6,
+        "fidelity": -0.6
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -0.737,
+        "real-estate": -1.0,
+        "small-caps-value-growth": -0.833,
+        "passive-investing": -0.833,
+        "diversification": -0.85,
+        "market-concentration": -0.833,
+        "market-timing-dca": -1.0,
+        "inflation": -0.833,
+        "retirement-planning": -0.833,
+        "bitcoin": -0.833,
+        "amazon": -0.833,
+        "sp500": -0.793,
+        "vanguard": -0.833,
+        "berkshire": -0.833,
+        "fidelity": -0.833
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "passive-investing"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Real Estate, Energy & Oil, Small-Caps, Value & Growth, Passive Investing, Inflation, Diversification & Asset Allocation. Mentions S&P 500, Vanguard, Bitcoin, Amazon, Fidelity. Tone leans bearish (-0.61).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-sound-investing-bill-bernstein-50-years-of-investing-wisdom-82fb9a.md",
+    "transcript_word_count": 11287,
+    "transcript_language": "en"
   },
   {
     "guid": "0cfe5894-5709-11f1-a029-7b83aa810d2c",
