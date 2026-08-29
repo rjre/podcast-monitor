@@ -13327,61 +13327,126 @@
     "audio_url": "https://traffic.megaphone.fm/APO1887100619.mp3",
     "tags": {
       "sectors": [
+        "crypto",
         "consumer-discretionary",
-        "crypto"
+        "ai-infrastructure",
+        "healthcare",
+        "technology",
+        "semiconductors",
+        "energy"
       ],
       "themes": [
-        "ai-boom",
+        "bond-market",
         "geopolitics-tariffs",
-        "bond-market"
+        "ai-boom",
+        "elections-politics",
+        "rates-fed",
+        "housing",
+        "fiscal-debt",
+        "earnings",
+        "consumer-health"
       ],
       "stocks": [
         "walmart",
-        "coinbase",
         "bitcoin",
-        "ethereum"
+        "amazon",
+        "costco",
+        "sp500",
+        "coinbase",
+        "ethereum",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.636,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "crypto": 1,
-        "ai-boom": 1,
-        "geopolitics-tariffs": 1,
-        "bond-market": 1,
-        "walmart": 2,
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "energy": 1,
+        "healthcare": 2,
+        "consumer-discretionary": 5,
+        "crypto": 7,
+        "rates-fed": 1,
+        "ai-boom": 2,
+        "geopolitics-tariffs": 5,
+        "housing": 1,
+        "fiscal-debt": 1,
+        "elections-politics": 2,
+        "earnings": 1,
+        "bond-market": 9,
+        "consumer-health": 1,
+        "amazon": 2,
+        "costco": 2,
+        "walmart": 21,
         "coinbase": 1,
-        "bitcoin": 1,
-        "ethereum": 1
+        "bitcoin": 4,
+        "ethereum": 1,
+        "sp500": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 7.9,
-        "crypto": 7.9,
-        "ai-boom": 7.9,
-        "geopolitics-tariffs": 7.9,
-        "bond-market": 7.9,
-        "walmart": 15.9,
-        "coinbase": 7.9,
-        "bitcoin": 7.9,
-        "ethereum": 7.9
+        "technology": 0.5,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 0.9,
+        "energy": 0.5,
+        "healthcare": 0.9,
+        "consumer-discretionary": 2.3,
+        "crypto": 3.2,
+        "rates-fed": 0.5,
+        "ai-boom": 0.9,
+        "geopolitics-tariffs": 2.3,
+        "housing": 0.5,
+        "fiscal-debt": 0.5,
+        "elections-politics": 0.9,
+        "earnings": 0.5,
+        "bond-market": 4.1,
+        "consumer-health": 0.5,
+        "amazon": 0.9,
+        "costco": 0.9,
+        "walmart": 9.6,
+        "coinbase": 0.5,
+        "bitcoin": 1.8,
+        "ethereum": 0.5,
+        "sp500": 0.9,
+        "nasdaq": 0.5
       },
       "entity_sentiment": {
-        "consumer-discretionary": 0.0,
-        "crypto": 0.0,
-        "bond-market": 0.0,
-        "ai-boom": 0.0,
+        "consumer-discretionary": 0.5,
+        "crypto": 0.667,
+        "bond-market": 0.333,
+        "ai-boom": 0.5,
         "geopolitics-tariffs": 0.0,
-        "walmart": 0.0,
+        "fiscal-debt": -1.0,
+        "housing": -1.0,
+        "elections-politics": 1.0,
+        "walmart": 0.333,
         "coinbase": 0.0,
-        "bitcoin": 0.0,
+        "bitcoin": 0.6,
         "ethereum": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "bond-market": 1.0,
+        "ai-boom": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "consumer-health": -1.0,
+        "walmart": -0.5,
+        "bitcoin": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "bond-market"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Consumer Discretionary, AI Infrastructure, Bond Market & Yields, Geopolitics & Tariffs, AI & Machine Learning, Elections & Politics. Mentions Walmart, Bitcoin, Amazon, Costco, S&P 500. Tone leans bullish (+0.64).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-the-rundown-bessent-steps-in-with-rare-bond-buyback-walmart-sinks-on-wea-5ffe51.md",
+    "transcript_word_count": 2060,
+    "transcript_language": "en"
   },
   {
     "guid": "7a5fcba4-9ca3-11f1-b544-2b9a7180a512",
@@ -15892,30 +15957,49 @@
         "healthcare"
       ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "retirement-planning",
+        "behavioral-finance"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
         "healthcare": 1,
-        "fire-movement": 2,
-        "amazon": 1
+        "fire-movement": 4,
+        "retirement-planning": 3,
+        "behavioral-finance": 2,
+        "amazon": 1,
+        "meta": 1
       },
       "entity_mention_density": {
-        "healthcare": 1.6,
-        "fire-movement": 3.2,
-        "amazon": 1.6
+        "healthcare": 0.2,
+        "fire-movement": 0.6,
+        "retirement-planning": 0.5,
+        "behavioral-finance": 0.3,
+        "amazon": 0.2,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": 1.0
+      },
+      "entity_conviction": {
+        "fire-movement": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Financial Independence / FIRE, Retirement Planning, Behavioral Finance & Psychology. Mentions Amazon, Meta. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-catching-up-to-fi-the-truth-behind-raising-a-teenage-money-whiz-from-the-paren-32244b.md",
+    "transcript_word_count": 5811,
+    "transcript_language": "en"
   },
   {
     "guid": "b63d94f0-90fd-11f1-b409-db6016d50017",
@@ -73660,26 +73744,60 @@
     "duration": "1174",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML8249818149.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "paypal"
+      "sectors": [
+        "private-markets",
+        "technology",
+        "autos-ev",
+        "crypto"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "regulation-antitrust",
+        "valuation"
+      ],
+      "stocks": [
+        "paypal",
+        "amazon"
+      ],
+      "sentiment": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "paypal": 4
+        "technology": 1,
+        "autos-ev": 1,
+        "crypto": 1,
+        "private-markets": 7,
+        "regulation-antitrust": 1,
+        "valuation": 1,
+        "amazon": 1,
+        "paypal": 29
       },
       "entity_mention_density": {
-        "paypal": 15.3
+        "technology": 0.2,
+        "autos-ev": 0.2,
+        "crypto": 0.2,
+        "private-markets": 1.7,
+        "regulation-antitrust": 0.2,
+        "valuation": 0.2,
+        "amazon": 0.2,
+        "paypal": 7.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "valuation": -1.0
+      },
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "paypal": -0.882
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Technology, Autos & EVs, Regulation & Antitrust, Valuation. Mentions PayPal, Amazon. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-motley-fool-hidden-gems-does-paypal-have-a-buyer-14878c.md",
+    "transcript_word_count": 3776,
+    "transcript_language": "en"
   },
   {
     "guid": "6a57334d37c983dd6cbb9961",
@@ -183009,29 +183127,61 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/17da7d36-fd98-4dc3-8dde-b44401262c68/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
       "sectors": [
-        "crypto"
+        "crypto",
+        "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "regulation-antitrust",
+        "inflation",
+        "elections-politics",
+        "market-structure"
+      ],
       "stocks": [
-        "coinbase"
+        "coinbase",
+        "bitcoin"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "crypto": 7,
-        "coinbase": 3
+        "real-estate": 1,
+        "crypto": 42,
+        "inflation": 1,
+        "elections-politics": 1,
+        "regulation-antitrust": 14,
+        "market-structure": 1,
+        "coinbase": 11,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "crypto": 50.7,
-        "coinbase": 21.7
+        "real-estate": 0.3,
+        "crypto": 10.7,
+        "inflation": 0.3,
+        "elections-politics": 0.3,
+        "regulation-antitrust": 3.6,
+        "market-structure": 0.3,
+        "coinbase": 2.8,
+        "bitcoin": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "crypto": -1.0,
+        "regulation-antitrust": 1.0
+      },
+      "entity_conviction": {
+        "crypto": -1.0,
+        "regulation-antitrust": 0.0,
+        "market-structure": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Real Estate, Regulation & Antitrust, Inflation, Elections & Politics, Market Structure & Liquidity. Mentions Coinbase, Bitcoin. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-10-masters-in-business-evolving-money-stablecoins-in-practice-and-policy-sponsored-262c68.md",
+    "transcript_word_count": 3770,
+    "transcript_language": "en"
   },
   {
     "guid": "7dc72603-1c03-406c-a6d4-48ca6a30c06f",
