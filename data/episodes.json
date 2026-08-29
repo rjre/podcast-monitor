@@ -26191,44 +26191,79 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "passive-investing",
         "diversification",
-        "ai-boom"
+        "passive-investing",
+        "market-timing-dca",
+        "ai-boom",
+        "earnings"
       ],
       "stocks": [
-        "bitcoin",
+        "costco",
         "amazon",
-        "costco"
+        "nvidia",
+        "alphabet",
+        "berkshire",
+        "bitcoin",
+        "netflix"
       ],
-      "sentiment": 0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
         "ai-boom": 1,
-        "passive-investing": 2,
-        "diversification": 2,
-        "amazon": 1,
-        "costco": 1,
-        "bitcoin": 2
+        "earnings": 1,
+        "passive-investing": 5,
+        "diversification": 6,
+        "market-timing-dca": 4,
+        "nvidia": 3,
+        "alphabet": 3,
+        "amazon": 5,
+        "berkshire": 2,
+        "costco": 7,
+        "bitcoin": 2,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "ai-boom": 1.8,
-        "passive-investing": 3.5,
-        "diversification": 3.5,
-        "amazon": 1.8,
-        "costco": 1.8,
-        "bitcoin": 3.5
+        "ai-boom": 0.1,
+        "earnings": 0.1,
+        "passive-investing": 0.7,
+        "diversification": 0.9,
+        "market-timing-dca": 0.6,
+        "nvidia": 0.4,
+        "alphabet": 0.4,
+        "amazon": 0.7,
+        "berkshire": 0.3,
+        "costco": 1.0,
+        "bitcoin": 0.3,
+        "netflix": 0.3
       },
       "entity_sentiment": {
         "passive-investing": 1.0,
         "diversification": 1.0,
         "costco": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-investing": -0.911,
+        "diversification": -0.915,
+        "market-timing-dca": -0.911,
+        "earnings": -0.911,
+        "costco": -0.802,
+        "amazon": -0.911,
+        "alphabet": -0.911,
+        "netflix": -1.0,
+        "nvidia": -0.911,
+        "berkshire": -0.911
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Diversification & Asset Allocation, Passive Investing, Market Timing & Dollar-Cost Averaging, AI & Machine Learning. Mentions Costco, Amazon, Nvidia, Alphabet / Google, Berkshire Hathaway. Tone leans bullish (+0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-13-the-investing-for-beginners-podcast-accidental-indexing-why-owning-too-many-stocks-destroys-retu-5f65b3.md",
+    "transcript_word_count": 6372,
+    "transcript_language": "en"
   },
   {
     "guid": "501978d8-965c-11f1-8dd0-3b036759508b",
@@ -117046,20 +117081,67 @@
     "duration": "2721",
     "audio_url": "https://www.buzzsprout.com/1551448/episodes/19092574-business-owner-near-retirement-reveals-difficulty-of-knowing-how-much-is-enough-road-to-retirement.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "healthcare",
+        "materials-mining"
+      ],
+      "themes": [
+        "fire-movement",
+        "budgeting-saving",
+        "retirement-planning",
+        "real-estate-investing",
+        "tax-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "healthcare": 3,
+        "materials-mining": 2,
+        "budgeting-saving": 2,
+        "fire-movement": 6,
+        "retirement-planning": 2,
+        "real-estate-investing": 2,
+        "tax-planning": 1
+      },
+      "entity_mention_density": {
+        "healthcare": 0.3,
+        "materials-mining": 0.2,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.6,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 0.2,
+        "tax-planning": 0.1
+      },
+      "entity_sentiment": {
+        "healthcare": 1.0,
+        "materials-mining": 1.0,
+        "fire-movement": 1.0,
+        "budgeting-saving": 1.0,
+        "retirement-planning": 1.0,
+        "real-estate-investing": 1.0,
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "healthcare": -0.429,
+        "materials-mining": -0.429,
+        "fire-movement": -0.467,
+        "budgeting-saving": -0.429,
+        "retirement-planning": -0.429,
+        "real-estate-investing": -0.429,
+        "tax-planning": -0.429
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Materials & Mining, Financial Independence / FIRE, Budgeting & Saving, Retirement Planning, Real Estate Investing. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-early-retirement-financial-freedom-business-owner-near-retirement-reveals-difficulty-of-knowing-092574.md",
+    "transcript_word_count": 9581,
+    "transcript_language": "en"
   },
   {
     "guid": "58864d1c-38ff-11f1-a344-57f8f8c15fc9",
@@ -157774,27 +157856,72 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "insurance-products",
+        "passive-investing",
+        "budgeting-saving",
+        "retirement-planning",
         "career-income",
-        "insurance-products"
+        "passive-income"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "netflix",
+        "disney",
+        "sp500",
+        "vanguard"
+      ],
+      "sentiment": 0.926,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "career-income": 1,
-        "insurance-products": 1
+        "passive-investing": 2,
+        "budgeting-saving": 2,
+        "retirement-planning": 2,
+        "passive-income": 1,
+        "career-income": 2,
+        "insurance-products": 4,
+        "sp500": 1,
+        "vanguard": 1,
+        "netflix": 3,
+        "disney": 3
       },
       "entity_mention_density": {
-        "career-income": 1.8,
-        "insurance-products": 1.8
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.2,
+        "retirement-planning": 0.2,
+        "passive-income": 0.1,
+        "career-income": 0.2,
+        "insurance-products": 0.3,
+        "sp500": 0.1,
+        "vanguard": 0.1,
+        "netflix": 0.2,
+        "disney": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "disney": 1.0
+      },
+      "entity_conviction": {
+        "career-income": -1.0,
+        "insurance-products": -1.0,
+        "passive-income": -1.0,
+        "retirement-planning": -1.0,
+        "budgeting-saving": -1.0,
+        "passive-investing": -1.0,
+        "netflix": -1.0,
+        "vanguard": -1.0,
+        "disney": -1.0
+      },
+      "entity_stance": {
+        "passive-income": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance Products, Passive Investing, Budgeting & Saving, Retirement Planning. Mentions Netflix, Disney, S&P 500, Vanguard. Tone leans bullish (+0.93).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-stacking-benjamins-stop-treating-every-financial-decision-like-it-s-mount-evere-DbRaqc.md",
+    "transcript_word_count": 11636,
+    "transcript_language": "en"
   },
   {
     "guid": "4fea018c-8268-43c3-bdb9-b45801086d9d",
@@ -194441,30 +194568,63 @@
     "duration": "424",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/0378e94d-10c5-4f3a-97d3-a2946af6fd64.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "real-estate"
+      ],
       "themes": [
-        "inflation"
+        "dividends-buybacks",
+        "inflation",
+        "credit-markets",
+        "japan",
+        "currency-dollar"
       ],
       "stocks": [
+        "sp500",
         "nasdaq"
       ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "inflation": 1,
-        "nasdaq": 1
+        "semiconductors": 1,
+        "real-estate": 1,
+        "inflation": 2,
+        "credit-markets": 1,
+        "japan": 1,
+        "currency-dollar": 1,
+        "dividends-buybacks": 5,
+        "sp500": 2,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "inflation": 5.9,
-        "nasdaq": 5.9
+        "semiconductors": 0.6,
+        "real-estate": 0.6,
+        "inflation": 1.3,
+        "credit-markets": 0.6,
+        "japan": 0.6,
+        "currency-dollar": 0.6,
+        "dividends-buybacks": 3.2,
+        "sp500": 1.3,
+        "nasdaq": 1.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "credit-markets": -1.0,
+        "japan": -1.0,
+        "currency-dollar": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Real Estate, Dividends & Buybacks, Inflation, Credit Markets, Japan & Yen. Mentions S&P 500, Nasdaq. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-the-dividend-cafe-tuesday-may-5-2026-2c760e.md",
+    "transcript_word_count": 1382,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/iwWBLLEUlPjmXsnnBjyqkaERpqN6ci0XnYXRWg9xG3o",
