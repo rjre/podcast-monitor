@@ -22995,20 +22995,150 @@
     "duration": "00:40:49",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/a4d9c4c6-c59c-47cc-ac01-faa9da5016a0/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=a4d9c4c6-c59c-47cc-ac01-faa9da5016a0&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "consumer-discretionary",
+        "energy",
+        "industrials",
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "banks",
+        "consumer-staples",
+        "media-entertainment",
+        "private-markets"
+      ],
+      "themes": [
+        "labor-market",
+        "inflation",
+        "rates-fed",
+        "elections-politics",
+        "geopolitics-tariffs",
+        "commodities",
+        "bond-market",
+        "recession",
+        "safe-havens",
+        "hedge-funds"
+      ],
+      "stocks": [
+        "sp500",
+        "nvidia",
+        "nasdaq",
+        "microsoft",
+        "russell2000",
+        "palantir",
+        "bank-of-america",
+        "walmart"
+      ],
+      "sentiment": 0.521,
+      "sentiment_hits": 34,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "banks": 1,
+        "energy": 6,
+        "consumer-discretionary": 8,
+        "consumer-staples": 1,
+        "industrials": 4,
+        "media-entertainment": 1,
+        "private-markets": 1,
+        "inflation": 4,
+        "rates-fed": 4,
+        "recession": 1,
+        "geopolitics-tariffs": 3,
+        "labor-market": 5,
+        "elections-politics": 4,
+        "commodities": 2,
+        "safe-havens": 1,
+        "bond-market": 2,
+        "hedge-funds": 1,
+        "nvidia": 5,
+        "microsoft": 2,
+        "palantir": 1,
+        "bank-of-america": 1,
+        "walmart": 1,
+        "sp500": 11,
+        "nasdaq": 4,
+        "russell2000": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.4,
+        "banks": 0.1,
+        "energy": 0.8,
+        "consumer-discretionary": 1.1,
+        "consumer-staples": 0.1,
+        "industrials": 0.5,
+        "media-entertainment": 0.1,
+        "private-markets": 0.1,
+        "inflation": 0.5,
+        "rates-fed": 0.5,
+        "recession": 0.1,
+        "geopolitics-tariffs": 0.4,
+        "labor-market": 0.7,
+        "elections-politics": 0.5,
+        "commodities": 0.3,
+        "safe-havens": 0.1,
+        "bond-market": 0.3,
+        "hedge-funds": 0.1,
+        "nvidia": 0.7,
+        "microsoft": 0.3,
+        "palantir": 0.1,
+        "bank-of-america": 0.1,
+        "walmart": 0.1,
+        "sp500": 1.5,
+        "nasdaq": 0.5,
+        "russell2000": 0.3
+      },
+      "entity_sentiment": {
+        "consumer-discretionary": -0.333,
+        "media-entertainment": 1.0,
+        "energy": -0.5,
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "industrials": 1.0,
+        "technology": 1.0,
+        "consumer-staples": 1.0,
+        "commodities": -1.0,
+        "hedge-funds": -1.0,
+        "recession": 0.0,
+        "labor-market": 1.0,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "safe-havens": 1.0,
+        "sp500": 0.6,
+        "russell2000": 0.333,
+        "nasdaq": 0.333
+      },
+      "entity_conviction": {
+        "consumer-discretionary": 0.0,
+        "energy": 0.0,
+        "semiconductors": -1.0,
+        "industrials": -1.0,
+        "technology": -1.0,
+        "banks": -1.0,
+        "bond-market": -1.0,
+        "labor-market": 0.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "sp500": -1.0,
+        "microsoft": -1.0,
+        "bank-of-america": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "sp500"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Energy & Oil, Industrials, Labor Market, Inflation, Interest Rates & Fed Policy, Elections & Politics. Mentions S&P 500, Nvidia, Nasdaq, Microsoft, Russell 2000. Tone leans bullish (+0.52).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-14-morning-call-morning-call-8-14-26-a056e9.md",
+    "transcript_word_count": 7310,
+    "transcript_language": "en"
   },
   {
     "guid": "bdba5eb8-18a1-11f1-98a4-87d7f9a45e3f",
@@ -26368,24 +26498,39 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "ai-boom"
+        "ai-boom",
+        "market-structure"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "tsmc"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "ai-boom": 2
+        "ai-boom": 15,
+        "market-structure": 1,
+        "tsmc": 1
       },
       "entity_mention_density": {
-        "ai-boom": 12.3
+        "ai-boom": 1.2,
+        "market-structure": 0.1,
+        "tsmc": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-boom": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI & Machine Learning, Market Structure & Liquidity. Mentions TSMC. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-rule-breaker-investing-authors-in-august-vasant-dhar-thinking-with-machines-4186f5.md",
+    "transcript_word_count": 12747,
+    "transcript_language": "en"
   },
   {
     "guid": "97711e74-9662-11f1-85ea-7363efca70ba",
@@ -86621,36 +86766,66 @@
     "duration": "32:11",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a4c3a8050b0e4b15b717178/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "insurance"
+      ],
       "themes": [
         "geopolitics-tariffs",
+        "ai-boom",
         "regulation-antitrust"
       ],
       "stocks": [
         "nasdaq",
-        "meta"
+        "alphabet",
+        "meta",
+        "goldman-sachs",
+        "bank-of-america"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "geopolitics-tariffs": 1,
+        "insurance": 1,
+        "healthcare": 3,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 5,
         "regulation-antitrust": 1,
+        "alphabet": 3,
         "meta": 1,
+        "goldman-sachs": 1,
+        "bank-of-america": 1,
         "nasdaq": 7
       },
       "entity_mention_density": {
-        "geopolitics-tariffs": 1.9,
-        "regulation-antitrust": 1.9,
-        "meta": 1.9,
-        "nasdaq": 13.3
+        "insurance": 0.2,
+        "healthcare": 0.5,
+        "ai-boom": 0.2,
+        "geopolitics-tariffs": 0.8,
+        "regulation-antitrust": 0.2,
+        "alphabet": 0.5,
+        "meta": 0.2,
+        "goldman-sachs": 0.2,
+        "bank-of-america": 0.2,
+        "nasdaq": 1.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-boom": -1.0
+      },
+      "entity_conviction": {
+        "geopolitics-tariffs": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Geopolitics & Tariffs, AI & Machine Learning, Regulation & Antitrust. Mentions Nasdaq, Alphabet / Google, Meta, Goldman Sachs, Bank of America. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-equity-mates-investing-podcast-longevity-can-we-add-another-30-years-the-decade-ahead-717178.md",
+    "transcript_word_count": 5368,
+    "transcript_language": "en"
   },
   {
     "guid": "6a4de8c12440eb8ea5e9540c",
@@ -118980,26 +119155,70 @@
     "duration": "3423",
     "audio_url": "https://traffic.megaphone.fm/TIFM2175184998.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "private-markets"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "dividends-buybacks",
+        "passive-investing",
+        "geopolitics-tariffs",
+        "emerging-markets",
+        "bond-market",
+        "hedge-funds"
+      ],
+      "stocks": [
+        "microsoft",
+        "meta"
+      ],
+      "sentiment": -0.1,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1
+        "private-markets": 1,
+        "inflation": 19,
+        "rates-fed": 21,
+        "geopolitics-tariffs": 3,
+        "bond-market": 1,
+        "hedge-funds": 1,
+        "passive-investing": 5,
+        "emerging-markets": 3,
+        "dividends-buybacks": 10,
+        "microsoft": 1,
+        "meta": 1
       },
       "entity_mention_density": {
-        "inflation": 3.1
+        "private-markets": 0.1,
+        "inflation": 2.3,
+        "rates-fed": 2.5,
+        "geopolitics-tariffs": 0.4,
+        "bond-market": 0.1,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.6,
+        "emerging-markets": 0.4,
+        "dividends-buybacks": 1.2,
+        "microsoft": 0.1,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "rates-fed": -1.0
+      },
+      "entity_conviction": {
+        "inflation": -1.0,
+        "dividends-buybacks": -1.0,
+        "rates-fed": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Interest Rates & Fed Policy, Inflation, Dividends & Buybacks, Passive Investing. Mentions Microsoft, Meta. Tone reads roughly neutral (-0.10).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-the-meb-faber-show-bryan-taylor-the-four-forces-that-drive-every-market-investi-6d376a.md",
+    "transcript_word_count": 8103,
+    "transcript_language": "en"
   },
   {
     "guid": "3f47aeba-bfe5-11f0-a953-abc5c220ff42",
