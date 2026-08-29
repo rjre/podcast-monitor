@@ -1741,30 +1741,86 @@
     "duration": "3031",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/04777202-d9dd-4841-a5c6-b4b301412553/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "real-estate",
+        "telecoms"
+      ],
       "themes": [
-        "fire-movement"
+        "budgeting-saving",
+        "rates-fed",
+        "fiscal-debt",
+        "fire-movement",
+        "college-savings"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "amazon",
+        "bitcoin",
+        "meta",
+        "tesla",
+        "verizon",
+        "fidelity"
       ],
       "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "healthcare": 2,
+        "real-estate": 2,
+        "telecoms": 1,
+        "rates-fed": 3,
+        "fiscal-debt": 2,
+        "budgeting-saving": 6,
         "fire-movement": 1,
-        "meta": 1
+        "college-savings": 1,
+        "alphabet": 2,
+        "amazon": 2,
+        "meta": 1,
+        "tesla": 1,
+        "verizon": 1,
+        "bitcoin": 2,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "fire-movement": 3.0,
-        "meta": 3.0
+        "healthcare": 0.2,
+        "real-estate": 0.2,
+        "telecoms": 0.1,
+        "rates-fed": 0.3,
+        "fiscal-debt": 0.2,
+        "budgeting-saving": 0.6,
+        "fire-movement": 0.1,
+        "college-savings": 0.1,
+        "alphabet": 0.2,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "verizon": 0.1,
+        "bitcoin": 0.2,
+        "fidelity": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "fiscal-debt": -1.0,
+        "amazon": 1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "real-estate": -1.0,
+        "telecoms": -1.0,
+        "budgeting-saving": -1.0,
+        "fiscal-debt": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Telecoms, Budgeting & Saving, Interest Rates & Fed Policy, Government Debt & Fiscal Policy, Financial Independence / FIRE. Mentions Alphabet / Google, Amazon, Bitcoin, Meta, Tesla. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-28-how-to-money-friday-flight-america-s-debt-debacle-perpetual-shopping-myst-412553.md",
+    "transcript_word_count": 10021,
+    "transcript_language": "en"
   },
   {
     "guid": "f71712b5-7390-4fb0-86f6-415662993587",
@@ -25605,25 +25661,93 @@
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/TCP1556092990.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "private-markets",
+        "insurance"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "real-estate-investing",
+        "housing",
+        "recession",
+        "fire-movement",
+        "retirement-planning",
+        "rates-fed",
+        "hedge-funds",
+        "passive-income",
+        "dividends-buybacks",
+        "small-caps-value-growth",
+        "estate-planning"
+      ],
+      "stocks": [
+        "tesla",
+        "sp500"
+      ],
+      "sentiment": 0.263,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 3
+        "insurance": 1,
+        "real-estate": 70,
+        "private-markets": 2,
+        "inflation": 9,
+        "rates-fed": 1,
+        "recession": 2,
+        "housing": 5,
+        "hedge-funds": 1,
+        "fire-movement": 2,
+        "retirement-planning": 2,
+        "real-estate-investing": 7,
+        "passive-income": 1,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 1,
+        "estate-planning": 1,
+        "tesla": 1,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "real-estate": 9.1
+        "insurance": 0.1,
+        "real-estate": 8.3,
+        "private-markets": 0.2,
+        "inflation": 1.1,
+        "rates-fed": 0.1,
+        "recession": 0.2,
+        "housing": 0.6,
+        "hedge-funds": 0.1,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 0.8,
+        "passive-income": 0.1,
+        "dividends-buybacks": 0.1,
+        "small-caps-value-growth": 0.1,
+        "estate-planning": 0.1,
+        "tesla": 0.1,
+        "sp500": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_sentiment": {
+        "real-estate": 0.333,
+        "housing": 0.0,
+        "recession": -0.333
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "inflation": -1.0,
+        "real-estate-investing": -1.0
+      },
+      "entity_stance": {
+        "real-estate": "buy"
+      },
+      "entity_contested": [
+        "real-estate"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Insurance, Inflation, Real Estate Investing, Housing Market, Recession Risk. Mentions Tesla, S&P 500. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-13-talking-wealth-your-client-is-rich-in-real-estate-now-what-50f9e6.md",
+    "transcript_word_count": 8106,
+    "transcript_language": "en"
   },
   {
     "guid": "4601e0bc-9510-11f1-92e3-cf54481700e8",
@@ -47400,32 +47524,78 @@
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL9647963768.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "insurance"
       ],
       "themes": [
+        "retirement-planning",
+        "career-income",
+        "rates-fed",
+        "housing",
         "fire-movement",
-        "real-estate-investing"
+        "real-estate-investing",
+        "passive-income",
+        "college-savings",
+        "budgeting-saving",
+        "debt-payoff",
+        "tax-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.538,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "fire-movement": 1,
-        "real-estate-investing": 1
+        "insurance": 1,
+        "real-estate": 9,
+        "rates-fed": 2,
+        "housing": 2,
+        "budgeting-saving": 1,
+        "debt-payoff": 1,
+        "fire-movement": 2,
+        "retirement-planning": 3,
+        "real-estate-investing": 2,
+        "passive-income": 2,
+        "career-income": 3,
+        "tax-planning": 1,
+        "college-savings": 2,
+        "amazon": 2
       },
       "entity_mention_density": {
-        "real-estate": 4.6,
-        "fire-movement": 4.6,
-        "real-estate-investing": 4.6
+        "insurance": 0.1,
+        "real-estate": 1.3,
+        "rates-fed": 0.3,
+        "housing": 0.3,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.4,
+        "real-estate-investing": 0.3,
+        "passive-income": 0.3,
+        "career-income": 0.4,
+        "tax-planning": 0.1,
+        "college-savings": 0.3,
+        "amazon": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
+      "entity_conviction": {
+        "career-income": 0.0,
+        "passive-income": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Retirement Planning, Career & Income Growth, Interest Rates & Fed Policy, Housing Market. Mentions Amazon. Tone leans bullish (+0.54).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-31-money-guy-show-grow-your-money-faster-with-these-wealth-accelerators-4948b3.md",
+    "transcript_word_count": 6502,
+    "transcript_language": "en"
   },
   {
     "guid": "f1996122-a84c-11f0-a576-676ad30fe338",
@@ -108864,26 +109034,108 @@
     "duration": "3454",
     "audio_url": "https://traffic.megaphone.fm/TIFM4679638772.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "technology",
+        "crypto"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "retirement-planning",
+        "recession",
+        "dealmaking",
+        "passive-investing",
+        "diversification",
+        "hedge-funds",
+        "dividends-buybacks",
+        "market-timing-dca",
+        "rates-fed",
+        "housing",
+        "volatility",
+        "regulation-antitrust",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "vanguard",
+        "amazon",
+        "sp500"
+      ],
+      "sentiment": -0.436,
+      "sentiment_hits": 39,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1
+        "technology": 1,
+        "real-estate": 7,
+        "crypto": 1,
+        "private-markets": 3,
+        "inflation": 25,
+        "rates-fed": 1,
+        "recession": 4,
+        "housing": 1,
+        "volatility": 1,
+        "dealmaking": 3,
+        "regulation-antitrust": 1,
+        "hedge-funds": 2,
+        "passive-investing": 3,
+        "retirement-planning": 6,
+        "dividends-buybacks": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 3,
+        "market-timing-dca": 2,
+        "amazon": 2,
+        "sp500": 1,
+        "vanguard": 3
       },
       "entity_mention_density": {
-        "inflation": 3.5
+        "technology": 0.1,
+        "real-estate": 0.6,
+        "crypto": 0.1,
+        "private-markets": 0.3,
+        "inflation": 2.1,
+        "rates-fed": 0.1,
+        "recession": 0.3,
+        "housing": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.3,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 0.2,
+        "passive-investing": 0.3,
+        "retirement-planning": 0.5,
+        "dividends-buybacks": 0.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.3,
+        "market-timing-dca": 0.2,
+        "amazon": 0.2,
+        "sp500": 0.1,
+        "vanguard": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "inflation": -1.0,
+        "diversification": 0.0,
+        "recession": -0.5,
+        "sp500": 1.0
+      },
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "inflation": -1.0,
+        "small-caps-value-growth": -1.0,
+        "dealmaking": 0.0,
+        "passive-investing": -1.0,
+        "vanguard": -1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Technology, Inflation, Retirement Planning, Recession Risk, IPOs & Dealmaking. Mentions Vanguard, Amazon, S&P 500. Tone leans bearish (-0.44).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-the-meb-faber-show-ben-carlson-the-numbers-that-break-your-brain-about-long-ter-adaab5.md",
+    "transcript_word_count": 11429,
+    "transcript_language": "en"
   },
   {
     "guid": "3f704ce4-bfe5-11f0-a953-ff4cf79abf11",
