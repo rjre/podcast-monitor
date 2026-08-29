@@ -25636,29 +25636,73 @@
     "duration": "2287",
     "audio_url": "https://traffic.megaphone.fm/GGILR6099097653.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "retirement-planning",
-        "diversification"
+        "diversification",
+        "behavioral-finance",
+        "tax-planning",
+        "inflation",
+        "passive-investing",
+        "career-income"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon",
+        "sp500",
+        "vanguard"
+      ],
+      "sentiment": 0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "retirement-planning": 1,
-        "diversification": 1
+        "real-estate": 4,
+        "inflation": 1,
+        "passive-investing": 1,
+        "retirement-planning": 14,
+        "career-income": 1,
+        "behavioral-finance": 3,
+        "diversification": 7,
+        "tax-planning": 2,
+        "amazon": 5,
+        "sp500": 1,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 4.1,
-        "diversification": 4.1
+        "real-estate": 0.6,
+        "inflation": 0.1,
+        "passive-investing": 0.1,
+        "retirement-planning": 2.0,
+        "career-income": 0.1,
+        "behavioral-finance": 0.4,
+        "diversification": 1.0,
+        "tax-planning": 0.3,
+        "amazon": 0.7,
+        "sp500": 0.1,
+        "vanguard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": 0.333,
+        "diversification": 1.0,
+        "behavioral-finance": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "retirement-planning": -1.0,
+        "career-income": -1.0,
+        "tax-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Retirement Planning, Diversification & Asset Allocation, Behavioral Finance & Psychology, Tax Planning. Mentions Amazon, S&P 500, Vanguard. Tone reads roughly neutral (+0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-13-retire-sooner-how-to-retire-sooner-the-rule-of-55-4-rule-roth-conversions-1700e8.md",
+    "transcript_word_count": 6618,
+    "transcript_language": "en"
   },
   {
     "guid": "131d8af8-9730-11f1-8b9e-2ba9690b7d34",
@@ -82419,20 +82463,32 @@
     "duration": "510",
     "audio_url": "https://traffic.megaphone.fm/OLD4125010422.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "real-estate": 1
+      },
+      "entity_mention_density": {
+        "real-estate": 0.7
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-12-optimal-finance-daily-3626-5-health-tips-for-entrepreneurs-by-laure-carter-on-heal-7005aa.md",
+    "transcript_word_count": 1160,
+    "transcript_language": "en"
   },
   {
     "guid": "55ab26ec-2045-45f7-90f0-5791673698b0",
@@ -84196,28 +84252,69 @@
     "duration": "1941",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4190894076.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "fire-movement"
+      "sectors": [
+        "real-estate",
+        "healthcare"
       ],
-      "stocks": [],
-      "sentiment": 0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "themes": [
+        "fire-movement",
+        "retirement-planning",
+        "inflation",
+        "debt-payoff",
+        "college-savings",
+        "rates-fed",
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.905,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1
+        "healthcare": 1,
+        "real-estate": 3,
+        "inflation": 3,
+        "rates-fed": 1,
+        "budgeting-saving": 1,
+        "debt-payoff": 2,
+        "fire-movement": 10,
+        "retirement-planning": 10,
+        "college-savings": 2,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "fire-movement": 4.6
+        "healthcare": 0.2,
+        "real-estate": 0.5,
+        "inflation": 0.5,
+        "rates-fed": 0.2,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.3,
+        "fire-movement": 1.6,
+        "retirement-planning": 1.6,
+        "college-savings": 0.3,
+        "amazon": 0.2
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": 1.0,
+        "retirement-planning": -1.0,
+        "inflation": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "fire-movement": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Financial Independence / FIRE, Retirement Planning, Inflation, Debt Payoff. Mentions Amazon. Tone leans bullish (+0.91).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-10-money-guy-show-are-you-on-track-to-becoming-a-multi-millionaire-2026-editio-489f11.md",
+    "transcript_word_count": 6093,
+    "transcript_language": "en"
   },
   {
     "guid": "49631589-2ad9-467e-8f55-b8cffd8c2734",
@@ -169640,36 +169737,112 @@
     "duration": "00:10:34",
     "audio_url": "https://traffic.megaphone.fm/APO7466835525.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "semiconductors",
+        "technology",
+        "consumer-discretionary"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "bond-market",
+        "geopolitics-tariffs",
+        "labor-market",
+        "earnings",
+        "dividends-buybacks",
+        "commodities"
       ],
       "stocks": [
         "nvidia",
-        "walmart"
+        "walmart",
+        "alphabet",
+        "amazon",
+        "microsoft",
+        "amd",
+        "sp500",
+        "nasdaq"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.077,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "nvidia": 2,
-        "walmart": 1
+        "technology": 1,
+        "semiconductors": 3,
+        "ai-infrastructure": 6,
+        "energy": 4,
+        "consumer-discretionary": 1,
+        "geopolitics-tariffs": 2,
+        "labor-market": 2,
+        "commodities": 1,
+        "dealmaking": 4,
+        "earnings": 2,
+        "bond-market": 3,
+        "dividends-buybacks": 2,
+        "nvidia": 16,
+        "microsoft": 1,
+        "alphabet": 2,
+        "amazon": 2,
+        "amd": 1,
+        "walmart": 12,
+        "sp500": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "dealmaking": 9.3,
-        "nvidia": 18.5,
-        "walmart": 9.3
+        "technology": 0.4,
+        "semiconductors": 1.3,
+        "ai-infrastructure": 2.7,
+        "energy": 1.8,
+        "consumer-discretionary": 0.4,
+        "geopolitics-tariffs": 0.9,
+        "labor-market": 0.9,
+        "commodities": 0.4,
+        "dealmaking": 1.8,
+        "earnings": 0.9,
+        "bond-market": 1.3,
+        "dividends-buybacks": 0.9,
+        "nvidia": 7.1,
+        "microsoft": 0.4,
+        "alphabet": 0.9,
+        "amazon": 0.9,
+        "amd": 0.4,
+        "walmart": 5.3,
+        "sp500": 0.4,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
-        "nvidia": -1.0,
-        "walmart": -1.0
+        "ai-infrastructure": 1.0,
+        "semiconductors": 1.0,
+        "consumer-discretionary": 1.0,
+        "dealmaking": -1.0,
+        "bond-market": 1.0,
+        "labor-market": -1.0,
+        "nvidia": 0.333,
+        "walmart": 0.0,
+        "nasdaq": 1.0,
+        "microsoft": 1.0,
+        "alphabet": 1.0,
+        "amazon": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": 1.0,
+        "technology": -1.0,
+        "bond-market": 1.0,
+        "earnings": -1.0,
+        "labor-market": 1.0,
+        "nvidia": -1.0,
+        "walmart": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Semiconductors, IPOs & Dealmaking, Bond Market & Yields, Geopolitics & Tariffs, Labor Market. Mentions Nvidia, Walmart, Alphabet / Google, Amazon, Microsoft. Tone reads roughly neutral (+0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-the-rundown-spacex-files-for-ipo-nvidia-rides-chip-sales-to-record-quart-d74b6a.md",
+    "transcript_word_count": 2139,
+    "transcript_language": "en"
   },
   {
     "guid": "8ce029d8-5511-11f1-98dc-4b4086221776",
