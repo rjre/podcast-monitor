@@ -63082,38 +63082,123 @@
     "audio_url": "https://traffic.megaphone.fm/TIFM8367642222.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "energy",
+        "banks",
+        "private-markets",
+        "insurance"
       ],
       "themes": [
         "inflation",
+        "hedge-funds",
+        "small-caps-value-growth",
         "rates-fed",
+        "dealmaking",
+        "commodities",
+        "emerging-markets",
+        "dividends-buybacks",
+        "recession",
+        "passive-investing",
+        "diversification",
         "housing",
-        "small-caps-value-growth"
+        "regulation-antitrust",
+        "real-estate-investing",
+        "valuation"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "exxon",
+        "sp500",
+        "salesforce",
+        "amazon",
+        "nasdaq",
+        "russell2000"
+      ],
+      "sentiment": -0.312,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "inflation": 2,
-        "rates-fed": 1,
+        "banks": 3,
+        "insurance": 1,
+        "energy": 6,
+        "real-estate": 11,
+        "private-markets": 2,
+        "inflation": 18,
+        "rates-fed": 6,
+        "recession": 2,
         "housing": 1,
-        "small-caps-value-growth": 1
+        "commodities": 3,
+        "dealmaking": 4,
+        "regulation-antitrust": 1,
+        "hedge-funds": 12,
+        "passive-investing": 2,
+        "emerging-markets": 3,
+        "real-estate-investing": 1,
+        "dividends-buybacks": 3,
+        "valuation": 1,
+        "small-caps-value-growth": 7,
+        "diversification": 2,
+        "amazon": 1,
+        "exxon": 4,
+        "sp500": 4,
+        "nasdaq": 1,
+        "russell2000": 1,
+        "salesforce": 2
       },
       "entity_mention_density": {
-        "real-estate": 6.8,
-        "inflation": 6.8,
-        "rates-fed": 3.4,
-        "housing": 3.4,
-        "small-caps-value-growth": 3.4
+        "banks": 0.3,
+        "insurance": 0.1,
+        "energy": 0.5,
+        "real-estate": 0.9,
+        "private-markets": 0.2,
+        "inflation": 1.5,
+        "rates-fed": 0.5,
+        "recession": 0.2,
+        "housing": 0.1,
+        "commodities": 0.3,
+        "dealmaking": 0.3,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 1.0,
+        "passive-investing": 0.2,
+        "emerging-markets": 0.3,
+        "real-estate-investing": 0.1,
+        "dividends-buybacks": 0.3,
+        "valuation": 0.1,
+        "small-caps-value-growth": 0.6,
+        "diversification": 0.2,
+        "amazon": 0.1,
+        "exxon": 0.3,
+        "sp500": 0.3,
+        "nasdaq": 0.1,
+        "russell2000": 0.1,
+        "salesforce": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "energy": -1.0,
+        "inflation": 1.0,
+        "commodities": -1.0,
+        "recession": -0.333,
+        "dealmaking": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "inflation": -0.667,
+        "small-caps-value-growth": -1.0,
+        "passive-investing": -1.0,
+        "hedge-funds": -1.0,
+        "emerging-markets": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Banks & Financials, Inflation, Hedge Funds, Small-Caps, Value & Growth, Interest Rates & Fed Policy. Mentions ExxonMobil, S&P 500, Salesforce, Amazon, Nasdaq. Tone leans bearish (-0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-the-meb-faber-show-zombie-stocks-and-hidden-value-with-bob-robotti-641-176677.md",
+    "transcript_word_count": 11406,
+    "transcript_language": "en"
   },
   {
     "guid": "e63e609c-c3c8-11f0-b1f3-b3e3ab236dfc",
@@ -63892,33 +63977,94 @@
     "duration": "2688",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/TCP9977190308.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "insurance"
+      ],
       "themes": [
-        "passive-investing"
+        "passive-investing",
+        "recession",
+        "rates-fed",
+        "labor-market",
+        "elections-politics",
+        "crypto-regulation",
+        "currency-dollar",
+        "hedge-funds",
+        "market-structure",
+        "retirement-planning",
+        "small-caps-value-growth"
       ],
       "stocks": [
+        "blackrock",
+        "bitcoin",
+        "vanguard",
         "nasdaq",
-        "blackrock"
+        "tesla"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.25,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "passive-investing": 1,
-        "nasdaq": 1,
-        "blackrock": 1
+        "insurance": 1,
+        "crypto": 8,
+        "rates-fed": 1,
+        "recession": 2,
+        "labor-market": 1,
+        "elections-politics": 1,
+        "crypto-regulation": 1,
+        "currency-dollar": 1,
+        "hedge-funds": 1,
+        "passive-investing": 4,
+        "market-structure": 1,
+        "retirement-planning": 1,
+        "small-caps-value-growth": 1,
+        "tesla": 1,
+        "bitcoin": 8,
+        "nasdaq": 2,
+        "vanguard": 5,
+        "blackrock": 17
       },
       "entity_mention_density": {
-        "passive-investing": 2.6,
-        "nasdaq": 2.6,
-        "blackrock": 2.6
+        "insurance": 0.1,
+        "crypto": 0.8,
+        "rates-fed": 0.1,
+        "recession": 0.2,
+        "labor-market": 0.1,
+        "elections-politics": 0.1,
+        "crypto-regulation": 0.1,
+        "currency-dollar": 0.1,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.4,
+        "market-structure": 0.1,
+        "retirement-planning": 0.1,
+        "small-caps-value-growth": 0.1,
+        "tesla": 0.1,
+        "bitcoin": 0.8,
+        "nasdaq": 0.2,
+        "vanguard": 0.5,
+        "blackrock": 1.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "recession": 0.333,
+        "labor-market": 0.333,
+        "bitcoin": 1.0
+      },
+      "entity_conviction": {
+        "crypto": -1.0,
+        "blackrock": -1.0,
+        "vanguard": -1.0,
+        "bitcoin": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Insurance, Passive Investing, Recession Risk, Interest Rates & Fed Policy, Labor Market. Mentions BlackRock, Bitcoin, Vanguard, Nasdaq, Tesla. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-talking-wealth-the-etf-industry-has-lost-its-mind-808ac4.md",
+    "transcript_word_count": 9569,
+    "transcript_language": "en"
   },
   {
     "guid": "26488b76-8517-11f1-92ba-c3c92d2da6d6",
@@ -133343,25 +133489,56 @@
         "real-estate",
         "crypto"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "recession",
+        "housing"
+      ],
+      "stocks": [
+        "meta",
+        "alphabet",
+        "att"
+      ],
+      "sentiment": -0.636,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "crypto": 1
+        "real-estate": 30,
+        "crypto": 3,
+        "recession": 5,
+        "housing": 1,
+        "alphabet": 4,
+        "meta": 9,
+        "att": 1
       },
       "entity_mention_density": {
-        "real-estate": 5.2,
-        "crypto": 2.6
+        "real-estate": 2.8,
+        "crypto": 0.3,
+        "recession": 0.5,
+        "housing": 0.1,
+        "alphabet": 0.4,
+        "meta": 0.9,
+        "att": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "housing": -1.0,
+        "recession": -0.667
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "recession": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Recession Risk, Housing Market. Mentions Meta, Alphabet / Google, AT&T. Tone leans bearish (-0.64).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-the-millionaire-real-estate-agent-139-turn-online-presence-into-local-influence-with-tony-gior-f007b3.md",
+    "transcript_word_count": 10182,
+    "transcript_language": "en"
   },
   {
     "guid": "3817e702-7dd9-11f0-b2e7-f7dca843dea3",
@@ -134631,29 +134808,40 @@
         "fire-movement"
       ],
       "stocks": [
+        "meta",
         "amazon"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.455,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
         "healthcare": 1,
         "real-estate": 1,
-        "fire-movement": 2,
-        "amazon": 1
+        "fire-movement": 6,
+        "amazon": 1,
+        "meta": 2
       },
       "entity_mention_density": {
-        "healthcare": 1.9,
-        "real-estate": 1.9,
-        "fire-movement": 3.7,
-        "amazon": 1.9
+        "healthcare": 0.1,
+        "real-estate": 0.1,
+        "fire-movement": 0.5,
+        "amazon": 0.1,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "fire-movement": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Financial Independence / FIRE. Mentions Meta, Amazon. Tone leans bullish (+0.46).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-14-catching-up-to-fi-not-so-big-life-design-the-architecture-of-wealth-sarah-susa-f012df.md",
+    "transcript_word_count": 10793,
+    "transcript_language": "en"
   },
   {
     "guid": "bd99c954-64ba-11f1-ae26-fbe34afda520",
