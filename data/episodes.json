@@ -46881,50 +46881,125 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_229_-_Frank_Vasquez_Part_1_-_Final_Audio_Edit_v2.mp3?dest-id=3794235",
     "tags": {
       "sectors": [
+        "insurance",
         "healthcare"
       ],
       "themes": [
-        "diversification",
         "inflation",
+        "rates-fed",
+        "bond-market",
         "credit-markets",
+        "recession",
+        "diversification",
         "fire-movement",
-        "bond-market"
+        "market-timing-dca",
+        "passive-income",
+        "tax-planning",
+        "real-estate-investing",
+        "valuation",
+        "behavioral-finance",
+        "small-caps-value-growth"
       ],
       "stocks": [
-        "amazon"
+        "vanguard",
+        "alphabet",
+        "amazon",
+        "meta",
+        "berkshire"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.701,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 1,
         "healthcare": 1,
-        "inflation": 2,
-        "credit-markets": 2,
-        "bond-market": 1,
-        "fire-movement": 2,
-        "diversification": 3,
-        "amazon": 1
+        "inflation": 38,
+        "rates-fed": 35,
+        "recession": 9,
+        "credit-markets": 12,
+        "bond-market": 16,
+        "fire-movement": 4,
+        "real-estate-investing": 1,
+        "passive-income": 2,
+        "valuation": 1,
+        "behavioral-finance": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 9,
+        "tax-planning": 2,
+        "market-timing-dca": 3,
+        "alphabet": 1,
+        "amazon": 1,
+        "meta": 1,
+        "berkshire": 1,
+        "vanguard": 2
       },
       "entity_mention_density": {
-        "healthcare": 1.8,
-        "inflation": 3.6,
-        "credit-markets": 3.6,
-        "bond-market": 1.8,
-        "fire-movement": 3.6,
-        "diversification": 5.4,
-        "amazon": 1.8
+        "insurance": 0.1,
+        "healthcare": 0.1,
+        "inflation": 3.3,
+        "rates-fed": 3.1,
+        "recession": 0.8,
+        "credit-markets": 1.1,
+        "bond-market": 1.4,
+        "fire-movement": 0.4,
+        "real-estate-investing": 0.1,
+        "passive-income": 0.2,
+        "valuation": 0.1,
+        "behavioral-finance": 0.1,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.8,
+        "tax-planning": 0.2,
+        "market-timing-dca": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "vanguard": 0.2
       },
       "entity_sentiment": {
+        "insurance": -1.0,
         "diversification": -1.0,
-        "inflation": -1.0,
-        "credit-markets": -1.0,
-        "bond-market": -1.0
+        "inflation": -0.722,
+        "credit-markets": -0.524,
+        "bond-market": -0.167,
+        "rates-fed": -0.655,
+        "behavioral-finance": -1.0,
+        "valuation": -1.0,
+        "recession": -0.592,
+        "passive-income": -1.0,
+        "market-timing-dca": -1.0,
+        "small-caps-value-growth": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "diversification": -1.0,
+        "inflation": -0.706,
+        "credit-markets": -0.583,
+        "bond-market": -1.0,
+        "fire-movement": -1.0,
+        "rates-fed": -0.828,
+        "real-estate-investing": 1.0,
+        "tax-planning": -1.0,
+        "recession": -0.545,
+        "passive-income": -1.0,
+        "market-timing-dca": -0.412,
+        "small-caps-value-growth": -0.545,
+        "berkshire": -1.0,
+        "vanguard": -1.0,
+        "meta": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "rates-fed",
+        "recession"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Healthcare & Pharma, Inflation, Interest Rates & Fed Policy, Bond Market & Yields, Credit Markets. Mentions Vanguard, Alphabet / Google, Amazon, Meta, Berkshire Hathaway. Tone leans bearish (-0.70).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-02-catching-up-to-fi-are-bonds-dead-fixed-income-fundamentals-part-1-frank-vasque-40fc88.md",
+    "transcript_word_count": 10835,
+    "transcript_language": "en"
   },
   {
     "guid": "16c8ce5e-898b-11f1-8f97-97dee9062f41",
@@ -58834,28 +58909,48 @@
         "real-estate"
       ],
       "themes": [
-        "real-estate-investing"
+        "real-estate-investing",
+        "budgeting-saving",
+        "retirement-planning",
+        "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "real-estate": 2,
-        "real-estate-investing": 2
+        "real-estate": 10,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
+        "retirement-planning": 2,
+        "real-estate-investing": 10
       },
       "entity_mention_density": {
-        "real-estate": 14.7,
-        "real-estate-investing": 14.7
+        "real-estate": 3.4,
+        "budgeting-saving": 0.7,
+        "debt-payoff": 0.3,
+        "retirement-planning": 0.7,
+        "real-estate-investing": 3.4
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "retirement-planning": 1.0
+      },
       "entity_conviction": {
         "real-estate": -1.0
       },
-      "entity_stance": {},
+      "entity_stance": {
+        "real-estate-investing": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Real Estate Investing, Budgeting & Saving, Retirement Planning, Debt Payoff. Tone leans bullish (+0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-27-real-estate-the-ramsey-way-we-have-a-rental-property-nightmare-49bfcb.md",
+    "transcript_word_count": 2775,
+    "transcript_language": "en"
   },
   {
     "guid": "8e3f401c-899a-11f1-9434-6f253d4e3945",
@@ -65243,30 +65338,96 @@
     "duration": "4530",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC7172045328.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "private-markets",
+        "technology",
+        "insurance",
+        "industrials"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "diversification",
+        "earnings",
+        "dividends-buybacks",
+        "hedge-funds",
+        "small-caps-value-growth"
       ],
       "stocks": [
-        "meta"
+        "berkshire",
+        "bitcoin",
+        "sp500",
+        "alphabet",
+        "amazon",
+        "meta",
+        "tesla"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.298,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 2,
-        "meta": 1
+        "technology": 1,
+        "insurance": 1,
+        "industrials": 1,
+        "crypto": 2,
+        "private-markets": 2,
+        "dealmaking": 28,
+        "earnings": 2,
+        "hedge-funds": 1,
+        "dividends-buybacks": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 4,
+        "alphabet": 1,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 1,
+        "berkshire": 3,
+        "bitcoin": 2,
+        "sp500": 2
       },
       "entity_mention_density": {
-        "dealmaking": 5.4,
-        "meta": 2.7
+        "technology": 0.1,
+        "insurance": 0.1,
+        "industrials": 0.1,
+        "crypto": 0.1,
+        "private-markets": 0.1,
+        "dealmaking": 1.8,
+        "earnings": 0.1,
+        "hedge-funds": 0.1,
+        "dividends-buybacks": 0.1,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "berkshire": 0.2,
+        "bitcoin": 0.1,
+        "sp500": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "dealmaking": 1.0,
+        "earnings": 1.0
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "dealmaking": -0.4,
+        "dividends-buybacks": -0.333,
+        "diversification": 0.0,
+        "hedge-funds": -1.0,
+        "berkshire": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Private Equity & Credit, Technology, IPOs & Dealmaking, Diversification & Asset Allocation, Corporate Earnings, Dividends & Buybacks. Mentions Berkshire Hathaway, Bitcoin, S&P 500, Alphabet / Google, Amazon. Tone leans bullish (+0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-the-investor-s-podcast-we-study-billionaires-tip833-perimeter-solutions-prm-a-niche-monopoly-one-acquisit-7864cb.md",
+    "transcript_word_count": 14879,
+    "transcript_language": "en"
   },
   {
     "guid": "82679308-6cfc-4269-bcbd-381f1bad8f19",
@@ -111238,33 +111399,89 @@
     "audio_url": "https://traffic.megaphone.fm/APO7698085171.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "ai-infrastructure",
+        "crypto",
+        "technology",
+        "energy",
+        "real-estate"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "ai-boom",
+        "commodities",
+        "earnings",
+        "inflation",
+        "regulation-antitrust"
       ],
       "stocks": [
-        "microsoft"
+        "microsoft",
+        "nvidia",
+        "sp500",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "dealmaking": 3,
-        "microsoft": 1
+        "technology": 2,
+        "semiconductors": 7,
+        "ai-infrastructure": 3,
+        "energy": 2,
+        "real-estate": 1,
+        "crypto": 3,
+        "inflation": 1,
+        "ai-boom": 2,
+        "commodities": 2,
+        "dealmaking": 9,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "nvidia": 1,
+        "microsoft": 5,
+        "sp500": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "semiconductors": 10.0,
-        "dealmaking": 30.0,
-        "microsoft": 10.0
+        "technology": 0.9,
+        "semiconductors": 3.1,
+        "ai-infrastructure": 1.3,
+        "energy": 0.9,
+        "real-estate": 0.4,
+        "crypto": 1.3,
+        "inflation": 0.4,
+        "ai-boom": 0.9,
+        "commodities": 0.9,
+        "dealmaking": 3.9,
+        "regulation-antitrust": 0.4,
+        "earnings": 0.9,
+        "nvidia": 0.4,
+        "microsoft": 2.2,
+        "sp500": 0.4,
+        "nasdaq": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "real-estate": 1.0,
+        "crypto": 1.0,
+        "ai-boom": -1.0,
+        "regulation-antitrust": -0.333,
+        "microsoft": 1.0,
+        "nvidia": 1.0
+      },
+      "entity_conviction": {
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Crypto & Digital Assets, IPOs & Dealmaking, AI & Machine Learning, Commodities, Corporate Earnings. Mentions Microsoft, Nvidia, S&P 500, Nasdaq. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-the-rundown-openai-ipo-likely-delayed-to-2027-apple-jacks-up-prices-to-a-bd3363.md",
+    "transcript_word_count": 2185,
+    "transcript_language": "en"
   },
   {
     "guid": "pwstreet.podbean.com/d32b180b-8cfa-32bf-941d-8e55782dd8ae",
