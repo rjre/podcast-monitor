@@ -4375,57 +4375,120 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/traffic.megaphone.fm/PPLLC8215943310.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "semiconductors",
+        "crypto"
       ],
       "themes": [
-        "valuation"
+        "dividends-buybacks",
+        "valuation",
+        "dealmaking",
+        "small-caps-value-growth",
+        "ai-boom",
+        "recession",
+        "elections-politics",
+        "budgeting-saving"
       ],
       "stocks": [
         "palantir",
         "alphabet",
         "microsoft",
+        "salesforce",
+        "paypal",
+        "tesla",
+        "bitcoin",
+        "sp500",
+        "amazon",
         "meta",
         "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.351,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "valuation": 1,
-        "microsoft": 1,
-        "alphabet": 2,
+        "technology": 9,
+        "semiconductors": 6,
+        "crypto": 2,
+        "ai-boom": 1,
+        "recession": 1,
+        "elections-politics": 1,
+        "dealmaking": 2,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 3,
+        "valuation": 3,
+        "small-caps-value-growth": 2,
+        "microsoft": 10,
+        "alphabet": 11,
+        "amazon": 1,
         "meta": 1,
-        "palantir": 15,
-        "nasdaq": 1
+        "tesla": 2,
+        "palantir": 121,
+        "bitcoin": 2,
+        "sp500": 2,
+        "nasdaq": 1,
+        "paypal": 3,
+        "salesforce": 4
       },
       "entity_mention_density": {
-        "technology": 2.3,
-        "valuation": 2.3,
-        "microsoft": 2.3,
-        "alphabet": 4.5,
-        "meta": 2.3,
-        "palantir": 34.1,
-        "nasdaq": 2.3
+        "technology": 0.6,
+        "semiconductors": 0.4,
+        "crypto": 0.1,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "dealmaking": 0.1,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.2,
+        "valuation": 0.2,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.6,
+        "alphabet": 0.7,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "palantir": 7.6,
+        "bitcoin": 0.1,
+        "sp500": 0.1,
+        "nasdaq": 0.1,
+        "paypal": 0.2,
+        "salesforce": 0.3
       },
       "entity_sentiment": {
         "technology": -1.0,
         "valuation": -1.0,
-        "palantir": -1.0,
+        "recession": -1.0,
+        "dividends-buybacks": -1.0,
+        "palantir": -0.286,
         "microsoft": -1.0,
         "alphabet": -1.0
       },
       "entity_conviction": {
-        "technology": -1.0,
-        "valuation": -1.0,
-        "palantir": -1.0,
-        "microsoft": -1.0,
-        "alphabet": -1.0
+        "technology": -0.804,
+        "semiconductors": -1.0,
+        "valuation": -0.818,
+        "ai-boom": -1.0,
+        "dealmaking": -1.0,
+        "recession": -0.789,
+        "dividends-buybacks": -0.789,
+        "palantir": -0.783,
+        "microsoft": -0.848,
+        "alphabet": -1.0,
+        "paypal": 1.0,
+        "salesforce": -1.0,
+        "amazon": -1.0
       },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "palantir"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Crypto & Digital Assets, Dividends & Buybacks, Valuation, IPOs & Dealmaking, Small-Caps, Value & Growth. Mentions Palantir, Alphabet / Google, Microsoft, Salesforce, PayPal. Tone leans bearish (-0.35).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-the-investor-s-podcast-we-study-billionaires-tip841-palantir-palantir-is-cheaper-than-i-thought-w-daniel-55cc6f.md",
+    "transcript_word_count": 15540,
+    "transcript_language": "en"
   },
   {
     "guid": "1cfcf04d-19e4-4c8e-a8ed-9f2591a1ef24",
@@ -22623,43 +22686,72 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "banks"
+        "banks",
+        "ai-infrastructure",
+        "consumer-discretionary"
       ],
-      "themes": [],
+      "themes": [
+        "housing",
+        "budgeting-saving",
+        "earnings"
+      ],
       "stocks": [
-        "nasdaq",
         "alphabet",
         "meta",
-        "mastercard"
+        "nasdaq",
+        "mastercard",
+        "amazon",
+        "morgan-stanley"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.4,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "banks": 1,
-        "real-estate": 3,
-        "alphabet": 2,
-        "meta": 1,
+        "ai-infrastructure": 1,
+        "banks": 6,
+        "consumer-discretionary": 1,
+        "real-estate": 9,
+        "housing": 2,
+        "earnings": 1,
+        "budgeting-saving": 2,
+        "alphabet": 7,
+        "amazon": 1,
+        "meta": 4,
+        "morgan-stanley": 1,
         "nasdaq": 4,
-        "mastercard": 1
+        "mastercard": 2
       },
       "entity_mention_density": {
-        "banks": 2.4,
-        "real-estate": 7.1,
-        "alphabet": 4.7,
-        "meta": 2.4,
-        "nasdaq": 9.4,
-        "mastercard": 2.4
+        "ai-infrastructure": 0.2,
+        "banks": 1.0,
+        "consumer-discretionary": 0.2,
+        "real-estate": 1.4,
+        "housing": 0.3,
+        "earnings": 0.2,
+        "budgeting-saving": 0.3,
+        "alphabet": 1.1,
+        "amazon": 0.2,
+        "meta": 0.6,
+        "morgan-stanley": 0.2,
+        "nasdaq": 0.6,
+        "mastercard": 0.3
       },
       "entity_sentiment": {
-        "real-estate": -1.0,
-        "banks": -1.0
+        "real-estate": -0.6,
+        "banks": -1.0,
+        "housing": 0.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, AI Infrastructure, Housing Market, Budgeting & Saving, Corporate Earnings. Mentions Alphabet / Google, Meta, Nasdaq, Mastercard, Amazon. Tone leans bearish (-0.40).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-16-equity-mates-investing-podcast-banks-flag-a-housing-slowdown-ai-won-t-pick-your-stocks-ren-6761e8.md",
+    "transcript_word_count": 5884,
+    "transcript_language": "en"
   },
   {
     "guid": "2c785e8f-e8a5-4394-8993-f0ef7c38248b",
@@ -62502,26 +62594,44 @@
     "duration": "409",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM8614623470.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
+        "tax-planning",
+        "estate-planning",
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "real-estate": 1,
+        "budgeting-saving": 1,
+        "tax-planning": 2,
+        "estate-planning": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.6
+        "real-estate": 0.9,
+        "budgeting-saving": 0.9,
+        "tax-planning": 1.7,
+        "estate-planning": 1.7
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "tax-planning": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Tax Planning, Estate Planning, Budgeting & Saving. Tone leans bullish (+0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-ramsey-everyday-millionaires-this-is-why-you-shouldn-t-quitclaim-your-home-to-your-kids-b299bc.md",
+    "transcript_word_count": 972,
+    "transcript_language": "en"
   },
   {
     "guid": "594d90b4-2989-11f1-996c-634c44f157d1",
@@ -158784,30 +158894,85 @@
     "duration": "1:17:29",
     "audio_url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/feeds.choosefi.com/podcast/audio/790.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "airlines-travel",
+        "real-estate",
+        "industrials"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "passive-investing",
+        "fire-movement",
+        "inflation",
+        "rates-fed",
+        "retirement-planning",
+        "real-estate-investing"
       ],
       "stocks": [
-        "citigroup"
+        "amazon",
+        "disney",
+        "alphabet",
+        "citigroup",
+        "costco",
+        "sp500"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "citigroup": 1
+        "real-estate": 4,
+        "industrials": 1,
+        "airlines-travel": 10,
+        "inflation": 1,
+        "rates-fed": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 7,
+        "fire-movement": 2,
+        "retirement-planning": 1,
+        "real-estate-investing": 1,
+        "alphabet": 1,
+        "amazon": 4,
+        "citigroup": 1,
+        "costco": 1,
+        "sp500": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.4,
-        "citigroup": 1.7
+        "real-estate": 0.2,
+        "industrials": 0.1,
+        "airlines-travel": 0.6,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.4,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "real-estate-investing": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "citigroup": 0.1,
+        "costco": 0.1,
+        "sp500": 0.1,
+        "disney": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "airlines-travel": 1.0,
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0,
+        "fire-movement": -1.0,
+        "rates-fed": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Real Estate, Industrials, Budgeting & Saving, Passive Investing, Financial Independence / FIRE, Inflation. Mentions Amazon, Disney, Alphabet / Google, Citigroup, Costco. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-01-choosefi-601-travel-rewards-101-devon-gimbel-from-point-me-to-first-c-3dba49.md",
+    "transcript_word_count": 15867,
+    "transcript_language": "en"
   },
   {
     "guid": "f6d0cc30-b418-11ef-adc4-1ff500e1fffc",
