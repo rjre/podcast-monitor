@@ -62109,26 +62109,74 @@
     "duration": "2113",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL9529817185.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "retirement-planning"
+      "sectors": [
+        "healthcare",
+        "insurance",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "retirement-planning",
+        "passive-investing",
+        "market-timing-dca",
+        "elections-politics",
+        "volatility",
+        "debt-payoff",
+        "dividends-buybacks",
+        "diversification"
+      ],
+      "stocks": [
+        "vanguard"
+      ],
+      "sentiment": 0.444,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "retirement-planning": 1
+        "insurance": 1,
+        "healthcare": 2,
+        "real-estate": 1,
+        "elections-politics": 1,
+        "volatility": 1,
+        "passive-investing": 3,
+        "debt-payoff": 1,
+        "retirement-planning": 12,
+        "dividends-buybacks": 1,
+        "diversification": 1,
+        "market-timing-dca": 2,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 4.6
+        "insurance": 0.1,
+        "healthcare": 0.3,
+        "real-estate": 0.1,
+        "elections-politics": 0.1,
+        "volatility": 0.1,
+        "passive-investing": 0.4,
+        "debt-payoff": 0.1,
+        "retirement-planning": 1.7,
+        "dividends-buybacks": 0.1,
+        "diversification": 0.1,
+        "market-timing-dca": 0.3,
+        "vanguard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": -1.0,
+        "passive-investing": 1.0,
+        "volatility": 1.0,
+        "vanguard": 1.0
+      },
+      "entity_conviction": {
+        "debt-payoff": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Real Estate, Retirement Planning, Passive Investing, Market Timing & Dollar-Cost Averaging, Elections & Politics. Mentions Vanguard. Tone leans bullish (+0.44).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-money-guy-show-these-money-moves-feel-like-financial-cheat-codes-385c6e.md",
+    "transcript_word_count": 6952,
+    "transcript_language": "en"
   },
   {
     "guid": "b8f4b4cc-1936-4cbf-9f01-b5505872dd11",
@@ -152358,36 +152406,94 @@
     "duration": "4414",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC3649821963.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "crypto",
+        "technology"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "valuation",
+        "small-caps-value-growth",
+        "recession",
+        "budgeting-saving",
+        "dividends-buybacks"
       ],
       "stocks": [
+        "amazon",
         "microsoft",
+        "netflix",
+        "bitcoin",
+        "sp500",
         "meta",
+        "disney",
         "salesforce"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "microsoft": 1,
+        "technology": 1,
+        "consumer-discretionary": 3,
+        "crypto": 2,
+        "recession": 1,
+        "dealmaking": 9,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "small-caps-value-growth": 2,
+        "microsoft": 4,
+        "amazon": 6,
         "meta": 1,
+        "bitcoin": 2,
+        "sp500": 2,
+        "netflix": 4,
+        "disney": 1,
         "salesforce": 1
       },
       "entity_mention_density": {
-        "dealmaking": 2.3,
-        "microsoft": 2.3,
-        "meta": 2.3,
-        "salesforce": 2.3
+        "technology": 0.1,
+        "consumer-discretionary": 0.2,
+        "crypto": 0.1,
+        "recession": 0.1,
+        "dealmaking": 0.6,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.3,
+        "amazon": 0.4,
+        "meta": 0.1,
+        "bitcoin": 0.1,
+        "sp500": 0.1,
+        "netflix": 0.3,
+        "disney": 0.1,
+        "salesforce": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "small-caps-value-growth": -1.0,
+        "valuation": -1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": 1.0,
+        "technology": -1.0,
+        "dealmaking": -0.333,
+        "dividends-buybacks": -1.0,
+        "valuation": -1.0,
+        "microsoft": -1.0,
+        "amazon": 0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Crypto & Digital Assets, Technology, IPOs & Dealmaking, Valuation, Small-Caps, Value & Growth, Recession Risk. Mentions Amazon, Microsoft, Netflix, Bitcoin, S&P 500. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-the-investor-s-podcast-we-study-billionaires-tip820-wix-the-most-asymmetric-ai-bet-w-daniel-mahncke-shawn-82ea75.md",
+    "transcript_word_count": 15077,
+    "transcript_language": "en"
   },
   {
     "guid": "ee3cff10-784f-492e-8bdc-15567023e42f",
@@ -152953,38 +153059,103 @@
     "duration": "01:34:24",
     "audio_url": "https://anchor.fm/s/10bb8090/podcast/play/120961203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-3%2F89b4d60f-5a0c-a1d2-16eb-73a4ac08f866.m4a",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "insurance"
+      ],
       "themes": [
+        "retirement-planning",
+        "inflation",
         "estate-planning",
+        "tax-planning",
+        "rates-fed",
         "elections-politics",
-        "retirement-planning"
+        "passive-investing",
+        "behavioral-finance",
+        "insurance-products",
+        "budgeting-saving",
+        "fire-movement",
+        "dividends-buybacks",
+        "market-timing-dca"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "tesla",
+        "vanguard",
+        "sp500"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.333,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "elections-politics": 1,
-        "retirement-planning": 1,
-        "estate-planning": 2,
-        "amazon": 1
+        "insurance": 1,
+        "healthcare": 2,
+        "inflation": 14,
+        "rates-fed": 5,
+        "elections-politics": 5,
+        "passive-investing": 4,
+        "budgeting-saving": 1,
+        "fire-movement": 1,
+        "retirement-planning": 23,
+        "dividends-buybacks": 1,
+        "behavioral-finance": 2,
+        "tax-planning": 7,
+        "estate-planning": 11,
+        "insurance-products": 2,
+        "market-timing-dca": 1,
+        "amazon": 3,
+        "tesla": 2,
+        "sp500": 1,
+        "vanguard": 2
       },
       "entity_mention_density": {
-        "elections-politics": 2.2,
-        "retirement-planning": 2.2,
-        "estate-planning": 4.3,
-        "amazon": 2.2
+        "insurance": 0.1,
+        "healthcare": 0.1,
+        "inflation": 0.9,
+        "rates-fed": 0.3,
+        "elections-politics": 0.3,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 1.5,
+        "dividends-buybacks": 0.1,
+        "behavioral-finance": 0.1,
+        "tax-planning": 0.5,
+        "estate-planning": 0.7,
+        "insurance-products": 0.1,
+        "market-timing-dca": 0.1,
+        "amazon": 0.2,
+        "tesla": 0.1,
+        "sp500": 0.1,
+        "vanguard": 0.1
       },
       "entity_sentiment": {
-        "amazon": 1.0
+        "dividends-buybacks": 1.0,
+        "amazon": 1.0,
+        "sp500": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": -1.0,
+        "healthcare": -1.0,
+        "retirement-planning": -0.524,
+        "estate-planning": -1.0,
+        "tax-planning": 1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "behavioral-finance": -1.0,
+        "amazon": -1.0,
+        "sp500": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Retirement Planning, Inflation, Estate Planning, Tax Planning. Mentions Amazon, Tesla, Vanguard, S&P 500. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-sound-investing-mike-piper-bainbridge-financial-literacy-series-2026-f3a87f.md",
+    "transcript_word_count": 14650,
+    "transcript_language": "en"
   },
   {
     "guid": "abd9af22-7382-4fb3-804f-93e280c9beee",
@@ -197855,56 +198026,107 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "energy"
+        "semiconductors",
+        "media-entertainment",
+        "technology",
+        "energy",
+        "consumer-discretionary",
+        "industrials"
       ],
       "themes": [
         "commodities",
         "earnings"
       ],
       "stocks": [
-        "nvidia",
-        "amd",
         "amazon",
-        "disney"
+        "amd",
+        "disney",
+        "nvidia",
+        "intel",
+        "microsoft",
+        "alphabet",
+        "sp500",
+        "nasdaq",
+        "uber",
+        "qualcomm"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.636,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 2,
-        "energy": 1,
-        "commodities": 1,
+        "technology": 2,
+        "semiconductors": 10,
+        "ai-infrastructure": 11,
+        "energy": 2,
+        "consumer-discretionary": 1,
+        "industrials": 1,
+        "media-entertainment": 4,
+        "commodities": 2,
         "earnings": 1,
-        "nvidia": 2,
-        "amazon": 1,
-        "amd": 2,
-        "disney": 1
+        "nvidia": 9,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 16,
+        "intel": 2,
+        "amd": 15,
+        "sp500": 1,
+        "nasdaq": 1,
+        "disney": 11,
+        "uber": 1,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 14.1,
-        "energy": 7.0,
-        "commodities": 7.0,
-        "earnings": 7.0,
-        "nvidia": 14.1,
-        "amazon": 7.0,
-        "amd": 14.1,
-        "disney": 7.0
+        "technology": 1.0,
+        "semiconductors": 5.0,
+        "ai-infrastructure": 5.5,
+        "energy": 1.0,
+        "consumer-discretionary": 0.5,
+        "industrials": 0.5,
+        "media-entertainment": 2.0,
+        "commodities": 1.0,
+        "earnings": 0.5,
+        "nvidia": 4.5,
+        "microsoft": 0.5,
+        "alphabet": 0.5,
+        "amazon": 8.0,
+        "intel": 1.0,
+        "amd": 7.5,
+        "sp500": 0.5,
+        "nasdaq": 0.5,
+        "disney": 5.5,
+        "uber": 0.5,
+        "qualcomm": 0.5
       },
       "entity_sentiment": {
         "energy": 0.0,
-        "ai-infrastructure": 0.0,
+        "ai-infrastructure": 0.333,
+        "semiconductors": 0.6,
+        "media-entertainment": 1.0,
         "commodities": 0.0,
         "earnings": 0.0,
-        "nvidia": 0.0,
-        "amd": 0.0,
+        "nvidia": 0.333,
+        "amd": 0.333,
         "amazon": 0.0,
-        "disney": 0.0
+        "disney": 0.5,
+        "sp500": 1.0,
+        "nasdaq": 1.0,
+        "intel": 1.0,
+        "qualcomm": 1.0,
+        "uber": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Media & Entertainment, Commodities, Corporate Earnings. Mentions Amazon, AMD, Disney, Nvidia, Intel. Tone leans bullish (+0.64).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-the-rundown-amd-soars-on-ai-demand-corning-gets-500m-from-nvidia-c897a2.md",
+    "transcript_word_count": 1855,
+    "transcript_language": "en"
   },
   {
     "guid": "69fb593da3c5770dc9c88723",
