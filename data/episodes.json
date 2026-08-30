@@ -35600,28 +35600,77 @@
     "duration": "01:05:19",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/927d12c6-b37f-4857-beda-2d8ad1a6e565/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=927d12c6-b37f-4857-beda-2d8ad1a6e565&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "labor-market"
+      "sectors": [
+        "technology",
+        "energy",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "labor-market",
+        "rates-fed",
+        "inflation",
+        "ai-boom",
+        "bond-market",
+        "recession"
+      ],
+      "stocks": [
+        "vanguard"
+      ],
+      "sentiment": 0.054,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "labor-market": 2
+        "technology": 1,
+        "energy": 1,
+        "real-estate": 1,
+        "inflation": 11,
+        "rates-fed": 13,
+        "ai-boom": 2,
+        "recession": 1,
+        "labor-market": 44,
+        "bond-market": 2,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "labor-market": 32.3
+        "technology": 0.1,
+        "energy": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.9,
+        "rates-fed": 1.1,
+        "ai-boom": 0.2,
+        "recession": 0.1,
+        "labor-market": 3.8,
+        "bond-market": 0.2,
+        "vanguard": 0.1
       },
       "entity_sentiment": {
-        "labor-market": 1.0
+        "real-estate": -1.0,
+        "technology": -1.0,
+        "labor-market": 0.102,
+        "inflation": 0.333,
+        "recession": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "technology": -1.0,
+        "labor-market": -0.757,
+        "ai-boom": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -0.586,
+        "bond-market": 1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "labor-market"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Energy & Oil, Real Estate, Labor Market, Interest Rates & Fed Policy, Inflation, AI & Machine Learning. Mentions Vanguard. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-moody-s-talks-inside-economics-painful-jobs-report-painful-podcast-c04bf8.md",
+    "transcript_word_count": 11596,
+    "transcript_language": "en"
   },
   {
     "guid": "fe774198-05d5-11f1-a338-7f91e4dd25c1",
@@ -78926,32 +78975,122 @@
     "duration": "2122",
     "audio_url": "https://traffic.megaphone.fm/RRM6454696064.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy",
+        "industrials",
+        "semiconductors",
+        "banks",
+        "real-estate"
+      ],
       "themes": [
         "inflation",
-        "japan"
+        "rates-fed",
+        "japan",
+        "geopolitics-tariffs",
+        "commodities",
+        "volatility",
+        "dealmaking",
+        "bond-market"
       ],
-      "stocks": [],
-      "sentiment": -0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "stocks": [
+        "alphabet",
+        "boeing",
+        "sp500"
+      ],
+      "sentiment": -0.507,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 3,
-        "japan": 1
+        "semiconductors": 3,
+        "banks": 1,
+        "energy": 9,
+        "real-estate": 1,
+        "industrials": 5,
+        "inflation": 39,
+        "rates-fed": 7,
+        "japan": 4,
+        "geopolitics-tariffs": 4,
+        "commodities": 4,
+        "volatility": 2,
+        "dealmaking": 1,
+        "bond-market": 1,
+        "alphabet": 1,
+        "boeing": 1,
+        "sp500": 1
       },
       "entity_mention_density": {
-        "inflation": 8.8,
-        "japan": 2.9
+        "semiconductors": 0.4,
+        "banks": 0.1,
+        "energy": 1.3,
+        "real-estate": 0.1,
+        "industrials": 0.7,
+        "inflation": 5.6,
+        "rates-fed": 1.0,
+        "japan": 0.6,
+        "geopolitics-tariffs": 0.6,
+        "commodities": 0.6,
+        "volatility": 0.3,
+        "dealmaking": 0.1,
+        "bond-market": 0.1,
+        "alphabet": 0.1,
+        "boeing": 0.1,
+        "sp500": 0.1
       },
       "entity_sentiment": {
-        "inflation": 0.0,
-        "japan": -1.0
+        "energy": -0.375,
+        "semiconductors": -0.417,
+        "banks": -1.0,
+        "inflation": -0.375,
+        "japan": -0.545,
+        "rates-fed": -0.412,
+        "geopolitics-tariffs": -0.412,
+        "commodities": -0.545,
+        "volatility": -0.167,
+        "bond-market": -0.412,
+        "dealmaking": -0.412,
+        "alphabet": -0.412
       },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_conviction": {
+        "energy": -0.911,
+        "semiconductors": -1.0,
+        "industrials": -1.0,
+        "banks": -1.0,
+        "inflation": -0.943,
+        "japan": -1.0,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "commodities": -0.9,
+        "volatility": -1.0,
+        "bond-market": -1.0,
+        "dealmaking": -1.0,
+        "boeing": -1.0,
+        "alphabet": -1.0
+      },
+      "entity_stance": {
+        "energy": "sell",
+        "semiconductors": "sell",
+        "inflation": "sell",
+        "japan": "sell",
+        "rates-fed": "sell",
+        "geopolitics-tariffs": "sell",
+        "commodities": "sell",
+        "volatility": "sell",
+        "bond-market": "sell",
+        "dealmaking": "sell",
+        "alphabet": "sell"
+      },
+      "entity_contested": [
+        "energy",
+        "inflation"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Industrials, Semiconductors, Inflation, Interest Rates & Fed Policy, Japan & Yen, Geopolitics & Tariffs. Mentions Alphabet / Google, Boeing, S&P 500. Tone leans bearish (-0.51).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-riskreversal-pod-the-parabolic-seven-the-ibm-warning-sign-with-ben-emons-of-f-899679.md",
+    "transcript_word_count": 6656,
+    "transcript_language": "en"
   },
   {
     "guid": "984d2a9e-7c2d-11f1-85ec-cf02095df784",
@@ -92600,41 +92739,82 @@
     "duration": "53:49",
     "audio_url": "https://traffic.libsyn.com/secure/bestinterest/MIX_145_TBI.mp3?dest-id=2640104",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "real-estate"
+      ],
       "themes": [
         "tax-planning",
-        "estate-planning",
         "retirement-planning",
+        "dividends-buybacks",
+        "estate-planning",
+        "passive-investing",
         "behavioral-finance",
         "diversification",
+        "college-savings",
         "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "vanguard",
+        "fidelity",
+        "charles-schwab"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "retirement-planning": 1,
+        "healthcare": 6,
+        "real-estate": 1,
+        "passive-investing": 1,
+        "retirement-planning": 25,
+        "dividends-buybacks": 5,
         "behavioral-finance": 1,
         "diversification": 1,
-        "tax-planning": 10,
-        "estate-planning": 2,
-        "market-timing-dca": 1
+        "tax-planning": 75,
+        "estate-planning": 4,
+        "college-savings": 1,
+        "market-timing-dca": 1,
+        "vanguard": 1,
+        "fidelity": 1,
+        "charles-schwab": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 1.5,
-        "behavioral-finance": 1.5,
-        "diversification": 1.5,
-        "tax-planning": 15.0,
-        "estate-planning": 3.0,
-        "market-timing-dca": 1.5
+        "healthcare": 0.5,
+        "real-estate": 0.1,
+        "passive-investing": 0.1,
+        "retirement-planning": 2.2,
+        "dividends-buybacks": 0.4,
+        "behavioral-finance": 0.1,
+        "diversification": 0.1,
+        "tax-planning": 6.7,
+        "estate-planning": 0.4,
+        "college-savings": 0.1,
+        "market-timing-dca": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 0.1,
+        "charles-schwab": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "tax-planning": 1.0,
+        "dividends-buybacks": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "healthcare": 1.0,
+        "tax-planning": -0.25,
+        "retirement-planning": 1.0,
+        "college-savings": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Tax Planning, Retirement Planning, Dividends & Buybacks, Estate Planning. Mentions Vanguard, Fidelity, Charles Schwab. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-personal-finance-for-long-term-investors-the-roth-conversion-checklist-ama-e145-bfaa11.md",
+    "transcript_word_count": 10606,
+    "transcript_language": "en"
   },
   {
     "guid": "31f7083c-1304-4145-a539-4c42fc34b840",
@@ -172777,32 +172957,160 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/uc64ru73dye28db8/Macrovoices-2026-05-21-Morgan-Downey.mp3",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "ai-infrastructure",
+        "real-estate",
+        "airlines-travel",
+        "semiconductors",
+        "industrials",
+        "materials-mining",
+        "crypto"
       ],
       "themes": [
-        "commodities"
+        "commodities",
+        "esg-climate",
+        "inflation",
+        "rates-fed",
+        "recession",
+        "elections-politics",
+        "hedge-funds",
+        "geopolitics-tariffs",
+        "bond-market",
+        "diversification",
+        "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "nvidia",
+        "amazon",
+        "sp500"
+      ],
+      "sentiment": 0.314,
+      "sentiment_hits": 63,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "commodities": 1
+        "semiconductors": 2,
+        "ai-infrastructure": 4,
+        "energy": 56,
+        "real-estate": 4,
+        "industrials": 1,
+        "materials-mining": 1,
+        "airlines-travel": 3,
+        "crypto": 1,
+        "inflation": 5,
+        "rates-fed": 4,
+        "recession": 4,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 2,
+        "commodities": 15,
+        "esg-climate": 6,
+        "bond-market": 1,
+        "hedge-funds": 2,
+        "diversification": 1,
+        "market-timing-dca": 1,
+        "nvidia": 3,
+        "amazon": 2,
+        "sp500": 2
       },
       "entity_mention_density": {
-        "energy": 10.8,
-        "commodities": 10.8
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.3,
+        "energy": 3.7,
+        "real-estate": 0.3,
+        "industrials": 0.1,
+        "materials-mining": 0.1,
+        "airlines-travel": 0.2,
+        "crypto": 0.1,
+        "inflation": 0.3,
+        "rates-fed": 0.3,
+        "recession": 0.3,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 1.0,
+        "esg-climate": 0.4,
+        "bond-market": 0.1,
+        "hedge-funds": 0.1,
+        "diversification": 0.1,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.2,
+        "amazon": 0.1,
+        "sp500": 0.1
       },
       "entity_sentiment": {
-        "energy": -1.0,
-        "commodities": -1.0
+        "energy": 0.336,
+        "real-estate": 0.0,
+        "industrials": -0.333,
+        "semiconductors": 0.351,
+        "materials-mining": 0.314,
+        "commodities": 0.323,
+        "inflation": 0.316,
+        "bond-market": -1.0,
+        "recession": 0.238,
+        "hedge-funds": -0.333,
+        "rates-fed": 0.351,
+        "elections-politics": 0.351,
+        "market-timing-dca": 0.314,
+        "sp500": 0.368,
+        "amazon": 0.351,
+        "nvidia": 0.351
       },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_conviction": {
+        "energy": -0.633,
+        "real-estate": -1.0,
+        "ai-infrastructure": -1.0,
+        "industrials": -1.0,
+        "crypto": -1.0,
+        "airlines-travel": 1.0,
+        "semiconductors": -0.36,
+        "materials-mining": -0.36,
+        "commodities": -0.338,
+        "inflation": -0.407,
+        "recession": -0.484,
+        "esg-climate": -1.0,
+        "diversification": -1.0,
+        "hedge-funds": -1.0,
+        "rates-fed": -0.36,
+        "elections-politics": -0.36,
+        "market-timing-dca": -0.36,
+        "sp500": -0.36,
+        "amazon": -0.36,
+        "nvidia": -0.308
+      },
+      "entity_stance": {
+        "energy": "buy",
+        "semiconductors": "buy",
+        "materials-mining": "buy",
+        "commodities": "buy",
+        "inflation": "buy",
+        "recession": "buy",
+        "rates-fed": "buy",
+        "elections-politics": "buy",
+        "market-timing-dca": "buy",
+        "sp500": "buy",
+        "amazon": "buy",
+        "nvidia": "buy"
+      },
+      "entity_contested": [
+        "energy",
+        "semiconductors",
+        "materials-mining",
+        "commodities",
+        "inflation",
+        "recession",
+        "rates-fed",
+        "elections-politics",
+        "market-timing-dca",
+        "sp500",
+        "amazon",
+        "nvidia"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Real Estate, Commodities, ESG & Climate, Inflation, Interest Rates & Fed Policy. Mentions Nvidia, Amazon, S&P 500. Tone leans bullish (+0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-macro-voices-macrovoices-533-morgan-downey-the-return-of-oil-101-a1d8d1.md",
+    "transcript_word_count": 14904,
+    "transcript_language": "en"
   },
   {
     "guid": "683398c7-81f7-4d8f-bb47-8a2488a7c9eb",
