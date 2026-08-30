@@ -588,32 +588,91 @@
     "duration": "01:06:41",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/186f5034-9802-4fba-96f9-4b375a37001c/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=186f5034-9802-4fba-96f9-4b375a37001c&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "real-estate",
+        "industrials"
+      ],
       "themes": [
         "inflation",
-        "rates-fed"
+        "rates-fed",
+        "labor-market",
+        "geopolitics-tariffs",
+        "consumer-health",
+        "ai-boom",
+        "fiscal-debt"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "goldman-sachs",
+        "paypal"
+      ],
+      "sentiment": 0.515,
+      "sentiment_hits": 30,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "rates-fed": 1
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "consumer-discretionary": 4,
+        "real-estate": 1,
+        "industrials": 1,
+        "inflation": 44,
+        "rates-fed": 12,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 3,
+        "labor-market": 9,
+        "fiscal-debt": 1,
+        "consumer-health": 3,
+        "goldman-sachs": 1,
+        "paypal": 1
       },
       "entity_mention_density": {
-        "inflation": 8.9,
-        "rates-fed": 8.9
+        "technology": 0.1,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.3,
+        "consumer-discretionary": 0.4,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "inflation": 3.9,
+        "rates-fed": 1.1,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.3,
+        "labor-market": 0.8,
+        "fiscal-debt": 0.1,
+        "consumer-health": 0.3,
+        "goldman-sachs": 0.1,
+        "paypal": 0.1
       },
       "entity_sentiment": {
+        "consumer-discretionary": 1.0,
+        "industrials": 1.0,
         "inflation": 1.0,
-        "rates-fed": 1.0
+        "rates-fed": -0.333,
+        "labor-market": -1.0,
+        "consumer-health": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "industrials": -1.0,
+        "real-estate": -1.0,
+        "ai-infrastructure": -1.0,
+        "inflation": -0.765,
+        "rates-fed": -1.0,
+        "labor-market": -1.0,
+        "geopolitics-tariffs": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, AI Infrastructure, Semiconductors, Inflation, Interest Rates & Fed Policy, Labor Market, Geopolitics & Tariffs. Mentions Goldman Sachs, PayPal. Tone leans bullish (+0.52).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-28-moody-s-talks-inside-economics-more-science-than-fiction-d92713.md",
+    "transcript_word_count": 11153,
+    "transcript_language": "en"
   },
   {
     "guid": "003bf730-05d6-11f1-a338-3f97c77eccb9",
@@ -108036,19 +108095,44 @@
     "audio_url": "https://www.buzzsprout.com/1551448/episodes/19092662-working-at-44-but-wondering-if-retirement-is-closer-than-he-thinks-road-to-retirement.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "retirement-planning",
+        "fire-movement",
+        "dividends-buybacks",
+        "tax-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.111,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "fire-movement": 4,
+        "retirement-planning": 14,
+        "dividends-buybacks": 1,
+        "tax-planning": 1
+      },
+      "entity_mention_density": {
+        "fire-movement": 0.5,
+        "retirement-planning": 1.6,
+        "dividends-buybacks": 0.1,
+        "tax-planning": 0.1
+      },
+      "entity_sentiment": {
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "tax-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Financial Independence / FIRE, Dividends & Buybacks, Tax Planning. Tone reads roughly neutral (+0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-early-retirement-financial-freedom-working-at-44-but-wondering-if-retirement-is-closer-than-he-092662.md",
+    "transcript_word_count": 8639,
+    "transcript_language": "en"
   },
   {
     "guid": "58add6c0-38ff-11f1-a344-771301748760",
@@ -132387,27 +132471,63 @@
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM7173700903.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "insurance",
+        "energy"
       ],
-      "themes": [],
+      "themes": [
+        "budgeting-saving",
+        "real-estate-investing",
+        "rates-fed",
+        "housing",
+        "commodities"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "real-estate": 3
+        "insurance": 1,
+        "energy": 1,
+        "real-estate": 12,
+        "rates-fed": 1,
+        "housing": 1,
+        "commodities": 1,
+        "budgeting-saving": 6,
+        "real-estate-investing": 2
       },
       "entity_mention_density": {
-        "real-estate": 19.5
+        "insurance": 0.3,
+        "energy": 0.3,
+        "real-estate": 3.8,
+        "rates-fed": 0.3,
+        "housing": 0.3,
+        "commodities": 0.3,
+        "budgeting-saving": 1.9,
+        "real-estate-investing": 0.6
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
       "entity_conviction": {
-        "real-estate": -1.0
+        "real-estate": -1.0,
+        "energy": -1.0,
+        "insurance": -1.0,
+        "commodities": -1.0,
+        "budgeting-saving": -0.636,
+        "rates-fed": 1.0,
+        "real-estate-investing": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Energy & Oil, Budgeting & Saving, Real Estate Investing, Interest Rates & Fed Policy, Housing Market. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-real-estate-the-ramsey-way-you-need-to-know-this-to-buy-a-home-today-from-a-real-estate-0b6fda.md",
+    "transcript_word_count": 2977,
+    "transcript_language": "en"
   },
   {
     "guid": "761aad24-6897-11f1-8086-179e9b4121e3",
@@ -185200,32 +185320,60 @@
     "audio_url": "https://traffic.megaphone.fm/GGILR5000446623.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "healthcare",
+        "private-markets"
       ],
       "themes": [
         "retirement-planning",
+        "tax-planning",
+        "elections-politics",
+        "budgeting-saving",
         "fire-movement"
       ],
-      "stocks": [],
+      "stocks": [
+        "amazon",
+        "costco"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "healthcare": 1,
+        "healthcare": 5,
+        "private-markets": 1,
+        "elections-politics": 1,
+        "budgeting-saving": 1,
         "fire-movement": 1,
-        "retirement-planning": 3
+        "retirement-planning": 32,
+        "tax-planning": 12,
+        "amazon": 1,
+        "costco": 1
       },
       "entity_mention_density": {
-        "healthcare": 4.2,
-        "fire-movement": 4.2,
-        "retirement-planning": 12.6
+        "healthcare": 0.8,
+        "private-markets": 0.2,
+        "elections-politics": 0.2,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.2,
+        "retirement-planning": 4.8,
+        "tax-planning": 1.8,
+        "amazon": 0.2,
+        "costco": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "retirement-planning": -1.0,
+        "elections-politics": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Private Equity & Credit, Retirement Planning, Tax Planning, Elections & Politics, Budgeting & Saving. Mentions Amazon, Costco. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-14-retire-sooner-clark-howard-joins-wes-moss-to-talk-roth-strategies-taxes-an-c3873c.md",
+    "transcript_word_count": 6406,
+    "transcript_language": "en"
   },
   {
     "guid": "3e03e3d6-6e36-4efb-b811-4e585f96891a",
