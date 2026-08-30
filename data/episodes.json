@@ -31544,42 +31544,69 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS5413941128.mp3?updated=1733520849",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "insurance"
       ],
       "themes": [
         "budgeting-saving",
         "ai-boom"
       ],
       "stocks": [
+        "amazon",
         "bitcoin",
-        "amazon"
+        "alphabet",
+        "tesla"
       ],
-      "sentiment": 0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.846,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 1,
         "real-estate": 2,
         "ai-boom": 1,
-        "budgeting-saving": 4,
-        "amazon": 1,
+        "budgeting-saving": 12,
+        "alphabet": 1,
+        "amazon": 2,
+        "tesla": 1,
         "bitcoin": 2
       },
       "entity_mention_density": {
-        "real-estate": 3.0,
-        "ai-boom": 1.5,
-        "budgeting-saving": 5.9,
-        "amazon": 1.5,
-        "bitcoin": 3.0
+        "insurance": 0.1,
+        "real-estate": 0.2,
+        "ai-boom": 0.1,
+        "budgeting-saving": 1.2,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "tesla": 0.1,
+        "bitcoin": 0.2
       },
       "entity_sentiment": {
-        "budgeting-saving": 1.0,
-        "amazon": 1.0
+        "insurance": 0.6,
+        "budgeting-saving": 0.714,
+        "amazon": 0.667,
+        "tesla": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "insurance": 0.808,
+        "budgeting-saving": 0.808,
+        "amazon": 0.808,
+        "tesla": -1.0,
+        "alphabet": -1.0
+      },
+      "entity_stance": {
+        "insurance": "buy",
+        "budgeting-saving": "buy",
+        "amazon": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Budgeting & Saving, AI & Machine Learning. Mentions Amazon, Bitcoin, Alphabet / Google, Tesla. Tone leans bullish (+0.85).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-11-the-investing-for-beginners-podcast-aar62-homeownership-progress-update-c6a6f8.md",
+    "transcript_word_count": 9293,
+    "transcript_language": "en"
   },
   {
     "guid": "9eb6b85a-c3c8-11f0-a59c-57ec7e15faab",
@@ -105806,18 +105833,30 @@
     "tags": {
       "sectors": [],
       "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "amazon": 1
+      },
+      "entity_mention_density": {
+        "amazon": 0.5
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Mentions Amazon. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-optimal-finance-daily-3613-part-1-5-ways-to-organize-your-life-and-save-money-by-e-af2d75.md",
+    "transcript_word_count": 1512,
+    "transcript_language": "en"
   },
   {
     "guid": "6c40abef-769c-4d09-94d4-224a0fe1ebb7",
@@ -123043,31 +123082,71 @@
     "duration": "2057",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL6692347835.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "fire-movement",
-        "college-savings"
+      "sectors": [
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "college-savings",
+        "debt-payoff",
+        "rates-fed",
+        "fire-movement",
+        "housing",
+        "estate-planning",
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.429,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1,
-        "college-savings": 1
+        "real-estate": 1,
+        "rates-fed": 3,
+        "housing": 2,
+        "budgeting-saving": 1,
+        "debt-payoff": 8,
+        "fire-movement": 3,
+        "estate-planning": 2,
+        "college-savings": 10,
+        "amazon": 2
       },
       "entity_mention_density": {
-        "fire-movement": 5.2,
-        "college-savings": 5.2
+        "real-estate": 0.1,
+        "rates-fed": 0.4,
+        "housing": 0.3,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 1.2,
+        "fire-movement": 0.4,
+        "estate-planning": 0.3,
+        "college-savings": 1.5,
+        "amazon": 0.3
       },
       "entity_sentiment": {
-        "college-savings": 1.0
+        "college-savings": 1.0,
+        "debt-payoff": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "fire-movement": -1.0,
+        "college-savings": -1.0,
+        "debt-payoff": -1.0,
+        "rates-fed": -1.0,
+        "housing": -1.0
+      },
+      "entity_stance": {
+        "college-savings": "buy",
+        "debt-payoff": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, College Savings & Student Debt, Debt Payoff, Interest Rates & Fed Policy, Financial Independence / FIRE. Mentions Amazon. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-money-guy-show-we-asked-1-000-millionaires-how-they-got-rich-here-s-what-th-66310b.md",
+    "transcript_word_count": 6492,
+    "transcript_language": "en"
   },
   {
     "guid": "7d111cc4-9ffa-48b9-aef6-dbfcb61d2de4",
@@ -201198,19 +201277,40 @@
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.500_IMOps_Sloane__Dave_-_AUDIO_V1.mp3?dest-id=482814",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "salesforce",
+        "amazon"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "dividends-buybacks": 2,
+        "amazon": 1,
+        "salesforce": 2
+      },
+      "entity_mention_density": {
+        "dividends-buybacks": 0.2,
+        "amazon": 0.1,
+        "salesforce": 0.2
+      },
+      "entity_sentiment": {
+        "dividends-buybacks": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Dividends & Buybacks. Mentions Salesforce, Amazon. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-capital-allocators-sloane-payne-and-dave-joerger-why-culture-matters-ep-500-ef93eb.md",
+    "transcript_word_count": 11110,
+    "transcript_language": "en"
   },
   {
     "guid": "9b77d816-462e-11f1-a594-4f5da7dcc6b6",
