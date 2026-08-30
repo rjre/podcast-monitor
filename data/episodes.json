@@ -23009,39 +23009,74 @@
         "healthcare"
       ],
       "themes": [
-        "fire-movement",
+        "retirement-planning",
         "passive-investing",
+        "budgeting-saving",
+        "fire-movement",
+        "diversification",
         "estate-planning",
+        "recession",
         "college-savings"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
         "healthcare": 1,
-        "passive-investing": 1,
-        "fire-movement": 2,
-        "estate-planning": 1,
+        "recession": 1,
+        "passive-investing": 8,
+        "budgeting-saving": 4,
+        "fire-movement": 4,
+        "retirement-planning": 11,
+        "diversification": 3,
+        "estate-planning": 2,
         "college-savings": 1,
-        "amazon": 2
+        "amazon": 2,
+        "meta": 2
       },
       "entity_mention_density": {
-        "healthcare": 1.8,
-        "passive-investing": 1.8,
-        "fire-movement": 3.6,
-        "estate-planning": 1.8,
-        "college-savings": 1.8,
-        "amazon": 3.6
+        "healthcare": 0.1,
+        "recession": 0.1,
+        "passive-investing": 0.6,
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.9,
+        "diversification": 0.2,
+        "estate-planning": 0.2,
+        "college-savings": 0.1,
+        "amazon": 0.2,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "passive-investing": -1.0,
+        "retirement-planning": -1.0,
+        "diversification": -1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "passive-investing": -1.0,
+        "estate-planning": -1.0,
+        "fire-movement": -1.0,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -0.733,
+        "diversification": -0.762,
+        "recession": -1.0,
+        "meta": -0.667
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Retirement Planning, Passive Investing, Budgeting & Saving, Financial Independence / FIRE. Mentions Amazon, Meta. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-16-catching-up-to-fi-this-16-year-old-cfp-exam-passer-is-making-personal-finance-e39b73.md",
+    "transcript_word_count": 11808,
+    "transcript_language": "en"
   },
   {
     "guid": "311de492-9467-11f1-98db-df7ff901765d",
@@ -42215,29 +42250,44 @@
       "sectors": [],
       "themes": [
         "passive-income",
+        "geopolitics-tariffs",
         "budgeting-saving",
         "fire-movement"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
+        "geopolitics-tariffs": 2,
         "budgeting-saving": 1,
         "fire-movement": 1,
-        "passive-income": 4
+        "passive-income": 26,
+        "amazon": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.7,
-        "fire-movement": 3.7,
-        "passive-income": 15.0
+        "geopolitics-tariffs": 1.2,
+        "budgeting-saving": 0.6,
+        "fire-movement": 0.6,
+        "passive-income": 15.4,
+        "amazon": 1.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-income": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Passive Income & Side Hustles, Geopolitics & Tariffs, Budgeting & Saving, Financial Independence / FIRE. Mentions Amazon. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-optimal-finance-daily-3654-is-it-fair-to-earn-passive-income-by-steve-pavlina-on-m-6a0560.md",
+    "transcript_word_count": 1425,
+    "transcript_language": "en"
   },
   {
     "guid": "47818ce2-9044-11f1-80cc-fb5e7951f44a",
@@ -67225,6 +67275,7 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "retirement-planning",
         "budgeting-saving"
       ],
       "stocks": [],
@@ -67232,17 +67283,25 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 2,
+        "retirement-planning": 4
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.7
+        "budgeting-saving": 1.5,
+        "retirement-planning": 3.0
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-ramsey-everyday-millionaires-will-paying-my-mortgage-biweekly-really-pay-it-off-faster-89936e.md",
+    "transcript_word_count": 1142,
+    "transcript_language": "en"
   },
   {
     "guid": "55169bd6-85ae-11f1-ad6f-9fa61b898321",
@@ -136101,40 +136160,172 @@
     "duration": "01:07:44",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/63b47920-13dc-4a45-9543-b76e9b0d6bdd/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=63b47920-13dc-4a45-9543-b76e9b0d6bdd&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "crypto",
+        "ai-infrastructure",
+        "energy",
+        "industrials",
+        "semiconductors",
+        "telecoms",
+        "media-entertainment"
+      ],
       "themes": [
         "inflation",
+        "rates-fed",
+        "ai-boom",
         "dealmaking",
+        "valuation",
+        "diversification",
+        "recession",
+        "commodities",
         "passive-investing",
-        "valuation"
+        "budgeting-saving",
+        "labor-market",
+        "emerging-markets",
+        "career-income",
+        "dividends-buybacks",
+        "small-caps-value-growth"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "sp500",
+        "nvidia",
+        "alphabet",
+        "microsoft",
+        "amazon",
+        "tesla",
+        "palantir",
+        "att",
+        "verizon",
+        "goldman-sachs",
+        "chevron",
+        "vanguard",
+        "fidelity"
+      ],
+      "sentiment": -0.179,
+      "sentiment_hits": 33,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "dealmaking": 1,
-        "passive-investing": 1,
-        "valuation": 1
+        "semiconductors": 1,
+        "ai-infrastructure": 3,
+        "energy": 3,
+        "telecoms": 1,
+        "industrials": 3,
+        "media-entertainment": 1,
+        "crypto": 5,
+        "private-markets": 17,
+        "inflation": 37,
+        "rates-fed": 11,
+        "ai-boom": 7,
+        "recession": 2,
+        "labor-market": 1,
+        "commodities": 2,
+        "dealmaking": 6,
+        "passive-investing": 2,
+        "emerging-markets": 1,
+        "budgeting-saving": 2,
+        "career-income": 1,
+        "dividends-buybacks": 1,
+        "valuation": 4,
+        "small-caps-value-growth": 1,
+        "diversification": 3,
+        "nvidia": 4,
+        "microsoft": 2,
+        "alphabet": 3,
+        "amazon": 2,
+        "tesla": 2,
+        "palantir": 1,
+        "att": 1,
+        "verizon": 1,
+        "goldman-sachs": 1,
+        "chevron": 1,
+        "sp500": 14,
+        "vanguard": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "inflation": 12.7,
-        "dealmaking": 12.7,
-        "passive-investing": 12.7,
-        "valuation": 12.7
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.3,
+        "energy": 0.3,
+        "telecoms": 0.1,
+        "industrials": 0.3,
+        "media-entertainment": 0.1,
+        "crypto": 0.4,
+        "private-markets": 1.4,
+        "inflation": 3.1,
+        "rates-fed": 0.9,
+        "ai-boom": 0.6,
+        "recession": 0.2,
+        "labor-market": 0.1,
+        "commodities": 0.2,
+        "dealmaking": 0.5,
+        "passive-investing": 0.2,
+        "emerging-markets": 0.1,
+        "budgeting-saving": 0.2,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.3,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.3,
+        "nvidia": 0.3,
+        "microsoft": 0.2,
+        "alphabet": 0.3,
+        "amazon": 0.2,
+        "tesla": 0.2,
+        "palantir": 0.1,
+        "att": 0.1,
+        "verizon": 0.1,
+        "goldman-sachs": 0.1,
+        "chevron": 0.1,
+        "sp500": 1.2,
+        "vanguard": 0.1,
+        "fidelity": 0.1
       },
       "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "telecoms": -1.0,
         "dealmaking": -1.0,
         "passive-investing": -1.0,
         "valuation": -1.0,
-        "inflation": -1.0
+        "inflation": 0.333,
+        "rates-fed": 1.0,
+        "ai-boom": -0.053,
+        "diversification": -1.0,
+        "recession": -1.0,
+        "microsoft": 1.0,
+        "amazon": 1.0,
+        "sp500": -1.0,
+        "alphabet": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "industrials": -1.0,
+        "private-markets": 1.0,
+        "ai-infrastructure": -1.0,
+        "telecoms": -1.0,
+        "semiconductors": -1.0,
+        "crypto": -1.0,
+        "dealmaking": -1.0,
+        "valuation": 1.0,
+        "inflation": -1.0,
+        "ai-boom": -1.0,
+        "recession": -1.0,
+        "nvidia": -1.0,
+        "microsoft": -1.0,
+        "amazon": -1.0,
+        "alphabet": -1.0,
+        "tesla": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Crypto & Digital Assets, AI Infrastructure, Inflation, Interest Rates & Fed Policy, AI & Machine Learning, IPOs & Dealmaking. Mentions S&P 500, Nvidia, Alphabet / Google, Microsoft, Amazon. Tone leans bearish (-0.18).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-moody-s-talks-inside-economics-stocks-spacex-and-subways-01489b.md",
+    "transcript_word_count": 11677,
+    "transcript_language": "en"
   },
   {
     "guid": "6a2c555b0592e825459c5ac8",
