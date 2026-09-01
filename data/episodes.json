@@ -2989,24 +2989,39 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.667,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 9,
+        "diversification": 1,
+        "amazon": 11
       },
       "entity_mention_density": {
-        "budgeting-saving": 2.4
+        "budgeting-saving": 0.8,
+        "diversification": 0.1,
+        "amazon": 0.9
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Diversification & Asset Allocation. Mentions Amazon. Tone leans bearish (-0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-stacking-benjamins-the-mental-trick-that-makes-saving-money-effortless-sb1891-XLrKc0.md",
+    "transcript_word_count": 11394,
+    "transcript_language": "en"
   },
   {
     "guid": "095923e3-5c15-4936-b26b-b4b70018f8d6",
@@ -137055,42 +137070,73 @@
     "tags": {
       "sectors": [
         "technology",
-        "real-estate"
+        "energy",
+        "real-estate",
+        "consumer-staples",
+        "airlines-travel"
       ],
       "themes": [
+        "dividends-buybacks",
         "dealmaking",
+        "commodities",
         "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.836,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "real-estate": 1,
-        "dealmaking": 1,
-        "bond-market": 1,
-        "nasdaq": 1
+        "technology": 2,
+        "energy": 2,
+        "consumer-staples": 1,
+        "real-estate": 2,
+        "airlines-travel": 1,
+        "commodities": 2,
+        "dealmaking": 3,
+        "bond-market": 2,
+        "dividends-buybacks": 6,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "technology": 5.8,
-        "real-estate": 5.8,
-        "dealmaking": 5.8,
-        "bond-market": 5.8,
-        "nasdaq": 5.8
+        "technology": 1.5,
+        "energy": 1.5,
+        "consumer-staples": 0.7,
+        "real-estate": 1.5,
+        "airlines-travel": 0.7,
+        "commodities": 1.5,
+        "dealmaking": 2.2,
+        "bond-market": 1.5,
+        "dividends-buybacks": 4.4,
+        "nasdaq": 2.2
       },
       "entity_sentiment": {
+        "technology": 1.0,
         "real-estate": 1.0,
-        "bond-market": 1.0,
-        "dealmaking": 1.0
+        "energy": 0.583,
+        "airlines-travel": 0.0,
+        "bond-market": 0.667,
+        "dealmaking": 1.0,
+        "dividends-buybacks": 1.0,
+        "commodities": 0.583,
+        "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "consumer-staples": -1.0,
+        "nasdaq": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Energy & Oil, Real Estate, Dividends & Buybacks, IPOs & Dealmaking, Commodities, Bond Market & Yields. Mentions Nasdaq. Tone leans bullish (+0.84).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-the-dividend-cafe-tuesday-june-16-2026-608ac0.md",
+    "transcript_word_count": 1203,
+    "transcript_language": "en"
   },
   {
     "guid": "bd6581ca-5dff-41c1-b4c5-b46b01441d87",
@@ -179698,20 +179744,65 @@
     "duration": "290",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/ac6165f4-4315-446e-bab4-b45200eac579/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "real-estate",
+        "crypto"
+      ],
+      "themes": [
+        "ai-boom",
+        "budgeting-saving",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "nvidia",
+        "microsoft"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
+      "entity_mentions": {
+        "technology": 1,
+        "ai-infrastructure": 2,
+        "real-estate": 1,
+        "crypto": 1,
+        "ai-boom": 1,
+        "budgeting-saving": 1,
+        "small-caps-value-growth": 1,
+        "nvidia": 1,
+        "microsoft": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.9,
+        "ai-infrastructure": 1.8,
+        "real-estate": 0.9,
+        "crypto": 0.9,
+        "ai-boom": 0.9,
+        "budgeting-saving": 0.9,
+        "small-caps-value-growth": 0.9,
+        "nvidia": 0.9,
+        "microsoft": 0.9
+      },
+      "entity_sentiment": {
+        "nvidia": 1.0,
+        "microsoft": 1.0
+      },
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "nvidia": 0.0,
+        "microsoft": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Real Estate, AI & Machine Learning, Budgeting & Saving, Small-Caps, Value & Growth. Mentions Nvidia, Microsoft. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-bloomberg-surveillance-single-best-idea-with-tom-keene-brian-levitt-dan-ives-eac579.md",
+    "transcript_word_count": 1068,
+    "transcript_language": "en"
   },
   {
     "guid": "b1d00d56-28bf-44fb-b6a3-f4606a4048ac",
@@ -214076,32 +214167,77 @@
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4087909873.mp3?updated=1777581887",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "banks",
+        "insurance",
+        "consumer-staples"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "rates-fed",
+        "housing",
+        "recession",
+        "passive-investing",
+        "college-savings",
+        "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.2,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "inflation": 2
+        "banks": 1,
+        "insurance": 1,
+        "consumer-staples": 1,
+        "real-estate": 19,
+        "inflation": 32,
+        "rates-fed": 7,
+        "recession": 2,
+        "housing": 7,
+        "passive-investing": 2,
+        "debt-payoff": 1,
+        "college-savings": 2
       },
       "entity_mention_density": {
-        "real-estate": 9.6,
-        "inflation": 9.6
+        "banks": 0.1,
+        "insurance": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 2.5,
+        "inflation": 4.3,
+        "rates-fed": 0.9,
+        "recession": 0.3,
+        "housing": 0.9,
+        "passive-investing": 0.3,
+        "debt-payoff": 0.1,
+        "college-savings": 0.3
       },
       "entity_sentiment": {
-        "real-estate": 1.0,
-        "inflation": 1.0
+        "real-estate": 0.0,
+        "inflation": -0.333,
+        "rates-fed": -0.333,
+        "housing": -0.2,
+        "recession": -0.5,
+        "college-savings": -1.0,
+        "debt-payoff": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 0.5,
+        "inflation": -0.189,
+        "rates-fed": 0.333,
+        "housing": 0.333
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "housing"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Insurance, Inflation, Interest Rates & Fed Policy, Housing Market, Recession Risk. Tone leans bearish (-0.20).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-01-money-guy-show-was-it-easier-for-previous-generations-to-build-wealth-c3627b.md",
+    "transcript_word_count": 7294,
+    "transcript_language": "en"
   },
   {
     "guid": "c74cba7b-3ca9-4483-896d-3cbe9d169633",
