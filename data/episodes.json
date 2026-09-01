@@ -19198,56 +19198,76 @@
     "tags": {
       "sectors": [
         "energy",
+        "consumer-discretionary",
         "real-estate"
       ],
       "themes": [
         "dividends-buybacks",
         "inflation",
-        "housing",
+        "elections-politics",
         "bond-market",
         "budgeting-saving",
-        "small-caps-value-growth"
+        "small-caps-value-growth",
+        "rates-fed",
+        "housing"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.143,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "energy": 1,
+        "energy": 3,
+        "consumer-discretionary": 1,
         "real-estate": 1,
-        "inflation": 3,
+        "inflation": 12,
+        "rates-fed": 1,
         "housing": 1,
-        "bond-market": 1,
-        "budgeting-saving": 1,
-        "dividends-buybacks": 4,
-        "small-caps-value-growth": 1,
-        "nasdaq": 1
+        "elections-politics": 2,
+        "bond-market": 2,
+        "budgeting-saving": 2,
+        "dividends-buybacks": 14,
+        "small-caps-value-growth": 2,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "energy": 5.4,
-        "real-estate": 5.4,
-        "inflation": 16.1,
-        "housing": 5.4,
-        "bond-market": 5.4,
-        "budgeting-saving": 5.4,
-        "dividends-buybacks": 21.5,
-        "small-caps-value-growth": 5.4,
-        "nasdaq": 5.4
+        "energy": 1.9,
+        "consumer-discretionary": 0.6,
+        "real-estate": 0.6,
+        "inflation": 7.5,
+        "rates-fed": 0.6,
+        "housing": 0.6,
+        "elections-politics": 1.3,
+        "bond-market": 1.3,
+        "budgeting-saving": 1.3,
+        "dividends-buybacks": 8.8,
+        "small-caps-value-growth": 1.3,
+        "nasdaq": 1.3
       },
       "entity_sentiment": {
-        "energy": -1.0,
+        "energy": -0.429,
         "real-estate": -1.0,
-        "budgeting-saving": -1.0,
+        "consumer-discretionary": 1.0,
+        "budgeting-saving": -0.429,
         "housing": -1.0,
+        "bond-market": 1.0,
+        "elections-politics": 1.0,
         "nasdaq": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Consumer Discretionary, Real Estate, Dividends & Buybacks, Inflation, Elections & Politics, Bond Market & Yields. Mentions Nasdaq. Tone reads roughly neutral (-0.14) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-the-dividend-cafe-thursday-august-20-2026-27689c.md",
+    "transcript_word_count": 1404,
+    "transcript_language": "en"
   },
   {
     "guid": "ffea0254-05d5-11f1-a338-833d41dd451c",
@@ -80318,26 +80338,48 @@
     "duration": "1567",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/197d9648-88cf-4d8e-a0ab-7934704fc364/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=197d9648-88cf-4d8e-a0ab-7934704fc364&feed=hvWWWzRv&t=podcast&e=nx-s1-5897877&p=510289&d=1567&size=25084743",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "semiconductors",
+        "real-estate"
+      ],
+      "themes": [
+        "housing"
+      ],
       "stocks": [
+        "costco",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "meta": 1
+        "semiconductors": 1,
+        "real-estate": 1,
+        "housing": 1,
+        "meta": 1,
+        "costco": 3
       },
       "entity_mention_density": {
-        "meta": 4.0
+        "semiconductors": 0.2,
+        "real-estate": 0.2,
+        "housing": 0.2,
+        "meta": 0.2,
+        "costco": 0.6
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Real Estate, Housing Market. Mentions Costco, Meta. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-planet-money-can-world-cup-mania-grow-mls-in-the-u-s-7a1479.md",
+    "transcript_word_count": 4762,
+    "transcript_language": "en"
   },
   {
     "guid": "fcd3e781-51a4-4b74-973f-b48a01574294",
@@ -174779,20 +174821,125 @@
     "duration": "00:44:12",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/a4584f15-e9d8-45e1-a923-c0a1f98a854b/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=a4584f15-e9d8-45e1-a923-c0a1f98a854b&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "sectors": [
+        "consumer-discretionary",
+        "technology",
+        "semiconductors",
+        "ai-infrastructure",
+        "real-estate"
+      ],
+      "themes": [
+        "ai-boom",
+        "rates-fed",
+        "housing",
+        "dealmaking",
+        "dividends-buybacks",
+        "earnings",
+        "hedge-funds",
+        "passive-investing"
+      ],
+      "stocks": [
+        "salesforce",
+        "walmart",
+        "microsoft",
+        "nvidia",
+        "amazon",
+        "alphabet",
+        "amd",
+        "micron",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": 0.474,
+      "sentiment_hits": 24,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 7,
+        "semiconductors": 6,
+        "ai-infrastructure": 5,
+        "consumer-discretionary": 8,
+        "real-estate": 4,
+        "rates-fed": 5,
+        "ai-boom": 6,
+        "housing": 2,
+        "dealmaking": 2,
+        "earnings": 1,
+        "hedge-funds": 1,
+        "passive-investing": 1,
+        "dividends-buybacks": 2,
+        "nvidia": 4,
+        "microsoft": 6,
+        "alphabet": 3,
+        "amazon": 4,
+        "amd": 2,
+        "micron": 2,
+        "walmart": 7,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "salesforce": 9
+      },
+      "entity_mention_density": {
+        "technology": 0.8,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 0.6,
+        "consumer-discretionary": 1.0,
+        "real-estate": 0.5,
+        "rates-fed": 0.6,
+        "ai-boom": 0.7,
+        "housing": 0.2,
+        "dealmaking": 0.2,
+        "earnings": 0.1,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.1,
+        "dividends-buybacks": 0.2,
+        "nvidia": 0.5,
+        "microsoft": 0.7,
+        "alphabet": 0.4,
+        "amazon": 0.5,
+        "amd": 0.2,
+        "micron": 0.2,
+        "walmart": 0.8,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "salesforce": 1.1
+      },
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "consumer-discretionary": 1.0,
+        "ai-boom": 1.0,
+        "hedge-funds": -1.0,
+        "nasdaq": 1.0,
+        "nvidia": 0.0,
+        "amazon": 1.0,
+        "walmart": 1.0,
+        "micron": -0.429
+      },
+      "entity_conviction": {
+        "technology": 0.0,
+        "consumer-discretionary": -0.5,
+        "real-estate": -1.0,
+        "ai-boom": -0.333,
+        "dividends-buybacks": 0.0,
+        "housing": -1.0,
+        "nvidia": 1.0,
+        "alphabet": 1.0,
+        "salesforce": -1.0,
+        "amazon": 1.0,
+        "walmart": -0.5,
+        "micron": -1.0
+      },
+      "entity_stance": {
+        "consumer-discretionary": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Technology, Semiconductors, AI & Machine Learning, Interest Rates & Fed Policy, Housing Market, IPOs & Dealmaking. Mentions Salesforce, Walmart, Microsoft, Nvidia, Amazon. Tone leans bullish (+0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-27-26-60b9d5.md",
+    "transcript_word_count": 8363,
+    "transcript_language": "en"
   },
   {
     "guid": "1611dbc9-d2df-4067-8ac6-5549b368bc8e",
@@ -208107,20 +208254,74 @@
     "duration": "3770",
     "audio_url": "https://pdrl.fm/f4ec40/pscrb.fm/rss/p/mgln.ai/e/143/tracking.swap.fm/track/Vjambo9ifGBwbaCTlDBD/traffic.megaphone.fm/SONY6842721011.mp3?updated=1778147929",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "airlines-travel",
+        "media-entertainment"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "market-concentration",
+        "passive-investing",
+        "consumer-health"
+      ],
+      "stocks": [
+        "amazon",
+        "microsoft",
+        "alphabet",
+        "goldman-sachs",
+        "nvidia",
+        "tesla"
+      ],
+      "sentiment": -0.303,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
+      "entity_mentions": {
+        "technology": 3,
+        "media-entertainment": 1,
+        "airlines-travel": 3,
+        "passive-investing": 1,
+        "consumer-health": 1,
+        "budgeting-saving": 2,
+        "market-concentration": 2,
+        "nvidia": 1,
+        "microsoft": 2,
+        "alphabet": 2,
+        "amazon": 4,
+        "tesla": 1,
+        "goldman-sachs": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "media-entertainment": 0.1,
+        "airlines-travel": 0.2,
+        "passive-investing": 0.1,
+        "consumer-health": 0.1,
+        "budgeting-saving": 0.2,
+        "market-concentration": 0.2,
+        "nvidia": 0.1,
+        "microsoft": 0.2,
+        "alphabet": 0.2,
+        "amazon": 0.3,
+        "tesla": 0.1,
+        "goldman-sachs": 0.2
+      },
+      "entity_sentiment": {
+        "consumer-health": -1.0
+      },
+      "entity_conviction": {
+        "passive-investing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Airlines & Travel, Media & Entertainment, Budgeting & Saving, Market Concentration / Mega-cap, Passive Investing, Consumer Health. Mentions Amazon, Microsoft, Alphabet / Google, Goldman Sachs, Nvidia. Tone leans bearish (-0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-financial-tea-with-mrs-dow-jones-the-economics-of-reality-television-ft-survivor-winner-savan-84249a.md",
+    "transcript_word_count": 12408,
+    "transcript_language": "en"
   },
   {
     "guid": "f636e82c-b418-11ef-adc4-df9ec780d197",
