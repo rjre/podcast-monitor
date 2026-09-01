@@ -61497,26 +61497,145 @@
     "duration": "00:43:56",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/24a0a944-2a0d-4a10-abb8-a43831ab4d44/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=24a0a944-2a0d-4a10-abb8-a43831ab4d44&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "tesla"
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "energy",
+        "real-estate",
+        "consumer-discretionary",
+        "insurance",
+        "utilities",
+        "industrials"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 5,
-      "sentiment_confidence": 0.833,
+      "themes": [
+        "earnings",
+        "rates-fed",
+        "dealmaking",
+        "regulation-antitrust",
+        "budgeting-saving",
+        "market-concentration",
+        "behavioral-finance",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "boeing",
+        "nvidia",
+        "alphabet",
+        "apple",
+        "tesla",
+        "jpmorgan",
+        "nasdaq",
+        "salesforce",
+        "broadcom",
+        "microsoft",
+        "netflix"
+      ],
+      "sentiment": 0.207,
+      "sentiment_hits": 34,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "tesla": 1
+        "semiconductors": 5,
+        "ai-infrastructure": 11,
+        "insurance": 1,
+        "energy": 4,
+        "utilities": 1,
+        "consumer-discretionary": 2,
+        "real-estate": 3,
+        "industrials": 1,
+        "rates-fed": 3,
+        "dealmaking": 3,
+        "regulation-antitrust": 3,
+        "earnings": 4,
+        "budgeting-saving": 1,
+        "market-concentration": 1,
+        "behavioral-finance": 1,
+        "market-timing-dca": 1,
+        "nvidia": 4,
+        "apple": 2,
+        "microsoft": 1,
+        "alphabet": 3,
+        "tesla": 2,
+        "jpmorgan": 2,
+        "boeing": 6,
+        "nasdaq": 2,
+        "netflix": 1,
+        "salesforce": 2,
+        "broadcom": 2
       },
       "entity_mention_density": {
-        "tesla": 16.9
+        "semiconductors": 0.6,
+        "ai-infrastructure": 1.4,
+        "insurance": 0.1,
+        "energy": 0.5,
+        "utilities": 0.1,
+        "consumer-discretionary": 0.3,
+        "real-estate": 0.4,
+        "industrials": 0.1,
+        "rates-fed": 0.4,
+        "dealmaking": 0.4,
+        "regulation-antitrust": 0.4,
+        "earnings": 0.5,
+        "budgeting-saving": 0.1,
+        "market-concentration": 0.1,
+        "behavioral-finance": 0.1,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.5,
+        "apple": 0.3,
+        "microsoft": 0.1,
+        "alphabet": 0.4,
+        "tesla": 0.3,
+        "jpmorgan": 0.3,
+        "boeing": 0.8,
+        "nasdaq": 0.3,
+        "netflix": 0.1,
+        "salesforce": 0.3,
+        "broadcom": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 0.2,
+        "energy": 1.0,
+        "consumer-discretionary": 0.167,
+        "real-estate": 1.0,
+        "market-concentration": 0.333,
+        "behavioral-finance": 1.0,
+        "nasdaq": 0.333,
+        "boeing": 1.0,
+        "salesforce": 1.0,
+        "netflix": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "energy": 1.0,
+        "consumer-discretionary": 1.0,
+        "real-estate": -1.0,
+        "industrials": -1.0,
+        "rates-fed": -1.0,
+        "budgeting-saving": -1.0,
+        "earnings": -1.0,
+        "dealmaking": -1.0,
+        "regulation-antitrust": -1.0,
+        "market-timing-dca": -1.0,
+        "alphabet": -1.0,
+        "microsoft": -1.0,
+        "boeing": -1.0,
+        "salesforce": -1.0
+      },
+      "entity_stance": {
+        "apple": "buy"
+      },
+      "entity_contested": [
+        "ai-infrastructure"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Energy & Oil, Corporate Earnings, Interest Rates & Fed Policy, IPOs & Dealmaking, Regulation & Antitrust. Mentions Boeing, Nvidia, Alphabet / Google, Apple, Tesla. Tone leans bullish (+0.21).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-28-halftime-report-can-the-rally-outrun-semi-weakness-7-28-26-28c2aa.md",
+    "transcript_word_count": 7887,
+    "transcript_language": "en"
   },
   {
     "guid": "3d7a9b65-9c0e-4b6f-8978-d102469823ab",
@@ -71305,26 +71424,55 @@
     "duration": "1536",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/91e1835e-0332-40a2-8de2-c80ea0e07a80/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=91e1835e-0332-40a2-8de2-c80ea0e07a80&feed=hvWWWzRv&t=podcast&e=nx-s1-5903288&p=510289&d=1536&size=24586953",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "industrials",
+        "consumer-staples",
+        "real-estate"
+      ],
+      "themes": [
+        "housing",
+        "elections-politics",
+        "budgeting-saving"
+      ],
       "stocks": [
-        "meta"
+        "meta",
+        "vanguard"
       ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "meta": 1
+        "consumer-staples": 2,
+        "real-estate": 1,
+        "industrials": 3,
+        "housing": 1,
+        "elections-politics": 1,
+        "budgeting-saving": 1,
+        "meta": 1,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "meta": 4.9
+        "consumer-staples": 0.4,
+        "real-estate": 0.2,
+        "industrials": 0.6,
+        "housing": 0.2,
+        "elections-politics": 0.2,
+        "budgeting-saving": 0.2,
+        "meta": 0.2,
+        "vanguard": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Consumer Staples, Real Estate, Housing Market, Elections & Politics, Budgeting & Saving. Mentions Meta, Vanguard. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-planet-money-big-lettuce-meets-small-intestine-18d5d0.md",
+    "transcript_word_count": 4453,
+    "transcript_language": "en"
   },
   {
     "guid": "112f12ff-8e43-42ab-a7c2-6d0f6aefdcce",
@@ -115534,20 +115682,42 @@
     "duration": "2869",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML8850844663.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "airlines-travel"
+      ],
+      "themes": [
+        "fire-movement",
+        "passive-income"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
+      "entity_mentions": {
+        "airlines-travel": 1,
+        "fire-movement": 3,
+        "passive-income": 1
+      },
+      "entity_mention_density": {
+        "airlines-travel": 0.1,
+        "fire-movement": 0.3,
+        "passive-income": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "airlines-travel": -1.0,
+        "fire-movement": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Financial Independence / FIRE, Passive Income & Side Hustles. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-earn-invest-746-the-room-where-it-happens-w-jaspal-singh-ba8eef.md",
+    "transcript_word_count": 9519,
+    "transcript_language": "en"
   },
   {
     "guid": "1fce4606-6a54-11f1-aa46-cf6e225a4692",
@@ -209271,20 +209441,64 @@
     "duration": "4523",
     "audio_url": "https://traffic.megaphone.fm/CLS3515065653.mp3?updated=1777959750",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "consumer-discretionary"
+      ],
       "themes": [],
-      "stocks": [],
+      "stocks": [
+        "disney",
+        "alphabet",
+        "berkshire",
+        "amazon",
+        "fidelity",
+        "meta",
+        "tesla",
+        "mastercard"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "technology": 7,
+        "consumer-discretionary": 1,
+        "alphabet": 3,
+        "amazon": 2,
+        "meta": 1,
+        "tesla": 1,
+        "berkshire": 3,
+        "fidelity": 2,
+        "disney": 15,
+        "mastercard": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "consumer-discretionary": 0.1,
+        "alphabet": 0.2,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "berkshire": 0.2,
+        "fidelity": 0.1,
+        "disney": 0.9,
+        "mastercard": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "berkshire": -1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Consumer Discretionary. Mentions Disney, Alphabet / Google, Berkshire Hathaway, Amazon, Fidelity. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-invest-like-the-best-brian-chesky-ai-founder-mode-invest-like-the-best-ep-471-02f9a6.md",
+    "transcript_word_count": 16240,
+    "transcript_language": "en"
   },
   {
     "guid": "a9c02102-44a9-11f1-8d92-87fdd61a32b6",
