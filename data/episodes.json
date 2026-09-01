@@ -117028,20 +117028,58 @@
     "duration": "58:18",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_SDM_Nicholas_Csicsko_-_AUDIO_V2.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "private-markets"
+      ],
+      "themes": [
+        "hedge-funds",
+        "real-estate-investing",
+        "diversification",
+        "geopolitics-tariffs",
+        "dealmaking"
+      ],
+      "stocks": [
+        "cisco",
+        "disney"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "private-markets": 2,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 1,
+        "hedge-funds": 3,
+        "real-estate-investing": 2,
+        "diversification": 2,
+        "cisco": 2,
+        "disney": 1
+      },
+      "entity_mention_density": {
+        "private-markets": 0.2,
+        "geopolitics-tariffs": 0.1,
+        "dealmaking": 0.1,
+        "hedge-funds": 0.3,
+        "real-estate-investing": 0.2,
+        "diversification": 0.2,
+        "cisco": 0.2,
+        "disney": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate-investing": -1.0,
+        "diversification": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Hedge Funds, Real Estate Investing, Diversification & Asset Allocation, Geopolitics & Tariffs. Mentions Cisco, Disney. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-capital-allocators-senior-decision-makers-nicholas-csicsko-trinity-wall-street-8f6a66.md",
+    "transcript_word_count": 10933,
+    "transcript_language": "en"
   },
   {
     "guid": "ad1dd15e-5c1f-11f1-bed9-03b070ba8eef",
@@ -117104,24 +117142,35 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "recession"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 2
+        "recession": 1,
+        "budgeting-saving": 15
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.2
+        "recession": 0.5,
+        "budgeting-saving": 7.7
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "recession": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Recession Risk. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-optimal-finance-daily-3612-simple-ways-to-improve-your-debt-management-skills-by-j-5a4692.md",
+    "transcript_word_count": 1459,
+    "transcript_language": "en"
   },
   {
     "guid": "faac54d6-719b-11f1-8518-db4755c52db8",
@@ -161343,32 +161392,88 @@
     "duration": "2921",
     "audio_url": "https://traffic.megaphone.fm/GGILR8210112900.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "housing",
-        "retirement-planning",
-        "diversification"
+      "sectors": [
+        "real-estate",
+        "healthcare"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "tax-planning",
+        "housing",
+        "diversification",
+        "market-concentration",
+        "retirement-planning",
+        "small-caps-value-growth",
+        "inflation",
+        "rates-fed",
+        "passive-investing",
+        "budgeting-saving",
+        "passive-income",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "fidelity",
+        "amazon"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "housing": 2,
-        "retirement-planning": 1,
-        "diversification": 1
+        "healthcare": 2,
+        "real-estate": 6,
+        "inflation": 1,
+        "rates-fed": 1,
+        "housing": 6,
+        "passive-investing": 1,
+        "budgeting-saving": 1,
+        "retirement-planning": 2,
+        "passive-income": 1,
+        "dividends-buybacks": 1,
+        "market-concentration": 3,
+        "small-caps-value-growth": 2,
+        "diversification": 6,
+        "tax-planning": 10,
+        "amazon": 3,
+        "fidelity": 5
       },
       "entity_mention_density": {
-        "housing": 9.1,
-        "retirement-planning": 4.5,
-        "diversification": 4.5
+        "healthcare": 0.2,
+        "real-estate": 0.7,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "housing": 0.7,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "retirement-planning": 0.2,
+        "passive-income": 0.1,
+        "dividends-buybacks": 0.1,
+        "market-concentration": 0.3,
+        "small-caps-value-growth": 0.2,
+        "diversification": 0.7,
+        "tax-planning": 1.2,
+        "amazon": 0.3,
+        "fidelity": 0.6
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "housing": 1.0,
+        "passive-income": 1.0,
+        "dividends-buybacks": 1.0,
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "inflation": -1.0,
+        "tax-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Tax Planning, Housing Market, Diversification & Asset Allocation, Market Concentration / Mega-cap. Mentions Fidelity, Amazon. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-retire-sooner-when-and-how-to-help-adult-children-roth-conversions-social-442519.md",
+    "transcript_word_count": 8421,
+    "transcript_language": "en"
   },
   {
     "guid": "bd1696ec-5fc4-11f1-ab2f-2702bb6a9910",
@@ -218570,20 +218675,123 @@
     "duration": "00:44:12",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/2f50733d-fd5c-4d84-89ad-c9839c74fbe4/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=2f50733d-fd5c-4d84-89ad-c9839c74fbe4&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "crypto",
+        "technology",
+        "semiconductors",
+        "consumer-discretionary",
+        "real-estate",
+        "utilities",
+        "healthcare"
+      ],
+      "themes": [
+        "ai-boom",
+        "budgeting-saving",
+        "consumer-health",
+        "earnings",
+        "market-concentration"
+      ],
+      "stocks": [
+        "amazon",
+        "microsoft",
+        "alphabet",
+        "mastercard",
+        "nvidia",
+        "qualcomm",
+        "meta",
+        "cisco",
+        "berkshire",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": 0.556,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 7,
+        "semiconductors": 6,
+        "ai-infrastructure": 27,
+        "utilities": 1,
+        "healthcare": 1,
+        "consumer-discretionary": 2,
+        "real-estate": 2,
+        "crypto": 10,
+        "ai-boom": 4,
+        "earnings": 1,
+        "consumer-health": 2,
+        "budgeting-saving": 3,
+        "market-concentration": 1,
+        "nvidia": 3,
+        "microsoft": 13,
+        "alphabet": 13,
+        "amazon": 14,
+        "meta": 1,
+        "cisco": 1,
+        "berkshire": 1,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "mastercard": 7,
+        "qualcomm": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.8,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 3.2,
+        "utilities": 0.1,
+        "healthcare": 0.1,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.2,
+        "crypto": 1.2,
+        "ai-boom": 0.5,
+        "earnings": 0.1,
+        "consumer-health": 0.2,
+        "budgeting-saving": 0.4,
+        "market-concentration": 0.1,
+        "nvidia": 0.4,
+        "microsoft": 1.5,
+        "alphabet": 1.5,
+        "amazon": 1.6,
+        "meta": 0.1,
+        "cisco": 0.1,
+        "berkshire": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "mastercard": 0.8,
+        "qualcomm": 0.2
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "semiconductors": 0.0,
+        "technology": 1.0,
+        "crypto": 1.0,
+        "nasdaq": 1.0,
+        "alphabet": 1.0,
+        "amazon": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "consumer-discretionary": -1.0,
+        "crypto": -0.333,
+        "ai-boom": -1.0,
+        "consumer-health": -1.0,
+        "alphabet": -1.0,
+        "mastercard": -1.0,
+        "microsoft": -0.333,
+        "amazon": -0.333,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Crypto & Digital Assets, Technology, AI & Machine Learning, Budgeting & Saving, Consumer Health, Corporate Earnings. Mentions Amazon, Microsoft, Alphabet / Google, Mastercard, Nvidia. Tone leans bullish (+0.56).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-30-mad-money-w-jim-cramer-mad-money-w-jim-cramer-4-30-26-28a579.md",
+    "transcript_word_count": 8497,
+    "transcript_language": "en"
   },
   {
     "guid": "Buzzsprout-19105739",
