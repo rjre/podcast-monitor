@@ -150739,35 +150739,59 @@
     "duration": "5988",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML7405373326.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "rates-fed",
+        "college-savings",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "alphabet"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "rates-fed": 3,
+        "budgeting-saving": 8,
+        "debt-payoff": 1,
+        "college-savings": 2,
+        "alphabet": 1,
+        "amazon": 10,
+        "meta": 3
       },
       "entity_mention_density": {
-        "budgeting-saving": 2.0,
-        "college-savings": 2.0,
-        "meta": 3.9
+        "banks": 0.1,
+        "rates-fed": 0.2,
+        "budgeting-saving": 0.4,
+        "debt-payoff": 0.1,
+        "college-savings": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.5,
+        "meta": 0.2
       },
       "entity_sentiment": {
         "college-savings": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "meta": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Budgeting & Saving, Interest Rates & Fed Policy, College Savings & Student Debt, Debt Payoff. Mentions Amazon, Meta, Alphabet / Google. Tone reads roughly neutral (+0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-financial-audit-i-finally-snapped-financial-audit-774fb8.md",
+    "transcript_word_count": 18224,
+    "transcript_language": "en"
   },
   {
     "guid": "655dfe26-5f11-11f1-8034-7379b85b9493",
@@ -182357,32 +182381,50 @@
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/3d7dbfe9-0e1c-4db6-a672-d7a3829dfd2e/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=3d7dbfe9-0e1c-4db6-a672-d7a3829dfd2e&feed=hvWWWzRv&t=podcast&e=nx-s1-5831786&p=510289&d=1618&size=25903944",
     "tags": {
       "sectors": [
-        "industrials"
+        "industrials",
+        "technology",
+        "semiconductors"
       ],
-      "themes": [],
+      "themes": [
+        "geopolitics-tariffs"
+      ],
       "stocks": [
         "amazon",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "industrials": 1,
-        "amazon": 1,
+        "technology": 1,
+        "semiconductors": 1,
+        "industrials": 3,
+        "geopolitics-tariffs": 1,
+        "amazon": 8,
         "meta": 1
       },
       "entity_mention_density": {
-        "industrials": 3.7,
-        "amazon": 3.7,
-        "meta": 3.7
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "industrials": 0.7,
+        "geopolitics-tariffs": 0.2,
+        "amazon": 1.9,
+        "meta": 0.2
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "technology": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Technology, Semiconductors, Geopolitics & Tariffs. Mentions Amazon, Meta. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-planet-money-the-giant-factory-town-that-might-be-a-giant-mistake-bae61e.md",
+    "transcript_word_count": 4018,
+    "transcript_language": "en"
   },
   {
     "guid": "9c446921-dc04-47fb-a1fb-b452000d2ff3",
@@ -198608,42 +198650,117 @@
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/b5f0266b-302f-4398-a3b3-efb8bc72fda8/stream.mp3",
     "tags": {
       "sectors": [
-        "materials-mining"
+        "materials-mining",
+        "banks",
+        "real-estate",
+        "technology",
+        "industrials",
+        "media-entertainment"
       ],
       "themes": [
         "rates-fed",
         "inflation",
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "safe-havens",
+        "labor-market",
+        "housing",
+        "recession",
+        "volatility",
+        "dealmaking",
+        "small-caps-value-growth",
+        "diversification"
       ],
       "stocks": [
         "goldman-sachs",
-        "charles-schwab"
+        "charles-schwab",
+        "nasdaq",
+        "amazon",
+        "bank-of-america",
+        "bitcoin",
+        "fidelity"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.237,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "materials-mining": 1,
-        "inflation": 1,
-        "rates-fed": 6,
-        "dividends-buybacks": 1,
-        "goldman-sachs": 2,
-        "charles-schwab": 1
+        "technology": 2,
+        "banks": 4,
+        "real-estate": 3,
+        "industrials": 1,
+        "materials-mining": 5,
+        "media-entertainment": 1,
+        "inflation": 16,
+        "rates-fed": 18,
+        "recession": 1,
+        "labor-market": 2,
+        "housing": 2,
+        "safe-havens": 3,
+        "volatility": 1,
+        "dealmaking": 1,
+        "dividends-buybacks": 10,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "amazon": 1,
+        "goldman-sachs": 5,
+        "bank-of-america": 1,
+        "bitcoin": 1,
+        "nasdaq": 3,
+        "fidelity": 1,
+        "charles-schwab": 5
       },
       "entity_mention_density": {
-        "materials-mining": 6.0,
-        "inflation": 6.0,
-        "rates-fed": 36.1,
-        "dividends-buybacks": 6.0,
-        "goldman-sachs": 12.0,
-        "charles-schwab": 6.0
+        "technology": 0.3,
+        "banks": 0.6,
+        "real-estate": 0.5,
+        "industrials": 0.2,
+        "materials-mining": 0.8,
+        "media-entertainment": 0.2,
+        "inflation": 2.4,
+        "rates-fed": 2.7,
+        "recession": 0.2,
+        "labor-market": 0.3,
+        "housing": 0.3,
+        "safe-havens": 0.5,
+        "volatility": 0.2,
+        "dealmaking": 0.2,
+        "dividends-buybacks": 1.5,
+        "small-caps-value-growth": 0.2,
+        "diversification": 0.2,
+        "amazon": 0.2,
+        "goldman-sachs": 0.8,
+        "bank-of-america": 0.2,
+        "bitcoin": 0.2,
+        "nasdaq": 0.5,
+        "fidelity": 0.2,
+        "charles-schwab": 0.8
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "materials-mining": 1.0,
+        "real-estate": -1.0,
+        "rates-fed": -1.0,
+        "inflation": 0.0,
+        "housing": -1.0,
+        "recession": -1.0,
+        "diversification": -1.0,
+        "nasdaq": -1.0,
+        "bitcoin": 1.0
+      },
+      "entity_conviction": {
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "dealmaking": 1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Materials & Mining, Banks & Financials, Real Estate, Interest Rates & Fed Policy, Inflation, Dividends & Buybacks, Gold & Safe Havens. Mentions Goldman Sachs, Charles Schwab, Nasdaq, Amazon, Bank of America. Tone leans bullish (+0.24).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-14-investtalk-is-goldman-sachs-right-about-the-fed-rate-cut-forecast-42d2fc.md",
+    "transcript_word_count": 6497,
+    "transcript_language": "en"
   },
   {
     "guid": "179ef613-5b48-4670-a752-048e8ea203a7",
@@ -216194,26 +216311,91 @@
     "duration": "4935",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC9708050685.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "meta"
+      "sectors": [
+        "ai-infrastructure",
+        "insurance"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "regulation-antitrust",
+        "dividends-buybacks",
+        "dealmaking",
+        "market-structure",
+        "volatility",
+        "hedge-funds",
+        "career-income",
+        "small-caps-value-growth",
+        "diversification"
+      ],
+      "stocks": [
+        "nasdaq",
+        "disney",
+        "meta",
+        "berkshire",
+        "charles-schwab"
+      ],
+      "sentiment": 0.31,
+      "sentiment_hits": 18,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "meta": 1
+        "ai-infrastructure": 2,
+        "insurance": 1,
+        "volatility": 1,
+        "dealmaking": 4,
+        "regulation-antitrust": 11,
+        "hedge-funds": 1,
+        "market-structure": 2,
+        "career-income": 1,
+        "dividends-buybacks": 8,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "meta": 1,
+        "berkshire": 1,
+        "nasdaq": 23,
+        "charles-schwab": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "meta": 2.2
+        "ai-infrastructure": 0.1,
+        "insurance": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.7,
+        "hedge-funds": 0.1,
+        "market-structure": 0.1,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.5,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "nasdaq": 1.4,
+        "charles-schwab": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "dividends-buybacks": 1.0
+      },
+      "entity_conviction": {
+        "regulation-antitrust": -0.167,
+        "diversification": -1.0,
+        "dealmaking": 0.0,
+        "dividends-buybacks": -1.0,
+        "nasdaq": -0.622,
+        "disney": -1.0,
+        "berkshire": -1.0
+      },
+      "entity_stance": {
+        "regulation-antitrust": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Insurance, Regulation & Antitrust, Dividends & Buybacks, IPOs & Dealmaking, Market Structure & Liquidity. Mentions Nasdaq, Disney, Meta, Berkshire Hathaway, Charles Schwab. Tone leans bullish (+0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-03-the-intrinsic-value-podcast-tivp069-video-otc-markets-otcm-a-picks-and-shovels-play-in-m-fccdb8.md",
+    "transcript_word_count": 16108,
+    "transcript_language": "en"
   },
   {
     "guid": "b5f9f118-456d-11f1-a9ce-235b6e5edd1d",
