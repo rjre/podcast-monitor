@@ -60804,38 +60804,157 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/8585b463-019b-4d72-854e-5b1aac78e6d1/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=8585b463-019b-4d72-854e-5b1aac78e6d1&feed=Bt3ITxGl",
     "tags": {
       "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
         "technology",
-        "ai-infrastructure"
+        "banks",
+        "energy",
+        "industrials",
+        "insurance",
+        "healthcare"
       ],
       "themes": [
         "rates-fed",
+        "inflation",
+        "market-concentration",
         "ai-boom",
-        "inflation"
+        "labor-market",
+        "earnings",
+        "market-timing-dca",
+        "geopolitics-tariffs",
+        "bond-market",
+        "commodities",
+        "safe-havens",
+        "regulation-antitrust",
+        "consumer-health",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "microsoft",
+        "nasdaq",
+        "nvidia",
+        "blackrock",
+        "qualcomm",
+        "alphabet",
+        "tesla",
+        "intel",
+        "robinhood",
+        "broadcom"
+      ],
+      "sentiment": -0.39,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "ai-infrastructure": 1,
-        "inflation": 1,
-        "rates-fed": 2,
-        "ai-boom": 2
+        "technology": 5,
+        "semiconductors": 6,
+        "ai-infrastructure": 22,
+        "banks": 5,
+        "insurance": 2,
+        "energy": 3,
+        "healthcare": 1,
+        "industrials": 3,
+        "inflation": 5,
+        "rates-fed": 29,
+        "ai-boom": 3,
+        "geopolitics-tariffs": 2,
+        "labor-market": 3,
+        "commodities": 1,
+        "safe-havens": 1,
+        "regulation-antitrust": 1,
+        "earnings": 3,
+        "bond-market": 2,
+        "consumer-health": 1,
+        "market-concentration": 4,
+        "diversification": 1,
+        "market-timing-dca": 3,
+        "nvidia": 3,
+        "microsoft": 10,
+        "alphabet": 1,
+        "tesla": 1,
+        "intel": 1,
+        "nasdaq": 5,
+        "blackrock": 2,
+        "robinhood": 1,
+        "broadcom": 1,
+        "qualcomm": 2
       },
       "entity_mention_density": {
-        "technology": 13.3,
-        "ai-infrastructure": 13.3,
-        "inflation": 13.3,
-        "rates-fed": 26.7,
-        "ai-boom": 26.7
+        "technology": 0.6,
+        "semiconductors": 0.8,
+        "ai-infrastructure": 2.8,
+        "banks": 0.6,
+        "insurance": 0.3,
+        "energy": 0.4,
+        "healthcare": 0.1,
+        "industrials": 0.4,
+        "inflation": 0.6,
+        "rates-fed": 3.6,
+        "ai-boom": 0.4,
+        "geopolitics-tariffs": 0.3,
+        "labor-market": 0.4,
+        "commodities": 0.1,
+        "safe-havens": 0.1,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.4,
+        "bond-market": 0.3,
+        "consumer-health": 0.1,
+        "market-concentration": 0.5,
+        "diversification": 0.1,
+        "market-timing-dca": 0.4,
+        "nvidia": 0.4,
+        "microsoft": 1.3,
+        "alphabet": 0.1,
+        "tesla": 0.1,
+        "intel": 0.1,
+        "nasdaq": 0.6,
+        "blackrock": 0.3,
+        "robinhood": 0.1,
+        "broadcom": 0.1,
+        "qualcomm": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": -1.0,
+        "ai-infrastructure": -0.333,
+        "semiconductors": -1.0,
+        "banks": -1.0,
+        "industrials": 1.0,
+        "ai-boom": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "market-timing-dca": -1.0,
+        "nasdaq": -1.0,
+        "microsoft": -1.0,
+        "qualcomm": -1.0,
+        "nvidia": 1.0
+      },
+      "entity_conviction": {
+        "technology": -0.545,
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "energy": -1.0,
+        "ai-boom": -0.545,
+        "rates-fed": -0.785,
+        "inflation": -0.462,
+        "bond-market": -1.0,
+        "market-concentration": -1.0,
+        "market-timing-dca": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "diversification": -1.0,
+        "labor-market": -1.0,
+        "microsoft": -1.0,
+        "nvidia": -1.0,
+        "blackrock": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Interest Rates & Fed Policy, Inflation, Market Concentration / Mega-cap, AI & Machine Learning. Mentions Microsoft, Nasdaq, Nvidia, BlackRock, Qualcomm. Tone leans bearish (-0.39).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-morning-call-ai-spending-fed-policy-and-market-rotation-drive-the-outlook-72808a.md",
+    "transcript_word_count": 7872,
+    "transcript_language": "en"
   },
   {
     "guid": "b8982928-8b2f-11f1-a97f-c3c8c8ad6878",
@@ -120391,30 +120510,78 @@
     "duration": "3035",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/86e4c3ab-1834-4853-a2c1-b47301298b77/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "consumer-discretionary",
+        "real-estate"
+      ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "inflation",
+        "recession",
+        "regulation-antitrust",
+        "behavioral-finance"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "vanguard",
+        "fidelity",
+        "disney"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.485,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1,
-        "meta": 1
+        "technology": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "inflation": 3,
+        "recession": 1,
+        "regulation-antitrust": 1,
+        "fire-movement": 6,
+        "behavioral-finance": 1,
+        "meta": 5,
+        "vanguard": 1,
+        "fidelity": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.6,
-        "meta": 2.6
+        "technology": 0.2,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.3,
+        "recession": 0.1,
+        "regulation-antitrust": 0.1,
+        "fire-movement": 0.5,
+        "behavioral-finance": 0.1,
+        "meta": 0.4,
+        "vanguard": 0.1,
+        "fidelity": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "fire-movement": 1.0,
+        "inflation": -0.167,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "technology": -1.0,
+        "inflation": -1.0,
+        "recession": -1.0,
+        "meta": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Consumer Discretionary, Real Estate, Financial Independence / FIRE, Inflation, Recession Risk, Regulation & Antitrust. Mentions Meta, Vanguard, Fidelity, Disney. Tone leans bullish (+0.48).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-how-to-money-the-understated-power-of-stealth-wealth-1158-bestie-ep-298b77.md",
+    "transcript_word_count": 10875,
+    "transcript_language": "en"
   },
   {
     "guid": "23e2e2bb-6b56-4f4a-8a57-80c371653faf",
@@ -191213,20 +191380,61 @@
     "duration": "3026",
     "audio_url": "https://www.buzzsprout.com/1551448/episodes/19092237-why-i-love-working-for-a-purpose-not-money-retirement-reality.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "healthcare",
+        "real-estate"
+      ],
+      "themes": [
+        "fire-movement",
+        "inflation",
+        "rates-fed",
+        "budgeting-saving",
+        "retirement-planning",
+        "tax-planning"
+      ],
+      "stocks": [
+        "microsoft"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "healthcare": 5,
+        "real-estate": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "budgeting-saving": 1,
+        "fire-movement": 2,
+        "retirement-planning": 1,
+        "tax-planning": 1,
+        "microsoft": 1
+      },
+      "entity_mention_density": {
+        "healthcare": 0.6,
+        "real-estate": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.1,
+        "tax-planning": 0.1,
+        "microsoft": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Financial Independence / FIRE, Inflation, Interest Rates & Fed Policy, Budgeting & Saving. Mentions Microsoft. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-early-retirement-financial-freedom-why-i-love-working-for-a-purpose-not-money-retirement-realit-092237.md",
+    "transcript_word_count": 8425,
+    "transcript_language": "en"
   },
   {
     "guid": "5572bf0c-38ff-11f1-a344-bf88737679b2",
@@ -200714,19 +200922,42 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/77bf3cb1-b861-4bd3-b8ed-b44800ea277e/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "elections-politics",
+        "bond-market"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": -0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "inflation": 10,
+        "elections-politics": 1,
+        "bond-market": 1
+      },
+      "entity_mention_density": {
+        "inflation": 8.6,
+        "elections-politics": 0.9,
+        "bond-market": 0.9
+      },
+      "entity_sentiment": {
+        "bond-market": -1.0
+      },
+      "entity_conviction": {
+        "inflation": -1.0,
+        "bond-market": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Inflation, Elections & Politics, Bond Market & Yields. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-bloomberg-surveillance-single-best-idea-with-tom-keene-ed-yardeni-constance-hunter-ea277e.md",
+    "transcript_word_count": 1115,
+    "transcript_language": "en"
   },
   {
     "guid": "a8f56eac-dd63-4afc-9414-b44800f1d13c",
