@@ -121285,35 +121285,150 @@
     "duration": "2495",
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/6c9d3110-c6e2-4ad6-afd0-9078c540105c/stream.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "geopolitics-tariffs",
-        "japan",
-        "bond-market"
+      "sectors": [
+        "consumer-discretionary",
+        "industrials",
+        "technology",
+        "semiconductors",
+        "ai-infrastructure",
+        "materials-mining"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "rates-fed",
+        "japan",
+        "geopolitics-tariffs",
+        "inflation",
+        "dealmaking",
+        "bond-market",
+        "market-concentration",
+        "ai-boom",
+        "fiscal-debt",
+        "safe-havens",
+        "consumer-health",
+        "retirement-planning",
+        "diversification"
+      ],
+      "stocks": [
+        "nasdaq",
+        "bitcoin",
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "tesla",
+        "exxon",
+        "chevron",
+        "coinbase",
+        "microstrategy"
+      ],
+      "sentiment": -0.136,
+      "sentiment_hits": 26,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "japan": 1,
-        "geopolitics-tariffs": 2,
-        "bond-market": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 1,
+        "consumer-discretionary": 2,
+        "industrials": 2,
+        "materials-mining": 1,
+        "inflation": 4,
+        "rates-fed": 12,
+        "ai-boom": 1,
+        "japan": 9,
+        "geopolitics-tariffs": 9,
+        "fiscal-debt": 1,
+        "safe-havens": 1,
+        "dealmaking": 3,
+        "bond-market": 2,
+        "consumer-health": 1,
+        "retirement-planning": 1,
+        "market-concentration": 2,
+        "diversification": 1,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "tesla": 1,
+        "exxon": 1,
+        "chevron": 1,
+        "coinbase": 1,
+        "microstrategy": 1,
+        "bitcoin": 3,
+        "nasdaq": 4
       },
       "entity_mention_density": {
-        "japan": 5.5,
-        "geopolitics-tariffs": 11.0,
-        "bond-market": 5.5
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.2,
+        "consumer-discretionary": 0.3,
+        "industrials": 0.3,
+        "materials-mining": 0.2,
+        "inflation": 0.7,
+        "rates-fed": 2.0,
+        "ai-boom": 0.2,
+        "japan": 1.5,
+        "geopolitics-tariffs": 1.5,
+        "fiscal-debt": 0.2,
+        "safe-havens": 0.2,
+        "dealmaking": 0.5,
+        "bond-market": 0.3,
+        "consumer-health": 0.2,
+        "retirement-planning": 0.2,
+        "market-concentration": 0.3,
+        "diversification": 0.2,
+        "nvidia": 0.2,
+        "microsoft": 0.2,
+        "alphabet": 0.2,
+        "tesla": 0.2,
+        "exxon": 0.2,
+        "chevron": 0.2,
+        "coinbase": 0.2,
+        "microstrategy": 0.2,
+        "bitcoin": 0.5,
+        "nasdaq": 0.7
       },
       "entity_sentiment": {
+        "consumer-discretionary": -0.429,
+        "industrials": -1.0,
+        "materials-mining": 1.0,
         "geopolitics-tariffs": -1.0,
-        "bond-market": -1.0
+        "bond-market": -1.0,
+        "japan": 0.0,
+        "rates-fed": -0.852,
+        "market-concentration": 0.0,
+        "inflation": -1.0,
+        "consumer-health": -1.0,
+        "retirement-planning": -1.0,
+        "nasdaq": 1.0,
+        "nvidia": 0.0,
+        "microsoft": 0.0,
+        "alphabet": 0.0,
+        "tesla": 0.0,
+        "exxon": 0.0,
+        "chevron": 0.0,
+        "coinbase": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": 1.0,
+        "japan": -1.0,
+        "rates-fed": 1.0,
+        "market-concentration": 1.0,
+        "nasdaq": 1.0,
+        "nvidia": 1.0,
+        "microsoft": 1.0,
+        "alphabet": 1.0,
+        "tesla": 1.0,
+        "microstrategy": 1.0,
+        "bitcoin": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Industrials, Technology, Interest Rates & Fed Policy, Japan & Yen, Geopolitics & Tariffs, Inflation. Mentions Nasdaq, Bitcoin, Nvidia, Microsoft, Alphabet / Google. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-investtalk-fedspeak-vs-geopolitics-which-force-actually-drives-markets-66889e.md",
+    "transcript_word_count": 5912,
+    "transcript_language": "en"
   },
   {
     "guid": "3ea532e3-a15b-4c3a-8faf-307d0a3ee47a",
@@ -128578,39 +128693,92 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_221_-_Allen_Mueller_-_Final_Audio_Edit_v1.mp3?dest-id=3794235",
     "tags": {
       "sectors": [
+        "real-estate",
+        "materials-mining",
+        "energy",
         "healthcare"
       ],
       "themes": [
+        "retirement-planning",
+        "college-savings",
         "fire-movement",
+        "dividends-buybacks",
         "estate-planning",
-        "college-savings"
+        "inflation",
+        "budgeting-saving",
+        "passive-income"
       ],
       "stocks": [
-        "amazon"
+        "meta",
+        "amazon",
+        "fidelity",
+        "disney"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.053,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "energy": 1,
         "healthcare": 1,
-        "fire-movement": 2,
-        "estate-planning": 1,
-        "college-savings": 1,
-        "amazon": 1
+        "real-estate": 2,
+        "materials-mining": 2,
+        "inflation": 3,
+        "budgeting-saving": 3,
+        "fire-movement": 8,
+        "retirement-planning": 11,
+        "passive-income": 1,
+        "dividends-buybacks": 6,
+        "estate-planning": 5,
+        "college-savings": 9,
+        "amazon": 1,
+        "meta": 2,
+        "fidelity": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "healthcare": 1.9,
-        "fire-movement": 3.8,
-        "estate-planning": 1.9,
-        "college-savings": 1.9,
-        "amazon": 1.9
+        "energy": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.2,
+        "materials-mining": 0.2,
+        "inflation": 0.2,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.6,
+        "retirement-planning": 0.8,
+        "passive-income": 0.1,
+        "dividends-buybacks": 0.5,
+        "estate-planning": 0.4,
+        "college-savings": 0.7,
+        "amazon": 0.1,
+        "meta": 0.2,
+        "fidelity": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "estate-planning": -1.0,
+        "retirement-planning": 1.0,
+        "inflation": -1.0,
+        "dividends-buybacks": 1.0,
+        "budgeting-saving": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "estate-planning": -1.0,
+        "fire-movement": -1.0,
+        "retirement-planning": 1.0,
+        "inflation": -1.0,
+        "passive-income": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Materials & Mining, Energy & Oil, Retirement Planning, College Savings & Student Debt, Financial Independence / FIRE, Dividends & Buybacks. Mentions Meta, Amazon, Fidelity, Disney. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-21-catching-up-to-fi-intergenerational-wealth-strategies-to-help-your-family-now-006ca0.md",
+    "transcript_word_count": 12657,
+    "transcript_language": "en"
   },
   {
     "guid": "1f147138-690d-11f1-891d-cf648e958db3",
@@ -132390,20 +132558,84 @@
     "duration": "2932",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/TCP3051694535.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "crypto"
+      ],
+      "themes": [
+        "estate-planning",
+        "tax-planning",
+        "budgeting-saving",
+        "retirement-planning",
+        "diversification"
+      ],
+      "stocks": [
+        "charles-schwab",
+        "alphabet",
+        "vanguard",
+        "fidelity",
+        "robinhood"
+      ],
+      "sentiment": -0.259,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 1,
+        "crypto": 1,
+        "budgeting-saving": 1,
+        "retirement-planning": 1,
+        "diversification": 1,
+        "tax-planning": 2,
+        "estate-planning": 3,
+        "alphabet": 1,
+        "vanguard": 1,
+        "fidelity": 1,
+        "charles-schwab": 12,
+        "robinhood": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 0.1,
+        "crypto": 0.1,
+        "budgeting-saving": 0.1,
+        "retirement-planning": 0.1,
+        "diversification": 0.1,
+        "tax-planning": 0.2,
+        "estate-planning": 0.3,
+        "alphabet": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 0.1,
+        "charles-schwab": 1.2,
+        "robinhood": 0.1
+      },
+      "entity_sentiment": {
+        "retirement-planning": -1.0,
+        "tax-planning": -1.0,
+        "estate-planning": -1.0,
+        "charles-schwab": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "retirement-planning": -1.0,
+        "tax-planning": -1.0,
+        "estate-planning": -1.0,
+        "charles-schwab": -1.0,
+        "vanguard": -1.0,
+        "fidelity": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Crypto & Digital Assets, Estate Planning, Tax Planning, Budgeting & Saving, Retirement Planning. Mentions Charles Schwab, Alphabet / Google, Vanguard, Fidelity, Robinhood. Tone leans bearish (-0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-talking-wealth-the-tech-stack-is-dead-jason-wenk-on-rebuilding-advisor-infr-3e592e.md",
+    "transcript_word_count": 9712,
+    "transcript_language": "en"
   },
   {
     "guid": "45a69eea-6866-11f1-abaf-6f2003ab0bde",
@@ -190922,28 +191154,60 @@
     "audio_url": "https://traffic.megaphone.fm/RRM1348248077.mp3?updated=1778870718",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [
-        "fidelity",
-        "bitcoin"
+      "themes": [
+        "elections-politics",
+        "inflation"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "bitcoin",
+        "fidelity",
+        "goldman-sachs",
+        "morgan-stanley",
+        "coinbase",
+        "disney"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "bitcoin": 6,
-        "fidelity": 7
+        "inflation": 1,
+        "elections-politics": 2,
+        "goldman-sachs": 3,
+        "morgan-stanley": 1,
+        "coinbase": 1,
+        "bitcoin": 25,
+        "fidelity": 7,
+        "disney": 1
       },
       "entity_mention_density": {
-        "bitcoin": 27.8,
-        "fidelity": 32.4
+        "inflation": 0.2,
+        "elections-politics": 0.3,
+        "goldman-sachs": 0.5,
+        "morgan-stanley": 0.2,
+        "coinbase": 0.2,
+        "bitcoin": 4.0,
+        "fidelity": 1.1,
+        "disney": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "elections-politics": -1.0,
+        "bitcoin": -1.0
+      },
+      "entity_conviction": {
+        "inflation": -1.0,
+        "bitcoin": -1.0,
+        "goldman-sachs": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Elections & Politics, Inflation. Mentions Bitcoin, Fidelity, Goldman Sachs, Morgan Stanley, Coinbase. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-15-riskreversal-pod-bitcoin-dante-s-inferno-the-future-of-money-with-anthony-sca-108080.md",
+    "transcript_word_count": 6110,
+    "transcript_language": "en"
   },
   {
     "guid": "4ce161db-722a-44be-b751-2cd89f1d9a3b",
