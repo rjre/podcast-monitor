@@ -3089,20 +3089,43 @@
     "duration": "44:38",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_SUMMER_SERIES_2026_-_Chris_Voss_-_AUDIO_V1.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "dealmaking"
+      ],
+      "stocks": [
+        "disney",
+        "berkshire"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 1,
+        "dealmaking": 1,
+        "berkshire": 1,
+        "disney": 5
+      },
+      "entity_mention_density": {
+        "real-estate": 0.1,
+        "dealmaking": 0.1,
+        "berkshire": 0.1,
+        "disney": 0.6
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, IPOs & Dealmaking. Mentions Disney, Berkshire Hathaway. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-capital-allocators-best-of-negotiations-chris-voss-99eb7d.md",
+    "transcript_word_count": 8621,
+    "transcript_language": "en"
   },
   {
     "guid": "6f677fb8-2d0d-4251-8613-b4ca48022616",
@@ -150281,35 +150304,130 @@
     "audio_url": "https://traffic.megaphone.fm/CLS6537493219.mp3",
     "tags": {
       "sectors": [
-        "technology",
         "semiconductors",
-        "private-markets"
+        "technology",
+        "ai-infrastructure",
+        "private-markets",
+        "industrials",
+        "autos-ev",
+        "banks",
+        "insurance",
+        "telecoms"
       ],
       "themes": [
-        "hedge-funds"
+        "hedge-funds",
+        "small-caps-value-growth",
+        "regulation-antitrust",
+        "budgeting-saving"
       ],
-      "stocks": [],
+      "stocks": [
+        "amazon",
+        "alphabet",
+        "nvidia",
+        "microsoft",
+        "tesla",
+        "meta",
+        "berkshire",
+        "walmart",
+        "fidelity",
+        "cisco",
+        "tsmc",
+        "goldman-sachs",
+        "robinhood",
+        "salesforce",
+        "broadcom",
+        "qualcomm"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 2,
-        "semiconductors": 2,
-        "private-markets": 1,
-        "hedge-funds": 2
+        "technology": 10,
+        "semiconductors": 12,
+        "ai-infrastructure": 6,
+        "banks": 1,
+        "insurance": 1,
+        "telecoms": 1,
+        "industrials": 2,
+        "autos-ev": 2,
+        "private-markets": 3,
+        "regulation-antitrust": 1,
+        "hedge-funds": 5,
+        "budgeting-saving": 1,
+        "small-caps-value-growth": 2,
+        "nvidia": 6,
+        "microsoft": 3,
+        "alphabet": 8,
+        "amazon": 18,
+        "meta": 2,
+        "tesla": 3,
+        "cisco": 1,
+        "tsmc": 1,
+        "goldman-sachs": 1,
+        "berkshire": 2,
+        "walmart": 2,
+        "fidelity": 2,
+        "robinhood": 1,
+        "salesforce": 1,
+        "broadcom": 1,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "technology": 3.8,
-        "semiconductors": 3.8,
-        "private-markets": 1.9,
-        "hedge-funds": 3.8
+        "technology": 0.8,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.5,
+        "banks": 0.1,
+        "insurance": 0.1,
+        "telecoms": 0.1,
+        "industrials": 0.2,
+        "autos-ev": 0.2,
+        "private-markets": 0.2,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 0.4,
+        "budgeting-saving": 0.1,
+        "small-caps-value-growth": 0.2,
+        "nvidia": 0.5,
+        "microsoft": 0.2,
+        "alphabet": 0.6,
+        "amazon": 1.4,
+        "meta": 0.2,
+        "tesla": 0.2,
+        "cisco": 0.1,
+        "tsmc": 0.1,
+        "goldman-sachs": 0.1,
+        "berkshire": 0.2,
+        "walmart": 0.2,
+        "fidelity": 0.2,
+        "robinhood": 0.1,
+        "salesforce": 0.1,
+        "broadcom": 0.1,
+        "qualcomm": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "regulation-antitrust": 1.0,
+        "nvidia": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": 1.0,
+        "technology": -1.0,
+        "private-markets": -1.0,
+        "ai-infrastructure": -1.0,
+        "regulation-antitrust": -1.0,
+        "small-caps-value-growth": -1.0,
+        "amazon": -1.0,
+        "alphabet": 0.111
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, AI Infrastructure, Hedge Funds, Small-Caps, Value & Growth, Regulation & Antitrust, Budgeting & Saving. Mentions Amazon, Alphabet / Google, Nvidia, Microsoft, Tesla. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-invest-like-the-best-alex-sacerdote-how-to-invest-through-technology-cycles-inves-9926c0.md",
+    "transcript_word_count": 12314,
+    "transcript_language": "en"
   },
   {
     "guid": "e7c4da30-5e88-11f1-97d3-9bfa4c201a2c",
@@ -167556,33 +167674,72 @@
     "duration": "5905",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML7377923332.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "private-markets",
+        "banks",
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "rates-fed",
+        "college-savings",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "verizon",
+        "alphabet",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "healthcare": 9,
+        "real-estate": 1,
+        "private-markets": 3,
+        "rates-fed": 4,
+        "budgeting-saving": 10,
+        "debt-payoff": 1,
+        "college-savings": 2,
+        "alphabet": 1,
+        "amazon": 8,
+        "meta": 2,
+        "verizon": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.9,
-        "college-savings": 2.0,
-        "meta": 3.9
+        "banks": 0.1,
+        "healthcare": 0.5,
+        "real-estate": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.2,
+        "budgeting-saving": 0.6,
+        "debt-payoff": 0.1,
+        "college-savings": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.4,
+        "meta": 0.1,
+        "verizon": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Private Equity & Credit, Banks & Financials, Budgeting & Saving, Interest Rates & Fed Policy, College Savings & Student Debt, Debt Payoff. Mentions Amazon, Meta, Verizon, Alphabet / Google, Netflix. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-financial-audit-i-m-going-to-get-sued-for-this-financial-audit-cbefc8.md",
+    "transcript_word_count": 17534,
+    "transcript_language": "en"
   },
   {
     "guid": "5a5d90e8-e98e-4210-8ca0-b45900ed115e",
@@ -182944,35 +183101,88 @@
     "duration": "01:03:26",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_215_-_How_to_Money_or_Bills_musings_Weds_Crossover_-_Final_Audio_Edit_v1.mp3?dest-id=3794235",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation",
-        "fire-movement",
-        "college-savings",
-        "debt-payoff"
+      "sectors": [
+        "real-estate",
+        "industrials"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "fire-movement",
+        "debt-payoff",
+        "insurance-products",
+        "college-savings",
+        "inflation",
+        "budgeting-saving",
+        "volatility",
+        "passive-investing",
+        "retirement-planning",
+        "real-estate-investing",
+        "passive-income",
+        "career-income"
+      ],
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": 0.091,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 2,
-        "debt-payoff": 1,
-        "fire-movement": 2,
-        "college-savings": 2
+        "real-estate": 1,
+        "industrials": 1,
+        "inflation": 3,
+        "volatility": 1,
+        "passive-investing": 1,
+        "budgeting-saving": 2,
+        "debt-payoff": 9,
+        "fire-movement": 17,
+        "retirement-planning": 1,
+        "real-estate-investing": 1,
+        "passive-income": 1,
+        "career-income": 1,
+        "college-savings": 4,
+        "insurance-products": 5,
+        "meta": 5
       },
       "entity_mention_density": {
-        "inflation": 3.8,
-        "debt-payoff": 1.9,
-        "fire-movement": 3.8,
-        "college-savings": 3.8
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "inflation": 0.2,
+        "volatility": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.7,
+        "fire-movement": 1.4,
+        "retirement-planning": 0.1,
+        "real-estate-investing": 0.1,
+        "passive-income": 0.1,
+        "career-income": 0.1,
+        "college-savings": 0.3,
+        "insurance-products": 0.4,
+        "meta": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "fire-movement": 1.0,
+        "career-income": 1.0,
+        "volatility": 1.0
+      },
+      "entity_conviction": {
+        "debt-payoff": -1.0,
+        "fire-movement": -1.0,
+        "college-savings": -1.0,
+        "passive-income": -1.0,
+        "meta": -1.0
+      },
+      "entity_stance": {
+        "real-estate-investing": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Financial Independence / FIRE, Debt Payoff, Insurance Products, College Savings & Student Debt. Mentions Meta. Tone reads roughly neutral (+0.09).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-catching-up-to-fi-why-you-should-stop-beating-yourself-up-for-starting-late-ho-1d108a.md",
+    "transcript_word_count": 11986,
+    "transcript_language": "en"
   },
   {
     "guid": "559a5aa8-38ff-11f1-a344-ff13a77b60a7",
