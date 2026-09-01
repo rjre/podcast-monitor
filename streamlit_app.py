@@ -13,6 +13,7 @@ files directly.
 """
 import json
 import os
+import sys
 from datetime import datetime, timedelta, timezone
 
 import altair as alt
@@ -22,6 +23,14 @@ import streamlit as st
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CONFIG_DIR = os.path.join(ROOT, "config")
 DATA_DIR = os.path.join(ROOT, "data")
+
+# build_aggregates is the exact same rising/new/divergent/momentum logic
+# that produces data/aggregates.json -- reused here (not reimplemented) so
+# "Things to notice" can be recomputed live over whatever subset of
+# episodes the current filters leave in view. Pure stdlib, no pipeline
+# dependency (anthropic/faster-whisper) gets pulled in by this.
+sys.path.insert(0, os.path.join(ROOT, "pipeline"))
+from run import build_aggregates  # noqa: E402
 
 # Validated categorical palette (dataviz skill reference palette), four
 # slots chosen to skip the one pairing flagged as unsafe (yellow/orange).
@@ -467,16 +476,12 @@ def render_notice_row(kind, label, detail, badge_text, badge_cls):
     )
 
 
-def render_things_to_notice(aggregates):
+def render_things_to_notice(aggregates, scope_caption):
     st.subheader("\U0001F50E Things to notice")
     if not aggregates:
         st.caption("Run the pipeline at least once to populate data/aggregates.json.")
         return
-    st.caption(
-        "Automatically surfaced from mention volume and tone across all tracked podcasts — "
-        "independent of the filters above, so nothing gets missed by only looking at what "
-        "you already searched for."
-    )
+    st.caption(scope_caption)
     entities = all_aggregate_entities(aggregates)
 
     col_rising, col_new, col_tone = st.columns(3)
@@ -700,14 +705,30 @@ def main():
 
     # ---------------- Filters ----------------
     st.markdown("---")
+    all_podcast_names = sorted(p["name"] for p in podcasts)
+    quick_col, _ = st.columns([2, 4])
+    with quick_col:
+        quick_pick = st.selectbox(
+            "\U0001F3AF Jump straight to one podcast",
+            ["All podcasts"] + all_podcast_names,
+            help="Bypasses the Categories/Regions/Podcasts filters below entirely -- pick a show "
+                 "here to see just that show, regardless of what's selected below.",
+        )
+
+    other_filters_disabled = quick_pick != "All podcasts"
+    if other_filters_disabled:
+        st.caption(f"Showing **{quick_pick}** only. The Categories/Regions/Podcasts filters below are ignored while this is set -- pick \"All podcasts\" above to use them again.")
+
     fc1, fc_region, fc2 = st.columns([1.8, 1.6, 2.6])
     with fc1:
         category_labels = [c["label"] for c in categories]
-        selected_categories = st.multiselect("Categories", category_labels, default=category_labels)
+        selected_categories = st.multiselect("Categories", category_labels, default=category_labels,
+                                              disabled=other_filters_disabled)
     with fc_region:
         region_options = sorted({region_label(p.get("region", "")) for p in podcasts})
         selected_regions = st.multiselect(
             "Regions", region_options, default=region_options,
+            disabled=other_filters_disabled,
             help="Podcast is tagged by publisher/host location, not episode content. Most tracked "
                  "shows are US-based -- use this to check whether a reading changes once non-US "
                  "shows are isolated or excluded.",
@@ -717,7 +738,8 @@ def main():
                                    if categories_by_id.get(p.get("category"), {}).get("label") in selected_categories
                                    and region_label(p.get("region", "")) in selected_regions]
         podcast_names = [p["name"] for p in podcasts_in_categories]
-        selected_podcasts = st.multiselect("Podcasts (narrow further)", podcast_names, default=podcast_names)
+        selected_podcasts = st.multiselect("Podcasts (narrow further)", podcast_names, default=podcast_names,
+                                            disabled=other_filters_disabled)
 
     f2, f3, f4 = st.columns([2, 1.4, 2])
     with f2:
@@ -732,7 +754,10 @@ def main():
         search = st.text_input("Search titles & show notes", "")
 
     df = episodes_to_df(episodes, podcasts_by_id, categories_by_id)
-    df = df[df["podcast_name"].isin(selected_podcasts)]
+    if other_filters_disabled:
+        df = df[df["podcast_name"] == quick_pick]
+    else:
+        df = df[df["podcast_name"].isin(selected_podcasts)]
 
     if days != "All":
         cutoff = pd.Timestamp.now(tz="UTC") - pd.Timedelta(days=int(days))
@@ -782,7 +807,30 @@ def main():
                 render_region_breakdown(df)
 
         st.markdown("---")
-        render_things_to_notice(aggregates)
+        filters_active = (
+            other_filters_disabled
+            or len(selected_categories) != len(categories)
+            or len(selected_regions) != len(region_options)
+            or len(selected_podcasts) != len(podcasts_in_categories)
+            or entity_choice != "All"
+            or days != "90"
+            or bool(search.strip())
+        )
+        if filters_active:
+            filtered_guids = set(df["guid"])
+            filtered_episodes = [ep for ep in episodes if ep["guid"] in filtered_guids]
+            scoped_aggregates = build_aggregates(filtered_episodes, taxonomy)
+            scope_caption = (
+                f"Recomputed from the {len(filtered_episodes)} episode(s) matching your current "
+                "filters above -- narrow or widen the filters to change what surfaces here."
+            )
+        else:
+            scoped_aggregates = aggregates
+            scope_caption = (
+                "Surfaced from mention volume and tone across all tracked podcasts (no filters "
+                "applied above) -- narrow the filters to scope this to specific podcasts or genres."
+            )
+        render_things_to_notice(scoped_aggregates, scope_caption)
 
         st.markdown("---")
         st.subheader("Mentions by month")

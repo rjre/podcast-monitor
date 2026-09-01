@@ -281,6 +281,17 @@ def main():
 
     os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
 
+    # OpenRouter ASR (transcribe_openrouter.py) loads .env itself and is used
+    # automatically whenever OPENROUTER_API_KEY ends up set -- same
+    # "automatic if the key exists" convention as ANTHROPIC_API_KEY above.
+    # Cloud, so it doesn't compete with local Whisper for this machine's CPU,
+    # and runs in seconds/episode instead of minutes.
+    try:
+        import transcribe_openrouter
+        use_openrouter = bool(os.environ.get("OPENROUTER_API_KEY"))
+    except ImportError:
+        use_openrouter = False
+
     podcasts_cfg = load_json(os.path.join(CONFIG_DIR, "podcasts.json"), {"podcasts": []})
     episodes = load_json(os.path.join(DATA_DIR, "episodes.json"), [])
     by_guid = {ep["guid"]: ep for ep in episodes}
@@ -294,13 +305,20 @@ def main():
         print("Nothing to transcribe (no untranscribed episodes with an audio_url).")
         return
 
-    from faster_whisper import WhisperModel
-    model = WhisperModel(args.model, device="cpu", compute_type="int8")
+    if use_openrouter:
+        model = None
+        print(f"Using OpenRouter ASR ({transcribe_openrouter.MODEL}) -- OPENROUTER_API_KEY is set")
+    else:
+        from faster_whisper import WhisperModel
+        model = WhisperModel(args.model, device="cpu", compute_type="int8")
 
     for i, ep in enumerate(todo, 1):
         print(f"[{i}/{len(todo)}] {ep['podcast_name']}: {ep['title']}")
         try:
-            text, info = download_and_transcribe(ep, model)
+            if use_openrouter:
+                text, info = transcribe_openrouter.download_and_transcribe(ep)
+            else:
+                text, info = download_and_transcribe(ep, model)
         except Exception as exc:
             print(f"    failed: {exc}", file=sys.stderr)
             continue

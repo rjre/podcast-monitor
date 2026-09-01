@@ -1,0 +1,22 @@
+---
+title: "Blind Spots in the AI Infrastructure Selloff"
+podcast: "Thoughts on the Market"
+podcast_id: "thoughts-on-the-market"
+published_at: "2026-07-30T20:30:00+00:00"
+guid: "gid://art19-episode-locator/V0/IgpFkmVYTA1flN30fHKakyaNNC2YsFyUlp1Ps8eCdBQ"
+link: ""
+duration: "00:04:08"
+word_count: 618
+language: "en"
+tags_source: "keyword"
+sectors: ["ai-infrastructure"]
+themes: []
+stocks: ["morgan-stanley"]
+sentiment: -0.867
+sentiment_hits: 15
+sentiment_confidence: 1.0
+entity_mentions: {"ai-infrastructure": 16, "morgan-stanley": 3}
+entity_mention_density: {"ai-infrastructure": 13.4, "morgan-stanley": 2.5}
+entity_sentiment: {"ai-infrastructure": -1.0, "morgan-stanley": -1.0}
+---
+Welcome to Thoughts on the Market. I'm Stephen Bird, Morgan Stanley's global head of thematic and sustainability research. Today, our investors misreading the AI infrastructure sell off. It's Thursday, July thirtieth at ten am in New York. The recent sell often AI infrastructure stocks has raised a familiar question Is the build out running ahead of real demand? The market is pulling back, and we think that reflects profit taking, crowd of positioning, and forced selling by investors. This is not about weaker fundamentals, but the sell off has brought to light three key concerns, which we think the market is overplaying. The first concern is how much enterprises are willing to pay for AI. The median enterprise employee currently generates less than eleven dollars a month in token spending. That's the fee paid when an AI model processes a request and generates a response. We think there is room for that to increase from the employer's perspective. The economics are compelling across workplace applications. The cost to execute the economic task would be two to five dollars, and that could save an enterprise fifty five dollars. That to us suggests companies are likely to spend more, not less on AI over time. The second debate centers on efficient models, including competitive models developed in China, and here policy responses both from the US and China can have an impact as well. Some investors worry that better efficiency means less computing demand, but we see the opposite risk. This is a classic example of Jevon's paradox when something becomes cheaper or more efficient to use, people use more of it in AI. Lower costs can attract more users, encourage more frequent use, and make complicated applications more economical. The scale is striking industry leaders estimate that compute demand could double every six months, which would amount to more than a thousandfold increase in compute over five years. Hyperscalers could quadruple available power capacity to roughly one hundred twenty gigawatts by twenty twenty eight from about thirty gigawatts in twenty twenty five. And that leads to the third debate whether data centers can secure enough power to keep expanding. It's a valid concern in the US facilities under construction and contracted grid capacity cover about thirty gigawatts. That's less than half the sixty eight gigawatts of power that data centers are likely to need from twenty twenty six through twenty twenty eight. Grid connections can take five to seven years in some regions skilled electricians, welders, and pipefitters are in short supply. And local opposition is increasing as communities debate electricity bills, tax incentives, and who should pay for grid upgrades. These are real obstacles, but we view them as delays rather than dead ends. Onsite generation, fuel cells, energy storage, natural gas turbines, and the conversion of existing high power sites could close the gap at least partially. We believe much of the recent weakness in the AI infrastructure has been driven by technical factors rather than a change in the underlying fundamentals as AI becomes more capable and cheaper to use, demand for intelligence, compute, and power is likely to keep rising. The global market is fragmented as policy decisions in the US and China shape how growth unfolds. But strong economics should support continued investment. Thanks for listening. If you enjoy the show, please leave us a review wherever you listen and share thoughts on the market with a friend or colleague today. The preceding content is informational only and based on information available when Created. It is not an offer or solicitation, nor is it tax or legal advice. It does not consider your financial circumstances and objectives and may not be suitable for you.
