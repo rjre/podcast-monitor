@@ -237,27 +237,84 @@
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/60909796-366d-425b-a614-fdd4fe977391/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=60909796-366d-425b-a614-fdd4fe977391&feed=4LZRim3c",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "semiconductors",
+        "real-estate",
+        "technology",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "market-structure",
+        "recession",
+        "geopolitics-tariffs",
+        "ai-boom",
+        "housing",
+        "elections-politics"
+      ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.426,
+      "sentiment_hits": 29,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 3
+        "technology": 1,
+        "semiconductors": 9,
+        "ai-infrastructure": 84,
+        "real-estate": 9,
+        "industrials": 1,
+        "inflation": 5,
+        "rates-fed": 4,
+        "ai-boom": 1,
+        "recession": 2,
+        "geopolitics-tariffs": 2,
+        "housing": 1,
+        "elections-politics": 1,
+        "market-structure": 3
       },
       "entity_mention_density": {
-        "ai-infrastructure": 41.7
+        "technology": 0.1,
+        "semiconductors": 0.8,
+        "ai-infrastructure": 7.4,
+        "real-estate": 0.8,
+        "industrials": 0.1,
+        "inflation": 0.4,
+        "rates-fed": 0.4,
+        "ai-boom": 0.1,
+        "recession": 0.2,
+        "geopolitics-tariffs": 0.2,
+        "housing": 0.1,
+        "elections-politics": 0.1,
+        "market-structure": 0.3
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0
+        "ai-infrastructure": -0.25,
+        "industrials": -1.0,
+        "recession": -1.0,
+        "inflation": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.916,
+        "real-estate": -0.667,
+        "semiconductors": -1.0,
+        "inflation": 0.0,
+        "geopolitics-tariffs": 1.0,
+        "rates-fed": -1.0,
+        "housing": -1.0,
+        "elections-politics": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "ai-infrastructure"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Real Estate, Inflation, Interest Rates & Fed Policy, Market Structure & Liquidity, Recession Risk. Tone leans bearish (-0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-01-moody-s-talks-inside-economics-the-ai-series-the-data-center-buildout-2960c3.md",
+    "transcript_word_count": 11289,
+    "transcript_language": "en"
   },
   {
     "guid": "2FD31B3A-568B-49B8-B764-CB8FE22EB36D",
@@ -782,21 +839,29 @@
         "real-estate"
       ],
       "themes": [
-        "housing"
+        "housing",
+        "inflation",
+        "real-estate-investing"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 5,
-        "housing": 3
+        "real-estate": 10,
+        "inflation": 1,
+        "housing": 4,
+        "real-estate-investing": 1
       },
       "entity_mention_density": {
-        "real-estate": 36.5,
-        "housing": 21.9
+        "real-estate": 7.0,
+        "inflation": 0.7,
+        "housing": 2.8,
+        "real-estate-investing": 0.7
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "real-estate": 1.0
+      },
       "entity_conviction": {
         "real-estate": -1.0,
         "housing": -1.0
@@ -804,7 +869,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Housing Market, Inflation, Real Estate Investing. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-01-real-estate-the-ramsey-way-this-executive-order-could-reduce-home-prices-a9b569.md",
+    "transcript_word_count": 1301,
+    "transcript_language": "en"
   },
   {
     "guid": "6a713c4a6af4dfc918445f4a",
@@ -3109,34 +3180,82 @@
     "duration": "1:17:22",
     "audio_url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/feeds.choosefi.com/podcast/audio/01m0fy9te2s19krzy10bpzew6j.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare"
+      ],
       "themes": [
         "tax-planning",
+        "inflation",
+        "fire-movement",
+        "rates-fed",
+        "passive-investing",
         "budgeting-saving",
-        "fire-movement"
+        "diversification",
+        "recession",
+        "estate-planning",
+        "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "stocks": [
+        "meta",
+        "alphabet",
+        "netflix"
+      ],
+      "sentiment": 0.848,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "fire-movement": 1,
-        "tax-planning": 3
+        "healthcare": 3,
+        "inflation": 5,
+        "rates-fed": 3,
+        "recession": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 2,
+        "fire-movement": 4,
+        "diversification": 2,
+        "tax-planning": 7,
+        "estate-planning": 1,
+        "market-timing-dca": 1,
+        "alphabet": 1,
+        "meta": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.6,
-        "fire-movement": 1.6,
-        "tax-planning": 4.9
+        "healthcare": 0.2,
+        "inflation": 0.3,
+        "rates-fed": 0.2,
+        "recession": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.2,
+        "diversification": 0.1,
+        "tax-planning": 0.4,
+        "estate-planning": 0.1,
+        "market-timing-dca": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": 1.0,
+        "recession": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "fire-movement": -1.0,
+        "tax-planning": 0.0,
+        "recession": -1.0,
+        "alphabet": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Tax Planning, Inflation, Financial Independence / FIRE, Interest Rates & Fed Policy. Mentions Meta, Alphabet / Google, Netflix. Tone leans bullish (+0.85).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-choosefi-615-how-to-get-more-years-of-freedom-fritz-gilbert-930b13.md",
+    "transcript_word_count": 16810,
+    "transcript_language": "en"
   },
   {
     "guid": "fa1fd4d0-b418-11ef-adc4-17a3ae31c235",
@@ -3675,57 +3794,103 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/traffic.megaphone.fm/PPLLC7016277631.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "semiconductors"
       ],
       "themes": [
-        "valuation"
+        "valuation",
+        "dividends-buybacks",
+        "ai-boom",
+        "recession",
+        "elections-politics",
+        "earnings",
+        "small-caps-value-growth"
       ],
       "stocks": [
         "palantir",
         "alphabet",
         "microsoft",
+        "salesforce",
+        "paypal",
+        "tesla",
+        "amazon",
         "meta",
         "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.42,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "valuation": 1,
-        "microsoft": 1,
-        "alphabet": 2,
+        "technology": 10,
+        "semiconductors": 6,
+        "ai-boom": 1,
+        "recession": 1,
+        "elections-politics": 1,
+        "earnings": 1,
+        "dividends-buybacks": 3,
+        "valuation": 4,
+        "small-caps-value-growth": 1,
+        "microsoft": 10,
+        "alphabet": 11,
+        "amazon": 1,
         "meta": 1,
-        "palantir": 16,
-        "nasdaq": 1
+        "tesla": 2,
+        "palantir": 17,
+        "nasdaq": 1,
+        "paypal": 3,
+        "salesforce": 5
       },
       "entity_mention_density": {
-        "technology": 2.3,
-        "valuation": 2.3,
-        "microsoft": 2.3,
-        "alphabet": 4.6,
-        "meta": 2.3,
-        "palantir": 36.4,
-        "nasdaq": 2.3
+        "technology": 0.7,
+        "semiconductors": 0.4,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "earnings": 0.1,
+        "dividends-buybacks": 0.2,
+        "valuation": 0.3,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.7,
+        "alphabet": 0.7,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "palantir": 1.1,
+        "nasdaq": 0.1,
+        "paypal": 0.2,
+        "salesforce": 0.3
       },
       "entity_sentiment": {
         "technology": -1.0,
         "valuation": -1.0,
+        "recession": -1.0,
         "palantir": -1.0,
         "microsoft": -1.0,
         "alphabet": -1.0
       },
       "entity_conviction": {
         "technology": -1.0,
-        "valuation": -1.0,
+        "semiconductors": -1.0,
+        "valuation": -0.474,
+        "ai-boom": -1.0,
+        "dividends-buybacks": -1.0,
         "palantir": -1.0,
         "microsoft": -1.0,
-        "alphabet": -1.0
+        "alphabet": -1.0,
+        "paypal": -0.167,
+        "salesforce": -1.0,
+        "amazon": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Valuation, Dividends & Buybacks, AI & Machine Learning, Recession Risk. Mentions Palantir, Alphabet / Google, Microsoft, Salesforce, PayPal. Tone leans bearish (-0.42).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-30-the-intrinsic-value-podcast-tivp093-video-palantir-stock-pltr-palantir-is-cheaper-than-i-7dcdb0.md",
+    "transcript_word_count": 14748,
+    "transcript_language": "en"
   },
   {
     "guid": "7706e1cc-9c0d-11f1-90b5-dbb4d3413c2e",
