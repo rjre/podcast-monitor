@@ -131747,20 +131747,111 @@
     "duration": "5296",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/cg7w6v3e6nr36adm/Macrovoices-2026-06-18-Brent-Johnson.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "crypto",
+        "energy",
+        "industrials",
+        "semiconductors",
+        "ai-infrastructure",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "dealmaking",
+        "elections-politics",
+        "commodities",
+        "currency-dollar",
+        "recession",
+        "japan",
+        "geopolitics-tariffs",
+        "volatility",
+        "emerging-markets"
+      ],
+      "stocks": [
+        "goldman-sachs"
+      ],
+      "sentiment": 0.153,
+      "sentiment_hits": 35,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 2,
+        "ai-infrastructure": 1,
+        "energy": 8,
+        "industrials": 6,
+        "defense-aerospace": 1,
+        "crypto": 14,
+        "inflation": 6,
+        "rates-fed": 8,
+        "recession": 1,
+        "japan": 1,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 3,
+        "commodities": 3,
+        "volatility": 1,
+        "dealmaking": 5,
+        "currency-dollar": 3,
+        "emerging-markets": 1,
+        "goldman-sachs": 1
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.1,
+        "energy": 0.5,
+        "industrials": 0.4,
+        "defense-aerospace": 0.1,
+        "crypto": 0.9,
+        "inflation": 0.4,
+        "rates-fed": 0.5,
+        "recession": 0.1,
+        "japan": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.2,
+        "commodities": 0.2,
+        "volatility": 0.1,
+        "dealmaking": 0.3,
+        "currency-dollar": 0.2,
+        "emerging-markets": 0.1,
+        "goldman-sachs": 0.1
+      },
+      "entity_sentiment": {
+        "energy": 1.0,
+        "semiconductors": 1.0,
+        "defense-aerospace": 1.0,
+        "ai-infrastructure": 1.0,
+        "rates-fed": 0.0,
+        "volatility": 1.0,
+        "inflation": 1.0,
+        "recession": -1.0,
+        "emerging-markets": -1.0,
+        "dealmaking": 1.0,
+        "currency-dollar": 1.0
+      },
+      "entity_conviction": {
+        "energy": 0.459,
+        "industrials": -1.0,
+        "crypto": -0.828,
+        "semiconductors": 1.0,
+        "defense-aerospace": 1.0,
+        "rates-fed": -0.333,
+        "elections-politics": -1.0,
+        "inflation": 0.0,
+        "commodities": 0.167,
+        "geopolitics-tariffs": -1.0,
+        "recession": -1.0,
+        "currency-dollar": 0.0,
+        "japan": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Energy & Oil, Industrials, Interest Rates & Fed Policy, Inflation, IPOs & Dealmaking, Elections & Politics. Mentions Goldman Sachs. Tone leans bullish (+0.15).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-macro-voices-macrovoices-537-brent-johnson-there-s-no-turning-back-b958e3.md",
+    "transcript_word_count": 15068,
+    "transcript_language": "en"
   },
   {
     "guid": "7624720e-570a-4397-8f9e-004ccb202353",
@@ -160059,20 +160150,50 @@
     "duration": "272",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/00cbfc73-e3e5-4bfe-a4fc-b45e00eaee99/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "housing",
+        "bond-market",
+        "diversification"
+      ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "real-estate": 1,
+        "inflation": 2,
+        "rates-fed": 1,
+        "housing": 1,
+        "bond-market": 1,
+        "diversification": 1
+      },
+      "entity_mention_density": {
+        "real-estate": 0.8,
+        "inflation": 1.6,
+        "rates-fed": 0.8,
+        "housing": 0.8,
+        "bond-market": 0.8,
+        "diversification": 0.8
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Inflation, Interest Rates & Fed Policy, Housing Market, Bond Market & Yields. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-bloomberg-surveillance-single-best-idea-with-tom-keene-drew-matus-and-dean-curnutt-eaee99.md",
+    "transcript_word_count": 1186,
+    "transcript_language": "en"
   },
   {
     "guid": "13257966-5d97-11f1-8ca3-93c5bfe6b1f1",
@@ -178789,28 +178910,70 @@
     "duration": "2202",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL5898082396.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "passive-investing"
+      "sectors": [
+        "real-estate",
+        "materials-mining"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "themes": [
+        "passive-investing",
+        "retirement-planning",
+        "inflation",
+        "fire-movement",
+        "diversification"
+      ],
+      "stocks": [
+        "nvidia",
+        "tesla",
+        "goldman-sachs",
+        "fidelity"
+      ],
+      "sentiment": 0.189,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "passive-investing": 1
+        "real-estate": 2,
+        "materials-mining": 1,
+        "inflation": 1,
+        "passive-investing": 7,
+        "fire-movement": 1,
+        "retirement-planning": 2,
+        "diversification": 1,
+        "nvidia": 1,
+        "tesla": 1,
+        "goldman-sachs": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "passive-investing": 4.0
+        "real-estate": 0.3,
+        "materials-mining": 0.1,
+        "inflation": 0.1,
+        "passive-investing": 1.0,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.3,
+        "diversification": 0.1,
+        "nvidia": 0.1,
+        "tesla": 0.1,
+        "goldman-sachs": 0.1,
+        "fidelity": 0.1
       },
       "entity_sentiment": {
         "passive-investing": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-investing": -0.412,
+        "retirement-planning": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Materials & Mining, Passive Investing, Retirement Planning, Inflation, Financial Independence / FIRE. Mentions Nvidia, Tesla, Goldman Sachs, Fidelity. Tone leans bullish (+0.19).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-money-guy-show-even-smart-people-make-these-massive-money-mistakes-9000f1.md",
+    "transcript_word_count": 6808,
+    "transcript_language": "en"
   },
   {
     "guid": "24423251-b407-4ce9-813d-4420522fb733",
@@ -187916,25 +188079,61 @@
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.503_Josh_Steiner_-_AUDIO_V1.mp3?dest-id=482814",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "real-estate"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "elections-politics",
+        "hedge-funds",
+        "recession",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "microsoft",
+        "amazon"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "private-markets": 2
+        "real-estate": 2,
+        "private-markets": 9,
+        "recession": 1,
+        "elections-politics": 3,
+        "hedge-funds": 3,
+        "small-caps-value-growth": 1,
+        "microsoft": 1,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "private-markets": 8.1
+        "real-estate": 0.2,
+        "private-markets": 0.8,
+        "recession": 0.1,
+        "elections-politics": 0.3,
+        "hedge-funds": 0.3,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.1,
+        "amazon": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "private-markets": 1.0,
+        "small-caps-value-growth": 1.0,
+        "hedge-funds": 1.0,
+        "microsoft": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Real Estate, Elections & Politics, Hedge Funds, Recession Risk, Small-Caps, Value & Growth. Mentions Microsoft, Amazon. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-capital-allocators-making-mistakes-josh-steiner-ep-502-a0ea18.md",
+    "transcript_word_count": 11174,
+    "transcript_language": "en"
   },
   {
     "guid": "3ef0cfd8-4a36-11f1-b4bd-af6e1f20c174",
