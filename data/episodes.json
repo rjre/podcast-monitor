@@ -118978,29 +118978,102 @@
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/d8287d3c-f0aa-4fdf-a911-9378b38658f9/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=d8287d3c-f0aa-4fdf-a911-9378b38658f9&feed=4LZRim3c",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "consumer-discretionary"
       ],
       "themes": [
-        "commodities"
+        "inflation",
+        "commodities",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "consumer-health",
+        "diversification",
+        "recession",
+        "safe-havens",
+        "emerging-markets",
+        "budgeting-saving",
+        "elections-politics",
+        "market-structure",
+        "career-income",
+        "valuation"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.169,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "commodities": 1
+        "energy": 24,
+        "consumer-discretionary": 8,
+        "inflation": 16,
+        "rates-fed": 13,
+        "recession": 2,
+        "geopolitics-tariffs": 12,
+        "elections-politics": 1,
+        "commodities": 16,
+        "safe-havens": 2,
+        "market-structure": 1,
+        "emerging-markets": 2,
+        "consumer-health": 8,
+        "budgeting-saving": 2,
+        "career-income": 1,
+        "valuation": 1,
+        "diversification": 4
       },
       "entity_mention_density": {
-        "energy": 14.5,
-        "commodities": 14.5
+        "energy": 1.9,
+        "consumer-discretionary": 0.6,
+        "inflation": 1.3,
+        "rates-fed": 1.0,
+        "recession": 0.2,
+        "geopolitics-tariffs": 1.0,
+        "elections-politics": 0.1,
+        "commodities": 1.3,
+        "safe-havens": 0.2,
+        "market-structure": 0.1,
+        "emerging-markets": 0.2,
+        "consumer-health": 0.6,
+        "budgeting-saving": 0.2,
+        "career-income": 0.1,
+        "valuation": 0.1,
+        "diversification": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 0.0,
+        "consumer-discretionary": 1.0,
+        "commodities": 0.0,
+        "inflation": 1.0,
+        "consumer-health": 1.0,
+        "recession": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "career-income": 1.0,
+        "rates-fed": 1.0,
+        "valuation": -1.0
+      },
+      "entity_conviction": {
+        "energy": -0.512,
+        "consumer-discretionary": -0.889,
+        "commodities": -0.524,
+        "inflation": -0.927,
+        "consumer-health": -0.889,
+        "geopolitics-tariffs": -0.791,
+        "career-income": -1.0,
+        "rates-fed": -0.879,
+        "elections-politics": -1.0,
+        "diversification": -1.0,
+        "budgeting-saving": -1.0,
+        "safe-havens": -0.167,
+        "market-structure": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Consumer Discretionary, Inflation, Commodities, Interest Rates & Fed Policy, Geopolitics & Tariffs. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-moody-s-talks-inside-economics-the-data-oil-and-a-global-q-a-942dab.md",
+    "transcript_word_count": 12412,
+    "transcript_language": "en"
   },
   {
     "guid": "bc945572-05d5-11f1-92e5-c7105270cbce",
@@ -142638,48 +142711,98 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a2b75897b277369ee57da42/media.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "semiconductors",
+        "ai-infrastructure",
+        "industrials"
       ],
       "themes": [
         "inflation",
+        "budgeting-saving",
+        "emerging-markets",
         "rates-fed",
-        "housing"
+        "housing",
+        "passive-investing",
+        "diversification",
+        "market-timing-dca"
       ],
       "stocks": [
         "berkshire",
-        "meta"
+        "meta",
+        "alphabet",
+        "morgan-stanley",
+        "nasdaq",
+        "vanguard"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.231,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "inflation": 4,
-        "rates-fed": 1,
-        "housing": 1,
-        "meta": 1,
-        "berkshire": 3
+        "semiconductors": 1,
+        "ai-infrastructure": 1,
+        "real-estate": 10,
+        "industrials": 1,
+        "inflation": 18,
+        "rates-fed": 2,
+        "housing": 2,
+        "passive-investing": 1,
+        "emerging-markets": 3,
+        "budgeting-saving": 6,
+        "diversification": 1,
+        "market-timing-dca": 1,
+        "alphabet": 1,
+        "meta": 2,
+        "morgan-stanley": 1,
+        "berkshire": 8,
+        "nasdaq": 1,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "real-estate": 4.5,
-        "inflation": 8.9,
-        "rates-fed": 2.2,
-        "housing": 2.2,
-        "meta": 2.2,
-        "berkshire": 6.7
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.2,
+        "real-estate": 1.6,
+        "industrials": 0.2,
+        "inflation": 2.8,
+        "rates-fed": 0.3,
+        "housing": 0.3,
+        "passive-investing": 0.2,
+        "emerging-markets": 0.5,
+        "budgeting-saving": 0.9,
+        "diversification": 0.2,
+        "market-timing-dca": 0.2,
+        "alphabet": 0.2,
+        "meta": 0.3,
+        "morgan-stanley": 0.2,
+        "berkshire": 1.3,
+        "nasdaq": 0.2,
+        "vanguard": 0.2
       },
       "entity_sentiment": {
         "real-estate": -1.0,
         "inflation": -1.0,
         "rates-fed": -1.0,
         "housing": -1.0,
-        "berkshire": -1.0
+        "budgeting-saving": 1.0,
+        "berkshire": -0.667,
+        "alphabet": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "budgeting-saving": 0.333,
+        "market-timing-dca": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Semiconductors, AI Infrastructure, Inflation, Budgeting & Saving, Emerging Markets, Interest Rates & Fed Policy. Mentions Berkshire Hathaway, Meta, Alphabet / Google, Morgan Stanley, Nasdaq. Tone leans bullish (+0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-14-equity-mates-investing-podcast-global-inflation-is-back-our-search-for-warren-buffett-conti-57da42.md",
+    "transcript_word_count": 5890,
+    "transcript_language": "en"
   },
   {
     "guid": "a584a174-0fd9-4a1f-a37b-73d91d7aa4d1",
@@ -177459,26 +177582,68 @@
     "duration": "1579",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/47ae5ef1-886e-4b84-9f88-3a4362d00d84/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=47ae5ef1-886e-4b84-9f88-3a4362d00d84&feed=hvWWWzRv&t=podcast&e=nx-s1-5835164&p=510289&d=1579&size=25272408",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate",
+        "private-markets"
+      ],
+      "themes": [
+        "retirement-planning",
+        "elections-politics",
+        "regulation-antitrust",
+        "inflation"
+      ],
       "stocks": [
+        "bitcoin",
+        "alphabet",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "meta": 1
+        "real-estate": 3,
+        "private-markets": 1,
+        "inflation": 1,
+        "elections-politics": 2,
+        "regulation-antitrust": 2,
+        "retirement-planning": 6,
+        "alphabet": 1,
+        "meta": 1,
+        "bitcoin": 2
       },
       "entity_mention_density": {
-        "meta": 5.0
+        "real-estate": 0.6,
+        "private-markets": 0.2,
+        "inflation": 0.2,
+        "elections-politics": 0.4,
+        "regulation-antitrust": 0.4,
+        "retirement-planning": 1.3,
+        "alphabet": 0.2,
+        "meta": 0.2,
+        "bitcoin": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "retirement-planning": 1.0,
+        "bitcoin": 1.0,
+        "alphabet": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "retirement-planning": 1.0,
+        "regulation-antitrust": -1.0,
+        "bitcoin": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Retirement Planning, Elections & Politics, Regulation & Antitrust, Inflation. Mentions Bitcoin, Alphabet / Google, Meta. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-planet-money-the-leaked-tapes-that-show-how-the-rich-avoid-taxes-f7996e.md",
+    "transcript_word_count": 4583,
+    "transcript_language": "en"
   },
   {
     "guid": "3942ae22-542b-11f1-830d-fb6df1d81823",
@@ -204759,32 +204924,92 @@
     "duration": "01:09:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_213_-_Allison_Harrison_-_Final_Audio_Edit_v1.mp3?dest-id=3794235",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "healthcare",
+        "real-estate",
+        "crypto",
+        "banks"
+      ],
       "themes": [
         "estate-planning",
+        "fire-movement",
+        "passive-income",
         "college-savings",
-        "fire-movement"
+        "insurance-products",
+        "budgeting-saving",
+        "inflation",
+        "passive-investing",
+        "tax-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "alphabet",
+        "meta",
+        "disney"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "fire-movement": 1,
-        "estate-planning": 6,
-        "college-savings": 3
+        "banks": 1,
+        "insurance": 2,
+        "healthcare": 2,
+        "real-estate": 2,
+        "crypto": 2,
+        "inflation": 1,
+        "passive-investing": 1,
+        "budgeting-saving": 2,
+        "fire-movement": 11,
+        "passive-income": 3,
+        "tax-planning": 1,
+        "estate-planning": 21,
+        "college-savings": 3,
+        "insurance-products": 3,
+        "alphabet": 3,
+        "meta": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.0,
-        "estate-planning": 11.8,
-        "college-savings": 5.9
+        "banks": 0.1,
+        "insurance": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.1,
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.8,
+        "passive-income": 0.2,
+        "tax-planning": 0.1,
+        "estate-planning": 1.5,
+        "college-savings": 0.2,
+        "insurance-products": 0.2,
+        "alphabet": 0.2,
+        "meta": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "fire-movement": -1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "fire-movement": -1.0,
+        "estate-planning": 0.0,
+        "budgeting-saving": -1.0,
+        "passive-income": -1.0,
+        "inflation": -1.0,
+        "insurance-products": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Healthcare & Pharma, Real Estate, Estate Planning, Financial Independence / FIRE, Passive Income & Side Hustles, College Savings & Student Debt. Mentions Alphabet / Google, Meta, Disney. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-10-catching-up-to-fi-your-fire-plan-is-screwed-without-an-estate-plan-allison-har-3b78ba.md",
+    "transcript_word_count": 13405,
+    "transcript_language": "en"
   },
   {
     "guid": "9d357904-486a-11f1-a1b2-d373beff6a9e",
