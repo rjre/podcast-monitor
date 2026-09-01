@@ -82929,20 +82929,89 @@
     "duration": "6980",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/bmjx98y4tht9bv32/Macrovoices-2026-07-16-Anas-Alhajji.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "energy",
+        "semiconductors",
+        "insurance",
+        "ai-infrastructure",
+        "utilities",
+        "autos-ev",
+        "airlines-travel"
+      ],
+      "themes": [
+        "commodities",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "inflation",
+        "japan",
+        "rates-fed",
+        "china"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": 0.307,
+      "sentiment_hits": 48,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 13,
+        "ai-infrastructure": 4,
+        "insurance": 11,
+        "energy": 39,
+        "utilities": 2,
+        "autos-ev": 2,
+        "airlines-travel": 2,
+        "inflation": 3,
+        "rates-fed": 1,
+        "china": 1,
+        "japan": 3,
+        "geopolitics-tariffs": 8,
+        "elections-politics": 6,
+        "commodities": 13,
+        "alphabet": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.7,
+        "ai-infrastructure": 0.2,
+        "insurance": 0.6,
+        "energy": 2.1,
+        "utilities": 0.1,
+        "autos-ev": 0.1,
+        "airlines-travel": 0.1,
+        "inflation": 0.2,
+        "rates-fed": 0.1,
+        "china": 0.1,
+        "japan": 0.2,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 0.3,
+        "commodities": 0.7,
+        "alphabet": 0.1
+      },
+      "entity_sentiment": {
+        "energy": 0.562,
+        "semiconductors": 0.81,
+        "commodities": 0.818,
+        "japan": -1.0,
+        "inflation": 0.765,
+        "rates-fed": 0.667
+      },
+      "entity_conviction": {
+        "energy": 1.0,
+        "semiconductors": 1.0,
+        "commodities": 1.0,
+        "inflation": 1.0,
+        "rates-fed": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Semiconductors, Insurance, Commodities, Geopolitics & Tariffs, Elections & Politics, Inflation. Mentions Alphabet / Google. Tone leans bullish (+0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-macro-voices-macrovoices-541-dr-anas-alhajji-bab-el-mandeb-the-next-oil-c-9290ba.md",
+    "transcript_word_count": 18376,
+    "transcript_language": "en"
   },
   {
     "guid": "298a489e-1c68-46de-94c7-ba450e7878ad",
@@ -154253,35 +154322,68 @@
     "duration": "5959",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML4354079115.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "banks"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "rates-fed",
+        "college-savings",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "alphabet",
+        "costco",
+        "paypal"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "real-estate": 5,
+        "rates-fed": 3,
+        "budgeting-saving": 5,
+        "debt-payoff": 1,
+        "college-savings": 2,
+        "alphabet": 1,
+        "amazon": 14,
+        "meta": 2,
+        "costco": 1,
+        "paypal": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 2.0,
-        "college-savings": 2.0,
-        "meta": 4.0
+        "banks": 0.1,
+        "real-estate": 0.3,
+        "rates-fed": 0.2,
+        "budgeting-saving": 0.3,
+        "debt-payoff": 0.1,
+        "college-savings": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.8,
+        "meta": 0.1,
+        "costco": 0.1,
+        "paypal": 0.1
       },
       "entity_sentiment": {
         "college-savings": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Budgeting & Saving, Interest Rates & Fed Policy, College Savings & Student Debt, Debt Payoff. Mentions Amazon, Meta, Alphabet / Google, Costco, PayPal. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-financial-audit-financial-audit-intervention-c70702.md",
+    "transcript_word_count": 17834,
+    "transcript_language": "en"
   },
   {
     "guid": "f963a8ce-6343-11f1-8705-c72c053779e7",
@@ -165357,38 +165459,109 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM4172547290.mp3",
     "tags": {
       "sectors": [
+        "real-estate",
+        "insurance",
         "healthcare"
       ],
       "themes": [
         "budgeting-saving",
+        "college-savings",
+        "insurance-products",
+        "retirement-planning",
+        "estate-planning",
+        "inflation",
+        "tax-planning",
+        "recession",
+        "elections-politics",
         "debt-payoff",
+        "real-estate-investing",
         "passive-income",
-        "estate-planning"
+        "rates-fed",
+        "fiscal-debt",
+        "regulation-antitrust",
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet",
+        "meta"
+      ],
+      "sentiment": 0.262,
+      "sentiment_hits": 36,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 3,
         "healthcare": 1,
-        "budgeting-saving": 3,
+        "real-estate": 14,
+        "inflation": 3,
+        "rates-fed": 1,
+        "recession": 2,
+        "fiscal-debt": 1,
+        "elections-politics": 2,
+        "regulation-antitrust": 1,
+        "budgeting-saving": 36,
         "debt-payoff": 2,
-        "passive-income": 1,
-        "estate-planning": 1
+        "retirement-planning": 4,
+        "real-estate-investing": 2,
+        "passive-income": 2,
+        "dividends-buybacks": 1,
+        "tax-planning": 3,
+        "estate-planning": 4,
+        "college-savings": 8,
+        "insurance-products": 5,
+        "alphabet": 3,
+        "meta": 3
       },
       "entity_mention_density": {
-        "healthcare": 2.6,
-        "budgeting-saving": 7.9,
-        "debt-payoff": 5.3,
-        "passive-income": 2.6,
-        "estate-planning": 2.6
+        "insurance": 0.1,
+        "healthcare": 0.0,
+        "real-estate": 0.7,
+        "inflation": 0.1,
+        "rates-fed": 0.0,
+        "recession": 0.1,
+        "fiscal-debt": 0.0,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.0,
+        "budgeting-saving": 1.7,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 0.1,
+        "passive-income": 0.1,
+        "dividends-buybacks": 0.0,
+        "tax-planning": 0.1,
+        "estate-planning": 0.2,
+        "college-savings": 0.4,
+        "insurance-products": 0.2,
+        "alphabet": 0.1,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "insurance": 0.0,
+        "real-estate": 0.412,
+        "budgeting-saving": 1.0,
+        "estate-planning": 1.0,
+        "recession": -1.0,
+        "tax-planning": 0.333,
+        "retirement-planning": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0,
+        "elections-politics": -1.0,
+        "dividends-buybacks": -1.0,
+        "tax-planning": -1.0,
+        "retirement-planning": 1.0,
+        "meta": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Healthcare & Pharma, Budgeting & Saving, College Savings & Student Debt, Insurance Products, Retirement Planning. Mentions Alphabet / Google, Meta. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-02-the-ramsey-show-building-wealth-requires-a-long-term-investing-mindset-a1db42.md",
+    "transcript_word_count": 20495,
+    "transcript_language": "en"
   },
   {
     "guid": "38ede27a-5098-11f1-8d7c-9f297e3a3bb9",
@@ -170078,26 +170251,116 @@
     "duration": "01:16:52",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/467275c6-8412-4f38-ab6a-681fdd0afc9f/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=467275c6-8412-4f38-ab6a-681fdd0afc9f&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy",
+        "ai-infrastructure",
+        "real-estate",
+        "consumer-discretionary",
+        "crypto",
+        "technology",
+        "semiconductors",
+        "private-markets"
+      ],
       "themes": [
-        "inflation"
+        "inflation",
+        "rates-fed",
+        "commodities",
+        "consumer-health",
+        "recession",
+        "geopolitics-tariffs",
+        "labor-market",
+        "fiscal-debt",
+        "bond-market",
+        "ai-boom",
+        "housing",
+        "elections-politics",
+        "diversification"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.261,
+      "sentiment_hits": 28,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 5,
+        "energy": 9,
+        "consumer-discretionary": 4,
+        "real-estate": 5,
+        "crypto": 2,
+        "private-markets": 1,
+        "inflation": 57,
+        "rates-fed": 36,
+        "ai-boom": 1,
+        "recession": 3,
+        "geopolitics-tariffs": 3,
+        "labor-market": 2,
+        "housing": 1,
+        "fiscal-debt": 2,
+        "elections-politics": 1,
+        "commodities": 6,
+        "bond-market": 2,
+        "consumer-health": 4,
+        "diversification": 1
       },
       "entity_mention_density": {
-        "inflation": 17.9
+        "technology": 0.1,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.4,
+        "energy": 0.8,
+        "consumer-discretionary": 0.3,
+        "real-estate": 0.4,
+        "crypto": 0.2,
+        "private-markets": 0.1,
+        "inflation": 4.8,
+        "rates-fed": 3.0,
+        "ai-boom": 0.1,
+        "recession": 0.3,
+        "geopolitics-tariffs": 0.3,
+        "labor-market": 0.2,
+        "housing": 0.1,
+        "fiscal-debt": 0.2,
+        "elections-politics": 0.1,
+        "commodities": 0.5,
+        "bond-market": 0.2,
+        "consumer-health": 0.3,
+        "diversification": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "consumer-discretionary": 0.0,
+        "real-estate": -1.0,
+        "private-markets": 1.0,
+        "inflation": 0.167,
+        "consumer-health": 0.0,
+        "ai-boom": -1.0,
+        "recession": -1.0,
+        "rates-fed": 0.333
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "consumer-discretionary": -1.0,
+        "energy": -1.0,
+        "real-estate": -1.0,
+        "inflation": -0.67,
+        "consumer-health": -1.0,
+        "ai-boom": -1.0,
+        "commodities": -1.0,
+        "recession": -1.0,
+        "rates-fed": -0.846,
+        "bond-market": -1.0,
+        "elections-politics": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Real Estate, Inflation, Interest Rates & Fed Policy, Commodities, Consumer Health. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-moody-s-talks-inside-economics-economic-data-dump-5d9424.md",
+    "transcript_word_count": 11814,
+    "transcript_language": "en"
   },
   {
     "guid": "ff454b2f-c829-44f7-9c40-88c4390fb9f8",
