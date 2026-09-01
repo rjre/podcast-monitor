@@ -17087,32 +17087,145 @@
     "duration": "01:11:27",
     "audio_url": "https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/639bec72-4cf8-4241-ab08-d8fa48f91c4c/audio/128/default.mp3?aid=rss_feed&awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&awEpisodeId=639bec72-4cf8-4241-ab08-d8fa48f91c4c&feed=4LZRim3c",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "energy",
+        "ai-infrastructure",
+        "banks",
+        "consumer-discretionary",
+        "crypto",
+        "private-markets"
+      ],
       "themes": [
         "rates-fed",
-        "bond-market"
+        "inflation",
+        "bond-market",
+        "hedge-funds",
+        "japan",
+        "safe-havens",
+        "housing",
+        "fiscal-debt",
+        "recession",
+        "credit-markets",
+        "geopolitics-tariffs",
+        "china",
+        "commodities",
+        "volatility",
+        "currency-dollar",
+        "budgeting-saving",
+        "dividends-buybacks",
+        "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon",
+        "walmart",
+        "bitcoin"
+      ],
+      "sentiment": -0.339,
+      "sentiment_hits": 26,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "bond-market": 1
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "energy": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 7,
+        "crypto": 1,
+        "private-markets": 1,
+        "inflation": 32,
+        "rates-fed": 70,
+        "recession": 4,
+        "credit-markets": 4,
+        "china": 1,
+        "japan": 8,
+        "geopolitics-tariffs": 3,
+        "housing": 5,
+        "fiscal-debt": 5,
+        "commodities": 1,
+        "safe-havens": 7,
+        "volatility": 1,
+        "bond-market": 24,
+        "currency-dollar": 1,
+        "hedge-funds": 16,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 1,
+        "estate-planning": 1,
+        "amazon": 2,
+        "walmart": 2,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "rates-fed": 13.5,
-        "bond-market": 13.5
+        "ai-infrastructure": 0.1,
+        "banks": 0.1,
+        "energy": 0.2,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.6,
+        "crypto": 0.1,
+        "private-markets": 0.1,
+        "inflation": 2.5,
+        "rates-fed": 5.5,
+        "recession": 0.3,
+        "credit-markets": 0.3,
+        "china": 0.1,
+        "japan": 0.6,
+        "geopolitics-tariffs": 0.2,
+        "housing": 0.4,
+        "fiscal-debt": 0.4,
+        "commodities": 0.1,
+        "safe-havens": 0.6,
+        "volatility": 0.1,
+        "bond-market": 1.9,
+        "currency-dollar": 0.1,
+        "hedge-funds": 1.3,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.1,
+        "estate-planning": 0.1,
+        "amazon": 0.2,
+        "walmart": 0.2,
+        "bitcoin": 0.1
       },
       "entity_sentiment": {
-        "rates-fed": 1.0,
-        "bond-market": -1.0
+        "banks": -1.0,
+        "rates-fed": -0.259,
+        "bond-market": -0.63,
+        "inflation": -1.0,
+        "safe-havens": -1.0,
+        "credit-markets": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "hedge-funds": -1.0,
+        "recession": 0.562
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": 0.429,
+        "real-estate": -1.0,
+        "rates-fed": -0.474,
+        "bond-market": -0.423,
+        "inflation": -1.0,
+        "safe-havens": -0.333,
+        "credit-markets": -1.0,
+        "fiscal-debt": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "china": 1.0,
+        "japan": -1.0,
+        "hedge-funds": 1.0,
+        "housing": -1.0,
+        "commodities": 0.429,
+        "recession": -1.0,
+        "amazon": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "rates-fed"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, AI Infrastructure, Interest Rates & Fed Policy, Inflation, Bond Market & Yields, Hedge Funds. Mentions Amazon, Walmart, Bitcoin. Tone leans bearish (-0.34).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-21-moody-s-talks-inside-economics-yielding-to-pressure-d08e79.md",
+    "transcript_word_count": 12648,
+    "transcript_language": "en"
   },
   {
     "guid": "6a87b560dcddb5e3cf81f1d6",
@@ -144095,24 +144208,37 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "college-savings"
       ],
-      "stocks": [],
+      "stocks": [
+        "disney"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 4,
+        "college-savings": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 6.0
+        "budgeting-saving": 2.1,
+        "college-savings": 0.5,
+        "disney": 1.0
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, College Savings & Student Debt. Mentions Disney. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-optimal-finance-daily-3592-why-keeping-up-with-the-joneses-will-make-you-broke-by-c98153.md",
+    "transcript_word_count": 1765,
+    "transcript_language": "en"
   },
   {
     "guid": "dd1378cc-65f3-11f1-883e-13f6737209dc",
@@ -161123,24 +161249,38 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "retirement-planning",
+        "budgeting-saving",
+        "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 4,
+        "debt-payoff": 1,
+        "retirement-planning": 5
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.6
+        "budgeting-saving": 2.8,
+        "debt-payoff": 0.7,
+        "retirement-planning": 3.5
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving, Debt Payoff. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-ramsey-everyday-millionaires-is-there-a-better-investment-option-than-cds-40267b.md",
+    "transcript_word_count": 1266,
+    "transcript_language": "en"
   },
   {
     "guid": "6a1ffb08f8e85cfadabd687f",
@@ -183655,32 +183795,79 @@
     "duration": "5930",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML9992227744.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "real-estate"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "geopolitics-tariffs",
+        "debt-payoff",
+        "rates-fed"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "amazon",
+        "alphabet",
+        "bank-of-america",
+        "microsoft",
+        "tmobile",
+        "netflix"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.556,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "meta": 3
+        "real-estate": 1,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 2,
+        "budgeting-saving": 25,
+        "debt-payoff": 2,
+        "microsoft": 1,
+        "alphabet": 2,
+        "amazon": 3,
+        "meta": 7,
+        "tmobile": 1,
+        "bank-of-america": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.2,
-        "meta": 6.3
+        "real-estate": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "budgeting-saving": 1.5,
+        "debt-payoff": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "meta": 0.4,
+        "tmobile": 0.1,
+        "bank-of-america": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "budgeting-saving": 1.0
+        "budgeting-saving": 1.0,
+        "debt-payoff": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "alphabet": -1.0,
+        "tmobile": -1.0,
+        "amazon": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Real Estate, Budgeting & Saving, Geopolitics & Tariffs, Debt Payoff, Interest Rates & Fed Policy. Mentions Meta, Amazon, Alphabet / Google, Bank of America, Microsoft. Tone leans bullish (+0.56).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-financial-audit-the-worst-finances-in-financial-audit-history-da91d1.md",
+    "transcript_word_count": 16544,
+    "transcript_language": "en"
   },
   {
     "guid": "77304750-5451-11f1-b5e4-dbccb8c2f5bc",
