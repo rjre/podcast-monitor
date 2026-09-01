@@ -92964,8 +92964,12 @@
     "duration": "1538",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/a5a22e7a-4cac-46c1-b29b-d5dbebba9027/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=a5a22e7a-4cac-46c1-b29b-d5dbebba9027&feed=hvWWWzRv&t=podcast&e=nx-s1-5879253&p=510289&d=1538&size=24619555",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "regulation-antitrust"
+      ],
       "stocks": [
         "meta"
       ],
@@ -92973,17 +92977,29 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "meta": 1
+        "real-estate": 1,
+        "regulation-antitrust": 1,
+        "meta": 2
       },
       "entity_mention_density": {
-        "meta": 3.7
+        "real-estate": 0.2,
+        "regulation-antitrust": 0.2,
+        "meta": 0.4
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "regulation-antitrust": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Regulation & Antitrust. Mentions Meta. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-10-planet-money-seven-allegedly-fake-chanel-bags-vs-the-realreal-6433e0.md",
+    "transcript_word_count": 4343,
+    "transcript_language": "en"
   },
   {
     "guid": "aa474d2c-5101-4999-a5c8-90ba63fedf30",
@@ -132077,35 +132093,91 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM7336913597.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "real-estate",
+        "healthcare",
+        "media-entertainment"
       ],
       "themes": [
         "budgeting-saving",
+        "college-savings",
+        "debt-payoff",
+        "insurance-products",
+        "passive-income",
+        "housing",
+        "retirement-planning",
+        "career-income",
+        "rates-fed",
         "tax-planning",
-        "insurance-products"
+        "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet",
+        "citigroup"
+      ],
+      "sentiment": 0.465,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
-        "budgeting-saving": 1,
+        "healthcare": 4,
+        "real-estate": 7,
+        "media-entertainment": 1,
+        "rates-fed": 1,
+        "housing": 2,
+        "budgeting-saving": 30,
+        "debt-payoff": 6,
+        "retirement-planning": 2,
+        "passive-income": 5,
+        "career-income": 2,
         "tax-planning": 1,
-        "insurance-products": 1
+        "estate-planning": 1,
+        "college-savings": 10,
+        "insurance-products": 6,
+        "alphabet": 2,
+        "citigroup": 1
       },
       "entity_mention_density": {
-        "healthcare": 2.2,
-        "budgeting-saving": 2.2,
-        "tax-planning": 2.2,
-        "insurance-products": 2.2
+        "healthcare": 0.2,
+        "real-estate": 0.3,
+        "media-entertainment": 0.0,
+        "rates-fed": 0.0,
+        "housing": 0.1,
+        "budgeting-saving": 1.4,
+        "debt-payoff": 0.3,
+        "retirement-planning": 0.1,
+        "passive-income": 0.2,
+        "career-income": 0.1,
+        "tax-planning": 0.0,
+        "estate-planning": 0.0,
+        "college-savings": 0.5,
+        "insurance-products": 0.3,
+        "alphabet": 0.1,
+        "citigroup": 0.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "budgeting-saving": -1.0,
+        "debt-payoff": -1.0,
+        "citigroup": -1.0
+      },
+      "entity_conviction": {
+        "insurance-products": -1.0,
+        "budgeting-saving": -0.75,
+        "passive-income": -1.0,
+        "career-income": -1.0
+      },
+      "entity_stance": {
+        "budgeting-saving": "sell",
+        "passive-income": "sell",
+        "career-income": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Media & Entertainment, Budgeting & Saving, College Savings & Student Debt, Debt Payoff, Insurance Products. Mentions Alphabet / Google, Citigroup. Tone leans bullish (+0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-the-ramsey-show-building-wealth-means-defining-needs-vs-wants-30ab8a.md",
+    "transcript_word_count": 20731,
+    "transcript_language": "en"
   },
   {
     "guid": "05630673-4d6b-427d-b3ba-0dcfc0bb391e",
@@ -199102,20 +199174,75 @@
     "duration": "4567",
     "audio_url": "https://traffic.megaphone.fm/CLS3629415437.mp3?updated=1778621552",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "semiconductors",
+        "technology",
+        "ai-infrastructure",
+        "industrials",
+        "private-markets"
+      ],
+      "themes": [
+        "elections-politics",
+        "regulation-antitrust"
+      ],
+      "stocks": [
+        "amazon",
+        "nvidia",
+        "alphabet",
+        "broadcom",
+        "microsoft"
+      ],
+      "sentiment": 0.231,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 4,
+        "semiconductors": 5,
+        "ai-infrastructure": 1,
+        "industrials": 1,
+        "private-markets": 1,
+        "elections-politics": 1,
+        "regulation-antitrust": 1,
+        "nvidia": 4,
+        "microsoft": 1,
+        "alphabet": 4,
+        "amazon": 8,
+        "broadcom": 3
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.1,
+        "industrials": 0.1,
+        "private-markets": 0.1,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.1,
+        "nvidia": 0.2,
+        "microsoft": 0.1,
+        "alphabet": 0.2,
+        "amazon": 0.5,
+        "broadcom": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -0.429,
+        "regulation-antitrust": -1.0,
+        "nvidia": -1.0,
+        "alphabet": -1.0,
+        "amazon": -0.789,
+        "broadcom": -1.0,
+        "microsoft": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, AI Infrastructure, Elections & Politics, Regulation & Antitrust. Mentions Amazon, Nvidia, Alphabet / Google, Broadcom, Microsoft. Tone leans bullish (+0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-invest-like-the-best-krishna-rao-anthropic-s-cfo-on-compute-scaling-to-30b-arr-an-c9aeb5.md",
+    "transcript_word_count": 15662,
+    "transcript_language": "en"
   },
   {
     "guid": "10ffcdf9-197e-4617-824d-55af78686b78",
@@ -199325,49 +199452,109 @@
     "tags": {
       "sectors": [
         "real-estate",
+        "crypto",
+        "technology",
         "consumer-discretionary",
-        "crypto"
+        "private-markets"
       ],
       "themes": [
-        "diversification",
+        "market-timing-dca",
         "inflation",
+        "valuation",
+        "diversification",
+        "passive-investing",
+        "real-estate-investing",
+        "budgeting-saving",
+        "retirement-planning",
         "behavioral-finance",
+        "fire-movement",
+        "market-concentration",
         "tax-planning",
-        "estate-planning",
-        "market-timing-dca"
+        "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "berkshire",
+        "alphabet",
+        "amazon"
+      ],
+      "sentiment": 0.154,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 1,
         "consumer-discretionary": 1,
-        "real-estate": 2,
-        "crypto": 1,
-        "inflation": 2,
-        "behavioral-finance": 1,
-        "diversification": 4,
+        "real-estate": 14,
+        "crypto": 3,
+        "private-markets": 1,
+        "inflation": 9,
+        "passive-investing": 4,
+        "budgeting-saving": 2,
+        "fire-movement": 1,
+        "retirement-planning": 2,
+        "real-estate-investing": 3,
+        "valuation": 7,
+        "market-concentration": 1,
+        "behavioral-finance": 2,
+        "diversification": 6,
         "tax-planning": 1,
         "estate-planning": 1,
-        "market-timing-dca": 1
+        "market-timing-dca": 11,
+        "alphabet": 1,
+        "amazon": 1,
+        "berkshire": 4
       },
       "entity_mention_density": {
-        "consumer-discretionary": 1.7,
-        "real-estate": 3.3,
-        "crypto": 1.7,
-        "inflation": 3.3,
-        "behavioral-finance": 1.7,
-        "diversification": 6.7,
-        "tax-planning": 1.7,
-        "estate-planning": 1.7,
-        "market-timing-dca": 1.7
+        "technology": 0.1,
+        "consumer-discretionary": 0.1,
+        "real-estate": 1.0,
+        "crypto": 0.2,
+        "private-markets": 0.1,
+        "inflation": 0.7,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "real-estate-investing": 0.2,
+        "valuation": 0.5,
+        "market-concentration": 0.1,
+        "behavioral-finance": 0.1,
+        "diversification": 0.4,
+        "tax-planning": 0.1,
+        "estate-planning": 0.1,
+        "market-timing-dca": 0.8,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "berkshire": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "diversification": -1.0,
+        "valuation": -1.0,
+        "berkshire": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "crypto": -1.0,
+        "inflation": -0.6,
+        "diversification": -1.0,
+        "market-timing-dca": -1.0,
+        "behavioral-finance": -1.0,
+        "fire-movement": 0.0,
+        "passive-investing": 0.0,
+        "budgeting-saving": -1.0,
+        "valuation": -1.0,
+        "retirement-planning": -1.0,
+        "berkshire": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Technology, Market Timing & Dollar-Cost Averaging, Inflation, Valuation, Diversification & Asset Allocation. Mentions Berkshire Hathaway, Alphabet / Google, Amazon. Tone leans bullish (+0.15).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-personal-finance-for-long-term-investors-debate-taking-sides-on-10-retirement-sub-topics-e139-789d90.md",
+    "transcript_word_count": 13147,
+    "transcript_language": "en"
   },
   {
     "guid": "5cbec98a-4e72-11f1-b329-6f99715cccb4",
