@@ -48031,33 +48031,104 @@
     "duration": "3212",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/d8fffdbc-7ed6-459c-8c9b-b49f0029511c/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "insurance",
+        "consumer-discretionary",
+        "consumer-staples",
+        "airlines-travel"
+      ],
       "themes": [
         "debt-payoff",
-        "fire-movement"
+        "housing",
+        "inflation",
+        "budgeting-saving",
+        "estate-planning",
+        "insurance-products",
+        "fire-movement",
+        "rates-fed",
+        "regulation-antitrust",
+        "consumer-health",
+        "behavioral-finance"
       ],
       "stocks": [
-        "meta"
+        "netflix",
+        "meta",
+        "costco"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "debt-payoff": 1,
-        "fire-movement": 1,
-        "meta": 1
+        "insurance": 3,
+        "consumer-discretionary": 1,
+        "consumer-staples": 1,
+        "real-estate": 6,
+        "airlines-travel": 1,
+        "inflation": 3,
+        "rates-fed": 1,
+        "housing": 4,
+        "regulation-antitrust": 1,
+        "consumer-health": 1,
+        "budgeting-saving": 3,
+        "debt-payoff": 8,
+        "fire-movement": 2,
+        "behavioral-finance": 1,
+        "estate-planning": 3,
+        "insurance-products": 3,
+        "meta": 1,
+        "costco": 1,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "debt-payoff": 3.1,
-        "fire-movement": 3.1,
-        "meta": 3.1
+        "insurance": 0.3,
+        "consumer-discretionary": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.5,
+        "airlines-travel": 0.1,
+        "inflation": 0.3,
+        "rates-fed": 0.1,
+        "housing": 0.4,
+        "regulation-antitrust": 0.1,
+        "consumer-health": 0.1,
+        "budgeting-saving": 0.3,
+        "debt-payoff": 0.7,
+        "fire-movement": 0.2,
+        "behavioral-finance": 0.1,
+        "estate-planning": 0.3,
+        "insurance-products": 0.3,
+        "meta": 0.1,
+        "costco": 0.1,
+        "netflix": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "housing": -1.0
+      },
+      "entity_conviction": {
+        "airlines-travel": -1.0,
+        "real-estate": -1.0,
+        "debt-payoff": -1.0,
+        "insurance-products": -1.0,
+        "inflation": -0.818,
+        "budgeting-saving": -0.818,
+        "estate-planning": -1.0,
+        "housing": -1.0
+      },
+      "entity_stance": {
+        "inflation": "buy",
+        "budgeting-saving": "buy",
+        "costco": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Consumer Discretionary, Debt Payoff, Housing Market, Inflation, Budgeting & Saving. Mentions Netflix, Meta, Costco. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-how-to-money-friday-flight-frustrating-funflation-money-morons-home-hater-29511c.md",
+    "transcript_word_count": 10728,
+    "transcript_language": "en"
   },
   {
     "guid": "2dc0a2f1-7fc4-4f04-ae9a-c04e218a5b84",
@@ -48704,78 +48775,111 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a73ccbe72138046c63c5410/media.mp3",
     "tags": {
       "sectors": [
-        "semiconductors",
         "ai-infrastructure",
+        "semiconductors",
         "technology"
       ],
       "themes": [
         "bond-market",
-        "ai-boom"
+        "diversification",
+        "ai-boom",
+        "regulation-antitrust"
       ],
       "stocks": [
-        "nasdaq",
-        "nvidia",
-        "microsoft",
         "alphabet",
         "amazon",
-        "meta",
-        "amd",
-        "tsmc",
+        "nasdaq",
+        "microsoft",
+        "nvidia",
         "walmart",
+        "amd",
+        "meta",
+        "tsmc",
+        "broadcom",
         "apple",
-        "broadcom"
+        "tesla",
+        "goldman-sachs",
+        "morgan-stanley"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.467,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "semiconductors": 3,
-        "ai-infrastructure": 3,
-        "ai-boom": 1,
-        "bond-market": 2,
-        "nvidia": 2,
+        "technology": 9,
+        "semiconductors": 18,
+        "ai-infrastructure": 26,
+        "ai-boom": 2,
+        "regulation-antitrust": 1,
+        "bond-market": 9,
+        "diversification": 4,
+        "nvidia": 6,
         "apple": 1,
-        "microsoft": 2,
-        "alphabet": 2,
-        "amazon": 2,
-        "meta": 2,
-        "amd": 2,
-        "tsmc": 2,
-        "walmart": 2,
+        "microsoft": 8,
+        "alphabet": 22,
+        "amazon": 10,
+        "meta": 3,
+        "tesla": 1,
+        "amd": 4,
+        "tsmc": 3,
+        "goldman-sachs": 1,
+        "morgan-stanley": 1,
+        "walmart": 5,
         "nasdaq": 9,
-        "broadcom": 1
+        "broadcom": 2
       },
       "entity_mention_density": {
-        "technology": 2.0,
-        "semiconductors": 6.1,
-        "ai-infrastructure": 6.1,
-        "ai-boom": 2.0,
-        "bond-market": 4.1,
-        "nvidia": 4.1,
-        "apple": 2.0,
-        "microsoft": 4.1,
-        "alphabet": 4.1,
-        "amazon": 4.1,
-        "meta": 4.1,
-        "amd": 4.1,
-        "tsmc": 4.1,
-        "walmart": 4.1,
-        "nasdaq": 18.3,
-        "broadcom": 2.0
+        "technology": 1.3,
+        "semiconductors": 2.5,
+        "ai-infrastructure": 3.6,
+        "ai-boom": 0.3,
+        "regulation-antitrust": 0.1,
+        "bond-market": 1.3,
+        "diversification": 0.6,
+        "nvidia": 0.8,
+        "apple": 0.1,
+        "microsoft": 1.1,
+        "alphabet": 3.1,
+        "amazon": 1.4,
+        "meta": 0.4,
+        "tesla": 0.1,
+        "amd": 0.6,
+        "tsmc": 0.4,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.1,
+        "walmart": 0.7,
+        "nasdaq": 1.3,
+        "broadcom": 0.3
       },
       "entity_sentiment": {
-        "technology": -1.0,
-        "ai-infrastructure": -1.0,
-        "semiconductors": -1.0,
+        "technology": 0.0,
+        "ai-infrastructure": -0.5,
+        "semiconductors": -0.6,
         "bond-market": -1.0,
         "ai-boom": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "ai-infrastructure": -0.333,
+        "semiconductors": -0.417,
+        "ai-boom": -0.429,
+        "diversification": -1.0,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "amd": -1.0,
+        "tsmc": -1.0,
+        "broadcom": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Bond Market & Yields, Diversification & Asset Allocation, AI & Machine Learning, Regulation & Antitrust. Mentions Alphabet / Google, Amazon, Nasdaq, Microsoft, Nvidia. Tone leans bearish (-0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-equity-mates-investing-podcast-the-economics-of-the-ai-companies-is-being-tested-with-alex-3c5410.md",
+    "transcript_word_count": 6689,
+    "transcript_language": "en"
   },
   {
     "guid": "3399e176-91ba-11f1-b81d-db7627fb3ebc",
@@ -74607,26 +74711,38 @@
     "duration": "549",
     "audio_url": "https://traffic.megaphone.fm/OLD8919926651.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 3
+        "real-estate": 2,
+        "budgeting-saving": 8
       },
       "entity_mention_density": {
-        "budgeting-saving": 10.9
+        "real-estate": 1.0,
+        "budgeting-saving": 4.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-25-optimal-finance-daily-3641-8-tips-to-save-money-on-groceries-by-amanda-brownlow-of-58da84.md",
+    "transcript_word_count": 1656,
+    "transcript_language": "en"
   },
   {
     "guid": "6a63d82cd198963142a684f2",
@@ -196807,37 +196923,96 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML1134765808.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "energy",
+        "autos-ev",
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "industrials"
       ],
       "themes": [
-        "ai-boom"
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "commodities",
+        "bond-market",
+        "geopolitics-tariffs",
+        "dealmaking"
       ],
       "stocks": [
-        "apple"
+        "apple",
+        "tesla",
+        "nasdaq"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.682,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "ai-boom": 1,
-        "apple": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 4,
+        "energy": 6,
+        "industrials": 1,
+        "autos-ev": 5,
+        "inflation": 10,
+        "rates-fed": 5,
+        "ai-boom": 4,
+        "geopolitics-tariffs": 1,
+        "commodities": 4,
+        "dealmaking": 1,
+        "bond-market": 2,
+        "apple": 1,
+        "tesla": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 3.6,
-        "ai-boom": 3.6,
-        "apple": 3.6
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.0,
+        "energy": 1.5,
+        "industrials": 0.2,
+        "autos-ev": 1.2,
+        "inflation": 2.5,
+        "rates-fed": 1.2,
+        "ai-boom": 1.0,
+        "geopolitics-tariffs": 0.2,
+        "commodities": 1.0,
+        "dealmaking": 0.2,
+        "bond-market": 0.5,
+        "apple": 0.2,
+        "tesla": 0.2,
+        "nasdaq": 0.2
       },
       "entity_sentiment": {
         "ai-infrastructure": 1.0,
+        "energy": -1.0,
         "ai-boom": 1.0,
+        "inflation": 1.0,
+        "commodities": -1.0,
+        "geopolitics-tariffs": 1.0,
         "apple": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "autos-ev": -1.0,
+        "energy": 1.0,
+        "ai-boom": 1.0,
+        "inflation": -1.0,
+        "commodities": 1.0,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "bond-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Autos & EVs, AI Infrastructure, Inflation, Interest Rates & Fed Policy, AI & Machine Learning, Commodities. Mentions Apple, Tesla, Nasdaq. Tone leans bullish (+0.68).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-motley-fool-hidden-gems-has-ferrari-lost-its-mind-b6978d.md",
+    "transcript_word_count": 3780,
+    "transcript_language": "en"
   },
   {
     "guid": "6a15ebfb83dd9b6e11cadbec",
