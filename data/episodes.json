@@ -3617,20 +3617,53 @@
     "duration": "01:03:26",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_SUMMER_SERIES_2026_-_Daylian_Cain_-_AUDIO_V1.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate",
+        "private-markets"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "currency-dollar",
+        "dealmaking",
+        "hedge-funds"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.351,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 3,
+        "private-markets": 1,
+        "dealmaking": 1,
+        "currency-dollar": 3,
+        "hedge-funds": 1,
+        "budgeting-saving": 7
+      },
+      "entity_mention_density": {
+        "real-estate": 0.2,
+        "private-markets": 0.1,
+        "dealmaking": 0.1,
+        "currency-dollar": 0.2,
+        "hedge-funds": 0.1,
+        "budgeting-saving": 0.6
+      },
+      "entity_sentiment": {
+        "real-estate": -1.0
+      },
+      "entity_conviction": {
+        "currency-dollar": -1.0,
+        "budgeting-saving": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Budgeting & Saving, Currency & Dollar, IPOs & Dealmaking, Hedge Funds. Tone leans bullish (+0.35).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-capital-allocators-best-of-negotiations-daylian-cain-022616.md",
+    "transcript_word_count": 12173,
+    "transcript_language": "en"
   },
   {
     "guid": "1dfdc054-8dea-11f1-8ef8-9396d141fb9b",
@@ -9068,42 +9101,146 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "consumer-discretionary",
+        "industrials",
+        "energy",
+        "consumer-staples",
+        "real-estate",
+        "crypto"
       ],
       "themes": [
         "geopolitics-tariffs",
-        "regulation-antitrust"
+        "rates-fed",
+        "regulation-antitrust",
+        "ai-boom",
+        "elections-politics",
+        "earnings",
+        "commodities",
+        "budgeting-saving",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "salesforce",
+        "tsmc",
+        "nasdaq",
+        "microsoft",
+        "alphabet",
+        "meta",
+        "bitcoin",
+        "amazon",
+        "walmart",
+        "ethereum"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.272,
+      "sentiment_hits": 33,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "ai-infrastructure": 1,
-        "geopolitics-tariffs": 1,
-        "regulation-antitrust": 1,
-        "nvidia": 1
+        "technology": 5,
+        "semiconductors": 20,
+        "ai-infrastructure": 15,
+        "energy": 1,
+        "consumer-discretionary": 2,
+        "consumer-staples": 1,
+        "real-estate": 1,
+        "industrials": 2,
+        "crypto": 1,
+        "rates-fed": 5,
+        "ai-boom": 2,
+        "geopolitics-tariffs": 10,
+        "elections-politics": 2,
+        "commodities": 1,
+        "regulation-antitrust": 3,
+        "earnings": 2,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 1,
+        "nvidia": 52,
+        "microsoft": 2,
+        "alphabet": 2,
+        "amazon": 1,
+        "meta": 2,
+        "tsmc": 3,
+        "walmart": 1,
+        "bitcoin": 2,
+        "ethereum": 1,
+        "nasdaq": 3,
+        "salesforce": 4
       },
       "entity_mention_density": {
-        "semiconductors": 14.3,
-        "ai-infrastructure": 14.3,
-        "geopolitics-tariffs": 14.3,
-        "regulation-antitrust": 14.3,
-        "nvidia": 14.3
+        "technology": 0.6,
+        "semiconductors": 2.6,
+        "ai-infrastructure": 1.9,
+        "energy": 0.1,
+        "consumer-discretionary": 0.3,
+        "consumer-staples": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.3,
+        "crypto": 0.1,
+        "rates-fed": 0.6,
+        "ai-boom": 0.3,
+        "geopolitics-tariffs": 1.3,
+        "elections-politics": 0.3,
+        "commodities": 0.1,
+        "regulation-antitrust": 0.4,
+        "earnings": 0.3,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.1,
+        "nvidia": 6.6,
+        "microsoft": 0.3,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "meta": 0.3,
+        "tsmc": 0.4,
+        "walmart": 0.1,
+        "bitcoin": 0.3,
+        "ethereum": 0.1,
+        "nasdaq": 0.4,
+        "salesforce": 0.5
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0,
+        "ai-infrastructure": 0.2,
+        "semiconductors": 1.0,
+        "technology": 1.0,
+        "industrials": 0.667,
         "regulation-antitrust": 1.0,
-        "nvidia": 1.0
+        "geopolitics-tariffs": 1.0,
+        "rates-fed": 1.0,
+        "earnings": -1.0,
+        "ai-boom": -1.0,
+        "elections-politics": 1.0,
+        "nvidia": 0.556,
+        "salesforce": -1.0,
+        "microsoft": 1.0,
+        "alphabet": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": -0.167,
+        "technology": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "ai-boom": -1.0,
+        "budgeting-saving": -1.0,
+        "nvidia": -0.714,
+        "walmart": -0.333,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "ai-infrastructure",
+        "nvidia"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Technology, Geopolitics & Tariffs, Interest Rates & Fed Policy, Regulation & Antitrust, AI & Machine Learning. Mentions Nvidia, Salesforce, TSMC, Nasdaq, Microsoft. Tone leans bullish (+0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-morning-call-ai-momentum-nuclear-power-and-policy-risks-shape-the-outlook-85a91e.md",
+    "transcript_word_count": 7765,
+    "transcript_language": "en"
   },
   {
     "guid": "5bf37666-8772-11f1-9662-a71dbe7d7554",
@@ -135112,19 +135249,33 @@
     "audio_url": "https://traffic.megaphone.fm/OLD3007806757.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "tax-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
+      "entity_mentions": {
+        "tax-planning": 1
+      },
+      "entity_mention_density": {
+        "tax-planning": 0.5
+      },
+      "entity_sentiment": {
+        "tax-planning": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Tax Planning. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-optimal-finance-daily-3604-how-to-cheat-on-your-taxes-legally-by-richard-close-wit-71e688.md",
+    "transcript_word_count": 1508,
+    "transcript_language": "en"
   },
   {
     "guid": "8f655c3e-4f4d-4931-a38a-a00cfc5eef94",
@@ -156603,38 +156754,85 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_219_-_Sheconomy_Quiz_Show_-_Final_Audio_Edit_v1.mp3?dest-id=3794235",
     "tags": {
       "sectors": [
+        "real-estate",
+        "private-markets",
         "healthcare"
       ],
       "themes": [
+        "esg-climate",
+        "passive-investing",
         "fire-movement",
-        "esg-climate"
+        "diversification",
+        "hedge-funds",
+        "behavioral-finance"
       ],
       "stocks": [
-        "amazon"
+        "vanguard",
+        "amazon",
+        "meta",
+        "berkshire",
+        "fidelity",
+        "netflix"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.5,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "healthcare": 1,
-        "esg-climate": 1,
-        "fire-movement": 2,
-        "amazon": 1
+        "real-estate": 5,
+        "private-markets": 3,
+        "esg-climate": 23,
+        "hedge-funds": 1,
+        "passive-investing": 14,
+        "fire-movement": 7,
+        "behavioral-finance": 1,
+        "diversification": 2,
+        "amazon": 1,
+        "meta": 1,
+        "berkshire": 1,
+        "vanguard": 3,
+        "fidelity": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "healthcare": 1.9,
-        "esg-climate": 1.9,
-        "fire-movement": 3.9,
-        "amazon": 1.9
+        "healthcare": 0.1,
+        "real-estate": 0.3,
+        "private-markets": 0.2,
+        "esg-climate": 1.4,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.8,
+        "fire-movement": 0.4,
+        "behavioral-finance": 0.1,
+        "diversification": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "vanguard": 0.2,
+        "fidelity": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "esg-climate": 1.0
+        "esg-climate": 1.0,
+        "passive-investing": 1.0,
+        "behavioral-finance": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "esg-climate": -1.0,
+        "passive-investing": -1.0,
+        "behavioral-finance": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Healthcare & Pharma, ESG & Climate, Passive Investing, Financial Independence / FIRE, Diversification & Asset Allocation. Mentions Vanguard, Amazon, Meta, Berkshire Hathaway, Fidelity. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-catching-up-to-fi-shocking-truths-about-women-s-financial-history-you-need-to-742279.md",
+    "transcript_word_count": 16153,
+    "transcript_language": "en"
   },
   {
     "guid": "57148778-38ff-11f1-a344-fb3138c9a79c",
