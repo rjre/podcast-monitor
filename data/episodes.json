@@ -114008,22 +114008,30 @@
     "duration": "567",
     "audio_url": "https://traffic.megaphone.fm/OLD7013067678.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "debt-payoff",
-        "college-savings"
+      "sectors": [
+        "real-estate"
       ],
-      "stocks": [],
+      "themes": [
+        "college-savings",
+        "debt-payoff"
+      ],
+      "stocks": [
+        "netflix"
+      ],
       "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "debt-payoff": 1,
-        "college-savings": 1
+        "real-estate": 1,
+        "debt-payoff": 3,
+        "college-savings": 4,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "debt-payoff": 4.6,
-        "college-savings": 4.6
+        "real-estate": 0.5,
+        "debt-payoff": 1.5,
+        "college-savings": 2.0,
+        "netflix": 0.5
       },
       "entity_sentiment": {
         "debt-payoff": 1.0,
@@ -114033,7 +114041,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, College Savings & Student Debt, Debt Payoff. Mentions Netflix. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-10-optimal-finance-daily-3624-how-one-millenial-couple-saves-25000-per-year-by-jen-ha-04e2ab.md",
+    "transcript_word_count": 1817,
+    "transcript_language": "en"
   },
   {
     "guid": "9aa63f92-c406-408d-8277-b45d0054d52f",
@@ -148977,33 +148991,99 @@
     "duration": "01:08:17",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/74748c66-c24b-4651-b118-75d17b8a1ef6.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "insurance",
+        "real-estate",
+        "banks"
+      ],
       "themes": [
-        "estate-planning"
+        "insurance-products",
+        "tax-planning",
+        "estate-planning",
+        "retirement-planning",
+        "inflation",
+        "recession",
+        "elections-politics",
+        "fire-movement",
+        "behavioral-finance"
       ],
       "stocks": [
         "amazon",
-        "jpmorgan"
+        "jpmorgan",
+        "charles-schwab",
+        "meta",
+        "tesla"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "estate-planning": 2,
-        "amazon": 1,
-        "jpmorgan": 1
+        "banks": 1,
+        "insurance": 2,
+        "healthcare": 8,
+        "real-estate": 2,
+        "inflation": 1,
+        "recession": 1,
+        "elections-politics": 1,
+        "fire-movement": 1,
+        "retirement-planning": 2,
+        "behavioral-finance": 1,
+        "tax-planning": 3,
+        "estate-planning": 3,
+        "insurance-products": 4,
+        "amazon": 5,
+        "meta": 1,
+        "tesla": 1,
+        "jpmorgan": 2,
+        "charles-schwab": 2
       },
       "entity_mention_density": {
-        "estate-planning": 3.0,
-        "amazon": 1.5,
-        "jpmorgan": 1.5
+        "banks": 0.1,
+        "insurance": 0.1,
+        "healthcare": 0.6,
+        "real-estate": 0.1,
+        "inflation": 0.1,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "behavioral-finance": 0.1,
+        "tax-planning": 0.2,
+        "estate-planning": 0.2,
+        "insurance-products": 0.3,
+        "amazon": 0.4,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "jpmorgan": 0.1,
+        "charles-schwab": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "estate-planning": -1.0,
+        "retirement-planning": -1.0,
+        "recession": -1.0,
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "real-estate": -0.333,
+        "retirement-planning": -1.0,
+        "inflation": 1.0,
+        "recession": 1.0,
+        "tax-planning": -1.0,
+        "insurance-products": 1.0,
+        "jpmorgan": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Real Estate, Insurance Products, Tax Planning, Estate Planning, Retirement Planning. Mentions Amazon, JPMorgan, Charles Schwab, Meta, Tesla. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-stacking-benjamins-dana-anspach-on-the-four-phases-of-retirement-and-why-your-g-WxwLTY.md",
+    "transcript_word_count": 13555,
+    "transcript_language": "en"
   },
   {
     "guid": "4dacbeb8-9b6d-45bd-9c42-b4410156d2bf",
@@ -247063,43 +247143,147 @@
     "audio_url": "https://traffic.megaphone.fm/RRM8115868999.mp3?updated=1778031737",
     "tags": {
       "sectors": [
+        "energy",
+        "ai-infrastructure",
+        "banks",
         "semiconductors",
-        "energy"
+        "technology",
+        "consumer-discretionary",
+        "media-entertainment",
+        "private-markets"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "elections-politics",
+        "passive-investing",
+        "consumer-health",
+        "valuation",
+        "market-concentration"
       ],
       "stocks": [
+        "amazon",
+        "mastercard",
+        "alphabet",
+        "nvidia",
+        "berkshire",
+        "broadcom",
+        "qualcomm",
+        "microsoft",
+        "tesla",
+        "amd",
         "palantir",
-        "mastercard"
+        "goldman-sachs",
+        "nasdaq",
+        "paypal"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.221,
+      "sentiment_hits": 25,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "energy": 1,
-        "inflation": 1,
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 4,
+        "banks": 3,
+        "energy": 6,
+        "consumer-discretionary": 1,
+        "media-entertainment": 1,
+        "private-markets": 1,
+        "inflation": 2,
+        "rates-fed": 1,
+        "ai-boom": 1,
+        "elections-politics": 1,
+        "passive-investing": 1,
+        "consumer-health": 1,
+        "valuation": 1,
+        "market-concentration": 1,
+        "nvidia": 3,
+        "microsoft": 1,
+        "alphabet": 4,
+        "amazon": 8,
+        "tesla": 1,
+        "amd": 1,
         "palantir": 1,
-        "mastercard": 1
+        "goldman-sachs": 1,
+        "berkshire": 3,
+        "nasdaq": 1,
+        "paypal": 1,
+        "mastercard": 5,
+        "broadcom": 3,
+        "qualcomm": 2
       },
       "entity_mention_density": {
-        "semiconductors": 5.6,
-        "energy": 5.6,
-        "inflation": 5.6,
-        "palantir": 5.6,
-        "mastercard": 5.6
+        "technology": 0.1,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.4,
+        "banks": 0.3,
+        "energy": 0.6,
+        "consumer-discretionary": 0.1,
+        "media-entertainment": 0.1,
+        "private-markets": 0.1,
+        "inflation": 0.2,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "elections-politics": 0.1,
+        "passive-investing": 0.1,
+        "consumer-health": 0.1,
+        "valuation": 0.1,
+        "market-concentration": 0.1,
+        "nvidia": 0.3,
+        "microsoft": 0.1,
+        "alphabet": 0.4,
+        "amazon": 0.9,
+        "tesla": 0.1,
+        "amd": 0.1,
+        "palantir": 0.1,
+        "goldman-sachs": 0.1,
+        "berkshire": 0.3,
+        "nasdaq": 0.1,
+        "paypal": 0.1,
+        "mastercard": 0.5,
+        "broadcom": 0.3,
+        "qualcomm": 0.2
       },
       "entity_sentiment": {
         "semiconductors": 0.0,
+        "technology": -1.0,
+        "ai-infrastructure": 1.0,
+        "banks": 1.0,
+        "market-concentration": 1.0,
         "palantir": 0.0,
-        "mastercard": 0.0
+        "mastercard": 0.0,
+        "nvidia": 1.0,
+        "qualcomm": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "banks": -1.0,
+        "market-concentration": -1.0,
+        "elections-politics": -1.0,
+        "nvidia": -1.0,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "tesla": -1.0,
+        "broadcom": -1.0,
+        "qualcomm": -1.0,
+        "berkshire": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Banks & Financials, Inflation, Interest Rates & Fed Policy, AI & Machine Learning, Elections & Politics. Mentions Amazon, Mastercard, Alphabet / Google, Nvidia, Berkshire Hathaway. Tone leans bullish (+0.22).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-riskreversal-pod-coming-into-focus-crude-oil-hot-inflation-and-a-wall-of-worr-c83b2a.md",
+    "transcript_word_count": 9112,
+    "transcript_language": "en"
   },
   {
     "guid": "7cf7a5d6-f8cf-4309-a6eb-3342e5c332b9",
