@@ -20059,29 +20059,53 @@
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/9130f48d-4fd4-444e-b120-02f86c0e2cf5/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=9130f48d-4fd4-444e-b120-02f86c0e2cf5&feed=hvWWWzRv&t=podcast&e=nx-s1-5940897&p=510289&d=2278&size=36461592",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "consumer-discretionary",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "inflation"
+      ],
       "stocks": [
-        "meta"
+        "walmart",
+        "meta",
+        "costco"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "meta": 1
+        "consumer-discretionary": 12,
+        "industrials": 6,
+        "inflation": 1,
+        "meta": 1,
+        "costco": 1,
+        "walmart": 3
       },
       "entity_mention_density": {
-        "consumer-discretionary": 4.0,
-        "meta": 4.0
+        "consumer-discretionary": 1.8,
+        "industrials": 0.9,
+        "inflation": 0.1,
+        "meta": 0.1,
+        "costco": 0.1,
+        "walmart": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "industrials": -1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "industrials": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Industrials, Inflation. Mentions Walmart, Meta, Costco. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-21-planet-money-who-decides-what-big-box-sells-our-game-got-us-answers-7c5477.md",
+    "transcript_word_count": 6503,
+    "transcript_language": "en"
   },
   {
     "guid": "00053d62-05d6-11f1-a338-9383828a13ea",
@@ -200591,45 +200615,63 @@
     "duration": "498",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/c525435c-7a0d-4da8-bf8c-969ec3b7ab29.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "insurance"
+      ],
       "themes": [
         "dividends-buybacks",
         "inflation",
+        "rates-fed",
         "bond-market",
         "market-concentration"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.083,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.455,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "inflation": 1,
+        "ai-infrastructure": 2,
+        "insurance": 1,
+        "inflation": 2,
+        "rates-fed": 2,
         "bond-market": 1,
-        "dividends-buybacks": 5,
+        "dividends-buybacks": 15,
         "market-concentration": 1,
-        "nasdaq": 1
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "inflation": 5.5,
-        "bond-market": 5.5,
-        "dividends-buybacks": 27.5,
-        "market-concentration": 5.5,
-        "nasdaq": 5.5
+        "ai-infrastructure": 1.0,
+        "insurance": 0.5,
+        "inflation": 1.0,
+        "rates-fed": 1.0,
+        "bond-market": 0.5,
+        "dividends-buybacks": 7.6,
+        "market-concentration": 0.5,
+        "nasdaq": 1.0
       },
       "entity_sentiment": {
         "inflation": -0.429,
         "bond-market": -0.429,
-        "dividends-buybacks": 0.167,
+        "dividends-buybacks": 0.412,
         "market-concentration": 0.167,
         "nasdaq": -0.429
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Insurance, Dividends & Buybacks, Inflation, Interest Rates & Fed Policy, Bond Market & Yields. Mentions Nasdaq. Tone leans bullish (+0.46).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-the-dividend-cafe-wednesday-may-27-2026-68bc8e.md",
+    "transcript_word_count": 1782,
+    "transcript_language": "en"
   },
   {
     "guid": "e7cd72e0-aa9f-44bb-8c4d-1930f6007b41",
@@ -202594,30 +202636,89 @@
     "duration": "3411",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/6b805930-4645-493c-b193-b433014d2a38/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "crypto",
+        "private-markets"
+      ],
       "themes": [
-        "fire-movement"
+        "retirement-planning",
+        "fire-movement",
+        "diversification",
+        "inflation",
+        "real-estate-investing",
+        "passive-investing",
+        "budgeting-saving",
+        "tax-planning"
       ],
       "stocks": [
-        "meta"
+        "berkshire",
+        "boeing",
+        "meta",
+        "vanguard",
+        "fidelity"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.467,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 2,
-        "meta": 1
+        "real-estate": 4,
+        "crypto": 2,
+        "private-markets": 1,
+        "inflation": 2,
+        "passive-investing": 1,
+        "budgeting-saving": 1,
+        "fire-movement": 5,
+        "retirement-planning": 8,
+        "real-estate-investing": 2,
+        "diversification": 4,
+        "tax-planning": 1,
+        "meta": 2,
+        "berkshire": 5,
+        "boeing": 3,
+        "vanguard": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "fire-movement": 5.1,
-        "meta": 2.6
+        "real-estate": 0.3,
+        "crypto": 0.2,
+        "private-markets": 0.1,
+        "inflation": 0.2,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.4,
+        "retirement-planning": 0.7,
+        "real-estate-investing": 0.2,
+        "diversification": 0.3,
+        "tax-planning": 0.1,
+        "meta": 0.2,
+        "berkshire": 0.4,
+        "boeing": 0.3,
+        "vanguard": 0.1,
+        "fidelity": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "crypto": 1.0,
+        "retirement-planning": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "crypto": -1.0,
+        "fire-movement": -1.0,
+        "retirement-planning": -1.0,
+        "diversification": -1.0,
+        "boeing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Private Equity & Credit, Retirement Planning, Financial Independence / FIRE, Diversification & Asset Allocation, Inflation. Mentions Berkshire Hathaway, Boeing, Meta, Vanguard, Fidelity. Tone leans bearish (-0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-how-to-money-the-case-for-a-good-enough-financial-plan-w-jesse-cramer-114-4d2a38.md",
+    "transcript_word_count": 11085,
+    "transcript_language": "en"
   },
   {
     "guid": "9652b515-6990-4dea-bd78-97b1f6371a52",
