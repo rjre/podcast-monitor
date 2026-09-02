@@ -10203,27 +10203,42 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "inflation",
         "budgeting-saving",
         "fire-movement"
       ],
-      "stocks": [],
+      "stocks": [
+        "amazon"
+      ],
       "sentiment": -0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
+        "inflation": 1,
         "budgeting-saving": 1,
-        "fire-movement": 1
+        "fire-movement": 1,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.4,
-        "fire-movement": 3.4
+        "inflation": 0.5,
+        "budgeting-saving": 0.5,
+        "fire-movement": 0.5,
+        "amazon": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Inflation, Budgeting & Saving, Financial Independence / FIRE. Mentions Amazon. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-optimal-finance-daily-3679-5-signs-you-are-not-ready-for-retirement-by-mike-ballew-a9e9e7.md",
+    "transcript_word_count": 1534,
+    "transcript_language": "en"
   },
   {
     "guid": "c33e7adf-b23d-45db-bf74-334921fbdd26",
@@ -84819,38 +84834,83 @@
     "audio_url": "https://traffic.megaphone.fm/APO6413526672.mp3",
     "tags": {
       "sectors": [
+        "energy",
         "semiconductors",
-        "energy"
+        "ai-infrastructure"
       ],
       "themes": [
-        "inflation",
         "geopolitics-tariffs",
-        "commodities"
+        "inflation",
+        "commodities",
+        "earnings",
+        "rates-fed",
+        "dealmaking"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "disney",
+        "tesla",
+        "nvidia",
+        "alphabet",
+        "amd",
+        "nasdaq"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "semiconductors": 1,
-        "energy": 1,
-        "inflation": 1,
-        "geopolitics-tariffs": 1,
-        "commodities": 1
+        "semiconductors": 3,
+        "ai-infrastructure": 1,
+        "energy": 5,
+        "inflation": 4,
+        "rates-fed": 3,
+        "geopolitics-tariffs": 7,
+        "commodities": 4,
+        "dealmaking": 1,
+        "earnings": 4,
+        "nvidia": 1,
+        "alphabet": 1,
+        "tesla": 2,
+        "amd": 1,
+        "nasdaq": 1,
+        "disney": 6
       },
       "entity_mention_density": {
-        "semiconductors": 8.7,
-        "energy": 8.7,
-        "inflation": 8.7,
-        "geopolitics-tariffs": 8.7,
-        "commodities": 8.7
+        "semiconductors": 1.4,
+        "ai-infrastructure": 0.5,
+        "energy": 2.3,
+        "inflation": 1.8,
+        "rates-fed": 1.4,
+        "geopolitics-tariffs": 3.2,
+        "commodities": 1.8,
+        "dealmaking": 0.5,
+        "earnings": 1.8,
+        "nvidia": 0.5,
+        "alphabet": 0.5,
+        "tesla": 0.9,
+        "amd": 0.5,
+        "nasdaq": 0.5,
+        "disney": 2.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "nasdaq": 1.0,
+        "amd": 1.0
+      },
+      "entity_conviction": {
+        "earnings": -1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Semiconductors, AI Infrastructure, Geopolitics & Tariffs, Inflation, Commodities, Corporate Earnings. Mentions Disney, Tesla, Nvidia, Alphabet / Google, AMD. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-the-rundown-short-sellers-pile-into-spacex-novo-nordisk-sues-eli-lilly-645463.md",
+    "transcript_word_count": 2074,
+    "transcript_language": "en"
   },
   {
     "guid": "d69c02b0-4779-4c04-8401-b48f00e7d580",
@@ -218795,39 +218855,109 @@
     "duration": "01:05:27",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/7f46b815-c864-4b7c-8ccd-c97a627c45ae.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "crypto",
+        "insurance",
+        "technology"
+      ],
       "themes": [
         "diversification",
+        "insurance-products",
         "estate-planning",
-        "insurance-products"
+        "tax-planning",
+        "budgeting-saving",
+        "college-savings",
+        "passive-investing",
+        "earnings",
+        "dividends-buybacks",
+        "small-caps-value-growth",
+        "market-timing-dca"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "amazon",
+        "jpmorgan",
+        "bitcoin",
+        "fidelity"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.46,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "diversification": 4,
-        "estate-planning": 3,
-        "insurance-products": 1,
-        "nvidia": 1
+        "technology": 1,
+        "insurance": 2,
+        "healthcare": 3,
+        "crypto": 3,
+        "earnings": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 4,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 17,
+        "tax-planning": 5,
+        "estate-planning": 7,
+        "college-savings": 3,
+        "insurance-products": 14,
+        "market-timing-dca": 1,
+        "nvidia": 9,
+        "amazon": 3,
+        "jpmorgan": 2,
+        "bitcoin": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "diversification": 7.4,
-        "estate-planning": 5.6,
-        "insurance-products": 1.9,
-        "nvidia": 1.9
+        "technology": 0.1,
+        "insurance": 0.1,
+        "healthcare": 0.2,
+        "crypto": 0.2,
+        "earnings": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.3,
+        "dividends-buybacks": 0.1,
+        "small-caps-value-growth": 0.1,
+        "diversification": 1.2,
+        "tax-planning": 0.3,
+        "estate-planning": 0.5,
+        "college-savings": 0.2,
+        "insurance-products": 1.0,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.6,
+        "amazon": 0.2,
+        "jpmorgan": 0.1,
+        "bitcoin": 0.1,
+        "fidelity": 0.1
       },
       "entity_sentiment": {
-        "diversification": 1.0,
-        "estate-planning": 1.0
+        "diversification": 0.333,
+        "estate-planning": 0.333,
+        "tax-planning": 0.778,
+        "nvidia": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "crypto": -0.765,
+        "technology": -0.765,
+        "healthcare": -1.0,
+        "diversification": -0.905,
+        "passive-investing": -1.0,
+        "earnings": -1.0,
+        "small-caps-value-growth": -1.0,
+        "tax-planning": -1.0,
+        "nvidia": -1.0,
+        "bitcoin": -0.765
+      },
+      "entity_stance": {
+        "passive-investing": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Crypto & Digital Assets, Insurance, Diversification & Asset Allocation, Insurance Products, Estate Planning, Tax Planning. Mentions Nvidia, Amazon, JPMorgan, Bitcoin, Fidelity. Tone leans bullish (+0.46).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-stacking-benjamins-too-much-of-one-stock-how-to-diversify-without-blowing-up-yo-ecIxcU.md",
+    "transcript_word_count": 13935,
+    "transcript_language": "en"
   },
   {
     "guid": "2cddec97-5995-4812-abea-b44b016dc69f",
