@@ -52,24 +52,29 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install faster-whisper
+        run: |
+          pip install faster-whisper
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
 
       - name: Transcribe a batch of episodes and re-tag from full text
-        run: python3 pipeline/transcribe.py --limit 15 --model base
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python3 pipeline/transcribe.py --limit 60 --model base
+        # Uses OpenRouter ASR (pipeline/transcribe_openrouter.py) automatically
+        # since OPENROUTER_API_KEY is set above as a repo secret -- ~1-2
+        # min/episode instead of local Whisper's 5-9, and negligible cost
+        # (~$0.000003/s of audio, ~1 cent for a 60-min episode), so --limit
+        # can be much higher than the old local-Whisper-bound value. Falls
+        # back to local Whisper automatically if the secret is ever removed.
         # Round-robin across shows (see select_candidates in transcribe.py),
-        # so at 15/day this reaches every one of the ~97 active podcasts at
-        # least once within about 7 days, then starts on each show's
-        # second-shortest episode, and so on -- rather than exhausting the
-        # batch on whichever handful of shows happen to have the shortest
-        # episodes. No ANTHROPIC_API_KEY is configured here (by choice, to
-        # avoid metered API cost), so this always falls back to the free
+        # so this reaches every active podcast at least once within a few
+        # days, then starts on each show's next-shortest episode, and so on.
+        # No ANTHROPIC_API_KEY is configured here (by choice, to avoid
+        # metered API cost), so tagging always falls back to the free
         # keyword tagger. See "Getting Claude-quality tags for free" in the
-        # README for the manual weekly upgrade pass instead. Tune --limit
-        # up/down here: each episode costs a few minutes of Actions compute,
-        # which is billed against your plan's monthly allowance since this
-        # repo is private -- 15/day runs close to or over GitHub Free's
-        # 2,000 min/month private-repo allowance, see README for the
-        # current estimate and what happens if you exceed it.
+        # README for the manual weekly upgrade pass instead. This repo is
+        # public, so GitHub Actions minutes on standard runners are free
+        # regardless of --limit -- no billing constraint here anymore.
 
       - name: Commit updated data
         run: |
