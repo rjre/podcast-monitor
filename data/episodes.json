@@ -54920,30 +54920,72 @@
     "duration": "01:04:51",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/9ae60399-d737-4973-98de-0593a929b1e1.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks",
+        "insurance",
+        "consumer-discretionary",
+        "private-markets"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "debt-payoff",
+        "hedge-funds",
+        "college-savings"
       ],
       "stocks": [
-        "costco"
+        "costco",
+        "robinhood",
+        "disney",
+        "amazon",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "budgeting-saving": 5,
-        "costco": 1
+        "banks": 2,
+        "insurance": 1,
+        "consumer-discretionary": 1,
+        "private-markets": 1,
+        "hedge-funds": 2,
+        "budgeting-saving": 19,
+        "debt-payoff": 4,
+        "college-savings": 1,
+        "amazon": 1,
+        "costco": 6,
+        "robinhood": 6,
+        "netflix": 1,
+        "disney": 6
       },
       "entity_mention_density": {
-        "budgeting-saving": 11.9,
-        "costco": 2.4
+        "banks": 0.1,
+        "insurance": 0.1,
+        "consumer-discretionary": 0.1,
+        "private-markets": 0.1,
+        "hedge-funds": 0.1,
+        "budgeting-saving": 1.3,
+        "debt-payoff": 0.3,
+        "college-savings": 0.1,
+        "amazon": 0.1,
+        "costco": 0.4,
+        "robinhood": 0.4,
+        "netflix": 0.1,
+        "disney": 0.4
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "robinhood": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Insurance, Consumer Discretionary, Budgeting & Saving, Debt Payoff, Hedge Funds, College Savings & Student Debt. Mentions Costco, Robinhood, Disney, Amazon, Netflix. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-stacking-benjamins-jesse-mecham-ynab-founder-on-the-one-question-that-ends-mone-kSQf7U.md",
+    "transcript_word_count": 13915,
+    "transcript_language": "en"
   },
   {
     "guid": "5b767b6c-f6d1-4a88-bfd1-b4870136cb39",
@@ -75060,26 +75102,42 @@
     "duration": "578",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM9605236210.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "crypto"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "passive-investing"
       ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "real-estate": 2,
+        "crypto": 1,
+        "passive-investing": 1,
+        "budgeting-saving": 4
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8
+        "real-estate": 1.1,
+        "crypto": 0.5,
+        "passive-investing": 0.5,
+        "budgeting-saving": 2.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Budgeting & Saving, Passive Investing. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-27-ramsey-everyday-millionaires-how-do-i-start-investing-from-scratch-c21a3b.md",
+    "transcript_word_count": 1654,
+    "transcript_language": "en"
   },
   {
     "guid": "068e557c-29dc-11f1-b64a-2b3f0149bfcb",
@@ -134798,33 +134856,69 @@
     "duration": "6963",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC4474816891.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "crypto",
+        "private-markets"
+      ],
       "themes": [
-        "behavioral-finance"
+        "behavioral-finance",
+        "esg-climate",
+        "diversification"
       ],
       "stocks": [
         "blackrock",
+        "bitcoin",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.17,
+      "sentiment_hits": 30,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "behavioral-finance": 3,
+        "real-estate": 4,
+        "crypto": 2,
+        "private-markets": 2,
+        "esg-climate": 2,
+        "behavioral-finance": 14,
+        "diversification": 1,
         "meta": 1,
-        "blackrock": 3
+        "bitcoin": 2,
+        "blackrock": 22
       },
       "entity_mention_density": {
-        "behavioral-finance": 7.2,
-        "meta": 2.4,
-        "blackrock": 7.2
+        "real-estate": 0.2,
+        "crypto": 0.1,
+        "private-markets": 0.1,
+        "esg-climate": 0.1,
+        "behavioral-finance": 0.7,
+        "diversification": 0.1,
+        "meta": 0.1,
+        "bitcoin": 0.1,
+        "blackrock": 1.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "behavioral-finance": -1.0,
+        "esg-climate": -1.0,
+        "blackrock": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "private-markets": -1.0,
+        "behavioral-finance": -1.0,
+        "esg-climate": -1.0,
+        "blackrock": -0.833
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Private Equity & Credit, Behavioral Finance & Psychology, ESG & Climate, Diversification & Asset Allocation. Mentions BlackRock, Bitcoin, Meta. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-28-the-investor-s-podcast-we-study-billionaires-rwh069-the-psychology-of-investing-w-emily-haisley-490c00.md",
+    "transcript_word_count": 19335,
+    "transcript_language": "en"
   },
   {
     "guid": "273922e8-1425-490c-9a5d-0687069bec06",
@@ -202179,25 +202273,179 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/fd30fb10-97fd-44fa-89cb-f4c95f5abada/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=fd30fb10-97fd-44fa-89cb-f4c95f5abada&feed=qltQrd_8",
     "tags": {
       "sectors": [
-        "materials-mining"
+        "semiconductors",
+        "consumer-discretionary",
+        "ai-infrastructure",
+        "materials-mining",
+        "energy",
+        "technology",
+        "banks",
+        "airlines-travel"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "themes": [
+        "inflation",
+        "valuation",
+        "commodities",
+        "behavioral-finance",
+        "rates-fed",
+        "diversification",
+        "ai-boom",
+        "recession",
+        "elections-politics",
+        "dealmaking",
+        "hedge-funds",
+        "dividends-buybacks",
+        "market-concentration"
+      ],
+      "stocks": [
+        "qualcomm",
+        "amazon",
+        "broadcom",
+        "cisco",
+        "walmart",
+        "nvidia",
+        "alphabet",
+        "tesla",
+        "disney",
+        "microsoft",
+        "micron",
+        "jpmorgan",
+        "goldman-sachs",
+        "bank-of-america",
+        "costco",
+        "nasdaq",
+        "salesforce"
+      ],
+      "sentiment": 0.527,
+      "sentiment_hits": 32,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "materials-mining": 1
+        "technology": 1,
+        "semiconductors": 5,
+        "ai-infrastructure": 4,
+        "banks": 1,
+        "energy": 3,
+        "consumer-discretionary": 5,
+        "materials-mining": 4,
+        "airlines-travel": 1,
+        "inflation": 6,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "recession": 1,
+        "elections-politics": 1,
+        "commodities": 3,
+        "dealmaking": 1,
+        "hedge-funds": 1,
+        "dividends-buybacks": 1,
+        "valuation": 4,
+        "market-concentration": 1,
+        "behavioral-finance": 3,
+        "diversification": 2,
+        "nvidia": 2,
+        "microsoft": 1,
+        "alphabet": 2,
+        "amazon": 5,
+        "tesla": 2,
+        "cisco": 3,
+        "micron": 1,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "bank-of-america": 1,
+        "costco": 1,
+        "walmart": 3,
+        "nasdaq": 1,
+        "disney": 2,
+        "salesforce": 1,
+        "broadcom": 5,
+        "qualcomm": 6
       },
       "entity_mention_density": {
-        "materials-mining": 17.9
+        "technology": 0.1,
+        "semiconductors": 0.6,
+        "ai-infrastructure": 0.5,
+        "banks": 0.1,
+        "energy": 0.4,
+        "consumer-discretionary": 0.6,
+        "materials-mining": 0.5,
+        "airlines-travel": 0.1,
+        "inflation": 0.7,
+        "rates-fed": 0.2,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 0.4,
+        "dealmaking": 0.1,
+        "hedge-funds": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.5,
+        "market-concentration": 0.1,
+        "behavioral-finance": 0.4,
+        "diversification": 0.2,
+        "nvidia": 0.2,
+        "microsoft": 0.1,
+        "alphabet": 0.2,
+        "amazon": 0.6,
+        "tesla": 0.2,
+        "cisco": 0.4,
+        "micron": 0.1,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "bank-of-america": 0.1,
+        "costco": 0.1,
+        "walmart": 0.4,
+        "nasdaq": 0.1,
+        "disney": 0.2,
+        "salesforce": 0.1,
+        "broadcom": 0.6,
+        "qualcomm": 0.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "materials-mining": 1.0,
+        "ai-infrastructure": 1.0,
+        "energy": 1.0,
+        "airlines-travel": 1.0,
+        "valuation": -1.0,
+        "behavioral-finance": 1.0,
+        "recession": 1.0,
+        "commodities": 1.0,
+        "inflation": 1.0,
+        "elections-politics": 1.0,
+        "qualcomm": 1.0,
+        "walmart": 1.0,
+        "salesforce": 1.0,
+        "costco": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "consumer-discretionary": -1.0,
+        "banks": -1.0,
+        "technology": 1.0,
+        "valuation": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "diversification": -1.0,
+        "hedge-funds": -1.0,
+        "cisco": -1.0,
+        "qualcomm": -1.0,
+        "amazon": -1.0,
+        "broadcom": -1.0,
+        "nvidia": -1.0,
+        "tesla": -1.0,
+        "bank-of-america": -1.0,
+        "walmart": -1.0,
+        "salesforce": -1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Consumer Discretionary, AI Infrastructure, Inflation, Valuation, Commodities, Behavioral Finance & Psychology. Mentions Qualcomm, Amazon, Broadcom, Cisco, Walmart. Tone leans bullish (+0.53).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-halftime-report-trading-the-tech-boom-the-committee-s-top-strategies-5-26-26-c2ea82.md",
+    "transcript_word_count": 8122,
+    "transcript_language": "en"
   },
   {
     "guid": "28e842a5-286f-4266-b4b9-b45600f0ba37",
