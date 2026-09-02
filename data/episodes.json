@@ -66967,33 +66967,76 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/965474e8-0ed6-4527-a513-26a270f7ae31/Episode_228_-_Bernadette_Joy_-_Final_Audio_Edit_v1.mp3?dest-id=3794235",
     "tags": {
       "sectors": [
+        "real-estate",
+        "banks",
         "healthcare"
       ],
       "themes": [
-        "fire-movement"
+        "college-savings",
+        "fire-movement",
+        "debt-payoff",
+        "real-estate-investing",
+        "budgeting-saving",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "amazon"
+        "tesla",
+        "amazon",
+        "meta",
+        "jpmorgan",
+        "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.714,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "banks": 1,
         "healthcare": 1,
-        "fire-movement": 3,
-        "amazon": 1
+        "real-estate": 2,
+        "budgeting-saving": 1,
+        "debt-payoff": 2,
+        "fire-movement": 9,
+        "real-estate-investing": 2,
+        "dividends-buybacks": 1,
+        "college-savings": 19,
+        "amazon": 2,
+        "meta": 1,
+        "tesla": 8,
+        "jpmorgan": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "healthcare": 2.0,
-        "fire-movement": 6.1,
-        "amazon": 2.0
+        "banks": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.1,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.6,
+        "real-estate-investing": 0.1,
+        "dividends-buybacks": 0.1,
+        "college-savings": 1.3,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.5,
+        "jpmorgan": 0.1,
+        "nasdaq": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "dividends-buybacks": -1.0
+      },
+      "entity_conviction": {
+        "fire-movement": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Healthcare & Pharma, College Savings & Student Debt, Financial Independence / FIRE, Debt Payoff, Real Estate Investing. Mentions Tesla, Amazon, Meta, JPMorgan, Nasdaq. Tone leans bullish (+0.71).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-26-catching-up-to-fi-how-to-retire-at-40-her-debt-crushing-path-to-financial-inde-be86eb.md",
+    "transcript_word_count": 14341,
+    "transcript_language": "en"
   },
   {
     "guid": "3120ce00-84cc-11f1-bc29-a3ad555c3b76",
@@ -89824,35 +89867,124 @@
     "duration": "2525",
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/f31e5b19-f13f-4535-90c4-0cb4cb076f24/stream.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "energy",
+        "ai-infrastructure",
+        "banks",
+        "insurance",
+        "consumer-discretionary",
+        "real-estate",
+        "airlines-travel"
+      ],
       "themes": [
-        "japan"
+        "rates-fed",
+        "inflation",
+        "diversification",
+        "elections-politics",
+        "retirement-planning",
+        "japan",
+        "fiscal-debt",
+        "commodities",
+        "earnings",
+        "hedge-funds",
+        "valuation",
+        "market-concentration",
+        "tax-planning"
       ],
       "stocks": [
-        "micron",
-        "costco"
+        "costco",
+        "nasdaq",
+        "amazon",
+        "micron"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.224,
+      "sentiment_hits": 25,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "semiconductors": 2,
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "insurance": 1,
+        "energy": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "airlines-travel": 1,
+        "inflation": 5,
+        "rates-fed": 6,
         "japan": 1,
+        "fiscal-debt": 1,
+        "elections-politics": 2,
+        "commodities": 1,
+        "earnings": 1,
+        "hedge-funds": 1,
+        "retirement-planning": 2,
+        "valuation": 1,
+        "market-concentration": 1,
+        "diversification": 4,
+        "tax-planning": 1,
+        "amazon": 1,
         "micron": 1,
-        "costco": 1
+        "costco": 2,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "japan": 7.6,
-        "micron": 7.6,
-        "costco": 7.6
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.2,
+        "banks": 0.2,
+        "insurance": 0.2,
+        "energy": 0.3,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.2,
+        "airlines-travel": 0.2,
+        "inflation": 0.8,
+        "rates-fed": 0.9,
+        "japan": 0.2,
+        "fiscal-debt": 0.2,
+        "elections-politics": 0.3,
+        "commodities": 0.2,
+        "earnings": 0.2,
+        "hedge-funds": 0.2,
+        "retirement-planning": 0.3,
+        "valuation": 0.2,
+        "market-concentration": 0.2,
+        "diversification": 0.6,
+        "tax-planning": 0.2,
+        "amazon": 0.2,
+        "micron": 0.2,
+        "costco": 0.3,
+        "nasdaq": 0.3
       },
       "entity_sentiment": {
+        "semiconductors": 1.0,
+        "airlines-travel": 1.0,
+        "consumer-discretionary": -1.0,
+        "diversification": 1.0,
+        "valuation": -1.0,
+        "rates-fed": 1.0,
+        "retirement-planning": -1.0,
         "micron": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": 1.0,
+        "energy": -1.0,
+        "valuation": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "elections-politics": -1.0,
+        "commodities": -1.0,
+        "fiscal-debt": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, AI Infrastructure, Interest Rates & Fed Policy, Inflation, Diversification & Asset Allocation, Elections & Politics. Mentions Costco, Nasdaq, Amazon, Micron. Tone leans bullish (+0.22).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-14-investtalk-simple-portfolio-checks-could-save-you-from-costly-mistakes-9dc340.md",
+    "transcript_word_count": 6500,
+    "transcript_language": "en"
   },
   {
     "guid": "f5c17cce-9b58-4cca-b6f5-f97b621b78ed",
@@ -129675,26 +129807,41 @@
     "duration": "459",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/03ed19ad-b78f-4ae1-8442-b47100c565b0/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology"
+      ],
       "themes": [
-        "rates-fed"
+        "rates-fed",
+        "geopolitics-tariffs"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "rates-fed": 1
+        "technology": 1,
+        "rates-fed": 15,
+        "geopolitics-tariffs": 1
       },
       "entity_mention_density": {
-        "rates-fed": 8.8
+        "technology": 0.6,
+        "rates-fed": 9.3,
+        "geopolitics-tariffs": 0.6
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "rates-fed": -0.5
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Interest Rates & Fed Policy, Geopolitics & Tariffs. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-bloomberg-surveillance-special-report-alan-greenspan-dies-at-100-c565b0.md",
+    "transcript_word_count": 1492,
+    "transcript_language": "en"
   },
   {
     "guid": "6a31522c9b6fd8dcaba7b494",
@@ -187276,37 +187423,51 @@
       ],
       "themes": [
         "rates-fed",
-        "commodities"
+        "dividends-buybacks",
+        "commodities",
+        "valuation"
       ],
       "stocks": [
         "nasdaq"
       ],
       "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
         "energy": 1,
-        "rates-fed": 2,
+        "rates-fed": 7,
         "commodities": 1,
-        "nasdaq": 1
+        "dividends-buybacks": 6,
+        "valuation": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "energy": 5.2,
-        "rates-fed": 10.5,
-        "commodities": 5.2,
-        "nasdaq": 5.2
+        "energy": 0.6,
+        "rates-fed": 4.4,
+        "commodities": 0.6,
+        "dividends-buybacks": 3.8,
+        "valuation": 0.6,
+        "nasdaq": 1.3
       },
       "entity_sentiment": {
         "energy": 1.0,
         "rates-fed": 1.0,
         "commodities": 1.0,
+        "dividends-buybacks": 1.0,
+        "valuation": -1.0,
         "nasdaq": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Interest Rates & Fed Policy, Dividends & Buybacks, Commodities, Valuation. Mentions Nasdaq. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-the-dividend-cafe-wednesday-may-20-2026-a07fea.md",
+    "transcript_word_count": 1392,
+    "transcript_language": "en"
   },
   {
     "guid": "aca3c67c-548e-11f1-97a1-1b47cac66515",
