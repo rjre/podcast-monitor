@@ -93583,36 +93583,94 @@
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4676320585.mp3",
     "tags": {
       "sectors": [
-        "crypto"
+        "crypto",
+        "semiconductors",
+        "real-estate"
       ],
       "themes": [
-        "fire-movement"
+        "budgeting-saving",
+        "fire-movement",
+        "rates-fed",
+        "tax-planning",
+        "passive-investing",
+        "retirement-planning"
       ],
       "stocks": [
-        "bitcoin"
+        "bitcoin",
+        "tesla",
+        "disney",
+        "jpmorgan",
+        "bank-of-america",
+        "ethereum"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.588,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "crypto": 2,
-        "fire-movement": 1,
-        "bitcoin": 1
+        "semiconductors": 1,
+        "real-estate": 1,
+        "crypto": 27,
+        "rates-fed": 2,
+        "passive-investing": 1,
+        "budgeting-saving": 9,
+        "fire-movement": 3,
+        "retirement-planning": 1,
+        "tax-planning": 2,
+        "tesla": 4,
+        "jpmorgan": 1,
+        "bank-of-america": 1,
+        "bitcoin": 16,
+        "ethereum": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "crypto": 9.6,
-        "fire-movement": 4.8,
-        "bitcoin": 4.8
+        "semiconductors": 0.1,
+        "real-estate": 0.1,
+        "crypto": 1.8,
+        "rates-fed": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.6,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.1,
+        "tax-planning": 0.1,
+        "tesla": 0.3,
+        "jpmorgan": 0.1,
+        "bank-of-america": 0.1,
+        "bitcoin": 1.1,
+        "ethereum": 0.1,
+        "disney": 0.1
       },
       "entity_sentiment": {
+        "crypto": -1.0,
         "fire-movement": 1.0,
-        "bitcoin": 1.0
+        "bitcoin": 0.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "crypto": -0.879,
+        "real-estate": -1.0,
+        "semiconductors": -1.0,
+        "fire-movement": -1.0,
+        "tax-planning": -1.0,
+        "budgeting-saving": -1.0,
+        "rates-fed": -0.333,
+        "passive-investing": -1.0,
+        "bitcoin": -1.0,
+        "tesla": -1.0
+      },
+      "entity_stance": {
+        "crypto": "sell",
+        "rates-fed": "buy",
+        "bitcoin": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Semiconductors, Real Estate, Budgeting & Saving, Financial Independence / FIRE, Interest Rates & Fed Policy, Tax Planning. Mentions Bitcoin, Tesla, Disney, JPMorgan, Bank of America. Tone leans bearish (-0.59).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-money-guy-show-how-this-young-couple-turned-crypto-into-a-massive-net-worth-e46b44.md",
+    "transcript_word_count": 14735,
+    "transcript_language": "en"
   },
   {
     "guid": "d6ffca03-fdd9-4b51-8f8c-6c9e8a2ed223",
@@ -210067,64 +210125,80 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "semiconductors",
-        "energy"
+        "energy",
+        "semiconductors"
       ],
       "themes": [
         "dividends-buybacks",
-        "geopolitics-tariffs",
+        "rates-fed",
         "housing",
+        "inflation",
         "commodities",
+        "consumer-health",
+        "geopolitics-tariffs",
         "bond-market",
-        "consumer-health"
+        "passive-income"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": -0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "semiconductors": 1,
-        "energy": 1,
-        "real-estate": 2,
+        "energy": 2,
+        "real-estate": 6,
+        "inflation": 2,
+        "rates-fed": 3,
         "geopolitics-tariffs": 1,
-        "housing": 1,
-        "commodities": 1,
+        "housing": 3,
+        "commodities": 2,
         "bond-market": 1,
-        "consumer-health": 1,
-        "dividends-buybacks": 4,
-        "nasdaq": 1
+        "consumer-health": 2,
+        "passive-income": 1,
+        "dividends-buybacks": 17,
+        "nasdaq": 5
       },
       "entity_mention_density": {
-        "semiconductors": 5.0,
-        "energy": 5.0,
-        "real-estate": 10.0,
-        "geopolitics-tariffs": 5.0,
-        "housing": 5.0,
-        "commodities": 5.0,
-        "bond-market": 5.0,
-        "consumer-health": 5.0,
-        "dividends-buybacks": 19.9,
-        "nasdaq": 5.0
+        "semiconductors": 0.5,
+        "energy": 1.0,
+        "real-estate": 3.0,
+        "inflation": 1.0,
+        "rates-fed": 1.5,
+        "geopolitics-tariffs": 0.5,
+        "housing": 1.5,
+        "commodities": 1.0,
+        "bond-market": 0.5,
+        "consumer-health": 1.0,
+        "passive-income": 0.5,
+        "dividends-buybacks": 8.5,
+        "nasdaq": 2.5
       },
       "entity_sentiment": {
         "semiconductors": -1.0,
         "energy": -1.0,
-        "real-estate": 1.0,
+        "real-estate": 0.333,
         "commodities": -1.0,
         "bond-market": -1.0,
         "consumer-health": -1.0,
         "dividends-buybacks": 0.0,
         "geopolitics-tariffs": 1.0,
-        "housing": 1.0,
-        "nasdaq": -1.0
+        "housing": 0.333,
+        "inflation": 0.0,
+        "nasdaq": -0.333
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Semiconductors, Dividends & Buybacks, Interest Rates & Fed Policy, Housing Market, Inflation. Mentions Nasdaq. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-the-dividend-cafe-tuesday-may-26-2026-8b0fa2.md",
+    "transcript_word_count": 1798,
+    "transcript_language": "en"
   },
   {
     "guid": "36914a22-5943-11f1-bed4-cbfe1956b062",
@@ -254009,24 +254083,33 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "retirement-planning"
+        "retirement-planning",
+        "passive-investing"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "retirement-planning": 2
+        "passive-investing": 1,
+        "retirement-planning": 10
       },
       "entity_mention_density": {
-        "retirement-planning": 11.6
+        "passive-investing": 0.5,
+        "retirement-planning": 5.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Passive Investing. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-02-optimal-finance-daily-3545-4-reasons-you-should-rollover-your-401-k-into-an-ira-by-f72b73.md",
+    "transcript_word_count": 1757,
+    "transcript_language": "en"
   },
   {
     "guid": "69f507a6ad98579289c2aba9",
