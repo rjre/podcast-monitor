@@ -47974,40 +47974,79 @@
     "duration": "34:59",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a7145711272918eeeb40ada/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "consumer-discretionary",
+        "real-estate"
+      ],
+      "themes": [
+        "inflation",
+        "recession",
+        "budgeting-saving",
+        "passive-income",
+        "dividends-buybacks"
+      ],
       "stocks": [
         "alphabet",
+        "tesla",
         "nasdaq",
         "meta",
+        "jpmorgan",
         "berkshire"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "alphabet": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "inflation": 3,
+        "recession": 2,
+        "budgeting-saving": 2,
+        "passive-income": 2,
+        "dividends-buybacks": 1,
+        "alphabet": 3,
         "meta": 1,
+        "tesla": 2,
+        "jpmorgan": 1,
         "berkshire": 1,
         "nasdaq": 2
       },
       "entity_mention_density": {
-        "alphabet": 4.3,
-        "meta": 2.1,
-        "berkshire": 2.1,
-        "nasdaq": 4.3
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.2,
+        "inflation": 0.5,
+        "recession": 0.3,
+        "budgeting-saving": 0.3,
+        "passive-income": 0.3,
+        "dividends-buybacks": 0.2,
+        "alphabet": 0.5,
+        "meta": 0.2,
+        "tesla": 0.3,
+        "jpmorgan": 0.2,
+        "berkshire": 0.2,
+        "nasdaq": 0.3
       },
       "entity_sentiment": {
+        "recession": -1.0,
         "alphabet": 1.0,
         "berkshire": 1.0,
         "nasdaq": 1.0,
         "meta": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-income": -1.0,
+        "recession": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Real Estate, Inflation, Recession Risk, Budgeting & Saving, Passive Income & Side Hustles. Mentions Alphabet / Google, Tesla, Nasdaq, Meta, JPMorgan. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-equity-mates-investing-podcast-luxury-how-experiences-became-the-new-luxury-the-decade-ahea-b40ada.md",
+    "transcript_word_count": 5831,
+    "transcript_language": "en"
   },
   {
     "guid": "6a72bfd116633913612959fc",
@@ -83055,20 +83094,97 @@
     "duration": "3796",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/fcd3e781-51a4-4b74-973f-b48a01574294/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "banks",
+        "media-entertainment",
+        "crypto"
+      ],
+      "themes": [
+        "ai-boom",
+        "tax-planning",
+        "inflation",
+        "earnings",
+        "retirement-planning",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "charles-schwab",
+        "fidelity",
+        "vanguard",
+        "morgan-stanley",
+        "robinhood",
+        "alphabet",
+        "berkshire",
+        "blackrock"
+      ],
+      "sentiment": -0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 4,
+        "banks": 1,
+        "media-entertainment": 1,
+        "crypto": 1,
+        "inflation": 1,
+        "ai-boom": 2,
+        "earnings": 1,
+        "retirement-planning": 1,
+        "tax-planning": 2,
+        "market-timing-dca": 1,
+        "alphabet": 1,
+        "morgan-stanley": 3,
+        "berkshire": 1,
+        "vanguard": 4,
+        "fidelity": 6,
+        "charles-schwab": 10,
+        "blackrock": 1,
+        "robinhood": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.3,
+        "banks": 0.1,
+        "media-entertainment": 0.1,
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "ai-boom": 0.2,
+        "earnings": 0.1,
+        "retirement-planning": 0.1,
+        "tax-planning": 0.2,
+        "market-timing-dca": 0.1,
+        "alphabet": 0.1,
+        "morgan-stanley": 0.3,
+        "berkshire": 0.1,
+        "vanguard": 0.3,
+        "fidelity": 0.5,
+        "charles-schwab": 0.9,
+        "blackrock": 0.1,
+        "robinhood": 0.2
+      },
+      "entity_sentiment": {
+        "technology": -1.0,
+        "morgan-stanley": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "ai-boom": -1.0,
+        "market-timing-dca": -1.0,
+        "retirement-planning": -1.0,
+        "fidelity": -1.0,
+        "charles-schwab": -1.0,
+        "vanguard": -1.0,
+        "blackrock": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Banks & Financials, Media & Entertainment, AI & Machine Learning, Tax Planning, Inflation, Corporate Earnings. Mentions Charles Schwab, Fidelity, Vanguard, Morgan Stanley, Robinhood. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-masters-in-business-challenging-the-titans-of-asset-management-with-jason-wenk-574294.md",
+    "transcript_word_count": 11416,
+    "transcript_language": "en"
   },
   {
     "guid": "9040ebcf-7ea7-4771-9f3b-b48a0166bef5",
@@ -204941,26 +205057,107 @@
     "duration": "1021",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/804e4e95-b1d4-41e9-9f42-b449010747d6/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy",
+        "technology",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "real-estate"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "bond-market",
+        "labor-market",
+        "elections-politics",
+        "ai-boom",
+        "commodities",
+        "consumer-health"
+      ],
       "stocks": [
+        "nvidia",
+        "microsoft",
+        "alphabet",
         "morgan-stanley"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.102,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 1,
+        "ai-infrastructure": 1,
+        "energy": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "inflation": 28,
+        "rates-fed": 13,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 4,
+        "labor-market": 2,
+        "elections-politics": 2,
+        "commodities": 1,
+        "bond-market": 4,
+        "consumer-health": 1,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 1,
         "morgan-stanley": 1
       },
       "entity_mention_density": {
-        "morgan-stanley": 20.0
+        "technology": 0.3,
+        "ai-infrastructure": 0.3,
+        "energy": 0.5,
+        "consumer-discretionary": 0.3,
+        "real-estate": 0.3,
+        "inflation": 7.4,
+        "rates-fed": 3.4,
+        "ai-boom": 0.3,
+        "geopolitics-tariffs": 1.1,
+        "labor-market": 0.5,
+        "elections-politics": 0.5,
+        "commodities": 0.3,
+        "bond-market": 1.1,
+        "consumer-health": 0.3,
+        "nvidia": 0.3,
+        "microsoft": 0.3,
+        "alphabet": 0.3,
+        "morgan-stanley": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "consumer-discretionary": 0.0,
+        "ai-infrastructure": 0.0,
+        "inflation": 0.294,
+        "rates-fed": 1.0,
+        "labor-market": -1.0,
+        "consumer-health": 0.0,
+        "ai-boom": 0.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "consumer-discretionary": -1.0,
+        "ai-infrastructure": -1.0,
+        "inflation": -0.63,
+        "geopolitics-tariffs": -0.167,
+        "elections-politics": 1.0,
+        "rates-fed": -0.429,
+        "commodities": -1.0,
+        "labor-market": -1.0,
+        "consumer-health": -1.0,
+        "ai-boom": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "inflation"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Technology, AI Infrastructure, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Bond Market & Yields. Mentions Nvidia, Microsoft, Alphabet / Google, Morgan Stanley. Tone reads roughly neutral (+0.10).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-bloomberg-surveillance-bloomberg-surveillance-tv-may-13th-2026-0747d6.md",
+    "transcript_word_count": 3725,
+    "transcript_language": "en"
   },
   {
     "guid": "a14d3aee-70ee-4845-86cd-3019b6c0d386",
@@ -212763,39 +212960,84 @@
     "duration": "2403",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL7029097408.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "real-estate"
+      ],
       "themes": [
+        "tax-planning",
         "estate-planning",
         "budgeting-saving",
-        "tax-planning",
-        "insurance-products"
+        "insurance-products",
+        "passive-investing",
+        "fire-movement",
+        "college-savings",
+        "recession",
+        "debt-payoff",
+        "retirement-planning",
+        "diversification"
       ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.556,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "tax-planning": 1,
-        "estate-planning": 2,
-        "insurance-products": 1
+        "healthcare": 3,
+        "real-estate": 1,
+        "recession": 1,
+        "passive-investing": 3,
+        "budgeting-saving": 7,
+        "debt-payoff": 1,
+        "fire-movement": 3,
+        "retirement-planning": 1,
+        "diversification": 1,
+        "tax-planning": 13,
+        "estate-planning": 9,
+        "college-savings": 2,
+        "insurance-products": 7
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.0,
-        "tax-planning": 5.0,
-        "estate-planning": 10.0,
-        "insurance-products": 5.0
+        "healthcare": 0.4,
+        "real-estate": 0.1,
+        "recession": 0.1,
+        "passive-investing": 0.4,
+        "budgeting-saving": 0.8,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.4,
+        "retirement-planning": 0.1,
+        "diversification": 0.1,
+        "tax-planning": 1.5,
+        "estate-planning": 1.1,
+        "college-savings": 0.2,
+        "insurance-products": 0.8
       },
       "entity_sentiment": {
+        "healthcare": -1.0,
         "estate-planning": 1.0,
+        "insurance-products": 1.0,
         "budgeting-saving": 1.0,
-        "tax-planning": 1.0
+        "tax-planning": 1.0,
+        "fire-movement": -1.0,
+        "recession": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "insurance-products": -1.0,
+        "budgeting-saving": -1.0,
+        "tax-planning": 0.0,
+        "passive-investing": -1.0,
+        "fire-movement": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Tax Planning, Estate Planning, Budgeting & Saving, Insurance Products. Tone leans bearish (-0.56).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-money-guy-show-how-to-build-a-financial-plan-by-age-b832c8.md",
+    "transcript_word_count": 8256,
+    "transcript_language": "en"
   },
   {
     "guid": "6e764ad3-dd68-407a-a6d4-1d815163737d",
