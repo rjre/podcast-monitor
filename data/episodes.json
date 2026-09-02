@@ -48492,20 +48492,91 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/f9f9104d-8d62-4edc-acd3-99a0de79d8e7/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=f9f9104d-8d62-4edc-acd3-99a0de79d8e7&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "energy",
+        "semiconductors",
+        "utilities",
+        "real-estate",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "dividends-buybacks",
+        "hedge-funds",
+        "diversification",
+        "dealmaking",
+        "passive-investing",
+        "estate-planning"
+      ],
+      "stocks": [
+        "goldman-sachs",
+        "fidelity",
+        "amazon",
+        "vanguard",
+        "disney",
+        "nvidia"
+      ],
+      "sentiment": 0.273,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 1,
+        "energy": 4,
+        "utilities": 1,
+        "real-estate": 1,
+        "defense-aerospace": 1,
+        "dealmaking": 2,
+        "hedge-funds": 3,
+        "passive-investing": 1,
+        "dividends-buybacks": 11,
+        "diversification": 3,
+        "estate-planning": 1,
+        "nvidia": 1,
+        "amazon": 2,
+        "goldman-sachs": 6,
+        "vanguard": 2,
+        "fidelity": 4,
+        "disney": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.1,
+        "energy": 0.4,
+        "utilities": 0.1,
+        "real-estate": 0.1,
+        "defense-aerospace": 0.1,
+        "dealmaking": 0.2,
+        "hedge-funds": 0.3,
+        "passive-investing": 0.1,
+        "dividends-buybacks": 1.2,
+        "diversification": 0.3,
+        "estate-planning": 0.1,
+        "nvidia": 0.1,
+        "amazon": 0.2,
+        "goldman-sachs": 0.6,
+        "vanguard": 0.2,
+        "fidelity": 0.4,
+        "disney": 0.2
+      },
+      "entity_sentiment": {
+        "dividends-buybacks": 1.0,
+        "dealmaking": 1.0
+      },
+      "entity_conviction": {
+        "utilities": -1.0,
+        "dividends-buybacks": -1.0,
+        "hedge-funds": -1.0,
+        "goldman-sachs": -1.0,
+        "vanguard": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Semiconductors, Utilities & Power, Dividends & Buybacks, Hedge Funds, Diversification & Asset Allocation, IPOs & Dealmaking. Mentions Goldman Sachs, Fidelity, Amazon, Vanguard, Disney. Tone leans bullish (+0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-10-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-10-26-7a87c0.md",
+    "transcript_word_count": 9356,
+    "transcript_language": "en"
   },
   {
     "guid": "74180275-8702-4284-9899-9760f5858980",
@@ -66865,33 +66936,79 @@
     "duration": "3977",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/6f0aa6a0-4652-43a3-ad2d-b49b003c888c/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "semiconductors",
+        "ai-infrastructure",
+        "energy",
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving",
         "fire-movement"
       ],
       "stocks": [
-        "meta"
+        "berkshire",
+        "alphabet",
+        "costco",
+        "meta",
+        "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.081,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "fire-movement": 1,
-        "meta": 1
+        "semiconductors": 1,
+        "ai-infrastructure": 1,
+        "energy": 1,
+        "healthcare": 7,
+        "real-estate": 1,
+        "budgeting-saving": 3,
+        "fire-movement": 2,
+        "alphabet": 2,
+        "meta": 1,
+        "berkshire": 3,
+        "costco": 2,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.1,
-        "fire-movement": 3.1,
-        "meta": 3.1
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.1,
+        "energy": 0.1,
+        "healthcare": 0.5,
+        "real-estate": 0.1,
+        "budgeting-saving": 0.2,
+        "fire-movement": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.2,
+        "costco": 0.1,
+        "vanguard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "vanguard": 0.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "healthcare": -1.0,
+        "real-estate": -1.0,
+        "budgeting-saving": 0.2,
+        "fire-movement": -1.0,
+        "alphabet": -0.5,
+        "vanguard": -1.0,
+        "costco": -1.0,
+        "berkshire": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Semiconductors, AI Infrastructure, Budgeting & Saving, Financial Independence / FIRE. Mentions Berkshire Hathaway, Alphabet / Google, Costco, Meta, Vanguard. Tone reads roughly neutral (-0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-03-how-to-money-htm-is-back-video-edition-1174-3c888c.md",
+    "transcript_word_count": 13440,
+    "transcript_language": "en"
   },
   {
     "guid": "f31d4465-f4a0-48cb-9410-c2d0f6346708",
@@ -135884,42 +136001,103 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a45fb1ab61886e162738895/media.mp3",
     "tags": {
       "sectors": [
-        "materials-mining"
+        "technology",
+        "materials-mining",
+        "private-markets"
       ],
       "themes": [
         "safe-havens",
-        "commodities"
+        "inflation",
+        "rates-fed",
+        "bond-market",
+        "recession",
+        "commodities",
+        "dealmaking",
+        "emerging-markets",
+        "dividends-buybacks",
+        "valuation",
+        "behavioral-finance"
       ],
       "stocks": [
         "bitcoin",
+        "alphabet",
         "meta"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.028,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 1,
         "materials-mining": 1,
+        "private-markets": 1,
+        "inflation": 4,
+        "rates-fed": 4,
+        "recession": 1,
         "commodities": 1,
-        "safe-havens": 2,
+        "safe-havens": 18,
+        "dealmaking": 1,
+        "bond-market": 2,
+        "emerging-markets": 1,
+        "dividends-buybacks": 1,
+        "valuation": 1,
+        "behavioral-finance": 1,
+        "alphabet": 1,
         "meta": 1,
-        "bitcoin": 2
+        "bitcoin": 12
       },
       "entity_mention_density": {
-        "materials-mining": 2.5,
-        "commodities": 2.5,
-        "safe-havens": 5.1,
-        "meta": 2.5,
-        "bitcoin": 5.1
+        "technology": 0.1,
+        "materials-mining": 0.1,
+        "private-markets": 0.1,
+        "inflation": 0.4,
+        "rates-fed": 0.4,
+        "recession": 0.1,
+        "commodities": 0.1,
+        "safe-havens": 2.0,
+        "dealmaking": 0.1,
+        "bond-market": 0.2,
+        "emerging-markets": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "behavioral-finance": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "bitcoin": 1.3
       },
       "entity_sentiment": {
-        "safe-havens": 1.0,
+        "technology": 0.0,
+        "safe-havens": 0.111,
+        "inflation": 0.0,
+        "behavioral-finance": -1.0,
+        "rates-fed": -0.333,
+        "bond-market": 0.0,
+        "recession": -1.0,
         "bitcoin": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "safe-havens": -0.444,
+        "inflation": -1.0,
+        "behavioral-finance": -1.0,
+        "dealmaking": -0.2,
+        "rates-fed": -1.0,
+        "dividends-buybacks": -1.0,
+        "valuation": 0.0,
+        "bitcoin": 0.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "safe-havens"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Materials & Mining, Private Equity & Credit, Gold & Safe Havens, Inflation, Interest Rates & Fed Policy, Bond Market & Yields. Mentions Bitcoin, Alphabet / Google, Meta. Tone reads roughly neutral (-0.03).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-02-equity-mates-investing-podcast-why-gold-fell-when-war-broke-out-and-what-that-tells-you-738895.md",
+    "transcript_word_count": 8625,
+    "transcript_language": "en"
   },
   {
     "guid": "5a5a93fc-70b6-11f1-8370-6f723e36d42c",
@@ -250731,29 +250909,55 @@
     "duration": "584",
     "audio_url": "https://traffic.megaphone.fm/OLD6865985297.mp3?updated=1777654746",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "consumer-discretionary"
+      ],
       "themes": [
+        "budgeting-saving",
         "rates-fed",
-        "debt-payoff"
+        "debt-payoff",
+        "college-savings"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "debt-payoff": 1
+        "healthcare": 1,
+        "consumer-discretionary": 1,
+        "rates-fed": 2,
+        "budgeting-saving": 6,
+        "debt-payoff": 1,
+        "college-savings": 1
       },
       "entity_mention_density": {
-        "rates-fed": 5.6,
-        "debt-payoff": 5.6
+        "healthcare": 0.5,
+        "consumer-discretionary": 0.5,
+        "rates-fed": 1.0,
+        "budgeting-saving": 3.1,
+        "debt-payoff": 0.5,
+        "college-savings": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "healthcare": 1.0,
+        "college-savings": 1.0,
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "college-savings": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Consumer Discretionary, Budgeting & Saving, Interest Rates & Fed Policy, Debt Payoff, College Savings & Student Debt. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-09-optimal-finance-daily-3553-should-you-do-a-debt-consolidation-loan-by-james-lambri-cb4496.md",
+    "transcript_word_count": 1764,
+    "transcript_language": "en"
   },
   {
     "guid": "69fe422944cb786b37b9ddcb",
