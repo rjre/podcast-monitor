@@ -54250,40 +54250,63 @@
     "duration": "510",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/1629e916-87a4-4a61-b716-b33fed34900e.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors"
+      ],
       "themes": [
         "rates-fed",
+        "dividends-buybacks",
+        "bond-market",
+        "inflation",
         "labor-market",
-        "bond-market"
+        "market-concentration"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.655,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "inflation": 1,
+        "rates-fed": 7,
         "labor-market": 1,
-        "bond-market": 1,
-        "nasdaq": 1
+        "bond-market": 3,
+        "dividends-buybacks": 4,
+        "market-concentration": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "rates-fed": 10.6,
-        "labor-market": 5.3,
-        "bond-market": 5.3,
-        "nasdaq": 5.3
+        "semiconductors": 0.5,
+        "ai-infrastructure": 1.0,
+        "inflation": 0.5,
+        "rates-fed": 3.7,
+        "labor-market": 0.5,
+        "bond-market": 1.6,
+        "dividends-buybacks": 2.1,
+        "market-concentration": 0.5,
+        "nasdaq": 1.0
       },
       "entity_sentiment": {
-        "rates-fed": 1.0,
+        "rates-fed": 0.333,
         "bond-market": 1.0,
+        "dividends-buybacks": 1.0,
         "nasdaq": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Interest Rates & Fed Policy, Dividends & Buybacks, Bond Market & Yields, Inflation. Mentions Nasdaq. Tone leans bullish (+0.66).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-the-dividend-cafe-wednesday-august-5-2026-177f6f.md",
+    "transcript_word_count": 1728,
+    "transcript_language": "en"
   },
   {
     "guid": "fe3b1e52-05d5-11f1-a338-2ff1b24d66d4",
@@ -79105,26 +79128,64 @@
     "duration": "1322",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML7637783912.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "industrials",
+        "crypto"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "inflation",
+        "diversification",
+        "rates-fed",
+        "emerging-markets",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "amazon",
+        "bitcoin"
+      ],
+      "sentiment": 0.083,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "inflation": 1
+        "industrials": 1,
+        "crypto": 1,
+        "inflation": 18,
+        "rates-fed": 1,
+        "emerging-markets": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 3,
+        "amazon": 1,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "inflation": 3.4
+        "industrials": 0.2,
+        "crypto": 0.2,
+        "inflation": 4.5,
+        "rates-fed": 0.2,
+        "emerging-markets": 0.2,
+        "small-caps-value-growth": 0.2,
+        "diversification": 0.7,
+        "amazon": 0.2,
+        "bitcoin": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -1.0,
+        "inflation": -1.0,
+        "emerging-markets": -1.0,
+        "diversification": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Crypto & Digital Assets, Inflation, Diversification & Asset Allocation, Interest Rates & Fed Policy, Emerging Markets. Mentions Amazon, Bitcoin. Tone reads roughly neutral (+0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-25-motley-fool-hidden-gems-the-father-of-the-4-rule-says-retirees-can-take-out-much-mor-f6427b.md",
+    "transcript_word_count": 3712,
+    "transcript_language": "en"
   },
   {
     "guid": "1d3b71e7-1403-4483-bd0e-5614b0f52950",
@@ -204347,26 +204408,120 @@
     "duration": "3935",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL1448543028.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "insurance-products"
+      "sectors": [
+        "real-estate",
+        "semiconductors",
+        "insurance",
+        "industrials"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "dealmaking",
+        "budgeting-saving",
+        "insurance-products",
+        "retirement-planning",
+        "debt-payoff",
+        "diversification",
+        "college-savings",
+        "housing",
+        "fire-movement",
+        "passive-income",
+        "career-income",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "amazon",
+        "meta",
+        "walmart",
+        "fidelity",
+        "tesla",
+        "berkshire",
+        "costco",
+        "charles-schwab",
+        "disney"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "insurance-products": 1
+        "semiconductors": 1,
+        "insurance": 1,
+        "real-estate": 5,
+        "industrials": 1,
+        "housing": 1,
+        "dealmaking": 10,
+        "budgeting-saving": 9,
+        "debt-payoff": 2,
+        "fire-movement": 1,
+        "retirement-planning": 3,
+        "passive-income": 1,
+        "career-income": 1,
+        "dividends-buybacks": 1,
+        "diversification": 2,
+        "college-savings": 2,
+        "insurance-products": 6,
+        "amazon": 3,
+        "meta": 2,
+        "tesla": 1,
+        "berkshire": 1,
+        "costco": 1,
+        "walmart": 2,
+        "fidelity": 2,
+        "charles-schwab": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "insurance-products": 4.5
+        "semiconductors": 0.1,
+        "insurance": 0.1,
+        "real-estate": 0.4,
+        "industrials": 0.1,
+        "housing": 0.1,
+        "dealmaking": 0.7,
+        "budgeting-saving": 0.7,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "passive-income": 0.1,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.1,
+        "diversification": 0.1,
+        "college-savings": 0.1,
+        "insurance-products": 0.4,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "berkshire": 0.1,
+        "costco": 0.1,
+        "walmart": 0.1,
+        "fidelity": 0.1,
+        "charles-schwab": 0.1,
+        "disney": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": -1.0,
+        "real-estate": -0.714,
+        "insurance-products": -1.0,
+        "budgeting-saving": -1.0,
+        "passive-income": -1.0,
+        "retirement-planning": -0.5,
+        "housing": -0.333,
+        "career-income": 0.0,
+        "fire-movement": -1.0,
+        "diversification": -1.0,
+        "amazon": -1.0,
+        "meta": -1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Semiconductors, Insurance, IPOs & Dealmaking, Budgeting & Saving, Insurance Products, Retirement Planning. Mentions Amazon, Meta, Walmart, Fidelity, Tesla. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-money-guy-show-why-these-things-aren-t-worth-your-money-feat-erin-talks-mon-90c176.md",
+    "transcript_word_count": 13226,
+    "transcript_language": "en"
   },
   {
     "guid": "eb286568-a84c-11f0-a576-4be136179196",
@@ -233778,32 +233933,89 @@
     "audio_url": "https://traffic.megaphone.fm/APO4887924919.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "crypto",
+        "technology",
+        "semiconductors",
+        "energy",
+        "healthcare",
+        "consumer-discretionary"
       ],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "dealmaking",
+        "rates-fed",
+        "commodities",
+        "earnings"
+      ],
       "stocks": [
-        "blackrock"
+        "nasdaq",
+        "blackrock",
+        "amd"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.778,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
-        "blackrock": 1
+        "technology": 3,
+        "semiconductors": 3,
+        "energy": 3,
+        "healthcare": 3,
+        "consumer-discretionary": 1,
+        "crypto": 4,
+        "inflation": 6,
+        "rates-fed": 2,
+        "commodities": 2,
+        "dealmaking": 3,
+        "earnings": 2,
+        "amd": 1,
+        "nasdaq": 2,
+        "blackrock": 2
       },
       "entity_mention_density": {
-        "healthcare": 9.3,
-        "blackrock": 9.3
+        "technology": 1.3,
+        "semiconductors": 1.3,
+        "energy": 1.3,
+        "healthcare": 1.3,
+        "consumer-discretionary": 0.4,
+        "crypto": 1.8,
+        "inflation": 2.7,
+        "rates-fed": 0.9,
+        "commodities": 0.9,
+        "dealmaking": 1.3,
+        "earnings": 0.9,
+        "amd": 0.4,
+        "nasdaq": 0.9,
+        "blackrock": 0.9
       },
       "entity_sentiment": {
         "healthcare": 1.0,
-        "blackrock": 1.0
+        "semiconductors": 1.0,
+        "crypto": -1.0,
+        "technology": 1.0,
+        "inflation": 1.0,
+        "earnings": 1.0,
+        "dealmaking": -1.0,
+        "blackrock": 0.0,
+        "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": 1.0,
+        "energy": -1.0,
+        "consumer-discretionary": -1.0,
+        "crypto": -1.0,
+        "inflation": -1.0,
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Technology, Semiconductors, Inflation, IPOs & Dealmaking, Interest Rates & Fed Policy, Commodities. Mentions Nasdaq, BlackRock, AMD. Tone leans bullish (+0.78).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-the-rundown-hantavirus-sends-moderna-higher-circle-raises-222m-for-new-b-2bab9a.md",
+    "transcript_word_count": 2118,
+    "transcript_language": "en"
   },
   {
     "guid": "c73a75d6-4d3a-11f1-8d75-7f915d4d3a62",
