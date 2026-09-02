@@ -14388,36 +14388,140 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/97ee92c8-a04e-4086-983e-fe89b8eac337/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=97ee92c8-a04e-4086-983e-fe89b8eac337&feed=Bt3ITxGl",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "real-estate",
+        "technology",
+        "industrials",
+        "autos-ev",
+        "banks",
+        "energy",
+        "utilities",
+        "crypto"
       ],
       "themes": [
+        "geopolitics-tariffs",
         "rates-fed",
-        "geopolitics-tariffs"
+        "bond-market",
+        "inflation",
+        "dealmaking",
+        "fiscal-debt",
+        "china",
+        "elections-politics",
+        "commodities",
+        "regulation-antitrust",
+        "earnings",
+        "currency-dollar"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "bitcoin",
+        "nasdaq",
+        "alphabet",
+        "tesla",
+        "ethereum"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.314,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "rates-fed": 1,
-        "geopolitics-tariffs": 1,
-        "nvidia": 2
+        "technology": 3,
+        "ai-infrastructure": 30,
+        "banks": 1,
+        "energy": 1,
+        "utilities": 1,
+        "real-estate": 5,
+        "industrials": 2,
+        "autos-ev": 2,
+        "crypto": 1,
+        "inflation": 3,
+        "rates-fed": 13,
+        "china": 1,
+        "geopolitics-tariffs": 37,
+        "fiscal-debt": 2,
+        "elections-politics": 1,
+        "commodities": 1,
+        "dealmaking": 3,
+        "regulation-antitrust": 1,
+        "earnings": 1,
+        "bond-market": 4,
+        "currency-dollar": 1,
+        "nvidia": 13,
+        "alphabet": 1,
+        "tesla": 1,
+        "bitcoin": 3,
+        "ethereum": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "ai-infrastructure": 14.7,
-        "rates-fed": 14.7,
-        "geopolitics-tariffs": 14.7,
-        "nvidia": 29.4
+        "technology": 0.4,
+        "ai-infrastructure": 3.9,
+        "banks": 0.1,
+        "energy": 0.1,
+        "utilities": 0.1,
+        "real-estate": 0.7,
+        "industrials": 0.3,
+        "autos-ev": 0.3,
+        "crypto": 0.1,
+        "inflation": 0.4,
+        "rates-fed": 1.7,
+        "china": 0.1,
+        "geopolitics-tariffs": 4.9,
+        "fiscal-debt": 0.3,
+        "elections-politics": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.4,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.1,
+        "bond-market": 0.5,
+        "currency-dollar": 0.1,
+        "nvidia": 1.7,
+        "alphabet": 0.1,
+        "tesla": 0.1,
+        "bitcoin": 0.4,
+        "ethereum": 0.1,
+        "nasdaq": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -0.333,
+        "autos-ev": 0.0,
+        "industrials": 0.0,
+        "technology": -1.0,
+        "utilities": 1.0,
+        "real-estate": 1.0,
+        "geopolitics-tariffs": 0.5,
+        "elections-politics": 1.0,
+        "dealmaking": -1.0,
+        "regulation-antitrust": -1.0,
+        "commodities": 1.0,
+        "nvidia": 0.0,
+        "bitcoin": 1.0,
+        "ethereum": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "banks": -1.0,
+        "technology": -1.0,
+        "real-estate": -1.0,
+        "energy": -0.6,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": -0.873,
+        "bond-market": -1.0,
+        "inflation": -1.0,
+        "china": -1.0,
+        "fiscal-debt": -1.0,
+        "nvidia": -0.333,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Real Estate, Technology, Geopolitics & Tariffs, Interest Rates & Fed Policy, Bond Market & Yields, Inflation. Mentions Nvidia, Bitcoin, Nasdaq, Alphabet / Google, Tesla. Tone leans bearish (-0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-morning-call-markets-rates-and-nvidia-test-investor-confidence-8-25-26-b86f6b.md",
+    "transcript_word_count": 7555,
+    "transcript_language": "en"
   },
   {
     "guid": "6a8d6a9b66c4a1e81a4c86a9",
@@ -61091,32 +61195,41 @@
       ],
       "themes": [
         "inflation",
+        "rates-fed",
         "geopolitics-tariffs",
-        "consumer-health"
+        "dividends-buybacks",
+        "consumer-health",
+        "earnings"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.667,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "technology": 1,
-        "semiconductors": 1,
-        "consumer-discretionary": 1,
-        "inflation": 4,
-        "geopolitics-tariffs": 2,
-        "consumer-health": 1,
-        "nasdaq": 1
+        "technology": 2,
+        "semiconductors": 2,
+        "consumer-discretionary": 2,
+        "inflation": 8,
+        "rates-fed": 5,
+        "geopolitics-tariffs": 5,
+        "earnings": 1,
+        "consumer-health": 2,
+        "dividends-buybacks": 5,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "technology": 5.3,
-        "semiconductors": 5.3,
-        "consumer-discretionary": 5.3,
-        "inflation": 21.4,
-        "geopolitics-tariffs": 10.7,
-        "consumer-health": 5.3,
-        "nasdaq": 5.3
+        "technology": 1.1,
+        "semiconductors": 1.1,
+        "consumer-discretionary": 1.1,
+        "inflation": 4.5,
+        "rates-fed": 2.8,
+        "geopolitics-tariffs": 2.8,
+        "earnings": 0.6,
+        "consumer-health": 1.1,
+        "dividends-buybacks": 2.8,
+        "nasdaq": 1.1
       },
       "entity_sentiment": {
         "semiconductors": 1.0,
@@ -61125,13 +61238,24 @@
         "inflation": 1.0,
         "geopolitics-tariffs": 1.0,
         "consumer-health": 1.0,
+        "dividends-buybacks": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Consumer Discretionary, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Dividends & Buybacks. Mentions Nasdaq. Tone leans bullish (+0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-the-dividend-cafe-thursday-july-30-2026-0a3586.md",
+    "transcript_word_count": 1596,
+    "transcript_language": "en"
   },
   {
     "guid": "ba46581b-4cea-4ca3-b065-3f9936987c26",
@@ -125301,45 +125425,110 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS7084974145.mp3?updated=1733520844",
     "tags": {
       "sectors": [
-        "technology"
+        "ai-infrastructure",
+        "technology",
+        "real-estate"
       ],
       "themes": [
         "inflation",
-        "ai-boom",
         "valuation",
+        "rates-fed",
+        "ai-boom",
         "market-timing-dca"
       ],
       "stocks": [
+        "nvidia",
+        "amazon",
+        "alphabet",
+        "meta",
+        "berkshire",
+        "microsoft",
+        "tesla",
+        "costco",
         "bitcoin",
-        "amazon"
+        "netflix",
+        "amd",
+        "broadcom"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.091,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "technology": 1,
-        "inflation": 1,
+        "ai-infrastructure": 8,
+        "real-estate": 1,
+        "inflation": 10,
+        "rates-fed": 1,
         "ai-boom": 1,
-        "valuation": 1,
+        "valuation": 4,
         "market-timing-dca": 1,
-        "amazon": 1,
-        "bitcoin": 2
+        "nvidia": 10,
+        "microsoft": 2,
+        "alphabet": 4,
+        "amazon": 5,
+        "meta": 4,
+        "tesla": 2,
+        "amd": 1,
+        "berkshire": 3,
+        "costco": 2,
+        "bitcoin": 2,
+        "netflix": 2,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "technology": 1.7,
-        "inflation": 1.7,
-        "ai-boom": 1.7,
-        "valuation": 1.7,
-        "market-timing-dca": 1.7,
-        "amazon": 1.7,
-        "bitcoin": 3.4
+        "technology": 0.1,
+        "ai-infrastructure": 1.0,
+        "real-estate": 0.1,
+        "inflation": 1.3,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "valuation": 0.5,
+        "market-timing-dca": 0.1,
+        "nvidia": 1.3,
+        "microsoft": 0.3,
+        "alphabet": 0.5,
+        "amazon": 0.6,
+        "meta": 0.5,
+        "tesla": 0.3,
+        "amd": 0.1,
+        "berkshire": 0.4,
+        "costco": 0.3,
+        "bitcoin": 0.3,
+        "netflix": 0.3,
+        "broadcom": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "valuation": -1.0,
+        "inflation": 1.0,
+        "amazon": 1.0,
+        "berkshire": 1.0,
+        "alphabet": -1.0,
+        "nvidia": 1.0,
+        "meta": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.5,
+        "valuation": -1.0,
+        "inflation": -0.333,
+        "berkshire": -1.0,
+        "nvidia": -1.0,
+        "microsoft": -1.0,
+        "costco": -0.167
+      },
+      "entity_stance": {
+        "inflation": "buy",
+        "berkshire": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Real Estate, Inflation, Valuation, Interest Rates & Fed Policy, AI & Machine Learning. Mentions Nvidia, Amazon, Alphabet / Google, Meta, Berkshire Hathaway. Tone reads roughly neutral (-0.09).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-the-investing-for-beginners-podcast-what-the-shiller-p-e-cape-can-and-can-t-tell-you-800e79.md",
+    "transcript_word_count": 7236,
+    "transcript_language": "en"
   },
   {
     "guid": "9795922d-c395-481d-a55a-a377db9d53ef",
@@ -191649,24 +191838,33 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "retirement-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 4,
+        "retirement-planning": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "budgeting-saving": 2.3,
+        "retirement-planning": 0.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Retirement Planning. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-25-ramsey-everyday-millionaires-can-you-still-build-wealth-after-starting-over-with-nothing-bc11f2.md",
+    "transcript_word_count": 1537,
+    "transcript_language": "en"
   },
   {
     "guid": "052bd59c-29dc-11f1-b64a-0718fada4148",
