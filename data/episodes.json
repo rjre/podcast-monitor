@@ -4404,19 +4404,33 @@
     "duration": "1262",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML9052956844.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "healthcare"
+      ],
       "themes": [
+        "regulation-antitrust",
         "budgeting-saving"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "insurance": 1,
+        "healthcare": 1,
+        "regulation-antitrust": 3,
+        "budgeting-saving": 2,
+        "amazon": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.2
+        "insurance": 0.3,
+        "healthcare": 0.3,
+        "regulation-antitrust": 0.8,
+        "budgeting-saving": 0.5,
+        "amazon": 0.5
       },
       "entity_sentiment": {
         "budgeting-saving": 1.0
@@ -4425,7 +4439,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Healthcare & Pharma, Regulation & Antitrust, Budgeting & Saving. Mentions Amazon. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-30-motley-fool-hidden-gems-not-all-revenue-growth-is-created-equal-a-harvard-fellow-s-f-0dd319.md",
+    "transcript_word_count": 3633,
+    "transcript_language": "en"
   },
   {
     "guid": "a0e9cd65-2a7c-46eb-8167-b4b40141edd5",
@@ -63668,36 +63688,76 @@
       "sectors": [],
       "themes": [
         "behavioral-finance",
+        "dealmaking",
+        "valuation",
         "ai-boom",
-        "valuation"
+        "budgeting-saving"
       ],
       "stocks": [
+        "nvidia",
+        "alphabet",
+        "tesla",
         "bitcoin",
-        "amazon"
+        "meta",
+        "costco",
+        "amazon",
+        "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.118,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
         "ai-boom": 1,
-        "valuation": 1,
-        "behavioral-finance": 2,
+        "dealmaking": 2,
+        "budgeting-saving": 1,
+        "valuation": 2,
+        "behavioral-finance": 3,
+        "nvidia": 6,
+        "alphabet": 3,
         "amazon": 1,
-        "bitcoin": 2
+        "meta": 2,
+        "tesla": 3,
+        "berkshire": 1,
+        "costco": 2,
+        "bitcoin": 3
       },
       "entity_mention_density": {
-        "ai-boom": 1.9,
-        "valuation": 1.9,
-        "behavioral-finance": 3.8,
-        "amazon": 1.9,
-        "bitcoin": 3.8
+        "ai-boom": 0.1,
+        "dealmaking": 0.3,
+        "budgeting-saving": 0.1,
+        "valuation": 0.3,
+        "behavioral-finance": 0.4,
+        "nvidia": 0.8,
+        "alphabet": 0.4,
+        "amazon": 0.1,
+        "meta": 0.3,
+        "tesla": 0.4,
+        "berkshire": 0.1,
+        "costco": 0.3,
+        "bitcoin": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "costco": -1.0
+      },
+      "entity_conviction": {
+        "dealmaking": -1.0,
+        "amazon": -1.0,
+        "costco": 0.0,
+        "nvidia": -0.913,
+        "meta": -1.0,
+        "tesla": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Behavioral Finance & Psychology, IPOs & Dealmaking, Valuation, AI & Machine Learning. Mentions Nvidia, Alphabet / Google, Tesla, Bitcoin, Meta. Tone reads roughly neutral (+0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-the-investing-for-beginners-podcast-why-100-baggers-cause-bad-decisions-and-how-to-stay-grounded-8a4ece.md",
+    "transcript_word_count": 6743,
+    "transcript_language": "en"
   },
   {
     "guid": "a2296f82-8bc3-11f1-88ac-430f4be441ef",
@@ -196957,26 +197017,46 @@
     "duration": "532",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM4496217120.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving"
       ],
-      "stocks": [],
+      "stocks": [
+        "meta",
+        "amazon",
+        "walmart"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "real-estate": 1,
+        "budgeting-saving": 1,
+        "amazon": 1,
+        "meta": 2,
+        "walmart": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.4
+        "real-estate": 0.7,
+        "budgeting-saving": 0.7,
+        "amazon": 0.7,
+        "meta": 1.3,
+        "walmart": 0.7
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving. Mentions Meta, Amazon, Walmart. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-ramsey-everyday-millionaires-is-the-boat-i-want-to-buy-too-expensive-more-than-100-of-my-393b98.md",
+    "transcript_word_count": 1346,
+    "transcript_language": "en"
   },
   {
     "guid": "508293cc-55c0-11f1-8938-0bebce1f8c64",
@@ -216002,29 +216082,59 @@
     "audio_url": "https://traffic.megaphone.fm/APO7816534115.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "energy",
+        "media-entertainment",
+        "ai-infrastructure"
       ],
       "themes": [
+        "dealmaking",
         "inflation",
-        "dealmaking"
+        "rates-fed",
+        "commodities",
+        "bond-market",
+        "valuation"
       ],
       "stocks": [
-        "netflix"
+        "netflix",
+        "nvidia",
+        "amazon",
+        "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "semiconductors": 1,
-        "inflation": 2,
-        "dealmaking": 2,
-        "netflix": 1
+        "semiconductors": 5,
+        "ai-infrastructure": 1,
+        "energy": 2,
+        "media-entertainment": 2,
+        "inflation": 10,
+        "rates-fed": 3,
+        "commodities": 1,
+        "dealmaking": 12,
+        "bond-market": 1,
+        "valuation": 1,
+        "nvidia": 1,
+        "amazon": 1,
+        "nasdaq": 1,
+        "netflix": 11
       },
       "entity_mention_density": {
-        "semiconductors": 8.1,
-        "inflation": 16.1,
-        "dealmaking": 16.1,
-        "netflix": 8.1
+        "semiconductors": 2.2,
+        "ai-infrastructure": 0.4,
+        "energy": 0.9,
+        "media-entertainment": 0.9,
+        "inflation": 4.4,
+        "rates-fed": 1.3,
+        "commodities": 0.4,
+        "dealmaking": 5.3,
+        "bond-market": 0.4,
+        "valuation": 0.4,
+        "nvidia": 0.4,
+        "amazon": 0.4,
+        "nasdaq": 0.4,
+        "netflix": 4.9
       },
       "entity_sentiment": {
         "semiconductors": 1.0,
@@ -216032,11 +216142,24 @@
         "inflation": 1.0,
         "netflix": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "media-entertainment": -0.167,
+        "dealmaking": 0.0,
+        "netflix": -0.545,
+        "nvidia": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, Media & Entertainment, IPOs & Dealmaking, Inflation, Interest Rates & Fed Policy, Commodities. Mentions Netflix, Nvidia, Amazon, Nasdaq. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-12-the-rundown-cerebras-targets-34b-ipo-valuation-hims-shares-tank-on-eps-m-ec04da.md",
+    "transcript_word_count": 2136,
+    "transcript_language": "en"
   },
   {
     "guid": "a004670b-3f16-4bc4-a4cb-b44801024fcb",
