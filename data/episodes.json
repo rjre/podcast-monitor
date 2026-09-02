@@ -11146,32 +11146,65 @@
     "duration": "522",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/ae8d6c7f-6aca-4350-b651-c5536ec514b0.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary"
+      ],
       "themes": [
         "inflation",
+        "rates-fed",
+        "dividends-buybacks",
+        "bond-market",
+        "consumer-health",
         "geopolitics-tariffs",
-        "bond-market"
+        "housing",
+        "emerging-markets"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "nasdaq"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "inflation": 1,
+        "consumer-discretionary": 2,
+        "inflation": 7,
+        "rates-fed": 5,
         "geopolitics-tariffs": 1,
-        "bond-market": 1
+        "housing": 1,
+        "bond-market": 3,
+        "emerging-markets": 1,
+        "consumer-health": 2,
+        "dividends-buybacks": 5,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "inflation": 4.7,
-        "geopolitics-tariffs": 4.7,
-        "bond-market": 4.7
+        "consumer-discretionary": 1.0,
+        "inflation": 3.6,
+        "rates-fed": 2.6,
+        "geopolitics-tariffs": 0.5,
+        "housing": 0.5,
+        "bond-market": 1.6,
+        "emerging-markets": 0.5,
+        "consumer-health": 1.0,
+        "dividends-buybacks": 2.6,
+        "nasdaq": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "bond-market": -1.0
+      },
+      "entity_conviction": {
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Inflation, Interest Rates & Fed Policy, Dividends & Buybacks, Bond Market & Yields. Mentions Nasdaq. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-26-the-dividend-cafe-wednesday-august-26-2026-556134.md",
+    "transcript_word_count": 1714,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/tbCQb9p5HiLo3sCqXuEOukmq0O-pN3aFZ-cP2IrO4L8",
@@ -76057,26 +76090,71 @@
     "duration": "01:09:29",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/7cd01db7-3789-40fb-8510-99f09402fc54.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "retirement-planning"
+      "sectors": [
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "fire-movement",
+        "real-estate-investing",
+        "budgeting-saving",
+        "debt-payoff",
+        "retirement-planning",
+        "estate-planning",
+        "insurance-products"
+      ],
+      "stocks": [
+        "fidelity",
+        "meta",
+        "netflix"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "retirement-planning": 1
+        "real-estate": 6,
+        "budgeting-saving": 2,
+        "debt-payoff": 2,
+        "fire-movement": 3,
+        "retirement-planning": 2,
+        "real-estate-investing": 3,
+        "estate-planning": 1,
+        "insurance-products": 1,
+        "meta": 1,
+        "fidelity": 3,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 2.3
+        "real-estate": 0.4,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.1,
+        "real-estate-investing": 0.2,
+        "estate-planning": 0.1,
+        "insurance-products": 0.1,
+        "meta": 0.1,
+        "fidelity": 0.2,
+        "netflix": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "retirement-planning": -1.0,
+        "real-estate-investing": -1.0,
+        "insurance-products": -1.0,
+        "debt-payoff": -1.0,
+        "fidelity": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Financial Independence / FIRE, Real Estate Investing, Budgeting & Saving, Debt Payoff. Mentions Fidelity, Meta, Netflix. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-28-stacking-benjamins-the-one-financial-conversation-people-avoid-plus-a-discussio-C5FAD8.md",
+    "transcript_word_count": 14869,
+    "transcript_language": "en"
   },
   {
     "guid": "aa5cce3c-879b-11f1-8b29-8bc127cc1ad0",
@@ -241203,20 +241281,94 @@
     "duration": "00:44:18",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/84de019a-87c9-43a5-9b11-b240c305fb47/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=84de019a-87c9-43a5-9b11-b240c305fb47&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "technology",
+        "insurance",
+        "industrials"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "budgeting-saving",
+        "diversification",
+        "ai-boom",
+        "valuation"
+      ],
+      "stocks": [
+        "cisco",
+        "nvidia",
+        "microsoft",
+        "amazon",
+        "morgan-stanley",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": 0.053,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 14,
+        "ai-infrastructure": 13,
+        "insurance": 1,
+        "industrials": 1,
+        "inflation": 3,
+        "rates-fed": 4,
+        "ai-boom": 1,
+        "budgeting-saving": 2,
+        "valuation": 1,
+        "diversification": 2,
+        "nvidia": 2,
+        "microsoft": 1,
+        "amazon": 1,
+        "cisco": 4,
+        "morgan-stanley": 1,
+        "nasdaq": 1,
+        "charles-schwab": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 1.6,
+        "ai-infrastructure": 1.5,
+        "insurance": 0.1,
+        "industrials": 0.1,
+        "inflation": 0.3,
+        "rates-fed": 0.5,
+        "ai-boom": 0.1,
+        "budgeting-saving": 0.2,
+        "valuation": 0.1,
+        "diversification": 0.2,
+        "nvidia": 0.2,
+        "microsoft": 0.1,
+        "amazon": 0.1,
+        "cisco": 0.5,
+        "morgan-stanley": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "valuation": 1.0,
+        "nasdaq": 1.0,
+        "microsoft": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Technology, Interest Rates & Fed Policy, Inflation, Budgeting & Saving, Diversification & Asset Allocation. Mentions Cisco, Nvidia, Microsoft, Amazon, Morgan Stanley. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-8-26-27e74b.md",
+    "transcript_word_count": 8636,
+    "transcript_language": "en"
   },
   {
     "guid": "f04b68e0-7fbf-4a3f-ba10-b444016f98a6",
@@ -253828,29 +253980,60 @@
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/0d2c8c38-ba31-44ef-8961-81365471932b/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=0d2c8c38-ba31-44ef-8961-81365471932b&feed=hvWWWzRv&t=podcast&e=nx-s1-5785166&p=510289&d=2805&size=44880963",
     "tags": {
       "sectors": [
+        "consumer-discretionary",
         "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "geopolitics-tariffs",
+        "elections-politics",
+        "behavioral-finance"
+      ],
       "stocks": [
+        "amazon",
+        "microsoft",
+        "alphabet",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
+        "consumer-discretionary": 1,
         "industrials": 1,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 1,
+        "behavioral-finance": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 6,
         "meta": 1
       },
       "entity_mention_density": {
-        "industrials": 2.4,
-        "meta": 2.4
+        "consumer-discretionary": 0.1,
+        "industrials": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.1,
+        "behavioral-finance": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.7,
+        "meta": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Industrials, Geopolitics & Tariffs, Elections & Politics, Behavioral Finance & Psychology. Mentions Amazon, Microsoft, Alphabet / Google, Meta. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-02-planet-money-how-to-make-a-book-into-a-bestseller-df9fed.md",
+    "transcript_word_count": 8694,
+    "transcript_language": "en"
   },
   {
     "guid": "7204898d-0760-4638-9ede-18224821ce41",
