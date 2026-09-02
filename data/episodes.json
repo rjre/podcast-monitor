@@ -15790,45 +15790,85 @@
     "duration": "00:10:47",
     "audio_url": "https://traffic.megaphone.fm/APO6641588618.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "technology",
+        "ai-infrastructure"
+      ],
       "themes": [
         "geopolitics-tariffs",
+        "bond-market",
         "inflation",
         "rates-fed",
-        "earnings"
+        "earnings",
+        "ai-boom",
+        "diversification"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "nasdaq"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": -0.574,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "rates-fed": 1,
-        "geopolitics-tariffs": 4,
-        "earnings": 1,
-        "nvidia": 2
+        "technology": 3,
+        "semiconductors": 5,
+        "ai-infrastructure": 2,
+        "inflation": 4,
+        "rates-fed": 3,
+        "ai-boom": 2,
+        "geopolitics-tariffs": 20,
+        "earnings": 3,
+        "bond-market": 6,
+        "diversification": 1,
+        "nvidia": 24,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "inflation": 8.2,
-        "rates-fed": 8.2,
-        "geopolitics-tariffs": 32.8,
-        "earnings": 8.2,
-        "nvidia": 16.4
+        "technology": 1.4,
+        "semiconductors": 2.3,
+        "ai-infrastructure": 0.9,
+        "inflation": 1.8,
+        "rates-fed": 1.4,
+        "ai-boom": 0.9,
+        "geopolitics-tariffs": 9.1,
+        "earnings": 1.4,
+        "bond-market": 2.7,
+        "diversification": 0.5,
+        "nvidia": 10.9,
+        "nasdaq": 0.5
       },
       "entity_sentiment": {
-        "geopolitics-tariffs": -0.333,
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "geopolitics-tariffs": -0.6,
         "inflation": 0.0,
         "rates-fed": 0.0,
-        "earnings": 0.0,
-        "nvidia": -0.333
+        "earnings": -0.333,
+        "bond-market": 1.0,
+        "ai-boom": -1.0,
+        "nvidia": -0.667
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "geopolitics-tariffs": -0.167,
+        "earnings": 0.0,
+        "bond-market": 1.0,
+        "diversification": -1.0,
+        "ai-boom": -1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, AI Infrastructure, Geopolitics & Tariffs, Bond Market & Yields, Inflation, Interest Rates & Fed Policy. Mentions Nvidia, Nasdaq. Tone leans bearish (-0.57).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-the-rundown-u-s-tariff-deal-with-canada-collapses-nvidia-warns-price-hik-3c86e6.md",
+    "transcript_word_count": 2078,
+    "transcript_language": "en"
   },
   {
     "guid": "bb4ee24f-74a1-4ce9-8189-b4b000e59a48",
@@ -55338,29 +55378,61 @@
     "duration": "35:16",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a6be0296cef78eb15aaa7bc/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "industrials",
+        "technology"
+      ],
+      "themes": [
+        "ai-boom",
+        "dealmaking",
+        "emerging-markets",
+        "geopolitics-tariffs",
+        "regulation-antitrust"
+      ],
       "stocks": [
         "nasdaq",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "technology": 1,
+        "industrials": 2,
+        "ai-boom": 2,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 1,
+        "emerging-markets": 2,
         "meta": 1,
-        "nasdaq": 2
+        "nasdaq": 4
       },
       "entity_mention_density": {
-        "meta": 2.2,
-        "nasdaq": 4.3
+        "technology": 0.2,
+        "industrials": 0.3,
+        "ai-boom": 0.3,
+        "geopolitics-tariffs": 0.2,
+        "dealmaking": 0.3,
+        "regulation-antitrust": 0.2,
+        "emerging-markets": 0.3,
+        "meta": 0.2,
+        "nasdaq": 0.6
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "emerging-markets": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Technology, AI & Machine Learning, IPOs & Dealmaking, Emerging Markets, Geopolitics & Tariffs. Mentions Nasdaq, Meta. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-02-equity-mates-investing-podcast-agriculture-robots-drones-and-the-future-of-food-the-decade-aaa7bc.md",
+    "transcript_word_count": 5990,
+    "transcript_language": "en"
   },
   {
     "guid": "71e7b3ac-ff9c-46fe-9eac-0b420bc76818",
@@ -131211,36 +131283,77 @@
     "duration": "3086",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/4dacbeb8-9b6d-45bd-9c42-b4410156d2bf/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
+        "budgeting-saving",
         "debt-payoff",
+        "inflation",
+        "college-savings",
+        "rates-fed",
+        "fiscal-debt",
         "fire-movement",
-        "college-savings"
+        "career-income"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "meta",
+        "bank-of-america"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.254,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "debt-payoff": 2,
+        "real-estate": 4,
+        "inflation": 2,
+        "rates-fed": 1,
+        "fiscal-debt": 1,
+        "budgeting-saving": 9,
+        "debt-payoff": 9,
         "fire-movement": 1,
-        "college-savings": 1,
-        "meta": 1
+        "career-income": 1,
+        "college-savings": 2,
+        "alphabet": 1,
+        "meta": 1,
+        "bank-of-america": 1
       },
       "entity_mention_density": {
-        "debt-payoff": 4.7,
-        "fire-movement": 2.4,
-        "college-savings": 2.4,
-        "meta": 2.4
+        "real-estate": 0.4,
+        "inflation": 0.2,
+        "rates-fed": 0.1,
+        "fiscal-debt": 0.1,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.9,
+        "fire-movement": 0.1,
+        "career-income": 0.1,
+        "college-savings": 0.2,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "bank-of-america": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": -1.0,
+        "rates-fed": -1.0,
+        "alphabet": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "career-income": -1.0,
+        "inflation": 0.0,
+        "budgeting-saving": -1.0,
+        "fiscal-debt": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving, Debt Payoff, Inflation, College Savings & Student Debt. Mentions Alphabet / Google, Meta, Bank of America. Tone leans bearish (-0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-how-to-money-what-most-people-get-wrong-about-paying-off-debt-w-johanna-s-56d2bf.md",
+    "transcript_word_count": 9675,
+    "transcript_language": "en"
   },
   {
     "guid": "963998e9-fac6-46bf-8a73-ceedf9c87e10",
@@ -219767,26 +219880,57 @@
     "duration": "1731",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/a3511ba2-5712-446a-9036-9c3aa9fad15b/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=a3511ba2-5712-446a-9036-9c3aa9fad15b&feed=hvWWWzRv&t=podcast&e=nx-s1-5812912&p=510289&d=1731&size=27704512",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "materials-mining",
+        "airlines-travel"
+      ],
+      "themes": [
+        "regulation-antitrust",
+        "elections-politics",
+        "inflation"
+      ],
       "stocks": [
+        "alphabet",
         "meta"
       ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
+        "technology": 1,
+        "materials-mining": 1,
+        "airlines-travel": 1,
+        "inflation": 1,
+        "elections-politics": 5,
+        "regulation-antitrust": 6,
+        "alphabet": 2,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 4.0
+        "technology": 0.2,
+        "materials-mining": 0.2,
+        "airlines-travel": 0.2,
+        "inflation": 0.2,
+        "elections-politics": 0.9,
+        "regulation-antitrust": 1.1,
+        "alphabet": 0.4,
+        "meta": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "alphabet": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Materials & Mining, Airlines & Travel, Regulation & Antitrust, Elections & Politics, Inflation. Mentions Alphabet / Google, Meta. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-planet-money-how-we-got-free-agents-in-baseball-9ab7fb.md",
+    "transcript_word_count": 5140,
+    "transcript_language": "en"
   },
   {
     "guid": "9e12721e-44aa-11f1-81fc-6f387bed93b9",
