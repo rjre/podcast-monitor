@@ -44729,35 +44729,140 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "private-markets"
+        "private-markets",
+        "semiconductors",
+        "energy",
+        "industrials",
+        "technology",
+        "healthcare",
+        "consumer-staples",
+        "real-estate",
+        "crypto"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "elections-politics",
+        "rates-fed",
+        "dealmaking",
+        "credit-markets",
+        "geopolitics-tariffs",
+        "labor-market",
+        "commodities",
+        "regulation-antitrust",
+        "bond-market",
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "nvidia",
+        "nasdaq",
+        "tesla",
+        "cisco",
+        "goldman-sachs",
+        "bitcoin"
+      ],
+      "sentiment": 0.584,
+      "sentiment_hits": 38,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "private-markets": 1,
-        "inflation": 1
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 14,
+        "energy": 2,
+        "healthcare": 1,
+        "consumer-staples": 1,
+        "real-estate": 1,
+        "industrials": 2,
+        "crypto": 1,
+        "private-markets": 9,
+        "inflation": 17,
+        "rates-fed": 7,
+        "credit-markets": 1,
+        "geopolitics-tariffs": 1,
+        "labor-market": 1,
+        "elections-politics": 8,
+        "commodities": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 1,
+        "bond-market": 1,
+        "dividends-buybacks": 1,
+        "nvidia": 13,
+        "tesla": 2,
+        "cisco": 1,
+        "goldman-sachs": 1,
+        "bitcoin": 1,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "ai-infrastructure": 16.1,
-        "private-markets": 16.1,
-        "inflation": 16.1
+        "technology": 0.1,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 1.8,
+        "energy": 0.3,
+        "healthcare": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.3,
+        "crypto": 0.1,
+        "private-markets": 1.2,
+        "inflation": 2.2,
+        "rates-fed": 0.9,
+        "credit-markets": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "labor-market": 0.1,
+        "elections-politics": 1.1,
+        "commodities": 0.1,
+        "dealmaking": 0.3,
+        "regulation-antitrust": 0.1,
+        "bond-market": 0.1,
+        "dividends-buybacks": 0.1,
+        "nvidia": 1.7,
+        "tesla": 0.3,
+        "cisco": 0.1,
+        "goldman-sachs": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0,
-        "private-markets": 1.0,
-        "inflation": 1.0
+        "ai-infrastructure": -0.172,
+        "private-markets": 0.2,
+        "crypto": 1.0,
+        "technology": 1.0,
+        "industrials": 1.0,
+        "real-estate": 1.0,
+        "semiconductors": 1.0,
+        "inflation": 1.0,
+        "rates-fed": 0.333,
+        "elections-politics": 1.0,
+        "dividends-buybacks": 1.0,
+        "credit-markets": -1.0,
+        "nasdaq": 0.0,
+        "bitcoin": 1.0,
+        "nvidia": -0.176
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.643,
+        "private-markets": -0.333,
+        "energy": -1.0,
+        "real-estate": -1.0,
+        "semiconductors": -1.0,
+        "inflation": -0.167,
+        "rates-fed": -0.091,
+        "elections-politics": -1.0,
+        "regulation-antitrust": 0.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "ai-infrastructure",
+        "private-markets"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Private Equity & Credit, Semiconductors, Inflation, Elections & Politics, Interest Rates & Fed Policy, IPOs & Dealmaking. Mentions Nvidia, Nasdaq, Tesla, Cisco, Goldman Sachs. Tone leans bullish (+0.58).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-morning-call-ai-investment-and-leverage-risks-shape-the-market-outlook-8-7afa41.md",
+    "transcript_word_count": 7516,
+    "transcript_language": "en"
   },
   {
     "guid": "3daf4618-fba6-470f-aca1-b4a30137e222",
@@ -97117,39 +97222,75 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/adc85d18-eebe-498a-92b5-931a44aafa56.mp3?source=feed",
     "tags": {
       "sectors": [
+        "energy",
         "real-estate"
       ],
       "themes": [
+        "dividends-buybacks",
         "geopolitics-tariffs",
         "dealmaking",
-        "bond-market"
+        "rates-fed",
+        "commodities",
+        "bond-market",
+        "elections-politics",
+        "volatility",
+        "hedge-funds"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 2,
-        "geopolitics-tariffs": 3,
-        "dealmaking": 3,
-        "bond-market": 1,
-        "nasdaq": 1
+        "energy": 5,
+        "real-estate": 5,
+        "rates-fed": 6,
+        "geopolitics-tariffs": 7,
+        "elections-politics": 1,
+        "commodities": 4,
+        "volatility": 1,
+        "dealmaking": 7,
+        "bond-market": 2,
+        "hedge-funds": 1,
+        "dividends-buybacks": 8,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "real-estate": 8.7,
-        "geopolitics-tariffs": 13.0,
-        "dealmaking": 13.0,
-        "bond-market": 4.3,
-        "nasdaq": 4.3
+        "energy": 1.8,
+        "real-estate": 1.8,
+        "rates-fed": 2.1,
+        "geopolitics-tariffs": 2.5,
+        "elections-politics": 0.4,
+        "commodities": 1.4,
+        "volatility": 0.4,
+        "dealmaking": 2.5,
+        "bond-market": 0.7,
+        "hedge-funds": 0.4,
+        "dividends-buybacks": 2.9,
+        "nasdaq": 0.7
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 1.0,
+        "commodities": 1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "commodities": -1.0,
+        "elections-politics": 0.0,
+        "hedge-funds": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, Dividends & Buybacks, Geopolitics & Tariffs, IPOs & Dealmaking, Interest Rates & Fed Policy. Mentions Nasdaq. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-the-dividend-cafe-monday-july-20-2026-b10f3b.md",
+    "transcript_word_count": 2576,
+    "transcript_language": "en"
   },
   {
     "guid": "94d23442-847d-11f1-85c6-ebebd9c2c7f3",
@@ -211937,18 +212078,30 @@
     "tags": {
       "sectors": [],
       "themes": [],
-      "stocks": [],
+      "stocks": [
+        "amazon"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "amazon": 1
+      },
+      "entity_mention_density": {
+        "amazon": 0.6
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Mentions Amazon. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-optimal-finance-daily-3576-trading-time-for-money-by-j-d-roth-of-get-rich-slowly-o-895230.md",
+    "transcript_word_count": 1574,
+    "transcript_language": "en"
   },
   {
     "guid": "7a29baf0-0815-4b45-9cdf-b4520028ad4e",
@@ -258896,20 +259049,90 @@
     "duration": "1212",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/b09c9bd7-bcd9-4115-b1b6-b44100f45fa3/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "private-markets",
+        "ai-infrastructure",
+        "energy",
+        "technology",
+        "semiconductors",
+        "industrials"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "labor-market",
+        "commodities",
+        "budgeting-saving",
+        "ai-boom",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "coinbase"
+      ],
+      "sentiment": 0.091,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 4,
+        "energy": 3,
+        "industrials": 1,
+        "private-markets": 10,
+        "inflation": 11,
+        "rates-fed": 4,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 3,
+        "labor-market": 2,
+        "commodities": 2,
+        "budgeting-saving": 2,
+        "dividends-buybacks": 1,
+        "coinbase": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.9,
+        "energy": 0.6,
+        "industrials": 0.2,
+        "private-markets": 2.2,
+        "inflation": 2.4,
+        "rates-fed": 0.9,
+        "ai-boom": 0.2,
+        "geopolitics-tariffs": 0.6,
+        "labor-market": 0.4,
+        "commodities": 0.4,
+        "budgeting-saving": 0.4,
+        "dividends-buybacks": 0.2,
+        "coinbase": 0.2
+      },
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "private-markets": 0.0,
+        "inflation": 1.0,
+        "rates-fed": 1.0
+      },
+      "entity_conviction": {
+        "industrials": -0.5,
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "private-markets": -1.0,
+        "inflation": 1.0,
+        "rates-fed": 1.0,
+        "dividends-buybacks": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, AI Infrastructure, Energy & Oil, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Labor Market. Mentions Coinbase. Tone reads roughly neutral (+0.09).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-bloomberg-surveillance-bloomberg-surveillance-tv-may-5th-2026-f45fa3.md",
+    "transcript_word_count": 4585,
+    "transcript_language": "en"
   },
   {
     "guid": "717d9fdf-a885-413c-a13d-b44100ea3695",
