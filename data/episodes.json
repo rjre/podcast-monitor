@@ -6084,19 +6084,26 @@
     "duration": "2023",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/fff38693-3604-44da-8dc9-ab7e184d7b6e/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=fff38693-3604-44da-8dc9-ab7e184d7b6e&feed=hvWWWzRv&t=podcast&e=nx-s1-5947931&p=510289&d=2023&size=32371025",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "industrials"
+      ],
       "themes": [],
       "stocks": [
         "meta"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "semiconductors": 1,
+        "industrials": 1,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 3.3
+        "semiconductors": 0.2,
+        "industrials": 0.2,
+        "meta": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {
@@ -6105,7 +6112,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Industrials. Mentions Meta. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-28-planet-money-branded-fruit-how-produce-got-honeycrisp-ified-1d39e4.md",
+    "transcript_word_count": 5989,
+    "transcript_language": "en"
   },
   {
     "guid": "7780cc8c-8cf2-11f1-be6e-e7b4dfd7af70",
@@ -79495,38 +79508,48 @@
         "semiconductors"
       ],
       "themes": [
+        "dividends-buybacks",
         "emerging-markets"
       ],
       "stocks": [
         "goldman-sachs",
         "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.081,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "semiconductors": 1,
         "emerging-markets": 1,
-        "goldman-sachs": 1,
-        "nasdaq": 1
+        "dividends-buybacks": 5,
+        "goldman-sachs": 2,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "semiconductors": 5.0,
-        "emerging-markets": 5.0,
-        "goldman-sachs": 5.0,
-        "nasdaq": 5.0
+        "semiconductors": 0.6,
+        "emerging-markets": 0.6,
+        "dividends-buybacks": 2.9,
+        "goldman-sachs": 1.2,
+        "nasdaq": 1.2
       },
       "entity_sentiment": {
         "semiconductors": -0.333,
         "emerging-markets": -0.333,
-        "nasdaq": 1.0,
+        "dividends-buybacks": -0.333,
+        "nasdaq": 0.429,
         "goldman-sachs": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Dividends & Buybacks, Emerging Markets. Mentions Goldman Sachs, Nasdaq. Tone reads roughly neutral (+0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-the-dividend-cafe-wednesday-july-22-2026-5c7ce8.md",
+    "transcript_word_count": 1534,
+    "transcript_language": "en"
   },
   {
     "guid": "6a5ff522e8340c0ebfeb07b3",
@@ -109682,30 +109705,71 @@
     "duration": "3176",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/ed0a447e-de9b-440c-bade-b47901257c3f/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
+        "inflation",
+        "rates-fed",
+        "recession",
+        "college-savings",
+        "debt-payoff",
         "fire-movement"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.158,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "real-estate": 15,
+        "inflation": 6,
+        "rates-fed": 6,
+        "recession": 5,
+        "debt-payoff": 3,
         "fire-movement": 1,
+        "college-savings": 4,
         "meta": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.4,
-        "meta": 2.4
+        "real-estate": 1.5,
+        "inflation": 0.6,
+        "rates-fed": 0.6,
+        "recession": 0.5,
+        "debt-payoff": 0.3,
+        "fire-movement": 0.1,
+        "college-savings": 0.4,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -0.357,
+        "inflation": 1.0,
+        "rates-fed": 1.0,
+        "recession": -0.038,
+        "debt-payoff": -1.0,
+        "college-savings": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.333,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "recession": -0.462,
+        "debt-payoff": -1.0,
+        "college-savings": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "recession"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Inflation, Interest Rates & Fed Policy, Recession Risk, College Savings & Student Debt. Mentions Meta. Tone leans bullish (+0.16).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-how-to-money-the-myth-of-the-broke-millennial-w-dr-jean-twenge-1163-besti-257c3f.md",
+    "transcript_word_count": 9363,
+    "transcript_language": "en"
   },
   {
     "guid": "ddfcca50-b2fc-4402-a7bf-182e877ae0d5",
@@ -123375,20 +123439,154 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/358bf465-89bb-4f3f-bb6a-59a8f288e856/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=358bf465-89bb-4f3f-bb6a-59a8f288e856&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "banks",
+        "telecoms",
+        "energy",
+        "consumer-discretionary",
+        "real-estate"
+      ],
+      "themes": [
+        "market-concentration",
+        "dealmaking",
+        "regulation-antitrust",
+        "rates-fed",
+        "earnings",
+        "diversification",
+        "inflation",
+        "ai-boom",
+        "recession",
+        "labor-market",
+        "elections-politics"
+      ],
+      "stocks": [
+        "nvidia",
+        "microsoft",
+        "amazon",
+        "alphabet",
+        "tesla",
+        "intel",
+        "amd",
+        "micron",
+        "tsmc",
+        "goldman-sachs",
+        "morgan-stanley",
+        "chevron",
+        "nasdaq",
+        "charles-schwab",
+        "netflix"
+      ],
+      "sentiment": 0.855,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 3,
+        "semiconductors": 14,
+        "ai-infrastructure": 23,
+        "banks": 3,
+        "energy": 1,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "telecoms": 2,
+        "inflation": 1,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "recession": 1,
+        "labor-market": 1,
+        "elections-politics": 1,
+        "dealmaking": 4,
+        "regulation-antitrust": 3,
+        "earnings": 2,
+        "market-concentration": 7,
+        "diversification": 2,
+        "nvidia": 10,
+        "microsoft": 9,
+        "alphabet": 5,
+        "amazon": 8,
+        "tesla": 3,
+        "intel": 1,
+        "amd": 1,
+        "micron": 1,
+        "tsmc": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 1,
+        "chevron": 1,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "netflix": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "semiconductors": 1.8,
+        "ai-infrastructure": 2.9,
+        "banks": 0.4,
+        "energy": 0.1,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "telecoms": 0.3,
+        "inflation": 0.1,
+        "rates-fed": 0.3,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "labor-market": 0.1,
+        "elections-politics": 0.1,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 0.4,
+        "earnings": 0.3,
+        "market-concentration": 0.9,
+        "diversification": 0.3,
+        "nvidia": 1.3,
+        "microsoft": 1.2,
+        "alphabet": 0.6,
+        "amazon": 1.0,
+        "tesla": 0.4,
+        "intel": 0.1,
+        "amd": 0.1,
+        "micron": 0.1,
+        "tsmc": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.1,
+        "chevron": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "netflix": 0.1
+      },
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "ai-infrastructure": 0.0,
+        "market-concentration": -1.0,
+        "recession": 1.0,
+        "labor-market": 1.0,
+        "microsoft": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "semiconductors": -1.0,
+        "telecoms": -1.0,
+        "banks": -1.0,
+        "market-concentration": -1.0,
+        "rates-fed": 0.0,
+        "regulation-antitrust": 0.0,
+        "dealmaking": -1.0,
+        "ai-boom": -1.0,
+        "goldman-sachs": -1.0,
+        "morgan-stanley": -1.0,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Market Concentration / Mega-cap, IPOs & Dealmaking, Regulation & Antitrust, Interest Rates & Fed Policy. Mentions Nvidia, Microsoft, Amazon, Alphabet / Google, Tesla. Tone leans bullish (+0.85).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-mad-money-w-jim-cramer-mad-money-w-jim-cramer-6-30-26-d72568.md",
+    "transcript_word_count": 7768,
+    "transcript_language": "en"
   },
   {
     "guid": "6ef6e00c-d9e1-11f0-988b-03779feda284",
