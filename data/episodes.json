@@ -146281,41 +146281,112 @@
     "duration": "3032",
     "audio_url": "https://traffic.megaphone.fm/RRM9653359736.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "industrials",
+        "private-markets"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "market-concentration"
       ],
       "stocks": [
-        "tesla",
         "alphabet",
-        "micron"
+        "tesla",
+        "microsoft",
+        "nvidia",
+        "micron",
+        "amazon",
+        "meta",
+        "berkshire",
+        "walmart",
+        "nasdaq",
+        "oracle"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.448,
+      "sentiment_hits": 24,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "alphabet": 1,
-        "tesla": 2,
-        "micron": 1
+        "technology": 4,
+        "semiconductors": 2,
+        "ai-infrastructure": 11,
+        "industrials": 1,
+        "private-markets": 1,
+        "dealmaking": 3,
+        "market-concentration": 1,
+        "nvidia": 3,
+        "microsoft": 6,
+        "alphabet": 20,
+        "amazon": 2,
+        "meta": 1,
+        "tesla": 11,
+        "micron": 3,
+        "berkshire": 1,
+        "walmart": 1,
+        "nasdaq": 1,
+        "oracle": 1
       },
       "entity_mention_density": {
-        "dealmaking": 2.3,
-        "alphabet": 2.3,
-        "tesla": 4.5,
-        "micron": 2.3
+        "technology": 0.4,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.1,
+        "industrials": 0.1,
+        "private-markets": 0.1,
+        "dealmaking": 0.3,
+        "market-concentration": 0.1,
+        "nvidia": 0.3,
+        "microsoft": 0.6,
+        "alphabet": 2.0,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "tesla": 1.1,
+        "micron": 0.3,
+        "berkshire": 0.1,
+        "walmart": 0.1,
+        "nasdaq": 0.1,
+        "oracle": 0.1
       },
       "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "industrials": 1.0,
+        "technology": 1.0,
+        "private-markets": 1.0,
         "dealmaking": 1.0,
         "micron": 1.0,
-        "alphabet": 1.0,
-        "tesla": 0.0
+        "alphabet": 0.333,
+        "tesla": 0.0,
+        "microsoft": 1.0,
+        "meta": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "industrials": -1.0,
+        "technology": -1.0,
+        "micron": -1.0,
+        "alphabet": -1.0,
+        "tesla": -1.0,
+        "microsoft": -1.0,
+        "nvidia": -1.0,
+        "walmart": -1.0,
+        "meta": -1.0,
+        "berkshire": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "alphabet"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Semiconductors, IPOs & Dealmaking, Market Concentration / Mega-cap. Mentions Alphabet / Google, Tesla, Microsoft, Nvidia, Micron. Tone leans bullish (+0.45).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-riskreversal-pod-gene-munster-believes-it-s-different-this-time-ddb1e8.md",
+    "transcript_word_count": 9440,
+    "transcript_language": "en"
   },
   {
     "guid": "bade1348-6f49-11f1-9225-3f39d32bdce3",
@@ -181318,26 +181389,114 @@
     "duration": "00:42:45",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/ac923c52-d5fe-4972-84a5-b61e253d7ab5/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=ac923c52-d5fe-4972-84a5-b61e253d7ab5&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "real-estate",
+        "industrials",
+        "airlines-travel"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "dealmaking",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "japan",
+        "elections-politics",
+        "earnings",
+        "regulation-antitrust",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "nasdaq",
+        "robinhood",
+        "alphabet",
+        "bank-of-america",
+        "boeing",
+        "broadcom"
+      ],
+      "sentiment": 0.056,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "real-estate": 1,
+        "industrials": 1,
+        "airlines-travel": 1,
+        "inflation": 25,
+        "rates-fed": 3,
+        "japan": 2,
+        "geopolitics-tariffs": 3,
+        "elections-politics": 2,
+        "dealmaking": 21,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "dividends-buybacks": 1,
+        "alphabet": 2,
+        "bank-of-america": 1,
+        "boeing": 1,
+        "nasdaq": 5,
+        "robinhood": 3,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "inflation": 20.0
+        "technology": 0.1,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.4,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "airlines-travel": 0.1,
+        "inflation": 3.2,
+        "rates-fed": 0.4,
+        "japan": 0.3,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 0.3,
+        "dealmaking": 2.7,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.3,
+        "dividends-buybacks": 0.1,
+        "alphabet": 0.3,
+        "bank-of-america": 0.1,
+        "boeing": 0.1,
+        "nasdaq": 0.6,
+        "robinhood": 0.4,
+        "broadcom": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": 1.0,
+        "real-estate": 1.0,
+        "inflation": 1.0,
+        "earnings": 1.0,
+        "dealmaking": 1.0,
+        "rates-fed": -1.0,
+        "japan": -1.0,
+        "bank-of-america": -1.0,
+        "nasdaq": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": 0.0,
+        "inflation": -1.0,
+        "dealmaking": -0.167,
+        "geopolitics-tariffs": -1.0,
+        "broadcom": -1.0,
+        "alphabet": -1.0,
+        "nasdaq": -0.167
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Inflation, IPOs & Dealmaking, Interest Rates & Fed Policy, Geopolitics & Tariffs. Mentions Nasdaq, Robinhood, Alphabet / Google, Bank of America, Boeing. Tone reads roughly neutral (+0.06).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-morning-call-spacex-hype-meets-inflation-ai-valuation-risks-6-10-26-e2ceb7.md",
+    "transcript_word_count": 7724,
+    "transcript_language": "en"
   },
   {
     "guid": "ba559f6c-18a1-11f1-98a4-f769cfc362aa",
@@ -197887,42 +198046,87 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/a920e229-4a18-46fc-8158-b41e01313d1e/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "private-markets"
       ],
       "themes": [
+        "real-estate-investing",
         "fire-movement",
+        "tax-planning",
         "inflation",
+        "passive-income",
         "passive-investing",
-        "real-estate-investing"
+        "debt-payoff",
+        "retirement-planning",
+        "budgeting-saving",
+        "dividends-buybacks"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.636,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "inflation": 1,
-        "passive-investing": 1,
-        "fire-movement": 2,
-        "real-estate-investing": 1,
+        "real-estate": 61,
+        "private-markets": 1,
+        "inflation": 10,
+        "passive-investing": 5,
+        "budgeting-saving": 1,
+        "debt-payoff": 2,
+        "fire-movement": 21,
+        "retirement-planning": 2,
+        "real-estate-investing": 25,
+        "passive-income": 7,
+        "dividends-buybacks": 1,
+        "tax-planning": 13,
         "meta": 1
       },
       "entity_mention_density": {
         "real-estate": 4.8,
-        "inflation": 2.4,
-        "passive-investing": 2.4,
-        "fire-movement": 4.8,
-        "real-estate-investing": 2.4,
-        "meta": 2.4
+        "private-markets": 0.1,
+        "inflation": 0.8,
+        "passive-investing": 0.4,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.2,
+        "fire-movement": 1.7,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 2.0,
+        "passive-income": 0.6,
+        "dividends-buybacks": 0.1,
+        "tax-planning": 1.0,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "inflation": 1.0,
+        "passive-investing": 1.0,
+        "real-estate-investing": 1.0,
+        "passive-income": 1.0,
+        "tax-planning": 1.0,
+        "debt-payoff": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.973,
+        "fire-movement": -0.736,
+        "inflation": -1.0,
+        "passive-investing": -1.0,
+        "real-estate-investing": -0.868,
+        "passive-income": -1.0,
+        "debt-payoff": -1.0
+      },
+      "entity_stance": {
+        "real-estate": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Real Estate Investing, Financial Independence / FIRE, Tax Planning, Inflation. Mentions Meta. Tone leans bullish (+0.64).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-how-to-money-avoiding-the-middle-class-trap-w-scott-trench-1148-313d1e.md",
+    "transcript_word_count": 12199,
+    "transcript_language": "en"
   },
   {
     "guid": "9b1fdbee-96cd-468a-865c-6a953e07bbde",
