@@ -2718,35 +2718,65 @@
     "duration": "3070",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL6690514418.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "consumer-discretionary"
+      ],
       "themes": [
         "budgeting-saving",
+        "retirement-planning",
+        "rates-fed",
         "debt-payoff",
         "fire-movement",
-        "retirement-planning"
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "budgeting-saving": 1,
+        "healthcare": 1,
+        "consumer-discretionary": 1,
+        "rates-fed": 1,
+        "budgeting-saving": 7,
         "debt-payoff": 1,
         "fire-movement": 1,
-        "retirement-planning": 1
+        "retirement-planning": 5,
+        "dividends-buybacks": 1,
+        "amazon": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1,
-        "debt-payoff": 4.1,
-        "fire-movement": 4.1,
-        "retirement-planning": 4.1
+        "healthcare": 0.1,
+        "consumer-discretionary": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.7,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.5,
+        "dividends-buybacks": 0.1,
+        "amazon": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "budgeting-saving": -0.333,
+        "retirement-planning": -1.0,
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Consumer Discretionary, Budgeting & Saving, Retirement Planning, Interest Rates & Fed Policy, Debt Payoff. Mentions Amazon. Tone leans bullish (+0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-money-guy-show-the-truth-about-making-65-000-per-year-at-27-3a5bd5.md",
+    "transcript_word_count": 10515,
+    "transcript_language": "en"
   },
   {
     "guid": "561b3f67-9bad-46b4-bb17-618745da9860",
@@ -182560,33 +182590,124 @@
     "duration": "5336",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC6938114765.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "airlines-travel",
+        "technology",
+        "industrials"
+      ],
       "themes": [
+        "rates-fed",
+        "inflation",
         "housing",
-        "dividends-buybacks"
+        "recession",
+        "dividends-buybacks",
+        "dealmaking",
+        "geopolitics-tariffs",
+        "commodities",
+        "earnings",
+        "consumer-health",
+        "valuation",
+        "small-caps-value-growth"
       ],
       "stocks": [
-        "meta"
+        "berkshire",
+        "netflix",
+        "vanguard",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "meta",
+        "costco"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.091,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "housing": 2,
-        "dividends-buybacks": 1,
-        "meta": 1
+        "technology": 1,
+        "real-estate": 45,
+        "industrials": 1,
+        "airlines-travel": 2,
+        "inflation": 10,
+        "rates-fed": 15,
+        "recession": 4,
+        "geopolitics-tariffs": 1,
+        "housing": 9,
+        "commodities": 1,
+        "dealmaking": 2,
+        "earnings": 1,
+        "consumer-health": 1,
+        "dividends-buybacks": 4,
+        "valuation": 1,
+        "small-caps-value-growth": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "meta": 1,
+        "berkshire": 4,
+        "costco": 1,
+        "vanguard": 3,
+        "netflix": 4
       },
       "entity_mention_density": {
-        "housing": 5.2,
-        "dividends-buybacks": 2.6,
-        "meta": 2.6
+        "technology": 0.1,
+        "real-estate": 2.5,
+        "industrials": 0.1,
+        "airlines-travel": 0.1,
+        "inflation": 0.5,
+        "rates-fed": 0.8,
+        "recession": 0.2,
+        "geopolitics-tariffs": 0.1,
+        "housing": 0.5,
+        "commodities": 0.1,
+        "dealmaking": 0.1,
+        "earnings": 0.1,
+        "consumer-health": 0.1,
+        "dividends-buybacks": 0.2,
+        "valuation": 0.1,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.2,
+        "costco": 0.1,
+        "vanguard": 0.2,
+        "netflix": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 0.333,
+        "rates-fed": 0.0,
+        "recession": -1.0,
+        "small-caps-value-growth": 0.0,
+        "berkshire": -0.333
+      },
+      "entity_conviction": {
+        "real-estate": -0.792,
+        "technology": -1.0,
+        "dividends-buybacks": -1.0,
+        "housing": -0.412,
+        "rates-fed": -0.6,
+        "inflation": -1.0,
+        "valuation": -1.0,
+        "recession": -0.5,
+        "commodities": -1.0,
+        "consumer-health": 0.0,
+        "small-caps-value-growth": -1.0,
+        "vanguard": -1.0,
+        "netflix": -1.0,
+        "berkshire": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Airlines & Travel, Technology, Interest Rates & Fed Policy, Inflation, Housing Market, Recession Risk. Mentions Berkshire Hathaway, Netflix, Vanguard, Microsoft, Alphabet / Google. Tone reads roughly neutral (-0.09).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-31-the-intrinsic-value-podcast-tivp073-video-nvr-nvr-what-s-next-for-one-of-history-s-great-0f689e.md",
+    "transcript_word_count": 17889,
+    "transcript_language": "en"
   },
   {
     "guid": "85c39b48-5c29-11f1-8f37-6fe801274395",
@@ -187997,36 +188118,119 @@
       "sectors": [
         "semiconductors",
         "real-estate",
-        "autos-ev"
+        "ai-infrastructure",
+        "energy",
+        "consumer-discretionary",
+        "autos-ev",
+        "healthcare",
+        "private-markets"
       ],
       "themes": [
+        "inflation",
         "rates-fed",
-        "housing"
+        "housing",
+        "diversification",
+        "recession",
+        "japan",
+        "geopolitics-tariffs",
+        "labor-market",
+        "elections-politics",
+        "commodities",
+        "bond-market",
+        "consumer-health",
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "nvidia",
+        "walmart",
+        "micron",
+        "costco"
+      ],
+      "sentiment": -0.111,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "real-estate": 1,
-        "autos-ev": 1,
-        "rates-fed": 2,
-        "housing": 1
+        "semiconductors": 7,
+        "ai-infrastructure": 3,
+        "energy": 2,
+        "healthcare": 1,
+        "consumer-discretionary": 2,
+        "real-estate": 7,
+        "autos-ev": 2,
+        "private-markets": 1,
+        "inflation": 14,
+        "rates-fed": 10,
+        "recession": 2,
+        "japan": 1,
+        "geopolitics-tariffs": 1,
+        "labor-market": 1,
+        "housing": 6,
+        "elections-politics": 1,
+        "commodities": 1,
+        "bond-market": 1,
+        "consumer-health": 1,
+        "dividends-buybacks": 1,
+        "diversification": 3,
+        "nvidia": 3,
+        "micron": 1,
+        "costco": 1,
+        "walmart": 3
       },
       "entity_mention_density": {
-        "semiconductors": 2.3,
-        "real-estate": 2.3,
-        "autos-ev": 2.3,
-        "rates-fed": 4.6,
-        "housing": 2.3
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.4,
+        "energy": 0.3,
+        "healthcare": 0.1,
+        "consumer-discretionary": 0.3,
+        "real-estate": 0.9,
+        "autos-ev": 0.3,
+        "private-markets": 0.1,
+        "inflation": 1.8,
+        "rates-fed": 1.3,
+        "recession": 0.3,
+        "japan": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "labor-market": 0.1,
+        "housing": 0.8,
+        "elections-politics": 0.1,
+        "commodities": 0.1,
+        "bond-market": 0.1,
+        "consumer-health": 0.1,
+        "dividends-buybacks": 0.1,
+        "diversification": 0.4,
+        "nvidia": 0.4,
+        "micron": 0.1,
+        "costco": 0.1,
+        "walmart": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "housing": -1.0,
+        "japan": 1.0,
+        "diversification": -1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "healthcare": -1.0,
+        "rates-fed": -1.0,
+        "housing": -1.0,
+        "elections-politics": -1.0,
+        "inflation": -1.0,
+        "japan": 0.0,
+        "geopolitics-tariffs": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Real Estate, AI Infrastructure, Inflation, Interest Rates & Fed Policy, Housing Market, Diversification & Asset Allocation. Mentions Nvidia, Walmart, Micron, Costco. Tone reads roughly neutral (-0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-28-riskreversal-pod-peter-boockvar-gives-us-his-boock-report-on-the-markets-0683cd.md",
+    "transcript_word_count": 7298,
+    "transcript_language": "en"
   },
   {
     "guid": "5c7cfcd5-7600-4f26-bcf0-b457014d09c2",
@@ -202058,20 +202262,36 @@
     "duration": "544",
     "audio_url": "https://traffic.megaphone.fm/OLD6175681525.mp3?updated=1778525308",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance"
+      ],
       "themes": [],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "insurance": 1,
+        "amazon": 2
+      },
+      "entity_mention_density": {
+        "insurance": 0.6,
+        "amazon": 1.2
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance. Mentions Amazon. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-optimal-finance-daily-3566-part-2-the-price-of-inattention-by-michael-smith-with-f-b8ce1a.md",
+    "transcript_word_count": 1516,
+    "transcript_language": "en"
   },
   {
     "guid": "https://www.theretirementandirashow.com/?p=5315",
