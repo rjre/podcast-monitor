@@ -32181,56 +32181,98 @@
     "tags": {
       "sectors": [
         "airlines-travel",
+        "real-estate",
+        "technology",
+        "semiconductors",
         "energy",
-        "real-estate"
+        "ai-infrastructure"
       ],
       "themes": [
         "housing",
+        "bond-market",
         "commodities",
-        "bond-market"
+        "inflation",
+        "rates-fed",
+        "earnings"
       ],
       "stocks": [
+        "tesla",
         "alphabet",
-        "tesla"
+        "microsoft",
+        "nasdaq"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.625,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "real-estate": 1,
-        "airlines-travel": 2,
-        "housing": 1,
-        "commodities": 1,
-        "bond-market": 1,
-        "alphabet": 2,
-        "tesla": 2
+        "technology": 3,
+        "semiconductors": 3,
+        "ai-infrastructure": 2,
+        "energy": 3,
+        "real-estate": 4,
+        "airlines-travel": 5,
+        "inflation": 2,
+        "rates-fed": 1,
+        "housing": 7,
+        "commodities": 3,
+        "earnings": 1,
+        "bond-market": 6,
+        "microsoft": 1,
+        "alphabet": 12,
+        "tesla": 16,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "energy": 7.9,
-        "real-estate": 7.9,
-        "airlines-travel": 15.9,
-        "housing": 7.9,
-        "commodities": 7.9,
-        "bond-market": 7.9,
-        "alphabet": 15.9,
-        "tesla": 15.9
+        "technology": 1.4,
+        "semiconductors": 1.4,
+        "ai-infrastructure": 0.9,
+        "energy": 1.4,
+        "real-estate": 1.9,
+        "airlines-travel": 2.3,
+        "inflation": 0.9,
+        "rates-fed": 0.5,
+        "housing": 3.3,
+        "commodities": 1.4,
+        "earnings": 0.5,
+        "bond-market": 2.8,
+        "microsoft": 0.5,
+        "alphabet": 5.6,
+        "tesla": 7.5,
+        "nasdaq": 0.5
       },
       "entity_sentiment": {
         "airlines-travel": 1.0,
         "energy": 1.0,
         "real-estate": 1.0,
+        "semiconductors": 1.0,
+        "technology": -1.0,
         "housing": 1.0,
         "commodities": 1.0,
         "bond-market": 1.0,
         "alphabet": 1.0,
         "tesla": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "bond-market": 0.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "earnings": -1.0,
+        "alphabet": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Real Estate, Technology, Housing Market, Bond Market & Yields, Commodities, Inflation. Mentions Tesla, Alphabet / Google, Microsoft, Nasdaq. Tone leans bullish (+0.62).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-18-the-rundown-tesla-targets-cybercab-launch-in-august-google-buys-spirit-a-bb8de3.md",
+    "transcript_word_count": 2015,
+    "transcript_language": "en"
   },
   {
     "guid": "eaa8173f-1b7f-4308-9740-49adc9db4d2a",
@@ -37487,20 +37529,71 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/b751094f-6f40-46ed-b926-2a1e7a751de5/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=b751094f-6f40-46ed-b926-2a1e7a751de5&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "industrials",
+        "semiconductors",
+        "ai-infrastructure"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "regulation-antitrust",
+        "elections-politics",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "apple",
+        "tsmc",
+        "nvidia"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "semiconductors": 9,
+        "ai-infrastructure": 8,
+        "industrials": 13,
+        "geopolitics-tariffs": 3,
+        "elections-politics": 1,
+        "regulation-antitrust": 3,
+        "dividends-buybacks": 1,
+        "nvidia": 1,
+        "apple": 6,
+        "tsmc": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 1.3,
+        "ai-infrastructure": 1.1,
+        "industrials": 1.8,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.4,
+        "dividends-buybacks": 0.1,
+        "nvidia": 0.1,
+        "apple": 0.9,
+        "tsmc": 0.3
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "industrials": -1.0,
+        "semiconductors": 0.429,
+        "ai-infrastructure": 0.0,
+        "regulation-antitrust": -0.6,
+        "dividends-buybacks": -1.0,
+        "geopolitics-tariffs": -0.5,
+        "apple": -1.0,
+        "tsmc": -1.0,
+        "nvidia": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, AI Infrastructure, Geopolitics & Tariffs, Regulation & Antitrust, Elections & Politics, Dividends & Buybacks. Mentions Apple, TSMC, Nvidia. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-14-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-14-26-9b8920.md",
+    "transcript_word_count": 7015,
+    "transcript_language": "en"
   },
   {
     "guid": "2d7b952e-9830-11f1-9ef2-c3c020365371",
@@ -50717,38 +50810,110 @@
     "duration": "3970",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/d4e933d1-11ad-40cf-aad2-b4a20029e920/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "crypto",
+        "industrials"
+      ],
       "themes": [
+        "real-estate-investing",
         "passive-investing",
+        "hedge-funds",
+        "budgeting-saving",
+        "retirement-planning",
+        "inflation",
         "fire-movement",
-        "real-estate-investing"
+        "tax-planning"
       ],
       "stocks": [
-        "meta"
+        "fidelity",
+        "alphabet",
+        "costco",
+        "berkshire",
+        "vanguard",
+        "microsoft",
+        "amazon",
+        "meta",
+        "robinhood"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.261,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "passive-investing": 1,
-        "fire-movement": 1,
-        "real-estate-investing": 1,
-        "meta": 1
+        "real-estate": 3,
+        "industrials": 1,
+        "crypto": 3,
+        "inflation": 2,
+        "hedge-funds": 6,
+        "passive-investing": 7,
+        "budgeting-saving": 6,
+        "fire-movement": 2,
+        "retirement-planning": 6,
+        "real-estate-investing": 11,
+        "tax-planning": 1,
+        "microsoft": 1,
+        "alphabet": 4,
+        "amazon": 1,
+        "meta": 1,
+        "berkshire": 2,
+        "costco": 3,
+        "vanguard": 2,
+        "fidelity": 18,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "passive-investing": 2.0,
-        "fire-movement": 2.0,
-        "real-estate-investing": 2.0,
-        "meta": 2.0
+        "real-estate": 0.2,
+        "industrials": 0.1,
+        "crypto": 0.2,
+        "inflation": 0.1,
+        "hedge-funds": 0.4,
+        "passive-investing": 0.5,
+        "budgeting-saving": 0.4,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.4,
+        "real-estate-investing": 0.8,
+        "tax-planning": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "costco": 0.2,
+        "vanguard": 0.1,
+        "fidelity": 1.3,
+        "robinhood": 0.1
       },
       "entity_sentiment": {
-        "passive-investing": 1.0
+        "real-estate-investing": -1.0,
+        "passive-investing": 1.0,
+        "inflation": 1.0,
+        "budgeting-saving": 1.0,
+        "tax-planning": -1.0,
+        "berkshire": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "crypto": -1.0,
+        "real-estate-investing": -0.5,
+        "inflation": -1.0,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0,
+        "hedge-funds": -1.0,
+        "fidelity": -1.0,
+        "berkshire": -1.0,
+        "alphabet": -1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Industrials, Real Estate Investing, Passive Investing, Hedge Funds, Budgeting & Saving. Mentions Fidelity, Alphabet / Google, Costco, Berkshire Hathaway, Vanguard. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-10-how-to-money-ask-htm-investing-or-parking-cash-ignoring-family-money-advi-29e920.md",
+    "transcript_word_count": 13197,
+    "transcript_language": "en"
   },
   {
     "guid": "488cd581-14c6-4d62-b40e-b01d6570ac80",
