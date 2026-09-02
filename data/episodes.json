@@ -14735,20 +14735,140 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/44f593fb-c8d9-4e48-83e7-9d35f2b69afb/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=44f593fb-c8d9-4e48-83e7-9d35f2b69afb&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "real-estate",
+        "industrials",
+        "crypto",
+        "insurance"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "elections-politics",
+        "bond-market",
+        "dealmaking",
+        "housing",
+        "labor-market",
+        "fiscal-debt",
+        "regulation-antitrust",
+        "market-concentration"
+      ],
+      "stocks": [
+        "bitcoin",
+        "morgan-stanley",
+        "micron",
+        "microsoft",
+        "microstrategy",
+        "amazon",
+        "jpmorgan",
+        "nasdaq",
+        "charles-schwab",
+        "broadcom"
+      ],
+      "sentiment": -0.318,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 4,
+        "ai-infrastructure": 42,
+        "insurance": 1,
+        "real-estate": 2,
+        "industrials": 2,
+        "crypto": 2,
+        "inflation": 10,
+        "rates-fed": 20,
+        "labor-market": 1,
+        "housing": 3,
+        "fiscal-debt": 1,
+        "elections-politics": 6,
+        "dealmaking": 4,
+        "regulation-antitrust": 1,
+        "bond-market": 6,
+        "market-concentration": 1,
+        "microsoft": 2,
+        "amazon": 1,
+        "micron": 3,
+        "jpmorgan": 1,
+        "morgan-stanley": 4,
+        "microstrategy": 2,
+        "bitcoin": 5,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 5.0,
+        "insurance": 0.1,
+        "real-estate": 0.2,
+        "industrials": 0.2,
+        "crypto": 0.2,
+        "inflation": 1.2,
+        "rates-fed": 2.4,
+        "labor-market": 0.1,
+        "housing": 0.4,
+        "fiscal-debt": 0.1,
+        "elections-politics": 0.7,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 0.1,
+        "bond-market": 0.7,
+        "market-concentration": 0.1,
+        "microsoft": 0.2,
+        "amazon": 0.1,
+        "micron": 0.4,
+        "jpmorgan": 0.1,
+        "morgan-stanley": 0.5,
+        "microstrategy": 0.2,
+        "bitcoin": 0.6,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "broadcom": 0.1
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": -0.333,
+        "insurance": 1.0,
+        "technology": -1.0,
+        "crypto": -1.0,
+        "real-estate": 1.0,
+        "rates-fed": 0.0,
+        "housing": 1.0,
+        "inflation": -1.0,
+        "nasdaq": 1.0,
+        "microsoft": -1.0,
+        "amazon": -1.0,
+        "bitcoin": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.73,
+        "insurance": -1.0,
+        "crypto": -1.0,
+        "real-estate": -1.0,
+        "elections-politics": -1.0,
+        "bond-market": 1.0,
+        "rates-fed": 0.0,
+        "housing": -1.0,
+        "inflation": 1.0,
+        "jpmorgan": -1.0,
+        "microsoft": -1.0,
+        "amazon": -1.0,
+        "bitcoin": -1.0,
+        "micron": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Interest Rates & Fed Policy, Inflation, Elections & Politics, Bond Market & Yields. Mentions Bitcoin, Morgan Stanley, Micron, Microsoft, MicroStrategy / Strategy. Tone leans bearish (-0.32).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-24-26-12d2f4.md",
+    "transcript_word_count": 8387,
+    "transcript_language": "en"
   },
   {
     "guid": "15d4e0dc-4c8b-46ae-b382-1d74313131c8",
@@ -17537,33 +17657,117 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "autos-ev"
+        "autos-ev",
+        "industrials",
+        "utilities",
+        "technology",
+        "crypto",
+        "insurance"
       ],
-      "themes": [],
+      "themes": [
+        "dividends-buybacks",
+        "regulation-antitrust",
+        "budgeting-saving",
+        "inflation",
+        "rates-fed",
+        "recession",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "real-estate-investing",
+        "small-caps-value-growth"
+      ],
       "stocks": [
-        "meta"
+        "tesla",
+        "tsmc",
+        "amazon",
+        "bitcoin",
+        "nvidia",
+        "microsoft",
+        "meta",
+        "boeing"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.545,
+      "sentiment_hits": 22,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 2,
-        "autos-ev": 2,
-        "meta": 1
+        "technology": 4,
+        "ai-infrastructure": 31,
+        "insurance": 1,
+        "utilities": 5,
+        "industrials": 6,
+        "autos-ev": 12,
+        "crypto": 2,
+        "inflation": 1,
+        "rates-fed": 1,
+        "recession": 1,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 2,
+        "budgeting-saving": 2,
+        "real-estate-investing": 1,
+        "dividends-buybacks": 4,
+        "small-caps-value-growth": 1,
+        "nvidia": 1,
+        "microsoft": 1,
+        "amazon": 2,
+        "meta": 1,
+        "tesla": 9,
+        "tsmc": 3,
+        "boeing": 1,
+        "bitcoin": 2
       },
       "entity_mention_density": {
-        "ai-infrastructure": 4.9,
-        "autos-ev": 4.9,
-        "meta": 2.5
+        "technology": 0.3,
+        "ai-infrastructure": 2.3,
+        "insurance": 0.1,
+        "utilities": 0.4,
+        "industrials": 0.4,
+        "autos-ev": 0.9,
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "recession": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "budgeting-saving": 0.1,
+        "real-estate-investing": 0.1,
+        "dividends-buybacks": 0.3,
+        "small-caps-value-growth": 0.1,
+        "nvidia": 0.1,
+        "microsoft": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.7,
+        "tsmc": 0.2,
+        "boeing": 0.1,
+        "bitcoin": 0.1
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0
+        "ai-infrastructure": 1.0,
+        "industrials": 1.0,
+        "recession": -1.0,
+        "tesla": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "autos-ev": -1.0,
+        "ai-infrastructure": -0.818,
+        "industrials": -0.667,
+        "technology": 0.0,
+        "budgeting-saving": -1.0,
+        "tesla": 0.0,
+        "tsmc": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Autos & EVs, Industrials, Dividends & Buybacks, Regulation & Antitrust, Budgeting & Saving, Inflation. Mentions Tesla, TSMC, Amazon, Bitcoin, Nvidia. Tone leans bullish (+0.55).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-23-the-investor-s-podcast-we-study-billionaires-tip840-catl-powering-evs-power-grids-and-ai-w-stig-brodersen-057b15.md",
+    "transcript_word_count": 13305,
+    "transcript_language": "en"
   },
   {
     "guid": "998be3b6-08ee-4ceb-bab3-b4ab0069633e",
@@ -99082,28 +99286,72 @@
     "duration": "01:01:02",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/9a6806ae-b266-40c6-bfea-7bd92cee71b1.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "budgeting-saving"
+      "sectors": [
+        "real-estate",
+        "healthcare",
+        "airlines-travel"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "fire-movement",
+        "budgeting-saving",
+        "passive-investing",
+        "regulation-antitrust",
+        "career-income"
+      ],
+      "stocks": [
+        "amazon",
+        "meta",
+        "mastercard"
+      ],
+      "sentiment": 0.083,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "healthcare": 1,
+        "real-estate": 3,
+        "airlines-travel": 1,
+        "regulation-antitrust": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 7,
+        "fire-movement": 8,
+        "career-income": 1,
+        "amazon": 3,
+        "meta": 1,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.7
+        "healthcare": 0.1,
+        "real-estate": 0.2,
+        "airlines-travel": 0.1,
+        "regulation-antitrust": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.5,
+        "fire-movement": 0.6,
+        "career-income": 0.1,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "mastercard": 0.1
       },
       "entity_sentiment": {
         "budgeting-saving": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 0.429,
+        "budgeting-saving": 1.0,
+        "fire-movement": -0.697,
+        "passive-investing": -1.0,
+        "amazon": -0.429
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Airlines & Travel, Financial Independence / FIRE, Budgeting & Saving, Passive Investing, Regulation & Antitrust. Mentions Amazon, Meta, Mastercard. Tone reads roughly neutral (+0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-10-stacking-benjamins-can-you-save-too-much-finding-the-sweet-spot-between-fi-spen-1u9QTE.md",
+    "transcript_word_count": 12809,
+    "transcript_language": "en"
   },
   {
     "guid": "59c7d65a-dfbb-447c-8ed4-b482014569c9",
@@ -207234,20 +207482,43 @@
     "duration": "531",
     "audio_url": "https://traffic.megaphone.fm/OLD3349419702.mp3?updated=1777654785",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "telecoms"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "college-savings"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "telecoms": 1,
+        "budgeting-saving": 3,
+        "college-savings": 1,
+        "alphabet": 1
+      },
+      "entity_mention_density": {
+        "telecoms": 0.6,
+        "budgeting-saving": 1.8,
+        "college-savings": 0.6,
+        "alphabet": 0.6
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Telecoms, Budgeting & Saving, College Savings & Student Debt. Mentions Alphabet / Google. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-optimal-finance-daily-3558-break-the-paycheck-to-paycheck-cycle-and-start-saving-b-58faba.md",
+    "transcript_word_count": 1524,
+    "transcript_language": "en"
   },
   {
     "guid": "f16cc072-4e5f-11f1-92e9-cff2d4003d8a",
