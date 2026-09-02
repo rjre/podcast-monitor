@@ -25271,36 +25271,53 @@
         "real-estate"
       ],
       "themes": [
+        "rates-fed",
+        "dividends-buybacks",
+        "bond-market",
         "inflation",
-        "bond-market"
+        "housing"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 2,
-        "inflation": 1,
-        "bond-market": 1,
-        "nasdaq": 1
+        "real-estate": 6,
+        "inflation": 2,
+        "rates-fed": 6,
+        "housing": 1,
+        "bond-market": 3,
+        "dividends-buybacks": 5,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "real-estate": 10.8,
-        "inflation": 5.4,
-        "bond-market": 5.4,
-        "nasdaq": 5.4
+        "real-estate": 3.6,
+        "inflation": 1.2,
+        "rates-fed": 3.6,
+        "housing": 0.6,
+        "bond-market": 1.8,
+        "dividends-buybacks": 3.0,
+        "nasdaq": 1.2
       },
       "entity_sentiment": {
         "real-estate": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "rates-fed": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Interest Rates & Fed Policy, Dividends & Buybacks, Bond Market & Yields, Inflation. Mentions Nasdaq. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-18-the-dividend-cafe-tuesday-august-18-2026-4e4a19.md",
+    "transcript_word_count": 1502,
+    "transcript_language": "en"
   },
   {
     "guid": "28c042ea-8842-446a-9e0e-eb26a3295ed8",
@@ -92654,42 +92671,94 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML9410264118.mp3",
     "tags": {
       "sectors": [
+        "ai-infrastructure",
         "semiconductors",
-        "ai-infrastructure"
+        "technology",
+        "industrials"
       ],
       "themes": [
+        "college-savings",
+        "rates-fed",
         "debt-payoff",
-        "college-savings"
+        "tax-planning"
       ],
       "stocks": [
         "tsmc",
-        "meta"
+        "meta",
+        "nvidia",
+        "amd",
+        "microsoft",
+        "alphabet",
+        "broadcom"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.722,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 3,
-        "ai-infrastructure": 2,
+        "technology": 2,
+        "semiconductors": 15,
+        "ai-infrastructure": 18,
+        "industrials": 2,
+        "rates-fed": 1,
         "debt-payoff": 1,
-        "college-savings": 1,
-        "meta": 3,
-        "tsmc": 4
+        "tax-planning": 1,
+        "college-savings": 3,
+        "nvidia": 2,
+        "microsoft": 1,
+        "alphabet": 1,
+        "meta": 4,
+        "amd": 2,
+        "tsmc": 17,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "semiconductors": 9.1,
-        "ai-infrastructure": 6.1,
-        "debt-payoff": 3.0,
-        "college-savings": 3.0,
-        "meta": 9.1,
-        "tsmc": 12.2
+        "technology": 0.5,
+        "semiconductors": 3.4,
+        "ai-infrastructure": 4.1,
+        "industrials": 0.5,
+        "rates-fed": 0.2,
+        "debt-payoff": 0.2,
+        "tax-planning": 0.2,
+        "college-savings": 0.7,
+        "nvidia": 0.5,
+        "microsoft": 0.2,
+        "alphabet": 0.2,
+        "meta": 0.9,
+        "amd": 0.5,
+        "tsmc": 3.9,
+        "broadcom": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 0.0,
+        "industrials": 1.0,
+        "tax-planning": 1.0,
+        "tsmc": 1.0,
+        "nvidia": 1.0,
+        "amd": 1.0,
+        "microsoft": 1.0,
+        "alphabet": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -0.333,
+        "ai-infrastructure": -1.0,
+        "technology": -0.167,
+        "college-savings": 1.0,
+        "tax-planning": 1.0,
+        "rates-fed": 1.0,
+        "meta": -1.0,
+        "tsmc": -1.0,
+        "broadcom": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, College Savings & Student Debt, Interest Rates & Fed Policy, Debt Payoff, Tax Planning. Mentions TSMC, Meta, Nvidia, AMD, Microsoft. Tone leans bullish (+0.72).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-motley-fool-hidden-gems-2-hidden-businesses-to-watch-as-ai-keeps-heating-up-859aa7.md",
+    "transcript_word_count": 4021,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/keqyk1zL6HzyYri3e2wuXc7jJm7cMfEVRqy39epT6hw",
@@ -127833,75 +127902,149 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a3b563121f99d6c7060c741/media.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "technology",
+        "ai-infrastructure",
+        "materials-mining"
       ],
       "themes": [
+        "budgeting-saving",
+        "emerging-markets",
         "housing",
-        "crypto-regulation"
+        "elections-politics",
+        "diversification",
+        "dealmaking",
+        "crypto-regulation",
+        "dividends-buybacks",
+        "valuation",
+        "behavioral-finance",
+        "tax-planning"
       ],
       "stocks": [
+        "tesla",
         "nasdaq",
         "nvidia",
         "microsoft",
         "alphabet",
-        "amazon",
-        "tesla",
-        "jpmorgan",
-        "walmart",
-        "apple",
-        "meta",
         "berkshire",
+        "amazon",
+        "jpmorgan",
         "exxon",
+        "walmart",
+        "mastercard",
         "bitcoin",
-        "mastercard"
+        "apple",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.365,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 2,
-        "housing": 1,
+        "technology": 3,
+        "ai-infrastructure": 1,
+        "real-estate": 5,
+        "materials-mining": 1,
+        "housing": 2,
+        "elections-politics": 2,
+        "dealmaking": 1,
         "crypto-regulation": 1,
-        "nvidia": 2,
+        "emerging-markets": 3,
+        "budgeting-saving": 8,
+        "dividends-buybacks": 1,
+        "valuation": 1,
+        "behavioral-finance": 1,
+        "diversification": 2,
+        "tax-planning": 1,
+        "nvidia": 8,
         "apple": 1,
-        "microsoft": 2,
-        "alphabet": 2,
-        "amazon": 2,
+        "microsoft": 4,
+        "alphabet": 4,
+        "amazon": 3,
         "meta": 1,
-        "tesla": 2,
-        "jpmorgan": 2,
-        "berkshire": 1,
-        "exxon": 1,
-        "walmart": 2,
-        "bitcoin": 1,
-        "nasdaq": 6,
-        "mastercard": 1
+        "tesla": 14,
+        "jpmorgan": 3,
+        "berkshire": 4,
+        "exxon": 3,
+        "walmart": 3,
+        "bitcoin": 2,
+        "nasdaq": 9,
+        "mastercard": 3
       },
       "entity_mention_density": {
-        "real-estate": 4.1,
-        "housing": 2.1,
-        "crypto-regulation": 2.1,
-        "nvidia": 4.1,
-        "apple": 2.1,
-        "microsoft": 4.1,
-        "alphabet": 4.1,
-        "amazon": 4.1,
-        "meta": 2.1,
-        "tesla": 4.1,
-        "jpmorgan": 4.1,
-        "berkshire": 2.1,
-        "exxon": 2.1,
-        "walmart": 4.1,
-        "bitcoin": 2.1,
-        "nasdaq": 12.4,
-        "mastercard": 2.1
+        "technology": 0.4,
+        "ai-infrastructure": 0.1,
+        "real-estate": 0.7,
+        "materials-mining": 0.1,
+        "housing": 0.3,
+        "elections-politics": 0.3,
+        "dealmaking": 0.1,
+        "crypto-regulation": 0.1,
+        "emerging-markets": 0.4,
+        "budgeting-saving": 1.2,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "behavioral-finance": 0.1,
+        "diversification": 0.3,
+        "tax-planning": 0.1,
+        "nvidia": 1.2,
+        "apple": 0.1,
+        "microsoft": 0.6,
+        "alphabet": 0.6,
+        "amazon": 0.4,
+        "meta": 0.1,
+        "tesla": 2.1,
+        "jpmorgan": 0.4,
+        "berkshire": 0.6,
+        "exxon": 0.4,
+        "walmart": 0.4,
+        "bitcoin": 0.3,
+        "nasdaq": 1.3,
+        "mastercard": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "technology": 1.0,
+        "budgeting-saving": 1.0,
+        "tax-planning": 1.0,
+        "diversification": 1.0,
+        "emerging-markets": 1.0,
+        "dealmaking": -1.0,
+        "dividends-buybacks": 1.0,
+        "valuation": -1.0,
+        "nvidia": 0.167,
+        "microsoft": 1.0,
+        "alphabet": 1.0,
+        "amazon": -1.0,
+        "tesla": 1.0,
+        "jpmorgan": 1.0,
+        "berkshire": 1.0,
+        "walmart": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "technology": -0.333,
+        "ai-infrastructure": 1.0,
+        "housing": -1.0,
+        "budgeting-saving": 1.0,
+        "diversification": 1.0,
+        "emerging-markets": 1.0,
+        "dealmaking": -1.0,
+        "nvidia": 0.0,
+        "tesla": 1.0,
+        "nasdaq": 0.0,
+        "mastercard": 1.0
+      },
+      "entity_stance": {
+        "berkshire": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Technology, AI Infrastructure, Budgeting & Saving, Emerging Markets, Housing Market, Elections & Politics. Mentions Tesla, Nasdaq, Nvidia, Microsoft, Alphabet / Google. Tone leans bullish (+0.36).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-equity-mates-investing-podcast-more-bad-news-for-property-the-best-way-to-invest-pimp-my-po-60c741.md",
+    "transcript_word_count": 6331,
+    "transcript_language": "en"
   },
   {
     "guid": "a3502363-7ca0-4dbc-a8ea-de0fb034cec3",
@@ -164195,34 +164338,94 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM1051738949.mp3",
     "tags": {
       "sectors": [
-        "healthcare"
+        "healthcare",
+        "real-estate",
+        "consumer-staples",
+        "industrials",
+        "materials-mining"
       ],
       "themes": [
         "budgeting-saving",
-        "fire-movement"
+        "estate-planning",
+        "insurance-products",
+        "real-estate-investing",
+        "housing",
+        "elections-politics",
+        "debt-payoff",
+        "fire-movement",
+        "tax-planning",
+        "college-savings"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "tesla",
+        "citigroup",
+        "alphabet"
+      ],
+      "sentiment": 0.032,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
-        "budgeting-saving": 1,
-        "fire-movement": 1
+        "healthcare": 5,
+        "consumer-staples": 2,
+        "real-estate": 5,
+        "industrials": 1,
+        "materials-mining": 1,
+        "housing": 2,
+        "elections-politics": 1,
+        "budgeting-saving": 19,
+        "debt-payoff": 1,
+        "fire-movement": 1,
+        "real-estate-investing": 3,
+        "tax-planning": 1,
+        "estate-planning": 7,
+        "college-savings": 1,
+        "insurance-products": 6,
+        "alphabet": 2,
+        "tesla": 4,
+        "citigroup": 3
       },
       "entity_mention_density": {
-        "healthcare": 2.5,
-        "budgeting-saving": 2.5,
-        "fire-movement": 2.5
+        "healthcare": 0.2,
+        "consumer-staples": 0.1,
+        "real-estate": 0.2,
+        "industrials": 0.0,
+        "materials-mining": 0.0,
+        "housing": 0.1,
+        "elections-politics": 0.0,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.0,
+        "fire-movement": 0.0,
+        "real-estate-investing": 0.1,
+        "tax-planning": 0.0,
+        "estate-planning": 0.3,
+        "college-savings": 0.0,
+        "insurance-products": 0.3,
+        "alphabet": 0.1,
+        "tesla": 0.2,
+        "citigroup": 0.1
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": 1.0,
+        "tesla": -1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "budgeting-saving": -1.0,
+        "estate-planning": -1.0,
+        "tax-planning": -1.0
+      },
+      "entity_stance": {
+        "real-estate-investing": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Consumer Staples, Budgeting & Saving, Estate Planning, Insurance Products, Real Estate Investing. Mentions Tesla, Citigroup, Alphabet / Google. Tone reads roughly neutral (+0.03).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-05-the-ramsey-show-you-don-t-have-to-retire-broke-time-changes-everything-df3c9a.md",
+    "transcript_word_count": 20962,
+    "transcript_language": "en"
   },
   {
     "guid": "a6c1b3b9-06ef-4583-8e3b-c132e0cd1e63",
