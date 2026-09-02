@@ -83954,20 +83954,53 @@
     "duration": "551",
     "audio_url": "https://traffic.megaphone.fm/OLD6223260840.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "healthcare",
+        "insurance"
+      ],
+      "themes": [
+        "fire-movement",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "insurance": 2,
+        "healthcare": 3,
+        "fire-movement": 1,
+        "dividends-buybacks": 1,
+        "meta": 1
+      },
+      "entity_mention_density": {
+        "insurance": 1.2,
+        "healthcare": 1.8,
+        "fire-movement": 0.6,
+        "dividends-buybacks": 0.6,
+        "meta": 0.6
+      },
+      "entity_sentiment": {
+        "healthcare": -1.0,
+        "fire-movement": -1.0,
+        "meta": -1.0
+      },
+      "entity_conviction": {
+        "healthcare": 1.0,
+        "meta": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Financial Independence / FIRE, Dividends & Buybacks. Mentions Meta. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-optimal-finance-daily-3638-part-1-the-6-crucial-questions-to-answer-before-you-ret-553414.md",
+    "transcript_word_count": 1393,
+    "transcript_language": "en"
   },
   {
     "guid": "cccd8632-854d-11f1-aeb6-536a89f69e4b",
@@ -94263,20 +94296,71 @@
     "duration": "2267",
     "audio_url": "https://mcdn.podbean.com/mf/web/mfcu8cyu2wvuhdth/BestStocksNow-260716.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "insurance",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "dealmaking",
+        "earnings",
+        "bond-market"
+      ],
+      "stocks": [
+        "nasdaq",
+        "disney",
+        "tsmc",
+        "charles-schwab",
+        "microsoft"
+      ],
+      "sentiment": -0.542,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 4,
+        "insurance": 1,
+        "defense-aerospace": 1,
+        "dealmaking": 2,
+        "earnings": 1,
+        "bond-market": 1,
+        "microsoft": 1,
+        "tsmc": 2,
+        "nasdaq": 3,
+        "charles-schwab": 2,
+        "disney": 3
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.7,
+        "insurance": 0.2,
+        "defense-aerospace": 0.2,
+        "dealmaking": 0.3,
+        "earnings": 0.2,
+        "bond-market": 0.2,
+        "microsoft": 0.2,
+        "tsmc": 0.3,
+        "nasdaq": 0.5,
+        "charles-schwab": 0.3,
+        "disney": 0.5
+      },
+      "entity_sentiment": {
+        "semiconductors": -0.429,
+        "nasdaq": -1.0
+      },
+      "entity_conviction": {
+        "dealmaking": -1.0,
+        "earnings": -1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Insurance, Defense & Aerospace, IPOs & Dealmaking, Corporate Earnings, Bond Market & Yields. Mentions Nasdaq, Disney, TSMC, Charles Schwab, Microsoft. Tone leans bearish (-0.54).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-best-stocks-now-thursday-july-16-2026-596fd4.md",
+    "transcript_word_count": 5740,
+    "transcript_language": "en"
   },
   {
     "guid": "6cbe7a52-8120-11f1-88c0-37056d88a330",
@@ -164677,32 +164761,80 @@
     "duration": "01:04:05",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/ae7dded4-0830-402f-a928-91d54a7f680a.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks",
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving",
-        "behavioral-finance"
+        "behavioral-finance",
+        "debt-payoff",
+        "inflation",
+        "earnings",
+        "fire-movement",
+        "retirement-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "stocks": [
+        "bank-of-america",
+        "costco",
+        "netflix"
+      ],
+      "sentiment": 0.327,
+      "sentiment_hits": 22,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "behavioral-finance": 1
+        "banks": 1,
+        "real-estate": 1,
+        "inflation": 1,
+        "earnings": 1,
+        "budgeting-saving": 15,
+        "debt-payoff": 2,
+        "fire-movement": 1,
+        "retirement-planning": 1,
+        "behavioral-finance": 3,
+        "bank-of-america": 1,
+        "costco": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.8,
-        "behavioral-finance": 1.8
+        "banks": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.1,
+        "earnings": 0.1,
+        "budgeting-saving": 1.1,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "behavioral-finance": 0.2,
+        "bank-of-america": 0.1,
+        "costco": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "budgeting-saving": 0.333,
-        "behavioral-finance": 0.0
+        "budgeting-saving": 0.2,
+        "behavioral-finance": 0.333,
+        "debt-payoff": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "banks": 1.0,
+        "budgeting-saving": 1.0,
+        "behavioral-finance": -1.0,
+        "retirement-planning": -1.0,
+        "debt-payoff": -1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "budgeting-saving"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Real Estate, Budgeting & Saving, Behavioral Finance & Psychology, Debt Payoff, Inflation. Mentions Bank of America, Costco, Netflix. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-stacking-benjamins-8-signs-you-re-winning-with-money-sb1854-006LzY.md",
+    "transcript_word_count": 13163,
+    "transcript_language": "en"
   },
   {
     "guid": "e7dfdc08-5e89-11f1-93d9-974828c98153",
@@ -177947,30 +178079,55 @@
     "duration": "2094",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/07d5261f-ee98-4e17-a5ed-eec9dd826c89/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=07d5261f-ee98-4e17-a5ed-eec9dd826c89&feed=hvWWWzRv&t=podcast&e=nx-s1-5847893&p=510289&d=2094&size=33507457",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "healthcare",
+        "real-estate",
+        "industrials"
+      ],
       "themes": [
+        "elections-politics",
         "regulation-antitrust"
       ],
       "stocks": [
+        "amazon",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "regulation-antitrust": 1,
+        "semiconductors": 1,
+        "healthcare": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "elections-politics": 9,
+        "regulation-antitrust": 8,
+        "amazon": 2,
         "meta": 1
       },
       "entity_mention_density": {
-        "regulation-antitrust": 4.9,
-        "meta": 4.9
+        "semiconductors": 0.2,
+        "healthcare": 0.2,
+        "real-estate": 0.2,
+        "industrials": 0.2,
+        "elections-politics": 1.6,
+        "regulation-antitrust": 1.4,
+        "amazon": 0.3,
+        "meta": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Healthcare & Pharma, Real Estate, Elections & Politics, Regulation & Antitrust. Mentions Amazon, Meta. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-05-planet-money-why-is-there-a-supplement-craze-if-they-don-t-even-work-ec92a1.md",
+    "transcript_word_count": 5513,
+    "transcript_language": "en"
   },
   {
     "guid": "b9f815ec-05d5-11f1-92e5-9388608cee03",
