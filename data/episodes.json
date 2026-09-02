@@ -8375,40 +8375,63 @@
     "duration": "461",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/b9e02643-a9cb-42a4-8110-9f47bb9cbc9b.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors"
+      ],
       "themes": [
         "dividends-buybacks",
         "geopolitics-tariffs",
-        "small-caps-value-growth"
+        "rates-fed",
+        "small-caps-value-growth",
+        "inflation",
+        "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "geopolitics-tariffs": 2,
-        "dividends-buybacks": 5,
-        "small-caps-value-growth": 1,
-        "nasdaq": 1
+        "semiconductors": 1,
+        "inflation": 1,
+        "rates-fed": 2,
+        "geopolitics-tariffs": 7,
+        "bond-market": 1,
+        "dividends-buybacks": 23,
+        "small-caps-value-growth": 2,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "geopolitics-tariffs": 11.2,
-        "dividends-buybacks": 28.1,
-        "small-caps-value-growth": 5.6,
-        "nasdaq": 5.6
+        "semiconductors": 0.6,
+        "inflation": 0.6,
+        "rates-fed": 1.2,
+        "geopolitics-tariffs": 4.1,
+        "bond-market": 0.6,
+        "dividends-buybacks": 13.5,
+        "small-caps-value-growth": 1.2,
+        "nasdaq": 1.8
       },
       "entity_sentiment": {
         "geopolitics-tariffs": -1.0,
-        "dividends-buybacks": -1.0,
+        "dividends-buybacks": -0.333,
         "small-caps-value-growth": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "geopolitics-tariffs": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Dividends & Buybacks, Geopolitics & Tariffs, Interest Rates & Fed Policy, Small-Caps, Value & Growth. Mentions Nasdaq. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-the-dividend-cafe-thursday-august-27-2026-9eab0d.md",
+    "transcript_word_count": 1529,
+    "transcript_language": "en"
   },
   {
     "guid": "7756a06a-8cf2-11f1-be6e-235aa05a0629",
@@ -71608,30 +71631,62 @@
     "duration": "01:10:45",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.513_Michelle_Knudsen_-_AUDIO_V1.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "insurance",
+        "real-estate"
+      ],
       "themes": [
-        "hedge-funds"
+        "hedge-funds",
+        "diversification",
+        "dealmaking",
+        "inflation"
       ],
       "stocks": [
         "goldman-sachs"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "hedge-funds": 1,
-        "goldman-sachs": 1
+        "insurance": 6,
+        "real-estate": 1,
+        "private-markets": 12,
+        "inflation": 1,
+        "dealmaking": 3,
+        "hedge-funds": 11,
+        "diversification": 10,
+        "goldman-sachs": 3
       },
       "entity_mention_density": {
-        "hedge-funds": 5.1,
-        "goldman-sachs": 5.1
+        "insurance": 0.5,
+        "real-estate": 0.1,
+        "private-markets": 1.1,
+        "inflation": 0.1,
+        "dealmaking": 0.3,
+        "hedge-funds": 1.0,
+        "diversification": 0.9,
+        "goldman-sachs": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "private-markets": -1.0,
+        "hedge-funds": -1.0
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "hedge-funds": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Insurance, Real Estate, Hedge Funds, Diversification & Asset Allocation, IPOs & Dealmaking, Inflation. Mentions Goldman Sachs. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-27-capital-allocators-rebuilding-the-nyu-endowment-michelle-knudsen-ep-513-d66ceb.md",
+    "transcript_word_count": 10851,
+    "transcript_language": "en"
   },
   {
     "guid": "5dd83242-8339-11f1-bba3-cb704fa1a1a5",
@@ -100029,39 +100084,125 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC7890838555.mp3",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "energy",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "technology",
+        "real-estate",
+        "industrials",
+        "media-entertainment",
+        "private-markets"
       ],
       "themes": [
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "commodities",
+        "emerging-markets",
+        "geopolitics-tariffs",
+        "inflation",
+        "dealmaking",
+        "rates-fed",
+        "regulation-antitrust",
+        "currency-dollar",
+        "small-caps-value-growth",
+        "diversification"
       ],
       "stocks": [
         "amazon",
-        "meta",
-        "nasdaq"
+        "alphabet",
+        "nasdaq",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.026,
+      "sentiment_hits": 26,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 1,
+        "ai-infrastructure": 2,
+        "energy": 8,
         "consumer-discretionary": 2,
-        "dividends-buybacks": 1,
-        "amazon": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "private-markets": 1,
+        "inflation": 2,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 3,
+        "commodities": 5,
+        "dealmaking": 2,
+        "regulation-antitrust": 1,
+        "currency-dollar": 1,
+        "emerging-markets": 4,
+        "dividends-buybacks": 39,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "alphabet": 6,
+        "amazon": 15,
         "meta": 1,
-        "nasdaq": 1
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "consumer-discretionary": 4.6,
-        "dividends-buybacks": 2.3,
-        "amazon": 2.3,
-        "meta": 2.3,
-        "nasdaq": 2.3
+        "technology": 0.1,
+        "ai-infrastructure": 0.1,
+        "energy": 0.5,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "private-markets": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "geopolitics-tariffs": 0.2,
+        "commodities": 0.3,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "currency-dollar": 0.1,
+        "emerging-markets": 0.2,
+        "dividends-buybacks": 2.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "alphabet": 0.3,
+        "amazon": 0.9,
+        "meta": 0.1,
+        "nasdaq": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_sentiment": {
+        "energy": 1.0,
+        "dividends-buybacks": 0.412,
+        "commodities": 1.0,
+        "nasdaq": 1.0,
+        "amazon": 1.0
+      },
+      "entity_conviction": {
+        "private-markets": 1.0,
+        "ai-infrastructure": -1.0,
+        "real-estate": 1.0,
+        "media-entertainment": -1.0,
+        "energy": -0.333,
+        "dividends-buybacks": -0.821,
+        "emerging-markets": -1.0,
+        "regulation-antitrust": -1.0,
+        "commodities": -0.2,
+        "currency-dollar": -1.0,
+        "diversification": -1.0,
+        "nasdaq": -1.0,
+        "amazon": -0.676,
+        "alphabet": -1.0
+      },
+      "entity_stance": {
+        "dividends-buybacks": "buy",
+        "amazon": "buy"
+      },
+      "entity_contested": [
+        "dividends-buybacks"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Consumer Discretionary, Dividends & Buybacks, Commodities, Emerging Markets, Geopolitics & Tariffs. Mentions Amazon, Alphabet / Google, Nasdaq, Meta. Tone reads roughly neutral (+0.03).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-12-the-intrinsic-value-podcast-tivp082-video-kaspi-stock-kspi-beating-the-market-with-an-e-0dd86f.md",
+    "transcript_word_count": 17138,
+    "transcript_language": "en"
   },
   {
     "guid": "04a7dc8a-76ec-11f1-bc39-8bffaf833f53",
@@ -104716,41 +104857,95 @@
     "audio_url": "https://traffic.megaphone.fm/APO8198410951.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "semiconductors",
+        "ai-infrastructure",
+        "energy",
+        "technology",
+        "industrials"
       ],
       "themes": [
+        "rates-fed",
         "inflation",
-        "rates-fed"
+        "commodities",
+        "dealmaking",
+        "earnings",
+        "budgeting-saving"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "bank-of-america",
+        "alphabet",
+        "amazon",
+        "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.556,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "inflation": 1,
-        "rates-fed": 1,
-        "nvidia": 2
+        "technology": 1,
+        "semiconductors": 9,
+        "ai-infrastructure": 8,
+        "energy": 6,
+        "industrials": 1,
+        "inflation": 5,
+        "rates-fed": 7,
+        "commodities": 5,
+        "dealmaking": 3,
+        "earnings": 1,
+        "budgeting-saving": 1,
+        "nvidia": 23,
+        "alphabet": 1,
+        "amazon": 1,
+        "bank-of-america": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 9.3,
-        "inflation": 9.3,
-        "rates-fed": 9.3,
-        "nvidia": 18.7
+        "technology": 0.4,
+        "semiconductors": 3.9,
+        "ai-infrastructure": 3.4,
+        "energy": 2.6,
+        "industrials": 0.4,
+        "inflation": 2.1,
+        "rates-fed": 3.0,
+        "commodities": 2.1,
+        "dealmaking": 1.3,
+        "earnings": 0.4,
+        "budgeting-saving": 0.4,
+        "nvidia": 9.9,
+        "alphabet": 0.4,
+        "amazon": 0.4,
+        "bank-of-america": 0.9,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0,
+        "ai-infrastructure": 0.667,
+        "semiconductors": 0.481,
         "inflation": 1.0,
         "rates-fed": 1.0,
-        "nvidia": 1.0
+        "dealmaking": 1.0,
+        "nvidia": 0.481,
+        "nasdaq": 1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "bank-of-america": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "nvidia": 0.0
+      },
+      "entity_stance": {
+        "semiconductors": "buy",
+        "bank-of-america": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Energy & Oil, Interest Rates & Fed Policy, Inflation, Commodities, IPOs & Dealmaking. Mentions Nvidia, Bank of America, Alphabet / Google, Amazon, Nasdaq. Tone leans bullish (+0.56).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-the-rundown-nvidia-is-cheapest-it-s-been-since-2019-meta-tests-new-super-ec1617.md",
+    "transcript_word_count": 2226,
+    "transcript_language": "en"
   },
   {
     "guid": "pwstreet.podbean.com/2cfdff7a-1956-3a86-8c55-13436f784339",
