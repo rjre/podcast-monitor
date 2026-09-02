@@ -153391,20 +153391,89 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/87f78be6-d4fd-46d7-b6fd-72179327cf01/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=87f78be6-d4fd-46d7-b6fd-72179327cf01&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "sectors": [
+        "industrials",
+        "semiconductors",
+        "technology",
+        "ai-infrastructure",
+        "telecoms",
+        "energy"
+      ],
+      "themes": [
+        "ai-boom",
+        "regulation-antitrust",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "amazon",
+        "nvidia",
+        "alphabet",
+        "apple",
+        "tsmc",
+        "microsoft",
+        "disney"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 5,
+        "ai-infrastructure": 2,
+        "energy": 1,
+        "telecoms": 2,
+        "industrials": 10,
+        "ai-boom": 2,
+        "regulation-antitrust": 1,
+        "dividends-buybacks": 1,
+        "nvidia": 12,
+        "apple": 4,
+        "microsoft": 1,
+        "alphabet": 5,
+        "amazon": 13,
+        "tsmc": 2,
+        "disney": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.3,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 0.3,
+        "energy": 0.1,
+        "telecoms": 0.3,
+        "industrials": 1.3,
+        "ai-boom": 0.3,
+        "regulation-antitrust": 0.1,
+        "dividends-buybacks": 0.1,
+        "nvidia": 1.6,
+        "apple": 0.5,
+        "microsoft": 0.1,
+        "alphabet": 0.7,
+        "amazon": 1.7,
+        "tsmc": 0.3,
+        "disney": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "industrials": -1.0,
+        "ai-infrastructure": -1.0,
+        "telecoms": -1.0,
+        "semiconductors": -1.0,
+        "regulation-antitrust": -0.333,
+        "dividends-buybacks": -1.0,
+        "alphabet": 1.0,
+        "amazon": -0.286,
+        "tsmc": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, Technology, AI & Machine Learning, Regulation & Antitrust, Dividends & Buybacks. Mentions Amazon, Nvidia, Alphabet / Google, Apple, TSMC. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-mad-money-w-jim-cramer-mad-money-w-jim-cramer-6-26-26-327eb4.md",
+    "transcript_word_count": 7555,
+    "transcript_language": "en"
   },
   {
     "guid": "c3960e74-71aa-11f1-8960-471114ae031c",
@@ -180036,32 +180105,112 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML5660687975.mp3",
     "tags": {
       "sectors": [
-        "airlines-travel"
+        "media-entertainment",
+        "energy",
+        "airlines-travel",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "real-estate",
+        "semiconductors",
+        "insurance",
+        "industrials"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "rates-fed",
+        "housing",
+        "consumer-health",
+        "inflation",
+        "geopolitics-tariffs",
+        "commodities"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon",
+        "disney",
+        "alphabet",
+        "morgan-stanley",
+        "walmart",
+        "netflix"
+      ],
+      "sentiment": -0.277,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "airlines-travel": 1,
-        "dealmaking": 2
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "insurance": 1,
+        "energy": 3,
+        "consumer-discretionary": 2,
+        "real-estate": 2,
+        "industrials": 1,
+        "media-entertainment": 9,
+        "airlines-travel": 3,
+        "inflation": 1,
+        "rates-fed": 4,
+        "geopolitics-tariffs": 1,
+        "housing": 3,
+        "commodities": 1,
+        "dealmaking": 9,
+        "consumer-health": 3,
+        "alphabet": 1,
+        "amazon": 3,
+        "morgan-stanley": 1,
+        "walmart": 1,
+        "netflix": 1,
+        "disney": 3
       },
       "entity_mention_density": {
-        "airlines-travel": 3.1,
-        "dealmaking": 6.2
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.5,
+        "insurance": 0.2,
+        "energy": 0.7,
+        "consumer-discretionary": 0.5,
+        "real-estate": 0.5,
+        "industrials": 0.2,
+        "media-entertainment": 2.0,
+        "airlines-travel": 0.7,
+        "inflation": 0.2,
+        "rates-fed": 0.9,
+        "geopolitics-tariffs": 0.2,
+        "housing": 0.7,
+        "commodities": 0.2,
+        "dealmaking": 2.0,
+        "consumer-health": 0.7,
+        "alphabet": 0.2,
+        "amazon": 0.7,
+        "morgan-stanley": 0.2,
+        "walmart": 0.2,
+        "netflix": 0.2,
+        "disney": 0.7
       },
       "entity_sentiment": {
         "airlines-travel": -1.0,
-        "dealmaking": -1.0
+        "media-entertainment": -1.0,
+        "dealmaking": -0.333,
+        "geopolitics-tariffs": -1.0,
+        "rates-fed": 0.0,
+        "housing": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "media-entertainment": -0.333,
+        "dealmaking": -1.0,
+        "amazon": -1.0,
+        "netflix": -1.0,
+        "disney": -1.0,
+        "alphabet": -1.0,
+        "walmart": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, Energy & Oil, Airlines & Travel, IPOs & Dealmaking, Interest Rates & Fed Policy, Housing Market, Consumer Health. Mentions Amazon, Disney, Alphabet / Google, Morgan Stanley, Walmart. Tone leans bearish (-0.28).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-motley-fool-hidden-gems-the-ai-the-government-just-shut-down-20466c.md",
+    "transcript_word_count": 4074,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/uL0k4oSUgAQili536mA1Vw36-k2ibneZ92GAZLgclOo",
@@ -232624,39 +232773,74 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
+        "real-estate",
         "energy",
-        "real-estate"
+        "technology",
+        "industrials",
+        "consumer-discretionary",
+        "media-entertainment"
       ],
       "themes": [
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "elections-politics",
+        "consumer-health"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "costco"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "ai-infrastructure": 7,
-        "energy": 1,
-        "real-estate": 1,
-        "dividends-buybacks": 1
+        "technology": 3,
+        "ai-infrastructure": 55,
+        "energy": 4,
+        "consumer-discretionary": 1,
+        "real-estate": 5,
+        "industrials": 2,
+        "media-entertainment": 1,
+        "elections-politics": 1,
+        "consumer-health": 1,
+        "dividends-buybacks": 12,
+        "costco": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 35.7,
-        "energy": 5.1,
-        "real-estate": 5.1,
-        "dividends-buybacks": 5.1
+        "technology": 0.8,
+        "ai-infrastructure": 13.9,
+        "energy": 1.0,
+        "consumer-discretionary": 0.3,
+        "real-estate": 1.3,
+        "industrials": 0.5,
+        "media-entertainment": 0.3,
+        "elections-politics": 0.3,
+        "consumer-health": 0.3,
+        "dividends-buybacks": 3.0,
+        "costco": 0.3
       },
       "entity_sentiment": {
         "ai-infrastructure": 0.0,
         "energy": 0.0,
         "real-estate": 0.0,
-        "dividends-buybacks": 1.0
+        "dividends-buybacks": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.662,
+        "real-estate": -0.333,
+        "industrials": 0.0,
+        "technology": -1.0,
+        "dividends-buybacks": 1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Real Estate, Energy & Oil, Dividends & Buybacks, Elections & Politics, Consumer Health. Mentions Costco. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-the-dividend-cafe-data-center-drama-8a0e06.md",
+    "transcript_word_count": 3766,
+    "transcript_language": "en"
   },
   {
     "guid": "bcccf91b-604b-4fe7-9242-154d7b5e26a0",
@@ -280091,20 +280275,91 @@
     "duration": "1301",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/149cb11f-22df-4fc3-9259-b43b01044481/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy",
+        "real-estate",
+        "industrials",
+        "media-entertainment"
+      ],
+      "themes": [
+        "rates-fed",
+        "elections-politics",
+        "inflation",
+        "bond-market",
+        "budgeting-saving",
+        "geopolitics-tariffs",
+        "commodities",
+        "recession",
+        "market-structure",
+        "estate-planning"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": -0.098,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "energy": 3,
+        "real-estate": 2,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "inflation": 4,
+        "rates-fed": 12,
+        "recession": 1,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 10,
+        "commodities": 2,
+        "bond-market": 4,
+        "market-structure": 1,
+        "budgeting-saving": 3,
+        "estate-planning": 1
+      },
+      "entity_mention_density": {
+        "energy": 0.6,
+        "real-estate": 0.4,
+        "industrials": 0.2,
+        "media-entertainment": 0.2,
+        "inflation": 0.8,
+        "rates-fed": 2.4,
+        "recession": 0.2,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 2.0,
+        "commodities": 0.4,
+        "bond-market": 0.8,
+        "market-structure": 0.2,
+        "budgeting-saving": 0.6,
+        "estate-planning": 0.2
+      },
+      "entity_sentiment": {
+        "media-entertainment": 0.0,
+        "energy": -1.0,
+        "rates-fed": -1.0,
+        "commodities": -1.0,
+        "elections-politics": 0.0,
+        "bond-market": -0.6,
+        "recession": -0.333
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "rates-fed": -1.0,
+        "commodities": -1.0,
+        "market-structure": 0.0,
+        "elections-politics": -1.0,
+        "bond-market": -0.5,
+        "inflation": -1.0,
+        "budgeting-saving": -1.0,
+        "estate-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, Industrials, Interest Rates & Fed Policy, Elections & Politics, Inflation, Bond Market & Yields. Tone reads roughly neutral (-0.10).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-29-bloomberg-surveillance-bloomberg-surveillance-tv-april-29th-2026-044481.md",
+    "transcript_word_count": 5010,
+    "transcript_language": "en"
   },
   {
     "guid": "65866959-64e8-451d-9587-b43b00ee5ded",
