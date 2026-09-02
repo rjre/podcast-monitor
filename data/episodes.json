@@ -8712,20 +8712,84 @@
     "duration": "1224",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/019bd877-d1d6-4de5-ada3-b4b4010562ef/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "diversification",
+        "bond-market",
+        "dealmaking",
+        "esg-climate"
+      ],
+      "stocks": [
+        "nvidia",
+        "alphabet"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 5,
+        "inflation": 18,
+        "rates-fed": 14,
+        "geopolitics-tariffs": 9,
+        "dealmaking": 1,
+        "esg-climate": 1,
+        "bond-market": 2,
+        "diversification": 4,
+        "nvidia": 15,
+        "alphabet": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 1.1,
+        "inflation": 4.1,
+        "rates-fed": 3.2,
+        "geopolitics-tariffs": 2.1,
+        "dealmaking": 0.2,
+        "esg-climate": 0.2,
+        "bond-market": 0.5,
+        "diversification": 0.9,
+        "nvidia": 3.4,
+        "alphabet": 0.5
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "esg-climate": 1.0,
+        "diversification": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": 1.0,
+        "diversification": -1.0,
+        "nvidia": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Diversification & Asset Allocation. Mentions Nvidia, Alphabet / Google. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-28-bloomberg-surveillance-bloomberg-surveillance-tv-august-28th-2026-0562ef.md",
+    "transcript_word_count": 4345,
+    "transcript_language": "en"
   },
   {
     "guid": "e6966aae-a0c8-4811-8413-4c5afd801eab",
@@ -171327,39 +171391,76 @@
     "duration": "4038",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS1518563538.mp3?updated=1733520845",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "crypto"
+      ],
       "themes": [
         "budgeting-saving",
+        "debt-payoff",
+        "passive-investing",
+        "insurance-products",
         "ai-boom",
-        "debt-payoff"
+        "retirement-planning"
       ],
       "stocks": [
+        "amazon",
         "bitcoin",
-        "amazon"
+        "berkshire",
+        "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
+        "healthcare": 1,
+        "crypto": 1,
         "ai-boom": 1,
-        "budgeting-saving": 5,
-        "debt-payoff": 1,
-        "amazon": 1,
-        "bitcoin": 2
+        "passive-investing": 3,
+        "budgeting-saving": 31,
+        "debt-payoff": 4,
+        "retirement-planning": 1,
+        "insurance-products": 2,
+        "amazon": 3,
+        "berkshire": 1,
+        "bitcoin": 2,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "ai-boom": 1.6,
-        "budgeting-saving": 8.2,
-        "debt-payoff": 1.6,
-        "amazon": 1.6,
-        "bitcoin": 3.3
+        "healthcare": 0.1,
+        "crypto": 0.1,
+        "ai-boom": 0.1,
+        "passive-investing": 0.2,
+        "budgeting-saving": 2.5,
+        "debt-payoff": 0.3,
+        "retirement-planning": 0.1,
+        "insurance-products": 0.2,
+        "amazon": 0.2,
+        "berkshire": 0.1,
+        "bitcoin": 0.2,
+        "vanguard": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "crypto": -1.0,
+        "budgeting-saving": -0.667,
+        "debt-payoff": -1.0,
+        "insurance-products": -1.0,
+        "passive-investing": -1.0,
+        "vanguard": -1.0,
+        "berkshire": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Crypto & Digital Assets, Budgeting & Saving, Debt Payoff, Passive Investing, Insurance Products. Mentions Amazon, Bitcoin, Berkshire Hathaway, Vanguard. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-the-investing-for-beginners-podcast-personal-finance-first-the-step-by-step-plan-before-you-star-f249bb.md",
+    "transcript_word_count": 11564,
+    "transcript_language": "en"
   },
   {
     "guid": "dcc9b538-6ac7-11f1-8ee6-33aea1081996",
@@ -181057,37 +181158,147 @@
     "tags": {
       "sectors": [
         "consumer-discretionary",
-        "defense-aerospace"
+        "ai-infrastructure",
+        "defense-aerospace",
+        "insurance",
+        "energy",
+        "consumer-staples",
+        "industrials",
+        "materials-mining",
+        "airlines-travel"
       ],
       "themes": [
+        "tax-planning",
+        "inflation",
+        "dealmaking",
+        "consumer-health",
+        "dividends-buybacks",
+        "esg-climate",
+        "earnings",
+        "retirement-planning",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "volatility",
         "bond-market",
-        "consumer-health"
+        "budgeting-saving",
+        "debt-payoff",
+        "market-concentration",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "morgan-stanley",
+        "walmart",
+        "nasdaq",
+        "goldman-sachs",
+        "costco",
+        "charles-schwab"
+      ],
+      "sentiment": 0.234,
+      "sentiment_hits": 32,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "defense-aerospace": 1,
+        "ai-infrastructure": 4,
+        "insurance": 1,
+        "energy": 1,
+        "consumer-discretionary": 6,
+        "consumer-staples": 1,
+        "industrials": 1,
+        "materials-mining": 1,
+        "airlines-travel": 1,
+        "defense-aerospace": 4,
+        "inflation": 6,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 1,
+        "volatility": 1,
+        "dealmaking": 4,
+        "esg-climate": 2,
+        "earnings": 2,
         "bond-market": 1,
-        "consumer-health": 1
+        "consumer-health": 4,
+        "budgeting-saving": 1,
+        "debt-payoff": 1,
+        "retirement-planning": 2,
+        "dividends-buybacks": 3,
+        "market-concentration": 1,
+        "diversification": 1,
+        "tax-planning": 7,
+        "goldman-sachs": 1,
+        "morgan-stanley": 2,
+        "costco": 1,
+        "walmart": 2,
+        "nasdaq": 2,
+        "charles-schwab": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 5.5,
-        "defense-aerospace": 5.5,
-        "bond-market": 5.5,
-        "consumer-health": 5.5
+        "ai-infrastructure": 0.6,
+        "insurance": 0.1,
+        "energy": 0.1,
+        "consumer-discretionary": 0.8,
+        "consumer-staples": 0.1,
+        "industrials": 0.1,
+        "materials-mining": 0.1,
+        "airlines-travel": 0.1,
+        "defense-aerospace": 0.6,
+        "inflation": 0.8,
+        "rates-fed": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.6,
+        "esg-climate": 0.3,
+        "earnings": 0.3,
+        "bond-market": 0.1,
+        "consumer-health": 0.6,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.3,
+        "dividends-buybacks": 0.4,
+        "market-concentration": 0.1,
+        "diversification": 0.1,
+        "tax-planning": 1.0,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.3,
+        "costco": 0.1,
+        "walmart": 0.3,
+        "nasdaq": 0.3,
+        "charles-schwab": 0.1
       },
       "entity_sentiment": {
-        "consumer-discretionary": 1.0,
-        "consumer-health": 1.0
+        "consumer-discretionary": 0.25,
+        "defense-aerospace": 0.333,
+        "materials-mining": 1.0,
+        "energy": 1.0,
+        "ai-infrastructure": 0.667,
+        "insurance": -1.0,
+        "industrials": 1.0,
+        "consumer-health": 1.0,
+        "inflation": 0.818,
+        "elections-politics": 1.0,
+        "dealmaking": -0.412,
+        "market-concentration": -1.0,
+        "esg-climate": -1.0,
+        "budgeting-saving": 0.0,
+        "goldman-sachs": 1.0,
+        "morgan-stanley": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "goldman-sachs": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "consumer-discretionary"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, AI Infrastructure, Defense & Aerospace, Tax Planning, Inflation, IPOs & Dealmaking, Consumer Health. Mentions Morgan Stanley, Walmart, Nasdaq, Goldman Sachs, Costco. Tone leans bullish (+0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-13-investtalk-the-wealth-effect-paradox-why-rich-consumers-are-spending-bi-005a1b.md",
+    "transcript_word_count": 7047,
+    "transcript_language": "en"
   },
   {
     "guid": "8703eb0a-b758-48a3-86c9-b9467fcc6114",
@@ -224296,19 +224507,37 @@
     "audio_url": "https://traffic.megaphone.fm/OLD6502482657.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "passive-investing"
+      ],
+      "stocks": [
+        "amazon"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "passive-investing": 1,
+        "amazon": 2
+      },
+      "entity_mention_density": {
+        "passive-investing": 0.5,
+        "amazon": 1.0
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-investing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Passive Investing. Mentions Amazon. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-optimal-finance-daily-3573-part-1-how-the-game-of-life-teaches-personal-finance-by-5a2f3e.md",
+    "transcript_word_count": 1796,
+    "transcript_language": "en"
   },
   {
     "guid": "6a14cc2f8ff41815a82b5011",
