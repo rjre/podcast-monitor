@@ -31179,46 +31179,70 @@
     "duration": "2983",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS9669000404.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "defense-aerospace"
+      ],
       "themes": [
         "ai-boom"
       ],
       "stocks": [
         "microsoft",
-        "bitcoin",
-        "amazon",
+        "walmart",
         "costco",
-        "walmart"
+        "alphabet",
+        "bitcoin",
+        "amazon"
       ],
-      "sentiment": -0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": -0.423,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "ai-infrastructure": 3,
+        "consumer-discretionary": 1,
+        "defense-aerospace": 1,
         "ai-boom": 1,
-        "microsoft": 2,
+        "microsoft": 12,
+        "alphabet": 2,
         "amazon": 1,
-        "costco": 1,
-        "walmart": 1,
+        "costco": 3,
+        "walmart": 9,
         "bitcoin": 2
       },
       "entity_mention_density": {
-        "ai-boom": 1.7,
-        "microsoft": 3.4,
-        "amazon": 1.7,
-        "costco": 1.7,
-        "walmart": 1.7,
-        "bitcoin": 3.4
+        "ai-infrastructure": 0.4,
+        "consumer-discretionary": 0.1,
+        "defense-aerospace": 0.1,
+        "ai-boom": 0.1,
+        "microsoft": 1.6,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "costco": 0.4,
+        "walmart": 1.2,
+        "bitcoin": 0.3
       },
       "entity_sentiment": {
         "microsoft": -1.0,
         "costco": -1.0,
         "walmart": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.429,
+        "microsoft": -1.0,
+        "walmart": 0.0,
+        "alphabet": -0.412
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Consumer Discretionary, Defense & Aerospace, AI & Machine Learning. Mentions Microsoft, Walmart, Costco, Alphabet / Google, Bitcoin. Tone leans bearish (-0.42).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-the-investing-for-beginners-podcast-the-earnings-illusion-how-working-capital-exposes-cash-burni-e9e077.md",
+    "transcript_word_count": 6824,
+    "transcript_language": "en"
   },
   {
     "guid": "feb72771-b35d-432d-9cfc-e83e878a8cb9",
@@ -93541,37 +93565,67 @@
     "duration": "471",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/60dd9a77-d1c7-40db-b3c1-0fab9d0fc9e9.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "banks"
+      ],
       "themes": [
         "inflation",
-        "earnings"
+        "rates-fed",
+        "dividends-buybacks",
+        "earnings",
+        "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 3,
+        "technology": 1,
+        "semiconductors": 1,
+        "banks": 1,
+        "inflation": 10,
+        "rates-fed": 4,
         "earnings": 1,
-        "nasdaq": 1
+        "bond-market": 1,
+        "dividends-buybacks": 4,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "inflation": 15.3,
-        "earnings": 5.1,
-        "nasdaq": 5.1
+        "technology": 0.6,
+        "semiconductors": 0.6,
+        "banks": 0.6,
+        "inflation": 5.8,
+        "rates-fed": 2.3,
+        "earnings": 0.6,
+        "bond-market": 0.6,
+        "dividends-buybacks": 2.3,
+        "nasdaq": 1.2
       },
       "entity_sentiment": {
+        "semiconductors": 1.0,
+        "banks": 1.0,
         "inflation": 1.0,
         "earnings": 1.0,
+        "dividends-buybacks": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Banks & Financials, Inflation, Interest Rates & Fed Policy, Dividends & Buybacks, Corporate Earnings. Mentions Nasdaq. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-the-dividend-cafe-wednesday-july-15-2026-268d13.md",
+    "transcript_word_count": 1540,
+    "transcript_language": "en"
   },
   {
     "guid": "cdc9b71a-05d5-11f1-b323-efc17914878c",
@@ -198763,32 +198817,79 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC7476401806.mp3",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "insurance",
+        "consumer-discretionary",
+        "industrials",
+        "media-entertainment"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "emerging-markets",
+        "inflation",
+        "recession"
+      ],
       "stocks": [
+        "amazon",
+        "meta",
         "alphabet",
-        "meta"
+        "mastercard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.194,
+      "sentiment_hits": 18,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
+        "insurance": 3,
+        "consumer-discretionary": 3,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "inflation": 1,
+        "recession": 1,
+        "dealmaking": 5,
+        "emerging-markets": 4,
         "alphabet": 1,
-        "meta": 1
+        "amazon": 30,
+        "meta": 2,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 2.5,
-        "alphabet": 2.5,
-        "meta": 2.5
+        "insurance": 0.2,
+        "consumer-discretionary": 0.2,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "inflation": 0.1,
+        "recession": 0.1,
+        "dealmaking": 0.3,
+        "emerging-markets": 0.2,
+        "alphabet": 0.1,
+        "amazon": 1.6,
+        "meta": 0.1,
+        "mastercard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "insurance": -1.0,
+        "recession": -0.333,
+        "amazon": 1.0
+      },
+      "entity_conviction": {
+        "insurance": -0.333,
+        "industrials": -1.0,
+        "dealmaking": -1.0,
+        "emerging-markets": 1.0,
+        "amazon": -0.611,
+        "mastercard": -1.0
+      },
+      "entity_stance": {
+        "amazon": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Consumer Discretionary, Industrials, IPOs & Dealmaking, Emerging Markets, Inflation, Recession Risk. Mentions Amazon, Meta, Alphabet / Google, Mastercard. Tone leans bullish (+0.19).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-24-the-intrinsic-value-podcast-tivp072-video-sea-limited-se-can-sea-limited-10x-again-w-dan-0262c5.md",
+    "transcript_word_count": 18526,
+    "transcript_language": "en"
   },
   {
     "guid": "67940106-55dc-11f1-b628-db0775029160",
@@ -240633,36 +240734,132 @@
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/71520bca-0511-4faf-86c0-69244247b637/stream.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "ai-infrastructure",
+        "energy",
+        "industrials",
+        "media-entertainment"
       ],
       "themes": [
+        "inflation",
+        "rates-fed",
         "real-estate-investing",
-        "inflation"
+        "retirement-planning",
+        "commodities",
+        "dealmaking",
+        "esg-climate",
+        "passive-investing"
       ],
       "stocks": [
-        "uber"
+        "alphabet",
+        "vanguard",
+        "microsoft",
+        "amazon",
+        "nvidia",
+        "tesla",
+        "cisco",
+        "amd",
+        "bitcoin",
+        "nasdaq",
+        "fidelity",
+        "charles-schwab",
+        "uber",
+        "qualcomm"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.42,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 3,
-        "inflation": 1,
-        "real-estate-investing": 3,
-        "uber": 1
+        "ai-infrastructure": 3,
+        "energy": 1,
+        "real-estate": 15,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "inflation": 10,
+        "rates-fed": 8,
+        "commodities": 1,
+        "dealmaking": 1,
+        "esg-climate": 1,
+        "passive-investing": 1,
+        "retirement-planning": 2,
+        "real-estate-investing": 5,
+        "nvidia": 1,
+        "microsoft": 4,
+        "alphabet": 7,
+        "amazon": 4,
+        "tesla": 1,
+        "cisco": 1,
+        "amd": 1,
+        "bitcoin": 1,
+        "nasdaq": 1,
+        "vanguard": 7,
+        "fidelity": 1,
+        "charles-schwab": 1,
+        "uber": 1,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "real-estate": 16.1,
-        "inflation": 5.4,
-        "real-estate-investing": 16.1,
-        "uber": 5.4
+        "ai-infrastructure": 0.4,
+        "energy": 0.1,
+        "real-estate": 2.1,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "inflation": 1.4,
+        "rates-fed": 1.1,
+        "commodities": 0.1,
+        "dealmaking": 0.1,
+        "esg-climate": 0.1,
+        "passive-investing": 0.1,
+        "retirement-planning": 0.3,
+        "real-estate-investing": 0.7,
+        "nvidia": 0.1,
+        "microsoft": 0.6,
+        "alphabet": 1.0,
+        "amazon": 0.6,
+        "tesla": 0.1,
+        "cisco": 0.1,
+        "amd": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 0.1,
+        "vanguard": 1.0,
+        "fidelity": 0.1,
+        "charles-schwab": 0.1,
+        "uber": 0.1,
+        "qualcomm": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 0.0,
+        "commodities": 1.0,
+        "rates-fed": 1.0,
+        "esg-climate": 1.0,
+        "microsoft": 0.0,
+        "nvidia": 0.0,
+        "tesla": 0.0,
+        "cisco": 0.0,
+        "amd": 0.0
+      },
+      "entity_conviction": {
+        "rates-fed": 0.765,
+        "retirement-planning": -1.0,
+        "passive-investing": 1.0,
+        "microsoft": 0.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "nasdaq": 1.0,
+        "nvidia": 1.0,
+        "tesla": 1.0,
+        "vanguard": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, Energy & Oil, Inflation, Interest Rates & Fed Policy, Real Estate Investing, Retirement Planning. Mentions Alphabet / Google, Vanguard, Microsoft, Amazon, Nvidia. Tone leans bullish (+0.42).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-30-investtalk-the-apartment-concession-wave-what-record-landlord-giveaways-1bbbf3.md",
+    "transcript_word_count": 6930,
+    "transcript_language": "en"
   },
   {
     "guid": "e92a4d58-4306-11f1-bd98-6b61de7825ea",
