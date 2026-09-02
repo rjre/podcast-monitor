@@ -97501,24 +97501,39 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "tax-planning",
         "budgeting-saving"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "morgan-stanley"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 1,
+        "tax-planning": 2,
+        "morgan-stanley": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.7
+        "budgeting-saving": 0.5,
+        "tax-planning": 1.1,
+        "morgan-stanley": 1.1
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "tax-planning": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Tax Planning, Budgeting & Saving. Mentions Morgan Stanley. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-ramsey-everyday-millionaires-is-20-of-your-net-worth-in-one-stock-too-much-ed51ff.md",
+    "transcript_word_count": 1707,
+    "transcript_language": "en"
   },
   {
     "guid": "a54450fa-a84e-11f0-bc9e-1715e56c3e74",
@@ -149396,21 +149411,36 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/bdc11554-6a8f-42b7-8161-b0521ac75725.mp3?source=feed",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "crypto",
+        "ai-infrastructure"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 5,
-      "sentiment_confidence": 0.833,
+      "themes": [
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "bitcoin"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 3
+        "semiconductors": 7,
+        "ai-infrastructure": 1,
+        "crypto": 2,
+        "dividends-buybacks": 4,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "semiconductors": 15.9
+        "semiconductors": 3.7,
+        "ai-infrastructure": 0.5,
+        "crypto": 1.1,
+        "dividends-buybacks": 2.1,
+        "bitcoin": 0.5
       },
       "entity_sentiment": {
-        "semiconductors": 0.0
+        "semiconductors": -0.333,
+        "dividends-buybacks": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -149418,7 +149448,13 @@
         "semiconductors"
       ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Crypto & Digital Assets, AI Infrastructure, Dividends & Buybacks. Mentions Bitcoin. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-23-the-dividend-cafe-tuesday-june-23-2026-38ab76.md",
+    "transcript_word_count": 1709,
+    "transcript_language": "en"
   },
   {
     "guid": "8f62f27e-6f30-11f1-8a92-fbcae9c72ba7",
@@ -193820,23 +193856,29 @@
         "debt-payoff"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.275,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "debt-payoff": 2
+        "budgeting-saving": 9,
+        "debt-payoff": 3
       },
       "entity_mention_density": {
-        "budgeting-saving": 13.2,
-        "debt-payoff": 13.2
+        "budgeting-saving": 5.0,
+        "debt-payoff": 1.7
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Debt Payoff. Tone leans bearish (-0.28).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-optimal-finance-daily-3582-good-financial-habits-you-learn-from-being-in-debt-by-g-87d200.md",
+    "transcript_word_count": 1641,
+    "transcript_language": "en"
   },
   {
     "guid": "56d3bb9e-5ec5-11f1-ae10-ff01489c0bc9",
@@ -244780,26 +244822,74 @@
     "duration": "1345",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML5830106500.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "consumer-discretionary",
+        "media-entertainment",
+        "airlines-travel"
+      ],
+      "themes": [
+        "labor-market",
+        "consumer-health"
+      ],
       "stocks": [
-        "disney"
+        "disney",
+        "amazon",
+        "costco",
+        "paypal",
+        "tesla",
+        "netflix"
       ],
       "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "disney": 3
+        "consumer-discretionary": 3,
+        "media-entertainment": 2,
+        "airlines-travel": 1,
+        "labor-market": 1,
+        "consumer-health": 1,
+        "amazon": 7,
+        "tesla": 1,
+        "costco": 4,
+        "netflix": 1,
+        "disney": 17,
+        "paypal": 2
       },
       "entity_mention_density": {
-        "disney": 10.8
+        "consumer-discretionary": 0.7,
+        "media-entertainment": 0.5,
+        "airlines-travel": 0.2,
+        "labor-market": 0.2,
+        "consumer-health": 0.2,
+        "amazon": 1.6,
+        "tesla": 0.2,
+        "costco": 0.9,
+        "netflix": 0.2,
+        "disney": 3.9,
+        "paypal": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "media-entertainment": -1.0,
+        "labor-market": -1.0,
+        "disney": 1.0
+      },
+      "entity_conviction": {
+        "media-entertainment": -1.0,
+        "disney": -1.0,
+        "amazon": -1.0,
+        "costco": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Media & Entertainment, Airlines & Travel, Labor Market, Consumer Health. Mentions Disney, Amazon, Costco, PayPal, Tesla. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-motley-fool-hidden-gems-can-uber-make-an-everything-app-2c39e6.md",
+    "transcript_word_count": 4075,
+    "transcript_language": "en"
   },
   {
     "guid": "05f51fbd-f35d-46f8-a25e-2f8495962cee",
