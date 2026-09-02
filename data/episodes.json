@@ -57557,26 +57557,106 @@
     "duration": "1140",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/26b1af4b-d1cd-4a07-a174-b49c00e5e7b0/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "jpmorgan"
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "energy",
+        "private-markets"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "commodities",
+        "earnings",
+        "credit-markets",
+        "bond-market"
+      ],
+      "stocks": [
+        "amd",
+        "nvidia",
+        "exxon",
+        "jpmorgan",
+        "microsoft",
+        "chevron",
+        "salesforce"
+      ],
+      "sentiment": 0.231,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "jpmorgan": 1
+        "semiconductors": 5,
+        "ai-infrastructure": 5,
+        "energy": 4,
+        "private-markets": 3,
+        "inflation": 2,
+        "rates-fed": 2,
+        "credit-markets": 1,
+        "geopolitics-tariffs": 2,
+        "commodities": 2,
+        "earnings": 2,
+        "bond-market": 1,
+        "nvidia": 5,
+        "microsoft": 1,
+        "amd": 6,
+        "jpmorgan": 2,
+        "exxon": 3,
+        "chevron": 1,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "jpmorgan": 25.6
+        "semiconductors": 1.2,
+        "ai-infrastructure": 1.2,
+        "energy": 0.9,
+        "private-markets": 0.7,
+        "inflation": 0.5,
+        "rates-fed": 0.5,
+        "credit-markets": 0.2,
+        "geopolitics-tariffs": 0.5,
+        "commodities": 0.5,
+        "earnings": 0.5,
+        "bond-market": 0.2,
+        "nvidia": 1.2,
+        "microsoft": 0.2,
+        "amd": 1.4,
+        "jpmorgan": 0.5,
+        "exxon": 0.7,
+        "chevron": 0.2,
+        "salesforce": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "earnings": 1.0,
+        "inflation": 1.0,
+        "jpmorgan": -1.0,
+        "nvidia": 1.0,
+        "amd": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.73,
+        "semiconductors": -1.0,
+        "private-markets": -1.0,
+        "energy": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "earnings": -1.0,
+        "rates-fed": -0.765,
+        "credit-markets": -1.0,
+        "amd": -1.0
+      },
+      "entity_stance": {
+        "semiconductors": "buy",
+        "nvidia": "buy",
+        "amd": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Energy & Oil, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Commodities. Mentions AMD, Nvidia, ExxonMobil, JPMorgan, Microsoft. Tone leans bullish (+0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-04-bloomberg-surveillance-bloomberg-surveillance-tv-august-4th-2026-e5e7b0.md",
+    "transcript_word_count": 4243,
+    "transcript_language": "en"
   },
   {
     "guid": "9556633b-0ebf-40ae-a870-21f18e6eb7fc",
@@ -185384,29 +185464,46 @@
     "tags": {
       "sectors": [
         "ai-infrastructure",
-        "semiconductors"
+        "semiconductors",
+        "utilities",
+        "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "dividends-buybacks",
+        "budgeting-saving",
+        "diversification"
+      ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 6,
+      "sentiment": -0.048,
+      "sentiment_hits": 9,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 3,
-        "ai-infrastructure": 4,
-        "nasdaq": 1
+        "semiconductors": 5,
+        "ai-infrastructure": 7,
+        "utilities": 1,
+        "real-estate": 1,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 3,
+        "diversification": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "semiconductors": 16.0,
-        "ai-infrastructure": 21.3,
-        "nasdaq": 5.3
+        "semiconductors": 2.7,
+        "ai-infrastructure": 3.8,
+        "utilities": 0.5,
+        "real-estate": 0.5,
+        "budgeting-saving": 0.5,
+        "dividends-buybacks": 1.6,
+        "diversification": 0.5,
+        "nasdaq": 1.1
       },
       "entity_sentiment": {
-        "semiconductors": 0.2,
+        "semiconductors": 0.111,
         "ai-infrastructure": 0.2,
-        "nasdaq": 0.333
+        "dividends-buybacks": 0.0,
+        "nasdaq": 0.176
       },
       "entity_conviction": {},
       "entity_stance": {},
@@ -185415,7 +185512,13 @@
         "ai-infrastructure"
       ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Utilities & Power, Dividends & Buybacks, Budgeting & Saving, Diversification & Asset Allocation. Mentions Nasdaq. Tone reads roughly neutral (-0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-the-dividend-cafe-thursday-june-4-2026-37ebd5.md",
+    "transcript_word_count": 1671,
+    "transcript_language": "en"
   },
   {
     "guid": "6a21ccf214e465e5ce7218c3",
@@ -194867,28 +194970,48 @@
     "audio_url": "https://traffic.megaphone.fm/OLD9707690205.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "budgeting-saving",
+        "college-savings"
+      ],
       "stocks": [
         "vanguard",
         "fidelity"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "vanguard": 2,
-        "fidelity": 2
+        "budgeting-saving": 1,
+        "college-savings": 1,
+        "vanguard": 3,
+        "fidelity": 3
       },
       "entity_mention_density": {
-        "vanguard": 11.4,
-        "fidelity": 11.4
+        "budgeting-saving": 0.6,
+        "college-savings": 0.6,
+        "vanguard": 1.8,
+        "fidelity": 1.8
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": -1.0
+      },
+      "entity_conviction": {
+        "college-savings": -1.0,
+        "budgeting-saving": -1.0,
+        "vanguard": -1.0,
+        "fidelity": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, College Savings & Student Debt. Mentions Vanguard, Fidelity. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-01-optimal-finance-daily-3580-part-2-7-personal-finance-lessons-i-wish-everyone-learn-650703.md",
+    "transcript_word_count": 1474,
+    "transcript_language": "en"
   },
   {
     "guid": "63cd32a2-40e8-49d4-b6eb-cee4673dba49",
