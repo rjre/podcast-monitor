@@ -115209,27 +115209,38 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "budgeting-saving",
         "debt-payoff",
-        "budgeting-saving"
+        "college-savings"
       ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "debt-payoff": 2
+        "budgeting-saving": 9,
+        "debt-payoff": 7,
+        "college-savings": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.3,
-        "debt-payoff": 8.6
+        "budgeting-saving": 4.9,
+        "debt-payoff": 3.8,
+        "college-savings": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Debt Payoff, College Savings & Student Debt. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-07-optimal-finance-daily-3621-how-do-you-take-a-vacation-while-paying-off-debt-by-lau-d62a98.md",
+    "transcript_word_count": 1602,
+    "transcript_language": "en"
   },
   {
     "guid": "5cf2aaee-3849-4389-be07-72e76e06c930",
@@ -133526,20 +133537,74 @@
     "duration": "4829",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/55b18e62-14f1-425f-8acf-b4750125684b/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "real-estate",
+        "media-entertainment",
+        "autos-ev"
+      ],
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "credit-markets",
+        "geopolitics-tariffs",
+        "behavioral-finance"
+      ],
+      "stocks": [
+        "fidelity",
+        "nasdaq",
+        "amazon",
+        "vanguard",
+        "netflix"
+      ],
+      "sentiment": 0.27,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 1,
+        "media-entertainment": 1,
+        "autos-ev": 1,
+        "rates-fed": 1,
+        "credit-markets": 1,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 3,
+        "behavioral-finance": 1,
+        "amazon": 1,
+        "nasdaq": 2,
+        "vanguard": 1,
+        "fidelity": 5,
+        "netflix": 1
+      },
+      "entity_mention_density": {
+        "real-estate": 0.1,
+        "media-entertainment": 0.1,
+        "autos-ev": 0.1,
+        "rates-fed": 0.1,
+        "credit-markets": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "dealmaking": 0.2,
+        "behavioral-finance": 0.1,
+        "amazon": 0.1,
+        "nasdaq": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 0.3,
+        "netflix": 0.1
+      },
+      "entity_sentiment": {
+        "nasdaq": -0.333
+      },
+      "entity_conviction": {
+        "nasdaq": -0.167
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Media & Entertainment, Autos & EVs, IPOs & Dealmaking, Interest Rates & Fed Policy, Credit Markets, Geopolitics & Tariffs. Mentions Fidelity, Nasdaq, Amazon, Vanguard, Netflix. Tone leans bullish (+0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-masters-in-business-sketching-wealth-strategy-masters-in-business-with-carl-rich-25684b.md",
+    "transcript_word_count": 15057,
+    "transcript_language": "en"
   },
   {
     "guid": "1f622574-eb22-46b6-98ca-ad42db942dab",
@@ -154079,36 +154144,116 @@
     "audio_url": "https://traffic.megaphone.fm/RRM1960894452.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "semiconductors",
+        "private-markets",
+        "crypto",
+        "banks"
       ],
       "themes": [
         "dealmaking",
-        "bank-stress"
+        "inflation",
+        "geopolitics-tariffs",
+        "bank-stress",
+        "budgeting-saving",
+        "rates-fed",
+        "elections-politics",
+        "real-estate-investing",
+        "market-concentration"
       ],
       "stocks": [
-        "alphabet"
+        "alphabet",
+        "microsoft",
+        "amazon",
+        "nvidia",
+        "tesla",
+        "meta",
+        "bitcoin"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.25,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "dealmaking": 1,
-        "bank-stress": 1,
-        "alphabet": 1
+        "semiconductors": 5,
+        "ai-infrastructure": 8,
+        "banks": 1,
+        "crypto": 3,
+        "private-markets": 5,
+        "inflation": 3,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 3,
+        "elections-politics": 1,
+        "dealmaking": 6,
+        "bank-stress": 2,
+        "budgeting-saving": 2,
+        "real-estate-investing": 1,
+        "market-concentration": 1,
+        "nvidia": 3,
+        "microsoft": 8,
+        "alphabet": 14,
+        "amazon": 4,
+        "meta": 1,
+        "tesla": 2,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 3.1,
-        "dealmaking": 3.1,
-        "bank-stress": 3.1,
-        "alphabet": 3.1
+        "semiconductors": 0.6,
+        "ai-infrastructure": 0.9,
+        "banks": 0.1,
+        "crypto": 0.4,
+        "private-markets": 0.6,
+        "inflation": 0.4,
+        "rates-fed": 0.1,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 0.1,
+        "dealmaking": 0.7,
+        "bank-stress": 0.2,
+        "budgeting-saving": 0.2,
+        "real-estate-investing": 0.1,
+        "market-concentration": 0.1,
+        "nvidia": 0.4,
+        "microsoft": 0.9,
+        "alphabet": 1.7,
+        "amazon": 0.5,
+        "meta": 0.1,
+        "tesla": 0.2,
+        "bitcoin": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "private-markets": -0.333,
+        "dealmaking": -1.0,
+        "inflation": 1.0,
+        "geopolitics-tariffs": 0.0,
+        "alphabet": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.333,
+        "semiconductors": -1.0,
+        "private-markets": -1.0,
+        "crypto": -1.0,
+        "bank-stress": -1.0,
+        "dealmaking": -0.512,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "elections-politics": -1.0,
+        "alphabet": -0.286,
+        "bitcoin": -1.0,
+        "nvidia": -0.375,
+        "amazon": -1.0,
+        "microsoft": -1.0,
+        "tesla": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Private Equity & Credit, IPOs & Dealmaking, Inflation, Geopolitics & Tariffs, Bank Stress. Mentions Alphabet / Google, Microsoft, Amazon, Nvidia, Tesla. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-riskreversal-pod-the-saaspocalypse-is-looking-like-a-bank-run-with-current-s-066acd.md",
+    "transcript_word_count": 8138,
+    "transcript_language": "en"
   },
   {
     "guid": "ae79eebb-27f9-4a3e-a234-743dbcc2649a",
@@ -221946,24 +222091,37 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "retirement-planning",
         "budgeting-saving"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "walmart"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 2,
+        "retirement-planning": 4,
+        "walmart": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "budgeting-saving": 1.2,
+        "retirement-planning": 2.4,
+        "walmart": 1.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving. Mentions Walmart. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-ramsey-everyday-millionaires-can-i-fully-fund-my-retirement-with-one-lump-sum-ep-773-d0d3bc.md",
+    "transcript_word_count": 1506,
+    "transcript_language": "en"
   },
   {
     "guid": "6a04496306eee5b01c6d3d1b",
