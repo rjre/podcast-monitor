@@ -42950,30 +42950,98 @@
     "duration": "5097",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC1337546346.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "industrials",
+        "autos-ev",
+        "technology",
+        "insurance"
+      ],
       "themes": [
-        "geopolitics-tariffs"
+        "dividends-buybacks",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "valuation",
+        "small-caps-value-growth",
+        "recession",
+        "earnings",
+        "behavioral-finance",
+        "estate-planning"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "meta",
+        "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.068,
+      "sentiment_hits": 32,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "geopolitics-tariffs": 1,
-        "meta": 1
+        "technology": 1,
+        "insurance": 1,
+        "industrials": 5,
+        "autos-ev": 3,
+        "recession": 2,
+        "geopolitics-tariffs": 5,
+        "dealmaking": 3,
+        "earnings": 2,
+        "dividends-buybacks": 13,
+        "valuation": 3,
+        "behavioral-finance": 1,
+        "small-caps-value-growth": 3,
+        "estate-planning": 1,
+        "alphabet": 1,
+        "meta": 1,
+        "berkshire": 1
       },
       "entity_mention_density": {
-        "geopolitics-tariffs": 2.8,
-        "meta": 2.8
+        "technology": 0.1,
+        "insurance": 0.1,
+        "industrials": 0.3,
+        "autos-ev": 0.2,
+        "recession": 0.1,
+        "geopolitics-tariffs": 0.3,
+        "dealmaking": 0.2,
+        "earnings": 0.1,
+        "dividends-buybacks": 0.8,
+        "valuation": 0.2,
+        "behavioral-finance": 0.1,
+        "small-caps-value-growth": 0.2,
+        "estate-planning": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "autos-ev": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "small-caps-value-growth": 1.0,
+        "valuation": -0.333,
+        "dealmaking": 1.0,
+        "recession": -0.333,
+        "berkshire": -1.0
+      },
+      "entity_conviction": {
+        "autos-ev": 0.25,
+        "technology": -1.0,
+        "industrials": -0.333,
+        "geopolitics-tariffs": -1.0,
+        "small-caps-value-growth": -1.0,
+        "dealmaking": -1.0,
+        "estate-planning": -1.0,
+        "earnings": 0.0,
+        "dividends-buybacks": -0.333,
+        "behavioral-finance": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Autos & EVs, Technology, Dividends & Buybacks, Geopolitics & Tariffs, IPOs & Dealmaking, Valuation. Mentions Alphabet / Google, Meta, Berkshire Hathaway. Tone reads roughly neutral (+0.07).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-09-the-intrinsic-value-podcast-tivp089-video-exor-nv-exo-the-massive-discount-continues-to-455c05.md",
+    "transcript_word_count": 16245,
+    "transcript_language": "en"
   },
   {
     "guid": "d94ad224-8ba2-11f1-a0b7-730e5397bc89",
@@ -123544,9 +123612,9 @@
       "sectors": [],
       "themes": [],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {},
       "entity_mention_density": {},
       "entity_sentiment": {},
@@ -123554,7 +123622,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "No specific sectors, themes, or stocks detected. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-28-optimal-finance-daily-3610-getting-to-the-root-of-your-anger-by-rosalyn-palmer-on-e22017.md",
+    "transcript_word_count": 1551,
+    "transcript_language": "en"
   },
   {
     "guid": "879e4c93-e591-4f7b-ae4e-de0931d51c37",
@@ -161869,30 +161943,111 @@
     "duration": "00:44:05",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/2dccab17-e8b6-4e45-99ef-48ffd910a65c/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=2dccab17-e8b6-4e45-99ef-48ffd910a65c&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "airlines-travel",
+        "semiconductors",
+        "industrials",
+        "crypto"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "ai-boom",
+        "commodities",
+        "diversification"
       ],
       "stocks": [
-        "apple"
+        "apple",
+        "nasdaq",
+        "alphabet",
+        "nvidia",
+        "microsoft",
+        "amazon",
+        "tesla",
+        "micron",
+        "morgan-stanley",
+        "broadcom"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.554,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "apple": 1
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "energy": 3,
+        "industrials": 2,
+        "airlines-travel": 3,
+        "crypto": 2,
+        "ai-boom": 2,
+        "commodities": 1,
+        "dealmaking": 10,
+        "diversification": 1,
+        "nvidia": 1,
+        "apple": 10,
+        "microsoft": 1,
+        "alphabet": 2,
+        "amazon": 1,
+        "tesla": 1,
+        "micron": 1,
+        "morgan-stanley": 1,
+        "nasdaq": 5,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "dealmaking": 13.5,
-        "apple": 13.5
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.4,
+        "energy": 0.4,
+        "industrials": 0.3,
+        "airlines-travel": 0.4,
+        "crypto": 0.3,
+        "ai-boom": 0.3,
+        "commodities": 0.1,
+        "dealmaking": 1.3,
+        "diversification": 0.1,
+        "nvidia": 0.1,
+        "apple": 1.3,
+        "microsoft": 0.1,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "tesla": 0.1,
+        "micron": 0.1,
+        "morgan-stanley": 0.1,
+        "nasdaq": 0.6,
+        "broadcom": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "crypto": -1.0,
+        "dealmaking": 1.0,
+        "ai-boom": 1.0,
+        "nasdaq": 1.0,
+        "broadcom": 1.0
+      },
+      "entity_conviction": {
+        "crypto": 1.0,
+        "energy": -1.0,
+        "industrials": -1.0,
+        "dealmaking": -1.0,
+        "ai-boom": 0.0,
+        "diversification": 1.0,
+        "apple": -0.412,
+        "morgan-stanley": -1.0,
+        "alphabet": -1.0,
+        "nasdaq": -0.412,
+        "micron": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Airlines & Travel, IPOs & Dealmaking, AI & Machine Learning, Commodities, Diversification & Asset Allocation. Mentions Apple, Nasdaq, Alphabet / Google, Nvidia, Microsoft. Tone leans bullish (+0.55).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-halftime-report-halftime-report-live-from-apple-s-wwdc-6-8-26-b71746.md",
+    "transcript_word_count": 7895,
+    "transcript_language": "en"
   },
   {
     "guid": "453771f2-a8bc-409a-8c9e-b46300f0c6da",
@@ -163540,26 +163695,96 @@
     "duration": "3033",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML6867356003.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "fidelity"
+      "sectors": [
+        "banks",
+        "real-estate",
+        "crypto"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "passive-investing",
+        "insurance-products",
+        "fire-movement",
+        "recession",
+        "volatility",
+        "dealmaking",
+        "passive-income",
+        "estate-planning"
+      ],
+      "stocks": [
+        "fidelity",
+        "vanguard",
+        "amazon",
+        "blackrock",
+        "robinhood"
+      ],
+      "sentiment": -0.5,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fidelity": 3
+        "banks": 1,
+        "real-estate": 1,
+        "crypto": 1,
+        "recession": 1,
+        "volatility": 1,
+        "dealmaking": 1,
+        "passive-investing": 9,
+        "fire-movement": 2,
+        "passive-income": 1,
+        "estate-planning": 1,
+        "insurance-products": 4,
+        "amazon": 3,
+        "vanguard": 4,
+        "fidelity": 32,
+        "blackrock": 1,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "fidelity": 33.0
+        "banks": 0.1,
+        "real-estate": 0.1,
+        "crypto": 0.1,
+        "recession": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.1,
+        "passive-investing": 1.2,
+        "fire-movement": 0.3,
+        "passive-income": 0.1,
+        "estate-planning": 0.1,
+        "insurance-products": 0.5,
+        "amazon": 0.4,
+        "vanguard": 0.5,
+        "fidelity": 4.1,
+        "blackrock": 0.1,
+        "robinhood": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "estate-planning": -1.0,
+        "passive-investing": 0.0,
+        "recession": 0.0,
+        "fidelity": -1.0,
+        "blackrock": 0.0,
+        "robinhood": 0.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "passive-investing": -0.862,
+        "dealmaking": -1.0,
+        "recession": -1.0,
+        "fidelity": -0.115,
+        "vanguard": -1.0,
+        "amazon": 1.0,
+        "blackrock": -1.0,
+        "robinhood": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Real Estate, Crypto & Digital Assets, Passive Investing, Insurance Products, Financial Independence / FIRE, Recession Risk. Mentions Fidelity, Vanguard, Amazon, BlackRock, Robinhood. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-earn-invest-740-the-house-fidelity-built-w-justin-baer-47eabd.md",
+    "transcript_word_count": 7713,
+    "transcript_language": "en"
   },
   {
     "guid": "674f5d08-5e88-11f1-b506-63d9f1dfc539",
