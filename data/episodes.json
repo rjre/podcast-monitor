@@ -121069,25 +121069,65 @@
     "audio_url": "https://traffic.megaphone.fm/APO1228538626.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "ai-infrastructure",
+        "technology",
+        "semiconductors"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "earnings",
+        "passive-income"
+      ],
+      "stocks": [
+        "meta",
+        "nvidia",
+        "tesla",
+        "alphabet"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "technology": 1
+        "technology": 2,
+        "semiconductors": 2,
+        "ai-infrastructure": 17,
+        "earnings": 1,
+        "passive-income": 1,
+        "nvidia": 2,
+        "alphabet": 1,
+        "meta": 3,
+        "tesla": 2
       },
       "entity_mention_density": {
-        "technology": 11.5
+        "technology": 0.8,
+        "semiconductors": 0.8,
+        "ai-infrastructure": 7.2,
+        "earnings": 0.4,
+        "passive-income": 0.4,
+        "nvidia": 0.8,
+        "alphabet": 0.4,
+        "meta": 1.3,
+        "tesla": 0.8
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "passive-income": -1.0,
+        "earnings": -1.0
+      },
+      "entity_stance": {
+        "ai-infrastructure": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Semiconductors, Corporate Earnings, Passive Income & Side Hustles. Mentions Meta, Nvidia, Tesla, Alphabet / Google. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-11-the-rundown-deep-dive-how-meta-plans-to-make-money-from-ai-5545a7.md",
+    "transcript_word_count": 2275,
+    "transcript_language": "en"
   },
   {
     "guid": "0aa56e14-76eb-11f1-80fd-cba2946591f8",
@@ -138410,58 +138450,116 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "ai-infrastructure",
         "real-estate",
-        "crypto"
+        "ai-infrastructure",
+        "crypto",
+        "consumer-discretionary",
+        "private-markets"
       ],
       "themes": [
-        "dealmaking",
         "market-concentration",
-        "geopolitics-tariffs",
         "dividends-buybacks",
-        "small-caps-value-growth"
+        "dealmaking",
+        "geopolitics-tariffs",
+        "small-caps-value-growth",
+        "labor-market",
+        "rates-fed",
+        "emerging-markets"
       ],
-      "stocks": [],
+      "stocks": [
+        "nvidia",
+        "bitcoin",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "meta",
+        "tesla",
+        "nasdaq"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 2,
-        "ai-infrastructure": 1,
-        "real-estate": 1,
-        "crypto": 1,
-        "geopolitics-tariffs": 1,
-        "dealmaking": 2,
-        "dividends-buybacks": 1,
-        "market-concentration": 2,
-        "small-caps-value-growth": 1
+        "semiconductors": 6,
+        "ai-infrastructure": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 3,
+        "crypto": 2,
+        "private-markets": 1,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 3,
+        "labor-market": 2,
+        "dealmaking": 6,
+        "emerging-markets": 1,
+        "dividends-buybacks": 8,
+        "market-concentration": 9,
+        "small-caps-value-growth": 3,
+        "nvidia": 3,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 1,
+        "bitcoin": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "semiconductors": 9.3,
-        "ai-infrastructure": 4.7,
-        "real-estate": 4.7,
-        "crypto": 4.7,
-        "geopolitics-tariffs": 4.7,
-        "dealmaking": 9.3,
-        "dividends-buybacks": 4.7,
-        "market-concentration": 9.3,
-        "small-caps-value-growth": 4.7
+        "semiconductors": 1.4,
+        "ai-infrastructure": 0.5,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.7,
+        "crypto": 0.5,
+        "private-markets": 0.2,
+        "rates-fed": 0.2,
+        "geopolitics-tariffs": 0.7,
+        "labor-market": 0.5,
+        "dealmaking": 1.4,
+        "emerging-markets": 0.2,
+        "dividends-buybacks": 1.9,
+        "market-concentration": 2.1,
+        "small-caps-value-growth": 0.7,
+        "nvidia": 0.7,
+        "microsoft": 0.2,
+        "alphabet": 0.2,
+        "amazon": 0.2,
+        "meta": 0.2,
+        "tesla": 0.2,
+        "bitcoin": 0.5,
+        "nasdaq": 0.2
       },
       "entity_sentiment": {
         "semiconductors": 0.0,
         "ai-infrastructure": 1.0,
         "real-estate": 0.0,
         "crypto": -1.0,
+        "dividends-buybacks": -1.0,
         "market-concentration": -1.0,
         "geopolitics-tariffs": 0.0,
         "dealmaking": 0.0,
-        "small-caps-value-growth": 0.0
+        "small-caps-value-growth": 0.333,
+        "labor-market": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": 0.429,
+        "real-estate": -0.667,
+        "crypto": -1.0,
+        "dividends-buybacks": -1.0,
+        "small-caps-value-growth": -0.176,
+        "rates-fed": 1.0,
+        "labor-market": 1.0,
+        "nvidia": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Real Estate, AI Infrastructure, Market Concentration / Mega-cap, Dividends & Buybacks, IPOs & Dealmaking, Geopolitics & Tariffs. Mentions Nvidia, Bitcoin, Microsoft, Alphabet / Google, Amazon. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-03-the-dividend-cafe-a-different-kind-of-mid-year-report-5fdb91.md",
+    "transcript_word_count": 4088,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/LcctHt_Ca-19MtVWJY2ph03ObRMPpF3sGKjjacD4O5M",
@@ -270391,36 +270489,63 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML6827407373.mp3?updated=1777948402",
     "tags": {
       "sectors": [
+        "consumer-discretionary",
         "technology"
       ],
       "themes": [
         "dealmaking",
-        "earnings"
+        "earnings",
+        "ai-boom",
+        "valuation"
       ],
       "stocks": [
-        "berkshire"
+        "berkshire",
+        "amazon"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "technology": 1,
-        "dealmaking": 2,
-        "earnings": 1,
-        "berkshire": 2
+        "technology": 3,
+        "consumer-discretionary": 4,
+        "ai-boom": 1,
+        "dealmaking": 19,
+        "earnings": 2,
+        "valuation": 1,
+        "amazon": 1,
+        "berkshire": 9
       },
       "entity_mention_density": {
-        "technology": 3.7,
-        "dealmaking": 7.3,
-        "earnings": 3.7,
-        "berkshire": 7.3
+        "technology": 0.7,
+        "consumer-discretionary": 0.9,
+        "ai-boom": 0.2,
+        "dealmaking": 4.1,
+        "earnings": 0.4,
+        "valuation": 0.2,
+        "amazon": 0.2,
+        "berkshire": 2.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "valuation": 1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "dealmaking": -1.0,
+        "ai-boom": -1.0,
+        "berkshire": -1.0
+      },
+      "entity_stance": {
+        "consumer-discretionary": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Technology, IPOs & Dealmaking, Corporate Earnings, AI & Machine Learning, Valuation. Mentions Berkshire Hathaway, Amazon. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-05-motley-fool-hidden-gems-forget-earnings-season-it-s-takeover-season-398596.md",
+    "transcript_word_count": 4311,
+    "transcript_language": "en"
   },
   {
     "guid": "49398a91-9bf3-4c0a-82cb-56cfc8158a98",
