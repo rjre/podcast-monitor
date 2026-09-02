@@ -28587,26 +28587,64 @@
     "duration": "35:55",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a8285de63517b31b1cf6d9f/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate",
+        "industrials"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "inflation",
+        "career-income",
+        "estate-planning",
+        "tax-planning",
+        "insurance-products"
+      ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
+        "real-estate": 1,
+        "industrials": 1,
+        "inflation": 2,
+        "budgeting-saving": 5,
+        "career-income": 2,
+        "tax-planning": 1,
+        "estate-planning": 2,
+        "insurance-products": 1,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 2.6
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "inflation": 0.3,
+        "budgeting-saving": 0.7,
+        "career-income": 0.3,
+        "tax-planning": 0.1,
+        "estate-planning": 0.3,
+        "insurance-products": 0.1,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "estate-planning": 0.0,
+        "budgeting-saving": 0.263,
+        "career-income": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Budgeting & Saving, Inflation, Career & Income Growth, Estate Planning. Mentions Meta. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-equity-mates-investing-podcast-how-your-financial-plan-changes-as-life-changes-with-matt-in-cf6d9f.md",
+    "transcript_word_count": 7020,
+    "transcript_language": "en"
   },
   {
     "guid": "6a82c579e396b35b9b5900cd",
@@ -87480,29 +87518,79 @@
     "duration": "2461",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4557534340.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "budgeting-saving",
-        "debt-payoff"
+      "sectors": [
+        "real-estate",
+        "healthcare"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "debt-payoff",
+        "fire-movement",
+        "college-savings",
+        "rates-fed",
+        "passive-investing",
+        "budgeting-saving",
+        "retirement-planning",
+        "passive-income"
+      ],
+      "stocks": [
+        "amazon",
+        "alphabet",
+        "vanguard"
+      ],
+      "sentiment": 0.861,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "debt-payoff": 1
+        "healthcare": 1,
+        "real-estate": 3,
+        "rates-fed": 4,
+        "passive-investing": 2,
+        "budgeting-saving": 2,
+        "debt-payoff": 17,
+        "fire-movement": 7,
+        "retirement-planning": 2,
+        "passive-income": 1,
+        "college-savings": 7,
+        "alphabet": 1,
+        "amazon": 2,
+        "vanguard": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.3,
-        "debt-payoff": 5.3
+        "healthcare": 0.1,
+        "real-estate": 0.4,
+        "rates-fed": 0.5,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 2.0,
+        "fire-movement": 0.8,
+        "retirement-planning": 0.2,
+        "passive-income": 0.1,
+        "college-savings": 0.8,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "vanguard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "debt-payoff": -1.0,
+        "fire-movement": 1.0,
+        "rates-fed": -1.0,
+        "college-savings": -1.0,
+        "vanguard": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Debt Payoff, Financial Independence / FIRE, College Savings & Student Debt, Interest Rates & Fed Policy. Mentions Amazon, Alphabet / Google, Vanguard. Tone leans bullish (+0.86).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-money-guy-show-watch-this-if-you-want-to-build-wealth-3af86a.md",
+    "transcript_word_count": 8198,
+    "transcript_language": "en"
   },
   {
     "guid": "a0bb769c-d91f-47cd-95a3-a9b359074595",
@@ -124686,8 +124774,11 @@
     "duration": "528",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM7680949080.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
+        "retirement-planning",
         "budgeting-saving"
       ],
       "stocks": [],
@@ -124695,17 +124786,27 @@
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "real-estate": 1,
+        "budgeting-saving": 1,
+        "retirement-planning": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8
+        "real-estate": 0.6,
+        "budgeting-saving": 0.6,
+        "retirement-planning": 1.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Retirement Planning, Budgeting & Saving. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-ramsey-everyday-millionaires-i-don-t-know-anything-about-investing-where-do-i-start-748760.md",
+    "transcript_word_count": 1501,
+    "transcript_language": "en"
   },
   {
     "guid": "05ee0d56-29dc-11f1-b64a-43f4c93aae11",
@@ -234956,26 +235057,94 @@
     "duration": "4888",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC6179739681.mp3?updated=1777385683",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "meta"
+      "sectors": [
+        "ai-infrastructure",
+        "crypto",
+        "insurance"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "regulation-antitrust",
+        "dividends-buybacks",
+        "dealmaking",
+        "market-structure",
+        "small-caps-value-growth",
+        "volatility",
+        "career-income",
+        "diversification"
+      ],
+      "stocks": [
+        "nasdaq",
+        "bitcoin",
+        "disney",
+        "meta",
+        "berkshire",
+        "charles-schwab"
+      ],
+      "sentiment": 0.314,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "meta": 1
+        "ai-infrastructure": 2,
+        "insurance": 1,
+        "crypto": 2,
+        "volatility": 1,
+        "dealmaking": 4,
+        "regulation-antitrust": 11,
+        "market-structure": 2,
+        "career-income": 1,
+        "dividends-buybacks": 8,
+        "small-caps-value-growth": 2,
+        "diversification": 1,
+        "meta": 1,
+        "berkshire": 1,
+        "bitcoin": 2,
+        "nasdaq": 23,
+        "charles-schwab": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "meta": 2.1
+        "ai-infrastructure": 0.1,
+        "insurance": 0.1,
+        "crypto": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.6,
+        "market-structure": 0.1,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.5,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 1.3,
+        "charles-schwab": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "dividends-buybacks": 1.0
+      },
+      "entity_conviction": {
+        "regulation-antitrust": 0.0,
+        "diversification": -1.0,
+        "dealmaking": 0.0,
+        "dividends-buybacks": -1.0,
+        "nasdaq": -0.533,
+        "disney": -1.0
+      },
+      "entity_stance": {
+        "regulation-antitrust": "sell",
+        "charles-schwab": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Crypto & Digital Assets, Insurance, Regulation & Antitrust, Dividends & Buybacks, IPOs & Dealmaking, Market Structure & Liquidity. Mentions Nasdaq, Bitcoin, Disney, Meta, Berkshire Hathaway. Tone leans bullish (+0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-30-the-investor-s-podcast-we-study-billionaires-tip811-otc-markets-otcm-a-picks-and-shovels-play-in-modern-c-7825ea.md",
+    "transcript_word_count": 16884,
+    "transcript_language": "en"
   },
   {
     "guid": "231e6145-7011-41b1-b129-28c89a6cfe46",
