@@ -12013,32 +12013,86 @@
     "duration": "00:11:04",
     "audio_url": "https://anchor.fm/s/f06a1be8/podcast/play/124815754/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-27%2F430653097-44100-2-c69aa2637ddb.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology"
+      ],
+      "themes": [
+        "earnings",
+        "rates-fed",
+        "dealmaking",
+        "bond-market"
+      ],
       "stocks": [
         "nvidia",
-        "salesforce"
+        "salesforce",
+        "amazon",
+        "alphabet",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.111,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "nvidia": 3,
-        "salesforce": 2
+        "technology": 2,
+        "semiconductors": 7,
+        "ai-infrastructure": 8,
+        "rates-fed": 1,
+        "dealmaking": 1,
+        "earnings": 10,
+        "bond-market": 1,
+        "nvidia": 38,
+        "alphabet": 1,
+        "amazon": 2,
+        "nasdaq": 1,
+        "salesforce": 11
       },
       "entity_mention_density": {
-        "nvidia": 28.0,
-        "salesforce": 18.7
+        "technology": 0.9,
+        "semiconductors": 3.1,
+        "ai-infrastructure": 3.6,
+        "rates-fed": 0.4,
+        "dealmaking": 0.4,
+        "earnings": 4.5,
+        "bond-market": 0.4,
+        "nvidia": 17.0,
+        "alphabet": 0.4,
+        "amazon": 0.9,
+        "nasdaq": 0.4,
+        "salesforce": 4.9
       },
       "entity_sentiment": {
-        "nvidia": 0.0,
-        "salesforce": 0.0
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "earnings": 0.0,
+        "rates-fed": 1.0,
+        "dealmaking": 1.0,
+        "nvidia": 0.143,
+        "salesforce": 0.5,
+        "alphabet": -1.0,
+        "amazon": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "semiconductors": -1.0,
+        "earnings": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": 1.0,
+        "nvidia": -0.5
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "nvidia"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Corporate Earnings, Interest Rates & Fed Policy, IPOs & Dealmaking, Bond Market & Yields. Mentions Nvidia, Salesforce, Amazon, Alphabet / Google, Nasdaq. Tone reads roughly neutral (+0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-27-the-rundown-nvidia-s-blockbuster-earnings-sends-stock-soaring-salesforce-4331b7.md",
+    "transcript_word_count": 2134,
+    "transcript_language": "en"
   },
   {
     "guid": "493e8622-a221-11f1-9e2c-e79247d15ce9",
@@ -89239,26 +89293,82 @@
     "duration": "1322",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/dcb56950-81aa-4a2d-a13e-a996a377526c.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "industrials",
+        "semiconductors",
+        "ai-infrastructure",
+        "energy"
+      ],
       "themes": [
-        "inflation"
+        "inflation",
+        "dividends-buybacks",
+        "recession",
+        "rates-fed",
+        "bond-market",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "commodities"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.351,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 6
+        "semiconductors": 2,
+        "ai-infrastructure": 2,
+        "energy": 1,
+        "industrials": 3,
+        "inflation": 22,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "recession": 3,
+        "geopolitics-tariffs": 1,
+        "commodities": 1,
+        "bond-market": 2,
+        "dividends-buybacks": 8
       },
       "entity_mention_density": {
-        "inflation": 29.9
+        "semiconductors": 0.6,
+        "ai-infrastructure": 0.6,
+        "energy": 0.3,
+        "industrials": 0.9,
+        "inflation": 6.8,
+        "rates-fed": 0.6,
+        "ai-boom": 0.3,
+        "recession": 0.9,
+        "geopolitics-tariffs": 0.3,
+        "commodities": 0.3,
+        "bond-market": 0.6,
+        "dividends-buybacks": 2.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "inflation": 0.364,
+        "recession": -0.412,
+        "bond-market": -0.167
+      },
+      "entity_conviction": {
+        "industrials": 0.0,
+        "semiconductors": 0.0,
+        "inflation": -0.487,
+        "dividends-buybacks": -0.167,
+        "rates-fed": 0.111,
+        "ai-boom": 0.111,
+        "geopolitics-tariffs": 0.0,
+        "recession": -1.0,
+        "bond-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, AI Infrastructure, Inflation, Dividends & Buybacks, Recession Risk, Interest Rates & Fed Policy. Tone leans bullish (+0.35).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-the-dividend-cafe-inflation-vs-deflation-in-an-age-of-ai-5595ff.md",
+    "transcript_word_count": 3047,
+    "transcript_language": "en"
   },
   {
     "guid": "5a47d890-877a-11f1-868c-eb018f2437f2",
@@ -178358,26 +178468,89 @@
     "duration": "1292",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/6aa991f1-fb38-4299-9e8a-b46b00f8ee1b/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "morgan-stanley"
+      "sectors": [
+        "energy",
+        "real-estate",
+        "healthcare"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "labor-market",
+        "bond-market",
+        "credit-markets",
+        "consumer-health"
+      ],
+      "stocks": [
+        "morgan-stanley",
+        "walmart",
+        "blackrock"
+      ],
+      "sentiment": 0.459,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "morgan-stanley": 1
+        "energy": 2,
+        "healthcare": 1,
+        "real-estate": 2,
+        "inflation": 14,
+        "rates-fed": 8,
+        "credit-markets": 1,
+        "geopolitics-tariffs": 7,
+        "labor-market": 4,
+        "elections-politics": 6,
+        "bond-market": 4,
+        "consumer-health": 1,
+        "morgan-stanley": 2,
+        "walmart": 1,
+        "blackrock": 1
       },
       "entity_mention_density": {
-        "morgan-stanley": 24.4
+        "energy": 0.4,
+        "healthcare": 0.2,
+        "real-estate": 0.4,
+        "inflation": 2.7,
+        "rates-fed": 1.6,
+        "credit-markets": 0.2,
+        "geopolitics-tariffs": 1.4,
+        "labor-market": 0.8,
+        "elections-politics": 1.2,
+        "bond-market": 0.8,
+        "consumer-health": 0.2,
+        "morgan-stanley": 0.4,
+        "walmart": 0.2,
+        "blackrock": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "geopolitics-tariffs": 1.0,
+        "labor-market": -1.0,
+        "inflation": 1.0,
+        "credit-markets": 1.0,
+        "rates-fed": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "labor-market": -1.0,
+        "inflation": -1.0,
+        "bond-market": -0.667,
+        "credit-markets": -1.0,
+        "rates-fed": -1.0,
+        "elections-politics": -1.0,
+        "blackrock": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, Healthcare & Pharma, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Elections & Politics. Mentions Morgan Stanley, Walmart, BlackRock. Tone leans bullish (+0.46).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-bloomberg-surveillance-bloomberg-surveillance-tv-june-16th-2026-f8ee1b.md",
+    "transcript_word_count": 5105,
+    "transcript_language": "en"
   },
   {
     "guid": "123e9031-7258-4ad4-b78f-a31062bfa38c",
@@ -280186,35 +280359,169 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/71b1cb9f-5eea-4457-b4a9-dbfe602557d2/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=71b1cb9f-5eea-4457-b4a9-dbfe602557d2&feed=Bt3ITxGl",
     "tags": {
       "sectors": [
-        "technology"
+        "energy",
+        "technology",
+        "semiconductors",
+        "banks",
+        "consumer-discretionary",
+        "real-estate"
       ],
       "themes": [
+        "rates-fed",
         "inflation",
-        "labor-market"
+        "diversification",
+        "market-concentration",
+        "labor-market",
+        "elections-politics",
+        "geopolitics-tariffs",
+        "ai-boom",
+        "commodities",
+        "volatility",
+        "dealmaking",
+        "earnings",
+        "bond-market",
+        "hedge-funds",
+        "consumer-health",
+        "career-income",
+        "small-caps-value-growth"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "alphabet",
+        "microsoft",
+        "nasdaq",
+        "disney",
+        "amazon",
+        "meta",
+        "tesla",
+        "robinhood",
+        "bitcoin",
+        "qualcomm"
+      ],
+      "sentiment": 0.531,
+      "sentiment_hits": 42,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "inflation": 1,
-        "labor-market": 1
+        "technology": 6,
+        "semiconductors": 6,
+        "banks": 1,
+        "energy": 18,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "inflation": 10,
+        "rates-fed": 19,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 3,
+        "labor-market": 4,
+        "elections-politics": 4,
+        "commodities": 1,
+        "volatility": 1,
+        "dealmaking": 1,
+        "earnings": 1,
+        "bond-market": 1,
+        "hedge-funds": 1,
+        "consumer-health": 1,
+        "career-income": 1,
+        "market-concentration": 6,
+        "small-caps-value-growth": 1,
+        "diversification": 7,
+        "microsoft": 6,
+        "alphabet": 8,
+        "amazon": 3,
+        "meta": 3,
+        "tesla": 2,
+        "bitcoin": 1,
+        "nasdaq": 4,
+        "robinhood": 2,
+        "disney": 4,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "technology": 14.7,
-        "inflation": 14.7,
-        "labor-market": 14.7
+        "technology": 0.8,
+        "semiconductors": 0.8,
+        "banks": 0.1,
+        "energy": 2.4,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "inflation": 1.3,
+        "rates-fed": 2.5,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.4,
+        "labor-market": 0.5,
+        "elections-politics": 0.5,
+        "commodities": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.1,
+        "earnings": 0.1,
+        "bond-market": 0.1,
+        "hedge-funds": 0.1,
+        "consumer-health": 0.1,
+        "career-income": 0.1,
+        "market-concentration": 0.8,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.9,
+        "microsoft": 0.8,
+        "alphabet": 1.1,
+        "amazon": 0.4,
+        "meta": 0.4,
+        "tesla": 0.3,
+        "bitcoin": 0.1,
+        "nasdaq": 0.5,
+        "robinhood": 0.3,
+        "disney": 0.5,
+        "qualcomm": 0.1
       },
       "entity_sentiment": {
         "technology": 1.0,
-        "inflation": 1.0
+        "energy": 0.2,
+        "semiconductors": 1.0,
+        "consumer-discretionary": 1.0,
+        "inflation": 0.762,
+        "labor-market": 1.0,
+        "rates-fed": 0.474,
+        "market-concentration": 1.0,
+        "diversification": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "hedge-funds": 1.0,
+        "volatility": 1.0,
+        "elections-politics": -1.0,
+        "consumer-health": 1.0,
+        "bond-market": 1.0,
+        "career-income": 1.0,
+        "nasdaq": 0.2,
+        "microsoft": 1.0,
+        "alphabet": 1.0,
+        "amazon": 1.0,
+        "meta": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "energy": -1.0,
+        "semiconductors": -0.429,
+        "inflation": -0.828,
+        "rates-fed": -0.907,
+        "market-concentration": -1.0,
+        "diversification": 1.0,
+        "geopolitics-tariffs": -0.556,
+        "hedge-funds": 1.0,
+        "elections-politics": -1.0,
+        "bond-market": -0.556,
+        "alphabet": -1.0,
+        "meta": -1.0,
+        "robinhood": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "energy",
+        "nasdaq"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Technology, Semiconductors, Interest Rates & Fed Policy, Inflation, Diversification & Asset Allocation, Market Concentration / Mega-cap. Mentions Alphabet / Google, Microsoft, Nasdaq, Disney, Amazon. Tone leans bullish (+0.53).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-29-morning-call-markets-balance-ai-optimism-with-war-risks-and-fed-uncertain-9ea915.md",
+    "transcript_word_count": 7502,
+    "transcript_language": "en"
   },
   {
     "guid": "d040336e-0bfc-49b7-9d5a-649ee6851678",
