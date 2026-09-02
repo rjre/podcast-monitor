@@ -40364,20 +40364,128 @@
     "duration": "2618",
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/ecb990a8-39dc-4234-a372-ae9bd6bd22f1/stream.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "sectors": [
+        "technology",
+        "ai-infrastructure",
+        "energy",
+        "real-estate",
+        "industrials",
+        "airlines-travel",
+        "semiconductors",
+        "banks",
+        "materials-mining",
+        "autos-ev"
+      ],
+      "themes": [
+        "inflation",
+        "commodities",
+        "dividends-buybacks",
+        "rates-fed",
+        "japan",
+        "bond-market",
+        "budgeting-saving",
+        "diversification"
+      ],
+      "stocks": [
+        "salesforce",
+        "alphabet",
+        "bitcoin",
+        "amazon",
+        "nasdaq"
+      ],
+      "sentiment": 0.457,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 7,
+        "semiconductors": 1,
+        "ai-infrastructure": 6,
+        "banks": 1,
+        "energy": 3,
+        "real-estate": 2,
+        "industrials": 2,
+        "materials-mining": 1,
+        "autos-ev": 1,
+        "airlines-travel": 2,
+        "inflation": 3,
+        "rates-fed": 2,
+        "japan": 1,
+        "commodities": 3,
+        "bond-market": 1,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 3,
+        "diversification": 1,
+        "alphabet": 2,
+        "amazon": 1,
+        "bitcoin": 2,
+        "nasdaq": 1,
+        "salesforce": 3
+      },
+      "entity_mention_density": {
+        "technology": 1.1,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.9,
+        "banks": 0.2,
+        "energy": 0.5,
+        "real-estate": 0.3,
+        "industrials": 0.3,
+        "materials-mining": 0.2,
+        "autos-ev": 0.2,
+        "airlines-travel": 0.3,
+        "inflation": 0.5,
+        "rates-fed": 0.3,
+        "japan": 0.2,
+        "commodities": 0.5,
+        "bond-market": 0.2,
+        "budgeting-saving": 0.2,
+        "dividends-buybacks": 0.5,
+        "diversification": 0.2,
+        "alphabet": 0.3,
+        "amazon": 0.2,
+        "bitcoin": 0.3,
+        "nasdaq": 0.2,
+        "salesforce": 0.5
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "real-estate": 1.0,
+        "industrials": 1.0,
+        "airlines-travel": 1.0,
+        "semiconductors": 1.0,
+        "banks": 1.0,
+        "materials-mining": 1.0,
+        "dividends-buybacks": -1.0,
+        "bond-market": 1.0,
+        "commodities": 1.0,
+        "japan": -1.0,
+        "rates-fed": 1.0,
+        "salesforce": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": 1.0,
+        "technology": -1.0,
+        "industrials": -0.429,
+        "airlines-travel": -0.429,
+        "autos-ev": 0.667,
+        "energy": 1.0,
+        "inflation": -1.0,
+        "commodities": 1.0,
+        "japan": -1.0,
+        "salesforce": -1.0
+      },
+      "entity_stance": {
+        "industrials": "sell",
+        "airlines-travel": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Energy & Oil, Inflation, Commodities, Dividends & Buybacks, Interest Rates & Fed Policy. Mentions Salesforce, Alphabet / Google, Bitcoin, Amazon, Nasdaq. Tone leans bullish (+0.46).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-investtalk-the-saaspocalypse-debate-are-ai-stocks-disrupting-saas-in-20-37f5f8.md",
+    "transcript_word_count": 6450,
+    "transcript_language": "en"
   },
   {
     "guid": "da165428-3b02-4080-b1ce-8dcaa49c02b8",
@@ -109996,29 +110104,89 @@
     "duration": "4557",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/07865471-807f-49be-88e9-b48101021f36/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "microsoft",
-        "amazon"
+      "sectors": [
+        "airlines-travel",
+        "media-entertainment",
+        "autos-ev",
+        "technology",
+        "industrials"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "regulation-antitrust",
+        "earnings",
+        "bond-market"
+      ],
+      "stocks": [
+        "amazon",
+        "microsoft",
+        "alphabet",
+        "nvidia",
+        "netflix",
+        "boeing",
+        "walmart"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "microsoft": 1,
-        "amazon": 1
+        "technology": 1,
+        "industrials": 1,
+        "media-entertainment": 2,
+        "autos-ev": 2,
+        "airlines-travel": 5,
+        "dealmaking": 2,
+        "regulation-antitrust": 1,
+        "earnings": 1,
+        "bond-market": 1,
+        "nvidia": 2,
+        "microsoft": 16,
+        "alphabet": 3,
+        "amazon": 23,
+        "boeing": 1,
+        "walmart": 1,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "microsoft": 15.6,
-        "amazon": 15.6
+        "technology": 0.1,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "autos-ev": 0.1,
+        "airlines-travel": 0.3,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.1,
+        "bond-market": 0.1,
+        "nvidia": 0.1,
+        "microsoft": 1.0,
+        "alphabet": 0.2,
+        "amazon": 1.5,
+        "boeing": 0.1,
+        "walmart": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -1.0,
+        "airlines-travel": -0.333,
+        "media-entertainment": -1.0,
+        "earnings": -1.0,
+        "dealmaking": 1.0,
+        "microsoft": -1.0,
+        "amazon": 0.333,
+        "alphabet": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Media & Entertainment, Autos & EVs, IPOs & Dealmaking, Regulation & Antitrust, Corporate Earnings, Bond Market & Yields. Mentions Amazon, Microsoft, Alphabet / Google, Nvidia, Netflix. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-masters-in-business-bonus-the-future-of-ride-hailing-with-lyft-ceo-david-risher-021f36.md",
+    "transcript_word_count": 15627,
+    "transcript_language": "en"
   },
   {
     "guid": "74133b65-6ead-47f6-9a63-b48101028397",
@@ -133914,24 +134082,36 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "retirement-planning",
+        "budgeting-saving",
+        "estate-planning"
       ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 1,
+        "retirement-planning": 2,
+        "estate-planning": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "budgeting-saving": 0.6,
+        "retirement-planning": 1.1,
+        "estate-planning": 0.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving, Estate Planning. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-ramsey-everyday-millionaires-should-i-convert-more-of-my-retirement-savings-to-roth-accou-428947.md",
+    "transcript_word_count": 1608,
+    "transcript_language": "en"
   },
   {
     "guid": "3999328e-7dd9-11f0-b2e7-fba3f56f6851",
