@@ -85663,49 +85663,92 @@
     "audio_url": "https://traffic.megaphone.fm/APO1418417505.mp3",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "ai-infrastructure",
+        "technology",
+        "semiconductors"
       ],
       "themes": [
-        "japan",
+        "bond-market",
         "commodities",
-        "bond-market"
+        "rates-fed",
+        "japan",
+        "inflation",
+        "earnings"
       ],
       "stocks": [
         "alphabet",
-        "tesla"
+        "tesla",
+        "microsoft",
+        "amazon",
+        "nasdaq"
       ],
-      "sentiment": -0.143,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.081,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "japan": 1,
-        "commodities": 1,
-        "bond-market": 1,
-        "alphabet": 2,
-        "tesla": 2
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 4,
+        "energy": 6,
+        "inflation": 1,
+        "rates-fed": 3,
+        "japan": 3,
+        "commodities": 5,
+        "earnings": 1,
+        "bond-market": 9,
+        "microsoft": 1,
+        "alphabet": 23,
+        "amazon": 1,
+        "tesla": 17,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "energy": 8.2,
-        "japan": 8.2,
-        "commodities": 8.2,
-        "bond-market": 8.2,
-        "alphabet": 16.4,
-        "tesla": 16.4
+        "technology": 0.4,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 1.8,
+        "energy": 2.7,
+        "inflation": 0.4,
+        "rates-fed": 1.3,
+        "japan": 1.3,
+        "commodities": 2.2,
+        "earnings": 0.4,
+        "bond-market": 4.0,
+        "microsoft": 0.4,
+        "alphabet": 10.2,
+        "amazon": 0.4,
+        "tesla": 7.6,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
-        "energy": -0.429,
-        "japan": -0.429,
-        "commodities": -0.429,
-        "bond-market": -0.429,
-        "alphabet": -0.429,
-        "tesla": -0.429
+        "energy": 0.412,
+        "ai-infrastructure": -1.0,
+        "japan": 0.167,
+        "commodities": 0.412,
+        "bond-market": 0.412,
+        "rates-fed": 1.0,
+        "alphabet": 0.167,
+        "tesla": 0.167
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.333,
+        "semiconductors": -1.0,
+        "bond-market": 1.0,
+        "alphabet": -0.487,
+        "tesla": 0.0,
+        "microsoft": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Technology, Bond Market & Yields, Commodities, Interest Rates & Fed Policy, Japan & Yen. Mentions Alphabet / Google, Tesla, Microsoft, Amazon, Nasdaq. Tone reads roughly neutral (-0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-the-rundown-tesla-tanks-as-ai-gamble-gets-pricier-alphabet-s-capex-spend-5a92c2.md",
+    "transcript_word_count": 2125,
+    "transcript_language": "en"
   },
   {
     "guid": "56b24d79-cec7-44ac-91a7-b49000e7238d",
@@ -92345,20 +92388,46 @@
     "duration": "577",
     "audio_url": "https://traffic.megaphone.fm/OLD6025353395.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "crypto"
+      ],
+      "themes": [
+        "passive-investing"
+      ],
+      "stocks": [
+        "nasdaq",
+        "amazon"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "crypto": 1,
+        "passive-investing": 1,
+        "amazon": 1,
+        "nasdaq": 2
+      },
+      "entity_mention_density": {
+        "crypto": 0.5,
+        "passive-investing": 0.5,
+        "amazon": 0.5,
+        "nasdaq": 1.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -1.0,
+        "passive-investing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Passive Investing. Mentions Nasdaq, Amazon. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-optimal-finance-daily-3637-what-is-a-penny-stock-by-jeff-rose-of-good-financial-ce-f94e88.md",
+    "transcript_word_count": 1571,
+    "transcript_language": "en"
   },
   {
     "guid": "1000777620777",
@@ -231760,40 +231829,55 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/4db99dce-d1c4-49b2-8ed7-d0663292e617.mp3?source=feed",
     "tags": {
       "sectors": [
-        "ai-infrastructure",
-        "consumer-discretionary"
+        "consumer-discretionary",
+        "ai-infrastructure"
       ],
       "themes": [
-        "geopolitics-tariffs"
+        "dividends-buybacks",
+        "geopolitics-tariffs",
+        "credit-markets"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
         "ai-infrastructure": 1,
-        "consumer-discretionary": 1,
-        "geopolitics-tariffs": 3,
-        "nasdaq": 1
+        "consumer-discretionary": 2,
+        "credit-markets": 1,
+        "geopolitics-tariffs": 5,
+        "dividends-buybacks": 6,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "ai-infrastructure": 4.4,
-        "consumer-discretionary": 4.4,
-        "geopolitics-tariffs": 13.2,
-        "nasdaq": 4.4
+        "ai-infrastructure": 0.5,
+        "consumer-discretionary": 1.0,
+        "credit-markets": 0.5,
+        "geopolitics-tariffs": 2.4,
+        "dividends-buybacks": 2.9,
+        "nasdaq": 1.0
       },
       "entity_sentiment": {
         "ai-infrastructure": 1.0,
         "consumer-discretionary": 1.0,
-        "geopolitics-tariffs": 1.0
+        "geopolitics-tariffs": 1.0,
+        "dividends-buybacks": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "credit-markets": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, AI Infrastructure, Dividends & Buybacks, Geopolitics & Tariffs, Credit Markets. Mentions Nasdaq. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-14-the-dividend-cafe-thursday-may-14-2026-461c44.md",
+    "transcript_word_count": 1833,
+    "transcript_language": "en"
   },
   {
     "guid": "f4db44fc-4fd8-11f1-b914-bf0a8ee5a034",
