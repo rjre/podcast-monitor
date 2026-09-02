@@ -2202,20 +2202,102 @@
     "duration": "2249",
     "audio_url": "https://mcdn.podbean.com/mf/web/pjt53gqrwsadrc7y/BestStocksNow-260831.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "energy",
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "real-estate",
+        "industrials"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "commodities",
+        "fiscal-debt",
+        "elections-politics",
+        "earnings",
+        "market-concentration",
+        "bond-market",
+        "estate-planning"
+      ],
+      "stocks": [
+        "nvidia",
+        "charles-schwab",
+        "salesforce",
+        "broadcom"
+      ],
+      "sentiment": -0.176,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 6,
+        "energy": 7,
+        "real-estate": 1,
+        "industrials": 1,
+        "inflation": 6,
+        "rates-fed": 15,
+        "fiscal-debt": 2,
+        "elections-politics": 2,
+        "commodities": 5,
+        "earnings": 2,
+        "bond-market": 1,
+        "market-concentration": 2,
+        "estate-planning": 1,
+        "nvidia": 3,
+        "charles-schwab": 2,
+        "salesforce": 2,
+        "broadcom": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.2,
+        "energy": 1.4,
+        "real-estate": 0.2,
+        "industrials": 0.2,
+        "inflation": 1.2,
+        "rates-fed": 2.9,
+        "fiscal-debt": 0.4,
+        "elections-politics": 0.4,
+        "commodities": 1.0,
+        "earnings": 0.4,
+        "bond-market": 0.2,
+        "market-concentration": 0.4,
+        "estate-planning": 0.2,
+        "nvidia": 0.6,
+        "charles-schwab": 0.4,
+        "salesforce": 0.4,
+        "broadcom": 0.4
+      },
+      "entity_sentiment": {
+        "energy": 1.0,
+        "commodities": 1.0,
+        "rates-fed": 0.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "real-estate": -1.0,
+        "commodities": -1.0,
+        "earnings": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "elections-politics": -1.0,
+        "market-concentration": -1.0,
+        "broadcom": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Technology, Interest Rates & Fed Policy, Inflation, Commodities, Government Debt & Fiscal Policy. Mentions Nvidia, Charles Schwab, Salesforce, Broadcom. Tone leans bearish (-0.18).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-best-stocks-now-monday-aug-31-2026-39acec.md",
+    "transcript_word_count": 5175,
+    "transcript_language": "en"
   },
   {
     "guid": "29cdec86-c0ed-4a4e-be02-4dbc0c5c2b65",
@@ -57546,30 +57628,102 @@
     "duration": "4051",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/354caafc-4185-4221-b599-b49800de4b67/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "banks",
+        "insurance",
+        "consumer-discretionary",
+        "media-entertainment"
+      ],
       "themes": [
-        "crypto-regulation"
+        "regulation-antitrust",
+        "rates-fed",
+        "crypto-regulation",
+        "retirement-planning",
+        "inflation",
+        "ai-boom",
+        "elections-politics",
+        "behavioral-finance"
       ],
       "stocks": [
-        "bitcoin"
+        "jpmorgan",
+        "blackrock",
+        "bitcoin",
+        "ethereum",
+        "robinhood",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.318,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "crypto-regulation": 1,
-        "bitcoin": 1
+        "banks": 2,
+        "insurance": 1,
+        "consumer-discretionary": 1,
+        "media-entertainment": 1,
+        "crypto": 6,
+        "inflation": 1,
+        "rates-fed": 5,
+        "ai-boom": 1,
+        "elections-politics": 1,
+        "regulation-antitrust": 6,
+        "crypto-regulation": 3,
+        "retirement-planning": 3,
+        "behavioral-finance": 1,
+        "jpmorgan": 6,
+        "bitcoin": 5,
+        "ethereum": 3,
+        "blackrock": 6,
+        "robinhood": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "crypto-regulation": 13.2,
-        "bitcoin": 13.2
+        "banks": 0.2,
+        "insurance": 0.1,
+        "consumer-discretionary": 0.1,
+        "media-entertainment": 0.1,
+        "crypto": 0.5,
+        "inflation": 0.1,
+        "rates-fed": 0.4,
+        "ai-boom": 0.1,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.5,
+        "crypto-regulation": 0.2,
+        "retirement-planning": 0.2,
+        "behavioral-finance": 0.1,
+        "jpmorgan": 0.5,
+        "bitcoin": 0.4,
+        "ethereum": 0.2,
+        "blackrock": 0.5,
+        "robinhood": 0.2,
+        "netflix": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "rates-fed": 1.0,
+        "inflation": 1.0,
+        "behavioral-finance": 1.0,
+        "robinhood": -1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "crypto": 1.0,
+        "consumer-discretionary": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "behavioral-finance": -1.0,
+        "ai-boom": -1.0,
+        "blackrock": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Banks & Financials, Insurance, Regulation & Antitrust, Interest Rates & Fed Policy, Crypto Regulation, Retirement Planning. Mentions JPMorgan, BlackRock, Bitcoin, Ethereum, Robinhood. Tone leans bullish (+0.32).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-31-masters-in-business-serial-innovation-in-fintech-with-purpose-unlimited-ceo-som-de4b67.md",
+    "transcript_word_count": 12765,
+    "transcript_language": "en"
   },
   {
     "guid": "a00277d1-9d4f-47b0-9804-0575f581359a",
@@ -130147,33 +130301,81 @@
     "duration": "2872",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS4343493011.mp3?updated=1733520845",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "industrials",
+        "semiconductors",
+        "technology",
+        "ai-infrastructure"
+      ],
       "themes": [
-        "ai-boom"
+        "regulation-antitrust",
+        "market-timing-dca",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "dealmaking"
       ],
       "stocks": [
+        "amazon",
+        "costco",
         "bitcoin",
-        "amazon"
+        "alphabet",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.219,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 3,
+        "ai-infrastructure": 1,
+        "industrials": 5,
         "ai-boom": 1,
-        "amazon": 1,
-        "bitcoin": 2
+        "geopolitics-tariffs": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 4,
+        "market-timing-dca": 2,
+        "alphabet": 1,
+        "amazon": 4,
+        "costco": 2,
+        "bitcoin": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "ai-boom": 1.8,
-        "amazon": 1.8,
-        "bitcoin": 3.6
+        "technology": 0.1,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.1,
+        "industrials": 0.6,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.5,
+        "market-timing-dca": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.5,
+        "costco": 0.3,
+        "bitcoin": 0.3,
+        "nasdaq": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "market-timing-dca": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": 1.0,
+        "technology": 1.0,
+        "industrials": -1.0,
+        "regulation-antitrust": 0.0,
+        "market-timing-dca": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, Technology, Regulation & Antitrust, Market Timing & Dollar-Cost Averaging, AI & Machine Learning, Geopolitics & Tariffs. Mentions Amazon, Costco, Bitcoin, Alphabet / Google, Nasdaq. Tone leans bullish (+0.22).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-25-the-investing-for-beginners-podcast-how-to-read-a-10-k-in-20-minutes-the-beginner-speedrun-check-0195c4.md",
+    "transcript_word_count": 7350,
+    "transcript_language": "en"
   },
   {
     "guid": "e6092d9f-e254-4bec-a23e-f15fa05e8264",
@@ -205708,24 +205910,39 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "inflation",
+        "estate-planning",
+        "budgeting-saving",
+        "dividends-buybacks"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "inflation": 12,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 1,
+        "estate-planning": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.6
+        "inflation": 7.2,
+        "budgeting-saving": 0.6,
+        "dividends-buybacks": 0.6,
+        "estate-planning": 1.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Inflation, Estate Planning, Budgeting & Saving, Dividends & Buybacks. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-15-ramsey-everyday-millionaires-what-s-the-best-strategy-for-withdrawing-from-my-retirement-a7b187.md",
+    "transcript_word_count": 1486,
+    "transcript_language": "en"
   },
   {
     "guid": "372f6be4-7dd9-11f0-b2e7-1ff060aa3a60",
