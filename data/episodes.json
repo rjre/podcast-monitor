@@ -46496,20 +46496,143 @@
     "duration": "00:46:42",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/1a2c69a1-702a-44a0-84a1-774ded0c246f/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=1a2c69a1-702a-44a0-84a1-774ded0c246f&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "private-markets",
+        "technology",
+        "insurance",
+        "real-estate",
+        "industrials"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "emerging-markets",
+        "valuation",
+        "earnings",
+        "market-concentration",
+        "ai-boom",
+        "credit-markets",
+        "dealmaking",
+        "hedge-funds",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "alphabet",
+        "microsoft",
+        "nvidia",
+        "exxon",
+        "berkshire",
+        "micron",
+        "jpmorgan",
+        "goldman-sachs",
+        "nasdaq",
+        "amazon",
+        "meta"
+      ],
+      "sentiment": 0.364,
+      "sentiment_hits": 37,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 13,
+        "ai-infrastructure": 10,
+        "insurance": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "private-markets": 4,
+        "inflation": 7,
+        "rates-fed": 5,
+        "ai-boom": 1,
+        "credit-markets": 1,
+        "dealmaking": 1,
+        "earnings": 2,
+        "hedge-funds": 1,
+        "emerging-markets": 4,
+        "valuation": 3,
+        "market-concentration": 2,
+        "small-caps-value-growth": 1,
+        "nvidia": 7,
+        "microsoft": 9,
+        "alphabet": 13,
+        "amazon": 1,
+        "meta": 1,
+        "micron": 2,
+        "jpmorgan": 2,
+        "goldman-sachs": 2,
+        "berkshire": 3,
+        "exxon": 4,
+        "nasdaq": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 1.5,
+        "ai-infrastructure": 1.1,
+        "insurance": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "private-markets": 0.5,
+        "inflation": 0.8,
+        "rates-fed": 0.6,
+        "ai-boom": 0.1,
+        "credit-markets": 0.1,
+        "dealmaking": 0.1,
+        "earnings": 0.2,
+        "hedge-funds": 0.1,
+        "emerging-markets": 0.5,
+        "valuation": 0.3,
+        "market-concentration": 0.2,
+        "small-caps-value-growth": 0.1,
+        "nvidia": 0.8,
+        "microsoft": 1.0,
+        "alphabet": 1.5,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "micron": 0.2,
+        "jpmorgan": 0.2,
+        "goldman-sachs": 0.2,
+        "berkshire": 0.3,
+        "exxon": 0.5,
+        "nasdaq": 0.2
+      },
+      "entity_sentiment": {
+        "industrials": 0.0,
+        "semiconductors": -1.0,
+        "ai-infrastructure": 0.412,
+        "technology": 1.0,
+        "hedge-funds": 1.0,
+        "small-caps-value-growth": 1.0,
+        "emerging-markets": 1.0,
+        "nvidia": -1.0,
+        "nasdaq": 1.0,
+        "microsoft": 1.0,
+        "micron": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "private-markets": -0.167,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "small-caps-value-growth": 1.0,
+        "market-concentration": 1.0,
+        "valuation": 1.0,
+        "credit-markets": -1.0,
+        "jpmorgan": 1.0,
+        "nvidia": 1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Private Equity & Credit, Inflation, Interest Rates & Fed Policy, Emerging Markets, Valuation. Mentions Alphabet / Google, Microsoft, Nvidia, ExxonMobil, Berkshire Hathaway. Tone leans bullish (+0.36).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-10-halftime-report-wall-street-firms-raise-stock-target-your-next-move-79f99f.md",
+    "transcript_word_count": 8696,
+    "transcript_language": "en"
   },
   {
     "guid": "c034bd92-91f9-11f1-a81e-afc3f496654c",
@@ -59498,53 +59621,79 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/c04390d2-66d9-44b6-a8dc-62c1ab976207.mp3?source=feed",
     "tags": {
       "sectors": [
-        "industrials"
+        "industrials",
+        "semiconductors",
+        "technology",
+        "ai-infrastructure",
+        "banks"
       ],
       "themes": [
         "rates-fed",
-        "hedge-funds",
         "inflation",
+        "dividends-buybacks",
+        "hedge-funds",
         "geopolitics-tariffs",
         "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "industrials": 1,
-        "inflation": 1,
-        "rates-fed": 2,
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "industrials": 3,
+        "inflation": 5,
+        "rates-fed": 9,
         "geopolitics-tariffs": 1,
         "bond-market": 1,
-        "hedge-funds": 2,
-        "nasdaq": 1
+        "hedge-funds": 4,
+        "dividends-buybacks": 5,
+        "nasdaq": 4
       },
       "entity_mention_density": {
-        "industrials": 4.3,
-        "inflation": 4.3,
-        "rates-fed": 8.7,
-        "geopolitics-tariffs": 4.3,
-        "bond-market": 4.3,
-        "hedge-funds": 8.7,
-        "nasdaq": 4.3
+        "technology": 0.5,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.5,
+        "banks": 0.5,
+        "industrials": 1.4,
+        "inflation": 2.3,
+        "rates-fed": 4.1,
+        "geopolitics-tariffs": 0.5,
+        "bond-market": 0.5,
+        "hedge-funds": 1.8,
+        "dividends-buybacks": 2.3,
+        "nasdaq": 1.8
       },
       "entity_sentiment": {
         "industrials": -1.0,
         "bond-market": 1.0,
-        "hedge-funds": -0.333,
+        "hedge-funds": 0.0,
         "inflation": 1.0,
         "rates-fed": 1.0,
         "geopolitics-tariffs": 1.0,
+        "dividends-buybacks": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "hedge-funds"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, Technology, Interest Rates & Fed Policy, Inflation, Dividends & Buybacks, Hedge Funds. Mentions Nasdaq. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-04-the-dividend-cafe-tuesday-august-4-2026-d0ec5f.md",
+    "transcript_word_count": 1988,
+    "transcript_language": "en"
   },
   {
     "guid": "a050555e-0d3f-442e-b99d-1ffcce9c5108",
@@ -149091,17 +149240,24 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "inflation"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.75,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "inflation": 1,
+        "budgeting-saving": 3,
+        "amazon": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 2.1
+        "inflation": 0.5,
+        "budgeting-saving": 1.6,
+        "amazon": 1.1
       },
       "entity_sentiment": {
         "budgeting-saving": 1.0
@@ -149110,7 +149266,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Inflation. Mentions Amazon. Tone leans bullish (+0.75).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-25-optimal-finance-daily-3607-breaking-the-doom-spending-cycle-by-sara-stanizai-of-pr-09c844.md",
+    "transcript_word_count": 1363,
+    "transcript_language": "en"
   },
   {
     "guid": "5eb6c6e2-d448-11f0-8877-7bbeb683835b",
@@ -228521,33 +228683,70 @@
     "duration": "6886",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML2299134273.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "banks",
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "college-savings",
+        "rates-fed"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "amazon",
+        "meta",
+        "walmart",
+        "microsoft"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.268,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "real-estate": 1,
+        "private-markets": 3,
+        "rates-fed": 2,
+        "budgeting-saving": 29,
+        "college-savings": 5,
+        "microsoft": 1,
+        "alphabet": 6,
+        "amazon": 2,
+        "meta": 2,
+        "walmart": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1,
-        "college-savings": 2.1,
-        "meta": 4.1
+        "banks": 0.0,
+        "real-estate": 0.0,
+        "private-markets": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 1.3,
+        "college-savings": 0.2,
+        "microsoft": 0.0,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "walmart": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "college-savings": -1.0,
+        "budgeting-saving": -1.0
+      },
+      "entity_conviction": {
+        "college-savings": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Banks & Financials, Real Estate, Budgeting & Saving, College Savings & Student Debt, Interest Rates & Fed Policy. Mentions Alphabet / Google, Amazon, Meta, Walmart, Microsoft. Tone leans bearish (-0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-financial-audit-ebt-final-boss-financial-audit-5e8254.md",
+    "transcript_word_count": 21657,
+    "transcript_language": "en"
   },
   {
     "guid": "2367d61c-52c4-11f1-82d0-dbaa6ee64951",
