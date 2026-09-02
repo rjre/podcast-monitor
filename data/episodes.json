@@ -53174,20 +53174,160 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/335a20b8-a46d-4c67-b419-398ade8e1a7e/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=335a20b8-a46d-4c67-b419-398ade8e1a7e&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "technology",
+        "semiconductors",
+        "energy",
+        "utilities",
+        "airlines-travel",
+        "insurance",
+        "consumer-staples",
+        "real-estate",
+        "industrials",
+        "private-markets"
+      ],
+      "themes": [
+        "dealmaking",
+        "hedge-funds",
+        "ai-boom",
+        "rates-fed",
+        "recession",
+        "commodities",
+        "budgeting-saving",
+        "market-concentration"
+      ],
+      "stocks": [
+        "amazon",
+        "microsoft",
+        "boeing",
+        "alphabet",
+        "nvidia",
+        "costco",
+        "walmart",
+        "nasdaq",
+        "paypal",
+        "meta",
+        "charles-schwab",
+        "salesforce"
+      ],
+      "sentiment": 0.411,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 5,
+        "semiconductors": 5,
+        "ai-infrastructure": 30,
+        "insurance": 1,
+        "energy": 3,
+        "utilities": 2,
+        "consumer-discretionary": 8,
+        "consumer-staples": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "airlines-travel": 2,
+        "private-markets": 1,
+        "rates-fed": 2,
+        "ai-boom": 3,
+        "recession": 1,
+        "commodities": 1,
+        "dealmaking": 4,
+        "hedge-funds": 4,
+        "budgeting-saving": 1,
+        "market-concentration": 1,
+        "nvidia": 3,
+        "microsoft": 8,
+        "alphabet": 7,
+        "amazon": 22,
+        "meta": 1,
+        "boeing": 8,
+        "costco": 2,
+        "walmart": 2,
+        "nasdaq": 2,
+        "charles-schwab": 1,
+        "paypal": 2,
+        "salesforce": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.6,
+        "semiconductors": 0.6,
+        "ai-infrastructure": 3.5,
+        "insurance": 0.1,
+        "energy": 0.4,
+        "utilities": 0.2,
+        "consumer-discretionary": 0.9,
+        "consumer-staples": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "airlines-travel": 0.2,
+        "private-markets": 0.1,
+        "rates-fed": 0.2,
+        "ai-boom": 0.4,
+        "recession": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.5,
+        "hedge-funds": 0.5,
+        "budgeting-saving": 0.1,
+        "market-concentration": 0.1,
+        "nvidia": 0.4,
+        "microsoft": 0.9,
+        "alphabet": 0.8,
+        "amazon": 2.6,
+        "meta": 0.1,
+        "boeing": 0.9,
+        "costco": 0.2,
+        "walmart": 0.2,
+        "nasdaq": 0.2,
+        "charles-schwab": 0.1,
+        "paypal": 0.2,
+        "salesforce": 0.1
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "technology": -0.333,
+        "semiconductors": 1.0,
+        "energy": 1.0,
+        "insurance": 1.0,
+        "industrials": -1.0,
+        "ai-boom": -1.0,
+        "hedge-funds": -1.0,
+        "commodities": 1.0,
+        "rates-fed": 1.0,
+        "recession": -1.0,
+        "amazon": 1.0,
+        "nasdaq": 1.0,
+        "nvidia": 1.0,
+        "microsoft": 1.0,
+        "charles-schwab": 1.0,
+        "boeing": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "semiconductors": -1.0,
+        "utilities": -1.0,
+        "energy": -1.0,
+        "consumer-discretionary": -1.0,
+        "private-markets": 1.0,
+        "insurance": -1.0,
+        "hedge-funds": -1.0,
+        "rates-fed": -1.0,
+        "amazon": -1.0,
+        "microsoft": -1.0,
+        "paypal": 1.0,
+        "salesforce": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Consumer Discretionary, Technology, IPOs & Dealmaking, Hedge Funds, AI & Machine Learning, Interest Rates & Fed Policy. Mentions Amazon, Microsoft, Boeing, Alphabet / Google, Nvidia. Tone leans bullish (+0.41).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-03-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-3-26-64a499.md",
+    "transcript_word_count": 8512,
+    "transcript_language": "en"
   },
   {
     "guid": "b005a20c-1be7-4832-bfe4-3a9d2fdd9369",
@@ -62526,26 +62666,92 @@
     "duration": "1227",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML8022936741.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "earnings"
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "consumer-discretionary",
+        "consumer-staples"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "valuation",
+        "inflation",
+        "recession",
+        "earnings",
+        "consumer-health",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "costco",
+        "walmart",
+        "amazon",
+        "jpmorgan",
+        "bank-of-america",
+        "mastercard"
+      ],
+      "sentiment": 0.043,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "earnings": 1
+        "ai-infrastructure": 6,
+        "energy": 1,
+        "consumer-discretionary": 1,
+        "consumer-staples": 1,
+        "inflation": 1,
+        "recession": 1,
+        "earnings": 1,
+        "consumer-health": 1,
+        "dividends-buybacks": 1,
+        "valuation": 4,
+        "amazon": 1,
+        "jpmorgan": 1,
+        "bank-of-america": 1,
+        "costco": 2,
+        "walmart": 2,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "earnings": 3.6
+        "ai-infrastructure": 1.5,
+        "energy": 0.2,
+        "consumer-discretionary": 0.2,
+        "consumer-staples": 0.2,
+        "inflation": 0.2,
+        "recession": 0.2,
+        "earnings": 0.2,
+        "consumer-health": 0.2,
+        "dividends-buybacks": 0.2,
+        "valuation": 1.0,
+        "amazon": 0.2,
+        "jpmorgan": 0.2,
+        "bank-of-america": 0.2,
+        "costco": 0.5,
+        "walmart": 0.5,
+        "mastercard": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "recession": -0.556,
+        "valuation": -1.0,
+        "bank-of-america": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "dividends-buybacks": -1.0,
+        "valuation": -1.0,
+        "jpmorgan": -1.0,
+        "costco": -0.789,
+        "walmart": -0.789,
+        "mastercard": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Consumer Discretionary, Valuation, Inflation, Recession Risk, Corporate Earnings. Mentions Costco, Walmart, Amazon, JPMorgan, Bank of America. Tone reads roughly neutral (+0.04).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-motley-fool-hidden-gems-the-consumer-is-all-right-44ed9c.md",
+    "transcript_word_count": 3746,
+    "transcript_language": "en"
   },
   {
     "guid": "5dae4508-70b6-11f1-8370-ff3680f3fcdc",
@@ -223039,33 +223245,90 @@
     "duration": "6010",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML1701331280.mp3?updated=1777903728",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "healthcare",
+        "banks",
+        "utilities",
+        "materials-mining"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "college-savings",
+        "elections-politics",
+        "rates-fed",
+        "inflation",
+        "fiscal-debt",
+        "retirement-planning",
+        "career-income",
+        "behavioral-finance"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "walmart",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.429,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "utilities": 1,
+        "healthcare": 2,
+        "real-estate": 4,
+        "materials-mining": 1,
+        "private-markets": 3,
+        "inflation": 2,
+        "rates-fed": 9,
+        "fiscal-debt": 1,
+        "elections-politics": 11,
+        "budgeting-saving": 20,
+        "retirement-planning": 1,
+        "career-income": 1,
+        "behavioral-finance": 1,
+        "college-savings": 16,
+        "amazon": 14,
+        "meta": 2,
+        "walmart": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.0,
-        "college-savings": 2.0,
-        "meta": 4.0
+        "banks": 0.1,
+        "utilities": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.2,
+        "materials-mining": 0.1,
+        "private-markets": 0.2,
+        "inflation": 0.1,
+        "rates-fed": 0.5,
+        "fiscal-debt": 0.1,
+        "elections-politics": 0.6,
+        "budgeting-saving": 1.1,
+        "retirement-planning": 0.1,
+        "career-income": 0.1,
+        "behavioral-finance": 0.1,
+        "college-savings": 0.9,
+        "amazon": 0.8,
+        "meta": 0.1,
+        "walmart": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "college-savings": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Healthcare & Pharma, Budgeting & Saving, College Savings & Student Debt, Elections & Politics, Interest Rates & Fed Policy. Mentions Amazon, Meta, Walmart, Netflix. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-financial-audit-388-000-of-debt-to-storm-the-capitol-financial-audit-9d8a78.md",
+    "transcript_word_count": 17014,
+    "transcript_language": "en"
   },
   {
     "guid": "945031df-4ac7-402d-9f2c-0e14769dc284",
@@ -224966,26 +225229,52 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "recession"
+        "tax-planning",
+        "recession",
+        "retirement-planning",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "stocks": [
+        "alphabet",
+        "amazon"
+      ],
+      "sentiment": -0.273,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "recession": 2
+        "recession": 2,
+        "retirement-planning": 1,
+        "diversification": 1,
+        "tax-planning": 5,
+        "alphabet": 1,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "recession": 10.6
+        "recession": 1.1,
+        "retirement-planning": 0.6,
+        "diversification": 0.6,
+        "tax-planning": 2.8,
+        "alphabet": 0.6,
+        "amazon": 0.6
       },
       "entity_sentiment": {
-        "recession": -0.333
+        "recession": -0.333,
+        "tax-planning": -0.333,
+        "diversification": -1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "tax-planning"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Tax Planning, Recession Risk, Retirement Planning, Diversification & Asset Allocation. Mentions Alphabet / Google, Amazon. Tone leans bearish (-0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-03-optimal-finance-daily-3547-taking-advantage-of-mr-bear-by-jl-collins-on-market-dow-fde2fd.md",
+    "transcript_word_count": 1610,
+    "transcript_language": "en"
   },
   {
     "guid": "12b3bb28-44a6-11f1-a8dd-874a733024f2",
