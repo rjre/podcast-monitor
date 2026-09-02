@@ -40723,28 +40723,85 @@
     "duration": "3933",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL6994772516.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "fire-movement"
+      "sectors": [
+        "healthcare",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "themes": [
+        "housing",
+        "budgeting-saving",
+        "college-savings",
+        "fire-movement",
+        "rates-fed",
+        "volatility",
+        "retirement-planning",
+        "inflation",
+        "career-income",
+        "diversification"
+      ],
+      "stocks": [
+        "charles-schwab",
+        "amazon",
+        "tesla"
+      ],
+      "sentiment": 1.0,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1
+        "healthcare": 3,
+        "real-estate": 3,
+        "inflation": 1,
+        "rates-fed": 2,
+        "housing": 8,
+        "volatility": 2,
+        "budgeting-saving": 4,
+        "fire-movement": 3,
+        "retirement-planning": 2,
+        "career-income": 1,
+        "diversification": 1,
+        "college-savings": 4,
+        "amazon": 2,
+        "tesla": 1,
+        "charles-schwab": 3
       },
       "entity_mention_density": {
-        "fire-movement": 4.7
+        "healthcare": 0.2,
+        "real-estate": 0.2,
+        "inflation": 0.1,
+        "rates-fed": 0.2,
+        "housing": 0.6,
+        "volatility": 0.2,
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.2,
+        "career-income": 0.1,
+        "diversification": 0.1,
+        "college-savings": 0.3,
+        "amazon": 0.2,
+        "tesla": 0.1,
+        "charles-schwab": 0.2
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": 1.0,
+        "housing": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "career-income": -1.0,
+        "retirement-planning": -1.0,
+        "housing": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Real Estate, Housing Market, Budgeting & Saving, College Savings & Student Debt, Financial Independence / FIRE. Mentions Charles Schwab, Amazon, Tesla. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-money-guy-show-are-you-actually-wealthy-here-s-how-to-know-82294e.md",
+    "transcript_word_count": 12725,
+    "transcript_language": "en"
   },
   {
     "guid": "a630592a-83da-41fe-a822-b3b0eba0a5da",
@@ -78518,39 +78575,101 @@
     "duration": "7294",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC8825949163.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "banks",
+        "insurance",
+        "crypto"
+      ],
       "themes": [
-        "hedge-funds"
+        "regulation-antitrust",
+        "hedge-funds",
+        "small-caps-value-growth",
+        "dealmaking",
+        "geopolitics-tariffs",
+        "college-savings"
       ],
       "stocks": [
         "tesla",
         "alphabet",
+        "amazon",
+        "berkshire",
+        "bitcoin",
         "meta",
-        "berkshire"
+        "costco"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.254,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "hedge-funds": 1,
-        "alphabet": 2,
+        "technology": 2,
+        "ai-infrastructure": 6,
+        "banks": 2,
+        "insurance": 2,
+        "crypto": 2,
+        "geopolitics-tariffs": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 3,
+        "hedge-funds": 3,
+        "small-caps-value-growth": 3,
+        "college-savings": 1,
+        "alphabet": 20,
+        "amazon": 9,
         "meta": 1,
-        "tesla": 3,
-        "berkshire": 1
+        "tesla": 32,
+        "berkshire": 4,
+        "costco": 1,
+        "bitcoin": 2
       },
       "entity_mention_density": {
-        "hedge-funds": 2.2,
-        "alphabet": 4.5,
-        "meta": 2.2,
-        "tesla": 6.7,
-        "berkshire": 2.2
+        "technology": 0.1,
+        "ai-infrastructure": 0.3,
+        "banks": 0.1,
+        "insurance": 0.1,
+        "crypto": 0.1,
+        "geopolitics-tariffs": 0.0,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 0.1,
+        "small-caps-value-growth": 0.1,
+        "college-savings": 0.0,
+        "alphabet": 0.9,
+        "amazon": 0.4,
+        "meta": 0.0,
+        "tesla": 1.5,
+        "berkshire": 0.2,
+        "costco": 0.0,
+        "bitcoin": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "amazon": -1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "insurance": -1.0,
+        "ai-infrastructure": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "small-caps-value-growth": -1.0,
+        "dealmaking": -1.0,
+        "berkshire": -1.0,
+        "alphabet": -1.0,
+        "tesla": -1.0,
+        "amazon": -1.0
+      },
+      "entity_stance": {
+        "small-caps-value-growth": "buy",
+        "amazon": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Banks & Financials, Regulation & Antitrust, Hedge Funds, Small-Caps, Value & Growth, IPOs & Dealmaking. Mentions Tesla, Alphabet / Google, Amazon, Berkshire Hathaway, Bitcoin. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-26-the-investor-s-podcast-we-study-billionaires-rwh070-hunting-for-hidden-treasures-w-christopher-begg-871a05.md",
+    "transcript_word_count": 21244,
+    "transcript_language": "en"
   },
   {
     "guid": "ae7b8fe5-f67c-4ab3-bb50-a288fdc24e5b",
@@ -94877,45 +94996,87 @@
     "audio_url": "https://traffic.megaphone.fm/APO6064113725.mp3",
     "tags": {
       "sectors": [
+        "private-markets",
         "semiconductors",
-        "private-markets"
+        "healthcare"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "earnings",
+        "hedge-funds"
       ],
       "stocks": [
         "netflix",
-        "alphabet"
+        "alphabet",
+        "microsoft",
+        "amazon",
+        "tesla",
+        "tsmc",
+        "jpmorgan",
+        "goldman-sachs",
+        "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.481,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "private-markets": 1,
-        "dealmaking": 1,
-        "alphabet": 1,
-        "netflix": 2
+        "semiconductors": 4,
+        "healthcare": 1,
+        "private-markets": 9,
+        "dealmaking": 8,
+        "earnings": 2,
+        "hedge-funds": 1,
+        "microsoft": 1,
+        "alphabet": 11,
+        "amazon": 1,
+        "tesla": 1,
+        "tsmc": 1,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "nasdaq": 1,
+        "netflix": 21
       },
       "entity_mention_density": {
-        "semiconductors": 8.3,
-        "private-markets": 8.3,
-        "dealmaking": 8.3,
-        "alphabet": 8.3,
-        "netflix": 16.7
+        "semiconductors": 1.7,
+        "healthcare": 0.4,
+        "private-markets": 3.9,
+        "dealmaking": 3.4,
+        "earnings": 0.9,
+        "hedge-funds": 0.4,
+        "microsoft": 0.4,
+        "alphabet": 4.7,
+        "amazon": 0.4,
+        "tesla": 0.4,
+        "tsmc": 0.4,
+        "jpmorgan": 0.4,
+        "goldman-sachs": 0.4,
+        "nasdaq": 0.4,
+        "netflix": 9.0
       },
       "entity_sentiment": {
         "semiconductors": -1.0,
         "private-markets": -1.0,
+        "healthcare": 1.0,
         "dealmaking": -1.0,
-        "netflix": -1.0,
-        "alphabet": -1.0
+        "earnings": 1.0,
+        "netflix": -0.852,
+        "alphabet": -0.765,
+        "nasdaq": -1.0,
+        "tsmc": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Semiconductors, Healthcare & Pharma, IPOs & Dealmaking, Corporate Earnings, Hedge Funds. Mentions Netflix, Alphabet / Google, Microsoft, Amazon, Tesla. Tone leans bearish (-0.48).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-the-rundown-netflix-tanks-after-weak-earnings-guidance-spacex-cancels-st-16cdba.md",
+    "transcript_word_count": 2201,
+    "transcript_language": "en"
   },
   {
     "guid": "pwstreet.podbean.com/c476e1e6-0cc9-38d3-be42-8b15d0af5b34",
@@ -210370,35 +210531,79 @@
     "duration": "6317",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML5483575275.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "energy",
+        "healthcare",
+        "banks",
+        "real-estate",
+        "industrials"
+      ],
       "themes": [
         "budgeting-saving",
+        "rates-fed",
         "college-savings"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "netflix",
+        "jpmorgan",
+        "amazon",
+        "apple"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.6,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "energy": 2,
+        "healthcare": 2,
+        "real-estate": 1,
+        "industrials": 1,
+        "private-markets": 3,
+        "rates-fed": 2,
+        "budgeting-saving": 20,
+        "college-savings": 2,
+        "apple": 1,
+        "amazon": 2,
+        "meta": 7,
+        "jpmorgan": 3,
+        "netflix": 4
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1,
-        "college-savings": 2.1,
-        "meta": 4.1
+        "banks": 0.1,
+        "energy": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "budgeting-saving": 1.0,
+        "college-savings": 0.1,
+        "apple": 0.1,
+        "amazon": 0.1,
+        "meta": 0.4,
+        "jpmorgan": 0.2,
+        "netflix": 0.2
       },
       "entity_sentiment": {
-        "college-savings": -1.0
+        "college-savings": -1.0,
+        "budgeting-saving": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "budgeting-saving": -0.75
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Energy & Oil, Healthcare & Pharma, Budgeting & Saving, Interest Rates & Fed Policy, College Savings & Student Debt. Mentions Meta, Netflix, JPMorgan, Amazon, Apple. Tone leans bearish (-0.60).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-22-financial-audit-predator-exposed-on-financial-audit-108fb2.md",
+    "transcript_word_count": 18783,
+    "transcript_language": "en"
   },
   {
     "guid": "c08cc5df-3f57-4c3d-9ead-b45200e3b776",
