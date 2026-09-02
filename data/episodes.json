@@ -2542,26 +2542,69 @@
     "duration": "6607",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML3899530594.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "budgeting-saving"
+      "sectors": [
+        "private-markets",
+        "healthcare",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "budgeting-saving",
+        "recession",
+        "debt-payoff",
+        "college-savings",
+        "labor-market",
+        "real-estate-investing"
+      ],
+      "stocks": [
+        "amazon",
+        "netflix"
+      ],
+      "sentiment": -0.135,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2
+        "healthcare": 1,
+        "real-estate": 1,
+        "private-markets": 3,
+        "recession": 8,
+        "labor-market": 2,
+        "budgeting-saving": 42,
+        "debt-payoff": 5,
+        "real-estate-investing": 2,
+        "college-savings": 5,
+        "amazon": 20,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.2
+        "healthcare": 0.0,
+        "real-estate": 0.0,
+        "private-markets": 0.1,
+        "recession": 0.4,
+        "labor-market": 0.1,
+        "budgeting-saving": 1.9,
+        "debt-payoff": 0.2,
+        "real-estate-investing": 0.1,
+        "college-savings": 0.2,
+        "amazon": 0.9,
+        "netflix": 0.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": -1.0,
+        "recession": -0.73
+      },
+      "entity_conviction": {
+        "budgeting-saving": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Healthcare & Pharma, Real Estate, Budgeting & Saving, Recession Risk, Debt Payoff, College Savings & Student Debt. Mentions Amazon, Netflix. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-financial-audit-financial-audit-s-biggest-gold-digger-9964e6.md",
+    "transcript_word_count": 21502,
+    "transcript_language": "en"
   },
   {
     "guid": "6a95938dd292c337c0d10361",
@@ -27538,31 +27581,81 @@
     "duration": "4148",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL6572183382.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "fire-movement",
-        "passive-income"
+      "sectors": [
+        "healthcare",
+        "insurance",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "diversification",
+        "budgeting-saving",
+        "inflation",
+        "retirement-planning",
+        "passive-income",
+        "recession",
+        "passive-investing",
+        "fire-movement",
+        "small-caps-value-growth",
+        "tax-planning"
+      ],
+      "stocks": [
+        "amazon",
+        "walmart"
+      ],
+      "sentiment": 0.14,
+      "sentiment_hits": 24,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 1,
+        "healthcare": 2,
+        "real-estate": 1,
+        "inflation": 3,
+        "recession": 2,
+        "passive-investing": 1,
+        "budgeting-saving": 7,
         "fire-movement": 1,
-        "passive-income": 1
+        "retirement-planning": 3,
+        "passive-income": 3,
+        "small-caps-value-growth": 1,
+        "diversification": 9,
+        "tax-planning": 1,
+        "amazon": 2,
+        "walmart": 1
       },
       "entity_mention_density": {
-        "fire-movement": 4.7,
-        "passive-income": 4.7
+        "insurance": 0.1,
+        "healthcare": 0.2,
+        "real-estate": 0.1,
+        "inflation": 0.2,
+        "recession": 0.2,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.5,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "passive-income": 0.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.7,
+        "tax-planning": 0.1,
+        "amazon": 0.2,
+        "walmart": 0.1
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": 1.0,
+        "recession": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Real Estate, Diversification & Asset Allocation, Budgeting & Saving, Inflation, Retirement Planning. Mentions Amazon, Walmart. Tone reads roughly neutral (+0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-money-guy-show-do-this-for-a-happy-retirement-feat-wes-moss-30f6b1.md",
+    "transcript_word_count": 12580,
+    "transcript_language": "en"
   },
   {
     "guid": "6e1ad772-adab-4113-a7d9-a22d1fb5f171",
@@ -192610,26 +192703,118 @@
     "duration": "1172",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/050fd7c3-c11b-40d3-bd1f-b45f01002362/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "diversification"
+      "sectors": [
+        "private-markets",
+        "semiconductors",
+        "ai-infrastructure",
+        "crypto",
+        "technology",
+        "consumer-discretionary",
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "labor-market",
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "recession",
+        "bond-market",
+        "consumer-health",
+        "diversification",
+        "ai-boom",
+        "credit-markets",
+        "dealmaking",
+        "market-concentration"
+      ],
+      "stocks": [
+        "broadcom"
+      ],
+      "sentiment": 0.014,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "diversification": 1
+        "technology": 1,
+        "semiconductors": 3,
+        "ai-infrastructure": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "crypto": 2,
+        "private-markets": 5,
+        "inflation": 12,
+        "rates-fed": 9,
+        "ai-boom": 1,
+        "recession": 2,
+        "credit-markets": 1,
+        "geopolitics-tariffs": 3,
+        "labor-market": 16,
+        "elections-politics": 3,
+        "dealmaking": 1,
+        "bond-market": 2,
+        "consumer-health": 2,
+        "market-concentration": 1,
+        "diversification": 2,
+        "broadcom": 2
       },
       "entity_mention_density": {
-        "diversification": 23.3
+        "technology": 0.2,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 0.5,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.2,
+        "crypto": 0.5,
+        "private-markets": 1.2,
+        "inflation": 3.0,
+        "rates-fed": 2.2,
+        "ai-boom": 0.2,
+        "recession": 0.5,
+        "credit-markets": 0.2,
+        "geopolitics-tariffs": 0.7,
+        "labor-market": 3.9,
+        "elections-politics": 0.7,
+        "dealmaking": 0.2,
+        "bond-market": 0.5,
+        "consumer-health": 0.5,
+        "market-concentration": 0.2,
+        "diversification": 0.5,
+        "broadcom": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "crypto": -1.0,
+        "ai-infrastructure": 1.0,
+        "private-markets": 0.0,
+        "diversification": 1.0,
+        "inflation": -1.0,
+        "labor-market": 0.167,
+        "recession": -0.429,
+        "consumer-health": -0.429,
+        "rates-fed": 0.167,
+        "dealmaking": 1.0,
+        "credit-markets": 1.0,
+        "market-concentration": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "inflation": -1.0,
+        "labor-market": -0.796,
+        "recession": -1.0,
+        "consumer-health": -1.0,
+        "rates-fed": -1.0,
+        "market-concentration": 1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "labor-market"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Semiconductors, AI Infrastructure, Labor Market, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs. Mentions Broadcom. Tone reads roughly neutral (+0.01).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-bloomberg-surveillance-bloomberg-surveillance-tv-june-4th-2026-002362.md",
+    "transcript_word_count": 4015,
+    "transcript_language": "en"
   },
   {
     "guid": "fc4dd8e0-5f45-11f1-9039-b73b33442519",
