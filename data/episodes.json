@@ -12899,35 +12899,95 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/66413c00-82f1-4f02-8bae-b4a4014df2fc/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "crypto",
+        "industrials"
       ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "budgeting-saving",
+        "passive-investing",
+        "real-estate-investing",
+        "estate-planning",
+        "dividends-buybacks",
+        "rates-fed",
+        "retirement-planning",
+        "inflation",
+        "housing",
+        "elections-politics",
+        "college-savings"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "meta",
+        "netflix"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.677,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "fire-movement": 1,
-        "meta": 1
+        "real-estate": 45,
+        "industrials": 1,
+        "crypto": 4,
+        "inflation": 1,
+        "rates-fed": 2,
+        "housing": 1,
+        "elections-politics": 1,
+        "passive-investing": 4,
+        "budgeting-saving": 5,
+        "fire-movement": 8,
+        "retirement-planning": 2,
+        "real-estate-investing": 4,
+        "dividends-buybacks": 3,
+        "estate-planning": 4,
+        "college-savings": 1,
+        "alphabet": 1,
+        "meta": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "real-estate": 2.3,
-        "fire-movement": 2.3,
-        "meta": 2.3
+        "real-estate": 3.7,
+        "industrials": 0.1,
+        "crypto": 0.3,
+        "inflation": 0.1,
+        "rates-fed": 0.2,
+        "housing": 0.1,
+        "elections-politics": 0.1,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.4,
+        "fire-movement": 0.6,
+        "retirement-planning": 0.2,
+        "real-estate-investing": 0.3,
+        "dividends-buybacks": 0.2,
+        "estate-planning": 0.3,
+        "college-savings": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "real-estate": 1.0
+        "real-estate": 1.0,
+        "real-estate-investing": 1.0,
+        "estate-planning": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "fire-movement": -1.0,
+        "real-estate-investing": -1.0,
+        "passive-investing": -1.0,
+        "dividends-buybacks": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Industrials, Financial Independence / FIRE, Budgeting & Saving, Passive Investing, Real Estate Investing. Mentions Alphabet / Google, Meta, Netflix. Tone leans bullish (+0.68).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-26-how-to-money-how-americans-got-rich-the-history-of-wealth-in-america-w-jo-4df2fc.md",
+    "transcript_word_count": 11895,
+    "transcript_language": "en"
   },
   {
     "guid": "c0b84f57-6594-4deb-aee5-5a721cddc8e9",
@@ -13003,29 +13063,62 @@
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/13c82386-c3fe-4d77-ada1-b2fd72596278/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=13c82386-c3fe-4d77-ada1-b2fd72596278&feed=hvWWWzRv&t=podcast&e=nx-s1-5943609&p=510289&d=2444&size=39106438",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "banks",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "regulation-antitrust",
+        "currency-dollar"
+      ],
       "stocks": [
-        "meta"
+        "meta",
+        "jpmorgan"
       ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "meta": 1
+        "banks": 1,
+        "real-estate": 15,
+        "industrials": 1,
+        "inflation": 3,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 1,
+        "regulation-antitrust": 1,
+        "currency-dollar": 1,
+        "meta": 1,
+        "jpmorgan": 1
       },
       "entity_mention_density": {
+        "banks": 0.1,
         "real-estate": 2.0,
-        "meta": 2.0
+        "industrials": 0.1,
+        "inflation": 0.4,
+        "rates-fed": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "regulation-antitrust": 0.1,
+        "currency-dollar": 0.1,
+        "meta": 0.1,
+        "jpmorgan": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Industrials, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, Regulation & Antitrust. Mentions Meta, JPMorgan. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-26-planet-money-the-continent-nobody-owns-everyone-benefits-from-summer-scho-6379a0.md",
+    "transcript_word_count": 6957,
+    "transcript_language": "en"
   },
   {
     "guid": "6d18f300-9bfc-11f1-bf2b-93f4835e3298",
@@ -191349,24 +191442,45 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "college-savings"
+        "budgeting-saving",
+        "college-savings",
+        "career-income",
+        "small-caps-value-growth"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "college-savings": 1
+        "budgeting-saving": 2,
+        "career-income": 1,
+        "small-caps-value-growth": 1,
+        "college-savings": 2,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "college-savings": 5.3
+        "budgeting-saving": 1.1,
+        "career-income": 0.5,
+        "small-caps-value-growth": 0.5,
+        "college-savings": 1.1,
+        "amazon": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, College Savings & Student Debt, Career & Income Growth, Small-Caps, Value & Growth. Mentions Amazon. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-optimal-finance-daily-3583-when-is-the-best-time-to-start-investing-by-enero-febre-74d0f8.md",
+    "transcript_word_count": 1636,
+    "transcript_language": "en"
   },
   {
     "guid": "13a0a44e-f3a7-4e93-8059-a36cf36a1823",
@@ -243427,28 +243541,63 @@
     "duration": "520",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/cffd8fea-337c-4095-83a5-225e75c7a0f4.mp3?source=feed",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate",
+        "energy",
+        "healthcare"
+      ],
+      "themes": [
+        "dividends-buybacks",
+        "rates-fed",
+        "ai-boom",
+        "labor-market",
+        "commodities"
+      ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "nasdaq": 1
+        "energy": 1,
+        "healthcare": 1,
+        "real-estate": 2,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "labor-market": 1,
+        "commodities": 1,
+        "dividends-buybacks": 4,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "nasdaq": 5.3
+        "energy": 0.5,
+        "healthcare": 0.5,
+        "real-estate": 1.0,
+        "rates-fed": 1.0,
+        "ai-boom": 0.5,
+        "labor-market": 0.5,
+        "commodities": 0.5,
+        "dividends-buybacks": 2.1,
+        "nasdaq": 1.6
       },
       "entity_sentiment": {
+        "ai-boom": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "labor-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Healthcare & Pharma, Dividends & Buybacks, Interest Rates & Fed Policy, AI & Machine Learning, Labor Market. Mentions Nasdaq. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-the-dividend-cafe-thursday-may-7-2026-5abc20.md",
+    "transcript_word_count": 1733,
+    "transcript_language": "en"
   },
   {
     "guid": "11852020-4a5a-11f1-bff5-cbd3314d4088",
