@@ -17776,24 +17776,38 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "inflation",
+        "budgeting-saving",
+        "diversification"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "inflation": 5,
+        "budgeting-saving": 1,
+        "diversification": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8
+        "inflation": 2.1,
+        "budgeting-saving": 0.4,
+        "diversification": 0.4
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Inflation, Budgeting & Saving, Diversification & Asset Allocation. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-ramsey-everyday-millionaires-the-problem-with-using-the-4-rule-in-retirement-dbe8a6.md",
+    "transcript_word_count": 2168,
+    "transcript_language": "en"
   },
   {
     "guid": "07326658-29dc-11f1-b64a-eb5b0f4705a8",
@@ -105129,37 +105143,52 @@
       ],
       "themes": [
         "inflation",
+        "dividends-buybacks",
+        "rates-fed",
         "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 1.0,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "banks": 1,
-        "inflation": 6,
+        "banks": 3,
+        "inflation": 15,
+        "rates-fed": 3,
         "bond-market": 1,
-        "nasdaq": 1
+        "dividends-buybacks": 5,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "banks": 5.3,
-        "inflation": 32.1,
-        "bond-market": 5.3,
-        "nasdaq": 5.3
+        "banks": 1.6,
+        "inflation": 8.0,
+        "rates-fed": 1.6,
+        "bond-market": 0.5,
+        "dividends-buybacks": 2.7,
+        "nasdaq": 1.1
       },
       "entity_sentiment": {
         "banks": 1.0,
         "inflation": 1.0,
         "bond-market": 1.0,
+        "dividends-buybacks": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Inflation, Dividends & Buybacks, Interest Rates & Fed Policy, Bond Market & Yields. Mentions Nasdaq. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-14-the-dividend-cafe-tuesday-july-14-2026-9cb1ce.md",
+    "transcript_word_count": 1689,
+    "transcript_language": "en"
   },
   {
     "guid": "34855105-049e-4949-840d-f32e31b78241",
@@ -216992,33 +217021,125 @@
     "duration": "00:45:56",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/54432802-05c8-4eba-a1c5-608194daf173/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=54432802-05c8-4eba-a1c5-608194daf173&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "real-estate",
+        "private-markets",
+        "banks",
+        "energy"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "elections-politics",
+        "dividends-buybacks",
+        "earnings",
+        "housing",
+        "regulation-antitrust"
       ],
       "stocks": [
         "nvidia",
-        "morgan-stanley"
+        "morgan-stanley",
+        "tesla",
+        "amazon",
+        "jpmorgan",
+        "walmart",
+        "broadcom",
+        "tsmc",
+        "goldman-sachs",
+        "citigroup",
+        "bank-of-america",
+        "berkshire",
+        "nasdaq",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.455,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "nvidia": 2,
-        "morgan-stanley": 1
+        "semiconductors": 2,
+        "ai-infrastructure": 9,
+        "banks": 1,
+        "energy": 1,
+        "real-estate": 2,
+        "private-markets": 2,
+        "housing": 1,
+        "elections-politics": 3,
+        "dealmaking": 9,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "dividends-buybacks": 3,
+        "nvidia": 17,
+        "amazon": 3,
+        "tesla": 4,
+        "tsmc": 1,
+        "jpmorgan": 3,
+        "goldman-sachs": 1,
+        "morgan-stanley": 8,
+        "citigroup": 1,
+        "bank-of-america": 1,
+        "berkshire": 1,
+        "walmart": 2,
+        "nasdaq": 1,
+        "netflix": 1,
+        "broadcom": 2
       },
       "entity_mention_density": {
-        "dealmaking": 13.3,
-        "nvidia": 26.7,
-        "morgan-stanley": 13.3
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.0,
+        "banks": 0.1,
+        "energy": 0.1,
+        "real-estate": 0.2,
+        "private-markets": 0.2,
+        "housing": 0.1,
+        "elections-politics": 0.3,
+        "dealmaking": 1.0,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.2,
+        "dividends-buybacks": 0.3,
+        "nvidia": 1.9,
+        "amazon": 0.3,
+        "tesla": 0.4,
+        "tsmc": 0.1,
+        "jpmorgan": 0.3,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.9,
+        "citigroup": 0.1,
+        "bank-of-america": 0.1,
+        "berkshire": 0.1,
+        "walmart": 0.2,
+        "nasdaq": 0.1,
+        "netflix": 0.1,
+        "broadcom": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "morgan-stanley": 1.0,
+        "jpmorgan": 0.0,
+        "citigroup": 1.0,
+        "bank-of-america": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "real-estate": -1.0,
+        "elections-politics": -1.0,
+        "housing": -1.0,
+        "nvidia": -1.0,
+        "morgan-stanley": -1.0,
+        "broadcom": -1.0,
+        "tesla": -1.0,
+        "berkshire": -1.0,
+        "walmart": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Real Estate, IPOs & Dealmaking, Elections & Politics, Dividends & Buybacks, Corporate Earnings. Mentions Nvidia, Morgan Stanley, Tesla, Amazon, JPMorgan. Tone leans bullish (+0.46).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-halftime-report-nvidia-and-the-ai-trade-your-next-move-5-21-26-d19743.md",
+    "transcript_word_count": 9048,
+    "transcript_language": "en"
   },
   {
     "guid": "macrovoices.podbean.com/d6f11efa-7612-3009-b68a-460e2ba1d8d1",
