@@ -147027,56 +147027,95 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "energy",
+        "industrials"
       ],
       "themes": [
         "rates-fed",
-        "geopolitics-tariffs",
+        "dividends-buybacks",
         "regulation-antitrust",
-        "dividends-buybacks"
+        "labor-market",
+        "inflation",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "commodities"
       ],
       "stocks": [
         "alphabet",
         "verizon",
         "nasdaq"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.048,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "real-estate": 3,
-        "rates-fed": 1,
+        "ai-infrastructure": 5,
+        "energy": 3,
+        "real-estate": 12,
+        "industrials": 3,
+        "inflation": 1,
+        "rates-fed": 15,
         "geopolitics-tariffs": 1,
-        "regulation-antitrust": 1,
-        "dividends-buybacks": 1,
-        "alphabet": 1,
-        "verizon": 1,
-        "nasdaq": 1
+        "labor-market": 2,
+        "elections-politics": 1,
+        "commodities": 1,
+        "regulation-antitrust": 3,
+        "dividends-buybacks": 11,
+        "alphabet": 3,
+        "verizon": 3,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "ai-infrastructure": 4.8,
-        "real-estate": 14.4,
-        "rates-fed": 4.8,
-        "geopolitics-tariffs": 4.8,
-        "regulation-antitrust": 4.8,
-        "dividends-buybacks": 4.8,
-        "alphabet": 4.8,
-        "verizon": 4.8,
-        "nasdaq": 4.8
+        "ai-infrastructure": 1.5,
+        "energy": 0.9,
+        "real-estate": 3.6,
+        "industrials": 0.9,
+        "inflation": 0.3,
+        "rates-fed": 4.5,
+        "geopolitics-tariffs": 0.3,
+        "labor-market": 0.6,
+        "elections-politics": 0.3,
+        "commodities": 0.3,
+        "regulation-antitrust": 0.9,
+        "dividends-buybacks": 3.3,
+        "alphabet": 0.9,
+        "verizon": 0.9,
+        "nasdaq": 0.6
       },
       "entity_sentiment": {
+        "real-estate": -0.333,
+        "industrials": 1.0,
+        "dividends-buybacks": 0.667,
         "rates-fed": -1.0,
         "regulation-antitrust": -1.0,
-        "alphabet": -1.0,
-        "verizon": -1.0,
-        "nasdaq": -1.0
+        "inflation": 1.0,
+        "alphabet": 0.176,
+        "verizon": 0.176,
+        "nasdaq": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -0.5,
+        "ai-infrastructure": 0.0,
+        "industrials": -1.0,
+        "dividends-buybacks": 1.0,
+        "rates-fed": -1.0,
+        "regulation-antitrust": -1.0,
+        "elections-politics": -0.167,
+        "inflation": -1.0,
+        "alphabet": 1.0,
+        "verizon": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, Energy & Oil, Interest Rates & Fed Policy, Dividends & Buybacks, Regulation & Antitrust, Labor Market. Mentions Alphabet / Google, Verizon, Nasdaq. Tone reads roughly neutral (-0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-the-dividend-cafe-monday-june-29-2026-0121f5.md",
+    "transcript_word_count": 3140,
+    "transcript_language": "en"
   },
   {
     "guid": "49f9ddfc-73fd-11f1-9a7d-2384d5803a75",
@@ -271313,26 +271352,90 @@
     "duration": "1254",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/971f985d-d539-4728-a5e9-b43d01071181/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "semiconductors",
+        "banks"
+      ],
+      "themes": [
+        "elections-politics",
+        "geopolitics-tariffs",
+        "budgeting-saving",
+        "inflation",
+        "commodities",
+        "rates-fed",
+        "market-concentration"
+      ],
       "stocks": [
-        "jpmorgan"
+        "apple",
+        "jpmorgan",
+        "meta",
+        "boeing"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "jpmorgan": 1
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "banks": 1,
+        "energy": 3,
+        "inflation": 2,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 3,
+        "elections-politics": 4,
+        "commodities": 2,
+        "budgeting-saving": 3,
+        "market-concentration": 1,
+        "apple": 2,
+        "meta": 1,
+        "jpmorgan": 2,
+        "boeing": 1
       },
       "entity_mention_density": {
-        "jpmorgan": 27.8
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.6,
+        "banks": 0.2,
+        "energy": 0.6,
+        "inflation": 0.4,
+        "rates-fed": 0.2,
+        "geopolitics-tariffs": 0.6,
+        "elections-politics": 0.8,
+        "commodities": 0.4,
+        "budgeting-saving": 0.6,
+        "market-concentration": 0.2,
+        "apple": 0.4,
+        "meta": 0.2,
+        "jpmorgan": 0.4,
+        "boeing": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 1.0,
+        "semiconductors": 1.0,
+        "commodities": 1.0,
+        "market-concentration": 1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "banks": -1.0,
+        "ai-infrastructure": -1.0,
+        "elections-politics": -1.0,
+        "inflation": -1.0,
+        "commodities": -1.0,
+        "market-concentration": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Semiconductors, Elections & Politics, Geopolitics & Tariffs, Budgeting & Saving, Inflation. Mentions Apple, JPMorgan, Meta, Boeing. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-01-bloomberg-surveillance-bloomberg-surveillance-tv-may-1st-2026-071181.md",
+    "transcript_word_count": 4863,
+    "transcript_language": "en"
   },
   {
     "guid": "7cc8fcf3-991e-41a4-9747-6332e26509a2",
