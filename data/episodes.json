@@ -60478,20 +60478,109 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/ba649bf7-4b0f-4359-a4be-fce51045a4ca/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=ba649bf7-4b0f-4359-a4be-fce51045a4ca&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "private-markets",
+        "technology",
+        "crypto"
+      ],
+      "themes": [
+        "dealmaking",
+        "hedge-funds",
+        "rates-fed",
+        "recession",
+        "elections-politics",
+        "earnings",
+        "bond-market"
+      ],
+      "stocks": [
+        "amazon",
+        "intel",
+        "microsoft",
+        "nvidia",
+        "netflix",
+        "nasdaq",
+        "charles-schwab",
+        "salesforce",
+        "qualcomm"
+      ],
+      "sentiment": -0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 3,
+        "semiconductors": 5,
+        "ai-infrastructure": 4,
+        "crypto": 3,
+        "private-markets": 4,
+        "rates-fed": 1,
+        "recession": 1,
+        "elections-politics": 1,
+        "dealmaking": 9,
+        "earnings": 1,
+        "bond-market": 1,
+        "hedge-funds": 3,
+        "nvidia": 2,
+        "microsoft": 3,
+        "amazon": 5,
+        "intel": 4,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "netflix": 2,
+        "salesforce": 1,
+        "qualcomm": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "semiconductors": 0.6,
+        "ai-infrastructure": 0.5,
+        "crypto": 0.4,
+        "private-markets": 0.5,
+        "rates-fed": 0.1,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "dealmaking": 1.1,
+        "earnings": 0.1,
+        "bond-market": 0.1,
+        "hedge-funds": 0.4,
+        "nvidia": 0.2,
+        "microsoft": 0.4,
+        "amazon": 0.6,
+        "intel": 0.5,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "netflix": 0.2,
+        "salesforce": 0.1,
+        "qualcomm": 0.1
+      },
+      "entity_sentiment": {
+        "technology": -0.333,
+        "hedge-funds": 1.0,
+        "recession": -1.0,
+        "nasdaq": 1.0,
+        "salesforce": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "crypto": -1.0,
+        "bond-market": -1.0,
+        "dealmaking": -1.0,
+        "intel": 0.0,
+        "microsoft": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Private Equity & Credit, IPOs & Dealmaking, Hedge Funds, Interest Rates & Fed Policy, Recession Risk. Mentions Amazon, Intel, Microsoft, Nvidia, Netflix. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-mad-money-w-jim-cramer-mad-money-w-jim-cramer-7-30-26-ebc620.md",
+    "transcript_word_count": 8363,
+    "transcript_language": "en"
   },
   {
     "guid": "bogleheads.podbean.com/aaf33a3e-7bb9-36e4-8c01-cea7ee52633b",
@@ -88012,43 +88101,60 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "consumer-discretionary"
+        "consumer-discretionary",
+        "ai-infrastructure"
       ],
       "themes": [
         "housing",
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "rates-fed",
+        "valuation"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.083,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": -0.25,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "real-estate": 4,
-        "housing": 1,
-        "dividends-buybacks": 1,
-        "nasdaq": 1
+        "ai-infrastructure": 1,
+        "consumer-discretionary": 2,
+        "real-estate": 13,
+        "rates-fed": 1,
+        "housing": 6,
+        "dividends-buybacks": 5,
+        "valuation": 1,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "consumer-discretionary": 5.7,
-        "real-estate": 23.0,
-        "housing": 5.7,
-        "dividends-buybacks": 5.7,
-        "nasdaq": 5.7
+        "ai-infrastructure": 0.6,
+        "consumer-discretionary": 1.2,
+        "real-estate": 7.5,
+        "rates-fed": 0.6,
+        "housing": 3.5,
+        "dividends-buybacks": 2.9,
+        "valuation": 0.6,
+        "nasdaq": 1.7
       },
       "entity_sentiment": {
-        "real-estate": 0.167,
+        "real-estate": -0.176,
         "consumer-discretionary": 1.0,
         "dividends-buybacks": 0.0,
-        "nasdaq": 0.0
+        "housing": -1.0,
+        "valuation": -1.0,
+        "nasdaq": -0.333
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Consumer Discretionary, AI Infrastructure, Housing Market, Dividends & Buybacks, Interest Rates & Fed Policy, Valuation. Mentions Nasdaq. Tone leans bearish (-0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-the-dividend-cafe-thursday-july-16-2026-e9ad21.md",
+    "transcript_word_count": 1552,
+    "transcript_language": "en"
   },
   {
     "guid": "cde82114-05d5-11f1-b323-771e92841063",
@@ -118388,35 +118494,74 @@
     "duration": "6071",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML8578356980.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "real-estate",
+        "banks",
+        "energy",
+        "consumer-staples"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "college-savings",
+        "rates-fed",
+        "labor-market",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "microsoft",
+        "tesla"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.059,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "energy": 1,
+        "consumer-staples": 1,
+        "real-estate": 2,
+        "private-markets": 3,
+        "rates-fed": 4,
+        "labor-market": 1,
+        "budgeting-saving": 9,
+        "debt-payoff": 1,
+        "college-savings": 5,
+        "microsoft": 1,
+        "meta": 2,
+        "tesla": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1,
-        "college-savings": 2.0,
-        "meta": 4.1
+        "banks": 0.1,
+        "energy": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.2,
+        "labor-market": 0.1,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.1,
+        "college-savings": 0.3,
+        "microsoft": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1
       },
       "entity_sentiment": {
-        "college-savings": 1.0
+        "college-savings": 1.0,
+        "budgeting-saving": 1.0,
+        "labor-market": 1.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Real Estate, Banks & Financials, Budgeting & Saving, College Savings & Student Debt, Interest Rates & Fed Policy, Labor Market. Mentions Meta, Microsoft, Tesla. Tone reads roughly neutral (-0.06).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-financial-audit-i-ll-get-cancelled-for-this-financial-audit-79d5f3.md",
+    "transcript_word_count": 18990,
+    "transcript_language": "en"
   },
   {
     "guid": "2b858201-a746-48c8-b198-b47a00e4bdda",
@@ -216072,26 +216217,47 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "fire-movement",
+        "college-savings"
       ],
-      "stocks": [],
+      "stocks": [
+        "amazon",
+        "berkshire"
+      ],
       "sentiment": 0.167,
       "sentiment_hits": 1,
       "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 3
+        "budgeting-saving": 8,
+        "fire-movement": 1,
+        "college-savings": 1,
+        "amazon": 1,
+        "berkshire": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 20.0
+        "budgeting-saving": 4.2,
+        "fire-movement": 0.5,
+        "college-savings": 0.5,
+        "amazon": 0.5,
+        "berkshire": 0.5
       },
       "entity_sentiment": {
         "budgeting-saving": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "fire-movement": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Financial Independence / FIRE, College Savings & Student Debt. Mentions Amazon, Berkshire Hathaway. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-10-optimal-finance-daily-3555-i-stopped-trying-to-be-perfect-and-my-budget-thanked-me-e77160.md",
+    "transcript_word_count": 1736,
+    "transcript_language": "en"
   },
   {
     "guid": "56146f98-44b0-11f1-82de-43ed744f0add",
