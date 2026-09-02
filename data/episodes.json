@@ -153141,37 +153141,178 @@
       "sectors": [
         "ai-infrastructure",
         "technology",
-        "real-estate"
+        "utilities",
+        "real-estate",
+        "industrials",
+        "semiconductors",
+        "defense-aerospace",
+        "banks",
+        "energy",
+        "materials-mining",
+        "autos-ev",
+        "airlines-travel"
       ],
       "themes": [
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "ai-boom",
+        "diversification",
+        "rates-fed",
+        "credit-markets",
+        "emerging-markets",
+        "geopolitics-tariffs",
+        "labor-market",
+        "housing",
+        "volatility",
+        "esg-climate",
+        "earnings",
+        "bond-market",
+        "currency-dollar",
+        "market-structure",
+        "market-concentration"
       ],
       "stocks": [
-        "bitcoin"
+        "bitcoin",
+        "alphabet",
+        "amazon",
+        "nvidia",
+        "microsoft",
+        "tesla",
+        "goldman-sachs",
+        "ethereum",
+        "nasdaq",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.316,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "ai-infrastructure": 4,
-        "real-estate": 1,
-        "dividends-buybacks": 1,
-        "bitcoin": 1
+        "technology": 5,
+        "semiconductors": 2,
+        "ai-infrastructure": 25,
+        "banks": 1,
+        "energy": 1,
+        "utilities": 4,
+        "real-estate": 3,
+        "industrials": 3,
+        "materials-mining": 1,
+        "autos-ev": 1,
+        "airlines-travel": 1,
+        "defense-aerospace": 2,
+        "rates-fed": 2,
+        "ai-boom": 4,
+        "credit-markets": 2,
+        "geopolitics-tariffs": 1,
+        "labor-market": 1,
+        "housing": 1,
+        "volatility": 1,
+        "esg-climate": 1,
+        "earnings": 1,
+        "bond-market": 1,
+        "currency-dollar": 1,
+        "market-structure": 1,
+        "emerging-markets": 2,
+        "dividends-buybacks": 6,
+        "market-concentration": 1,
+        "diversification": 3,
+        "nvidia": 2,
+        "microsoft": 2,
+        "alphabet": 3,
+        "amazon": 3,
+        "tesla": 1,
+        "goldman-sachs": 1,
+        "bitcoin": 12,
+        "ethereum": 1,
+        "nasdaq": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "technology": 5.2,
-        "ai-infrastructure": 20.7,
-        "real-estate": 5.2,
-        "dividends-buybacks": 5.2,
-        "bitcoin": 5.2
+        "technology": 0.7,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 3.5,
+        "banks": 0.1,
+        "energy": 0.1,
+        "utilities": 0.6,
+        "real-estate": 0.4,
+        "industrials": 0.4,
+        "materials-mining": 0.1,
+        "autos-ev": 0.1,
+        "airlines-travel": 0.1,
+        "defense-aerospace": 0.3,
+        "rates-fed": 0.3,
+        "ai-boom": 0.6,
+        "credit-markets": 0.3,
+        "geopolitics-tariffs": 0.1,
+        "labor-market": 0.1,
+        "housing": 0.1,
+        "volatility": 0.1,
+        "esg-climate": 0.1,
+        "earnings": 0.1,
+        "bond-market": 0.1,
+        "currency-dollar": 0.1,
+        "market-structure": 0.1,
+        "emerging-markets": 0.3,
+        "dividends-buybacks": 0.9,
+        "market-concentration": 0.1,
+        "diversification": 0.4,
+        "nvidia": 0.3,
+        "microsoft": 0.3,
+        "alphabet": 0.4,
+        "amazon": 0.4,
+        "tesla": 0.1,
+        "goldman-sachs": 0.1,
+        "bitcoin": 1.7,
+        "ethereum": 0.1,
+        "nasdaq": 0.1,
+        "netflix": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 0.765,
+        "technology": 1.0,
+        "utilities": 0.333,
+        "energy": -1.0,
+        "industrials": -1.0,
+        "autos-ev": 1.0,
+        "dividends-buybacks": 1.0,
+        "diversification": 0.333,
+        "esg-climate": 0.333,
+        "currency-dollar": 0.0,
+        "volatility": 1.0,
+        "market-structure": -1.0,
+        "market-concentration": -1.0,
+        "rates-fed": 0.0,
+        "labor-market": 1.0,
+        "geopolitics-tariffs": -1.0,
+        "bond-market": -1.0,
+        "credit-markets": -1.0,
+        "bitcoin": -1.0,
+        "nvidia": -1.0,
+        "tesla": -1.0,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "utilities": -1.0,
+        "energy": -1.0,
+        "defense-aerospace": -0.5,
+        "dividends-buybacks": -1.0,
+        "diversification": -1.0,
+        "esg-climate": -1.0,
+        "currency-dollar": -1.0,
+        "bitcoin": 0.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Utilities & Power, Dividends & Buybacks, AI & Machine Learning, Diversification & Asset Allocation, Interest Rates & Fed Policy. Mentions Bitcoin, Alphabet / Google, Amazon, Nvidia, Microsoft. Tone leans bullish (+0.32).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-investtalk-ai-s-spending-paradox-hyperscalers-left-behind-as-the-trade-d0dac9.md",
+    "transcript_word_count": 6861,
+    "transcript_language": "en"
   },
   {
     "guid": "393f5ebc-30cc-4d8c-b3ee-d997ab3e3660",
@@ -171988,26 +172129,56 @@
     "duration": "4366",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML5031420073.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "fire-movement"
+      "sectors": [
+        "real-estate",
+        "insurance"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "fire-movement",
+        "passive-income",
+        "insurance-products",
+        "estate-planning"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.111,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1
+        "insurance": 1,
+        "real-estate": 3,
+        "fire-movement": 31,
+        "passive-income": 8,
+        "estate-planning": 1,
+        "insurance-products": 4,
+        "amazon": 4
       },
       "entity_mention_density": {
-        "fire-movement": 11.4
+        "insurance": 0.1,
+        "real-estate": 0.2,
+        "fire-movement": 2.3,
+        "passive-income": 0.6,
+        "estate-planning": 0.1,
+        "insurance-products": 0.3,
+        "amazon": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "fire-movement": -1.0,
+        "estate-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Financial Independence / FIRE, Passive Income & Side Hustles, Insurance Products, Estate Planning. Mentions Amazon. Tone reads roughly neutral (-0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-earn-invest-742-are-you-taking-stock-of-your-life-rewind-w-jl-collins-056f30.md",
+    "transcript_word_count": 13191,
+    "transcript_language": "en"
   },
   {
     "guid": "268266f4-6594-11f1-af7c-bbf26e942bb2",
@@ -185981,57 +186152,80 @@
     "duration": "633",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/937cf21e-8c84-4129-b7c1-bdb26da9af47.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "materials-mining"
+      ],
       "themes": [
-        "inflation",
-        "labor-market",
-        "dealmaking",
         "rates-fed",
-        "bond-market",
-        "dividends-buybacks"
+        "dividends-buybacks",
+        "inflation",
+        "dealmaking",
+        "labor-market",
+        "bond-market"
       ],
       "stocks": [
         "bitcoin",
         "nasdaq"
       ],
-      "sentiment": 0.63,
-      "sentiment_hits": 6,
+      "sentiment": 0.51,
+      "sentiment_hits": 11,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 2,
-        "rates-fed": 1,
-        "labor-market": 2,
-        "dealmaking": 2,
-        "bond-market": 1,
-        "dividends-buybacks": 1,
-        "bitcoin": 2,
-        "nasdaq": 1
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "materials-mining": 1,
+        "inflation": 7,
+        "rates-fed": 10,
+        "labor-market": 3,
+        "dealmaking": 4,
+        "bond-market": 2,
+        "dividends-buybacks": 9,
+        "bitcoin": 5,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "inflation": 10.2,
-        "rates-fed": 5.1,
-        "labor-market": 10.2,
-        "dealmaking": 10.2,
-        "bond-market": 5.1,
-        "dividends-buybacks": 5.1,
-        "bitcoin": 10.2,
-        "nasdaq": 5.1
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.9,
+        "materials-mining": 0.4,
+        "inflation": 3.0,
+        "rates-fed": 4.3,
+        "labor-market": 1.3,
+        "dealmaking": 1.7,
+        "bond-market": 0.9,
+        "dividends-buybacks": 3.9,
+        "bitcoin": 2.2,
+        "nasdaq": 0.9
       },
       "entity_sentiment": {
-        "dividends-buybacks": 0.412,
-        "inflation": 0.63,
-        "rates-fed": 0.412,
-        "labor-market": 0.63,
+        "semiconductors": 0.429,
+        "dividends-buybacks": 0.375,
+        "inflation": 0.688,
+        "rates-fed": 0.545,
+        "labor-market": 0.688,
         "bond-market": 0.412,
         "dealmaking": 1.0,
-        "nasdaq": 0.412,
+        "nasdaq": 0.417,
         "bitcoin": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "dividends-buybacks"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Materials & Mining, Interest Rates & Fed Policy, Dividends & Buybacks, Inflation, IPOs & Dealmaking. Mentions Bitcoin, Nasdaq. Tone leans bullish (+0.51).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-the-dividend-cafe-monday-june-8-2026-dfe279.md",
+    "transcript_word_count": 2122,
+    "transcript_language": "en"
   },
   {
     "guid": "1260e056-5aea-11f1-9134-0bf91129b28c",
@@ -266335,30 +266529,66 @@
         "airlines-travel"
       ],
       "themes": [
+        "budgeting-saving",
+        "recession",
+        "inflation",
         "fire-movement"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "meta",
+        "citigroup",
+        "costco"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.593,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "airlines-travel": 1,
+        "airlines-travel": 44,
+        "inflation": 4,
+        "recession": 7,
+        "budgeting-saving": 14,
         "fire-movement": 1,
-        "meta": 1
+        "alphabet": 9,
+        "meta": 1,
+        "citigroup": 1,
+        "costco": 1
       },
       "entity_mention_density": {
-        "airlines-travel": 2.5,
-        "fire-movement": 2.5,
-        "meta": 2.5
+        "airlines-travel": 3.6,
+        "inflation": 0.3,
+        "recession": 0.6,
+        "budgeting-saving": 1.1,
+        "fire-movement": 0.1,
+        "alphabet": 0.7,
+        "meta": 0.1,
+        "citigroup": 0.1,
+        "costco": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "airlines-travel": -0.852,
+        "budgeting-saving": -1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "airlines-travel": -0.509,
+        "budgeting-saving": -0.474,
+        "inflation": 0.429,
+        "recession": 0.429,
+        "alphabet": -1.0
+      },
+      "entity_stance": {
+        "airlines-travel": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Budgeting & Saving, Recession Risk, Inflation, Financial Independence / FIRE. Mentions Alphabet / Google, Meta, Citigroup, Costco. Tone leans bearish (-0.59).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-29-how-to-money-flights-are-getting-pricier-here-s-how-to-pay-less-w-kyle-po-19ee2c.md",
+    "transcript_word_count": 11890,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/FsS7XhDJz1SnNDpzAY7pgx03JdrPL4cxJ-TD5C7dOKY",
