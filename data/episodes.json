@@ -881,29 +881,46 @@
     "duration": "1547",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/b8cf0fa3-7712-414c-aa58-0aa77d1ee465/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=b8cf0fa3-7712-414c-aa58-0aa77d1ee465&feed=hvWWWzRv&t=podcast&e=nx-s1-5953112&p=510289&d=1547&size=24758318",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "airlines-travel",
+        "crypto"
+      ],
+      "themes": [
+        "ai-boom"
+      ],
       "stocks": [
         "palantir",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
+        "airlines-travel": 1,
+        "crypto": 1,
+        "ai-boom": 2,
         "meta": 1,
-        "palantir": 3
+        "palantir": 4
       },
       "entity_mention_density": {
-        "meta": 4.2,
-        "palantir": 12.6
+        "airlines-travel": 0.2,
+        "crypto": 0.2,
+        "ai-boom": 0.4,
+        "meta": 0.2,
+        "palantir": 0.9
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Crypto & Digital Assets, AI & Machine Learning. Mentions Palantir, Meta. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-02-planet-money-love-in-the-time-of-palantir-d4997d.md",
+    "transcript_word_count": 4208,
+    "transcript_language": "en"
   },
   {
     "guid": "7a27df96-9c0d-11f1-8f17-87a02dd7fe43",
@@ -1307,36 +1324,56 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/9b639bc0-0485-46ea-82d7-ddba2cf40a7e.mp3?source=feed",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "defense-aerospace"
       ],
       "themes": [
         "rates-fed",
+        "dividends-buybacks",
+        "inflation",
         "commodities"
       ],
       "stocks": [
-        "nasdaq"
+        "nasdaq",
+        "bitcoin"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
         "energy": 1,
-        "rates-fed": 1,
+        "defense-aerospace": 1,
+        "inflation": 1,
+        "rates-fed": 7,
         "commodities": 1,
-        "nasdaq": 1
+        "dividends-buybacks": 4,
+        "bitcoin": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "energy": 5.3,
-        "rates-fed": 5.3,
-        "commodities": 5.3,
-        "nasdaq": 5.3
+        "energy": 0.5,
+        "defense-aerospace": 0.5,
+        "inflation": 0.5,
+        "rates-fed": 3.5,
+        "commodities": 0.5,
+        "dividends-buybacks": 2.0,
+        "bitcoin": 0.5,
+        "nasdaq": 1.0
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "rates-fed": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Defense & Aerospace, Interest Rates & Fed Policy, Dividends & Buybacks, Inflation, Commodities. Mentions Nasdaq, Bitcoin. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-01-the-dividend-cafe-tuesday-september-1-2026-e917ba.md",
+    "transcript_word_count": 1826,
+    "transcript_language": "en"
   },
   {
     "guid": "198d5e36-05d6-11f1-9a41-6b7019949d5c",
@@ -71021,19 +71058,37 @@
     "audio_url": "https://traffic.megaphone.fm/OLD8872845497.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "amazon"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "entity_mentions": {
+        "budgeting-saving": 1,
+        "amazon": 1
+      },
+      "entity_mention_density": {
+        "budgeting-saving": 0.5,
+        "amazon": 0.5
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving. Mentions Amazon. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-31-optimal-finance-daily-3648-why-you-shouldn-t-make-house-purchases-based-on-emotion-417602.md",
+    "transcript_word_count": 1608,
+    "transcript_language": "en"
   },
   {
     "guid": "03136817-b4c0-4877-b835-b497002b07c0",
