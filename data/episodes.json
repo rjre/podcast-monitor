@@ -3284,21 +3284,27 @@
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
         "budgeting-saving": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.7
+        "budgeting-saving": 0.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-ramsey-everyday-millionaires-can-you-build-wealth-by-investing-only-in-individual-compani-1ca742.md",
+    "transcript_word_count": 1571,
+    "transcript_language": "en"
   },
   {
     "guid": "075b6328-29dc-11f1-b64a-bb7f205af448",
@@ -57357,26 +57363,49 @@
     "duration": "2416",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/7dda0db1-b7e8-490c-b09a-f22fdeb30a87/episodes/6866492a-d919-4dbe-8eda-5d0189e80a62/audio/128/default.mp3?awCollectionId=7dda0db1-b7e8-490c-b09a-f22fdeb30a87&awEpisodeId=6866492a-d919-4dbe-8eda-5d0189e80a62&feed=1e5vv9pg&t=podcast&e=nx-s1-5913981&p=510289&d=2416&size=38671342",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy",
+        "real-estate",
+        "industrials"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "inflation"
+      ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "energy": 1,
+        "real-estate": 1,
+        "industrials": 1,
+        "inflation": 1,
+        "geopolitics-tariffs": 2,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 2.7
+        "energy": 0.2,
+        "real-estate": 0.2,
+        "industrials": 0.2,
+        "inflation": 0.2,
+        "geopolitics-tariffs": 0.3,
+        "meta": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, Industrials, Geopolitics & Tariffs, Inflation. Mentions Meta. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-planet-money-sand-heists-and-property-rights-in-the-caribbean-summer-scho-5576f0.md",
+    "transcript_word_count": 6244,
+    "transcript_language": "en"
   },
   {
     "guid": "6a726e98de764a6b4c5e29c7",
@@ -160343,20 +160372,131 @@
     "duration": "00:44:18",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/9430d337-e500-47a7-ab58-63665939ee0a/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=9430d337-e500-47a7-ab58-63665939ee0a&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "banks",
+        "autos-ev",
+        "energy",
+        "industrials",
+        "consumer-discretionary"
+      ],
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "inflation",
+        "regulation-antitrust",
+        "geopolitics-tariffs",
+        "commodities",
+        "budgeting-saving",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "nvidia",
+        "intel",
+        "apple",
+        "microsoft",
+        "tesla",
+        "jpmorgan",
+        "goldman-sachs",
+        "morgan-stanley",
+        "walmart",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": 0.649,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 6,
+        "ai-infrastructure": 15,
+        "banks": 6,
+        "energy": 3,
+        "consumer-discretionary": 1,
+        "industrials": 2,
+        "autos-ev": 6,
+        "inflation": 2,
+        "rates-fed": 6,
+        "geopolitics-tariffs": 1,
+        "commodities": 1,
+        "dealmaking": 7,
+        "regulation-antitrust": 2,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 1,
+        "nvidia": 10,
+        "apple": 1,
+        "microsoft": 1,
+        "tesla": 1,
+        "intel": 3,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 1,
+        "walmart": 1,
+        "nasdaq": 1,
+        "charles-schwab": 1
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.7,
+        "ai-infrastructure": 1.8,
+        "banks": 0.7,
+        "energy": 0.4,
+        "consumer-discretionary": 0.1,
+        "industrials": 0.2,
+        "autos-ev": 0.7,
+        "inflation": 0.2,
+        "rates-fed": 0.7,
+        "geopolitics-tariffs": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.8,
+        "regulation-antitrust": 0.2,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.1,
+        "nvidia": 1.2,
+        "apple": 0.1,
+        "microsoft": 0.1,
+        "tesla": 0.1,
+        "intel": 0.4,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.1,
+        "walmart": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 0.25,
+        "semiconductors": 1.0,
+        "energy": 1.0,
+        "autos-ev": -1.0,
+        "banks": 1.0,
+        "commodities": 1.0,
+        "apple": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": 0.333,
+        "semiconductors": 1.0,
+        "energy": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "dealmaking": -1.0,
+        "budgeting-saving": -1.0,
+        "microsoft": 0.0,
+        "nvidia": -1.0,
+        "walmart": -1.0,
+        "charles-schwab": 1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "ai-infrastructure"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Banks & Financials, IPOs & Dealmaking, Interest Rates & Fed Policy, Inflation, Regulation & Antitrust. Mentions Nvidia, Intel, Apple, Microsoft, Tesla. Tone leans bullish (+0.65).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-mad-money-w-jim-cramer-mad-money-w-jim-cramer-6-17-26-710c19.md",
+    "transcript_word_count": 8245,
+    "transcript_language": "en"
   },
   {
     "guid": "72bff318-6aa0-11f1-920b-cb75b85ec298",
