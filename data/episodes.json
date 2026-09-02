@@ -27324,38 +27324,87 @@
     "audio_url": "https://traffic.megaphone.fm/RRM4333636595.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "technology",
+        "ai-infrastructure",
+        "semiconductors",
+        "insurance"
       ],
       "themes": [
-        "recession",
-        "dealmaking"
+        "dealmaking",
+        "recession"
       ],
       "stocks": [
-        "salesforce"
+        "salesforce",
+        "microsoft",
+        "meta",
+        "alphabet",
+        "cisco",
+        "nasdaq",
+        "amazon",
+        "tesla"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.489,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "recession": 1,
-        "dealmaking": 1,
-        "salesforce": 1
+        "technology": 4,
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "insurance": 1,
+        "recession": 2,
+        "dealmaking": 3,
+        "microsoft": 7,
+        "alphabet": 4,
+        "amazon": 1,
+        "meta": 5,
+        "tesla": 1,
+        "cisco": 2,
+        "nasdaq": 2,
+        "salesforce": 18
       },
       "entity_mention_density": {
-        "technology": 3.0,
-        "recession": 3.0,
-        "dealmaking": 3.0,
-        "salesforce": 3.0
+        "technology": 0.4,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.2,
+        "insurance": 0.1,
+        "recession": 0.2,
+        "dealmaking": 0.3,
+        "microsoft": 0.7,
+        "alphabet": 0.4,
+        "amazon": 0.1,
+        "meta": 0.5,
+        "tesla": 0.1,
+        "cisco": 0.2,
+        "nasdaq": 0.2,
+        "salesforce": 1.9
       },
       "entity_sentiment": {
-        "recession": -1.0
+        "technology": -1.0,
+        "ai-infrastructure": 1.0,
+        "dealmaking": -1.0,
+        "recession": -1.0,
+        "salesforce": -1.0,
+        "meta": -1.0,
+        "microsoft": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "technology": -0.5,
+        "insurance": -1.0,
+        "salesforce": -0.765,
+        "meta": -0.31,
+        "alphabet": -1.0,
+        "microsoft": -0.412
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Semiconductors, IPOs & Dealmaking, Recession Risk. Mentions Salesforce, Microsoft, Meta, Alphabet / Google, Cisco. Tone leans bearish (-0.49).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-riskreversal-pod-the-ai-price-war-nobody-saw-coming-with-firstmark-s-david-wa-acde5c.md",
+    "transcript_word_count": 9007,
+    "transcript_language": "en"
   },
   {
     "guid": "f910c892-9625-11f1-b3c8-bf43d8f6e143",
@@ -137684,41 +137733,69 @@
         "technology"
       ],
       "themes": [
-        "passive-investing",
-        "retirement-planning",
         "small-caps-value-growth",
-        "college-savings"
+        "passive-investing",
+        "college-savings",
+        "retirement-planning",
+        "passive-income",
+        "market-concentration"
       ],
       "stocks": [
+        "vanguard",
+        "alphabet",
+        "cisco",
+        "micron",
         "sp500"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "technology": 1,
-        "passive-investing": 1,
+        "technology": 2,
+        "passive-investing": 3,
         "retirement-planning": 1,
-        "small-caps-value-growth": 1,
-        "college-savings": 1,
-        "sp500": 1
+        "passive-income": 1,
+        "market-concentration": 1,
+        "small-caps-value-growth": 6,
+        "college-savings": 3,
+        "alphabet": 1,
+        "cisco": 1,
+        "micron": 1,
+        "sp500": 1,
+        "vanguard": 3
       },
       "entity_mention_density": {
-        "technology": 2.9,
-        "passive-investing": 2.9,
-        "retirement-planning": 2.9,
-        "small-caps-value-growth": 2.9,
-        "college-savings": 2.9,
-        "sp500": 2.9
+        "technology": 0.5,
+        "passive-investing": 0.7,
+        "retirement-planning": 0.2,
+        "passive-income": 0.2,
+        "market-concentration": 0.2,
+        "small-caps-value-growth": 1.5,
+        "college-savings": 0.7,
+        "alphabet": 0.2,
+        "cisco": 0.2,
+        "micron": 0.2,
+        "sp500": 0.2,
+        "vanguard": 0.7
       },
       "entity_sentiment": {
-        "small-caps-value-growth": 1.0
+        "small-caps-value-growth": 1.0,
+        "passive-income": 1.0,
+        "vanguard": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-income": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Small-Caps, Value & Growth, Passive Investing, College Savings & Student Debt, Retirement Planning. Mentions Vanguard, Alphabet / Google, Cisco, Micron, S&P 500. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-27-motley-fool-hidden-gems-401-k-champions-and-soaring-value-stocks-dbaabf.md",
+    "transcript_word_count": 3736,
+    "transcript_language": "en"
   },
   {
     "guid": "cae65345-1a0d-46fa-afc8-63d0fa1f86f7",
@@ -147613,39 +147690,165 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "consumer-discretionary"
+        "ai-infrastructure",
+        "technology",
+        "private-markets",
+        "energy",
+        "consumer-discretionary",
+        "real-estate",
+        "industrials",
+        "autos-ev"
       ],
       "themes": [
+        "dealmaking",
+        "elections-politics",
+        "earnings",
+        "regulation-antitrust",
+        "geopolitics-tariffs",
+        "market-concentration",
+        "inflation",
         "ai-boom",
-        "consumer-health"
+        "commodities",
+        "consumer-health",
+        "recession",
+        "currency-dollar",
+        "dividends-buybacks"
       ],
-      "stocks": [],
-      "sentiment": -0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "stocks": [
+        "amazon",
+        "walmart",
+        "nasdaq",
+        "alphabet",
+        "tsmc",
+        "microsoft",
+        "jpmorgan",
+        "goldman-sachs",
+        "morgan-stanley",
+        "qualcomm"
+      ],
+      "sentiment": -0.318,
+      "sentiment_hits": 47,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "consumer-discretionary": 1,
-        "ai-boom": 1,
-        "consumer-health": 1
+        "technology": 7,
+        "semiconductors": 20,
+        "ai-infrastructure": 9,
+        "energy": 4,
+        "consumer-discretionary": 4,
+        "real-estate": 3,
+        "industrials": 2,
+        "autos-ev": 1,
+        "private-markets": 5,
+        "inflation": 2,
+        "ai-boom": 2,
+        "recession": 1,
+        "geopolitics-tariffs": 3,
+        "elections-politics": 7,
+        "commodities": 2,
+        "dealmaking": 10,
+        "regulation-antitrust": 4,
+        "earnings": 5,
+        "currency-dollar": 1,
+        "consumer-health": 2,
+        "dividends-buybacks": 1,
+        "market-concentration": 3,
+        "microsoft": 1,
+        "alphabet": 3,
+        "amazon": 9,
+        "tsmc": 3,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 1,
+        "walmart": 7,
+        "nasdaq": 6,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "semiconductors": 11.2,
-        "consumer-discretionary": 11.2,
-        "ai-boom": 11.2,
-        "consumer-health": 11.2
+        "technology": 0.9,
+        "semiconductors": 2.4,
+        "ai-infrastructure": 1.1,
+        "energy": 0.5,
+        "consumer-discretionary": 0.5,
+        "real-estate": 0.4,
+        "industrials": 0.2,
+        "autos-ev": 0.1,
+        "private-markets": 0.6,
+        "inflation": 0.2,
+        "ai-boom": 0.2,
+        "recession": 0.1,
+        "geopolitics-tariffs": 0.4,
+        "elections-politics": 0.9,
+        "commodities": 0.2,
+        "dealmaking": 1.2,
+        "regulation-antitrust": 0.5,
+        "earnings": 0.6,
+        "currency-dollar": 0.1,
+        "consumer-health": 0.2,
+        "dividends-buybacks": 0.1,
+        "market-concentration": 0.4,
+        "microsoft": 0.1,
+        "alphabet": 0.4,
+        "amazon": 1.1,
+        "tsmc": 0.4,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.1,
+        "walmart": 0.9,
+        "nasdaq": 0.7,
+        "qualcomm": 0.1
       },
       "entity_sentiment": {
-        "semiconductors": -1.0,
+        "semiconductors": -0.362,
         "consumer-discretionary": 0.0,
-        "ai-boom": -0.5,
-        "consumer-health": 0.0
+        "technology": -0.259,
+        "ai-infrastructure": 0.0,
+        "energy": -1.0,
+        "industrials": 1.0,
+        "private-markets": 0.0,
+        "ai-boom": -0.2,
+        "consumer-health": 0.0,
+        "dealmaking": 0.5,
+        "commodities": -1.0,
+        "elections-politics": -1.0,
+        "earnings": 1.0,
+        "regulation-antitrust": -1.0,
+        "recession": -1.0,
+        "nasdaq": -1.0,
+        "alphabet": 0.333,
+        "microsoft": 1.0,
+        "amazon": 1.0,
+        "jpmorgan": -1.0,
+        "morgan-stanley": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -0.333,
+        "ai-infrastructure": -0.091,
+        "energy": 1.0,
+        "real-estate": -1.0,
+        "private-markets": 0.429,
+        "ai-boom": 1.0,
+        "elections-politics": -1.0,
+        "earnings": -1.0,
+        "dividends-buybacks": -1.0,
+        "regulation-antitrust": -1.0,
+        "market-concentration": -1.0,
+        "microsoft": 1.0,
+        "tsmc": -0.333
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "semiconductors",
+        "technology",
+        "ai-boom"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Technology, IPOs & Dealmaking, Elections & Politics, Corporate Earnings, Regulation & Antitrust. Mentions Amazon, Walmart, Nasdaq, Alphabet / Google, TSMC. Tone leans bearish (-0.32).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-23-morning-call-ai-pullback-spacex-risks-and-earnings-take-center-stage-6-23-823ac7.md",
+    "transcript_word_count": 8102,
+    "transcript_language": "en"
   },
   {
     "guid": "2ea1f9a0-3f59-11f1-a70f-db1a9d4604cf",
