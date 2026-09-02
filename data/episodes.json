@@ -28083,30 +28083,66 @@
         "real-estate"
       ],
       "themes": [
-        "fire-movement"
+        "passive-income",
+        "fire-movement",
+        "insurance-products",
+        "passive-investing",
+        "inflation",
+        "budgeting-saving"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "tesla"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.655,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "fire-movement": 2,
-        "meta": 1
+        "real-estate": 3,
+        "inflation": 3,
+        "passive-investing": 4,
+        "budgeting-saving": 3,
+        "fire-movement": 16,
+        "passive-income": 18,
+        "insurance-products": 12,
+        "meta": 2,
+        "tesla": 1
       },
       "entity_mention_density": {
-        "real-estate": 2.7,
-        "fire-movement": 5.3,
-        "meta": 2.7
+        "real-estate": 0.2,
+        "inflation": 0.2,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.2,
+        "fire-movement": 1.3,
+        "passive-income": 1.5,
+        "insurance-products": 1.0,
+        "meta": 0.2,
+        "tesla": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "inflation": -1.0,
+        "budgeting-saving": 1.0,
+        "passive-income": 1.0,
+        "passive-investing": 1.0
+      },
+      "entity_conviction": {
+        "fire-movement": -1.0,
+        "inflation": -1.0,
+        "passive-income": -1.0,
+        "passive-investing": -1.0,
+        "insurance-products": 0.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Passive Income & Side Hustles, Financial Independence / FIRE, Insurance Products, Passive Investing. Mentions Meta, Tesla. Tone leans bullish (+0.66).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-how-to-money-parenting-like-a-millionaire-w-millennial-revolution-1181-212433.md",
+    "transcript_word_count": 11818,
+    "transcript_language": "en"
   },
   {
     "guid": "c998fb6a-7db8-4385-b614-9bbf26568124",
@@ -77385,30 +77421,73 @@
     "duration": "6448",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML2458928295.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "private-markets"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "rates-fed",
+        "debt-payoff",
+        "real-estate-investing"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "paypal",
+        "meta",
+        "microsoft",
+        "alphabet",
+        "disney"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.25,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "meta": 2
+        "real-estate": 5,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "budgeting-saving": 18,
+        "debt-payoff": 1,
+        "real-estate-investing": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 11,
+        "meta": 6,
+        "disney": 1,
+        "paypal": 10
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.7,
-        "meta": 3.7
+        "real-estate": 0.2,
+        "private-markets": 0.1,
+        "rates-fed": 0.0,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.0,
+        "real-estate-investing": 0.0,
+        "microsoft": 0.0,
+        "alphabet": 0.0,
+        "amazon": 0.5,
+        "meta": 0.3,
+        "disney": 0.0,
+        "paypal": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0,
+        "debt-payoff": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Budgeting & Saving, Interest Rates & Fed Policy, Debt Payoff, Real Estate Investing. Mentions Amazon, PayPal, Meta, Microsoft, Alphabet / Google. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-27-financial-audit-financial-audit-s-most-toxic-husband-210fbe.md",
+    "transcript_word_count": 19778,
+    "transcript_language": "en"
   },
   {
     "guid": "1b7ca6e8-89ca-11f1-b917-4be796de9273",
@@ -90645,20 +90724,150 @@
     "duration": "00:42:40",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/62989825-a123-4378-8b8e-1378f6734485/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=62989825-a123-4378-8b8e-1378f6734485&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "sectors": [
+        "real-estate",
+        "semiconductors",
+        "ai-infrastructure",
+        "defense-aerospace",
+        "energy",
+        "crypto",
+        "banks",
+        "consumer-discretionary",
+        "media-entertainment",
+        "airlines-travel"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "elections-politics",
+        "inflation",
+        "rates-fed",
+        "market-concentration",
+        "regulation-antitrust",
+        "housing",
+        "commodities",
+        "diversification",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "nvidia",
+        "nasdaq",
+        "morgan-stanley",
+        "alphabet",
+        "amazon",
+        "tesla",
+        "jpmorgan",
+        "salesforce"
+      ],
+      "sentiment": 0.158,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 6,
+        "ai-infrastructure": 6,
+        "banks": 1,
+        "energy": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 8,
+        "media-entertainment": 1,
+        "airlines-travel": 1,
+        "defense-aerospace": 4,
+        "crypto": 2,
+        "inflation": 8,
+        "rates-fed": 8,
+        "geopolitics-tariffs": 18,
+        "housing": 1,
+        "elections-politics": 11,
+        "commodities": 1,
+        "regulation-antitrust": 2,
+        "market-concentration": 3,
+        "diversification": 1,
+        "market-timing-dca": 1,
+        "nvidia": 3,
+        "alphabet": 1,
+        "amazon": 1,
+        "tesla": 1,
+        "jpmorgan": 1,
+        "morgan-stanley": 2,
+        "nasdaq": 3,
+        "salesforce": 1
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.8,
+        "ai-infrastructure": 0.8,
+        "banks": 0.1,
+        "energy": 0.3,
+        "consumer-discretionary": 0.1,
+        "real-estate": 1.0,
+        "media-entertainment": 0.1,
+        "airlines-travel": 0.1,
+        "defense-aerospace": 0.5,
+        "crypto": 0.3,
+        "inflation": 1.0,
+        "rates-fed": 1.0,
+        "geopolitics-tariffs": 2.3,
+        "housing": 0.1,
+        "elections-politics": 1.4,
+        "commodities": 0.1,
+        "regulation-antitrust": 0.3,
+        "market-concentration": 0.4,
+        "diversification": 0.1,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.4,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "tesla": 0.1,
+        "jpmorgan": 0.1,
+        "morgan-stanley": 0.3,
+        "nasdaq": 0.4,
+        "salesforce": 0.1
+      },
+      "entity_sentiment": {
+        "semiconductors": 0.2,
+        "ai-infrastructure": -0.333,
+        "media-entertainment": -1.0,
+        "real-estate": 0.0,
+        "geopolitics-tariffs": 0.0,
+        "rates-fed": 0.333,
+        "regulation-antitrust": 1.0,
+        "inflation": -0.333,
+        "market-concentration": 0.0,
+        "market-timing-dca": 0.0,
+        "nasdaq": 1.0,
+        "jpmorgan": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "real-estate": -0.818,
+        "geopolitics-tariffs": -0.762,
+        "rates-fed": -0.81,
+        "regulation-antitrust": -1.0,
+        "inflation": -1.0,
+        "market-concentration": -0.762,
+        "market-timing-dca": -1.0,
+        "alphabet": -1.0,
+        "tesla": -1.0,
+        "nvidia": -1.0
+      },
+      "entity_stance": {
+        "semiconductors": "buy",
+        "ai-infrastructure": "buy",
+        "inflation": "buy",
+        "market-concentration": "buy",
+        "market-timing-dca": "buy"
+      },
+      "entity_contested": [
+        "semiconductors",
+        "real-estate"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Semiconductors, AI Infrastructure, Geopolitics & Tariffs, Elections & Politics, Inflation, Interest Rates & Fed Policy. Mentions Nvidia, Nasdaq, Morgan Stanley, Alphabet / Google, Amazon. Tone leans bullish (+0.16).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-morning-call-morning-call-7-21-26-095421.md",
+    "transcript_word_count": 7818,
+    "transcript_language": "en"
   },
   {
     "guid": "a37fb5ac-a84e-11f0-bc9e-5f172b44b40d",
