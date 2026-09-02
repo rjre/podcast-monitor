@@ -49158,24 +49158,38 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "inflation",
+        "recession",
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -1.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "inflation": 2,
+        "recession": 2,
         "budgeting-saving": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.6
+        "inflation": 1.1,
+        "recession": 1.1,
+        "budgeting-saving": 0.6
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "recession": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Inflation, Recession Risk, Budgeting & Saving. Tone leans bearish (-1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-ramsey-everyday-millionaires-we-keep-selling-at-a-loss-every-time-the-market-drops-561b72.md",
+    "transcript_word_count": 1595,
+    "transcript_language": "en"
   },
   {
     "guid": "26b85f1c-923e-11f1-9fe3-6b3ab5b47adf",
@@ -127684,31 +127698,89 @@
     "duration": "3841",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4302914999.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "fire-movement",
-        "inflation"
+        "inflation",
+        "budgeting-saving",
+        "college-savings",
+        "debt-payoff",
+        "passive-investing",
+        "retirement-planning",
+        "tax-planning",
+        "estate-planning"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon",
+        "vanguard",
+        "fidelity",
+        "disney"
+      ],
+      "sentiment": -0.076,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "inflation": 1,
-        "fire-movement": 2
+        "real-estate": 3,
+        "inflation": 9,
+        "passive-investing": 2,
+        "budgeting-saving": 4,
+        "debt-payoff": 3,
+        "fire-movement": 21,
+        "retirement-planning": 2,
+        "tax-planning": 1,
+        "estate-planning": 1,
+        "college-savings": 4,
+        "amazon": 1,
+        "vanguard": 1,
+        "fidelity": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "inflation": 4.7,
-        "fire-movement": 9.4
+        "real-estate": 0.2,
+        "inflation": 0.7,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.3,
+        "debt-payoff": 0.2,
+        "fire-movement": 1.6,
+        "retirement-planning": 0.2,
+        "tax-planning": 0.1,
+        "estate-planning": 0.1,
+        "college-savings": 0.3,
+        "amazon": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 0.1,
+        "disney": 0.1
       },
       "entity_sentiment": {
-        "fire-movement": 1.0
+        "fire-movement": 1.0,
+        "budgeting-saving": -1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "fire-movement": -1.0,
+        "inflation": -1.0,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0,
+        "college-savings": -1.0,
+        "debt-payoff": -1.0,
+        "tax-planning": -1.0,
+        "passive-investing": -1.0
+      },
+      "entity_stance": {
+        "vanguard": "sell",
+        "fidelity": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Financial Independence / FIRE, Inflation, Budgeting & Saving, College Savings & Student Debt. Mentions Amazon, Vanguard, Fidelity, Disney. Tone reads roughly neutral (-0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-money-guy-show-let-s-talk-about-the-coastfire-epidemic-e1cca9.md",
+    "transcript_word_count": 12717,
+    "transcript_language": "en"
   },
   {
     "guid": "58d900f2-38ff-11f1-a344-337ff62859bd",
@@ -177516,30 +177588,86 @@
     "duration": "3365",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/08923b0d-f766-412d-9dd6-b447012c5427/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "energy",
+        "crypto"
+      ],
       "themes": [
-        "fire-movement"
+        "budgeting-saving",
+        "passive-investing",
+        "fire-movement",
+        "housing",
+        "small-caps-value-growth",
+        "diversification",
+        "tax-planning"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet",
+        "vanguard",
+        "disney"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1,
-        "meta": 1
+        "energy": 1,
+        "real-estate": 2,
+        "crypto": 1,
+        "housing": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 4,
+        "fire-movement": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "tax-planning": 1,
+        "alphabet": 1,
+        "meta": 2,
+        "vanguard": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.7,
-        "meta": 2.7
+        "energy": 0.1,
+        "real-estate": 0.2,
+        "crypto": 0.1,
+        "housing": 0.1,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "tax-planning": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.2,
+        "vanguard": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "crypto": 1.0,
+        "passive-investing": 1.0,
+        "alphabet": 1.0
+      },
+      "entity_conviction": {
+        "crypto": -1.0,
+        "fire-movement": -1.0,
+        "budgeting-saving": -1.0,
+        "passive-investing": -1.0,
+        "diversification": -1.0,
+        "tax-planning": -1.0,
+        "vanguard": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Crypto & Digital Assets, Budgeting & Saving, Passive Investing, Financial Independence / FIRE, Housing Market. Mentions Meta, Alphabet / Google, Vanguard, Disney. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-how-to-money-ask-htm-butting-heads-with-investing-gurus-4-mortgage-ripoff-2c5427.md",
+    "transcript_word_count": 11382,
+    "transcript_language": "en"
   },
   {
     "guid": "2399d07f-aada-4137-9f63-b89496b94333",
@@ -205122,52 +205250,85 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a12b27a38804bf924736f76/media.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "telecoms",
+        "private-markets"
       ],
-      "themes": [],
+      "themes": [
+        "ai-boom",
+        "dealmaking",
+        "market-concentration",
+        "small-caps-value-growth"
+      ],
       "stocks": [
-        "nasdaq",
         "nvidia",
         "alphabet",
+        "nasdaq",
         "microsoft",
+        "berkshire",
         "amazon",
         "meta",
         "jpmorgan",
-        "apple",
         "tesla",
-        "berkshire"
+        "apple",
+        "tsmc",
+        "mastercard"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.579,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 2,
-        "nvidia": 5,
+        "technology": 3,
+        "semiconductors": 2,
+        "ai-infrastructure": 9,
+        "telecoms": 1,
+        "private-markets": 1,
+        "ai-boom": 1,
+        "dealmaking": 1,
+        "market-concentration": 1,
+        "small-caps-value-growth": 1,
+        "nvidia": 17,
         "apple": 1,
-        "microsoft": 2,
-        "alphabet": 4,
-        "amazon": 2,
-        "meta": 2,
-        "tesla": 1,
-        "jpmorgan": 2,
-        "berkshire": 1,
-        "nasdaq": 10
+        "microsoft": 7,
+        "alphabet": 17,
+        "amazon": 3,
+        "meta": 3,
+        "tesla": 2,
+        "tsmc": 1,
+        "jpmorgan": 3,
+        "berkshire": 4,
+        "nasdaq": 11,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 5.4,
-        "nvidia": 13.5,
-        "apple": 2.7,
-        "microsoft": 5.4,
-        "alphabet": 10.8,
-        "amazon": 5.4,
-        "meta": 5.4,
-        "tesla": 2.7,
-        "jpmorgan": 5.4,
-        "berkshire": 2.7,
-        "nasdaq": 27.0
+        "technology": 0.4,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 1.1,
+        "telecoms": 0.1,
+        "private-markets": 0.1,
+        "ai-boom": 0.1,
+        "dealmaking": 0.1,
+        "market-concentration": 0.1,
+        "small-caps-value-growth": 0.1,
+        "nvidia": 2.2,
+        "apple": 0.1,
+        "microsoft": 0.9,
+        "alphabet": 2.2,
+        "amazon": 0.4,
+        "meta": 0.4,
+        "tesla": 0.3,
+        "tsmc": 0.1,
+        "jpmorgan": 0.4,
+        "berkshire": 0.5,
+        "nasdaq": 1.4,
+        "mastercard": 0.1
       },
       "entity_sentiment": {
         "ai-infrastructure": 1.0,
+        "small-caps-value-growth": -1.0,
+        "ai-boom": -1.0,
         "nvidia": 1.0,
         "alphabet": 1.0,
         "apple": 1.0,
@@ -205178,11 +205339,26 @@
         "berkshire": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": 1.0,
+        "nvidia": 1.0,
+        "alphabet": -0.545,
+        "tesla": -1.0,
+        "microsoft": -1.0,
+        "berkshire": -1.0,
+        "nasdaq": -1.0,
+        "tsmc": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Semiconductors, AI & Machine Learning, IPOs & Dealmaking, Market Concentration / Mega-cap, Small-Caps, Value & Growth. Mentions Nvidia, Alphabet / Google, Nasdaq, Microsoft, Berkshire Hathaway. Tone leans bullish (+0.58).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-24-equity-mates-investing-podcast-nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-wit-736f76.md",
+    "transcript_word_count": 7478,
+    "transcript_language": "en"
   },
   {
     "guid": "84d939a9-a662-4476-ac37-c69840c3c3fa",
