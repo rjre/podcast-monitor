@@ -27624,32 +27624,80 @@
     "audio_url": "https://traffic.megaphone.fm/APO4118740725.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "industrials",
+        "consumer-discretionary",
+        "defense-aerospace",
+        "ai-infrastructure",
+        "energy"
       ],
-      "themes": [],
+      "themes": [
+        "volatility",
+        "commodities"
+      ],
       "stocks": [
-        "meta"
+        "meta",
+        "apple",
+        "walmart",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "semiconductors": 2,
-        "meta": 1
+        "semiconductors": 7,
+        "ai-infrastructure": 1,
+        "energy": 1,
+        "consumer-discretionary": 2,
+        "industrials": 4,
+        "defense-aerospace": 2,
+        "commodities": 1,
+        "volatility": 2,
+        "apple": 1,
+        "meta": 3,
+        "walmart": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "semiconductors": 18.9,
-        "meta": 9.4
+        "semiconductors": 2.9,
+        "ai-infrastructure": 0.4,
+        "energy": 0.4,
+        "consumer-discretionary": 0.8,
+        "industrials": 1.7,
+        "defense-aerospace": 0.8,
+        "commodities": 0.4,
+        "volatility": 0.8,
+        "apple": 0.4,
+        "meta": 1.2,
+        "walmart": 0.4,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
         "semiconductors": 0.0,
+        "consumer-discretionary": 1.0,
+        "defense-aerospace": 1.0,
+        "volatility": 1.0,
         "meta": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": 1.0,
+        "industrials": -1.0,
+        "meta": -1.0,
+        "walmart": 1.0,
+        "apple": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "semiconductors"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Industrials, Consumer Discretionary, Volatility & Vol Regime, Commodities. Mentions Meta, Apple, Walmart, Nasdaq. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-17-the-rundown-apple-warned-not-to-buy-chinese-chips-meta-faces-1-4-trillio-d4f769.md",
+    "transcript_word_count": 2302,
+    "transcript_language": "en"
   },
   {
     "guid": "463e78d4-99dd-11f1-9782-b3e881ad76fd",
@@ -173394,49 +173442,129 @@
     "duration": "2239",
     "audio_url": "https://traffic.megaphone.fm/RRM3355971159.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "energy",
+        "real-estate",
+        "private-markets"
+      ],
       "themes": [
-        "dealmaking"
+        "rates-fed",
+        "inflation",
+        "bond-market",
+        "housing",
+        "dealmaking",
+        "hedge-funds",
+        "labor-market",
+        "budgeting-saving",
+        "valuation"
       ],
       "stocks": [
         "microsoft",
-        "amazon",
-        "costco",
         "walmart",
-        "sp500"
+        "costco",
+        "amazon",
+        "nvidia",
+        "alphabet",
+        "nasdaq",
+        "amd",
+        "sp500",
+        "salesforce"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": -0.228,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "microsoft": 1,
-        "amazon": 1,
-        "costco": 1,
-        "walmart": 1,
-        "sp500": 1
+        "technology": 4,
+        "energy": 3,
+        "real-estate": 2,
+        "private-markets": 1,
+        "inflation": 4,
+        "rates-fed": 10,
+        "labor-market": 1,
+        "housing": 3,
+        "dealmaking": 3,
+        "bond-market": 4,
+        "hedge-funds": 2,
+        "budgeting-saving": 1,
+        "valuation": 1,
+        "nvidia": 3,
+        "microsoft": 6,
+        "alphabet": 2,
+        "amazon": 4,
+        "amd": 1,
+        "costco": 5,
+        "walmart": 6,
+        "sp500": 1,
+        "nasdaq": 2,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "dealmaking": 2.8,
-        "microsoft": 2.8,
-        "amazon": 2.8,
-        "costco": 2.8,
-        "walmart": 2.8,
-        "sp500": 2.8
+        "technology": 0.5,
+        "energy": 0.4,
+        "real-estate": 0.3,
+        "private-markets": 0.1,
+        "inflation": 0.5,
+        "rates-fed": 1.3,
+        "labor-market": 0.1,
+        "housing": 0.4,
+        "dealmaking": 0.4,
+        "bond-market": 0.5,
+        "hedge-funds": 0.3,
+        "budgeting-saving": 0.1,
+        "valuation": 0.1,
+        "nvidia": 0.4,
+        "microsoft": 0.8,
+        "alphabet": 0.3,
+        "amazon": 0.5,
+        "amd": 0.1,
+        "costco": 0.6,
+        "walmart": 0.8,
+        "sp500": 0.1,
+        "nasdaq": 0.3,
+        "salesforce": 0.1
       },
       "entity_sentiment": {
-        "dealmaking": 0.0,
+        "energy": 0.0,
+        "technology": 1.0,
+        "dealmaking": 0.333,
+        "rates-fed": -1.0,
+        "bond-market": -1.0,
         "sp500": -0.333,
         "costco": 0.0,
-        "walmart": 0.0,
+        "walmart": 0.333,
         "microsoft": 0.0,
-        "amazon": 0.0
+        "amazon": 0.5
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": 1.0,
+        "technology": -1.0,
+        "dealmaking": -1.0,
+        "rates-fed": -0.5,
+        "bond-market": -1.0,
+        "valuation": -1.0,
+        "labor-market": -1.0,
+        "hedge-funds": -1.0,
+        "costco": -0.167,
+        "walmart": -0.412,
+        "microsoft": -1.0,
+        "amazon": -1.0,
+        "salesforce": -1.0,
+        "alphabet": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "microsoft"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Energy & Oil, Real Estate, Interest Rates & Fed Policy, Inflation, Bond Market & Yields, Housing Market. Mentions Microsoft, Walmart, Costco, Amazon, Nvidia. Tone leans bearish (-0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-01-riskreversal-pod-the-tokenmaxxing-party-is-over-and-no-one-wants-to-admit-it-05e3b8.md",
+    "transcript_word_count": 7343,
+    "transcript_language": "en"
   },
   {
     "guid": "e551c6fa-0d26-4635-a54b-79b075c3aa46",
@@ -195558,40 +195686,105 @@
     "duration": "2861",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS8855224612.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-staples",
+        "semiconductors",
+        "consumer-discretionary"
+      ],
       "themes": [
-        "budgeting-saving",
         "recession",
-        "ai-boom"
+        "budgeting-saving",
+        "rates-fed",
+        "debt-payoff",
+        "inflation",
+        "labor-market",
+        "ai-boom",
+        "hedge-funds",
+        "market-timing-dca"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "alphabet",
+        "berkshire",
+        "costco"
       ],
-      "sentiment": -0.429,
-      "sentiment_hits": 7,
+      "sentiment": -0.585,
+      "sentiment_hits": 82,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "semiconductors": 1,
+        "consumer-discretionary": 1,
+        "consumer-staples": 2,
+        "inflation": 2,
+        "rates-fed": 4,
         "ai-boom": 1,
-        "recession": 5,
-        "budgeting-saving": 7,
-        "amazon": 1
+        "recession": 69,
+        "labor-market": 2,
+        "hedge-funds": 1,
+        "budgeting-saving": 37,
+        "debt-payoff": 4,
+        "market-timing-dca": 1,
+        "alphabet": 1,
+        "amazon": 3,
+        "berkshire": 1,
+        "costco": 1
       },
       "entity_mention_density": {
-        "ai-boom": 2.1,
-        "recession": 10.4,
-        "budgeting-saving": 14.5,
-        "amazon": 2.1
+        "semiconductors": 0.1,
+        "consumer-discretionary": 0.1,
+        "consumer-staples": 0.2,
+        "inflation": 0.2,
+        "rates-fed": 0.4,
+        "ai-boom": 0.1,
+        "recession": 7.3,
+        "labor-market": 0.2,
+        "hedge-funds": 0.1,
+        "budgeting-saving": 3.9,
+        "debt-payoff": 0.4,
+        "market-timing-dca": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.3,
+        "berkshire": 0.1,
+        "costco": 0.1
       },
       "entity_sentiment": {
-        "recession": -1.0,
-        "budgeting-saving": -1.0,
-        "amazon": 1.0
+        "consumer-discretionary": -0.333,
+        "consumer-staples": -1.0,
+        "semiconductors": -1.0,
+        "recession": -0.688,
+        "budgeting-saving": -0.634,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "labor-market": -1.0,
+        "debt-payoff": 0.0,
+        "market-timing-dca": -1.0,
+        "hedge-funds": -1.0,
+        "amazon": 0.0,
+        "costco": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "consumer-staples": 0.0,
+        "recession": -0.372,
+        "budgeting-saving": -0.333,
+        "inflation": -1.0,
+        "rates-fed": 1.0,
+        "labor-market": -0.167,
+        "berkshire": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "recession",
+        "budgeting-saving"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Staples, Semiconductors, Consumer Discretionary, Recession Risk, Budgeting & Saving, Interest Rates & Fed Policy, Debt Payoff. Mentions Amazon, Alphabet / Google, Berkshire Hathaway, Costco. Tone leans bearish (-0.58).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-19-the-investing-for-beginners-podcast-aar50-5-recession-preparations-without-the-panic-14e787.md",
+    "transcript_word_count": 8984,
+    "transcript_language": "en"
   },
   {
     "guid": "5e24575c-bfe5-11f0-8a48-6ffa4129dd28",
@@ -204021,36 +204214,63 @@
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/8770271d-665f-4211-bf65-ebe192bfc19f/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=8770271d-665f-4211-bf65-ebe192bfc19f&feed=hvWWWzRv&t=podcast&e=nx-s1-5819610&p=510289&d=1653&size=26457740",
     "tags": {
       "sectors": [
-        "energy"
+        "energy",
+        "banks",
+        "ai-infrastructure"
       ],
       "themes": [
-        "commodities"
+        "commodities",
+        "elections-politics",
+        "budgeting-saving",
+        "diversification"
       ],
       "stocks": [
         "meta",
         "chevron"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "energy": 6,
-        "commodities": 1,
+        "ai-infrastructure": 1,
+        "banks": 2,
+        "energy": 71,
+        "elections-politics": 1,
+        "commodities": 8,
+        "budgeting-saving": 1,
+        "diversification": 1,
         "meta": 1,
         "chevron": 1
       },
       "entity_mention_density": {
-        "energy": 25.6,
-        "commodities": 4.3,
-        "meta": 4.3,
-        "chevron": 4.3
+        "ai-infrastructure": 0.2,
+        "banks": 0.4,
+        "energy": 15.2,
+        "elections-politics": 0.2,
+        "commodities": 1.7,
+        "budgeting-saving": 0.2,
+        "diversification": 0.2,
+        "meta": 0.2,
+        "chevron": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 1.0,
+        "commodities": 1.0
+      },
+      "entity_conviction": {
+        "energy": -0.333,
+        "commodities": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Banks & Financials, AI Infrastructure, Commodities, Elections & Politics, Budgeting & Saving, Diversification & Asset Allocation. Mentions Meta, Chevron. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-planet-money-the-secret-meeting-that-launched-opec-f4b7d6.md",
+    "transcript_word_count": 4427,
+    "transcript_language": "en"
   },
   {
     "guid": "43f045ba-177b-4c09-8dc0-b4490158ed86",
