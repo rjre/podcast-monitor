@@ -94309,33 +94309,68 @@
     "duration": "6740",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML8113598415.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "banks"
+      ],
       "themes": [
         "budgeting-saving",
+        "rates-fed",
         "college-savings"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "bank-of-america",
+        "meta",
+        "verizon",
+        "walmart"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.429,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "real-estate": 3,
+        "private-markets": 3,
+        "rates-fed": 2,
+        "budgeting-saving": 15,
+        "college-savings": 2,
+        "amazon": 5,
+        "meta": 2,
+        "verizon": 2,
+        "bank-of-america": 3,
+        "walmart": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.6,
-        "college-savings": 1.6,
-        "meta": 3.2
+        "banks": 0.0,
+        "real-estate": 0.1,
+        "private-markets": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.7,
+        "college-savings": 0.1,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "verizon": 0.1,
+        "bank-of-america": 0.1,
+        "walmart": 0.0
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0,
+        "bank-of-america": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Banks & Financials, Budgeting & Saving, Interest Rates & Fed Policy, College Savings & Student Debt. Mentions Amazon, Bank of America, Meta, Verizon, Walmart. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-financial-audit-the-most-ghetto-financial-audit-ever-086eb0.md",
+    "transcript_word_count": 21347,
+    "transcript_language": "en"
   },
   {
     "guid": "5b31ef5a-8448-11f1-acfa-375c45bbe06a",
@@ -137676,40 +137711,125 @@
     "duration": "00:10:56",
     "audio_url": "https://traffic.megaphone.fm/APO3262576261.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "semiconductors"
+      ],
+      "themes": [
+        "rates-fed",
+        "elections-politics",
+        "inflation",
+        "earnings",
+        "labor-market",
+        "commodities",
+        "safe-havens",
+        "dealmaking",
+        "regulation-antitrust",
+        "bond-market",
+        "dividends-buybacks",
+        "small-caps-value-growth",
+        "diversification"
+      ],
       "stocks": [
-        "microstrategy",
         "bitcoin",
         "alphabet",
-        "nasdaq"
+        "microstrategy",
+        "nasdaq",
+        "nvidia",
+        "amazon",
+        "tesla",
+        "verizon",
+        "goldman-sachs"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.81,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "alphabet": 1,
-        "microstrategy": 2,
-        "bitcoin": 2,
-        "nasdaq": 1
+        "technology": 3,
+        "semiconductors": 1,
+        "inflation": 2,
+        "rates-fed": 15,
+        "labor-market": 1,
+        "elections-politics": 5,
+        "commodities": 1,
+        "safe-havens": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "bond-market": 1,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "nvidia": 1,
+        "alphabet": 4,
+        "amazon": 1,
+        "tesla": 1,
+        "verizon": 1,
+        "goldman-sachs": 1,
+        "microstrategy": 3,
+        "bitcoin": 16,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "alphabet": 7.8,
-        "microstrategy": 15.5,
-        "bitcoin": 15.5,
-        "nasdaq": 7.8
+        "technology": 1.4,
+        "semiconductors": 0.5,
+        "inflation": 0.9,
+        "rates-fed": 6.9,
+        "labor-market": 0.5,
+        "elections-politics": 2.3,
+        "commodities": 0.5,
+        "safe-havens": 0.5,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 0.5,
+        "earnings": 0.9,
+        "bond-market": 0.5,
+        "dividends-buybacks": 0.5,
+        "small-caps-value-growth": 0.5,
+        "diversification": 0.5,
+        "nvidia": 0.5,
+        "alphabet": 1.8,
+        "amazon": 0.5,
+        "tesla": 0.5,
+        "verizon": 0.5,
+        "goldman-sachs": 0.5,
+        "microstrategy": 1.4,
+        "bitcoin": 7.3,
+        "nasdaq": 0.9
       },
       "entity_sentiment": {
+        "technology": 0.429,
+        "semiconductors": 1.0,
+        "small-caps-value-growth": 0.0,
+        "earnings": 1.0,
+        "inflation": 1.0,
+        "safe-havens": 1.0,
+        "dealmaking": 1.0,
+        "diversification": 1.0,
         "microstrategy": 1.0,
         "bitcoin": 1.0,
         "alphabet": 1.0,
-        "nasdaq": 1.0
+        "nasdaq": 1.0,
+        "nvidia": 0.333,
+        "amazon": 0.333,
+        "tesla": 0.333,
+        "goldman-sachs": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "elections-politics": -1.0,
+        "dividends-buybacks": -1.0,
+        "bitcoin": -1.0,
+        "nasdaq": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Interest Rates & Fed Policy, Elections & Politics, Inflation, Corporate Earnings. Mentions Bitcoin, Alphabet / Google, MicroStrategy / Strategy, Nasdaq, Nvidia. Tone leans bullish (+0.81).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-the-rundown-michael-saylor-forced-to-sell-bitcoin-supreme-court-defends-b88d61.md",
+    "transcript_word_count": 2051,
+    "transcript_language": "en"
   },
   {
     "guid": "532910c4-743d-11f1-b7dc-b31915c88b79",
@@ -176562,41 +176682,63 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/ae036b67-be2e-4952-bcb3-50fe12220f07.mp3?source=feed",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "consumer-discretionary",
+        "energy"
       ],
       "themes": [
         "inflation",
-        "rates-fed"
+        "dividends-buybacks",
+        "rates-fed",
+        "commodities",
+        "diversification",
+        "tax-planning"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.375,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "inflation": 1,
-        "rates-fed": 1,
-        "nasdaq": 1
+        "energy": 2,
+        "consumer-discretionary": 4,
+        "inflation": 6,
+        "rates-fed": 2,
+        "commodities": 2,
+        "dividends-buybacks": 6,
+        "diversification": 1,
+        "tax-planning": 1,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "consumer-discretionary": 5.5,
-        "inflation": 5.5,
-        "rates-fed": 5.5,
-        "nasdaq": 5.5
+        "energy": 1.0,
+        "consumer-discretionary": 2.0,
+        "inflation": 3.0,
+        "rates-fed": 1.0,
+        "commodities": 1.0,
+        "dividends-buybacks": 3.0,
+        "diversification": 0.5,
+        "tax-planning": 0.5,
+        "nasdaq": 1.0
       },
       "entity_sentiment": {
         "consumer-discretionary": 1.0,
         "rates-fed": 0.0,
         "inflation": 1.0,
+        "dividends-buybacks": 1.0,
         "nasdaq": 0.0
       },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Energy & Oil, Inflation, Dividends & Buybacks, Interest Rates & Fed Policy, Commodities. Mentions Nasdaq. Tone leans bullish (+0.38).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-11-the-dividend-cafe-thursday-june-11-2026-5a2a74.md",
+    "transcript_word_count": 1834,
+    "transcript_language": "en"
   },
   {
     "guid": "2b35240e-bdae-4f90-bb05-51b08bb1365e",
