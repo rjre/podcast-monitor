@@ -53872,50 +53872,108 @@
     "audio_url": "https://traffic.megaphone.fm/RRM3939580470.mp3",
     "tags": {
       "sectors": [
+        "technology",
         "ai-infrastructure",
         "semiconductors",
-        "crypto"
+        "private-markets",
+        "crypto",
+        "banks",
+        "consumer-discretionary",
+        "telecoms"
       ],
       "themes": [
         "dealmaking",
-        "behavioral-finance",
-        "diversification"
+        "diversification",
+        "ai-boom",
+        "behavioral-finance"
       ],
       "stocks": [
-        "nvidia"
+        "amazon",
+        "salesforce",
+        "nvidia",
+        "alphabet",
+        "nasdaq",
+        "broadcom"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.429,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "ai-infrastructure": 2,
-        "crypto": 1,
-        "dealmaking": 1,
+        "technology": 9,
+        "semiconductors": 6,
+        "ai-infrastructure": 8,
+        "banks": 1,
+        "consumer-discretionary": 1,
+        "telecoms": 1,
+        "crypto": 2,
+        "private-markets": 6,
+        "ai-boom": 1,
+        "dealmaking": 3,
         "behavioral-finance": 1,
-        "diversification": 1,
-        "nvidia": 1
+        "diversification": 2,
+        "nvidia": 6,
+        "alphabet": 5,
+        "amazon": 7,
+        "nasdaq": 1,
+        "salesforce": 7,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "semiconductors": 3.0,
-        "ai-infrastructure": 6.0,
-        "crypto": 3.0,
-        "dealmaking": 3.0,
-        "behavioral-finance": 3.0,
-        "diversification": 3.0,
-        "nvidia": 3.0
+        "technology": 1.0,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 0.9,
+        "banks": 0.1,
+        "consumer-discretionary": 0.1,
+        "telecoms": 0.1,
+        "crypto": 0.2,
+        "private-markets": 0.7,
+        "ai-boom": 0.1,
+        "dealmaking": 0.3,
+        "behavioral-finance": 0.1,
+        "diversification": 0.2,
+        "nvidia": 0.7,
+        "alphabet": 0.5,
+        "amazon": 0.8,
+        "nasdaq": 0.1,
+        "salesforce": 0.8,
+        "broadcom": 0.1
       },
       "entity_sentiment": {
         "semiconductors": 1.0,
         "ai-infrastructure": 1.0,
+        "technology": 1.0,
         "diversification": 1.0,
-        "nvidia": 1.0
+        "nvidia": 1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -0.762,
+        "ai-infrastructure": -0.787,
+        "technology": -1.0,
+        "private-markets": -1.0,
+        "banks": -0.73,
+        "diversification": -0.73,
+        "dealmaking": -1.0,
+        "ai-boom": -1.0,
+        "nvidia": -0.825,
+        "alphabet": -0.762,
+        "amazon": -0.808,
+        "broadcom": -0.73,
+        "nasdaq": -1.0,
+        "salesforce": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Semiconductors, IPOs & Dealmaking, Diversification & Asset Allocation, AI & Machine Learning, Behavioral Finance & Psychology. Mentions Amazon, Salesforce, Nvidia, Alphabet / Google, Nasdaq. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-riskreversal-pod-the-ai-fomo-feeding-frenzy-with-amish-jani-of-firstmark-capi-bd3656.md",
+    "transcript_word_count": 8776,
+    "transcript_language": "en"
   },
   {
     "guid": "90548e24-8b1c-11f1-904e-03464054727c",
@@ -120302,25 +120360,29 @@
       "sectors": [],
       "themes": [
         "college-savings",
-        "budgeting-saving",
         "debt-payoff",
+        "budgeting-saving",
         "career-income"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "debt-payoff": 2,
+        "budgeting-saving": 7,
+        "debt-payoff": 8,
         "career-income": 1,
-        "college-savings": 3
+        "college-savings": 12,
+        "alphabet": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 7.9,
-        "debt-payoff": 7.9,
-        "career-income": 4.0,
-        "college-savings": 11.9
+        "budgeting-saving": 3.8,
+        "debt-payoff": 4.3,
+        "career-income": 0.5,
+        "college-savings": 6.5,
+        "alphabet": 0.5
       },
       "entity_sentiment": {
         "debt-payoff": 1.0,
@@ -120332,7 +120394,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on College Savings & Student Debt, Debt Payoff, Budgeting & Saving, Career & Income Growth. Mentions Alphabet / Google. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-04-optimal-finance-daily-3617-how-we-paid-off-17-000-in-student-loan-debt-in-just-54-7a87e4.md",
+    "transcript_word_count": 1597,
+    "transcript_language": "en"
   },
   {
     "guid": "https://www.theretirementandirashow.com/?p=5346",
@@ -192950,26 +193018,51 @@
     "duration": "2141",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/9badf7b4-5d50-4584-8410-c616ac8e0b77/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=9badf7b4-5d50-4584-8410-c616ac8e0b77&feed=hvWWWzRv&t=podcast&e=nx-s1-5836552&p=510289&d=2141&size=34262710",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "industrials",
+        "insurance"
+      ],
+      "themes": [
+        "elections-politics",
+        "regulation-antitrust",
+        "geopolitics-tariffs"
+      ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 1,
+        "industrials": 2,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 4,
+        "regulation-antitrust": 3,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 3.7
+        "insurance": 0.2,
+        "industrials": 0.3,
+        "geopolitics-tariffs": 0.3,
+        "elections-politics": 0.7,
+        "regulation-antitrust": 0.5,
+        "meta": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "elections-politics": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Insurance, Elections & Politics, Regulation & Antitrust, Geopolitics & Tariffs. Mentions Meta. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-planet-money-the-sneaky-way-companies-get-new-chemicals-into-our-food-0fb9f8.md",
+    "transcript_word_count": 5831,
+    "transcript_language": "en"
   },
   {
     "guid": "9cb83482-5b91-11f1-a111-2fa84bd30eb9",
@@ -236154,38 +236247,138 @@
     "duration": "3359",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/558f8dc9-ccd2-4674-b718-b41e0155c31e/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "crypto",
+        "technology",
+        "media-entertainment"
+      ],
       "themes": [
         "inflation",
+        "diversification",
+        "market-timing-dca",
+        "rates-fed",
+        "recession",
+        "budgeting-saving",
+        "behavioral-finance",
+        "passive-investing",
+        "housing",
         "volatility",
-        "fire-movement"
+        "debt-payoff",
+        "fire-movement",
+        "small-caps-value-growth",
+        "estate-planning"
       ],
       "stocks": [
-        "meta"
+        "berkshire",
+        "nvidia",
+        "amazon",
+        "meta",
+        "tesla",
+        "vanguard",
+        "netflix"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.32,
+      "sentiment_hits": 46,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
+        "technology": 1,
+        "real-estate": 3,
+        "media-entertainment": 1,
+        "crypto": 2,
+        "inflation": 40,
+        "rates-fed": 5,
+        "recession": 3,
+        "housing": 1,
         "volatility": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 3,
+        "debt-payoff": 1,
         "fire-movement": 1,
-        "meta": 1
+        "behavioral-finance": 3,
+        "small-caps-value-growth": 1,
+        "diversification": 6,
+        "estate-planning": 1,
+        "market-timing-dca": 6,
+        "nvidia": 1,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 1,
+        "berkshire": 3,
+        "vanguard": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "inflation": 2.2,
-        "volatility": 2.2,
-        "fire-movement": 2.2,
-        "meta": 2.2
+        "technology": 0.1,
+        "real-estate": 0.2,
+        "media-entertainment": 0.1,
+        "crypto": 0.2,
+        "inflation": 3.2,
+        "rates-fed": 0.4,
+        "recession": 0.2,
+        "housing": 0.1,
+        "volatility": 0.1,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "behavioral-finance": 0.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.5,
+        "estate-planning": 0.1,
+        "market-timing-dca": 0.5,
+        "nvidia": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "berkshire": 0.2,
+        "vanguard": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
-        "inflation": -1.0
+        "real-estate": -1.0,
+        "media-entertainment": -1.0,
+        "technology": -0.818,
+        "inflation": 0.667,
+        "recession": -1.0,
+        "housing": -1.0,
+        "market-timing-dca": 1.0,
+        "passive-investing": 1.0,
+        "behavioral-finance": 0.2
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "crypto": -1.0,
+        "media-entertainment": -1.0,
+        "technology": -1.0,
+        "inflation": -1.0,
+        "recession": -1.0,
+        "rates-fed": -1.0,
+        "housing": -1.0,
+        "diversification": -1.0,
+        "small-caps-value-growth": -1.0,
+        "market-timing-dca": -1.0,
+        "passive-investing": -1.0,
+        "budgeting-saving": -1.0,
+        "debt-payoff": -1.0,
+        "behavioral-finance": -1.0,
+        "nvidia": -1.0,
+        "tesla": -1.0,
+        "vanguard": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "behavioral-finance"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Technology, Inflation, Diversification & Asset Allocation, Market Timing & Dollar-Cost Averaging, Interest Rates & Fed Policy. Mentions Berkshire Hathaway, Nvidia, Amazon, Meta, Tesla. Tone leans bearish (-0.32).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-how-to-money-building-wealth-when-markets-get-messy-w-ben-carlson-1136-55c31e.md",
+    "transcript_word_count": 12055,
+    "transcript_language": "en"
   },
   {
     "guid": "62259ec7-8e93-45aa-bbe6-9044981fd052",
