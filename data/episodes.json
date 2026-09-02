@@ -75172,30 +75172,79 @@
     "duration": "6121",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML7500915846.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "healthcare",
+        "private-markets",
+        "ai-infrastructure"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "geopolitics-tariffs",
+        "rates-fed",
+        "elections-politics",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "alphabet",
+        "meta",
+        "tesla",
+        "netflix"
       ],
       "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "meta": 2
+        "ai-infrastructure": 1,
+        "healthcare": 3,
+        "real-estate": 6,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 1,
+        "budgeting-saving": 13,
+        "debt-payoff": 1,
+        "alphabet": 4,
+        "amazon": 6,
+        "meta": 2,
+        "tesla": 2,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.9,
-        "meta": 3.9
+        "ai-infrastructure": 0.0,
+        "healthcare": 0.1,
+        "real-estate": 0.3,
+        "private-markets": 0.1,
+        "rates-fed": 0.0,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.0,
+        "budgeting-saving": 0.6,
+        "debt-payoff": 0.0,
+        "alphabet": 0.2,
+        "amazon": 0.3,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "netflix": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "debt-payoff": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Private Equity & Credit, Budgeting & Saving, Geopolitics & Tariffs, Interest Rates & Fed Policy, Elections & Politics. Mentions Amazon, Alphabet / Google, Meta, Tesla, Netflix. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-financial-audit-financial-audit-s-biggest-piece-of-sh-t-374851.md",
+    "transcript_word_count": 19623,
+    "transcript_language": "en"
   },
   {
     "guid": "c9fcdf8a-758a-42ce-8ab8-a9960765d712",
@@ -115956,30 +116005,47 @@
         "real-estate"
       ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "budgeting-saving",
+        "retirement-planning",
+        "real-estate-investing"
       ],
       "stocks": [
         "amazon"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "real-estate": 1,
-        "fire-movement": 1,
-        "amazon": 2
+        "real-estate": 4,
+        "budgeting-saving": 2,
+        "fire-movement": 3,
+        "retirement-planning": 1,
+        "real-estate-investing": 1,
+        "amazon": 3
       },
       "entity_mention_density": {
-        "real-estate": 4.4,
-        "fire-movement": 4.4,
-        "amazon": 8.8
+        "real-estate": 2.0,
+        "budgeting-saving": 1.0,
+        "fire-movement": 1.5,
+        "retirement-planning": 0.5,
+        "real-estate-investing": 0.5,
+        "amazon": 1.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "fire-movement": 0.429
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Financial Independence / FIRE, Budgeting & Saving, Retirement Planning, Real Estate Investing. Mentions Amazon. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-05-optimal-finance-daily-3619-what-are-your-money-milestones-by-esi-on-financial-mile-26a09e.md",
+    "transcript_word_count": 1798,
+    "transcript_language": "en"
   },
   {
     "guid": "6e7c9486-7159-11f1-9208-336214e0aeeb",
@@ -127753,53 +127819,177 @@
     "audio_url": "https://traffic.megaphone.fm/RRM2973791131.mp3",
     "tags": {
       "sectors": [
+        "energy",
         "ai-infrastructure",
-        "energy"
+        "banks",
+        "crypto",
+        "semiconductors",
+        "airlines-travel",
+        "technology"
       ],
       "themes": [
+        "dealmaking",
         "labor-market",
-        "dealmaking"
+        "bond-market",
+        "rates-fed",
+        "elections-politics",
+        "geopolitics-tariffs",
+        "valuation",
+        "inflation",
+        "regulation-antitrust",
+        "hedge-funds",
+        "dividends-buybacks",
+        "behavioral-finance"
       ],
       "stocks": [
         "microsoft",
+        "bitcoin",
+        "nvidia",
+        "alphabet",
+        "morgan-stanley",
+        "netflix",
+        "tesla",
+        "amd",
         "micron",
         "palantir",
-        "bitcoin"
+        "jpmorgan",
+        "goldman-sachs",
+        "silicon-valley-bank",
+        "microstrategy",
+        "ethereum",
+        "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.302,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "energy": 1,
-        "labor-market": 1,
-        "dealmaking": 1,
-        "microsoft": 1,
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 4,
+        "banks": 4,
+        "energy": 6,
+        "airlines-travel": 2,
+        "crypto": 3,
+        "inflation": 1,
+        "rates-fed": 3,
+        "geopolitics-tariffs": 2,
+        "labor-market": 4,
+        "elections-politics": 3,
+        "dealmaking": 5,
+        "regulation-antitrust": 1,
+        "bond-market": 4,
+        "hedge-funds": 1,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "behavioral-finance": 1,
+        "nvidia": 4,
+        "microsoft": 9,
+        "alphabet": 3,
+        "tesla": 1,
+        "amd": 1,
         "micron": 1,
         "palantir": 1,
-        "bitcoin": 1
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 2,
+        "silicon-valley-bank": 1,
+        "microstrategy": 1,
+        "bitcoin": 7,
+        "ethereum": 1,
+        "nasdaq": 1,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "ai-infrastructure": 2.9,
-        "energy": 2.9,
-        "labor-market": 2.9,
-        "dealmaking": 2.9,
-        "microsoft": 2.9,
-        "micron": 2.9,
-        "palantir": 2.9,
-        "bitcoin": 2.9
+        "technology": 0.1,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.5,
+        "banks": 0.5,
+        "energy": 0.7,
+        "airlines-travel": 0.2,
+        "crypto": 0.4,
+        "inflation": 0.1,
+        "rates-fed": 0.4,
+        "geopolitics-tariffs": 0.2,
+        "labor-market": 0.5,
+        "elections-politics": 0.4,
+        "dealmaking": 0.6,
+        "regulation-antitrust": 0.1,
+        "bond-market": 0.5,
+        "hedge-funds": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.2,
+        "behavioral-finance": 0.1,
+        "nvidia": 0.5,
+        "microsoft": 1.1,
+        "alphabet": 0.4,
+        "tesla": 0.1,
+        "amd": 0.1,
+        "micron": 0.1,
+        "palantir": 0.1,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.2,
+        "silicon-valley-bank": 0.1,
+        "microstrategy": 0.1,
+        "bitcoin": 0.8,
+        "ethereum": 0.1,
+        "nasdaq": 0.1,
+        "netflix": 0.2
       },
       "entity_sentiment": {
+        "ai-infrastructure": 1.0,
         "energy": -1.0,
+        "banks": -1.0,
+        "technology": -0.556,
+        "crypto": 1.0,
         "labor-market": -1.0,
         "dealmaking": -1.0,
-        "bitcoin": -1.0
+        "microsoft": 1.0,
+        "bitcoin": 0.0,
+        "nvidia": -0.333,
+        "amd": -0.333,
+        "morgan-stanley": -1.0,
+        "goldman-sachs": -1.0,
+        "silicon-valley-bank": -0.556
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "energy": -1.0,
+        "airlines-travel": -0.429,
+        "banks": -1.0,
+        "technology": -1.0,
+        "labor-market": 0.0,
+        "dealmaking": -1.0,
+        "bond-market": -0.667,
+        "behavioral-finance": -1.0,
+        "hedge-funds": -1.0,
+        "valuation": -1.0,
+        "elections-politics": -1.0,
+        "rates-fed": -1.0,
+        "microsoft": -1.0,
+        "bitcoin": -1.0,
+        "nvidia": -1.0,
+        "amd": -1.0,
+        "nasdaq": -1.0,
+        "alphabet": -1.0,
+        "morgan-stanley": -1.0,
+        "goldman-sachs": -1.0,
+        "silicon-valley-bank": -1.0,
+        "microstrategy": -1.0,
+        "ethereum": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "bitcoin"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, AI Infrastructure, Banks & Financials, IPOs & Dealmaking, Labor Market, Bond Market & Yields, Interest Rates & Fed Policy. Mentions Microsoft, Bitcoin, Nvidia, Alphabet / Google, Morgan Stanley. Tone leans bearish (-0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-riskreversal-pod-bull-markets-die-on-euphoria-are-we-finally-there-6e1311.md",
+    "transcript_word_count": 8154,
+    "transcript_language": "en"
   },
   {
     "guid": "1ea436a0-051a-421d-b50f-4f86e4195888",
@@ -223015,29 +223205,113 @@
     "duration": "5579",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC8807591924.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "ai-infrastructure",
+        "airlines-travel",
+        "semiconductors"
+      ],
+      "themes": [
+        "ai-boom",
+        "market-concentration",
+        "dealmaking",
+        "dividends-buybacks",
+        "labor-market",
+        "earnings",
+        "real-estate-investing"
+      ],
       "stocks": [
         "microsoft",
-        "meta"
+        "alphabet",
+        "amazon",
+        "netflix",
+        "salesforce",
+        "nvidia",
+        "meta",
+        "verizon",
+        "disney"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.089,
+      "sentiment_hits": 22,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "microsoft": 8,
-        "meta": 1
+        "technology": 12,
+        "semiconductors": 5,
+        "ai-infrastructure": 6,
+        "airlines-travel": 6,
+        "ai-boom": 4,
+        "labor-market": 1,
+        "dealmaking": 3,
+        "earnings": 1,
+        "real-estate-investing": 1,
+        "dividends-buybacks": 2,
+        "market-concentration": 4,
+        "nvidia": 2,
+        "microsoft": 191,
+        "alphabet": 52,
+        "amazon": 20,
+        "meta": 1,
+        "verizon": 1,
+        "netflix": 4,
+        "disney": 1,
+        "salesforce": 3
       },
       "entity_mention_density": {
-        "microsoft": 23.6,
-        "meta": 2.9
+        "technology": 0.7,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.3,
+        "airlines-travel": 0.3,
+        "ai-boom": 0.2,
+        "labor-market": 0.1,
+        "dealmaking": 0.2,
+        "earnings": 0.1,
+        "real-estate-investing": 0.1,
+        "dividends-buybacks": 0.1,
+        "market-concentration": 0.2,
+        "nvidia": 0.1,
+        "microsoft": 11.0,
+        "alphabet": 3.0,
+        "amazon": 1.2,
+        "meta": 0.1,
+        "verizon": 0.1,
+        "netflix": 0.2,
+        "disney": 0.1,
+        "salesforce": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": 1.0,
+        "market-concentration": 1.0,
+        "microsoft": 0.194,
+        "alphabet": 0.333,
+        "netflix": -0.429
+      },
+      "entity_conviction": {
+        "technology": -0.714,
+        "semiconductors": -0.333,
+        "market-concentration": -0.667,
+        "labor-market": -1.0,
+        "dealmaking": -1.0,
+        "real-estate-investing": -0.765,
+        "earnings": -1.0,
+        "microsoft": -0.554,
+        "alphabet": -0.462,
+        "amazon": -0.667,
+        "netflix": -0.167,
+        "salesforce": -1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "microsoft"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Airlines & Travel, AI & Machine Learning, Market Concentration / Mega-cap, IPOs & Dealmaking, Dividends & Buybacks. Mentions Microsoft, Alphabet / Google, Amazon, Netflix, Salesforce. Tone reads roughly neutral (-0.09).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-10-the-intrinsic-value-podcast-tivp070-video-microsoft-msft-is-microsoft-a-misunderstood-ai-ff6a9e.md",
+    "transcript_word_count": 17023,
+    "transcript_language": "en"
   },
   {
     "guid": "121b4a90-44b1-11f1-adef-93f0b9e77160",
