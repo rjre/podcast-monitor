@@ -42285,26 +42285,163 @@
     "duration": "00:44:13",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/316b69fb-bd33-486d-9337-d908c1fcf3ad/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=316b69fb-bd33-486d-9337-d908c1fcf3ad&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "nvidia"
+      "sectors": [
+        "private-markets",
+        "consumer-discretionary",
+        "technology",
+        "ai-infrastructure",
+        "energy",
+        "defense-aerospace",
+        "semiconductors",
+        "banks"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "dealmaking",
+        "rates-fed",
+        "dividends-buybacks",
+        "commodities",
+        "hedge-funds",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "earnings",
+        "consumer-health",
+        "budgeting-saving",
+        "retirement-planning",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "nvidia",
+        "qualcomm",
+        "alphabet",
+        "cisco",
+        "morgan-stanley",
+        "microsoft",
+        "amazon",
+        "jpmorgan",
+        "goldman-sachs",
+        "blackrock",
+        "robinhood",
+        "paypal"
+      ],
+      "sentiment": 0.158,
+      "sentiment_hits": 38,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "nvidia": 1
+        "technology": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "banks": 1,
+        "energy": 2,
+        "consumer-discretionary": 3,
+        "defense-aerospace": 2,
+        "private-markets": 4,
+        "inflation": 10,
+        "rates-fed": 6,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 1,
+        "commodities": 2,
+        "dealmaking": 7,
+        "earnings": 1,
+        "hedge-funds": 2,
+        "consumer-health": 1,
+        "budgeting-saving": 1,
+        "retirement-planning": 1,
+        "dividends-buybacks": 6,
+        "market-timing-dca": 1,
+        "nvidia": 6,
+        "microsoft": 1,
+        "alphabet": 2,
+        "amazon": 1,
+        "cisco": 2,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 2,
+        "blackrock": 1,
+        "robinhood": 1,
+        "paypal": 1,
+        "qualcomm": 3
       },
       "entity_mention_density": {
-        "nvidia": 17.5
+        "technology": 0.3,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.3,
+        "banks": 0.1,
+        "energy": 0.3,
+        "consumer-discretionary": 0.4,
+        "defense-aerospace": 0.3,
+        "private-markets": 0.5,
+        "inflation": 1.3,
+        "rates-fed": 0.8,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 0.3,
+        "dealmaking": 0.9,
+        "earnings": 0.1,
+        "hedge-funds": 0.3,
+        "consumer-health": 0.1,
+        "budgeting-saving": 0.1,
+        "retirement-planning": 0.1,
+        "dividends-buybacks": 0.8,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.8,
+        "microsoft": 0.1,
+        "alphabet": 0.3,
+        "amazon": 0.1,
+        "cisco": 0.3,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.3,
+        "blackrock": 0.1,
+        "robinhood": 0.1,
+        "paypal": 0.1,
+        "qualcomm": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "energy": 1.0,
+        "ai-infrastructure": 1.0,
+        "consumer-discretionary": 1.0,
+        "inflation": -0.333,
+        "geopolitics-tariffs": 1.0,
+        "commodities": 1.0,
+        "rates-fed": -1.0,
+        "ai-boom": -1.0,
+        "market-timing-dca": 1.0,
+        "elections-politics": -1.0,
+        "nvidia": -1.0,
+        "blackrock": -1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "consumer-discretionary": -1.0,
+        "inflation": -1.0,
+        "hedge-funds": -1.0,
+        "commodities": -1.0,
+        "rates-fed": -1.0,
+        "ai-boom": -1.0,
+        "dealmaking": -1.0,
+        "dividends-buybacks": -1.0,
+        "nvidia": -0.6,
+        "microsoft": -1.0,
+        "qualcomm": -1.0
+      },
+      "entity_stance": {
+        "market-timing-dca": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Consumer Discretionary, Technology, Inflation, IPOs & Dealmaking, Interest Rates & Fed Policy, Dividends & Buybacks. Mentions Nvidia, Qualcomm, Alphabet / Google, Cisco, Morgan Stanley. Tone leans bullish (+0.16).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-11-halftime-report-the-market-bull-run-continues-the-committee-s-next-move-8-11-db40d4.md",
+    "transcript_word_count": 7857,
+    "transcript_language": "en"
   },
   {
     "guid": "9733f559-b702-4b0a-a927-b4a3011323fd",
@@ -115129,30 +115266,65 @@
     "duration": "2232",
     "audio_url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510362/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/4586ba03-099f-4572-bec4-373256ae6223/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=4586ba03-099f-4572-bec4-373256ae6223&feed=hvWWWzRv&t=podcast&e=nx-s1-5884062&p=510362&d=2232&size=35715535",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy",
+        "real-estate"
+      ],
       "themes": [
-        "inflation"
+        "inflation",
+        "rates-fed",
+        "regulation-antitrust",
+        "recession",
+        "elections-politics"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "robinhood"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.375,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 2,
-        "meta": 1
+        "energy": 1,
+        "real-estate": 1,
+        "inflation": 54,
+        "rates-fed": 3,
+        "recession": 1,
+        "elections-politics": 1,
+        "regulation-antitrust": 2,
+        "meta": 1,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "inflation": 6.0,
-        "meta": 3.0
+        "energy": 0.1,
+        "real-estate": 0.1,
+        "inflation": 8.0,
+        "rates-fed": 0.4,
+        "recession": 0.1,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.3,
+        "meta": 0.1,
+        "robinhood": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "inflation": 1.0,
+        "regulation-antitrust": -1.0,
+        "recession": 1.0
+      },
+      "entity_conviction": {
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, Inflation, Interest Rates & Fed Policy, Regulation & Antitrust, Recession Risk. Mentions Meta, Robinhood. Tone leans bearish (-0.38).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-planet-money-our-mission-find-the-world-s-best-economic-ideas-summer-scho-b22fd7.md",
+    "transcript_word_count": 6391,
+    "transcript_language": "en"
   },
   {
     "guid": "be8f254a-715b-11f1-bae9-93f6de9f6356",
@@ -210972,26 +211144,41 @@
     "duration": "552",
     "audio_url": "https://traffic.megaphone.fm/OLD6224162022.mp3?updated=1778525311",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "budgeting-saving"
       ],
       "stocks": [],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "fire-movement": 6
+        "real-estate": 3,
+        "budgeting-saving": 5,
+        "fire-movement": 16
       },
       "entity_mention_density": {
-        "fire-movement": 35.5
+        "real-estate": 1.7,
+        "budgeting-saving": 2.8,
+        "fire-movement": 9.0
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Financial Independence / FIRE, Budgeting & Saving. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-optimal-finance-daily-3567-want-to-retire-early-focus-on-this-rate-by-christina-br-ba2dba.md",
+    "transcript_word_count": 1611,
+    "transcript_language": "en"
   },
   {
     "guid": "fdcfea62-d791-4624-a1b8-948b6b31558a",
