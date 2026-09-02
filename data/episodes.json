@@ -89978,23 +89978,49 @@
       "sectors": [
         "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "budgeting-saving",
+        "fire-movement",
+        "college-savings",
+        "rates-fed",
+        "housing"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "real-estate": 1
+        "real-estate": 7,
+        "rates-fed": 1,
+        "housing": 1,
+        "budgeting-saving": 2,
+        "fire-movement": 2,
+        "college-savings": 2
       },
       "entity_mention_density": {
-        "real-estate": 1.4
+        "real-estate": 0.4,
+        "rates-fed": 0.1,
+        "housing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "college-savings": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0,
+        "college-savings": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving, Financial Independence / FIRE, College Savings & Student Debt, Interest Rates & Fed Policy. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-stacking-benjamins-ryan-hawk-on-how-ordinary-people-become-exceptional-and-the-Wn9E7E.md",
+    "transcript_word_count": 15177,
+    "transcript_language": "en"
   },
   {
     "guid": "0eb18605-fae7-48f6-a341-b4860152651a",
@@ -140724,20 +140750,133 @@
     "duration": "00:42:45",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/77d36c6c-0fd0-4559-8324-22039911370d/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=77d36c6c-0fd0-4559-8324-22039911370d&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "energy",
+        "healthcare",
+        "private-markets"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "labor-market",
+        "dealmaking",
+        "elections-politics",
+        "bond-market",
+        "market-concentration",
+        "geopolitics-tariffs",
+        "commodities",
+        "regulation-antitrust",
+        "budgeting-saving",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "nasdaq",
+        "alphabet",
+        "microsoft",
+        "amazon",
+        "meta",
+        "tesla",
+        "micron"
+      ],
+      "sentiment": -0.163,
+      "sentiment_hits": 30,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 5,
+        "semiconductors": 10,
+        "ai-infrastructure": 11,
+        "energy": 3,
+        "healthcare": 2,
+        "private-markets": 1,
+        "inflation": 6,
+        "rates-fed": 7,
+        "geopolitics-tariffs": 1,
+        "labor-market": 5,
+        "elections-politics": 2,
+        "commodities": 1,
+        "dealmaking": 4,
+        "regulation-antitrust": 1,
+        "bond-market": 2,
+        "budgeting-saving": 1,
+        "market-concentration": 2,
+        "small-caps-value-growth": 1,
+        "microsoft": 4,
+        "alphabet": 8,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 1,
+        "micron": 1,
+        "nasdaq": 10
+      },
+      "entity_mention_density": {
+        "technology": 0.6,
+        "semiconductors": 1.2,
+        "ai-infrastructure": 1.3,
+        "energy": 0.4,
+        "healthcare": 0.2,
+        "private-markets": 0.1,
+        "inflation": 0.7,
+        "rates-fed": 0.8,
+        "geopolitics-tariffs": 0.1,
+        "labor-market": 0.6,
+        "elections-politics": 0.2,
+        "commodities": 0.1,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 0.1,
+        "bond-market": 0.2,
+        "budgeting-saving": 0.1,
+        "market-concentration": 0.2,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.5,
+        "alphabet": 1.0,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "micron": 0.1,
+        "nasdaq": 1.2
+      },
+      "entity_sentiment": {
+        "semiconductors": -0.5,
+        "technology": -0.333,
+        "ai-infrastructure": 0.286,
+        "bond-market": 1.0,
+        "dealmaking": 0.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "labor-market": 0.0,
+        "market-concentration": 0.0,
+        "nasdaq": 0.364,
+        "tesla": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "energy": -1.0,
+        "ai-infrastructure": -0.75,
+        "private-markets": -1.0,
+        "dealmaking": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "labor-market": -1.0,
+        "commodities": -1.0,
+        "nasdaq": -1.0,
+        "alphabet": -1.0,
+        "microsoft": -1.0,
+        "micron": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, Interest Rates & Fed Policy, Inflation, Labor Market, IPOs & Dealmaking. Mentions Nasdaq, Alphabet / Google, Microsoft, Amazon, Meta. Tone leans bearish (-0.16).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-morning-call-tracking-losses-on-spacex-s-new-debt-growing-demand-for-defe-53d748.md",
+    "transcript_word_count": 8249,
+    "transcript_language": "en"
   },
   {
     "guid": "189ef7db-970e-481b-937d-93904704a1c5",
@@ -181462,36 +181601,101 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/cf172313-a5e4-49f6-86ae-b4470157f859/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "industrials",
+        "airlines-travel"
       ],
       "themes": [
+        "inflation",
         "geopolitics-tariffs",
-        "fire-movement"
+        "housing",
+        "recession",
+        "labor-market",
+        "diversification",
+        "rates-fed",
+        "fire-movement",
+        "real-estate-investing",
+        "behavioral-finance"
       ],
       "stocks": [
+        "berkshire",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.183,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "geopolitics-tariffs": 1,
+        "real-estate": 23,
+        "industrials": 4,
+        "airlines-travel": 2,
+        "inflation": 11,
+        "rates-fed": 1,
+        "recession": 3,
+        "geopolitics-tariffs": 9,
+        "labor-market": 2,
+        "housing": 7,
         "fire-movement": 1,
-        "meta": 1
+        "real-estate-investing": 1,
+        "behavioral-finance": 1,
+        "diversification": 2,
+        "meta": 1,
+        "berkshire": 2
       },
       "entity_mention_density": {
-        "real-estate": 2.6,
-        "geopolitics-tariffs": 2.6,
-        "fire-movement": 2.6,
-        "meta": 2.6
+        "real-estate": 2.0,
+        "industrials": 0.4,
+        "airlines-travel": 0.2,
+        "inflation": 1.0,
+        "rates-fed": 0.1,
+        "recession": 0.3,
+        "geopolitics-tariffs": 0.8,
+        "labor-market": 0.2,
+        "housing": 0.6,
+        "fire-movement": 0.1,
+        "real-estate-investing": 0.1,
+        "behavioral-finance": 0.1,
+        "diversification": 0.2,
+        "meta": 0.1,
+        "berkshire": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -0.6,
+        "industrials": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "inflation": -0.538,
+        "housing": -0.429,
+        "recession": -0.778,
+        "labor-market": -0.778
+      },
+      "entity_conviction": {
+        "real-estate": -0.787,
+        "industrials": -1.0,
+        "airlines-travel": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "inflation": -0.748,
+        "rates-fed": -0.556,
+        "housing": -0.742,
+        "recession": -0.804,
+        "labor-market": -0.804,
+        "diversification": -1.0,
+        "behavioral-finance": -1.0,
+        "real-estate-investing": -1.0,
+        "berkshire": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "real-estate",
+        "inflation",
+        "housing"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Airlines & Travel, Inflation, Geopolitics & Tariffs, Housing Market, Recession Risk. Mentions Berkshire Hathaway, Meta. Tone leans bearish (-0.18).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-how-to-money-the-invisible-economic-forces-shaping-your-life-w-planet-mon-57f859.md",
+    "transcript_word_count": 11022,
+    "transcript_language": "en"
   },
   {
     "guid": "6be37037-b351-4b5b-a9a2-409d73a933b8",
@@ -223129,25 +223333,94 @@
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/36531525-92c2-4e7c-b73c-b45000fb7cd5/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
       "sectors": [
-        "banks"
+        "semiconductors",
+        "banks",
+        "technology",
+        "consumer-staples"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "elections-politics",
+        "inflation",
+        "rates-fed",
+        "labor-market",
+        "geopolitics-tariffs",
+        "earnings",
+        "regulation-antitrust"
+      ],
+      "stocks": [
+        "nvidia",
+        "alphabet",
+        "amd",
+        "boeing"
+      ],
+      "sentiment": -0.129,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "banks": 1
+        "technology": 1,
+        "semiconductors": 3,
+        "banks": 2,
+        "consumer-staples": 1,
+        "inflation": 5,
+        "rates-fed": 5,
+        "geopolitics-tariffs": 2,
+        "labor-market": 3,
+        "elections-politics": 6,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "nvidia": 4,
+        "alphabet": 1,
+        "amd": 1,
+        "boeing": 1
       },
       "entity_mention_density": {
-        "banks": 25.6
+        "technology": 0.2,
+        "semiconductors": 0.7,
+        "banks": 0.5,
+        "consumer-staples": 0.2,
+        "inflation": 1.2,
+        "rates-fed": 1.2,
+        "geopolitics-tariffs": 0.5,
+        "labor-market": 0.7,
+        "elections-politics": 1.4,
+        "regulation-antitrust": 0.2,
+        "earnings": 0.5,
+        "nvidia": 0.9,
+        "alphabet": 0.2,
+        "amd": 0.2,
+        "boeing": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "consumer-staples": 1.0,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "earnings": 1.0,
+        "elections-politics": -1.0,
+        "labor-market": 1.0,
+        "boeing": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "consumer-staples": -1.0,
+        "inflation": -1.0,
+        "earnings": -1.0,
+        "elections-politics": -1.0,
+        "labor-market": -1.0,
+        "rates-fed": -1.0,
+        "alphabet": -1.0,
+        "amd": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Banks & Financials, Technology, Elections & Politics, Inflation, Interest Rates & Fed Policy, Labor Market. Mentions Nvidia, Alphabet / Google, AMD, Boeing. Tone reads roughly neutral (-0.13).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-20-bloomberg-surveillance-bloomberg-surveillance-tv-may-20th-2026-fb7cd5.md",
+    "transcript_word_count": 4295,
+    "transcript_language": "en"
   },
   {
     "guid": "7d093745-76ac-4b1e-aae8-b45000ee786d",
