@@ -88316,20 +88316,126 @@
     "duration": "00:44:18",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/30112114-8ad9-4f87-ab2e-eae19b30aece/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=30112114-8ad9-4f87-ab2e-eae19b30aece&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "consumer-discretionary",
+        "technology",
+        "industrials",
+        "utilities",
+        "consumer-staples",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "dividends-buybacks",
+        "diversification",
+        "dealmaking",
+        "passive-investing",
+        "ai-boom",
+        "recession",
+        "earnings",
+        "budgeting-saving",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "nvidia",
+        "mastercard",
+        "paypal",
+        "salesforce",
+        "microsoft",
+        "goldman-sachs",
+        "nasdaq",
+        "amd",
+        "charles-schwab"
+      ],
+      "sentiment": 0.36,
+      "sentiment_hits": 25,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 4,
+        "ai-infrastructure": 10,
+        "utilities": 1,
+        "consumer-discretionary": 3,
+        "consumer-staples": 1,
+        "industrials": 2,
+        "defense-aerospace": 1,
+        "ai-boom": 1,
+        "recession": 1,
+        "dealmaking": 3,
+        "earnings": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 8,
+        "small-caps-value-growth": 1,
+        "diversification": 6,
+        "nvidia": 8,
+        "microsoft": 2,
+        "amd": 1,
+        "goldman-sachs": 2,
+        "nasdaq": 2,
+        "charles-schwab": 1,
+        "paypal": 5,
+        "mastercard": 8,
+        "salesforce": 4
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 1.2,
+        "utilities": 0.1,
+        "consumer-discretionary": 0.3,
+        "consumer-staples": 0.1,
+        "industrials": 0.2,
+        "defense-aerospace": 0.1,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "dealmaking": 0.3,
+        "earnings": 0.1,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.9,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.7,
+        "nvidia": 0.9,
+        "microsoft": 0.2,
+        "amd": 0.1,
+        "goldman-sachs": 0.2,
+        "nasdaq": 0.2,
+        "charles-schwab": 0.1,
+        "paypal": 0.6,
+        "mastercard": 0.9,
+        "salesforce": 0.5
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "semiconductors": -1.0,
+        "consumer-discretionary": 1.0,
+        "diversification": 1.0,
+        "recession": -1.0,
+        "passive-investing": -1.0,
+        "mastercard": 1.0,
+        "salesforce": 0.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-boom": -1.0,
+        "dealmaking": -1.0,
+        "small-caps-value-growth": -1.0,
+        "nvidia": -0.5,
+        "paypal": -1.0,
+        "salesforce": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Consumer Discretionary, Dividends & Buybacks, Diversification & Asset Allocation, IPOs & Dealmaking, Passive Investing. Mentions Nvidia, Mastercard, PayPal, Salesforce, Microsoft. Tone leans bullish (+0.36).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-21-mad-money-w-jim-cramer-mad-money-w-jim-cramer-7-21-26-32cefb.md",
+    "transcript_word_count": 8538,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/QLfEz3KojhbMvMr14H9wJLDoy2j3Lecr6_tfo3mIuY0",
@@ -106751,22 +106857,32 @@
       "themes": [
         "budgeting-saving"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "tesla"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 2,
+        "tesla": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8
+        "budgeting-saving": 1.2,
+        "tesla": 0.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving. Mentions Tesla. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-ramsey-everyday-millionaires-if-you-re-19-this-investing-message-is-for-you-2b29da.md",
+    "transcript_word_count": 1563,
+    "transcript_language": "en"
   },
   {
     "guid": "06423836-29dc-11f1-b64a-6bae948b37d0",
@@ -124152,26 +124268,41 @@
       "sectors": [],
       "themes": [
         "debt-payoff",
-        "fire-movement"
+        "fire-movement",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
         "debt-payoff": 1,
-        "fire-movement": 1
+        "fire-movement": 1,
+        "diversification": 1,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "debt-payoff": 5.0,
-        "fire-movement": 5.0
+        "debt-payoff": 0.5,
+        "fire-movement": 0.5,
+        "diversification": 0.5,
+        "amazon": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "diversification": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Debt Payoff, Financial Independence / FIRE, Diversification & Asset Allocation. Mentions Amazon. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-05-optimal-finance-daily-3618-finding-freedom-and-fulfillment-by-conquering-debt-by-c-e0aeeb.md",
+    "transcript_word_count": 1805,
+    "transcript_language": "en"
   },
   {
     "guid": "37de2fc1-64c7-4989-844c-33161da1cee8",
@@ -202342,33 +202473,93 @@
     "duration": "2753",
     "audio_url": "https://traffic.megaphone.fm/RRM9031608696.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "private-markets",
+        "banks"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "market-structure",
+        "regulation-antitrust"
       ],
       "stocks": [
+        "bitcoin",
+        "coinbase",
         "amazon",
-        "nasdaq"
+        "nasdaq",
+        "ethereum",
+        "nvidia",
+        "microsoft",
+        "tesla",
+        "jpmorgan",
+        "microstrategy",
+        "robinhood"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "dealmaking": 2,
-        "amazon": 1,
-        "nasdaq": 1
+        "banks": 1,
+        "crypto": 21,
+        "private-markets": 2,
+        "dealmaking": 20,
+        "regulation-antitrust": 3,
+        "market-structure": 5,
+        "nvidia": 1,
+        "microsoft": 1,
+        "amazon": 5,
+        "tesla": 1,
+        "jpmorgan": 1,
+        "coinbase": 9,
+        "microstrategy": 1,
+        "bitcoin": 10,
+        "ethereum": 4,
+        "nasdaq": 5,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "dealmaking": 12.9,
-        "amazon": 6.5,
-        "nasdaq": 6.5
+        "banks": 0.1,
+        "crypto": 2.5,
+        "private-markets": 0.2,
+        "dealmaking": 2.4,
+        "regulation-antitrust": 0.4,
+        "market-structure": 0.6,
+        "nvidia": 0.1,
+        "microsoft": 0.1,
+        "amazon": 0.6,
+        "tesla": 0.1,
+        "jpmorgan": 0.1,
+        "coinbase": 1.1,
+        "microstrategy": 0.1,
+        "bitcoin": 1.2,
+        "ethereum": 0.5,
+        "nasdaq": 0.6,
+        "robinhood": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -0.333,
+        "private-markets": -1.0,
+        "banks": -1.0,
+        "dealmaking": -0.167,
+        "regulation-antitrust": 1.0,
+        "market-structure": -1.0,
+        "nasdaq": -1.0,
+        "bitcoin": -1.0,
+        "ethereum": -1.0,
+        "coinbase": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Private Equity & Credit, Banks & Financials, IPOs & Dealmaking, Market Structure & Liquidity, Regulation & Antitrust. Mentions Bitcoin, Coinbase, Amazon, Nasdaq, Ethereum. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-28-riskreversal-pod-the-perpetual-future-is-here-with-david-schamis-jeroen-nieuw-1d3f23.md",
+    "transcript_word_count": 8146,
+    "transcript_language": "en"
   },
   {
     "guid": "32b26970-5a99-11f1-a13a-7780e2d41da1",
