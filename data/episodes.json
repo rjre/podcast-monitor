@@ -1339,39 +1339,64 @@
     "duration": "3259",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS4245436648.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto"
+      ],
       "themes": [
         "budgeting-saving",
+        "debt-payoff",
+        "inflation",
+        "rates-fed",
         "ai-boom"
       ],
       "stocks": [
-        "bitcoin",
-        "amazon"
+        "amazon",
+        "bitcoin"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 4,
-      "sentiment_confidence": 0.667,
+      "sentiment": 0.435,
+      "sentiment_hits": 28,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "crypto": 1,
+        "inflation": 1,
+        "rates-fed": 1,
         "ai-boom": 1,
-        "budgeting-saving": 4,
-        "amazon": 1,
+        "budgeting-saving": 38,
+        "debt-payoff": 3,
+        "amazon": 3,
         "bitcoin": 2
       },
       "entity_mention_density": {
-        "ai-boom": 1.7,
-        "budgeting-saving": 6.7,
-        "amazon": 1.7,
-        "bitcoin": 3.4
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "budgeting-saving": 3.5,
+        "debt-payoff": 0.3,
+        "amazon": 0.3,
+        "bitcoin": 0.2
       },
       "entity_sentiment": {
-        "budgeting-saving": -1.0,
-        "amazon": 1.0
+        "budgeting-saving": 0.4,
+        "amazon": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -0.804,
+        "debt-payoff": -1.0,
+        "inflation": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "budgeting-saving"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Budgeting & Saving, Debt Payoff, Inflation, Interest Rates & Fed Policy. Mentions Amazon, Bitcoin. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-01-the-investing-for-beginners-podcast-aar65-where-are-people-wasting-money-e2f724.md",
+    "transcript_word_count": 10281,
+    "transcript_language": "en"
   },
   {
     "guid": "9f2a5706-c3c8-11f0-a59c-7720d1648d80",
@@ -108130,20 +108155,184 @@
     "duration": "00:46:24",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/9e008c6d-75ca-4bfb-bd86-746a33b5048a/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=9e008c6d-75ca-4bfb-bd86-746a33b5048a&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "sectors": [
+        "media-entertainment",
+        "ai-infrastructure",
+        "semiconductors",
+        "banks",
+        "energy",
+        "airlines-travel",
+        "technology"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "small-caps-value-growth",
+        "geopolitics-tariffs",
+        "recession",
+        "labor-market",
+        "elections-politics",
+        "commodities",
+        "dealmaking",
+        "bond-market",
+        "valuation",
+        "market-concentration"
+      ],
+      "stocks": [
+        "nvidia",
+        "disney",
+        "amazon",
+        "apple",
+        "tesla",
+        "goldman-sachs",
+        "morgan-stanley",
+        "microsoft",
+        "micron",
+        "jpmorgan",
+        "bank-of-america",
+        "alphabet",
+        "meta",
+        "intel",
+        "blackrock",
+        "netflix",
+        "broadcom"
+      ],
+      "sentiment": 0.169,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 5,
+        "ai-infrastructure": 10,
+        "banks": 3,
+        "energy": 3,
+        "media-entertainment": 12,
+        "airlines-travel": 2,
+        "inflation": 12,
+        "rates-fed": 15,
+        "recession": 2,
+        "geopolitics-tariffs": 6,
+        "labor-market": 1,
+        "elections-politics": 1,
+        "commodities": 1,
+        "dealmaking": 1,
+        "bond-market": 1,
+        "valuation": 1,
+        "market-concentration": 1,
+        "small-caps-value-growth": 12,
+        "nvidia": 10,
+        "apple": 3,
+        "microsoft": 2,
+        "alphabet": 1,
+        "amazon": 8,
+        "meta": 1,
+        "tesla": 3,
+        "intel": 1,
+        "micron": 2,
+        "jpmorgan": 2,
+        "goldman-sachs": 3,
+        "morgan-stanley": 3,
+        "bank-of-america": 2,
+        "blackrock": 1,
+        "netflix": 1,
+        "disney": 9,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 0.6,
+        "ai-infrastructure": 1.1,
+        "banks": 0.3,
+        "energy": 0.3,
+        "media-entertainment": 1.3,
+        "airlines-travel": 0.2,
+        "inflation": 1.3,
+        "rates-fed": 1.7,
+        "recession": 0.2,
+        "geopolitics-tariffs": 0.7,
+        "labor-market": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.1,
+        "bond-market": 0.1,
+        "valuation": 0.1,
+        "market-concentration": 0.1,
+        "small-caps-value-growth": 1.3,
+        "nvidia": 1.1,
+        "apple": 0.3,
+        "microsoft": 0.2,
+        "alphabet": 0.1,
+        "amazon": 0.9,
+        "meta": 0.1,
+        "tesla": 0.3,
+        "intel": 0.1,
+        "micron": 0.2,
+        "jpmorgan": 0.2,
+        "goldman-sachs": 0.3,
+        "morgan-stanley": 0.3,
+        "bank-of-america": 0.2,
+        "blackrock": 0.1,
+        "netflix": 0.1,
+        "disney": 1.0,
+        "broadcom": 0.1
+      },
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.0,
+        "energy": -1.0,
+        "small-caps-value-growth": 1.0,
+        "recession": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "commodities": -1.0,
+        "nvidia": 1.0,
+        "amazon": 1.0,
+        "bank-of-america": 1.0,
+        "jpmorgan": 0.333,
+        "disney": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "banks": -1.0,
+        "energy": -1.0,
+        "media-entertainment": -0.545,
+        "airlines-travel": -1.0,
+        "valuation": -1.0,
+        "small-caps-value-growth": -0.706,
+        "inflation": 0.0,
+        "rates-fed": -0.714,
+        "geopolitics-tariffs": -1.0,
+        "bond-market": -1.0,
+        "commodities": -1.0,
+        "nvidia": -0.706,
+        "apple": -1.0,
+        "microsoft": -1.0,
+        "amazon": -1.0,
+        "micron": -1.0,
+        "meta": 0.0,
+        "broadcom": -1.0,
+        "morgan-stanley": -1.0,
+        "jpmorgan": -1.0,
+        "goldman-sachs": 1.0,
+        "disney": -1.0,
+        "blackrock": -1.0
+      },
+      "entity_stance": {
+        "nvidia": "buy",
+        "amazon": "buy",
+        "alphabet": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, AI Infrastructure, Semiconductors, Interest Rates & Fed Policy, Inflation, Small-Caps, Value & Growth, Geopolitics & Tariffs. Mentions Nvidia, Disney, Amazon, Apple, Tesla. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-halftime-report-a-critical-week-for-stocks-your-next-move-7-13-26-39fa94.md",
+    "transcript_word_count": 8924,
+    "transcript_language": "en"
   },
   {
     "guid": "1e73cca2-92f6-4447-ade2-b486010ba7bf",
@@ -140628,26 +140817,42 @@
     "duration": "572",
     "audio_url": "https://traffic.megaphone.fm/OLD1843157420.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors"
+      ],
       "themes": [
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "budgeting-saving": 2
+        "semiconductors": 2,
+        "budgeting-saving": 10
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.1
+        "semiconductors": 0.9,
+        "budgeting-saving": 4.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "budgeting-saving": 0.333
+      },
+      "entity_stance": {
+        "budgeting-saving": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Budgeting & Saving. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-28-optimal-finance-daily-3611-conscious-spending-it-s-about-the-little-purchases-and-b10607.md",
+    "transcript_word_count": 1743,
+    "transcript_language": "en"
   },
   {
     "guid": "72316b82-6a52-11f1-a944-3f537ce22017",
@@ -243802,20 +244007,95 @@
     "duration": "00:44:18",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/9e913d3e-f198-4ba1-a2fc-c746ef25ad33/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=9e913d3e-f198-4ba1-a2fc-c746ef25ad33&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "industrials",
+        "energy"
+      ],
+      "themes": [
+        "ai-boom",
+        "rates-fed",
+        "commodities",
+        "consumer-health",
+        "dividends-buybacks",
+        "valuation"
+      ],
+      "stocks": [
+        "nvidia",
+        "amazon",
+        "microsoft",
+        "alphabet",
+        "amd",
+        "apple",
+        "charles-schwab"
+      ],
+      "sentiment": 0.231,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 4,
+        "semiconductors": 3,
+        "ai-infrastructure": 13,
+        "energy": 2,
+        "industrials": 3,
+        "rates-fed": 1,
+        "ai-boom": 5,
+        "commodities": 1,
+        "consumer-health": 1,
+        "dividends-buybacks": 1,
+        "valuation": 1,
+        "nvidia": 21,
+        "apple": 1,
+        "microsoft": 2,
+        "alphabet": 2,
+        "amazon": 3,
+        "amd": 2,
+        "charles-schwab": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.5,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 1.7,
+        "energy": 0.3,
+        "industrials": 0.4,
+        "rates-fed": 0.1,
+        "ai-boom": 0.6,
+        "commodities": 0.1,
+        "consumer-health": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "nvidia": 2.7,
+        "apple": 0.1,
+        "microsoft": 0.3,
+        "alphabet": 0.3,
+        "amazon": 0.4,
+        "amd": 0.3,
+        "charles-schwab": 0.1
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 0.412,
+        "industrials": 1.0,
+        "technology": 1.0,
+        "nvidia": -0.429,
+        "amazon": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "nvidia": 1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Semiconductors, AI & Machine Learning, Interest Rates & Fed Policy, Commodities, Consumer Health. Mentions Nvidia, Amazon, Microsoft, Alphabet / Google, AMD. Tone leans bullish (+0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-07-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-7-26-701d7c.md",
+    "transcript_word_count": 7726,
+    "transcript_language": "en"
   },
   {
     "guid": "9a9cf894-37ab-4e06-860b-b4430179def7",
