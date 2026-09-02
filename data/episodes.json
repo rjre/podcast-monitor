@@ -90182,20 +90182,106 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/10a64fb6-dbb8-4c29-b1a5-52e7f1338743/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=10a64fb6-dbb8-4c29-b1a5-52e7f1338743&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "sectors": [
+        "real-estate",
+        "banks",
+        "insurance"
+      ],
+      "themes": [
+        "rates-fed",
+        "dividends-buybacks",
+        "market-structure",
+        "recession",
+        "hedge-funds",
+        "inflation",
+        "safe-havens",
+        "dealmaking",
+        "fiscal-debt",
+        "volatility",
+        "passive-investing",
+        "emerging-markets",
+        "tax-planning"
+      ],
+      "stocks": [
+        "goldman-sachs"
+      ],
+      "sentiment": -0.545,
+      "sentiment_hits": 68,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "banks": 1,
+        "insurance": 1,
+        "real-estate": 8,
+        "inflation": 3,
+        "rates-fed": 30,
+        "recession": 5,
+        "fiscal-debt": 1,
+        "safe-havens": 3,
+        "volatility": 1,
+        "dealmaking": 2,
+        "hedge-funds": 4,
+        "passive-investing": 1,
+        "market-structure": 8,
+        "emerging-markets": 1,
+        "dividends-buybacks": 9,
+        "tax-planning": 1,
+        "goldman-sachs": 1
+      },
+      "entity_mention_density": {
+        "banks": 0.1,
+        "insurance": 0.1,
+        "real-estate": 0.9,
+        "inflation": 0.3,
+        "rates-fed": 3.2,
+        "recession": 0.5,
+        "fiscal-debt": 0.1,
+        "safe-havens": 0.3,
+        "volatility": 0.1,
+        "dealmaking": 0.2,
+        "hedge-funds": 0.4,
+        "passive-investing": 0.1,
+        "market-structure": 0.9,
+        "emerging-markets": 0.1,
+        "dividends-buybacks": 1.0,
+        "tax-planning": 0.1,
+        "goldman-sachs": 0.1
+      },
+      "entity_sentiment": {
+        "insurance": 0.5,
+        "real-estate": -1.0,
+        "banks": -1.0,
+        "market-structure": -0.531,
+        "hedge-funds": 0.6,
+        "recession": -1.0,
+        "emerging-markets": -1.0,
+        "rates-fed": -0.667,
+        "safe-havens": -1.0,
+        "dividends-buybacks": -1.0,
+        "inflation": -1.0,
+        "dealmaking": -1.0,
+        "tax-planning": 1.0,
+        "goldman-sachs": 0.6
+      },
+      "entity_conviction": {
+        "market-structure": -1.0,
+        "emerging-markets": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0
+      },
+      "entity_stance": {
+        "rates-fed": "sell"
+      },
+      "entity_contested": [
+        "market-structure"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Insurance, Interest Rates & Fed Policy, Dividends & Buybacks, Market Structure & Liquidity, Recession Risk. Mentions Goldman Sachs. Tone leans bearish (-0.55).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-mad-money-w-jim-cramer-mad-money-w-jim-cramer-7-23-26-55bd3f.md",
+    "transcript_word_count": 9270,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/YOHYnzd6z-kSJFwbynxM5PvEpFgIgl3JpJwUv7mPrGI",
@@ -142729,29 +142815,74 @@
     "duration": "01:16:32",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/7f752a05-7041-4e67-81b3-a90aeaf7aacc.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "passive-investing",
-        "passive-income"
+      "sectors": [
+        "real-estate",
+        "semiconductors",
+        "private-markets"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "passive-income",
+        "regulation-antitrust",
+        "budgeting-saving",
+        "housing",
+        "dealmaking",
+        "passive-investing",
+        "fire-movement",
+        "real-estate-investing"
+      ],
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": -0.034,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "semiconductors": 1,
+        "real-estate": 14,
+        "private-markets": 1,
+        "housing": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 2,
         "passive-investing": 1,
-        "passive-income": 1
+        "budgeting-saving": 2,
+        "fire-movement": 1,
+        "real-estate-investing": 1,
+        "passive-income": 3,
+        "meta": 6
       },
       "entity_mention_density": {
-        "passive-investing": 1.6,
-        "passive-income": 1.6
+        "semiconductors": 0.1,
+        "real-estate": 0.8,
+        "private-markets": 0.1,
+        "housing": 0.1,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "real-estate-investing": 0.1,
+        "passive-income": 0.2,
+        "meta": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "real-estate-investing": 1.0,
+        "fire-movement": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "semiconductors": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Semiconductors, Private Equity & Credit, Passive Income & Side Hustles, Regulation & Antitrust, Budgeting & Saving, Housing Market. Mentions Meta. Tone reads roughly neutral (-0.03).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-stacking-benjamins-can-you-actually-make-money-buying-a-franchise-with-alex-sme-QGX2DM.md",
+    "transcript_word_count": 16496,
+    "transcript_language": "en"
   },
   {
     "guid": "00b57d62-cffe-4ce7-b5da-b47901155a1a",
@@ -157930,36 +158061,115 @@
     "duration": "00:10:58",
     "audio_url": "https://traffic.megaphone.fm/APO7013472050.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy",
+        "technology",
+        "semiconductors",
+        "consumer-staples"
+      ],
       "themes": [
+        "rates-fed",
+        "inflation",
         "dealmaking",
-        "earnings"
+        "commodities",
+        "earnings",
+        "ai-boom",
+        "elections-politics",
+        "safe-havens",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "alphabet"
+        "alphabet",
+        "nvidia",
+        "exxon",
+        "salesforce",
+        "microsoft",
+        "amazon",
+        "verizon",
+        "goldman-sachs",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.682,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "earnings": 1,
-        "alphabet": 1
+        "technology": 2,
+        "semiconductors": 2,
+        "energy": 3,
+        "consumer-staples": 1,
+        "inflation": 4,
+        "rates-fed": 9,
+        "ai-boom": 1,
+        "elections-politics": 1,
+        "commodities": 2,
+        "safe-havens": 1,
+        "dealmaking": 4,
+        "earnings": 2,
+        "dividends-buybacks": 1,
+        "nvidia": 3,
+        "microsoft": 1,
+        "alphabet": 9,
+        "amazon": 1,
+        "verizon": 1,
+        "goldman-sachs": 1,
+        "exxon": 3,
+        "nasdaq": 1,
+        "salesforce": 3
       },
       "entity_mention_density": {
-        "dealmaking": 8.9,
-        "earnings": 8.9,
-        "alphabet": 8.9
+        "technology": 0.9,
+        "semiconductors": 0.9,
+        "energy": 1.3,
+        "consumer-staples": 0.4,
+        "inflation": 1.8,
+        "rates-fed": 4.0,
+        "ai-boom": 0.4,
+        "elections-politics": 0.4,
+        "commodities": 0.9,
+        "safe-havens": 0.4,
+        "dealmaking": 1.8,
+        "earnings": 0.9,
+        "dividends-buybacks": 0.4,
+        "nvidia": 1.3,
+        "microsoft": 0.4,
+        "alphabet": 4.0,
+        "amazon": 0.4,
+        "verizon": 0.4,
+        "goldman-sachs": 0.4,
+        "exxon": 1.3,
+        "nasdaq": 0.4,
+        "salesforce": 1.3
       },
       "entity_sentiment": {
+        "semiconductors": -1.0,
+        "technology": -1.0,
         "earnings": 0.0,
-        "alphabet": 0.0
+        "safe-havens": -1.0,
+        "ai-boom": -1.0,
+        "elections-politics": -1.0,
+        "alphabet": -0.556,
+        "nasdaq": -1.0,
+        "nvidia": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "dealmaking": -1.0,
+        "rates-fed": -1.0,
+        "inflation": 0.0,
+        "commodities": -1.0,
+        "nvidia": -1.0,
+        "goldman-sachs": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Technology, Semiconductors, Interest Rates & Fed Policy, Inflation, IPOs & Dealmaking, Commodities. Mentions Alphabet / Google, Nvidia, ExxonMobil, Salesforce, Microsoft. Tone leans bearish (-0.68).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-the-rundown-wallstreetbets-rallies-behind-wendy-s-cerebras-flops-in-firs-5d3090.md",
+    "transcript_word_count": 2154,
+    "transcript_language": "en"
   },
   {
     "guid": "https://www.theretirementandirashow.com/?p=5340",
@@ -176466,47 +176676,54 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "energy"
+        "energy",
+        "consumer-staples"
       ],
       "themes": [
-        "dealmaking",
         "dividends-buybacks",
+        "dealmaking",
         "rates-fed",
+        "small-caps-value-growth",
         "housing",
-        "bond-market",
-        "small-caps-value-growth"
+        "commodities",
+        "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 1.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1,
-        "real-estate": 2,
-        "rates-fed": 1,
-        "housing": 1,
-        "dealmaking": 3,
-        "bond-market": 1,
-        "dividends-buybacks": 3,
-        "small-caps-value-growth": 1,
-        "nasdaq": 1
+        "energy": 3,
+        "consumer-staples": 1,
+        "real-estate": 5,
+        "rates-fed": 9,
+        "housing": 2,
+        "commodities": 2,
+        "dealmaking": 10,
+        "bond-market": 2,
+        "dividends-buybacks": 18,
+        "small-caps-value-growth": 5,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "energy": 4.7,
-        "real-estate": 9.4,
-        "rates-fed": 4.7,
-        "housing": 4.7,
-        "dealmaking": 14.1,
-        "bond-market": 4.7,
-        "dividends-buybacks": 14.1,
-        "small-caps-value-growth": 4.7,
-        "nasdaq": 4.7
+        "energy": 0.9,
+        "consumer-staples": 0.3,
+        "real-estate": 1.6,
+        "rates-fed": 2.8,
+        "housing": 0.6,
+        "commodities": 0.6,
+        "dealmaking": 3.2,
+        "bond-market": 0.6,
+        "dividends-buybacks": 5.7,
+        "small-caps-value-growth": 1.6,
+        "nasdaq": 0.6
       },
       "entity_sentiment": {
         "real-estate": 1.0,
         "energy": 1.0,
+        "consumer-staples": 1.0,
         "dealmaking": 1.0,
         "dividends-buybacks": 1.0,
         "bond-market": 1.0,
@@ -176514,11 +176731,24 @@
         "rates-fed": 1.0,
         "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "consumer-staples": 1.0,
+        "dealmaking": -1.0,
+        "bond-market": 1.0,
+        "small-caps-value-growth": -1.0,
+        "nasdaq": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Consumer Staples, Dividends & Buybacks, IPOs & Dealmaking, Interest Rates & Fed Policy, Small-Caps, Value & Growth. Mentions Nasdaq. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-the-dividend-cafe-monday-june-15-2026-99e977.md",
+    "transcript_word_count": 2957,
+    "transcript_language": "en"
   },
   {
     "guid": "13458abc-5aea-11f1-9134-7f1913164bcd",
