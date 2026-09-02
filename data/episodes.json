@@ -22266,20 +22266,120 @@
     "duration": "00:44:18",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/6f4f3fde-9b23-4615-b170-880cc8f5ad95/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=6f4f3fde-9b23-4615-b170-880cc8f5ad95&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "energy",
+        "real-estate",
+        "airlines-travel",
+        "consumer-discretionary",
+        "consumer-staples",
+        "industrials"
+      ],
+      "themes": [
+        "regulation-antitrust",
+        "dealmaking",
+        "rates-fed",
+        "inflation",
+        "ai-boom",
+        "earnings",
+        "dividends-buybacks",
+        "valuation"
+      ],
+      "stocks": [
+        "walmart",
+        "micron",
+        "amazon",
+        "costco",
+        "tesla",
+        "cisco",
+        "jpmorgan",
+        "bitcoin",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": -0.081,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 13,
+        "ai-infrastructure": 12,
+        "energy": 3,
+        "consumer-discretionary": 1,
+        "consumer-staples": 1,
+        "real-estate": 2,
+        "industrials": 1,
+        "airlines-travel": 2,
+        "inflation": 1,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "dealmaking": 3,
+        "regulation-antitrust": 5,
+        "earnings": 1,
+        "dividends-buybacks": 1,
+        "valuation": 1,
+        "amazon": 3,
+        "tesla": 1,
+        "cisco": 1,
+        "micron": 9,
+        "jpmorgan": 1,
+        "costco": 2,
+        "walmart": 15,
+        "bitcoin": 1,
+        "nasdaq": 1,
+        "charles-schwab": 1
+      },
+      "entity_mention_density": {
+        "semiconductors": 1.8,
+        "ai-infrastructure": 1.6,
+        "energy": 0.4,
+        "consumer-discretionary": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.3,
+        "industrials": 0.1,
+        "airlines-travel": 0.3,
+        "inflation": 0.1,
+        "rates-fed": 0.3,
+        "ai-boom": 0.1,
+        "dealmaking": 0.4,
+        "regulation-antitrust": 0.7,
+        "earnings": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "amazon": 0.4,
+        "tesla": 0.1,
+        "cisco": 0.1,
+        "micron": 1.2,
+        "jpmorgan": 0.1,
+        "costco": 0.3,
+        "walmart": 2.0,
+        "bitcoin": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1
+      },
+      "entity_sentiment": {
+        "valuation": 1.0,
+        "micron": 1.0,
+        "nasdaq": -1.0,
+        "walmart": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "micron": -1.0,
+        "walmart": -1.0,
+        "jpmorgan": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Energy & Oil, Regulation & Antitrust, IPOs & Dealmaking, Interest Rates & Fed Policy, Inflation. Mentions Walmart, Micron, Amazon, Costco, Tesla. Tone reads roughly neutral (-0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-20-26-ff2dce.md",
+    "transcript_word_count": 7364,
+    "transcript_language": "en"
   },
   {
     "guid": "7671d6d8-8cf2-11f1-be6e-a30c528e8a02",
@@ -68949,29 +69049,74 @@
     "duration": "3827",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL3638904180.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "retirement-planning",
-        "fire-movement"
+      "sectors": [
+        "healthcare",
+        "insurance",
+        "consumer-discretionary"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "college-savings",
+        "fire-movement",
+        "retirement-planning",
+        "budgeting-saving",
+        "tax-planning",
+        "debt-payoff",
+        "passive-income",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.667,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "fire-movement": 1,
-        "retirement-planning": 2
+        "insurance": 3,
+        "healthcare": 5,
+        "consumer-discretionary": 1,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
+        "fire-movement": 5,
+        "retirement-planning": 3,
+        "passive-income": 1,
+        "dividends-buybacks": 1,
+        "tax-planning": 2,
+        "college-savings": 10,
+        "amazon": 3
       },
       "entity_mention_density": {
-        "fire-movement": 4.4,
-        "retirement-planning": 8.9
+        "insurance": 0.2,
+        "healthcare": 0.4,
+        "consumer-discretionary": 0.1,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.4,
+        "retirement-planning": 0.2,
+        "passive-income": 0.1,
+        "dividends-buybacks": 0.1,
+        "tax-planning": 0.2,
+        "college-savings": 0.8,
+        "amazon": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "healthcare": -1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "tax-planning": -1.0,
+        "college-savings": -1.0,
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Consumer Discretionary, College Savings & Student Debt, Financial Independence / FIRE, Retirement Planning, Budgeting & Saving. Mentions Amazon. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-money-guy-show-we-have-a-big-book-announcement-15a5e8.md",
+    "transcript_word_count": 12375,
+    "transcript_language": "en"
   },
   {
     "guid": "e7805d41-04b8-41bc-b0bb-972a64f3caf1",
@@ -95829,47 +95974,95 @@
     "duration": "3045",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS7987987170.mp3?updated=1733520848",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "media-entertainment",
+        "industrials"
+      ],
       "themes": [
         "regulation-antitrust",
+        "small-caps-value-growth",
+        "dealmaking",
         "ai-boom",
-        "small-caps-value-growth"
+        "labor-market",
+        "dividends-buybacks"
       ],
       "stocks": [
         "amazon",
+        "netflix",
+        "microsoft",
         "bitcoin",
-        "netflix"
+        "alphabet",
+        "walmart"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
+        "technology": 4,
+        "industrials": 1,
+        "media-entertainment": 3,
         "ai-boom": 1,
-        "regulation-antitrust": 3,
-        "small-caps-value-growth": 1,
-        "amazon": 2,
+        "labor-market": 1,
+        "dealmaking": 3,
+        "regulation-antitrust": 4,
+        "dividends-buybacks": 1,
+        "small-caps-value-growth": 4,
+        "microsoft": 2,
+        "alphabet": 1,
+        "amazon": 7,
+        "walmart": 1,
         "bitcoin": 2,
-        "netflix": 1
+        "netflix": 3
       },
       "entity_mention_density": {
-        "ai-boom": 1.9,
-        "regulation-antitrust": 5.6,
-        "small-caps-value-growth": 1.9,
-        "amazon": 3.7,
-        "bitcoin": 3.7,
-        "netflix": 1.9
+        "technology": 0.5,
+        "industrials": 0.1,
+        "media-entertainment": 0.4,
+        "ai-boom": 0.1,
+        "labor-market": 0.1,
+        "dealmaking": 0.4,
+        "regulation-antitrust": 0.5,
+        "dividends-buybacks": 0.1,
+        "small-caps-value-growth": 0.5,
+        "microsoft": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.9,
+        "walmart": 0.1,
+        "bitcoin": 0.3,
+        "netflix": 0.4
       },
       "entity_sentiment": {
         "small-caps-value-growth": 1.0,
-        "regulation-antitrust": 1.0,
+        "regulation-antitrust": 0.0,
+        "labor-market": -1.0,
         "amazon": 1.0,
         "netflix": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "media-entertainment": -0.667,
+        "industrials": 1.0,
+        "small-caps-value-growth": 0.429,
+        "regulation-antitrust": -1.0,
+        "dividends-buybacks": -1.0,
+        "dealmaking": 0.333,
+        "labor-market": -1.0,
+        "amazon": -0.423,
+        "netflix": -0.667,
+        "microsoft": -0.481,
+        "walmart": 0.0,
+        "alphabet": -0.429
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Media & Entertainment, Industrials, Regulation & Antitrust, Small-Caps, Value & Growth, IPOs & Dealmaking, AI & Machine Learning. Mentions Amazon, Netflix, Microsoft, Bitcoin, Alphabet / Google. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-the-investing-for-beginners-podcast-does-t-rowe-price-s-1950-growth-stock-checklist-still-work-t-438067.md",
+    "transcript_word_count": 7005,
+    "transcript_language": "en"
   },
   {
     "guid": "e9b224a7-979e-4d8c-b98f-eacb1c6e8c5d",
@@ -144366,20 +144559,46 @@
     "duration": "552",
     "audio_url": "https://traffic.megaphone.fm/OLD1612644556.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "recession",
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "real-estate": 1,
+        "recession": 1,
+        "budgeting-saving": 1,
+        "alphabet": 2
+      },
+      "entity_mention_density": {
+        "real-estate": 0.5,
+        "recession": 0.5,
+        "budgeting-saving": 0.5,
+        "alphabet": 1.0
+      },
+      "entity_sentiment": {
+        "real-estate": -1.0,
+        "recession": -1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Recession Risk, Budgeting & Saving. Mentions Alphabet / Google. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-23-optimal-finance-daily-3605-what-do-you-do-after-you-make-a-zillion-dollars-by-jame-04d189.md",
+    "transcript_word_count": 1580,
+    "transcript_language": "en"
   },
   {
     "guid": "560f46b8-2989-11f1-996c-9f051fd8e760",
