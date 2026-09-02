@@ -23075,41 +23075,90 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a865a16ed7f8bb942dca79c/media.mp3",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "real-estate",
+        "banks",
+        "ai-infrastructure",
+        "insurance"
       ],
       "themes": [
         "dividends-buybacks",
-        "diversification"
+        "credit-markets",
+        "bond-market",
+        "diversification",
+        "inflation",
+        "regulation-antitrust",
+        "recession",
+        "passive-income"
       ],
       "stocks": [
+        "alphabet",
         "meta"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "private-markets": 3,
-        "dividends-buybacks": 2,
-        "diversification": 1,
+        "ai-infrastructure": 3,
+        "banks": 4,
+        "insurance": 2,
+        "real-estate": 5,
+        "private-markets": 25,
+        "inflation": 5,
+        "recession": 1,
+        "credit-markets": 14,
+        "regulation-antitrust": 3,
+        "bond-market": 6,
+        "passive-income": 1,
+        "dividends-buybacks": 18,
+        "diversification": 6,
+        "alphabet": 3,
         "meta": 1
       },
       "entity_mention_density": {
-        "private-markets": 8.7,
-        "dividends-buybacks": 5.8,
-        "diversification": 2.9,
-        "meta": 2.9
+        "ai-infrastructure": 0.4,
+        "banks": 0.5,
+        "insurance": 0.3,
+        "real-estate": 0.7,
+        "private-markets": 3.3,
+        "inflation": 0.7,
+        "recession": 0.1,
+        "credit-markets": 1.8,
+        "regulation-antitrust": 0.4,
+        "bond-market": 0.8,
+        "passive-income": 0.1,
+        "dividends-buybacks": 2.4,
+        "diversification": 0.8,
+        "alphabet": 0.4,
+        "meta": 0.1
       },
       "entity_sentiment": {
         "private-markets": 1.0,
+        "banks": -1.0,
         "dividends-buybacks": 1.0,
         "diversification": 1.0,
+        "credit-markets": 1.0,
+        "recession": -1.0,
         "meta": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "private-markets": 0.0,
+        "banks": 0.0,
+        "dividends-buybacks": -1.0,
+        "credit-markets": -1.0,
+        "regulation-antitrust": 0.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Real Estate, Banks & Financials, Dividends & Buybacks, Credit Markets, Bond Market & Yields, Diversification & Asset Allocation. Mentions Alphabet / Google, Meta. Tone reads roughly neutral (-0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-equity-mates-investing-podcast-not-all-income-is-created-equal-with-helen-mason-schroders-dca79c.md",
+    "transcript_word_count": 7300,
+    "transcript_language": "en"
   },
   {
     "guid": "macrovoices.podbean.com/afd1671e-4766-360c-a380-7f77928a47d7",
@@ -53829,41 +53878,133 @@
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/8d74bc26-813b-456a-b759-2d32bb611503/stream.mp3",
     "tags": {
       "sectors": [
-        "airlines-travel"
+        "airlines-travel",
+        "ai-infrastructure",
+        "industrials",
+        "banks",
+        "energy"
       ],
       "themes": [
         "volatility",
-        "ai-boom"
+        "diversification",
+        "earnings",
+        "small-caps-value-growth",
+        "ai-boom",
+        "inflation",
+        "rates-fed",
+        "recession",
+        "labor-market",
+        "elections-politics",
+        "commodities",
+        "retirement-planning"
       ],
       "stocks": [
         "amd",
-        "disney"
+        "disney",
+        "alphabet",
+        "amazon",
+        "nvidia",
+        "apple",
+        "tesla",
+        "bitcoin",
+        "nasdaq",
+        "mastercard"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "airlines-travel": 1,
-        "ai-boom": 1,
-        "volatility": 2,
-        "amd": 2,
-        "disney": 1
+        "ai-infrastructure": 4,
+        "banks": 1,
+        "energy": 1,
+        "industrials": 2,
+        "airlines-travel": 9,
+        "inflation": 1,
+        "rates-fed": 1,
+        "ai-boom": 2,
+        "recession": 1,
+        "labor-market": 1,
+        "elections-politics": 1,
+        "commodities": 1,
+        "volatility": 4,
+        "earnings": 3,
+        "retirement-planning": 1,
+        "small-caps-value-growth": 3,
+        "diversification": 4,
+        "nvidia": 2,
+        "apple": 1,
+        "alphabet": 4,
+        "amazon": 3,
+        "tesla": 1,
+        "amd": 10,
+        "bitcoin": 1,
+        "nasdaq": 1,
+        "disney": 9,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "airlines-travel": 5.8,
-        "ai-boom": 5.8,
-        "volatility": 11.6,
-        "amd": 11.6,
-        "disney": 5.8
+        "ai-infrastructure": 0.6,
+        "banks": 0.1,
+        "energy": 0.1,
+        "industrials": 0.3,
+        "airlines-travel": 1.3,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "ai-boom": 0.3,
+        "recession": 0.1,
+        "labor-market": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 0.1,
+        "volatility": 0.6,
+        "earnings": 0.4,
+        "retirement-planning": 0.1,
+        "small-caps-value-growth": 0.4,
+        "diversification": 0.6,
+        "nvidia": 0.3,
+        "apple": 0.1,
+        "alphabet": 0.6,
+        "amazon": 0.4,
+        "tesla": 0.1,
+        "amd": 1.4,
+        "bitcoin": 0.1,
+        "nasdaq": 0.1,
+        "disney": 1.3,
+        "mastercard": 0.1
       },
       "entity_sentiment": {
-        "volatility": 1.0
+        "industrials": 1.0,
+        "volatility": 0.0,
+        "recession": -1.0,
+        "elections-politics": 0.0,
+        "rates-fed": 1.0,
+        "commodities": 1.0,
+        "diversification": 0.0,
+        "inflation": 1.0,
+        "disney": -1.0,
+        "bitcoin": 1.0,
+        "mastercard": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "airlines-travel": 1.0,
+        "ai-infrastructure": -1.0,
+        "earnings": 1.0,
+        "disney": -0.846,
+        "amd": 0.0,
+        "nvidia": 1.0,
+        "amazon": 1.0,
+        "tesla": 1.0,
+        "apple": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, AI Infrastructure, Industrials, Volatility & Vol Regime, Diversification & Asset Allocation, Corporate Earnings, Small-Caps, Value & Growth. Mentions AMD, Disney, Alphabet / Google, Amazon, Nvidia. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-investtalk-iran-peace-signals-and-market-volatility-how-to-invest-when-56da16.md",
+    "transcript_word_count": 6758,
+    "transcript_language": "en"
   },
   {
     "guid": "b41d2792-90a5-11f1-9d9b-ef60b07cb2a8",
@@ -117480,29 +117621,100 @@
     "duration": "01:07:09",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/b467f66d-7b85-4f78-935e-f9ca97693d26.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "real-estate",
+        "consumer-discretionary",
+        "airlines-travel"
+      ],
       "themes": [
         "diversification",
-        "retirement-planning"
+        "retirement-planning",
+        "recession",
+        "passive-investing",
+        "budgeting-saving",
+        "labor-market",
+        "fire-movement"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon",
+        "nvidia",
+        "meta",
+        "alphabet",
+        "nasdaq",
+        "fidelity",
+        "disney"
+      ],
+      "sentiment": -0.593,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "retirement-planning": 2,
-        "diversification": 5
+        "technology": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 2,
+        "airlines-travel": 1,
+        "recession": 2,
+        "labor-market": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 2,
+        "fire-movement": 1,
+        "retirement-planning": 3,
+        "diversification": 12,
+        "nvidia": 2,
+        "alphabet": 1,
+        "amazon": 3,
+        "meta": 2,
+        "nasdaq": 1,
+        "fidelity": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 3.0,
-        "diversification": 7.5
+        "technology": 0.1,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "airlines-travel": 0.1,
+        "recession": 0.1,
+        "labor-market": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "diversification": 0.8,
+        "nvidia": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "nasdaq": 0.1,
+        "fidelity": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": -1.0,
+        "real-estate": -1.0,
+        "airlines-travel": 1.0,
+        "diversification": -1.0,
+        "recession": -1.0,
+        "nasdaq": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "real-estate": 1.0,
+        "diversification": 0.0,
+        "recession": 1.0,
+        "passive-investing": -1.0,
+        "budgeting-saving": -1.0,
+        "alphabet": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Real Estate, Consumer Discretionary, Diversification & Asset Allocation, Retirement Planning, Recession Risk, Passive Investing. Mentions Amazon, Nvidia, Meta, Alphabet / Google, Nasdaq. Tone leans bearish (-0.59).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-stacking-benjamins-scott-galloway-s-algebra-of-wealth-build-money-meaning-and-s-9PhWCw.md",
+    "transcript_word_count": 14025,
+    "transcript_language": "en"
   },
   {
     "guid": "ed0a447e-de9b-440c-bade-b47901257c3f",
@@ -222855,25 +223067,35 @@
     "audio_url": "https://traffic.megaphone.fm/OLD1360305215.mp3?updated=1778525294",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "budgeting-saving"
+      ],
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "amazon": 2
+        "budgeting-saving": 1,
+        "amazon": 3
       },
       "entity_mention_density": {
-        "amazon": 10.4
+        "budgeting-saving": 0.5,
+        "amazon": 1.6
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving. Mentions Amazon. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-17-optimal-finance-daily-3563-4-reasons-you-should-cut-and-keep-cutting-your-expenses-a1fb31.md",
+    "transcript_word_count": 1728,
+    "transcript_language": "en"
   },
   {
     "guid": "ea4e952c-4d4c-11f1-96df-77e50ba61825",
