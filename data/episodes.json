@@ -141653,30 +141653,138 @@
     "duration": "4227",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/ecfc85a1-667a-44d4-9898-b46d0185aed7/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "media-entertainment",
+        "technology",
+        "ai-infrastructure",
+        "private-markets",
+        "banks",
+        "airlines-travel"
+      ],
       "themes": [
-        "small-caps-value-growth"
+        "inflation",
+        "rates-fed",
+        "small-caps-value-growth",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "dealmaking",
+        "bond-market",
+        "dividends-buybacks",
+        "valuation",
+        "diversification",
+        "recession",
+        "fiscal-debt",
+        "volatility",
+        "market-structure",
+        "real-estate-investing"
       ],
       "stocks": [
-        "berkshire"
+        "berkshire",
+        "alphabet",
+        "meta",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.398,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "small-caps-value-growth": 1,
-        "berkshire": 1
+        "technology": 2,
+        "ai-infrastructure": 2,
+        "banks": 1,
+        "real-estate": 14,
+        "media-entertainment": 3,
+        "airlines-travel": 1,
+        "private-markets": 2,
+        "inflation": 8,
+        "rates-fed": 6,
+        "recession": 1,
+        "geopolitics-tariffs": 2,
+        "fiscal-debt": 1,
+        "elections-politics": 2,
+        "volatility": 1,
+        "dealmaking": 2,
+        "bond-market": 2,
+        "market-structure": 1,
+        "real-estate-investing": 1,
+        "dividends-buybacks": 2,
+        "valuation": 2,
+        "small-caps-value-growth": 3,
+        "diversification": 2,
+        "alphabet": 1,
+        "meta": 1,
+        "berkshire": 5,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "small-caps-value-growth": 12.7,
-        "berkshire": 12.7
+        "technology": 0.2,
+        "ai-infrastructure": 0.2,
+        "banks": 0.1,
+        "real-estate": 1.2,
+        "media-entertainment": 0.3,
+        "airlines-travel": 0.1,
+        "private-markets": 0.2,
+        "inflation": 0.7,
+        "rates-fed": 0.5,
+        "recession": 0.1,
+        "geopolitics-tariffs": 0.2,
+        "fiscal-debt": 0.1,
+        "elections-politics": 0.2,
+        "volatility": 0.1,
+        "dealmaking": 0.2,
+        "bond-market": 0.2,
+        "market-structure": 0.1,
+        "real-estate-investing": 0.1,
+        "dividends-buybacks": 0.2,
+        "valuation": 0.2,
+        "small-caps-value-growth": 0.3,
+        "diversification": 0.2,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.4,
+        "nasdaq": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "airlines-travel": 1.0,
+        "real-estate": -1.0,
+        "banks": 1.0,
+        "inflation": -0.429,
+        "valuation": 1.0,
+        "rates-fed": -1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "banks": -1.0,
+        "private-markets": -1.0,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "media-entertainment": -1.0,
+        "small-caps-value-growth": -0.333,
+        "bond-market": -1.0,
+        "dividends-buybacks": -1.0,
+        "inflation": -1.0,
+        "valuation": -1.0,
+        "elections-politics": -0.333,
+        "market-structure": -1.0,
+        "rates-fed": -0.688,
+        "recession": -0.167,
+        "geopolitics-tariffs": -1.0,
+        "real-estate-investing": -1.0,
+        "berkshire": -1.0,
+        "alphabet": -1.0,
+        "meta": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Media & Entertainment, Technology, Inflation, Interest Rates & Fed Policy, Small-Caps, Value & Growth, Geopolitics & Tariffs. Mentions Berkshire Hathaway, Alphabet / Google, Meta, Nasdaq. Tone leans bearish (-0.40).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-masters-in-business-value-investing-legend-and-warren-buffett-disciple-seth-klar-85aed7.md",
+    "transcript_word_count": 11811,
+    "transcript_language": "en"
   },
   {
     "guid": "2e00e718-3f59-11f1-a70f-8f29e530ab8a",
@@ -148654,32 +148762,96 @@
     "duration": "00:10:50",
     "audio_url": "https://traffic.megaphone.fm/APO7120561314.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "ai-infrastructure",
+        "energy",
+        "semiconductors"
+      ],
+      "themes": [
+        "rates-fed",
+        "dealmaking",
+        "commodities",
+        "dividends-buybacks",
+        "inflation",
+        "elections-politics",
+        "earnings"
+      ],
       "stocks": [
         "nvidia",
         "alphabet",
-        "amazon"
+        "amazon",
+        "morgan-stanley",
+        "microsoft",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "nvidia": 1,
-        "alphabet": 1,
-        "amazon": 1
+        "technology": 4,
+        "semiconductors": 2,
+        "ai-infrastructure": 4,
+        "energy": 3,
+        "inflation": 1,
+        "rates-fed": 13,
+        "elections-politics": 1,
+        "commodities": 2,
+        "dealmaking": 4,
+        "earnings": 1,
+        "dividends-buybacks": 2,
+        "nvidia": 15,
+        "microsoft": 1,
+        "alphabet": 4,
+        "amazon": 4,
+        "morgan-stanley": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "nvidia": 17.2,
-        "alphabet": 17.2,
-        "amazon": 17.2
+        "technology": 1.8,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 1.8,
+        "energy": 1.4,
+        "inflation": 0.5,
+        "rates-fed": 5.9,
+        "elections-politics": 0.5,
+        "commodities": 0.9,
+        "dealmaking": 1.8,
+        "earnings": 0.5,
+        "dividends-buybacks": 0.9,
+        "nvidia": 6.8,
+        "microsoft": 0.5,
+        "alphabet": 1.8,
+        "amazon": 1.8,
+        "morgan-stanley": 0.9,
+        "nasdaq": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "energy": 1.0,
+        "ai-infrastructure": 1.0,
+        "commodities": 1.0,
+        "rates-fed": 0.0,
+        "inflation": -1.0,
+        "earnings": -1.0,
+        "nasdaq": 1.0,
+        "morgan-stanley": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": 1.0,
+        "technology": 1.0,
+        "alphabet": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Energy & Oil, Interest Rates & Fed Policy, IPOs & Dealmaking, Commodities, Dividends & Buybacks. Mentions Nvidia, Alphabet / Google, Amazon, Morgan Stanley, Microsoft. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-the-rundown-nvidia-raises-25b-in-bond-sale-spacex-leapfrogs-amazon-in-ma-accd9c.md",
+    "transcript_word_count": 2152,
+    "transcript_language": "en"
   },
   {
     "guid": "6aa991f1-fb38-4299-9e8a-b46b00f8ee1b",
@@ -173158,38 +173330,71 @@
     "duration": "2894",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS3233192629.mp3?updated=1733520844",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "industrials"
+      ],
       "themes": [
+        "small-caps-value-growth",
         "diversification",
         "ai-boom",
-        "small-caps-value-growth"
+        "valuation"
       ],
       "stocks": [
-        "amazon"
+        "berkshire",
+        "amazon",
+        "costco"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.787,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "consumer-discretionary": 2,
+        "industrials": 1,
         "ai-boom": 1,
-        "small-caps-value-growth": 1,
-        "diversification": 2,
-        "amazon": 1
+        "valuation": 1,
+        "small-caps-value-growth": 6,
+        "diversification": 5,
+        "amazon": 4,
+        "berkshire": 7,
+        "costco": 1
       },
       "entity_mention_density": {
-        "ai-boom": 1.9,
-        "small-caps-value-growth": 1.9,
-        "diversification": 3.7,
-        "amazon": 1.9
+        "consumer-discretionary": 0.3,
+        "industrials": 0.1,
+        "ai-boom": 0.1,
+        "valuation": 0.1,
+        "small-caps-value-growth": 0.8,
+        "diversification": 0.7,
+        "amazon": 0.5,
+        "berkshire": 1.0,
+        "costco": 0.1
       },
       "entity_sentiment": {
-        "diversification": 1.0
+        "consumer-discretionary": 1.0,
+        "diversification": 1.0,
+        "berkshire": 1.0,
+        "costco": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "industrials": -1.0,
+        "consumer-discretionary": -1.0,
+        "diversification": -1.0,
+        "small-caps-value-growth": -0.263,
+        "valuation": -1.0,
+        "berkshire": -1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Industrials, Small-Caps, Value & Growth, Diversification & Asset Allocation, AI & Machine Learning, Valuation. Mentions Berkshire Hathaway, Amazon, Costco. Tone leans bullish (+0.79).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-the-investing-for-beginners-podcast-what-invest-with-a-margin-of-safety-really-means-9284d1.md",
+    "transcript_word_count": 6745,
+    "transcript_language": "en"
   },
   {
     "guid": "87e12ccd-b9dc-4adc-a630-aab3bdc80562",
@@ -173729,39 +173934,84 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a1fb9462322393dc4b3edc2/media.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "ai-infrastructure"
       ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "fire-movement",
+        "tax-planning",
+        "rates-fed",
+        "diversification",
+        "inflation",
+        "housing",
+        "regulation-antitrust",
+        "dividends-buybacks",
+        "ai-boom",
+        "elections-politics"
       ],
       "stocks": [
-        "meta",
         "berkshire",
-        "vanguard"
+        "vanguard",
+        "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.556,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 5,
-        "budgeting-saving": 3,
+        "ai-infrastructure": 1,
+        "real-estate": 14,
+        "inflation": 2,
+        "rates-fed": 3,
+        "ai-boom": 1,
+        "housing": 2,
+        "elections-politics": 1,
+        "regulation-antitrust": 2,
+        "budgeting-saving": 14,
+        "fire-movement": 4,
+        "dividends-buybacks": 2,
+        "diversification": 3,
+        "tax-planning": 4,
         "meta": 1,
-        "berkshire": 1,
-        "vanguard": 1
+        "berkshire": 2,
+        "vanguard": 2
       },
       "entity_mention_density": {
-        "real-estate": 10.8,
-        "budgeting-saving": 6.5,
-        "meta": 2.2,
-        "berkshire": 2.2,
-        "vanguard": 2.2
+        "ai-infrastructure": 0.1,
+        "real-estate": 2.0,
+        "inflation": 0.3,
+        "rates-fed": 0.4,
+        "ai-boom": 0.1,
+        "housing": 0.3,
+        "elections-politics": 0.1,
+        "regulation-antitrust": 0.3,
+        "budgeting-saving": 2.0,
+        "fire-movement": 0.6,
+        "dividends-buybacks": 0.3,
+        "diversification": 0.4,
+        "tax-planning": 0.6,
+        "meta": 0.1,
+        "berkshire": 0.3,
+        "vanguard": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-boom": -1.0,
+        "regulation-antitrust": -1.0
+      },
+      "entity_conviction": {
+        "tax-planning": -1.0,
+        "fire-movement": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, Budgeting & Saving, Financial Independence / FIRE, Tax Planning, Interest Rates & Fed Policy. Mentions Berkshire Hathaway, Vanguard, Meta. Tone leans bearish (-0.56).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-equity-mates-investing-podcast-housing-falls-post-budget-is-adding-to-super-worth-it-pimp-m-b3edc2.md",
+    "transcript_word_count": 6664,
+    "transcript_language": "en"
   },
   {
     "guid": "Buzzsprout-19289865",
