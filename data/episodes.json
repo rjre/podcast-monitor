@@ -62411,58 +62411,155 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/deaa7ece-3204-4192-b6fe-d27f215817cc/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=deaa7ece-3204-4192-b6fe-d27f215817cc&feed=Bt3ITxGl",
     "tags": {
       "sectors": [
-        "technology",
         "ai-infrastructure",
-        "consumer-discretionary"
+        "technology",
+        "energy",
+        "industrials",
+        "insurance",
+        "semiconductors",
+        "consumer-discretionary",
+        "private-markets"
       ],
       "themes": [
-        "inflation",
         "rates-fed",
-        "ai-boom",
+        "inflation",
         "bond-market",
-        "consumer-health"
+        "commodities",
+        "earnings",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "market-concentration",
+        "japan",
+        "fiscal-debt",
+        "dealmaking",
+        "esg-climate",
+        "consumer-health",
+        "dividends-buybacks",
+        "small-caps-value-growth",
+        "diversification"
       ],
       "stocks": [
-        "microsoft"
+        "microsoft",
+        "amazon",
+        "meta",
+        "alphabet",
+        "nasdaq",
+        "apple",
+        "qualcomm"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.016,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "ai-infrastructure": 1,
-        "consumer-discretionary": 1,
-        "inflation": 1,
-        "rates-fed": 1,
-        "ai-boom": 1,
-        "bond-market": 1,
+        "technology": 4,
+        "semiconductors": 2,
+        "ai-infrastructure": 12,
+        "insurance": 3,
+        "energy": 4,
+        "consumer-discretionary": 2,
+        "industrials": 4,
+        "private-markets": 2,
+        "inflation": 24,
+        "rates-fed": 32,
+        "ai-boom": 2,
+        "japan": 1,
+        "geopolitics-tariffs": 2,
+        "fiscal-debt": 1,
+        "commodities": 3,
+        "dealmaking": 1,
+        "esg-climate": 1,
+        "earnings": 3,
+        "bond-market": 7,
         "consumer-health": 1,
-        "microsoft": 1
+        "dividends-buybacks": 1,
+        "market-concentration": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "apple": 1,
+        "microsoft": 23,
+        "alphabet": 4,
+        "amazon": 9,
+        "meta": 5,
+        "nasdaq": 3,
+        "qualcomm": 1
       },
       "entity_mention_density": {
-        "technology": 13.7,
-        "ai-infrastructure": 13.7,
-        "consumer-discretionary": 13.7,
-        "inflation": 13.7,
-        "rates-fed": 13.7,
-        "ai-boom": 13.7,
-        "bond-market": 13.7,
-        "consumer-health": 13.7,
-        "microsoft": 13.7
+        "technology": 0.5,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.5,
+        "insurance": 0.4,
+        "energy": 0.5,
+        "consumer-discretionary": 0.2,
+        "industrials": 0.5,
+        "private-markets": 0.2,
+        "inflation": 3.0,
+        "rates-fed": 4.0,
+        "ai-boom": 0.2,
+        "japan": 0.1,
+        "geopolitics-tariffs": 0.2,
+        "fiscal-debt": 0.1,
+        "commodities": 0.4,
+        "dealmaking": 0.1,
+        "esg-climate": 0.1,
+        "earnings": 0.4,
+        "bond-market": 0.9,
+        "consumer-health": 0.1,
+        "dividends-buybacks": 0.1,
+        "market-concentration": 0.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "apple": 0.1,
+        "microsoft": 2.9,
+        "alphabet": 0.5,
+        "amazon": 1.1,
+        "meta": 0.6,
+        "nasdaq": 0.4,
+        "qualcomm": 0.1
       },
       "entity_sentiment": {
         "technology": 1.0,
         "consumer-discretionary": 1.0,
-        "ai-infrastructure": 1.0,
+        "ai-infrastructure": 0.333,
+        "energy": 0.0,
+        "insurance": 1.0,
         "ai-boom": 1.0,
         "consumer-health": 1.0,
-        "microsoft": 1.0
+        "inflation": -0.333,
+        "rates-fed": -0.63,
+        "bond-market": -1.0,
+        "commodities": 1.0,
+        "earnings": -0.429,
+        "fiscal-debt": -1.0,
+        "microsoft": 0.545,
+        "nasdaq": -0.333,
+        "meta": 0.167,
+        "amazon": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "energy": -1.0,
+        "industrials": -1.0,
+        "insurance": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": -1.0,
+        "commodities": -1.0,
+        "geopolitics-tariffs": 1.0,
+        "microsoft": -1.0,
+        "meta": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Energy & Oil, Interest Rates & Fed Policy, Inflation, Bond Market & Yields, Commodities. Mentions Microsoft, Amazon, Meta, Alphabet / Google, Nasdaq. Tone reads roughly neutral (+0.02).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-morning-call-tech-earnings-ai-spending-and-fed-uncertainty-drive-markets-76433f.md",
+    "transcript_word_count": 7967,
+    "transcript_language": "en"
   },
   {
     "guid": "6a6b0eeca585d3be78cd9d1b",
@@ -98921,36 +99018,66 @@
     "duration": "36:17",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a5052e9cf487ba3a9ace029/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "nasdaq",
-        "meta",
-        "mastercard"
+      "sectors": [
+        "private-markets",
+        "consumer-discretionary",
+        "insurance"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "themes": [
+        "market-structure",
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "amazon",
+        "mastercard",
+        "nasdaq",
+        "meta"
+      ],
+      "sentiment": 0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
+        "insurance": 1,
+        "consumer-discretionary": 7,
+        "private-markets": 11,
+        "market-structure": 1,
+        "budgeting-saving": 1,
+        "amazon": 6,
         "meta": 1,
-        "nasdaq": 2,
-        "mastercard": 1
+        "nasdaq": 3,
+        "mastercard": 4
       },
       "entity_mention_density": {
-        "meta": 2.3,
-        "nasdaq": 4.5,
-        "mastercard": 2.3
+        "insurance": 0.1,
+        "consumer-discretionary": 1.0,
+        "private-markets": 1.6,
+        "market-structure": 0.1,
+        "budgeting-saving": 0.1,
+        "amazon": 0.9,
+        "meta": 0.1,
+        "nasdaq": 0.4,
+        "mastercard": 0.6
       },
       "entity_sentiment": {
         "nasdaq": 1.0,
         "mastercard": 1.0,
         "meta": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "private-markets": -0.556,
+        "consumer-discretionary": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Consumer Discretionary, Insurance, Market Structure & Liquidity, Budgeting & Saving. Mentions Amazon, Mastercard, Nasdaq, Meta. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-12-equity-mates-investing-podcast-pet-care-australia-has-more-pets-than-people-the-decade-ahea-ace029.md",
+    "transcript_word_count": 6270,
+    "transcript_language": "en"
   },
   {
     "guid": "5051de47-9624-43d9-8530-3b503af448ce",
@@ -125450,36 +125577,97 @@
     "duration": "01:01:46",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/f558ac41-1247-44e9-8ef1-0aa21342139a.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "banks",
+        "semiconductors"
+      ],
       "themes": [
         "housing",
         "budgeting-saving",
-        "tax-planning"
+        "inflation",
+        "rates-fed",
+        "tax-planning",
+        "college-savings",
+        "hedge-funds",
+        "real-estate-investing",
+        "estate-planning",
+        "insurance-products"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon",
+        "meta",
+        "netflix",
+        "citigroup",
+        "bank-of-america"
+      ],
+      "sentiment": 0.189,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "housing": 3,
-        "budgeting-saving": 1,
-        "tax-planning": 1
+        "semiconductors": 2,
+        "banks": 3,
+        "real-estate": 5,
+        "inflation": 2,
+        "rates-fed": 2,
+        "housing": 5,
+        "hedge-funds": 1,
+        "budgeting-saving": 4,
+        "real-estate-investing": 1,
+        "tax-planning": 2,
+        "estate-planning": 1,
+        "college-savings": 2,
+        "insurance-products": 1,
+        "amazon": 3,
+        "meta": 2,
+        "citigroup": 1,
+        "bank-of-america": 1,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "housing": 5.6,
-        "budgeting-saving": 1.9,
-        "tax-planning": 1.9
+        "semiconductors": 0.1,
+        "banks": 0.2,
+        "real-estate": 0.4,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "housing": 0.4,
+        "hedge-funds": 0.1,
+        "budgeting-saving": 0.3,
+        "real-estate-investing": 0.1,
+        "tax-planning": 0.1,
+        "estate-planning": 0.1,
+        "college-savings": 0.1,
+        "insurance-products": 0.1,
+        "amazon": 0.2,
+        "meta": 0.1,
+        "citigroup": 0.1,
+        "bank-of-america": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {
+        "banks": 0.0,
         "housing": 1.0,
         "budgeting-saving": 1.0,
         "tax-planning": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "housing": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "estate-planning": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Semiconductors, Housing Market, Budgeting & Saving, Inflation, Interest Rates & Fed Policy. Mentions Amazon, Meta, Netflix, Citigroup, Bank of America. Tone leans bullish (+0.19).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-stacking-benjamins-when-borrowing-against-your-house-is-smart-and-when-it-quiet-xyXUL4.md",
+    "transcript_word_count": 13247,
+    "transcript_language": "en"
   },
   {
     "guid": "f5c05315-7559-4fa4-a6da-b47400f7cb90",
@@ -182306,30 +182494,73 @@
     "duration": "4928",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC4553079365.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "private-markets",
+        "consumer-staples"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "dividends-buybacks",
+        "esg-climate",
+        "earnings",
+        "valuation"
       ],
       "stocks": [
+        "bitcoin",
+        "alphabet",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.119,
+      "sentiment_hits": 18,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 2,
-        "meta": 1
+        "consumer-staples": 1,
+        "crypto": 2,
+        "private-markets": 2,
+        "dealmaking": 28,
+        "esg-climate": 2,
+        "earnings": 2,
+        "dividends-buybacks": 26,
+        "valuation": 1,
+        "alphabet": 1,
+        "meta": 1,
+        "bitcoin": 2
       },
       "entity_mention_density": {
-        "dealmaking": 4.9,
-        "meta": 2.5
+        "consumer-staples": 0.1,
+        "crypto": 0.1,
+        "private-markets": 0.1,
+        "dealmaking": 1.6,
+        "esg-climate": 0.1,
+        "earnings": 0.1,
+        "dividends-buybacks": 1.5,
+        "valuation": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "bitcoin": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "earnings": -1.0
+      },
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "dealmaking": -0.333,
+        "dividends-buybacks": -1.0,
+        "earnings": 1.0,
+        "esg-climate": 1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Private Equity & Credit, Consumer Staples, IPOs & Dealmaking, Dividends & Buybacks, ESG & Climate, Corporate Earnings. Mentions Bitcoin, Alphabet / Google, Meta. Tone reads roughly neutral (-0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-31-the-investor-s-podcast-we-study-billionaires-tip819-lifco-ab-lifco-b-st-the-serial-acquirer-building-an-u-9c1c63.md",
+    "transcript_word_count": 16893,
+    "transcript_language": "en"
   },
   {
     "guid": "08eea2ab-94df-4e60-abdf-b4520028cfa8",
