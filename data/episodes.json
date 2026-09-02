@@ -90814,20 +90814,114 @@
     "duration": "00:44:14",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/f65fa123-98db-4080-8fc3-ef93e693410a/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=f65fa123-98db-4080-8fc3-ef93e693410a&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "banks",
+        "energy",
+        "private-markets",
+        "semiconductors",
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "defense-aerospace"
+      ],
+      "themes": [
+        "dealmaking",
+        "commodities",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "valuation",
+        "behavioral-finance"
+      ],
+      "stocks": [
+        "nvidia",
+        "microsoft",
+        "tesla",
+        "alphabet",
+        "walmart",
+        "nasdaq",
+        "charles-schwab",
+        "broadcom"
+      ],
+      "sentiment": 1.0,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 6,
+        "semiconductors": 1,
+        "ai-infrastructure": 1,
+        "banks": 3,
+        "energy": 3,
+        "consumer-discretionary": 1,
+        "defense-aerospace": 1,
+        "private-markets": 2,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 1,
+        "commodities": 3,
+        "dealmaking": 9,
+        "valuation": 1,
+        "behavioral-finance": 1,
+        "nvidia": 9,
+        "microsoft": 3,
+        "alphabet": 2,
+        "tesla": 3,
+        "walmart": 2,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.8,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.1,
+        "banks": 0.4,
+        "energy": 0.4,
+        "consumer-discretionary": 0.1,
+        "defense-aerospace": 0.1,
+        "private-markets": 0.3,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "commodities": 0.4,
+        "dealmaking": 1.2,
+        "valuation": 0.1,
+        "behavioral-finance": 0.1,
+        "nvidia": 1.2,
+        "microsoft": 0.4,
+        "alphabet": 0.3,
+        "tesla": 0.4,
+        "walmart": 0.3,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "broadcom": 0.1
+      },
+      "entity_sentiment": {
+        "technology": 1.0,
+        "semiconductors": 1.0,
+        "banks": 1.0,
+        "consumer-discretionary": 1.0,
+        "dealmaking": 1.0,
+        "nvidia": 1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "consumer-discretionary": -1.0,
+        "defense-aerospace": -1.0,
+        "dealmaking": 0.0,
+        "nasdaq": -1.0,
+        "nvidia": -1.0,
+        "tesla": -0.333,
+        "alphabet": -1.0,
+        "walmart": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Banks & Financials, Energy & Oil, IPOs & Dealmaking, Commodities, AI & Machine Learning, Geopolitics & Tariffs. Mentions Nvidia, Microsoft, Tesla, Alphabet / Google, Walmart. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-mad-money-w-jim-cramer-mad-money-w-jim-cramer-7-13-26-1e555d.md",
+    "transcript_word_count": 7700,
+    "transcript_language": "en"
   },
   {
     "guid": "eb4aada8-7f06-11f1-8ca1-b30b3a1899d2",
@@ -115709,34 +115803,92 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "industrials",
+        "technology",
+        "real-estate",
+        "materials-mining"
       ],
-      "themes": [],
+      "themes": [
+        "market-structure",
+        "passive-investing",
+        "ai-boom",
+        "regulation-antitrust",
+        "budgeting-saving",
+        "valuation"
+      ],
       "stocks": [
         "nvidia",
-        "tsmc"
+        "tsmc",
+        "alphabet",
+        "microsoft",
+        "bitcoin"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.375,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "ai-infrastructure": 1,
-        "nvidia": 1,
-        "tsmc": 1
+        "technology": 3,
+        "semiconductors": 62,
+        "ai-infrastructure": 27,
+        "real-estate": 1,
+        "industrials": 11,
+        "materials-mining": 1,
+        "ai-boom": 1,
+        "regulation-antitrust": 1,
+        "passive-investing": 2,
+        "market-structure": 3,
+        "budgeting-saving": 1,
+        "valuation": 1,
+        "nvidia": 10,
+        "microsoft": 1,
+        "alphabet": 2,
+        "tsmc": 10,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "semiconductors": 1.7,
-        "ai-infrastructure": 1.7,
-        "nvidia": 1.7,
-        "tsmc": 1.7
+        "technology": 0.2,
+        "semiconductors": 3.2,
+        "ai-infrastructure": 1.4,
+        "real-estate": 0.1,
+        "industrials": 0.6,
+        "materials-mining": 0.1,
+        "ai-boom": 0.1,
+        "regulation-antitrust": 0.1,
+        "passive-investing": 0.1,
+        "market-structure": 0.2,
+        "budgeting-saving": 0.1,
+        "valuation": 0.1,
+        "nvidia": 0.5,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "tsmc": 0.5,
+        "bitcoin": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 0.176,
+        "ai-infrastructure": 0.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "industrials": -1.0,
+        "ai-boom": -1.0,
+        "valuation": -1.0,
+        "market-structure": -1.0,
+        "nvidia": -1.0,
+        "tsmc": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Industrials, Market Structure & Liquidity, Passive Investing, AI & Machine Learning, Regulation & Antitrust. Mentions Nvidia, TSMC, Alphabet / Google, Microsoft, Bitcoin. Tone leans bearish (-0.38).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-invest-like-the-best-etched-building-ai-hardware-to-make-inference-faster-and-che-c88b79.md",
+    "transcript_word_count": 19076,
+    "transcript_language": "en"
   },
   {
     "guid": "6a82e25f-92dc-4d26-8326-b47900e2bb58",
@@ -154706,33 +154858,59 @@
     "duration": "428",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/847d71bd-b22d-45b6-9f86-6e7b4bcea921.mp3?source=feed",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
+        "dividends-buybacks",
+        "valuation",
+        "rates-fed",
+        "dealmaking",
         "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 5,
-      "sentiment_confidence": 0.833,
+      "sentiment": 0.123,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "real-estate": 1,
+        "rates-fed": 1,
+        "dealmaking": 1,
         "bond-market": 1,
-        "nasdaq": 1
+        "dividends-buybacks": 5,
+        "valuation": 2,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "bond-market": 6.0,
-        "nasdaq": 6.0
+        "real-estate": 0.6,
+        "rates-fed": 0.6,
+        "dealmaking": 0.6,
+        "bond-market": 0.6,
+        "dividends-buybacks": 3.2,
+        "valuation": 1.3,
+        "nasdaq": 1.9
       },
       "entity_sentiment": {
         "bond-market": 0.333,
-        "nasdaq": 0.333
+        "dividends-buybacks": 0.0,
+        "valuation": -0.333,
+        "nasdaq": 0.5
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Dividends & Buybacks, Valuation, Interest Rates & Fed Policy, IPOs & Dealmaking. Mentions Nasdaq. Tone reads roughly neutral (+0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-the-dividend-cafe-tuesday-june-9-2026-d14f3e.md",
+    "transcript_word_count": 1393,
+    "transcript_language": "en"
   },
   {
     "guid": "6a286a7d74e72c6295ac36ec",
@@ -168327,26 +168505,98 @@
     "duration": "987",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/1eb7e20e-6305-4e9a-a763-b45d0107ed45/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "ai-infrastructure",
+        "private-markets",
+        "technology",
+        "real-estate",
+        "industrials",
+        "crypto"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "recession",
+        "commodities",
+        "currency-dollar",
+        "market-concentration"
+      ],
       "stocks": [
+        "alphabet",
         "jpmorgan"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.077,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "jpmorgan": 1
+        "technology": 2,
+        "ai-infrastructure": 3,
+        "real-estate": 2,
+        "industrials": 1,
+        "crypto": 1,
+        "private-markets": 3,
+        "inflation": 5,
+        "rates-fed": 7,
+        "recession": 1,
+        "geopolitics-tariffs": 2,
+        "commodities": 1,
+        "dealmaking": 2,
+        "currency-dollar": 1,
+        "market-concentration": 1,
+        "alphabet": 4,
+        "jpmorgan": 2
       },
       "entity_mention_density": {
-        "jpmorgan": 21.3
+        "technology": 0.5,
+        "ai-infrastructure": 0.8,
+        "real-estate": 0.5,
+        "industrials": 0.3,
+        "crypto": 0.3,
+        "private-markets": 0.8,
+        "inflation": 1.3,
+        "rates-fed": 1.8,
+        "recession": 0.3,
+        "geopolitics-tariffs": 0.5,
+        "commodities": 0.3,
+        "dealmaking": 0.5,
+        "currency-dollar": 0.3,
+        "market-concentration": 0.3,
+        "alphabet": 1.0,
+        "jpmorgan": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "industrials": 1.0,
+        "rates-fed": 1.0,
+        "recession": -1.0,
+        "market-concentration": -1.0,
+        "inflation": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "industrials": -1.0,
+        "private-markets": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "rates-fed": -1.0,
+        "dealmaking": -1.0,
+        "commodities": 1.0,
+        "inflation": -0.474,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Private Equity & Credit, Technology, Interest Rates & Fed Policy, Inflation, Geopolitics & Tariffs, IPOs & Dealmaking. Mentions Alphabet / Google, JPMorgan. Tone reads roughly neutral (+0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-02-bloomberg-surveillance-bloomberg-surveillance-tv-june-2nd-2026-07ed45.md",
+    "transcript_word_count": 3910,
+    "transcript_language": "en"
   },
   {
     "guid": "686e4747-a30b-431a-94dd-b45d00f023b6",
