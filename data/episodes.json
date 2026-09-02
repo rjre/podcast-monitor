@@ -53472,20 +53472,60 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/54c9ec22-0f37-4aac-88bc-d7add8a6b515/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=54c9ec22-0f37-4aac-88bc-d7add8a6b515&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "industrials",
+        "autos-ev"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "elections-politics",
+        "dealmaking"
+      ],
+      "stocks": [
+        "amazon",
+        "chevron",
+        "tesla"
+      ],
+      "sentiment": 0.143,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "industrials": 4,
+        "autos-ev": 2,
+        "geopolitics-tariffs": 4,
+        "elections-politics": 1,
+        "dealmaking": 1,
+        "amazon": 5,
+        "tesla": 2,
+        "chevron": 3
+      },
+      "entity_mention_density": {
+        "industrials": 0.6,
+        "autos-ev": 0.3,
+        "geopolitics-tariffs": 0.6,
+        "elections-politics": 0.1,
+        "dealmaking": 0.1,
+        "amazon": 0.7,
+        "tesla": 0.3,
+        "chevron": 0.4
+      },
+      "entity_sentiment": {
+        "industrials": -1.0,
+        "geopolitics-tariffs": -1.0
+      },
+      "entity_conviction": {
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Autos & EVs, Geopolitics & Tariffs, Elections & Politics, IPOs & Dealmaking. Mentions Amazon, Chevron, Tesla. Tone reads roughly neutral (+0.14).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-07-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-7-26-8cc880.md",
+    "transcript_word_count": 7162,
+    "transcript_language": "en"
   },
   {
     "guid": "2d6f07b7-2f61-4f6c-82d9-9397a1d671a3",
@@ -58397,35 +58437,55 @@
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/6a05ec87-6a85-45a9-9f71-40be6e5566c8.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
       "sectors": [
-        "private-markets",
         "insurance",
+        "private-markets",
         "healthcare"
       ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "rates-fed",
+        "career-income"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": -0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "insurance": 1,
-        "healthcare": 1,
-        "private-markets": 2,
-        "budgeting-saving": 1
+        "insurance": 62,
+        "healthcare": 15,
+        "private-markets": 22,
+        "rates-fed": 1,
+        "budgeting-saving": 4,
+        "career-income": 1,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "insurance": 2.3,
-        "healthcare": 2.3,
-        "private-markets": 4.6,
-        "budgeting-saving": 2.3
+        "insurance": 3.9,
+        "healthcare": 0.9,
+        "private-markets": 1.4,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.3,
+        "career-income": 0.1,
+        "amazon": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": -1.0,
+        "private-markets": -1.0,
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Private Equity & Credit, Healthcare & Pharma, Budgeting & Saving, Interest Rates & Fed Policy, Career & Income Growth. Mentions Amazon. Tone leans bearish (-0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-stacking-benjamins-what-to-do-when-insurance-denies-your-claim-and-why-they-cou-ufOw7o.md",
+    "transcript_word_count": 15426,
+    "transcript_language": "en"
   },
   {
     "guid": "09ad45b2-ee9c-4482-8700-b49d0161d97f",
@@ -175177,47 +175237,109 @@
     "duration": "47:40",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a2f512abbc799bafcb65a46/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto",
+        "ai-infrastructure",
+        "technology",
+        "industrials",
+        "semiconductors",
+        "energy",
+        "consumer-discretionary",
+        "real-estate"
+      ],
       "themes": [
+        "inflation",
         "rates-fed",
+        "small-caps-value-growth",
+        "safe-havens",
+        "budgeting-saving",
+        "regulation-antitrust",
         "hedge-funds",
-        "small-caps-value-growth"
+        "consumer-health",
+        "labor-market",
+        "commodities",
+        "dealmaking",
+        "bond-market",
+        "market-concentration"
       ],
       "stocks": [
-        "nasdaq",
         "alphabet",
+        "nasdaq",
         "amazon",
+        "bitcoin",
         "meta",
-        "micron",
-        "bitcoin"
+        "micron"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.121,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "hedge-funds": 1,
-        "small-caps-value-growth": 1,
-        "alphabet": 2,
-        "amazon": 2,
+        "technology": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 7,
+        "energy": 1,
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "industrials": 2,
+        "crypto": 8,
+        "inflation": 24,
+        "rates-fed": 18,
+        "labor-market": 1,
+        "commodities": 1,
+        "safe-havens": 4,
+        "dealmaking": 1,
+        "regulation-antitrust": 2,
+        "bond-market": 1,
+        "hedge-funds": 2,
+        "consumer-health": 2,
+        "budgeting-saving": 3,
+        "market-concentration": 1,
+        "small-caps-value-growth": 7,
+        "alphabet": 5,
+        "amazon": 3,
         "meta": 2,
         "micron": 1,
-        "bitcoin": 1,
+        "bitcoin": 3,
         "nasdaq": 5
       },
       "entity_mention_density": {
-        "rates-fed": 2.0,
-        "hedge-funds": 2.0,
-        "small-caps-value-growth": 2.0,
-        "alphabet": 3.9,
-        "amazon": 3.9,
-        "meta": 3.9,
-        "micron": 2.0,
-        "bitcoin": 2.0,
-        "nasdaq": 9.8
+        "technology": 0.2,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.7,
+        "energy": 0.1,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.2,
+        "crypto": 0.9,
+        "inflation": 2.6,
+        "rates-fed": 1.9,
+        "labor-market": 0.1,
+        "commodities": 0.1,
+        "safe-havens": 0.4,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.2,
+        "bond-market": 0.1,
+        "hedge-funds": 0.2,
+        "consumer-health": 0.2,
+        "budgeting-saving": 0.3,
+        "market-concentration": 0.1,
+        "small-caps-value-growth": 0.7,
+        "alphabet": 0.5,
+        "amazon": 0.3,
+        "meta": 0.2,
+        "micron": 0.1,
+        "bitcoin": 0.3,
+        "nasdaq": 0.5
       },
       "entity_sentiment": {
-        "small-caps-value-growth": 0.0,
+        "ai-infrastructure": 0.0,
+        "technology": -1.0,
+        "rates-fed": 0.0,
+        "small-caps-value-growth": -0.333,
+        "inflation": 0.0,
+        "safe-havens": 0.0,
+        "budgeting-saving": -1.0,
+        "consumer-health": 1.0,
         "alphabet": 0.0,
         "amazon": 0.0,
         "meta": 0.0,
@@ -175225,11 +175347,34 @@
         "bitcoin": 0.0,
         "nasdaq": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "crypto": -1.0,
+        "rates-fed": -1.0,
+        "small-caps-value-growth": -1.0,
+        "inflation": -1.0,
+        "safe-havens": -1.0,
+        "budgeting-saving": -1.0,
+        "consumer-health": -1.0,
+        "market-concentration": -1.0,
+        "bond-market": -1.0,
+        "regulation-antitrust": -1.0,
+        "dealmaking": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, AI Infrastructure, Technology, Inflation, Interest Rates & Fed Policy, Small-Caps, Value & Growth, Gold & Safe Havens. Mentions Alphabet / Google, Nasdaq, Amazon, Bitcoin, Meta. Tone reads roughly neutral (+0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-equity-mates-investing-podcast-chris-judd-thinks-you-re-wrong-about-rates-bonds-and-ai-b65a46.md",
+    "transcript_word_count": 8885,
+    "transcript_language": "en"
   },
   {
     "guid": "6a2f77b8edba0afcfd235bee",
