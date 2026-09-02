@@ -1118,31 +1118,47 @@
       "themes": [
         "budgeting-saving",
         "passive-income",
-        "fire-movement"
+        "fire-movement",
+        "college-savings"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet"
+      ],
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "budgeting-saving": 2,
+        "budgeting-saving": 11,
         "fire-movement": 1,
-        "passive-income": 2
+        "passive-income": 6,
+        "college-savings": 1,
+        "alphabet": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 6.5,
-        "fire-movement": 3.2,
-        "passive-income": 6.5
+        "budgeting-saving": 5.3,
+        "fire-movement": 0.5,
+        "passive-income": 2.9,
+        "college-savings": 0.5,
+        "alphabet": 0.5
       },
       "entity_sentiment": {
         "budgeting-saving": 1.0,
         "passive-income": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "passive-income": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Passive Income & Side Hustles, Financial Independence / FIRE, College Savings & Student Debt. Mentions Alphabet / Google. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-02-optimal-finance-daily-3686-3-seriously-simple-tactics-we-used-to-pay-off-our-loans-d7fe43.md",
+    "transcript_word_count": 1775,
+    "transcript_language": "en"
   },
   {
     "guid": "95e15ca6-a68c-11f1-82f5-d7274d1f365b",
@@ -211656,37 +211672,92 @@
     "duration": "00:10:59",
     "audio_url": "https://traffic.megaphone.fm/APO7681644008.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "energy",
+        "insurance",
+        "crypto"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "commodities",
+        "geopolitics-tariffs",
+        "dividends-buybacks",
+        "behavioral-finance"
       ],
       "stocks": [
         "alphabet",
-        "nvidia"
+        "bitcoin",
+        "nvidia",
+        "berkshire",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.298,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 2,
-        "nvidia": 1,
-        "alphabet": 2
+        "technology": 3,
+        "semiconductors": 5,
+        "ai-infrastructure": 9,
+        "insurance": 1,
+        "energy": 3,
+        "crypto": 1,
+        "geopolitics-tariffs": 1,
+        "commodities": 2,
+        "dealmaking": 7,
+        "dividends-buybacks": 1,
+        "behavioral-finance": 1,
+        "nvidia": 5,
+        "alphabet": 20,
+        "berkshire": 3,
+        "bitcoin": 9,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "dealmaking": 16.8,
-        "nvidia": 8.4,
-        "alphabet": 16.8
+        "technology": 1.3,
+        "semiconductors": 2.1,
+        "ai-infrastructure": 3.8,
+        "insurance": 0.4,
+        "energy": 1.3,
+        "crypto": 0.4,
+        "geopolitics-tariffs": 0.4,
+        "commodities": 0.8,
+        "dealmaking": 3.0,
+        "dividends-buybacks": 0.4,
+        "behavioral-finance": 0.4,
+        "nvidia": 2.1,
+        "alphabet": 8.4,
+        "berkshire": 1.3,
+        "bitcoin": 3.8,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
-        "dealmaking": 0.0,
+        "energy": 1.0,
+        "dealmaking": 0.412,
+        "commodities": 1.0,
         "alphabet": 0.0,
-        "nvidia": 0.0
+        "nvidia": 0.0,
+        "nasdaq": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0,
+        "behavioral-finance": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "alphabet"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, IPOs & Dealmaking, Commodities, Geopolitics & Tariffs, Dividends & Buybacks. Mentions Alphabet / Google, Bitcoin, Nvidia, Berkshire Hathaway, Nasdaq. Tone leans bullish (+0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-02-the-rundown-anthropic-files-for-ipo-alphabet-to-raise-80b-for-ai-buildou-045427.md",
+    "transcript_word_count": 2249,
+    "transcript_language": "en"
   },
   {
     "guid": "487ad1de-5e8b-11f1-892c-13374139b18d",
@@ -255462,33 +255533,77 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML8904972737.mp3",
     "tags": {
       "sectors": [
-        "technology"
+        "semiconductors",
+        "technology",
+        "ai-infrastructure"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "ai-boom",
+        "diversification",
+        "earnings",
+        "budgeting-saving",
+        "valuation"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "amazon",
+        "berkshire"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.51,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "technology": 1,
-        "dealmaking": 1,
-        "nvidia": 2
+        "technology": 3,
+        "semiconductors": 4,
+        "ai-infrastructure": 3,
+        "ai-boom": 2,
+        "dealmaking": 18,
+        "earnings": 1,
+        "budgeting-saving": 1,
+        "valuation": 1,
+        "diversification": 2,
+        "nvidia": 10,
+        "amazon": 4,
+        "berkshire": 1
       },
       "entity_mention_density": {
-        "technology": 3.7,
-        "dealmaking": 3.7,
-        "nvidia": 7.4
+        "technology": 0.7,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.7,
+        "ai-boom": 0.5,
+        "dealmaking": 4.2,
+        "earnings": 0.2,
+        "budgeting-saving": 0.2,
+        "valuation": 0.2,
+        "diversification": 0.5,
+        "nvidia": 2.3,
+        "amazon": 0.9,
+        "berkshire": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "berkshire": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "dealmaking": -0.111,
+        "ai-boom": -0.2,
+        "diversification": -0.412,
+        "valuation": 1.0,
+        "nvidia": 1.0,
+        "amazon": 1.0,
+        "berkshire": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, AI Infrastructure, IPOs & Dealmaking, AI & Machine Learning, Diversification & Asset Allocation, Corporate Earnings. Mentions Nvidia, Amazon, Berkshire Hathaway. Tone leans bullish (+0.51).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-motley-fool-hidden-gems-what-should-investors-do-with-the-new-wave-of-ipos-06164b.md",
+    "transcript_word_count": 4034,
+    "transcript_language": "en"
   },
   {
     "guid": "229bd59a-4d78-11f1-9ca8-cbfe6d346b02",
