@@ -130479,31 +130479,73 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML1611526543.mp3",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "industrials",
+        "semiconductors",
+        "defense-aerospace",
+        "technology",
+        "ai-infrastructure"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "budgeting-saving",
+        "market-concentration",
+        "diversification"
+      ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "alphabet"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "amazon": 2
+        "technology": 2,
+        "semiconductors": 4,
+        "ai-infrastructure": 2,
+        "industrials": 5,
+        "defense-aerospace": 3,
+        "dealmaking": 1,
+        "budgeting-saving": 1,
+        "market-concentration": 1,
+        "diversification": 1,
+        "alphabet": 3,
+        "amazon": 10
       },
       "entity_mention_density": {
-        "semiconductors": 2.8,
-        "amazon": 5.6
+        "technology": 0.4,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.4,
+        "industrials": 1.1,
+        "defense-aerospace": 0.7,
+        "dealmaking": 0.2,
+        "budgeting-saving": 0.2,
+        "market-concentration": 0.2,
+        "diversification": 0.2,
+        "alphabet": 0.7,
+        "amazon": 2.2
       },
       "entity_sentiment": {
-        "semiconductors": -1.0
+        "semiconductors": -1.0,
+        "industrials": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "industrials": -1.0,
+        "defense-aerospace": -0.333,
+        "diversification": -1.0,
+        "dealmaking": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, Defense & Aerospace, IPOs & Dealmaking, Budgeting & Saving, Market Concentration / Mega-cap, Diversification & Asset Allocation. Mentions Amazon, Alphabet / Google. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-07-motley-fool-hidden-gems-ai-expectations-hit-a-fever-pitch-cd3130.md",
+    "transcript_word_count": 4117,
+    "transcript_language": "en"
   },
   {
     "guid": "6a4d44034d6f6e9e984cc262",
@@ -153395,19 +153437,39 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/046a9271-66aa-41b3-80df-24948adc8240.mp3?source=feed",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "dividends-buybacks",
+        "elections-politics",
+        "career-income"
+      ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment": 1.0,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "elections-politics": 1,
+        "career-income": 1,
+        "dividends-buybacks": 9
+      },
+      "entity_mention_density": {
+        "elections-politics": 0.3,
+        "career-income": 0.3,
+        "dividends-buybacks": 2.9
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dividends-buybacks": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Dividends & Buybacks, Elections & Politics, Career & Income Growth. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-the-dividend-cafe-the-last-best-hope-of-markets-ec828a.md",
+    "transcript_word_count": 2940,
+    "transcript_language": "en"
   },
   {
     "guid": "294a40e8-7163-11f1-a2ac-bf7de7f5fbe3",
@@ -172293,18 +172355,22 @@
     "audio_url": "https://traffic.megaphone.fm/OLD5655281004.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
+      "themes": [
+        "budgeting-saving"
+      ],
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
+        "budgeting-saving": 2,
         "amazon": 1
       },
       "entity_mention_density": {
-        "amazon": 2.3
+        "budgeting-saving": 0.9,
+        "amazon": 0.5
       },
       "entity_sentiment": {
         "amazon": 1.0
@@ -172313,7 +172379,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving. Mentions Amazon. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-optimal-finance-daily-3599-7-mentally-strong-financial-traits-by-andrew-of-dollar-5a838b.md",
+    "transcript_word_count": 1671,
+    "transcript_language": "en"
   },
   {
     "guid": "8d793fb1-c48c-4139-9f2a-ecb7bd8a91b0",
@@ -241773,56 +241845,153 @@
     "duration": "3552",
     "audio_url": "https://traffic.megaphone.fm/RRM4284206700.mp3?updated=1779030352",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "consumer-discretionary",
+        "semiconductors",
+        "energy",
+        "crypto"
+      ],
       "themes": [
-        "passive-investing",
-        "rates-fed",
         "dealmaking",
-        "market-structure",
+        "rates-fed",
+        "inflation",
+        "passive-investing",
         "bond-market",
+        "diversification",
+        "geopolitics-tariffs",
+        "market-structure",
         "market-concentration",
-        "diversification"
+        "market-timing-dca",
+        "dividends-buybacks"
       ],
       "stocks": [
         "nasdaq",
-        "nvidia"
+        "nvidia",
+        "jpmorgan",
+        "microsoft",
+        "tesla",
+        "alphabet",
+        "mastercard",
+        "amazon",
+        "meta",
+        "boeing",
+        "bitcoin",
+        "fidelity",
+        "broadcom"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.106,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 2,
-        "dealmaking": 2,
-        "bond-market": 1,
-        "passive-investing": 3,
-        "market-structure": 2,
-        "market-concentration": 1,
-        "diversification": 1,
-        "nvidia": 4,
-        "nasdaq": 10
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "energy": 1,
+        "consumer-discretionary": 2,
+        "crypto": 1,
+        "inflation": 6,
+        "rates-fed": 7,
+        "geopolitics-tariffs": 3,
+        "dealmaking": 14,
+        "bond-market": 5,
+        "passive-investing": 6,
+        "market-structure": 3,
+        "dividends-buybacks": 1,
+        "market-concentration": 2,
+        "diversification": 4,
+        "market-timing-dca": 2,
+        "nvidia": 17,
+        "microsoft": 3,
+        "alphabet": 2,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 3,
+        "jpmorgan": 5,
+        "boeing": 1,
+        "bitcoin": 1,
+        "nasdaq": 39,
+        "fidelity": 1,
+        "mastercard": 2,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "rates-fed": 6.7,
-        "dealmaking": 6.7,
-        "bond-market": 3.4,
-        "passive-investing": 10.1,
-        "market-structure": 6.7,
-        "market-concentration": 3.4,
-        "diversification": 3.4,
-        "nvidia": 13.4,
-        "nasdaq": 33.6
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.2,
+        "energy": 0.1,
+        "consumer-discretionary": 0.2,
+        "crypto": 0.1,
+        "inflation": 0.5,
+        "rates-fed": 0.6,
+        "geopolitics-tariffs": 0.3,
+        "dealmaking": 1.2,
+        "bond-market": 0.4,
+        "passive-investing": 0.5,
+        "market-structure": 0.3,
+        "dividends-buybacks": 0.1,
+        "market-concentration": 0.2,
+        "diversification": 0.3,
+        "market-timing-dca": 0.2,
+        "nvidia": 1.5,
+        "microsoft": 0.3,
+        "alphabet": 0.2,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.3,
+        "jpmorgan": 0.4,
+        "boeing": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 3.3,
+        "fidelity": 0.1,
+        "mastercard": 0.2,
+        "broadcom": 0.1
       },
       "entity_sentiment": {
+        "ai-infrastructure": -1.0,
+        "crypto": -1.0,
         "dealmaking": -1.0,
-        "passive-investing": -1.0,
+        "passive-investing": -0.333,
         "market-concentration": -1.0,
-        "nasdaq": -1.0
+        "geopolitics-tariffs": 1.0,
+        "inflation": -1.0,
+        "nasdaq": -0.333,
+        "nvidia": 0.333,
+        "jpmorgan": -1.0,
+        "amazon": 1.0,
+        "meta": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "consumer-discretionary": -1.0,
+        "dealmaking": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": -1.0,
+        "diversification": -1.0,
+        "inflation": -1.0,
+        "dividends-buybacks": -1.0,
+        "market-timing-dca": 1.0,
+        "nasdaq": -0.565,
+        "nvidia": -0.667,
+        "bitcoin": 1.0,
+        "boeing": -1.0,
+        "alphabet": -0.333,
+        "jpmorgan": -1.0,
+        "mastercard": -1.0,
+        "tesla": -1.0,
+        "fidelity": -1.0,
+        "amazon": 0.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "nasdaq"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Consumer Discretionary, Semiconductors, IPOs & Dealmaking, Interest Rates & Fed Policy, Inflation, Passive Investing. Mentions Nasdaq, Nvidia, JPMorgan, Microsoft, Tesla. Tone reads roughly neutral (-0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-18-riskreversal-pod-the-future-of-qqq-ai-spacex-ipo-mag-7-dominance-with-invesco-20c174.md",
+    "transcript_word_count": 11395,
+    "transcript_language": "en"
   },
   {
     "guid": "9c3a9eaa-462e-11f1-a594-8b75cb171483",
