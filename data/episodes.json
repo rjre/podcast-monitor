@@ -86776,20 +86776,90 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/064d11d1-0d8c-4313-916e-ae857f0c806e/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=064d11d1-0d8c-4313-916e-ae857f0c806e&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "autos-ev",
+        "banks"
+      ],
+      "themes": [
+        "rates-fed",
+        "dividends-buybacks",
+        "dealmaking",
+        "passive-investing",
+        "hedge-funds",
+        "regulation-antitrust",
+        "inflation",
+        "ai-boom",
+        "volatility",
+        "bank-stress",
+        "tax-planning"
+      ],
+      "stocks": [
+        "nvidia",
+        "vanguard"
+      ],
+      "sentiment": 0.174,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 2,
+        "banks": 1,
+        "autos-ev": 2,
+        "inflation": 1,
+        "rates-fed": 9,
+        "ai-boom": 1,
+        "volatility": 1,
+        "dealmaking": 5,
+        "regulation-antitrust": 2,
+        "hedge-funds": 3,
+        "passive-investing": 5,
+        "bank-stress": 1,
+        "dividends-buybacks": 7,
+        "tax-planning": 1,
+        "nvidia": 5,
+        "vanguard": 3
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "banks": 0.1,
+        "autos-ev": 0.2,
+        "inflation": 0.1,
+        "rates-fed": 1.0,
+        "ai-boom": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 0.2,
+        "hedge-funds": 0.3,
+        "passive-investing": 0.5,
+        "bank-stress": 0.1,
+        "dividends-buybacks": 0.8,
+        "tax-planning": 0.1,
+        "nvidia": 0.5,
+        "vanguard": 0.3
+      },
+      "entity_sentiment": {
+        "rates-fed": 0.0,
+        "dealmaking": 1.0,
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "passive-investing": -1.0,
+        "rates-fed": -1.0,
+        "tax-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Autos & EVs, Interest Rates & Fed Policy, Dividends & Buybacks, IPOs & Dealmaking, Passive Investing. Mentions Nvidia, Vanguard. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-mad-money-w-jim-cramer-mad-money-w-jim-cramer-7-24-26-850ea5.md",
+    "transcript_word_count": 9078,
+    "transcript_language": "en"
   },
   {
     "guid": "6f7a2692-d9e1-11f0-988b-9363d06c83e8",
@@ -131256,49 +131326,79 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/0c12647e-70d2-4728-92de-0b27cacf3b8a.mp3?source=feed",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "energy"
       ],
       "themes": [
+        "dividends-buybacks",
         "inflation",
         "rates-fed",
         "labor-market",
-        "dividends-buybacks"
+        "commodities",
+        "housing",
+        "volatility",
+        "bond-market"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": -0.6,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 3,
-        "inflation": 3,
-        "rates-fed": 1,
-        "labor-market": 1,
-        "dividends-buybacks": 1,
-        "nasdaq": 1
+        "energy": 5,
+        "real-estate": 7,
+        "inflation": 10,
+        "rates-fed": 9,
+        "labor-market": 5,
+        "housing": 1,
+        "commodities": 3,
+        "volatility": 1,
+        "bond-market": 1,
+        "dividends-buybacks": 11,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "real-estate": 13.5,
-        "inflation": 13.5,
-        "rates-fed": 4.5,
-        "labor-market": 4.5,
-        "dividends-buybacks": 4.5,
-        "nasdaq": 4.5
+        "energy": 1.6,
+        "real-estate": 2.3,
+        "inflation": 3.3,
+        "rates-fed": 2.9,
+        "labor-market": 1.6,
+        "housing": 0.3,
+        "commodities": 1.0,
+        "volatility": 0.3,
+        "bond-market": 0.3,
+        "dividends-buybacks": 3.6,
+        "nasdaq": 1.0
       },
       "entity_sentiment": {
         "real-estate": -1.0,
-        "dividends-buybacks": 1.0,
-        "inflation": -0.333,
+        "energy": -1.0,
+        "dividends-buybacks": -0.5,
+        "inflation": -0.5,
         "labor-market": -1.0,
         "rates-fed": -1.0,
-        "nasdaq": 1.0
+        "commodities": -1.0,
+        "bond-market": 1.0,
+        "nasdaq": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "dividends-buybacks": -1.0,
+        "labor-market": -1.0,
+        "bond-market": -1.0,
+        "volatility": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Dividends & Buybacks, Inflation, Interest Rates & Fed Policy, Labor Market. Mentions Nasdaq. Tone leans bearish (-0.60).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-the-dividend-cafe-monday-july-6-2026-05e87a.md",
+    "transcript_word_count": 2833,
+    "transcript_language": "en"
   },
   {
     "guid": "10ccecfe-797f-11f1-b450-c7855f99121d",
@@ -177124,26 +177224,98 @@
     "duration": "1221",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/d613e060-ce02-46ed-aa76-b46a00fe7703/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "technology",
+        "energy",
+        "semiconductors",
+        "real-estate",
+        "crypto"
+      ],
+      "themes": [
+        "inflation",
+        "elections-politics",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "commodities",
+        "dealmaking",
+        "regulation-antitrust",
+        "ai-boom",
+        "labor-market"
+      ],
       "stocks": [
         "morgan-stanley"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.75,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "morgan-stanley": 1
+        "technology": 6,
+        "semiconductors": 4,
+        "energy": 6,
+        "real-estate": 2,
+        "crypto": 2,
+        "inflation": 19,
+        "rates-fed": 13,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 10,
+        "labor-market": 1,
+        "elections-politics": 17,
+        "commodities": 5,
+        "dealmaking": 4,
+        "regulation-antitrust": 2,
+        "morgan-stanley": 2
       },
       "entity_mention_density": {
-        "morgan-stanley": 23.3
+        "technology": 1.3,
+        "semiconductors": 0.9,
+        "energy": 1.3,
+        "real-estate": 0.4,
+        "crypto": 0.4,
+        "inflation": 4.2,
+        "rates-fed": 2.8,
+        "ai-boom": 0.2,
+        "geopolitics-tariffs": 2.2,
+        "labor-market": 0.2,
+        "elections-politics": 3.7,
+        "commodities": 1.1,
+        "dealmaking": 0.9,
+        "regulation-antitrust": 0.4,
+        "morgan-stanley": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 1.0,
+        "technology": 0.0,
+        "inflation": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "rates-fed": 0.6,
+        "commodities": 1.0,
+        "dealmaking": 0.0,
+        "elections-politics": 1.0,
+        "regulation-antitrust": 1.0
+      },
+      "entity_conviction": {
+        "energy": -0.5,
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "rates-fed": -1.0,
+        "commodities": -1.0,
+        "dealmaking": -1.0,
+        "labor-market": -1.0,
+        "elections-politics": -1.0,
+        "regulation-antitrust": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Energy & Oil, Semiconductors, Inflation, Elections & Politics, Interest Rates & Fed Policy, Geopolitics & Tariffs. Mentions Morgan Stanley. Tone leans bullish (+0.75).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-bloomberg-surveillance-bloomberg-surveillance-tv-june-15th-2026-fe7703.md",
+    "transcript_word_count": 4528,
+    "transcript_language": "en"
   },
   {
     "guid": "fb6ff472-68d1-11f1-bd81-0fba3e084046",
