@@ -205122,33 +205122,68 @@
     "duration": "3381",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/0e4780b8-56e8-493c-aeb1-b43c01547a6e/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "healthcare"
+      ],
       "themes": [
+        "retirement-planning",
         "budgeting-saving",
-        "fire-movement"
+        "debt-payoff",
+        "fire-movement",
+        "college-savings"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet",
+        "fidelity"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 1,
+        "insurance": 3,
+        "healthcare": 1,
+        "budgeting-saving": 8,
+        "debt-payoff": 4,
         "fire-movement": 1,
-        "meta": 1
+        "retirement-planning": 12,
+        "college-savings": 1,
+        "alphabet": 1,
+        "meta": 2,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 2.6,
-        "fire-movement": 2.6,
-        "meta": 2.6
+        "insurance": 0.3,
+        "healthcare": 0.1,
+        "budgeting-saving": 0.7,
+        "debt-payoff": 0.3,
+        "fire-movement": 0.1,
+        "retirement-planning": 1.0,
+        "college-savings": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.2,
+        "fidelity": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "meta": 1.0
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0,
+        "debt-payoff": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Healthcare & Pharma, Retirement Planning, Budgeting & Saving, Debt Payoff, Financial Independence / FIRE. Mentions Meta, Alphabet / Google, Fidelity. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-25-how-to-money-ask-htm-sinking-fund-or-pet-insurance-balance-transfer-card-547a6e.md",
+    "transcript_word_count": 11576,
+    "transcript_language": "en"
   },
   {
     "guid": "7805d061-cf83-4eee-a1f0-27e0377e7020",
@@ -229911,33 +229946,60 @@
     "duration": "6254",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML9259003745.mp3?updated=1778507784",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "private-markets",
+        "banks",
+        "materials-mining"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "rates-fed",
+        "college-savings",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "walmart"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "materials-mining": 1,
+        "private-markets": 3,
+        "rates-fed": 3,
+        "budgeting-saving": 17,
+        "debt-payoff": 1,
+        "college-savings": 2,
+        "meta": 2,
+        "walmart": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.8,
-        "college-savings": 1.9,
-        "meta": 3.8
+        "banks": 0.1,
+        "materials-mining": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.2,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.1,
+        "college-savings": 0.1,
+        "meta": 0.1,
+        "walmart": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Banks & Financials, Materials & Mining, Budgeting & Saving, Interest Rates & Fed Policy, College Savings & Student Debt, Debt Payoff. Mentions Meta, Walmart. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-financial-audit-evil-monster-exposed-on-financial-audit-4d3a62.md",
+    "transcript_word_count": 17944,
+    "transcript_language": "en"
   },
   {
     "guid": "691ffe0f-df07-41b9-af23-b44700f27a85",
@@ -232757,20 +232819,139 @@
     "duration": "5226",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/f04b68e0-7fbf-4a3f-ba10-b444016f98a6/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "private-markets",
+        "crypto",
+        "technology",
+        "semiconductors"
+      ],
+      "themes": [
+        "dealmaking",
+        "valuation",
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "regulation-antitrust",
+        "hedge-funds",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "robinhood",
+        "meta",
+        "amazon",
+        "alphabet",
+        "vanguard",
+        "charles-schwab",
+        "nasdaq",
+        "apple",
+        "tesla",
+        "goldman-sachs",
+        "walmart",
+        "bitcoin",
+        "fidelity",
+        "netflix",
+        "salesforce",
+        "broadcom"
+      ],
+      "sentiment": -0.009,
+      "sentiment_hits": 24,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 2,
+        "crypto": 3,
+        "private-markets": 6,
+        "inflation": 1,
+        "rates-fed": 1,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 1,
+        "dealmaking": 4,
+        "regulation-antitrust": 1,
+        "hedge-funds": 1,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "apple": 1,
+        "alphabet": 6,
+        "amazon": 7,
+        "meta": 9,
+        "tesla": 1,
+        "goldman-sachs": 1,
+        "walmart": 1,
+        "bitcoin": 1,
+        "nasdaq": 2,
+        "vanguard": 6,
+        "fidelity": 1,
+        "charles-schwab": 3,
+        "robinhood": 27,
+        "netflix": 1,
+        "salesforce": 1,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 0.1,
+        "crypto": 0.2,
+        "private-markets": 0.4,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.1,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.1,
+        "apple": 0.1,
+        "alphabet": 0.4,
+        "amazon": 0.4,
+        "meta": 0.6,
+        "tesla": 0.1,
+        "goldman-sachs": 0.1,
+        "walmart": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 0.1,
+        "vanguard": 0.4,
+        "fidelity": 0.1,
+        "charles-schwab": 0.2,
+        "robinhood": 1.7,
+        "netflix": 0.1,
+        "salesforce": 0.1,
+        "broadcom": 0.1
+      },
+      "entity_sentiment": {
+        "private-markets": -1.0,
+        "dealmaking": -1.0,
+        "valuation": -1.0,
+        "elections-politics": 1.0,
+        "rates-fed": -1.0,
+        "robinhood": -1.0,
+        "meta": 1.0,
+        "alphabet": -1.0
+      },
+      "entity_conviction": {
+        "private-markets": 0.0,
+        "crypto": -1.0,
+        "dealmaking": 0.0,
+        "valuation": -1.0,
+        "inflation": -1.0,
+        "robinhood": -0.545,
+        "alphabet": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Crypto & Digital Assets, Technology, IPOs & Dealmaking, Valuation, Inflation, Interest Rates & Fed Policy. Mentions Robinhood, Meta, Amazon, Alphabet / Google, Vanguard. Tone reads roughly neutral (-0.01).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-masters-in-business-winning-the-degenerate-economy-with-stocktwits-ceo-howard-li-6f98a6.md",
+    "transcript_word_count": 16068,
+    "transcript_language": "en"
   },
   {
     "guid": "52fbfbca-4b25-11f1-9ca1-e3556ffcfe50",
