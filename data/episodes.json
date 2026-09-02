@@ -17936,41 +17936,76 @@
     "duration": "3620",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS5817331709.mp3?updated=1733520851",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
-        "budgeting-saving",
+        "debt-payoff",
         "retirement-planning",
-        "ai-boom"
+        "budgeting-saving",
+        "ai-boom",
+        "college-savings"
       ],
       "stocks": [
+        "alphabet",
+        "amazon",
         "bitcoin",
-        "amazon"
+        "tesla",
+        "berkshire"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "real-estate": 1,
         "ai-boom": 1,
         "budgeting-saving": 2,
-        "retirement-planning": 2,
-        "amazon": 1,
+        "debt-payoff": 3,
+        "retirement-planning": 3,
+        "college-savings": 1,
+        "alphabet": 3,
+        "amazon": 2,
+        "tesla": 1,
+        "berkshire": 1,
         "bitcoin": 2
       },
       "entity_mention_density": {
-        "ai-boom": 1.7,
-        "budgeting-saving": 3.5,
-        "retirement-planning": 3.5,
-        "amazon": 1.7,
-        "bitcoin": 3.5
+        "real-estate": 0.1,
+        "ai-boom": 0.1,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.3,
+        "retirement-planning": 0.3,
+        "college-savings": 0.1,
+        "alphabet": 0.3,
+        "amazon": 0.2,
+        "tesla": 0.1,
+        "berkshire": 0.1,
+        "bitcoin": 0.2
       },
       "entity_sentiment": {
-        "amazon": 1.0
+        "debt-payoff": 1.0,
+        "college-savings": 1.0,
+        "amazon": 1.0,
+        "alphabet": 1.0,
+        "tesla": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "debt-payoff": -0.583,
+        "college-savings": -1.0,
+        "alphabet": -0.153,
+        "tesla": -0.583,
+        "berkshire": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Debt Payoff, Retirement Planning, Budgeting & Saving, AI & Machine Learning. Mentions Alphabet / Google, Amazon, Bitcoin, Tesla, Berkshire Hathaway. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-the-investing-for-beginners-podcast-aar64-the-personal-finance-time-machine-e964f0.md",
+    "transcript_word_count": 11122,
+    "transcript_language": "en"
   },
   {
     "guid": "c3394b7e-9c9f-11f1-9c0e-cbbb65d0673c",
@@ -112748,33 +112783,114 @@
     "duration": "00:47:15",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/fc61c3fe-213a-429b-93a4-7e8371a5a2a8/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=fc61c3fe-213a-429b-93a4-7e8371a5a2a8&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks",
+        "ai-infrastructure",
+        "technology"
+      ],
       "themes": [
+        "dealmaking",
         "rates-fed",
-        "dealmaking"
+        "elections-politics",
+        "inflation",
+        "earnings",
+        "market-concentration",
+        "recession",
+        "regulation-antitrust"
       ],
       "stocks": [
-        "goldman-sachs"
+        "goldman-sachs",
+        "alphabet",
+        "morgan-stanley",
+        "citigroup",
+        "bank-of-america",
+        "jpmorgan",
+        "nvidia",
+        "microsoft",
+        "nasdaq",
+        "salesforce"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.396,
+      "sentiment_hits": 29,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "dealmaking": 1,
-        "goldman-sachs": 2
+        "technology": 1,
+        "ai-infrastructure": 3,
+        "banks": 6,
+        "inflation": 2,
+        "rates-fed": 6,
+        "recession": 1,
+        "elections-politics": 3,
+        "dealmaking": 7,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "market-concentration": 2,
+        "nvidia": 1,
+        "microsoft": 1,
+        "alphabet": 3,
+        "jpmorgan": 2,
+        "goldman-sachs": 14,
+        "morgan-stanley": 3,
+        "citigroup": 3,
+        "bank-of-america": 3,
+        "nasdaq": 1,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "rates-fed": 13.2,
-        "dealmaking": 13.2,
-        "goldman-sachs": 26.3
+        "technology": 0.1,
+        "ai-infrastructure": 0.3,
+        "banks": 0.7,
+        "inflation": 0.2,
+        "rates-fed": 0.7,
+        "recession": 0.1,
+        "elections-politics": 0.3,
+        "dealmaking": 0.8,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.2,
+        "market-concentration": 0.2,
+        "nvidia": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.3,
+        "jpmorgan": 0.2,
+        "goldman-sachs": 1.6,
+        "morgan-stanley": 0.3,
+        "citigroup": 0.3,
+        "bank-of-america": 0.3,
+        "nasdaq": 0.1,
+        "salesforce": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "banks": 1.0,
+        "recession": -1.0,
+        "goldman-sachs": 1.0,
+        "nasdaq": 0.0,
+        "microsoft": 0.0,
+        "bank-of-america": 1.0,
+        "citigroup": 1.0
+      },
+      "entity_conviction": {
+        "banks": 0.0,
+        "ai-infrastructure": -0.583,
+        "rates-fed": -1.0,
+        "regulation-antitrust": -1.0,
+        "earnings": -1.0,
+        "goldman-sachs": -0.804,
+        "nasdaq": 1.0,
+        "bank-of-america": -1.0,
+        "jpmorgan": -1.0,
+        "citigroup": -1.0,
+        "morgan-stanley": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, AI Infrastructure, Technology, IPOs & Dealmaking, Interest Rates & Fed Policy, Elections & Politics, Inflation. Mentions Goldman Sachs, Alphabet / Google, Morgan Stanley, Citigroup, Bank of America. Tone leans bullish (+0.40).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-14-halftime-report-cyber-stocks-hit-new-record-high-how-to-trade-it-7-14-26-df5779.md",
+    "transcript_word_count": 8530,
+    "transcript_language": "en"
   },
   {
     "guid": "399d6ec8-221f-460b-acd5-b48700fdf443",
@@ -201538,45 +201654,121 @@
     "duration": "00:10:57",
     "audio_url": "https://traffic.megaphone.fm/APO2334401727.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "technology",
+        "ai-infrastructure",
+        "energy",
+        "industrials",
+        "crypto"
+      ],
       "themes": [
-        "geopolitics-tariffs"
+        "geopolitics-tariffs",
+        "labor-market",
+        "commodities",
+        "dealmaking",
+        "ai-boom",
+        "budgeting-saving",
+        "diversification"
       ],
       "stocks": [
         "amazon",
         "broadcom",
+        "bitcoin",
+        "alphabet",
         "bank-of-america",
-        "bitcoin"
+        "nvidia",
+        "microsoft",
+        "walmart",
+        "nasdaq"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "geopolitics-tariffs": 1,
-        "amazon": 2,
-        "bank-of-america": 1,
-        "bitcoin": 1,
-        "broadcom": 2
+        "technology": 3,
+        "semiconductors": 9,
+        "ai-infrastructure": 2,
+        "energy": 2,
+        "industrials": 1,
+        "crypto": 1,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 12,
+        "labor-market": 2,
+        "commodities": 2,
+        "dealmaking": 2,
+        "budgeting-saving": 1,
+        "diversification": 1,
+        "nvidia": 2,
+        "microsoft": 2,
+        "alphabet": 4,
+        "amazon": 19,
+        "bank-of-america": 3,
+        "walmart": 1,
+        "bitcoin": 6,
+        "nasdaq": 1,
+        "broadcom": 12
       },
       "entity_mention_density": {
-        "geopolitics-tariffs": 8.1,
-        "amazon": 16.3,
-        "bank-of-america": 8.1,
-        "bitcoin": 8.1,
-        "broadcom": 16.3
+        "technology": 1.4,
+        "semiconductors": 4.1,
+        "ai-infrastructure": 0.9,
+        "energy": 0.9,
+        "industrials": 0.5,
+        "crypto": 0.5,
+        "ai-boom": 0.5,
+        "geopolitics-tariffs": 5.5,
+        "labor-market": 0.9,
+        "commodities": 0.9,
+        "dealmaking": 0.9,
+        "budgeting-saving": 0.5,
+        "diversification": 0.5,
+        "nvidia": 0.9,
+        "microsoft": 0.9,
+        "alphabet": 1.8,
+        "amazon": 8.7,
+        "bank-of-america": 1.4,
+        "walmart": 0.5,
+        "bitcoin": 2.8,
+        "nasdaq": 0.5,
+        "broadcom": 5.5
       },
       "entity_sentiment": {
-        "geopolitics-tariffs": 1.0,
-        "broadcom": 1.0,
+        "semiconductors": 0.333,
+        "ai-infrastructure": 1.0,
+        "geopolitics-tariffs": 0.0,
+        "dealmaking": 1.0,
+        "broadcom": 0.333,
         "amazon": 1.0,
         "bank-of-america": 1.0,
-        "bitcoin": 1.0
+        "bitcoin": 1.0,
+        "alphabet": 0.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "crypto": -1.0,
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "commodities": -1.0,
+        "labor-market": -1.0,
+        "dealmaking": 1.0,
+        "broadcom": -1.0,
+        "bitcoin": -1.0,
+        "nvidia": -1.0
+      },
+      "entity_stance": {
+        "bank-of-america": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, AI Infrastructure, Geopolitics & Tariffs, Labor Market, Commodities, IPOs & Dealmaking. Mentions Amazon, Broadcom, Bitcoin, Alphabet / Google, Bank of America. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-04-the-rundown-broadcom-plunges-despite-record-quarter-companies-start-rati-0353fe.md",
+    "transcript_word_count": 2056,
+    "transcript_language": "en"
   },
   {
     "guid": "520c0af7-3cd4-4ebd-a847-b45f00f5c31a",
