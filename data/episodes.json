@@ -7285,24 +7285,39 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "retirement-planning",
+        "budgeting-saving",
+        "debt-payoff",
+        "college-savings"
       ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 1,
+        "debt-payoff": 1,
+        "retirement-planning": 3,
+        "college-savings": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.9
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.5,
+        "retirement-planning": 1.6,
+        "college-savings": 0.5
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Retirement Planning, Budgeting & Saving, Debt Payoff, College Savings & Student Debt. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-28-ramsey-everyday-millionaires-are-trump-accounts-better-than-esas-41184c.md",
+    "transcript_word_count": 1714,
+    "transcript_language": "en"
   },
   {
     "guid": "30d60952-a2c1-11f1-a8dc-93ae613c6f0b",
@@ -87394,20 +87409,131 @@
     "duration": "00:42:27",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/51fd5048-123f-4d3e-bb2f-41c614d95d3a/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=51fd5048-123f-4d3e-bb2f-41c614d95d3a&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "energy",
+        "banks",
+        "airlines-travel",
+        "technology",
+        "consumer-discretionary"
+      ],
+      "themes": [
+        "market-concentration",
+        "elections-politics",
+        "commodities",
+        "bond-market",
+        "small-caps-value-growth",
+        "rates-fed",
+        "regulation-antitrust",
+        "dealmaking",
+        "earnings",
+        "valuation"
+      ],
+      "stocks": [
+        "alphabet",
+        "tesla",
+        "boeing",
+        "nasdaq",
+        "nvidia",
+        "amazon",
+        "goldman-sachs"
+      ],
+      "sentiment": 0.048,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 8,
+        "ai-infrastructure": 14,
+        "banks": 3,
+        "energy": 6,
+        "consumer-discretionary": 1,
+        "airlines-travel": 3,
+        "rates-fed": 2,
+        "elections-politics": 5,
+        "commodities": 4,
+        "dealmaking": 1,
+        "regulation-antitrust": 2,
+        "earnings": 1,
+        "bond-market": 3,
+        "valuation": 1,
+        "market-concentration": 12,
+        "small-caps-value-growth": 3,
+        "nvidia": 2,
+        "alphabet": 11,
+        "amazon": 1,
+        "tesla": 5,
+        "goldman-sachs": 1,
+        "boeing": 3,
+        "nasdaq": 3
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "semiconductors": 1.0,
+        "ai-infrastructure": 1.7,
+        "banks": 0.4,
+        "energy": 0.7,
+        "consumer-discretionary": 0.1,
+        "airlines-travel": 0.4,
+        "rates-fed": 0.2,
+        "elections-politics": 0.6,
+        "commodities": 0.5,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.2,
+        "earnings": 0.1,
+        "bond-market": 0.4,
+        "valuation": 0.1,
+        "market-concentration": 1.4,
+        "small-caps-value-growth": 0.4,
+        "nvidia": 0.2,
+        "alphabet": 1.3,
+        "amazon": 0.1,
+        "tesla": 0.6,
+        "goldman-sachs": 0.1,
+        "boeing": 0.4,
+        "nasdaq": 0.4
+      },
+      "entity_sentiment": {
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "energy": -1.0,
+        "ai-infrastructure": -0.6,
+        "commodities": -1.0,
+        "rates-fed": 0.0,
+        "elections-politics": -1.0,
+        "market-concentration": 1.0,
+        "nasdaq": 1.0,
+        "alphabet": 1.0,
+        "tesla": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "energy": -1.0,
+        "ai-infrastructure": -1.0,
+        "airlines-travel": -1.0,
+        "rates-fed": -1.0,
+        "elections-politics": -1.0,
+        "market-concentration": -1.0,
+        "small-caps-value-growth": -1.0,
+        "earnings": -1.0,
+        "alphabet": -1.0,
+        "tesla": -1.0,
+        "boeing": -1.0
+      },
+      "entity_stance": {
+        "banks": "buy",
+        "goldman-sachs": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Energy & Oil, Market Concentration / Mega-cap, Elections & Politics, Commodities, Bond Market & Yields. Mentions Alphabet / Google, Tesla, Boeing, Nasdaq, Nvidia. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-morning-call-morning-call-7-20-26-ff4a53.md",
+    "transcript_word_count": 8232,
+    "transcript_language": "en"
   },
   {
     "guid": "bb8880d4-18a1-11f1-98a4-5f9299e46b44",
@@ -116734,20 +116860,72 @@
     "duration": "3565",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL2723473190.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "real-estate"
+      ],
+      "themes": [
+        "budgeting-saving",
+        "retirement-planning",
+        "real-estate-investing",
+        "housing",
+        "debt-payoff",
+        "tax-planning",
+        "college-savings"
+      ],
+      "stocks": [
+        "costco",
+        "walmart"
+      ],
+      "sentiment": 0.875,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 7,
+        "housing": 2,
+        "budgeting-saving": 7,
+        "debt-payoff": 1,
+        "retirement-planning": 7,
+        "real-estate-investing": 5,
+        "tax-planning": 1,
+        "college-savings": 1,
+        "costco": 2,
+        "walmart": 1
+      },
+      "entity_mention_density": {
+        "real-estate": 0.6,
+        "housing": 0.2,
+        "budgeting-saving": 0.6,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.6,
+        "real-estate-investing": 0.4,
+        "tax-planning": 0.1,
+        "college-savings": 0.1,
+        "costco": 0.2,
+        "walmart": 0.1
+      },
+      "entity_sentiment": {
+        "budgeting-saving": 0.429,
+        "costco": 0.429,
+        "walmart": 0.429
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "retirement-planning": -1.0,
+        "budgeting-saving": -0.762,
+        "real-estate-investing": -1.0,
+        "costco": -0.73,
+        "walmart": -0.73
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving, Retirement Planning, Real Estate Investing, Housing Market. Mentions Costco, Walmart. Tone leans bullish (+0.88).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-money-guy-show-is-aggressive-saving-derailing-their-short-term-goals-79f3bb.md",
+    "transcript_word_count": 11547,
+    "transcript_language": "en"
   },
   {
     "guid": "766d0549-f652-4b9c-8e98-31ae379c73bb",
