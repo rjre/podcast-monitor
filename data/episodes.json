@@ -6152,20 +6152,87 @@
     "duration": "00:44:20",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/0e7ebe9f-80cd-4733-9424-326e29128a78/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=0e7ebe9f-80cd-4733-9424-326e29128a78&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "autos-ev"
+      ],
+      "themes": [
+        "dealmaking",
+        "passive-investing",
+        "rates-fed",
+        "hedge-funds",
+        "dividends-buybacks",
+        "market-concentration",
+        "recession",
+        "earnings",
+        "behavioral-finance",
+        "small-caps-value-growth",
+        "diversification"
+      ],
+      "stocks": [
+        "nvidia",
+        "berkshire",
+        "vanguard"
+      ],
+      "sentiment": 0.107,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "autos-ev": 2,
+        "rates-fed": 8,
+        "recession": 1,
+        "dealmaking": 15,
+        "earnings": 1,
+        "hedge-funds": 4,
+        "passive-investing": 14,
+        "dividends-buybacks": 2,
+        "market-concentration": 2,
+        "behavioral-finance": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "nvidia": 4,
+        "berkshire": 1,
+        "vanguard": 1
+      },
+      "entity_mention_density": {
+        "autos-ev": 0.2,
+        "rates-fed": 0.9,
+        "recession": 0.1,
+        "dealmaking": 1.6,
+        "earnings": 0.1,
+        "hedge-funds": 0.4,
+        "passive-investing": 1.5,
+        "dividends-buybacks": 0.2,
+        "market-concentration": 0.2,
+        "behavioral-finance": 0.1,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "nvidia": 0.4,
+        "berkshire": 0.1,
+        "vanguard": 0.1
+      },
+      "entity_sentiment": {
+        "hedge-funds": 1.0,
+        "passive-investing": 1.0,
+        "rates-fed": -0.667,
+        "dealmaking": -1.0,
+        "dividends-buybacks": 1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "hedge-funds": -1.0,
+        "passive-investing": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Autos & EVs, IPOs & Dealmaking, Passive Investing, Interest Rates & Fed Policy, Hedge Funds. Mentions Nvidia, Berkshire Hathaway, Vanguard. Tone reads roughly neutral (+0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-28-mad-money-w-jim-cramer-mad-money-w-jim-cramer-8-28-26-ca3e75.md",
+    "transcript_word_count": 9054,
+    "transcript_language": "en"
   },
   {
     "guid": "dc23ad1b-e4e5-4370-b03d-801ef0287f0e",
@@ -63850,32 +63917,128 @@
     "duration": "3149",
     "audio_url": "https://traffic.megaphone.fm/RRM6774725554.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "japan",
-        "bond-market"
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "materials-mining",
+        "crypto",
+        "banks",
+        "energy"
       ],
-      "stocks": [],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "inflation",
+        "bond-market",
+        "rates-fed",
+        "japan",
+        "geopolitics-tariffs",
+        "safe-havens",
+        "hedge-funds",
+        "commodities",
+        "small-caps-value-growth",
+        "diversification"
+      ],
+      "stocks": [
+        "robinhood",
+        "nvidia",
+        "alphabet",
+        "amazon",
+        "costco",
+        "nasdaq"
+      ],
+      "sentiment": -0.123,
+      "sentiment_hits": 29,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "japan": 2,
-        "bond-market": 1
+        "semiconductors": 3,
+        "ai-infrastructure": 4,
+        "banks": 1,
+        "energy": 1,
+        "materials-mining": 2,
+        "crypto": 2,
+        "inflation": 19,
+        "rates-fed": 10,
+        "japan": 10,
+        "geopolitics-tariffs": 2,
+        "commodities": 1,
+        "safe-havens": 2,
+        "bond-market": 12,
+        "hedge-funds": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "nvidia": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "costco": 1,
+        "nasdaq": 1,
+        "robinhood": 2
       },
       "entity_mention_density": {
-        "japan": 5.7,
-        "bond-market": 2.9
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.4,
+        "banks": 0.1,
+        "energy": 0.1,
+        "materials-mining": 0.2,
+        "crypto": 0.2,
+        "inflation": 1.9,
+        "rates-fed": 1.0,
+        "japan": 1.0,
+        "geopolitics-tariffs": 0.2,
+        "commodities": 0.1,
+        "safe-havens": 0.2,
+        "bond-market": 1.2,
+        "hedge-funds": 0.2,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.1,
+        "nvidia": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "costco": 0.1,
+        "nasdaq": 0.1,
+        "robinhood": 0.2
       },
       "entity_sentiment": {
-        "japan": -1.0,
-        "bond-market": -1.0
+        "ai-infrastructure": 1.0,
+        "energy": 1.0,
+        "japan": -0.143,
+        "bond-market": -0.429,
+        "rates-fed": 0.0,
+        "inflation": 0.091,
+        "commodities": 1.0,
+        "diversification": 1.0,
+        "safe-havens": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "energy": -1.0,
+        "crypto": -1.0,
+        "materials-mining": -1.0,
+        "bond-market": -0.632,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "small-caps-value-growth": -1.0,
+        "commodities": -1.0,
+        "diversification": -1.0,
+        "safe-havens": -1.0,
+        "hedge-funds": -1.0,
+        "nvidia": -1.0,
+        "robinhood": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "japan",
+        "bond-market",
+        "rates-fed",
+        "inflation"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Materials & Mining, Inflation, Bond Market & Yields, Interest Rates & Fed Policy, Japan & Yen. Mentions Robinhood, Nvidia, Alphabet / Google, Amazon, Costco. Tone reads roughly neutral (-0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-03-riskreversal-pod-cracks-everywhere-japanese-yen-ai-stocks-us-bonds-be301f.md",
+    "transcript_word_count": 9500,
+    "transcript_language": "en"
   },
   {
     "guid": "b67c5951-222c-490f-bf7b-41d67c544d62",
@@ -85341,30 +85504,67 @@
     "duration": "3961",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/fc54248d-f97e-4c0c-a6f7-b486015a03e0/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "industrials"
+      ],
       "themes": [
-        "fire-movement"
+        "budgeting-saving",
+        "fire-movement",
+        "real-estate-investing",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "amazon",
+        "tesla",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "fire-movement": 1,
-        "meta": 1
+        "industrials": 1,
+        "budgeting-saving": 5,
+        "fire-movement": 2,
+        "real-estate-investing": 2,
+        "dividends-buybacks": 1,
+        "amazon": 1,
+        "meta": 9,
+        "tesla": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.8,
-        "meta": 2.8
+        "industrials": 0.1,
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.1,
+        "real-estate-investing": 0.1,
+        "dividends-buybacks": 0.1,
+        "amazon": 0.1,
+        "meta": 0.6,
+        "tesla": 0.1,
+        "netflix": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "industrials": -1.0,
+        "fire-movement": -1.0,
+        "budgeting-saving": -0.388,
+        "real-estate-investing": -0.333,
+        "meta": -1.0,
+        "netflix": -1.0,
+        "tesla": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Budgeting & Saving, Financial Independence / FIRE, Real Estate Investing, Dividends & Buybacks. Mentions Meta, Amazon, Tesla, Netflix. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-24-how-to-money-ama-better-know-the-podcast-hosts-1170-bestie-ep-5a03e0.md",
+    "transcript_word_count": 14505,
+    "transcript_language": "en"
   },
   {
     "guid": "991e3e73-3a02-4f68-b87a-e4dda61687f5",
@@ -213015,20 +213215,73 @@
     "duration": "1206",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/426592d5-dc0d-49d2-9374-b45701065bbf/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy",
+        "airlines-travel"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "commodities",
+        "geopolitics-tariffs",
+        "currency-dollar",
+        "diversification"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 0.473,
+      "sentiment_hits": 20,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "energy": 6,
+        "airlines-travel": 1,
+        "inflation": 21,
+        "rates-fed": 12,
+        "geopolitics-tariffs": 3,
+        "commodities": 6,
+        "currency-dollar": 3,
+        "diversification": 1
+      },
+      "entity_mention_density": {
+        "energy": 1.6,
+        "airlines-travel": 0.3,
+        "inflation": 5.5,
+        "rates-fed": 3.1,
+        "geopolitics-tariffs": 0.8,
+        "commodities": 1.6,
+        "currency-dollar": 0.8,
+        "diversification": 0.3
+      },
+      "entity_sentiment": {
+        "energy": 0.429,
+        "airlines-travel": 1.0,
+        "geopolitics-tariffs": -1.0,
+        "commodities": 0.429,
+        "inflation": 0.25,
+        "rates-fed": -1.0,
+        "currency-dollar": -0.333,
+        "diversification": 0.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "commodities": -1.0,
+        "inflation": -0.831,
+        "rates-fed": -1.0,
+        "currency-dollar": -1.0,
+        "diversification": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "inflation"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Airlines & Travel, Inflation, Interest Rates & Fed Policy, Commodities, Geopolitics & Tariffs. Tone leans bullish (+0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-bloomberg-surveillance-bloomberg-surveillance-tv-may-27th-2026-065bbf.md",
+    "transcript_word_count": 3789,
+    "transcript_language": "en"
   },
   {
     "guid": "f4de3c76-fe9e-4e21-9670-b45700eb0b86",
