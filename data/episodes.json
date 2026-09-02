@@ -53532,19 +53532,50 @@
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.39_Annie_Duke_-_SUMMER_SERIES_2026_-_AUDIO_V2.mp3?dest-id=482814",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "themes": [
+        "behavioral-finance",
+        "dealmaking",
+        "inflation",
+        "hedge-funds"
+      ],
+      "stocks": [
+        "fidelity",
+        "alphabet"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "inflation": 1,
+        "dealmaking": 2,
+        "hedge-funds": 1,
+        "behavioral-finance": 5,
+        "alphabet": 1,
+        "fidelity": 2
+      },
+      "entity_mention_density": {
+        "inflation": 0.1,
+        "dealmaking": 0.2,
+        "hedge-funds": 0.1,
+        "behavioral-finance": 0.4,
+        "alphabet": 0.1,
+        "fidelity": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "dealmaking": 1.0,
+        "hedge-funds": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Behavioral Finance & Psychology, IPOs & Dealmaking, Inflation, Hedge Funds. Mentions Fidelity, Alphabet / Google. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-03-capital-allocators-interdisciplinary-skills-decision-making-annie-duke-2018-524ecc.md",
+    "transcript_word_count": 12357,
+    "transcript_language": "en"
   },
   {
     "guid": "3a2b2d44-8cef-11f1-9ce5-d371b6be301f",
@@ -100990,33 +101021,78 @@
     "duration": "2844",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS9473345836.mp3?updated=1733520847",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "technology",
+        "banks",
+        "industrials"
+      ],
       "themes": [
+        "earnings",
         "ai-boom"
       ],
       "stocks": [
+        "amazon",
+        "walmart",
+        "alphabet",
         "bitcoin",
-        "amazon"
+        "microsoft"
       ],
-      "sentiment": -0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": 0.077,
+      "sentiment_hits": 13,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 1,
+        "banks": 1,
+        "consumer-discretionary": 3,
+        "industrials": 1,
         "ai-boom": 1,
-        "amazon": 1,
+        "earnings": 3,
+        "microsoft": 1,
+        "alphabet": 2,
+        "amazon": 23,
+        "walmart": 8,
         "bitcoin": 2
       },
       "entity_mention_density": {
-        "ai-boom": 1.8,
-        "amazon": 1.8,
-        "bitcoin": 3.7
+        "technology": 0.1,
+        "banks": 0.1,
+        "consumer-discretionary": 0.4,
+        "industrials": 0.1,
+        "ai-boom": 0.1,
+        "earnings": 0.4,
+        "microsoft": 0.1,
+        "alphabet": 0.3,
+        "amazon": 3.2,
+        "walmart": 1.1,
+        "bitcoin": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "consumer-discretionary": 1.0,
+        "banks": -1.0,
+        "earnings": 1.0,
+        "amazon": 1.0
+      },
+      "entity_conviction": {
+        "industrials": -1.0,
+        "consumer-discretionary": -1.0,
+        "technology": -1.0,
+        "earnings": -1.0,
+        "amazon": -0.571,
+        "walmart": -1.0,
+        "alphabet": -0.286,
+        "microsoft": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Technology, Banks & Financials, Corporate Earnings, AI & Machine Learning. Mentions Amazon, Walmart, Alphabet / Google, Bitcoin, Microsoft. Tone reads roughly neutral (+0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-09-the-investing-for-beginners-podcast-6-warning-signs-a-company-is-quietly-dying-part-1-f2c658.md",
+    "transcript_word_count": 6639,
+    "transcript_language": "en"
   },
   {
     "guid": "2f31f5a3-bbbf-4ba5-af95-815b3728e7c3",
@@ -115422,29 +115498,39 @@
     "duration": "458",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM4049850787.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
-        "budgeting-saving",
-        "insurance-products"
+        "insurance-products",
+        "budgeting-saving"
       ],
       "stocks": [],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
+        "real-estate": 1,
         "budgeting-saving": 1,
-        "insurance-products": 1
+        "insurance-products": 6
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8,
-        "insurance-products": 5.8
+        "real-estate": 0.7,
+        "budgeting-saving": 0.7,
+        "insurance-products": 4.3
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance Products, Budgeting & Saving. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-01-ramsey-everyday-millionaires-should-i-surrender-my-whole-life-insurance-policy-2859bd.md",
+    "transcript_word_count": 1222,
+    "transcript_language": "en"
   },
   {
     "guid": "6a44e38375e7a3e96111931b",
@@ -175617,20 +175703,73 @@
     "duration": "3764",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/5074ca49-edd4-4bc6-96e6-b459011201dc/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "technology"
+      ],
+      "themes": [
+        "passive-investing",
+        "retirement-planning",
+        "elections-politics",
+        "hedge-funds",
+        "debt-payoff",
+        "career-income",
+        "behavioral-finance"
+      ],
+      "stocks": [
+        "vanguard",
+        "blackrock",
+        "amazon"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
+      "entity_mentions": {
+        "technology": 1,
+        "elections-politics": 1,
+        "hedge-funds": 1,
+        "passive-investing": 5,
+        "debt-payoff": 1,
+        "retirement-planning": 3,
+        "career-income": 1,
+        "behavioral-finance": 1,
+        "amazon": 1,
+        "vanguard": 3,
+        "blackrock": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.1,
+        "elections-politics": 0.1,
+        "hedge-funds": 0.1,
+        "passive-investing": 0.6,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.3,
+        "career-income": 0.1,
+        "behavioral-finance": 0.1,
+        "amazon": 0.1,
+        "vanguard": 0.3,
+        "blackrock": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "career-income": -1.0,
+        "passive-investing": -0.412,
+        "hedge-funds": 1.0,
+        "behavioral-finance": 0.0,
+        "debt-payoff": -1.0,
+        "vanguard": 0.0,
+        "blackrock": 0.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Passive Investing, Retirement Planning, Elections & Politics, Hedge Funds. Mentions Vanguard, BlackRock, Amazon. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-masters-in-business-remembering-the-life-and-work-of-jonathan-clements-1201dc.md",
+    "transcript_word_count": 8708,
+    "transcript_language": "en"
   },
   {
     "guid": "a7d87ece-05d5-11f1-8c9c-77d84150b350",
