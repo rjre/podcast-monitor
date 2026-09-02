@@ -192885,29 +192885,39 @@
       "themes": [
         "real-estate-investing",
         "passive-investing",
-        "fire-movement",
         "passive-income",
-        "dividends-buybacks"
+        "fire-movement",
+        "dividends-buybacks",
+        "inflation",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 5,
-        "passive-investing": 2,
-        "fire-movement": 1,
-        "real-estate-investing": 6,
-        "passive-income": 1,
-        "dividends-buybacks": 1
+        "real-estate": 19,
+        "inflation": 1,
+        "passive-investing": 9,
+        "fire-movement": 4,
+        "real-estate-investing": 40,
+        "passive-income": 7,
+        "dividends-buybacks": 2,
+        "diversification": 1,
+        "amazon": 1
       },
       "entity_mention_density": {
-        "real-estate": 24.0,
-        "passive-investing": 9.6,
-        "fire-movement": 4.8,
-        "real-estate-investing": 28.8,
-        "passive-income": 4.8,
-        "dividends-buybacks": 4.8
+        "real-estate": 10.0,
+        "inflation": 0.5,
+        "passive-investing": 4.8,
+        "fire-movement": 2.1,
+        "real-estate-investing": 21.1,
+        "passive-income": 3.7,
+        "dividends-buybacks": 1.1,
+        "diversification": 0.5,
+        "amazon": 0.5
       },
       "entity_sentiment": {
         "real-estate": 1.0,
@@ -192921,7 +192931,13 @@
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Real Estate Investing, Passive Investing, Passive Income & Side Hustles, Financial Independence / FIRE. Mentions Amazon. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-optimal-finance-daily-3589-part-1-rental-properties-pros-and-cons-by-andy-hill-of-201a2c.md",
+    "transcript_word_count": 1686,
+    "transcript_language": "en"
   },
   {
     "guid": "6a272df5401089d02d6dea23",
@@ -224151,35 +224167,65 @@
     "duration": "3791",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS1088542587.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "crypto"
+      ],
       "themes": [
         "budgeting-saving",
-        "ai-boom"
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "debt-payoff",
+        "retirement-planning"
       ],
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.238,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "crypto": 1,
+        "inflation": 2,
+        "rates-fed": 1,
         "ai-boom": 1,
-        "budgeting-saving": 8,
-        "amazon": 1
+        "budgeting-saving": 31,
+        "debt-payoff": 1,
+        "retirement-planning": 1,
+        "amazon": 4
       },
       "entity_mention_density": {
-        "ai-boom": 2.3,
-        "budgeting-saving": 18.1,
-        "amazon": 2.3
+        "crypto": 0.1,
+        "inflation": 0.2,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "budgeting-saving": 2.6,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.1,
+        "amazon": 0.3
       },
       "entity_sentiment": {
+        "budgeting-saving": 0.0,
+        "inflation": 1.0,
+        "retirement-planning": 1.0,
         "amazon": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -1.0,
+        "budgeting-saving": 0.2,
+        "inflation": 1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Budgeting & Saving, Inflation, Interest Rates & Fed Policy, AI & Machine Learning. Mentions Amazon. Tone leans bullish (+0.24).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-26-the-investing-for-beginners-podcast-aar51-the-money-and-mental-health-connection-9c13bc.md",
+    "transcript_word_count": 11704,
+    "transcript_language": "en"
   },
   {
     "guid": "880fe730-5891-11f1-af54-f7159e798863",
@@ -248449,42 +248495,104 @@
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/5dba2dde-0175-47e1-9ddd-96af223e5edc.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
       "sectors": [
-        "real-estate"
+        "healthcare",
+        "insurance",
+        "real-estate",
+        "crypto",
+        "banks"
       ],
       "themes": [
         "retirement-planning",
-        "housing",
+        "college-savings",
         "budgeting-saving",
-        "college-savings"
+        "labor-market",
+        "housing",
+        "passive-investing",
+        "debt-payoff",
+        "inflation",
+        "rates-fed",
+        "diversification",
+        "insurance-products",
+        "market-timing-dca"
       ],
       "stocks": [
+        "meta",
+        "costco",
+        "alphabet",
         "jpmorgan"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.641,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "housing": 1,
-        "budgeting-saving": 1,
-        "retirement-planning": 5,
-        "college-savings": 1,
-        "jpmorgan": 1
+        "banks": 1,
+        "insurance": 5,
+        "healthcare": 7,
+        "real-estate": 3,
+        "crypto": 2,
+        "inflation": 1,
+        "rates-fed": 1,
+        "labor-market": 2,
+        "housing": 2,
+        "passive-investing": 2,
+        "budgeting-saving": 6,
+        "debt-payoff": 2,
+        "retirement-planning": 46,
+        "diversification": 1,
+        "college-savings": 10,
+        "insurance-products": 1,
+        "market-timing-dca": 1,
+        "alphabet": 1,
+        "meta": 2,
+        "jpmorgan": 1,
+        "costco": 2
       },
       "entity_mention_density": {
-        "real-estate": 1.6,
-        "housing": 1.6,
-        "budgeting-saving": 1.6,
-        "retirement-planning": 8.2,
-        "college-savings": 1.6,
-        "jpmorgan": 1.6
+        "banks": 0.1,
+        "insurance": 0.3,
+        "healthcare": 0.4,
+        "real-estate": 0.2,
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "labor-market": 0.1,
+        "housing": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.4,
+        "debt-payoff": 0.1,
+        "retirement-planning": 2.7,
+        "diversification": 0.1,
+        "college-savings": 0.6,
+        "insurance-products": 0.1,
+        "market-timing-dca": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "jpmorgan": 0.1,
+        "costco": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "insurance": -1.0,
+        "retirement-planning": -1.0,
+        "alphabet": -1.0
+      },
+      "entity_conviction": {
+        "banks": -1.0,
+        "insurance": -1.0,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0,
+        "alphabet": -1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Insurance, Real Estate, Retirement Planning, College Savings & Student Debt, Budgeting & Saving, Labor Market. Mentions Meta, Costco, Alphabet / Google, JPMorgan. Tone leans bullish (+0.64).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-stacking-benjamins-beth-kobliner-on-the-money-basics-that-still-work-30-years-l-4Ejjpg.md",
+    "transcript_word_count": 16297,
+    "transcript_language": "en"
   },
   {
     "guid": "d05e23d4-18e1-442f-8953-b4480146b311",
