@@ -17492,20 +17492,42 @@
     "duration": "01:26:45",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_SUMMER_SERIES_-_EP.477_Matthew_Dicks_V1.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "industrials"
+      ],
       "themes": [],
-      "stocks": [],
+      "stocks": [
+        "salesforce",
+        "microsoft",
+        "alphabet"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
+      "entity_mentions": {
+        "industrials": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "salesforce": 2
+      },
+      "entity_mention_density": {
+        "industrials": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "salesforce": 0.1
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials. Mentions Salesforce, Microsoft, Alphabet / Google. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-capital-allocators-best-of-storytelling-matthew-dicks-2c4504.md",
+    "transcript_word_count": 17943,
+    "transcript_language": "en"
   },
   {
     "guid": "9b8598fb-8a1d-4da0-b6fa-30cb7aae1af5",
@@ -125887,20 +125909,121 @@
     "duration": "2252",
     "audio_url": "https://mcdn.podbean.com/mf/web/xp3h3rviau32ry7x/BestStocksNow-260629.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "semiconductors",
+        "technology",
+        "ai-infrastructure",
+        "banks",
+        "private-markets"
+      ],
+      "themes": [
+        "rates-fed",
+        "ai-boom",
+        "bond-market",
+        "valuation",
+        "small-caps-value-growth",
+        "diversification"
+      ],
+      "stocks": [
+        "verizon",
+        "charles-schwab",
+        "alphabet",
+        "amd",
+        "bitcoin",
+        "disney",
+        "nvidia",
+        "amazon",
+        "micron",
+        "jpmorgan",
+        "morgan-stanley",
+        "citigroup",
+        "walmart",
+        "nasdaq",
+        "netflix"
+      ],
+      "sentiment": -0.714,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "private-markets": 1,
+        "rates-fed": 2,
+        "ai-boom": 1,
+        "bond-market": 1,
+        "valuation": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "nvidia": 1,
+        "alphabet": 2,
+        "amazon": 1,
+        "amd": 2,
+        "micron": 1,
+        "verizon": 6,
+        "jpmorgan": 1,
+        "morgan-stanley": 1,
+        "citigroup": 1,
+        "walmart": 1,
+        "bitcoin": 2,
+        "nasdaq": 1,
+        "charles-schwab": 3,
+        "netflix": 1,
+        "disney": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.2,
+        "banks": 0.2,
+        "private-markets": 0.2,
+        "rates-fed": 0.4,
+        "ai-boom": 0.2,
+        "bond-market": 0.2,
+        "valuation": 0.2,
+        "small-caps-value-growth": 0.2,
+        "diversification": 0.2,
+        "nvidia": 0.2,
+        "alphabet": 0.4,
+        "amazon": 0.2,
+        "amd": 0.4,
+        "micron": 0.2,
+        "verizon": 1.1,
+        "jpmorgan": 0.2,
+        "morgan-stanley": 0.2,
+        "citigroup": 0.2,
+        "walmart": 0.2,
+        "bitcoin": 0.4,
+        "nasdaq": 0.2,
+        "charles-schwab": 0.6,
+        "netflix": 0.2,
+        "disney": 0.4
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "banks": -1.0,
+        "technology": -1.0,
+        "jpmorgan": -1.0,
+        "morgan-stanley": -1.0,
+        "citigroup": -1.0,
+        "nvidia": -1.0,
+        "netflix": -1.0,
+        "amd": -1.0,
+        "verizon": 0.0,
+        "micron": -1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Technology, AI Infrastructure, Interest Rates & Fed Policy, AI & Machine Learning, Bond Market & Yields, Valuation. Mentions Verizon, Charles Schwab, Alphabet / Google, AMD, Bitcoin. Tone leans bearish (-0.71).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-best-stocks-now-monday-june-29-2026-b74f83.md",
+    "transcript_word_count": 5429,
+    "transcript_language": "en"
   },
   {
     "guid": "166fff04-73bf-11f1-a124-0bdeb11e46d9",
@@ -194491,39 +194614,63 @@
     "duration": "36:43",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a13d82bad9ab709b6227e9d/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks",
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving",
+        "market-timing-dca",
+        "passive-investing",
         "tax-planning",
-        "market-timing-dca"
+        "insurance-products"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.683,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 4,
+        "banks": 1,
+        "real-estate": 1,
+        "passive-investing": 1,
+        "budgeting-saving": 22,
         "tax-planning": 1,
-        "market-timing-dca": 1,
-        "meta": 1
+        "insurance-products": 1,
+        "market-timing-dca": 2,
+        "meta": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 12.0,
-        "tax-planning": 3.0,
-        "market-timing-dca": 3.0,
-        "meta": 3.0
+        "banks": 0.1,
+        "real-estate": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 3.1,
+        "tax-planning": 0.1,
+        "insurance-products": 0.1,
+        "market-timing-dca": 0.3,
+        "meta": 0.3
       },
       "entity_sentiment": {
         "budgeting-saving": 1.0,
-        "tax-planning": 1.0
+        "tax-planning": 1.0,
+        "market-timing-dca": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "banks": -1.0,
+        "budgeting-saving": -0.5,
+        "market-timing-dca": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Real Estate, Budgeting & Saving, Market Timing & Dollar-Cost Averaging, Passive Investing, Tax Planning. Mentions Meta. Tone leans bullish (+0.68).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-25-equity-mates-investing-podcast-after-the-budget-what-investors-should-do-next-with-julie-bu-227e9d.md",
+    "transcript_word_count": 6809,
+    "transcript_language": "en"
   },
   {
     "guid": "6a1384b536b9fc83d8efa5cf",
