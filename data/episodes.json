@@ -99528,45 +99528,133 @@
     "duration": "00:42:39",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/84c99f77-c012-4c92-8d72-8d13486d8062/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=84c99f77-c012-4c92-8d72-8d13486d8062&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "airlines-travel",
+        "banks",
+        "energy",
+        "consumer-discretionary",
+        "technology",
+        "utilities",
+        "industrials",
+        "crypto"
+      ],
       "themes": [
-        "small-caps-value-growth",
-        "inflation",
         "rates-fed",
-        "ai-boom"
+        "inflation",
+        "dealmaking",
+        "ai-boom",
+        "regulation-antitrust",
+        "small-caps-value-growth",
+        "elections-politics",
+        "geopolitics-tariffs",
+        "housing",
+        "commodities",
+        "volatility",
+        "earnings",
+        "hedge-funds",
+        "emerging-markets"
       ],
       "stocks": [
-        "netflix"
+        "netflix",
+        "tsmc",
+        "nasdaq"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.078,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "rates-fed": 1,
-        "ai-boom": 1,
-        "small-caps-value-growth": 2,
-        "netflix": 1
+        "technology": 1,
+        "semiconductors": 11,
+        "ai-infrastructure": 4,
+        "banks": 2,
+        "energy": 2,
+        "utilities": 1,
+        "consumer-discretionary": 2,
+        "industrials": 1,
+        "airlines-travel": 4,
+        "crypto": 1,
+        "inflation": 5,
+        "rates-fed": 6,
+        "ai-boom": 3,
+        "geopolitics-tariffs": 1,
+        "housing": 1,
+        "elections-politics": 2,
+        "commodities": 1,
+        "volatility": 1,
+        "dealmaking": 4,
+        "regulation-antitrust": 3,
+        "earnings": 1,
+        "hedge-funds": 1,
+        "emerging-markets": 1,
+        "small-caps-value-growth": 3,
+        "tsmc": 8,
+        "nasdaq": 3,
+        "netflix": 9
       },
       "entity_mention_density": {
-        "inflation": 12.5,
-        "rates-fed": 12.5,
-        "ai-boom": 12.5,
-        "small-caps-value-growth": 25.0,
-        "netflix": 12.5
+        "technology": 0.1,
+        "semiconductors": 1.5,
+        "ai-infrastructure": 0.5,
+        "banks": 0.3,
+        "energy": 0.3,
+        "utilities": 0.1,
+        "consumer-discretionary": 0.3,
+        "industrials": 0.1,
+        "airlines-travel": 0.5,
+        "crypto": 0.1,
+        "inflation": 0.7,
+        "rates-fed": 0.8,
+        "ai-boom": 0.4,
+        "geopolitics-tariffs": 0.1,
+        "housing": 0.1,
+        "elections-politics": 0.3,
+        "commodities": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.5,
+        "regulation-antitrust": 0.4,
+        "earnings": 0.1,
+        "hedge-funds": 0.1,
+        "emerging-markets": 0.1,
+        "small-caps-value-growth": 0.4,
+        "tsmc": 1.1,
+        "nasdaq": 0.4,
+        "netflix": 1.2
       },
       "entity_sentiment": {
+        "semiconductors": 1.0,
+        "ai-infrastructure": -1.0,
+        "industrials": 1.0,
         "ai-boom": 1.0,
         "small-caps-value-growth": 1.0,
+        "inflation": 0.0,
+        "rates-fed": 1.0,
+        "netflix": 1.0,
+        "tsmc": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "ai-boom": -1.0,
+        "small-caps-value-growth": -1.0,
         "inflation": 1.0,
         "rates-fed": 1.0,
-        "netflix": 1.0
+        "dealmaking": -1.0,
+        "netflix": -1.0,
+        "tsmc": -1.0
       },
-      "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Airlines & Travel, Interest Rates & Fed Policy, Inflation, IPOs & Dealmaking, AI & Machine Learning. Mentions Netflix, TSMC, Nasdaq. Tone reads roughly neutral (-0.08).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-16-morning-call-ai-momentum-earnings-and-market-rotation-in-focus-7-16-26-c52a4f.md",
+    "transcript_word_count": 7390,
+    "transcript_language": "en"
   },
   {
     "guid": "6f3cc6cf-31f7-47dd-a598-61e18caebfa5",
@@ -152521,39 +152609,114 @@
     "duration": "01:07:47",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/e05077d5-cacd-4948-aea0-9eb0df384bf7.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate"
+      ],
       "themes": [
         "dealmaking",
+        "inflation",
         "passive-investing",
+        "college-savings",
         "behavioral-finance",
-        "market-timing-dca"
+        "budgeting-saving",
+        "fire-movement",
+        "tax-planning",
+        "market-timing-dca",
+        "volatility",
+        "retirement-planning"
       ],
       "stocks": [
-        "tesla"
+        "tesla",
+        "alphabet",
+        "amazon",
+        "nasdaq",
+        "fidelity",
+        "bitcoin",
+        "charles-schwab",
+        "meta",
+        "saudi-aramco",
+        "costco",
+        "walmart",
+        "disney"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 1.0,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 5,
-        "passive-investing": 2,
-        "behavioral-finance": 1,
-        "market-timing-dca": 1,
-        "tesla": 1
+        "real-estate": 1,
+        "inflation": 5,
+        "volatility": 1,
+        "dealmaking": 26,
+        "passive-investing": 4,
+        "budgeting-saving": 2,
+        "fire-movement": 2,
+        "retirement-planning": 1,
+        "behavioral-finance": 3,
+        "tax-planning": 2,
+        "college-savings": 4,
+        "market-timing-dca": 2,
+        "alphabet": 4,
+        "amazon": 4,
+        "meta": 1,
+        "tesla": 5,
+        "saudi-aramco": 1,
+        "costco": 1,
+        "walmart": 1,
+        "bitcoin": 2,
+        "nasdaq": 4,
+        "fidelity": 3,
+        "charles-schwab": 2,
+        "disney": 1
       },
       "entity_mention_density": {
-        "dealmaking": 8.5,
-        "passive-investing": 3.4,
-        "behavioral-finance": 1.7,
-        "market-timing-dca": 1.7,
-        "tesla": 1.7
+        "real-estate": 0.1,
+        "inflation": 0.3,
+        "volatility": 0.1,
+        "dealmaking": 1.8,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "behavioral-finance": 0.2,
+        "tax-planning": 0.1,
+        "college-savings": 0.3,
+        "market-timing-dca": 0.1,
+        "alphabet": 0.3,
+        "amazon": 0.3,
+        "meta": 0.1,
+        "tesla": 0.3,
+        "saudi-aramco": 0.1,
+        "costco": 0.1,
+        "walmart": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 0.3,
+        "fidelity": 0.2,
+        "charles-schwab": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "volatility": 1.0
+      },
+      "entity_conviction": {
+        "dealmaking": -1.0,
+        "behavioral-finance": -1.0,
+        "college-savings": -1.0,
+        "tesla": -1.0,
+        "charles-schwab": -1.0,
+        "fidelity": -1.0,
+        "alphabet": -1.0,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, IPOs & Dealmaking, Inflation, Passive Investing, College Savings & Student Debt. Mentions Tesla, Alphabet / Google, Amazon, Nasdaq, Fidelity. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-stacking-benjamins-the-spacex-ipo-wasn-t-for-you-and-that-s-actually-fine-sb185-bbTvow.md",
+    "transcript_word_count": 14133,
+    "transcript_language": "en"
   },
   {
     "guid": "ec8ef41e-9021-43ba-a6fb-b46d013a0fc5",
@@ -182069,24 +182232,45 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "college-savings",
+        "budgeting-saving",
+        "debt-payoff",
+        "retirement-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 6,
+        "debt-payoff": 2,
+        "retirement-planning": 2,
+        "college-savings": 11
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.6
+        "budgeting-saving": 2.9,
+        "debt-payoff": 1.0,
+        "retirement-planning": 1.0,
+        "college-savings": 5.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0,
+        "college-savings": 1.0
+      },
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "college-savings": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on College Savings & Student Debt, Budgeting & Saving, Debt Payoff, Retirement Planning. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-ramsey-everyday-millionaires-how-much-do-i-need-to-retire-comfortably-38ac40.md",
+    "transcript_word_count": 1878,
+    "transcript_language": "en"
   },
   {
     "guid": "05797a2c-29dc-11f1-b64a-2bad50840f64",
