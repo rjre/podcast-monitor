@@ -13521,39 +13521,70 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/63b92ed7-116c-4878-8a8a-3b4dc489572b.mp3?source=feed",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "energy",
+        "real-estate"
       ],
       "themes": [
+        "dividends-buybacks",
+        "inflation",
         "consumer-health",
-        "valuation"
+        "valuation",
+        "rates-fed",
+        "housing"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.118,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "semiconductors": 1,
-        "consumer-health": 1,
-        "valuation": 1,
-        "nasdaq": 1
+        "semiconductors": 2,
+        "energy": 1,
+        "real-estate": 1,
+        "inflation": 2,
+        "rates-fed": 1,
+        "housing": 1,
+        "consumer-health": 2,
+        "dividends-buybacks": 7,
+        "valuation": 2,
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "semiconductors": 5.6,
-        "consumer-health": 5.6,
-        "valuation": 5.6,
-        "nasdaq": 5.6
+        "semiconductors": 1.1,
+        "energy": 0.6,
+        "real-estate": 0.6,
+        "inflation": 1.1,
+        "rates-fed": 0.6,
+        "housing": 0.6,
+        "consumer-health": 1.1,
+        "dividends-buybacks": 4.0,
+        "valuation": 1.1,
+        "nasdaq": 1.1
       },
       "entity_sentiment": {
-        "consumer-health": -1.0,
-        "valuation": -1.0
+        "energy": 1.0,
+        "real-estate": 1.0,
+        "consumer-health": -0.429,
+        "valuation": -1.0,
+        "dividends-buybacks": 1.0,
+        "inflation": 1.0,
+        "housing": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "valuation": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, Real Estate, Dividends & Buybacks, Inflation, Consumer Health, Valuation. Mentions Nasdaq. Tone reads roughly neutral (-0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-the-dividend-cafe-tuesday-august-25-2026-8129da.md",
+    "transcript_word_count": 1574,
+    "transcript_language": "en"
   },
   {
     "guid": "d259d10e-bca9-42de-8b41-1172969ff4f2",
@@ -28740,40 +28771,182 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/3cdcf69e-6a40-4291-a146-4b92c681335b/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=3cdcf69e-6a40-4291-a146-4b92c681335b&feed=Bt3ITxGl",
     "tags": {
       "sectors": [
+        "consumer-discretionary",
+        "energy",
         "ai-infrastructure",
-        "consumer-discretionary"
+        "real-estate",
+        "industrials",
+        "airlines-travel",
+        "technology",
+        "semiconductors",
+        "insurance",
+        "consumer-staples",
+        "materials-mining",
+        "private-markets"
       ],
       "themes": [
+        "geopolitics-tariffs",
+        "rates-fed",
+        "bond-market",
+        "commodities",
+        "ai-boom",
+        "small-caps-value-growth",
+        "inflation",
+        "labor-market",
+        "dealmaking",
+        "dividends-buybacks",
+        "college-savings",
+        "elections-politics",
+        "volatility",
+        "regulation-antitrust",
         "consumer-health",
-        "small-caps-value-growth"
+        "debt-payoff",
+        "career-income",
+        "diversification"
       ],
-      "stocks": [],
-      "sentiment": 0.833,
-      "sentiment_hits": 5,
-      "sentiment_confidence": 0.833,
+      "stocks": [
+        "walmart",
+        "nasdaq",
+        "tesla",
+        "citigroup",
+        "meta",
+        "costco"
+      ],
+      "sentiment": 0.118,
+      "sentiment_hits": 34,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "consumer-discretionary": 1,
+        "technology": 2,
+        "semiconductors": 1,
+        "ai-infrastructure": 4,
+        "insurance": 1,
+        "energy": 6,
+        "consumer-discretionary": 14,
+        "consumer-staples": 1,
+        "real-estate": 4,
+        "industrials": 3,
+        "materials-mining": 1,
+        "airlines-travel": 3,
+        "private-markets": 1,
+        "inflation": 2,
+        "rates-fed": 8,
+        "ai-boom": 3,
+        "geopolitics-tariffs": 10,
+        "labor-market": 2,
+        "elections-politics": 1,
+        "commodities": 4,
+        "volatility": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 1,
+        "bond-market": 7,
         "consumer-health": 1,
-        "small-caps-value-growth": 1
+        "debt-payoff": 1,
+        "career-income": 1,
+        "dividends-buybacks": 2,
+        "small-caps-value-growth": 3,
+        "diversification": 1,
+        "college-savings": 2,
+        "meta": 1,
+        "tesla": 2,
+        "citigroup": 2,
+        "costco": 1,
+        "walmart": 10,
+        "nasdaq": 3
       },
       "entity_mention_density": {
-        "ai-infrastructure": 15.9,
-        "consumer-discretionary": 15.9,
-        "consumer-health": 15.9,
-        "small-caps-value-growth": 15.9
+        "technology": 0.2,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.5,
+        "insurance": 0.1,
+        "energy": 0.7,
+        "consumer-discretionary": 1.7,
+        "consumer-staples": 0.1,
+        "real-estate": 0.5,
+        "industrials": 0.4,
+        "materials-mining": 0.1,
+        "airlines-travel": 0.4,
+        "private-markets": 0.1,
+        "inflation": 0.2,
+        "rates-fed": 1.0,
+        "ai-boom": 0.4,
+        "geopolitics-tariffs": 1.2,
+        "labor-market": 0.2,
+        "elections-politics": 0.1,
+        "commodities": 0.5,
+        "volatility": 0.1,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.1,
+        "bond-market": 0.9,
+        "consumer-health": 0.1,
+        "debt-payoff": 0.1,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.2,
+        "small-caps-value-growth": 0.4,
+        "diversification": 0.1,
+        "college-savings": 0.2,
+        "meta": 0.1,
+        "tesla": 0.2,
+        "citigroup": 0.2,
+        "costco": 0.1,
+        "walmart": 1.2,
+        "nasdaq": 0.4
       },
       "entity_sentiment": {
         "ai-infrastructure": 1.0,
-        "consumer-discretionary": 1.0,
+        "consumer-discretionary": 0.765,
+        "materials-mining": 1.0,
+        "technology": -1.0,
+        "insurance": -1.0,
+        "private-markets": -1.0,
+        "semiconductors": -1.0,
+        "industrials": -1.0,
+        "real-estate": 1.0,
         "small-caps-value-growth": 1.0,
-        "consumer-health": 1.0
+        "consumer-health": 1.0,
+        "bond-market": 0.167,
+        "rates-fed": 1.0,
+        "commodities": -1.0,
+        "dividends-buybacks": 1.0,
+        "geopolitics-tariffs": -1.0,
+        "debt-payoff": -1.0,
+        "college-savings": -1.0,
+        "inflation": -1.0,
+        "citigroup": 0.333,
+        "tesla": -1.0,
+        "walmart": 0.412
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": 0.429,
+        "consumer-discretionary": 0.333,
+        "energy": -1.0,
+        "materials-mining": -1.0,
+        "technology": 1.0,
+        "insurance": 1.0,
+        "private-markets": 1.0,
+        "industrials": -1.0,
+        "consumer-staples": -1.0,
+        "small-caps-value-growth": -1.0,
+        "bond-market": -1.0,
+        "rates-fed": -1.0,
+        "commodities": -1.0,
+        "dividends-buybacks": -1.0,
+        "ai-boom": -0.545,
+        "geopolitics-tariffs": -1.0,
+        "regulation-antitrust": -1.0,
+        "inflation": 1.0,
+        "walmart": -0.412,
+        "costco": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Energy & Oil, AI Infrastructure, Geopolitics & Tariffs, Interest Rates & Fed Policy, Bond Market & Yields, Commodities. Mentions Walmart, Nasdaq, Tesla, Citigroup, Meta. Tone reads roughly neutral (+0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-18-morning-call-copper-demand-defense-ai-and-consumer-strength-shape-the-mar-a99f18.md",
+    "transcript_word_count": 7960,
+    "transcript_language": "en"
   },
   {
     "guid": "6a842bb539e73ea8f3c13a2d",
@@ -63904,20 +64077,73 @@
     "duration": "01:04:39",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/4264623c-36b2-4ce3-9f2f-7d6769391adb.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "crypto",
+        "real-estate",
+        "airlines-travel"
+      ],
+      "themes": [
+        "passive-investing",
+        "fire-movement",
+        "ai-boom",
+        "crypto-regulation",
+        "behavioral-finance",
+        "diversification"
+      ],
+      "stocks": [
+        "bitcoin",
+        "netflix",
+        "meta"
+      ],
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 2,
+        "airlines-travel": 1,
+        "crypto": 3,
+        "ai-boom": 1,
+        "crypto-regulation": 1,
+        "passive-investing": 2,
+        "fire-movement": 2,
+        "behavioral-finance": 1,
+        "diversification": 1,
+        "meta": 1,
+        "bitcoin": 7,
+        "netflix": 2
+      },
+      "entity_mention_density": {
+        "real-estate": 0.1,
+        "airlines-travel": 0.1,
+        "crypto": 0.2,
+        "ai-boom": 0.1,
+        "crypto-regulation": 0.1,
+        "passive-investing": 0.1,
+        "fire-movement": 0.1,
+        "behavioral-finance": 0.1,
+        "diversification": 0.1,
+        "meta": 0.1,
+        "bitcoin": 0.5,
+        "netflix": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -1.0,
+        "real-estate": -1.0,
+        "passive-investing": -1.0,
+        "behavioral-finance": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Real Estate, Airlines & Travel, Passive Investing, Financial Independence / FIRE, AI & Machine Learning, Crypto Regulation. Mentions Bitcoin, Netflix, Meta. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-31-stacking-benjamins-why-smart-people-make-dumb-money-decisions-sb1877-JHHWxs.md",
+    "transcript_word_count": 13122,
+    "transcript_language": "en"
   },
   {
     "guid": "f004446b-a024-4773-bd04-b497017ec344",
@@ -130444,36 +130670,72 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML7227902906.mp3",
     "tags": {
       "sectors": [
-        "media-entertainment"
+        "telecoms",
+        "media-entertainment",
+        "technology"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "dividends-buybacks"
       ],
       "stocks": [
         "amazon",
-        "apple"
+        "apple",
+        "berkshire",
+        "netflix",
+        "disney"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.622,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "media-entertainment": 1,
-        "dealmaking": 2,
+        "technology": 2,
+        "telecoms": 6,
+        "media-entertainment": 6,
+        "dealmaking": 8,
+        "dividends-buybacks": 3,
         "apple": 1,
-        "amazon": 2
+        "amazon": 7,
+        "berkshire": 1,
+        "netflix": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "media-entertainment": 3.4,
-        "dealmaking": 6.8,
-        "apple": 3.4,
-        "amazon": 6.8
+        "technology": 0.5,
+        "telecoms": 1.5,
+        "media-entertainment": 1.5,
+        "dealmaking": 2.0,
+        "dividends-buybacks": 0.7,
+        "apple": 0.2,
+        "amazon": 1.7,
+        "berkshire": 0.2,
+        "netflix": 0.2,
+        "disney": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "media-entertainment": 0.429,
+        "telecoms": 1.0,
+        "dealmaking": 0.429,
+        "dividends-buybacks": 1.0,
+        "netflix": 1.0
+      },
+      "entity_conviction": {
+        "media-entertainment": -0.333,
+        "telecoms": -1.0,
+        "technology": -1.0,
+        "dealmaking": -1.0,
+        "amazon": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Telecoms, Media & Entertainment, Technology, IPOs & Dealmaking, Dividends & Buybacks. Mentions Amazon, Apple, Berkshire Hathaway, Netflix, Disney. Tone leans bullish (+0.62).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-motley-fool-hidden-gems-rocket-lab-shakes-up-satellite-communications-8e2b7e.md",
+    "transcript_word_count": 3750,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/Fql3Ye_e1-R4GjI-pwXYjl7aK9s6Cbyc8wcu4aUqHDg",
