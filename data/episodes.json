@@ -23681,20 +23681,108 @@
     "duration": "2277",
     "audio_url": "https://mcdn.podbean.com/mf/web/z4gsdrigckwk8wse/BestStocksNow-260820.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "real-estate",
+        "consumer-discretionary",
+        "crypto"
+      ],
+      "themes": [
+        "rates-fed",
+        "bond-market",
+        "hedge-funds",
+        "inflation",
+        "housing",
+        "recession",
+        "geopolitics-tariffs",
+        "fiscal-debt",
+        "safe-havens"
+      ],
+      "stocks": [
+        "walmart",
+        "bitcoin",
+        "boeing",
+        "charles-schwab",
+        "microsoft",
+        "amazon",
+        "disney"
+      ],
+      "sentiment": 0.259,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "consumer-discretionary": 2,
+        "real-estate": 4,
+        "crypto": 2,
+        "inflation": 2,
+        "rates-fed": 5,
+        "recession": 1,
+        "geopolitics-tariffs": 1,
+        "housing": 2,
+        "fiscal-debt": 1,
+        "safe-havens": 1,
+        "bond-market": 4,
+        "hedge-funds": 4,
+        "microsoft": 1,
+        "amazon": 1,
+        "boeing": 2,
+        "walmart": 23,
+        "bitcoin": 14,
+        "charles-schwab": 2,
+        "disney": 1
+      },
+      "entity_mention_density": {
+        "consumer-discretionary": 0.4,
+        "real-estate": 0.8,
+        "crypto": 0.4,
+        "inflation": 0.4,
+        "rates-fed": 0.9,
+        "recession": 0.2,
+        "geopolitics-tariffs": 0.2,
+        "housing": 0.4,
+        "fiscal-debt": 0.2,
+        "safe-havens": 0.2,
+        "bond-market": 0.8,
+        "hedge-funds": 0.8,
+        "microsoft": 0.2,
+        "amazon": 0.2,
+        "boeing": 0.4,
+        "walmart": 4.3,
+        "bitcoin": 2.6,
+        "charles-schwab": 0.4,
+        "disney": 0.2
+      },
+      "entity_sentiment": {
+        "consumer-discretionary": 0.0,
+        "crypto": -1.0,
+        "real-estate": 1.0,
+        "bond-market": 1.0,
+        "rates-fed": -0.6,
+        "inflation": -0.6,
+        "safe-havens": -0.6,
+        "recession": -1.0,
+        "bitcoin": -1.0,
+        "walmart": -0.333,
+        "amazon": 0.0
+      },
+      "entity_conviction": {
+        "real-estate": 1.0,
+        "hedge-funds": -0.333,
+        "geopolitics-tariffs": -1.0,
+        "bitcoin": -0.667,
+        "walmart": -0.714
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "walmart"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Consumer Discretionary, Crypto & Digital Assets, Interest Rates & Fed Policy, Bond Market & Yields, Hedge Funds, Inflation. Mentions Walmart, Bitcoin, Boeing, Charles Schwab, Microsoft. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-20-best-stocks-now-thursday-aug-20-2026-93fb29.md",
+    "transcript_word_count": 5311,
+    "transcript_language": "en"
   },
   {
     "guid": "884ba885-21b1-4bdf-85fa-32c4a95ffe51",
@@ -101142,31 +101230,71 @@
     "tags": {
       "sectors": [
         "real-estate",
-        "industrials"
+        "industrials",
+        "technology",
+        "telecoms",
+        "airlines-travel"
       ],
-      "themes": [],
+      "themes": [
+        "real-estate-investing",
+        "china",
+        "elections-politics",
+        "labor-market",
+        "regulation-antitrust"
+      ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.2,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "industrials": 1,
+        "technology": 1,
+        "real-estate": 14,
+        "telecoms": 1,
+        "industrials": 2,
+        "airlines-travel": 1,
+        "china": 3,
+        "labor-market": 2,
+        "elections-politics": 3,
+        "regulation-antitrust": 2,
+        "real-estate-investing": 4,
         "meta": 1
       },
       "entity_mention_density": {
-        "real-estate": 2.8,
-        "industrials": 2.8,
-        "meta": 2.8
+        "technology": 0.1,
+        "real-estate": 2.0,
+        "telecoms": 0.1,
+        "industrials": 0.3,
+        "airlines-travel": 0.1,
+        "china": 0.4,
+        "labor-market": 0.3,
+        "elections-politics": 0.4,
+        "regulation-antitrust": 0.3,
+        "real-estate-investing": 0.6,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": -0.2,
+        "real-estate-investing": 1.0,
+        "china": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "china": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "real-estate"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Technology, Real Estate Investing, China Economy, Elections & Politics, Labor Market. Mentions Meta. Tone leans bearish (-0.20).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-15-planet-money-building-things-and-breaking-things-in-china-summer-school-w-8a4d65.md",
+    "transcript_word_count": 6496,
+    "transcript_language": "en"
   },
   {
     "guid": "e2968ab2-76ee-11f1-bb97-ab49a77a0aba",
@@ -144374,29 +144502,102 @@
     "duration": "3924",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL4070777702.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "retirement-planning",
-        "inflation"
+      "sectors": [
+        "real-estate",
+        "insurance",
+        "banks"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "inflation",
+        "passive-investing",
+        "retirement-planning",
+        "budgeting-saving",
+        "fire-movement",
+        "rates-fed",
+        "labor-market",
+        "debt-payoff",
+        "volatility",
+        "real-estate-investing",
+        "passive-income",
+        "career-income",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "disney",
+        "fidelity"
+      ],
+      "sentiment": -0.169,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "retirement-planning": 2
+        "banks": 1,
+        "insurance": 2,
+        "real-estate": 9,
+        "inflation": 9,
+        "rates-fed": 3,
+        "labor-market": 3,
+        "volatility": 1,
+        "passive-investing": 8,
+        "budgeting-saving": 5,
+        "debt-payoff": 2,
+        "fire-movement": 4,
+        "retirement-planning": 8,
+        "real-estate-investing": 1,
+        "passive-income": 1,
+        "career-income": 1,
+        "market-timing-dca": 1,
+        "fidelity": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "inflation": 5.0,
-        "retirement-planning": 10.0
+        "banks": 0.1,
+        "insurance": 0.2,
+        "real-estate": 0.7,
+        "inflation": 0.7,
+        "rates-fed": 0.2,
+        "labor-market": 0.2,
+        "volatility": 0.1,
+        "passive-investing": 0.6,
+        "budgeting-saving": 0.4,
+        "debt-payoff": 0.2,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.6,
+        "real-estate-investing": 0.1,
+        "passive-income": 0.1,
+        "career-income": 0.1,
+        "market-timing-dca": 0.1,
+        "fidelity": 0.1,
+        "disney": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "inflation": -1.0,
+        "labor-market": -1.0,
+        "market-timing-dca": -1.0,
+        "debt-payoff": 1.0,
+        "budgeting-saving": 0.0
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "real-estate": -1.0,
+        "inflation": 0.333,
+        "retirement-planning": -0.474,
+        "fire-movement": 1.0,
+        "debt-payoff": -1.0,
+        "budgeting-saving": -1.0,
+        "passive-investing": -1.0,
+        "volatility": 1.0,
+        "passive-income": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Insurance, Banks & Financials, Inflation, Passive Investing, Retirement Planning, Budgeting & Saving. Mentions Disney, Fidelity. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-24-money-guy-show-the-stark-reality-of-what-a-1-5m-retirement-looks-like-in-20-98722c.md",
+    "transcript_word_count": 12115,
+    "transcript_language": "en"
   },
   {
     "guid": "edd5b8ce-a84c-11f0-a576-731654a6ebc2",
@@ -244559,42 +244760,99 @@
     "duration": "3433",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/2aaf4fde-2855-47d2-b95a-b432013d0425/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "energy"
+      ],
       "themes": [
-        "inflation",
-        "fire-movement",
-        "retirement-planning",
         "real-estate-investing",
-        "college-savings"
+        "inflation",
+        "retirement-planning",
+        "budgeting-saving",
+        "fire-movement",
+        "college-savings",
+        "housing",
+        "passive-investing",
+        "debt-payoff",
+        "dividends-buybacks",
+        "tax-planning"
       ],
       "stocks": [
-        "meta"
+        "fidelity",
+        "meta",
+        "vanguard",
+        "bank-of-america"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 1.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 2,
-        "fire-movement": 1,
-        "retirement-planning": 1,
-        "real-estate-investing": 1,
-        "college-savings": 1,
-        "meta": 1
+        "energy": 1,
+        "real-estate": 3,
+        "inflation": 8,
+        "housing": 1,
+        "passive-investing": 1,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
+        "fire-movement": 2,
+        "retirement-planning": 6,
+        "real-estate-investing": 10,
+        "dividends-buybacks": 1,
+        "tax-planning": 1,
+        "college-savings": 2,
+        "meta": 5,
+        "bank-of-america": 1,
+        "vanguard": 2,
+        "fidelity": 12
       },
       "entity_mention_density": {
-        "inflation": 4.8,
-        "fire-movement": 2.4,
-        "retirement-planning": 2.4,
-        "real-estate-investing": 2.4,
-        "college-savings": 2.4,
-        "meta": 2.4
+        "energy": 0.1,
+        "real-estate": 0.2,
+        "inflation": 0.7,
+        "housing": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.5,
+        "real-estate-investing": 0.8,
+        "dividends-buybacks": 0.1,
+        "tax-planning": 0.1,
+        "college-savings": 0.2,
+        "meta": 0.4,
+        "bank-of-america": 0.1,
+        "vanguard": 0.2,
+        "fidelity": 1.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": 1.0,
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.758,
+        "energy": -1.0,
+        "inflation": -1.0,
+        "retirement-planning": -1.0,
+        "real-estate-investing": -0.8,
+        "fire-movement": -1.0,
+        "passive-investing": -1.0,
+        "tax-planning": -1.0,
+        "dividends-buybacks": -1.0,
+        "budgeting-saving": 1.0,
+        "meta": -1.0,
+        "fidelity": -1.0,
+        "bank-of-america": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Energy & Oil, Real Estate Investing, Inflation, Retirement Planning, Budgeting & Saving. Mentions Fidelity, Meta, Vanguard, Bank of America. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-04-how-to-money-ask-htm-conquering-debt-fuled-lifestyle-inflation-investing-3d0425.md",
+    "transcript_word_count": 11819,
+    "transcript_language": "en"
   },
   {
     "guid": "3dee2b37-dd77-416f-a8a5-034f4cef93eb",
