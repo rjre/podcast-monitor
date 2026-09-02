@@ -21318,65 +21318,115 @@
     "tags": {
       "sectors": [
         "defense-aerospace",
-        "technology",
         "semiconductors",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "real-estate",
+        "industrials"
       ],
       "themes": [
         "dealmaking",
+        "dividends-buybacks",
         "ai-boom",
-        "dividends-buybacks"
+        "earnings"
       ],
       "stocks": [
-        "palantir",
         "alphabet",
-        "bitcoin",
         "amazon",
-        "tesla",
         "tsmc",
-        "boeing"
+        "microsoft",
+        "boeing",
+        "nvidia",
+        "palantir",
+        "bitcoin",
+        "meta",
+        "tesla",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.169,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "technology": 1,
-        "semiconductors": 1,
-        "ai-infrastructure": 1,
-        "defense-aerospace": 3,
+        "technology": 2,
+        "semiconductors": 7,
+        "ai-infrastructure": 4,
+        "real-estate": 1,
+        "industrials": 1,
+        "defense-aerospace": 8,
         "ai-boom": 2,
-        "dealmaking": 3,
-        "dividends-buybacks": 1,
-        "alphabet": 2,
-        "amazon": 1,
+        "dealmaking": 13,
+        "earnings": 2,
+        "dividends-buybacks": 3,
+        "nvidia": 4,
+        "microsoft": 8,
+        "alphabet": 27,
+        "amazon": 13,
+        "meta": 1,
         "tesla": 1,
-        "tsmc": 1,
+        "tsmc": 13,
         "palantir": 3,
-        "boeing": 1,
-        "bitcoin": 2
+        "boeing": 5,
+        "bitcoin": 2,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "technology": 1.8,
-        "semiconductors": 1.8,
-        "ai-infrastructure": 1.8,
-        "defense-aerospace": 5.4,
-        "ai-boom": 3.6,
-        "dealmaking": 5.4,
-        "dividends-buybacks": 1.8,
-        "alphabet": 3.6,
-        "amazon": 1.8,
-        "tesla": 1.8,
-        "tsmc": 1.8,
-        "palantir": 5.4,
-        "boeing": 1.8,
-        "bitcoin": 3.6
+        "technology": 0.2,
+        "semiconductors": 0.7,
+        "ai-infrastructure": 0.4,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "defense-aerospace": 0.8,
+        "ai-boom": 0.2,
+        "dealmaking": 1.3,
+        "earnings": 0.2,
+        "dividends-buybacks": 0.3,
+        "nvidia": 0.4,
+        "microsoft": 0.8,
+        "alphabet": 2.8,
+        "amazon": 1.3,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "tsmc": 1.3,
+        "palantir": 0.3,
+        "boeing": 0.5,
+        "bitcoin": 0.2,
+        "netflix": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "dealmaking": -0.2,
+        "alphabet": -1.0,
+        "boeing": -1.0,
+        "amazon": -1.0,
+        "nvidia": 1.0,
+        "microsoft": -1.0
+      },
+      "entity_conviction": {
+        "defense-aerospace": -0.167,
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "real-estate": -1.0,
+        "dealmaking": -0.888,
+        "earnings": -1.0,
+        "alphabet": -1.0,
+        "tsmc": -1.0,
+        "amazon": -1.0,
+        "nvidia": -1.0,
+        "microsoft": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "dealmaking"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Defense & Aerospace, Semiconductors, AI Infrastructure, IPOs & Dealmaking, Dividends & Buybacks, AI & Machine Learning, Corporate Earnings. Mentions Alphabet / Google, Amazon, TSMC, Microsoft, Boeing. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-the-investing-for-beginners-podcast-ai-space-and-defense-separating-hype-from-true-moats-0f4b3b.md",
+    "transcript_word_count": 9184,
+    "transcript_language": "en"
   },
   {
     "guid": "5e071f07-f635-4607-a04c-2d6164e0c697",
@@ -92621,20 +92671,49 @@
     "duration": "593",
     "audio_url": "https://traffic.megaphone.fm/OLD1934112397.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sectors": [
+        "consumer-discretionary"
+      ],
+      "themes": [
+        "inflation",
+        "fire-movement",
+        "retirement-planning",
+        "estate-planning"
+      ],
+      "stocks": [
+        "amazon"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
+      "entity_mentions": {
+        "consumer-discretionary": 1,
+        "inflation": 1,
+        "fire-movement": 1,
+        "retirement-planning": 1,
+        "estate-planning": 1,
+        "amazon": 2
+      },
+      "entity_mention_density": {
+        "consumer-discretionary": 0.5,
+        "inflation": 0.5,
+        "fire-movement": 0.5,
+        "retirement-planning": 0.5,
+        "estate-planning": 0.5,
+        "amazon": 1.0
+      },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Inflation, Financial Independence / FIRE, Retirement Planning, Estate Planning. Mentions Amazon. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-23-optimal-finance-daily-3639-part-2-the-6-crucial-questions-to-answer-before-you-ret-8a5689.md",
+    "transcript_word_count": 1615,
+    "transcript_language": "en"
   },
   {
     "guid": "be04f071-24a5-461c-aded-2116b687cb81",
@@ -179142,30 +179221,137 @@
     "duration": "3529",
     "audio_url": "https://traffic.megaphone.fm/RRM5089263793.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "energy",
+        "industrials",
+        "autos-ev",
+        "private-markets"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "rates-fed",
+        "volatility",
+        "valuation",
+        "market-concentration",
+        "inflation",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "regulation-antitrust",
+        "budgeting-saving",
+        "dividends-buybacks"
       ],
       "stocks": [
-        "palantir"
+        "tesla",
+        "alphabet",
+        "nvidia",
+        "meta",
+        "microsoft",
+        "amazon",
+        "palantir",
+        "morgan-stanley",
+        "boeing",
+        "oracle",
+        "broadcom"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.227,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1,
-        "palantir": 1
+        "technology": 4,
+        "ai-infrastructure": 7,
+        "energy": 4,
+        "industrials": 3,
+        "autos-ev": 2,
+        "private-markets": 1,
+        "inflation": 1,
+        "rates-fed": 5,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 1,
+        "volatility": 3,
+        "dealmaking": 15,
+        "regulation-antitrust": 1,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "market-concentration": 2,
+        "nvidia": 4,
+        "microsoft": 2,
+        "alphabet": 9,
+        "amazon": 2,
+        "meta": 3,
+        "tesla": 10,
+        "palantir": 1,
+        "morgan-stanley": 1,
+        "boeing": 1,
+        "oracle": 1,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "dealmaking": 2.7,
-        "palantir": 2.7
+        "technology": 0.4,
+        "ai-infrastructure": 0.6,
+        "energy": 0.4,
+        "industrials": 0.3,
+        "autos-ev": 0.2,
+        "private-markets": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.4,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.1,
+        "volatility": 0.3,
+        "dealmaking": 1.3,
+        "regulation-antitrust": 0.1,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.2,
+        "market-concentration": 0.2,
+        "nvidia": 0.4,
+        "microsoft": 0.2,
+        "alphabet": 0.8,
+        "amazon": 0.2,
+        "meta": 0.3,
+        "tesla": 0.9,
+        "palantir": 0.1,
+        "morgan-stanley": 0.1,
+        "boeing": 0.1,
+        "oracle": 0.1,
+        "broadcom": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 0.429,
+        "valuation": -1.0,
+        "ai-boom": -1.0,
+        "tesla": -1.0,
+        "nvidia": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "technology": -0.765,
+        "private-markets": -1.0,
+        "industrials": -0.429,
+        "dealmaking": -1.0,
+        "rates-fed": -1.0,
+        "market-concentration": 0.0,
+        "ai-boom": -1.0,
+        "budgeting-saving": -1.0,
+        "regulation-antitrust": -1.0,
+        "tesla": -1.0,
+        "nvidia": -0.333,
+        "alphabet": -0.6,
+        "oracle": -1.0,
+        "boeing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Energy & Oil, IPOs & Dealmaking, Interest Rates & Fed Policy, Volatility & Vol Regime, Valuation. Mentions Tesla, Alphabet / Google, Nvidia, Meta, Microsoft. Tone leans bullish (+0.23).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-15-riskreversal-pod-some-vcs-are-behaving-badly-ann-bordetsky-isn-t-one-of-them-d4e1b0.md",
+    "transcript_word_count": 10832,
+    "transcript_language": "en"
   },
   {
     "guid": "dd303b1b-9677-4921-b740-ad6315394801",
@@ -277753,20 +277939,56 @@
     "duration": "1234",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/6a7d0d00-3c19-4289-b644-b43a01055aa1/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy",
+        "autos-ev",
+        "industrials"
+      ],
+      "themes": [
+        "geopolitics-tariffs",
+        "inflation",
+        "ai-boom"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sentiment": 1.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "energy": 5,
+        "industrials": 1,
+        "autos-ev": 5,
+        "inflation": 3,
+        "ai-boom": 1,
+        "geopolitics-tariffs": 10
+      },
+      "entity_mention_density": {
+        "energy": 1.2,
+        "industrials": 0.2,
+        "autos-ev": 1.2,
+        "inflation": 0.7,
+        "ai-boom": 0.2,
+        "geopolitics-tariffs": 2.4
+      },
+      "entity_sentiment": {
+        "energy": 1.0,
+        "geopolitics-tariffs": 1.0
+      },
+      "entity_conviction": {
+        "industrials": -1.0,
+        "autos-ev": -1.0,
+        "inflation": -1.0,
+        "geopolitics-tariffs": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Autos & EVs, Industrials, Geopolitics & Tariffs, Inflation, AI & Machine Learning. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-28-bloomberg-surveillance-bloomberg-surveillance-tv-april-28th-2026-055aa1.md",
+    "transcript_word_count": 4185,
+    "transcript_language": "en"
   },
   {
     "guid": "008de53d-36d6-4b3b-8c5e-b43a00ea3836",
