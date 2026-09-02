@@ -48816,28 +48816,43 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "earnings"
+        "earnings",
+        "dealmaking",
+        "dividends-buybacks"
       ],
       "stocks": [
         "amazon"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "earnings": 1,
-        "amazon": 1
+        "dealmaking": 2,
+        "earnings": 3,
+        "dividends-buybacks": 1,
+        "amazon": 8
       },
       "entity_mention_density": {
-        "earnings": 3.1,
-        "amazon": 3.1
+        "dealmaking": 0.5,
+        "earnings": 0.7,
+        "dividends-buybacks": 0.2,
+        "amazon": 1.8
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "earnings": 1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Corporate Earnings, IPOs & Dealmaking, Dividends & Buybacks. Mentions Amazon. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-motley-fool-hidden-gems-the-wild-swings-of-earnings-season-continue-9620a4.md",
+    "transcript_word_count": 4011,
+    "transcript_language": "en"
   },
   {
     "guid": "74ba450a-8cf2-11f1-be6e-f727e893bec1",
@@ -63029,32 +63044,125 @@
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/9da7f292-0b3a-4798-9ee6-9ffe5d1b26f7/stream.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "banks",
+        "energy",
+        "consumer-staples",
+        "real-estate"
       ],
       "themes": [
-        "diversification"
+        "dividends-buybacks",
+        "inflation",
+        "rates-fed",
+        "bond-market",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "market-concentration",
+        "diversification",
+        "japan",
+        "volatility",
+        "earnings"
       ],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "jpmorgan",
+        "bitcoin"
+      ],
+      "sentiment": 0.055,
+      "sentiment_hits": 25,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "diversification": 1
+        "technology": 1,
+        "ai-infrastructure": 6,
+        "banks": 1,
+        "energy": 1,
+        "consumer-staples": 1,
+        "real-estate": 1,
+        "inflation": 3,
+        "rates-fed": 3,
+        "ai-boom": 2,
+        "japan": 1,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 2,
+        "volatility": 1,
+        "earnings": 1,
+        "bond-market": 3,
+        "dividends-buybacks": 11,
+        "market-concentration": 2,
+        "diversification": 2,
+        "nvidia": 7,
+        "microsoft": 2,
+        "alphabet": 1,
+        "amazon": 1,
+        "jpmorgan": 1,
+        "bitcoin": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 5.8,
-        "diversification": 5.8
+        "technology": 0.1,
+        "ai-infrastructure": 0.9,
+        "banks": 0.1,
+        "energy": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.4,
+        "rates-fed": 0.4,
+        "ai-boom": 0.3,
+        "japan": 0.1,
+        "geopolitics-tariffs": 0.3,
+        "elections-politics": 0.3,
+        "volatility": 0.1,
+        "earnings": 0.1,
+        "bond-market": 0.4,
+        "dividends-buybacks": 1.6,
+        "market-concentration": 0.3,
+        "diversification": 0.3,
+        "nvidia": 1.0,
+        "microsoft": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "jpmorgan": 0.1,
+        "bitcoin": 0.1
       },
       "entity_sentiment": {
-        "ai-infrastructure": 1.0,
-        "diversification": 1.0
+        "ai-infrastructure": 0.548,
+        "banks": -1.0,
+        "diversification": 1.0,
+        "rates-fed": -0.765,
+        "dividends-buybacks": 1.0,
+        "ai-boom": 0.714,
+        "japan": -0.765,
+        "bond-market": -0.818,
+        "elections-politics": -0.765,
+        "volatility": -1.0,
+        "amazon": 1.0,
+        "microsoft": -1.0,
+        "nvidia": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "consumer-staples": -1.0,
+        "rates-fed": 0.0,
+        "ai-boom": -1.0,
+        "japan": 0.143,
+        "bond-market": 0.143,
+        "elections-politics": 0.0,
+        "inflation": -1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Banks & Financials, Dividends & Buybacks, Inflation, Interest Rates & Fed Policy, Bond Market & Yields. Mentions Nvidia, Microsoft, Alphabet / Google, Amazon, JPMorgan. Tone reads roughly neutral (+0.06).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-31-investtalk-ai-s-spending-problem-when-does-the-massive-cash-burn-start-890c11.md",
+    "transcript_word_count": 6796,
+    "transcript_language": "en"
   },
   {
     "guid": "48a22832-dd96-4497-94fc-eecdc2d7b947",
@@ -67282,20 +67390,101 @@
     "duration": "2253",
     "audio_url": "https://mcdn.podbean.com/mf/web/bbbi6w7dxx8t8u3i/BestStocksNow-260729.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "technology"
+      ],
+      "themes": [
+        "market-concentration",
+        "small-caps-value-growth",
+        "earnings"
+      ],
+      "stocks": [
+        "microsoft",
+        "tesla",
+        "alphabet",
+        "nasdaq",
+        "charles-schwab",
+        "nvidia",
+        "amazon",
+        "meta",
+        "amd",
+        "verizon",
+        "fidelity"
+      ],
+      "sentiment": -0.053,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 2,
+        "earnings": 1,
+        "market-concentration": 4,
+        "small-caps-value-growth": 2,
+        "nvidia": 1,
+        "microsoft": 10,
+        "alphabet": 3,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 4,
+        "amd": 1,
+        "verizon": 1,
+        "nasdaq": 3,
+        "fidelity": 1,
+        "charles-schwab": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.4,
+        "earnings": 0.2,
+        "market-concentration": 0.7,
+        "small-caps-value-growth": 0.4,
+        "nvidia": 0.2,
+        "microsoft": 1.8,
+        "alphabet": 0.6,
+        "amazon": 0.2,
+        "meta": 0.2,
+        "tesla": 0.7,
+        "amd": 0.2,
+        "verizon": 0.2,
+        "nasdaq": 0.6,
+        "fidelity": 0.2,
+        "charles-schwab": 0.4
+      },
+      "entity_sentiment": {
+        "semiconductors": -1.0,
+        "earnings": -1.0,
+        "market-concentration": 1.0,
+        "tesla": 1.0,
+        "microsoft": 1.0,
+        "alphabet": 1.0,
+        "fidelity": 0.333,
+        "meta": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -0.412,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "earnings": -0.167,
+        "market-concentration": -1.0,
+        "nasdaq": -1.0,
+        "fidelity": -1.0,
+        "meta": -1.0,
+        "verizon": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Technology, Market Concentration / Mega-cap, Small-Caps, Value & Growth, Corporate Earnings. Mentions Microsoft, Tesla, Alphabet / Google, Nasdaq, Charles Schwab. Tone reads roughly neutral (-0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-best-stocks-now-wednesday-july-29-2026-11678d.md",
+    "transcript_word_count": 5422,
+    "transcript_language": "en"
   },
   {
     "guid": "3ddd19b8-8b4e-11f1-8e07-87ebf99e5a54",
@@ -187475,30 +187664,77 @@
     "duration": "3266",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/7a20d26c-7ea8-4d90-94e0-b440014efb1e/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks",
+        "defense-aerospace"
+      ],
       "themes": [
-        "fire-movement"
+        "retirement-planning",
+        "inflation",
+        "passive-investing",
+        "budgeting-saving",
+        "fire-movement",
+        "diversification"
       ],
       "stocks": [
-        "meta"
+        "fidelity",
+        "meta",
+        "robinhood",
+        "microsoft",
+        "vanguard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.667,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "banks": 1,
+        "defense-aerospace": 1,
+        "inflation": 8,
+        "passive-investing": 1,
+        "budgeting-saving": 1,
         "fire-movement": 1,
-        "meta": 1
+        "retirement-planning": 11,
+        "diversification": 1,
+        "microsoft": 1,
+        "meta": 2,
+        "vanguard": 1,
+        "fidelity": 5,
+        "robinhood": 2
       },
       "entity_mention_density": {
-        "fire-movement": 2.4,
-        "meta": 2.4
+        "banks": 0.1,
+        "defense-aerospace": 0.1,
+        "inflation": 0.7,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 1.0,
+        "diversification": 0.1,
+        "microsoft": 0.1,
+        "meta": 0.2,
+        "vanguard": 0.1,
+        "fidelity": 0.4,
+        "robinhood": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "retirement-planning": 1.0,
+        "fidelity": 1.0
+      },
+      "entity_conviction": {
+        "retirement-planning": -1.0,
+        "inflation": -1.0,
+        "fidelity": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Defense & Aerospace, Retirement Planning, Inflation, Passive Investing, Budgeting & Saving. Mentions Fidelity, Meta, Robinhood, Microsoft, Vanguard. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-01-how-to-money-ask-htm-liquid-cash-how-much-is-too-much-ai-ww3-portfolios-s-4efb1e.md",
+    "transcript_word_count": 10945,
+    "transcript_language": "en"
   },
   {
     "guid": "7fdba060-bd14-4c7a-bc12-b79c75068958",
