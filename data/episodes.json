@@ -16777,30 +16777,72 @@
     "duration": "6241",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML9176724165.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "autos-ev"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "rates-fed",
+        "debt-payoff",
+        "real-estate-investing"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "walmart",
+        "alphabet",
+        "amazon",
+        "tesla"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.038,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "meta": 2
+        "real-estate": 4,
+        "autos-ev": 2,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "budgeting-saving": 10,
+        "debt-payoff": 1,
+        "real-estate-investing": 1,
+        "alphabet": 2,
+        "amazon": 2,
+        "meta": 4,
+        "tesla": 2,
+        "walmart": 3
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.7,
-        "meta": 3.5
+        "real-estate": 0.2,
+        "autos-ev": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.1,
+        "real-estate-investing": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "meta": 0.2,
+        "tesla": 0.1,
+        "walmart": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "debt-payoff": 1.0
+      },
+      "entity_conviction": {
+        "budgeting-saving": -0.333,
+        "walmart": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Autos & EVs, Budgeting & Saving, Interest Rates & Fed Policy, Debt Payoff, Real Estate Investing. Mentions Meta, Walmart, Alphabet / Google, Amazon, Tesla. Tone reads roughly neutral (+0.04).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-24-financial-audit-the-craziest-reveal-in-financial-audit-history-28e64f.md",
+    "transcript_word_count": 17891,
+    "transcript_language": "en"
   },
   {
     "guid": "0a6d97fe-9fc8-11f1-94e1-47c0c9a65519",
@@ -132826,36 +132868,115 @@
     "duration": "3365",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/9e4c5ae6-1639-4866-acf7-b44f014d67dd/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "energy",
+        "media-entertainment"
+      ],
       "themes": [
         "estate-planning",
+        "insurance-products",
+        "budgeting-saving",
+        "passive-investing",
+        "diversification",
+        "ai-boom",
+        "retirement-planning",
+        "rates-fed",
+        "volatility",
+        "debt-payoff",
         "fire-movement",
-        "insurance-products"
+        "dividends-buybacks",
+        "tax-planning"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "costco",
+        "robinhood",
+        "netflix",
+        "salesforce"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.443,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "insurance": 9,
+        "energy": 1,
+        "media-entertainment": 1,
+        "rates-fed": 1,
+        "ai-boom": 3,
+        "volatility": 1,
+        "passive-investing": 4,
+        "budgeting-saving": 5,
+        "debt-payoff": 1,
         "fire-movement": 1,
-        "estate-planning": 2,
-        "insurance-products": 1,
-        "meta": 1
+        "retirement-planning": 2,
+        "dividends-buybacks": 1,
+        "diversification": 4,
+        "tax-planning": 1,
+        "estate-planning": 10,
+        "insurance-products": 8,
+        "meta": 3,
+        "costco": 2,
+        "robinhood": 2,
+        "netflix": 1,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.7,
-        "estate-planning": 5.3,
-        "insurance-products": 2.7,
-        "meta": 2.7
+        "insurance": 0.7,
+        "energy": 0.1,
+        "media-entertainment": 0.1,
+        "rates-fed": 0.1,
+        "ai-boom": 0.2,
+        "volatility": 0.1,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.4,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "dividends-buybacks": 0.1,
+        "diversification": 0.3,
+        "tax-planning": 0.1,
+        "estate-planning": 0.8,
+        "insurance-products": 0.7,
+        "meta": 0.2,
+        "costco": 0.2,
+        "robinhood": 0.2,
+        "netflix": 0.1,
+        "salesforce": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "estate-planning": 0.429,
+        "diversification": 1.0,
+        "passive-investing": -0.429,
+        "retirement-planning": 1.0,
+        "tax-planning": 1.0,
+        "robinhood": 1.0,
+        "salesforce": 1.0
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "estate-planning": -1.0,
+        "insurance-products": -1.0,
+        "diversification": -1.0,
+        "budgeting-saving": -1.0,
+        "passive-investing": -1.0,
+        "retirement-planning": -1.0,
+        "tax-planning": -1.0,
+        "rates-fed": -1.0,
+        "debt-payoff": -1.0,
+        "robinhood": -1.0,
+        "salesforce": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Energy & Oil, Media & Entertainment, Estate Planning, Insurance Products, Budgeting & Saving, Passive Investing. Mentions Meta, Costco, Robinhood, Netflix, Salesforce. Tone leans bullish (+0.44).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-29-how-to-money-ask-htm-losing-weight-to-gain-wealth-free-car-leases-hacking-4d67dd.md",
+    "transcript_word_count": 11720,
+    "transcript_language": "en"
   },
   {
     "guid": "96cd2599-d1e9-4c06-af10-cc02b0acbaf9",
@@ -209575,32 +209696,84 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC5134165515.mp3?updated=1779282416",
     "tags": {
       "sectors": [
-        "consumer-discretionary"
+        "insurance",
+        "consumer-discretionary",
+        "crypto",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "emerging-markets",
+        "inflation",
+        "recession",
+        "small-caps-value-growth"
+      ],
       "stocks": [
         "amazon",
-        "meta"
+        "meta",
+        "bitcoin",
+        "mastercard"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.218,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "consumer-discretionary": 1,
-        "amazon": 1,
-        "meta": 1
+        "insurance": 3,
+        "consumer-discretionary": 3,
+        "industrials": 1,
+        "crypto": 2,
+        "inflation": 1,
+        "recession": 1,
+        "dealmaking": 5,
+        "emerging-markets": 4,
+        "small-caps-value-growth": 1,
+        "amazon": 31,
+        "meta": 2,
+        "bitcoin": 2,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "consumer-discretionary": 2.4,
-        "amazon": 2.4,
-        "meta": 2.4
+        "insurance": 0.2,
+        "consumer-discretionary": 0.2,
+        "industrials": 0.1,
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "recession": 0.1,
+        "dealmaking": 0.3,
+        "emerging-markets": 0.2,
+        "small-caps-value-growth": 0.1,
+        "amazon": 1.6,
+        "meta": 0.1,
+        "bitcoin": 0.1,
+        "mastercard": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "insurance": -1.0,
+        "recession": -0.333,
+        "amazon": -0.429
+      },
+      "entity_conviction": {
+        "consumer-discretionary": 1.0,
+        "insurance": -1.0,
+        "industrials": -1.0,
+        "small-caps-value-growth": -1.0,
+        "dealmaking": -1.0,
+        "emerging-markets": 1.0,
+        "amazon": -0.632,
+        "mastercard": -1.0
+      },
+      "entity_stance": {
+        "amazon": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Consumer Discretionary, Crypto & Digital Assets, IPOs & Dealmaking, Emerging Markets, Inflation, Recession Risk. Mentions Amazon, Meta, Bitcoin, Mastercard. Tone leans bullish (+0.22).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-the-investor-s-podcast-we-study-billionaires-tip816-sea-limited-se-can-sea-limited-10x-again-w-daniel-mah-115a26.md",
+    "transcript_word_count": 19234,
+    "transcript_language": "en"
   },
   {
     "guid": "67d22712-9e17-47d6-8a45-dc6ac49fc729",
@@ -223644,39 +223817,105 @@
     "duration": "00:10:52",
     "audio_url": "https://traffic.megaphone.fm/APO8077740757.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "semiconductors",
+        "ai-infrastructure",
+        "technology",
+        "consumer-discretionary",
+        "energy",
+        "industrials"
+      ],
       "themes": [
-        "inflation"
+        "inflation",
+        "geopolitics-tariffs",
+        "rates-fed",
+        "commodities"
       ],
       "stocks": [
         "amazon",
         "nvidia",
         "apple",
-        "tesla"
+        "tesla",
+        "qualcomm",
+        "goldman-sachs",
+        "boeing",
+        "walmart",
+        "nasdaq",
+        "blackrock"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "inflation": 1,
-        "nvidia": 1,
-        "apple": 1,
-        "amazon": 2,
-        "tesla": 1
+        "technology": 3,
+        "semiconductors": 11,
+        "ai-infrastructure": 5,
+        "energy": 1,
+        "consumer-discretionary": 2,
+        "industrials": 1,
+        "inflation": 11,
+        "rates-fed": 2,
+        "geopolitics-tariffs": 3,
+        "commodities": 1,
+        "nvidia": 4,
+        "apple": 2,
+        "amazon": 9,
+        "tesla": 2,
+        "goldman-sachs": 1,
+        "boeing": 1,
+        "walmart": 1,
+        "nasdaq": 1,
+        "blackrock": 1,
+        "qualcomm": 2
       },
       "entity_mention_density": {
-        "inflation": 8.8,
-        "nvidia": 8.8,
-        "apple": 8.8,
-        "amazon": 17.7,
-        "tesla": 8.8
+        "technology": 1.3,
+        "semiconductors": 4.8,
+        "ai-infrastructure": 2.2,
+        "energy": 0.4,
+        "consumer-discretionary": 0.9,
+        "industrials": 0.4,
+        "inflation": 4.8,
+        "rates-fed": 0.9,
+        "geopolitics-tariffs": 1.3,
+        "commodities": 0.4,
+        "nvidia": 1.8,
+        "apple": 0.9,
+        "amazon": 4.0,
+        "tesla": 0.9,
+        "goldman-sachs": 0.4,
+        "boeing": 0.4,
+        "walmart": 0.4,
+        "nasdaq": 0.4,
+        "blackrock": 0.4,
+        "qualcomm": 0.9
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 0.333,
+        "inflation": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "industrials": -1.0,
+        "ai-infrastructure": -1.0,
+        "energy": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "commodities": -1.0,
+        "amazon": -1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Technology, Inflation, Geopolitics & Tariffs, Interest Rates & Fed Policy, Commodities. Mentions Amazon, Nvidia, Apple, Tesla, Qualcomm. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-the-rundown-trump-brings-corporate-entourage-to-china-amazon-pivots-ai-s-852fcb.md",
+    "transcript_word_count": 2159,
+    "transcript_language": "en"
   },
   {
     "guid": "804e4e95-b1d4-41e9-9f42-b449010747d6",
