@@ -42176,33 +42176,61 @@
       "sectors": [],
       "themes": [
         "inflation",
-        "currency-dollar"
+        "currency-dollar",
+        "elections-politics",
+        "budgeting-saving",
+        "labor-market",
+        "rates-fed",
+        "recession"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.762,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 4,
-        "currency-dollar": 1,
+        "inflation": 36,
+        "rates-fed": 1,
+        "recession": 1,
+        "labor-market": 2,
+        "elections-politics": 3,
+        "currency-dollar": 8,
+        "budgeting-saving": 3,
         "meta": 1
       },
       "entity_mention_density": {
-        "inflation": 10.9,
-        "currency-dollar": 2.7,
-        "meta": 2.7
+        "inflation": 5.4,
+        "rates-fed": 0.1,
+        "recession": 0.1,
+        "labor-market": 0.3,
+        "elections-politics": 0.4,
+        "currency-dollar": 1.2,
+        "budgeting-saving": 0.4,
+        "meta": 0.1
       },
       "entity_sentiment": {
-        "inflation": 0.0,
-        "currency-dollar": -1.0
+        "inflation": -0.5,
+        "currency-dollar": -1.0,
+        "budgeting-saving": -1.0,
+        "labor-market": -1.0,
+        "recession": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "inflation": -1.0,
+        "currency-dollar": -1.0,
+        "labor-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Inflation, Currency & Dollar, Elections & Politics, Budgeting & Saving. Mentions Meta. Tone leans bearish (-0.76).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-planet-money-currency-chaos-in-argentina-summer-school-848efc.md",
+    "transcript_word_count": 6335,
+    "transcript_language": "en"
   },
   {
     "guid": "6a7bea9cf91cd396b3bf3314",
@@ -72667,33 +72695,78 @@
     "duration": "3434",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/2957aa55-4542-4abc-a98c-b495015a928b/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "healthcare",
+        "crypto"
+      ],
       "themes": [
+        "insurance-products",
+        "estate-planning",
+        "budgeting-saving",
+        "housing",
         "fire-movement",
-        "estate-planning"
+        "retirement-planning"
       ],
       "stocks": [
-        "meta"
+        "netflix",
+        "alphabet",
+        "meta",
+        "bitcoin"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
+        "insurance": 1,
+        "healthcare": 1,
+        "crypto": 1,
+        "housing": 1,
+        "budgeting-saving": 5,
         "fire-movement": 1,
-        "estate-planning": 1,
-        "meta": 1
+        "retirement-planning": 1,
+        "estate-planning": 8,
+        "insurance-products": 11,
+        "alphabet": 1,
+        "meta": 1,
+        "bitcoin": 1,
+        "netflix": 2
       },
       "entity_mention_density": {
-        "fire-movement": 2.4,
-        "estate-planning": 2.4,
-        "meta": 2.4
+        "insurance": 0.1,
+        "healthcare": 0.1,
+        "crypto": 0.1,
+        "housing": 0.1,
+        "budgeting-saving": 0.5,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "estate-planning": 0.8,
+        "insurance-products": 1.1,
+        "alphabet": 0.1,
+        "meta": 0.1,
+        "bitcoin": 0.1,
+        "netflix": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": 0.0,
+        "insurance": -1.0,
+        "estate-planning": -1.0,
+        "insurance-products": -0.375,
+        "retirement-planning": 0.0,
+        "netflix": -0.333,
+        "alphabet": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Healthcare & Pharma, Crypto & Digital Assets, Insurance Products, Estate Planning, Budgeting & Saving, Housing Market. Mentions Netflix, Alphabet / Google, Meta, Bitcoin. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-how-to-money-preparing-for-the-unthinkable-w-chanel-reynolds-1172-bestie-5a928b.md",
+    "transcript_word_count": 9591,
+    "transcript_language": "en"
   },
   {
     "guid": "9fce5ef4-0dd3-4e42-be75-f9a8b9477b97",
@@ -173585,33 +173658,55 @@
     "tags": {
       "sectors": [
         "autos-ev",
-        "semiconductors"
+        "semiconductors",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking"
+      ],
       "stocks": [
-        "tesla"
+        "tesla",
+        "amazon"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.5,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "semiconductors": 1,
-        "autos-ev": 5,
-        "tesla": 2
+        "semiconductors": 4,
+        "industrials": 2,
+        "autos-ev": 34,
+        "dealmaking": 1,
+        "amazon": 1,
+        "tesla": 10
       },
       "entity_mention_density": {
-        "semiconductors": 3.2,
-        "autos-ev": 16.2,
-        "tesla": 6.5
+        "semiconductors": 1.0,
+        "industrials": 0.5,
+        "autos-ev": 8.5,
+        "dealmaking": 0.2,
+        "amazon": 0.2,
+        "tesla": 2.5
       },
       "entity_sentiment": {
-        "autos-ev": 1.0
+        "autos-ev": 1.0,
+        "semiconductors": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "autos-ev": -0.778,
+        "semiconductors": -1.0,
+        "tesla": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Autos & EVs, Semiconductors, Industrials, IPOs & Dealmaking. Mentions Tesla, Amazon. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-motley-fool-hidden-gems-will-ev-stocks-make-a-comeback-in-2026-acd1dd.md",
+    "transcript_word_count": 3699,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/ew4_bYmD4E8Q1JCSjTEfvdbrN26sYlKEeaFiaXC4pFQ",
