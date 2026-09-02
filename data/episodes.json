@@ -41276,33 +41276,70 @@
     "duration": "3384",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/99920e96-9d2e-4e99-b9b3-b48801319fab/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks"
+      ],
       "themes": [
         "budgeting-saving",
-        "fire-movement"
+        "inflation",
+        "fire-movement",
+        "college-savings"
       ],
       "stocks": [
-        "meta"
+        "disney",
+        "amazon",
+        "meta",
+        "berkshire",
+        "fidelity"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "budgeting-saving": 1,
+        "banks": 4,
+        "inflation": 2,
+        "budgeting-saving": 15,
         "fire-movement": 1,
-        "meta": 1
+        "college-savings": 1,
+        "amazon": 1,
+        "meta": 1,
+        "berkshire": 1,
+        "fidelity": 1,
+        "disney": 5
       },
       "entity_mention_density": {
-        "budgeting-saving": 2.4,
-        "fire-movement": 2.4,
-        "meta": 2.4
+        "banks": 0.3,
+        "inflation": 0.2,
+        "budgeting-saving": 1.3,
+        "fire-movement": 0.1,
+        "college-savings": 0.1,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "fidelity": 0.1,
+        "disney": 0.4
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "inflation": -1.0,
+        "fidelity": -1.0,
+        "amazon": -1.0,
+        "disney": 0.429
+      },
+      "entity_stance": {
+        "budgeting-saving": "buy",
+        "inflation": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Budgeting & Saving, Inflation, Financial Independence / FIRE, College Savings & Student Debt. Mentions Disney, Amazon, Meta, Berkshire Hathaway, Fidelity. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-how-to-money-never-worry-about-money-again-w-jesse-mecham-1178-319fab.md",
+    "transcript_word_count": 11378,
+    "transcript_language": "en"
   },
   {
     "guid": "4a40996e-f79a-43e4-92c8-fa3765667be0",
@@ -54487,26 +54524,113 @@
     "duration": "3901",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL5410946502.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "vanguard"
+      "sectors": [
+        "real-estate",
+        "industrials",
+        "materials-mining",
+        "autos-ev"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "retirement-planning",
+        "passive-investing",
+        "tax-planning",
+        "volatility",
+        "budgeting-saving",
+        "fire-movement",
+        "diversification",
+        "inflation",
+        "rates-fed",
+        "debt-payoff",
+        "dividends-buybacks",
+        "estate-planning",
+        "college-savings"
+      ],
+      "stocks": [
+        "tesla",
+        "vanguard",
+        "amazon",
+        "fidelity",
+        "berkshire",
+        "boeing",
+        "charles-schwab"
+      ],
+      "sentiment": 0.833,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "vanguard": 1
+        "real-estate": 2,
+        "industrials": 1,
+        "materials-mining": 1,
+        "autos-ev": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "volatility": 3,
+        "passive-investing": 4,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
+        "fire-movement": 2,
+        "retirement-planning": 8,
+        "dividends-buybacks": 1,
+        "diversification": 2,
+        "tax-planning": 4,
+        "estate-planning": 1,
+        "college-savings": 1,
+        "amazon": 2,
+        "tesla": 10,
+        "berkshire": 1,
+        "boeing": 1,
+        "vanguard": 3,
+        "fidelity": 2,
+        "charles-schwab": 1
       },
       "entity_mention_density": {
-        "vanguard": 4.7
+        "real-estate": 0.2,
+        "industrials": 0.1,
+        "materials-mining": 0.1,
+        "autos-ev": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "volatility": 0.2,
+        "passive-investing": 0.3,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.2,
+        "retirement-planning": 0.6,
+        "dividends-buybacks": 0.1,
+        "diversification": 0.2,
+        "tax-planning": 0.3,
+        "estate-planning": 0.1,
+        "college-savings": 0.1,
+        "amazon": 0.2,
+        "tesla": 0.8,
+        "berkshire": 0.1,
+        "boeing": 0.1,
+        "vanguard": 0.2,
+        "fidelity": 0.2,
+        "charles-schwab": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "tesla": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "materials-mining": -1.0,
+        "autos-ev": -1.0,
+        "tax-planning": 1.0,
+        "fire-movement": -1.0,
+        "tesla": -0.333,
+        "boeing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Materials & Mining, Retirement Planning, Passive Investing, Tax Planning, Volatility & Vol Regime. Mentions Tesla, Vanguard, Amazon, Fidelity, Berkshire Hathaway. Tone leans bullish (+0.83).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-05-money-guy-show-the-401-k-numbers-are-lying-to-you-7e0b6f.md",
+    "transcript_word_count": 12957,
+    "transcript_language": "en"
   },
   {
     "guid": "f2a0ad50-a84c-11f0-a576-e3338bc31a68",
@@ -89099,26 +89223,168 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/68f88d09-6fd2-4a50-89c8-d0c8c8ccb3e7/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=68f88d09-6fd2-4a50-89c8-d0c8c8ccb3e7&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "market-concentration"
+      "sectors": [
+        "media-entertainment",
+        "semiconductors",
+        "ai-infrastructure",
+        "energy",
+        "autos-ev",
+        "banks",
+        "technology",
+        "healthcare",
+        "consumer-discretionary"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "market-concentration",
+        "earnings",
+        "dealmaking",
+        "budgeting-saving",
+        "valuation",
+        "rates-fed",
+        "ai-boom",
+        "elections-politics",
+        "dividends-buybacks",
+        "diversification"
+      ],
+      "stocks": [
+        "alphabet",
+        "amazon",
+        "nvidia",
+        "morgan-stanley",
+        "charles-schwab",
+        "netflix",
+        "microsoft",
+        "jpmorgan",
+        "goldman-sachs",
+        "boeing",
+        "nasdaq",
+        "disney",
+        "broadcom"
+      ],
+      "sentiment": -0.116,
+      "sentiment_hits": 27,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "market-concentration": 2
+        "technology": 1,
+        "semiconductors": 7,
+        "ai-infrastructure": 5,
+        "banks": 2,
+        "energy": 5,
+        "healthcare": 1,
+        "consumer-discretionary": 1,
+        "media-entertainment": 8,
+        "autos-ev": 4,
+        "rates-fed": 1,
+        "ai-boom": 1,
+        "elections-politics": 1,
+        "dealmaking": 3,
+        "earnings": 4,
+        "budgeting-saving": 2,
+        "dividends-buybacks": 1,
+        "valuation": 2,
+        "market-concentration": 7,
+        "diversification": 1,
+        "nvidia": 3,
+        "microsoft": 1,
+        "alphabet": 10,
+        "amazon": 4,
+        "jpmorgan": 1,
+        "goldman-sachs": 1,
+        "morgan-stanley": 2,
+        "boeing": 1,
+        "nasdaq": 1,
+        "charles-schwab": 2,
+        "netflix": 2,
+        "disney": 1,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "market-concentration": 37.0
+        "technology": 0.1,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.6,
+        "banks": 0.2,
+        "energy": 0.6,
+        "healthcare": 0.1,
+        "consumer-discretionary": 0.1,
+        "media-entertainment": 1.0,
+        "autos-ev": 0.5,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "elections-politics": 0.1,
+        "dealmaking": 0.4,
+        "earnings": 0.5,
+        "budgeting-saving": 0.2,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.2,
+        "market-concentration": 0.9,
+        "diversification": 0.1,
+        "nvidia": 0.4,
+        "microsoft": 0.1,
+        "alphabet": 1.2,
+        "amazon": 0.5,
+        "jpmorgan": 0.1,
+        "goldman-sachs": 0.1,
+        "morgan-stanley": 0.2,
+        "boeing": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.2,
+        "netflix": 0.2,
+        "disney": 0.1,
+        "broadcom": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": -1.0,
+        "banks": 1.0,
+        "consumer-discretionary": 1.0,
+        "market-concentration": -1.0,
+        "earnings": 1.0,
+        "valuation": -1.0,
+        "dealmaking": 1.0,
+        "budgeting-saving": -1.0,
+        "elections-politics": -1.0,
+        "alphabet": -0.2,
+        "amazon": -0.2,
+        "nvidia": -1.0,
+        "microsoft": -1.0,
+        "charles-schwab": 1.0,
+        "morgan-stanley": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "banks": -1.0,
+        "healthcare": 0.0,
+        "autos-ev": -1.0,
+        "energy": -1.0,
+        "media-entertainment": -1.0,
+        "market-concentration": -1.0,
+        "ai-boom": -1.0,
+        "rates-fed": -1.0,
+        "earnings": -1.0,
+        "dealmaking": -1.0,
+        "budgeting-saving": -1.0,
+        "elections-politics": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "nvidia": -1.0,
+        "boeing": 1.0,
+        "charles-schwab": -1.0,
+        "morgan-stanley": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "alphabet",
+        "amazon"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, Semiconductors, AI Infrastructure, Market Concentration / Mega-cap, Corporate Earnings, IPOs & Dealmaking, Budgeting & Saving. Mentions Alphabet / Google, Amazon, Nvidia, Morgan Stanley, Charles Schwab. Tone reads roughly neutral (-0.12).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-20-halftime-report-mega-cap-earnings-in-focus-your-next-move-7-20-26-82e90c.md",
+    "transcript_word_count": 7991,
+    "transcript_language": "en"
   },
   {
     "guid": "3e593aa5-2de0-4896-b014-b01204a84267",
@@ -166582,24 +166848,43 @@
     "tags": {
       "sectors": [],
       "themes": [
+        "passive-investing",
+        "inflation",
         "budgeting-saving"
       ],
-      "stocks": [],
+      "stocks": [
+        "fidelity"
+      ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "inflation": 1,
+        "passive-investing": 4,
+        "budgeting-saving": 1,
+        "fidelity": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "inflation": 0.5,
+        "passive-investing": 2.2,
+        "budgeting-saving": 0.5,
+        "fidelity": 1.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "passive-investing": -0.333,
+        "fidelity": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Passive Investing, Inflation, Budgeting & Saving. Mentions Fidelity. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-ramsey-everyday-millionaires-my-advisor-wants-all-my-money-in-the-market-is-that-too-risk-3c4464.md",
+    "transcript_word_count": 1672,
+    "transcript_language": "en"
   },
   {
     "guid": "394e6f6a-7dd9-11f0-b2e7-0354d580842a",
