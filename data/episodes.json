@@ -3615,33 +3615,75 @@
     "duration": "3185",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/c4a2bdd3-332d-46fe-b627-b4b101292e15/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks"
+      ],
       "themes": [
+        "dividends-buybacks",
+        "budgeting-saving",
+        "debt-payoff",
         "fire-movement",
-        "dividends-buybacks"
+        "retirement-planning",
+        "career-income"
       ],
       "stocks": [
-        "meta"
+        "costco",
+        "alphabet",
+        "meta",
+        "vanguard",
+        "robinhood"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.615,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "banks": 2,
+        "budgeting-saving": 3,
+        "debt-payoff": 1,
         "fire-movement": 1,
-        "dividends-buybacks": 1,
-        "meta": 1
+        "retirement-planning": 1,
+        "career-income": 1,
+        "dividends-buybacks": 7,
+        "alphabet": 2,
+        "meta": 2,
+        "costco": 5,
+        "vanguard": 1,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.5,
-        "dividends-buybacks": 2.5,
-        "meta": 2.5
+        "banks": 0.2,
+        "budgeting-saving": 0.3,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.1,
+        "career-income": 0.1,
+        "dividends-buybacks": 0.6,
+        "alphabet": 0.2,
+        "meta": 0.2,
+        "costco": 0.5,
+        "vanguard": 0.1,
+        "robinhood": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "dividends-buybacks": 1.0,
+        "debt-payoff": 1.0
+      },
+      "entity_conviction": {
+        "dividends-buybacks": -1.0,
+        "budgeting-saving": -1.0,
+        "alphabet": -1.0,
+        "costco": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Dividends & Buybacks, Budgeting & Saving, Debt Payoff, Financial Independence / FIRE. Mentions Costco, Alphabet / Google, Meta, Vanguard, Robinhood. Tone leans bullish (+0.61).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-31-how-to-money-ask-htm-3-mortgage-paydowns-brokerage-account-tax-bills-am-i-292e15.md",
+    "transcript_word_count": 10394,
+    "transcript_language": "en"
   },
   {
     "guid": "0dfb2276-028b-4d2d-b79e-c0a8963fdc74",
@@ -4460,24 +4502,53 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "retirement-planning"
+        "fire-movement",
+        "behavioral-finance",
+        "dealmaking",
+        "retirement-planning",
+        "tax-planning",
+        "estate-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.303,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "retirement-planning": 1
+        "dealmaking": 1,
+        "fire-movement": 3,
+        "retirement-planning": 1,
+        "behavioral-finance": 2,
+        "tax-planning": 1,
+        "estate-planning": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 5.6
+        "dealmaking": 0.3,
+        "fire-movement": 0.8,
+        "retirement-planning": 0.3,
+        "behavioral-finance": 0.5,
+        "tax-planning": 0.3,
+        "estate-planning": 0.3
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "behavioral-finance": -1.0
+      },
+      "entity_conviction": {
+        "behavioral-finance": -1.0,
+        "estate-planning": -1.0,
+        "tax-planning": -1.0,
+        "fire-movement": -1.0,
+        "dealmaking": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Financial Independence / FIRE, Behavioral Finance & Psychology, IPOs & Dealmaking, Retirement Planning. Tone leans bearish (-0.30).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-30-bloomberg-surveillance-how-financial-advisors-can-grow-during-the-great-wealth-tran-41edd5.md",
+    "transcript_word_count": 3626,
+    "transcript_language": "en"
   },
   {
     "guid": "bogleheads.podbean.com/b156cee1-dc52-3539-88b2-17b7ce2bab7d",
@@ -167176,20 +167247,124 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/26cfbc15-4cb7-4e5b-9a6a-61dcddaf4cb1/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=26cfbc15-4cb7-4e5b-9a6a-61dcddaf4cb1&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "technology",
+        "real-estate",
+        "semiconductors",
+        "banks",
+        "crypto",
+        "private-markets"
+      ],
+      "themes": [
+        "market-concentration",
+        "labor-market",
+        "dividends-buybacks",
+        "inflation",
+        "rates-fed",
+        "regulation-antitrust",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "alphabet",
+        "bitcoin",
+        "nvidia",
+        "amazon",
+        "netflix",
+        "broadcom",
+        "microsoft",
+        "meta",
+        "nasdaq",
+        "charles-schwab",
+        "salesforce"
+      ],
+      "sentiment": 0.022,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 6,
+        "semiconductors": 2,
+        "ai-infrastructure": 13,
+        "banks": 1,
+        "real-estate": 4,
+        "crypto": 1,
+        "private-markets": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "labor-market": 2,
+        "regulation-antitrust": 1,
+        "dividends-buybacks": 2,
+        "market-concentration": 3,
+        "small-caps-value-growth": 1,
+        "nvidia": 3,
+        "microsoft": 1,
+        "alphabet": 6,
+        "amazon": 3,
+        "meta": 1,
+        "bitcoin": 5,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "netflix": 3,
+        "salesforce": 1,
+        "broadcom": 3
+      },
+      "entity_mention_density": {
+        "technology": 0.7,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.5,
+        "banks": 0.1,
+        "real-estate": 0.5,
+        "crypto": 0.1,
+        "private-markets": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "labor-market": 0.2,
+        "regulation-antitrust": 0.1,
+        "dividends-buybacks": 0.2,
+        "market-concentration": 0.3,
+        "small-caps-value-growth": 0.1,
+        "nvidia": 0.3,
+        "microsoft": 0.1,
+        "alphabet": 0.7,
+        "amazon": 0.3,
+        "meta": 0.1,
+        "bitcoin": 0.6,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "netflix": 0.3,
+        "salesforce": 0.1,
+        "broadcom": 0.3
+      },
+      "entity_sentiment": {
+        "technology": 1.0,
+        "ai-infrastructure": 1.0,
+        "market-concentration": 1.0,
+        "inflation": -1.0,
+        "labor-market": -1.0,
+        "nasdaq": 1.0,
+        "netflix": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "real-estate": 0.429,
+        "ai-infrastructure": -0.333,
+        "market-concentration": -1.0,
+        "rates-fed": 1.0,
+        "dividends-buybacks": 1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Real Estate, Market Concentration / Mega-cap, Labor Market, Dividends & Buybacks, Inflation. Mentions Alphabet / Google, Bitcoin, Nvidia, Amazon, Netflix. Tone reads roughly neutral (+0.02).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-mad-money-w-jim-cramer-mad-money-w-jim-cramer-6-9-26-4e504f.md",
+    "transcript_word_count": 8783,
+    "transcript_language": "en"
   },
   {
     "guid": "d9c070e7-64c2-4310-88ab-db704f87801b",
@@ -214989,44 +215164,108 @@
     "duration": "37:28",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a05588a5fab7d5d6d9d5e2e/media.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "nasdaq",
-        "nvidia",
-        "microsoft",
-        "alphabet",
-        "tsmc",
-        "meta",
-        "intel"
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "real-estate",
+        "telecoms",
+        "airlines-travel",
+        "private-markets"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "geopolitics-tariffs",
+        "dealmaking",
+        "china",
+        "market-concentration",
+        "behavioral-finance"
+      ],
+      "stocks": [
+        "tsmc",
+        "nasdaq",
+        "alphabet",
+        "microsoft",
+        "nvidia",
+        "meta",
+        "tesla",
+        "intel",
+        "goldman-sachs"
+      ],
+      "sentiment": 0.259,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "semiconductors": 8,
+        "ai-infrastructure": 10,
+        "real-estate": 1,
+        "telecoms": 1,
+        "airlines-travel": 1,
+        "private-markets": 1,
+        "china": 1,
+        "geopolitics-tariffs": 4,
+        "dealmaking": 3,
+        "market-concentration": 1,
+        "behavioral-finance": 1,
         "nvidia": 2,
-        "microsoft": 2,
-        "alphabet": 2,
+        "microsoft": 3,
+        "alphabet": 4,
         "meta": 1,
+        "tesla": 1,
         "intel": 1,
-        "tsmc": 2,
+        "tsmc": 8,
+        "goldman-sachs": 1,
         "nasdaq": 7
       },
       "entity_mention_density": {
-        "nvidia": 4.0,
-        "microsoft": 4.0,
-        "alphabet": 4.0,
-        "meta": 2.0,
-        "intel": 2.0,
-        "tsmc": 4.0,
-        "nasdaq": 13.8
+        "semiconductors": 1.1,
+        "ai-infrastructure": 1.4,
+        "real-estate": 0.1,
+        "telecoms": 0.1,
+        "airlines-travel": 0.1,
+        "private-markets": 0.1,
+        "china": 0.1,
+        "geopolitics-tariffs": 0.6,
+        "dealmaking": 0.4,
+        "market-concentration": 0.1,
+        "behavioral-finance": 0.1,
+        "nvidia": 0.3,
+        "microsoft": 0.4,
+        "alphabet": 0.6,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "intel": 0.1,
+        "tsmc": 1.1,
+        "goldman-sachs": 0.1,
+        "nasdaq": 1.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "geopolitics-tariffs": 1.0,
+        "behavioral-finance": 1.0,
+        "tsmc": 1.0,
+        "goldman-sachs": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.688,
+        "real-estate": -1.0,
+        "private-markets": -1.0,
+        "semiconductors": -1.0,
+        "dealmaking": -1.0,
+        "geopolitics-tariffs": 0.0,
+        "market-concentration": -1.0,
+        "microsoft": -1.0,
+        "tsmc": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Real Estate, Geopolitics & Tariffs, IPOs & Dealmaking, China Economy, Market Concentration / Mega-cap. Mentions TSMC, Nasdaq, Alphabet / Google, Microsoft, Nvidia. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-14-equity-mates-investing-podcast-the-1-8-trillion-space-opportunity-with-hugh-lam-9d5e2e.md",
+    "transcript_word_count": 6633,
+    "transcript_language": "en"
   },
   {
     "guid": "99f64648-4fd0-11f1-9e5e-dbb8b251b138",
