@@ -40679,37 +40679,104 @@
     "audio_url": "https://traffic.megaphone.fm/APO6787493459.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "semiconductors",
+        "energy",
+        "real-estate",
+        "materials-mining",
+        "technology",
+        "crypto"
       ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "inflation",
+        "commodities",
+        "rates-fed",
+        "credit-markets"
       ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "bitcoin",
+        "blackrock",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "goldman-sachs",
+        "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.6,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "dealmaking": 3,
-        "nvidia": 2
+        "technology": 1,
+        "semiconductors": 4,
+        "ai-infrastructure": 7,
+        "energy": 3,
+        "real-estate": 2,
+        "materials-mining": 2,
+        "crypto": 1,
+        "inflation": 4,
+        "rates-fed": 2,
+        "credit-markets": 1,
+        "commodities": 3,
+        "dealmaking": 9,
+        "nvidia": 15,
+        "microsoft": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "goldman-sachs": 1,
+        "bitcoin": 5,
+        "nasdaq": 1,
+        "blackrock": 3
       },
       "entity_mention_density": {
-        "ai-infrastructure": 8.2,
-        "dealmaking": 24.6,
-        "nvidia": 16.4
+        "technology": 0.4,
+        "semiconductors": 1.8,
+        "ai-infrastructure": 3.1,
+        "energy": 1.3,
+        "real-estate": 0.9,
+        "materials-mining": 0.9,
+        "crypto": 0.4,
+        "inflation": 1.8,
+        "rates-fed": 0.9,
+        "credit-markets": 0.4,
+        "commodities": 1.3,
+        "dealmaking": 4.0,
+        "nvidia": 6.6,
+        "microsoft": 0.4,
+        "alphabet": 0.4,
+        "amazon": 0.4,
+        "goldman-sachs": 0.4,
+        "bitcoin": 2.2,
+        "nasdaq": 0.4,
+        "blackrock": 1.3
       },
       "entity_sentiment": {
         "ai-infrastructure": -1.0,
+        "materials-mining": 1.0,
+        "technology": -1.0,
         "dealmaking": -1.0,
-        "nvidia": -1.0
+        "nvidia": -1.0,
+        "bitcoin": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "energy": -1.0,
+        "commodities": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "nvidia": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Energy & Oil, IPOs & Dealmaking, Inflation, Commodities, Interest Rates & Fed Policy. Mentions Nvidia, Bitcoin, BlackRock, Microsoft, Alphabet / Google. Tone leans bearish (-0.60).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-11-the-rundown-nvidia-taps-wall-street-for-500b-anthropic-eyes-september-ip-b52a82.md",
+    "transcript_word_count": 2143,
+    "transcript_language": "en"
   },
   {
     "guid": "f3ddd2a1-7c7c-4920-b8fd-581205069e04",
@@ -81234,28 +81301,44 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "fire-movement"
+        "budgeting-saving",
+        "fire-movement",
+        "college-savings"
       ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "fire-movement": 1,
-        "meta": 1
+        "budgeting-saving": 6,
+        "fire-movement": 2,
+        "college-savings": 1,
+        "meta": 3
       },
       "entity_mention_density": {
-        "fire-movement": 2.5,
-        "meta": 2.5
+        "budgeting-saving": 0.5,
+        "fire-movement": 0.2,
+        "college-savings": 0.1,
+        "meta": 0.3
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "fire-movement": -1.0,
+        "budgeting-saving": -0.412,
+        "meta": -0.5
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Financial Independence / FIRE, College Savings & Student Debt. Mentions Meta. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-how-to-money-mental-health-is-financial-health-w-aja-evans-1169-bestie-ep-52651a.md",
+    "transcript_word_count": 10587,
+    "transcript_language": "en"
   },
   {
     "guid": "92cf8fa6-f651-4524-8c05-f4cd692a55da",
@@ -241862,49 +241945,75 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/602ab151-2a56-4f37-9023-f1d37e59e7ae.mp3?source=feed",
     "tags": {
       "sectors": [
-        "semiconductors"
+        "semiconductors",
+        "energy",
+        "utilities"
       ],
       "themes": [
+        "inflation",
+        "dividends-buybacks",
+        "consumer-health",
         "geopolitics-tariffs",
         "housing",
-        "consumer-health",
+        "valuation",
         "market-concentration"
       ],
       "stocks": [
         "nasdaq"
       ],
-      "sentiment": -0.333,
-      "sentiment_hits": 6,
+      "sentiment": -0.277,
+      "sentiment_hits": 10,
       "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
+        "semiconductors": 3,
+        "energy": 2,
+        "utilities": 2,
+        "inflation": 3,
         "geopolitics-tariffs": 1,
         "housing": 1,
-        "consumer-health": 1,
+        "consumer-health": 2,
+        "dividends-buybacks": 3,
+        "valuation": 1,
         "market-concentration": 1,
-        "nasdaq": 1
+        "nasdaq": 2
       },
       "entity_mention_density": {
-        "semiconductors": 5.4,
-        "geopolitics-tariffs": 5.4,
-        "housing": 5.4,
-        "consumer-health": 5.4,
-        "market-concentration": 5.4,
-        "nasdaq": 5.4
+        "semiconductors": 1.8,
+        "energy": 1.2,
+        "utilities": 1.2,
+        "inflation": 1.8,
+        "geopolitics-tariffs": 0.6,
+        "housing": 0.6,
+        "consumer-health": 1.2,
+        "dividends-buybacks": 1.8,
+        "valuation": 0.6,
+        "market-concentration": 0.6,
+        "nasdaq": 1.2
       },
       "entity_sentiment": {
-        "semiconductors": -0.5,
+        "semiconductors": -0.6,
         "housing": 0.0,
-        "consumer-health": 0.0,
+        "consumer-health": 0.412,
         "geopolitics-tariffs": 0.0,
+        "dividends-buybacks": 0.0,
         "market-concentration": 0.0,
+        "valuation": -1.0,
         "nasdaq": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "utilities": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, Utilities & Power, Inflation, Dividends & Buybacks, Consumer Health, Geopolitics & Tariffs. Mentions Nasdaq. Tone leans bearish (-0.28).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-04-28-the-dividend-cafe-tuesday-april-28-2026-44c714.md",
+    "transcript_word_count": 1460,
+    "transcript_language": "en"
   },
   {
     "guid": "69f0f8737beb8128697429b3",
