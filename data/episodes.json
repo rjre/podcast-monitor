@@ -24393,33 +24393,72 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML6761064129.mp3",
     "tags": {
       "sectors": [
-        "real-estate"
+        "real-estate",
+        "healthcare",
+        "private-markets",
+        "industrials",
+        "media-entertainment"
       ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "rates-fed",
+        "passive-investing",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "walmart",
+        "alphabet"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.429,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "budgeting-saving": 2,
-        "meta": 2
+        "healthcare": 5,
+        "real-estate": 11,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "passive-investing": 1,
+        "budgeting-saving": 9,
+        "debt-payoff": 1,
+        "alphabet": 1,
+        "amazon": 9,
+        "meta": 3,
+        "walmart": 3
       },
       "entity_mention_density": {
-        "real-estate": 1.7,
-        "budgeting-saving": 3.5,
-        "meta": 3.5
+        "healthcare": 0.3,
+        "real-estate": 0.6,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "private-markets": 0.2,
+        "rates-fed": 0.1,
+        "passive-investing": 0.1,
+        "budgeting-saving": 0.5,
+        "debt-payoff": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.5,
+        "meta": 0.2,
+        "walmart": 0.2
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0,
+        "debt-payoff": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Private Equity & Credit, Budgeting & Saving, Interest Rates & Fed Policy, Passive Investing, Debt Payoff. Mentions Amazon, Meta, Walmart, Alphabet / Google. Tone leans bullish (+0.43).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-financial-audit-wannabe-of-model-made-0-52-last-month-financial-audit-0a711c.md",
+    "transcript_word_count": 16722,
+    "transcript_language": "en"
   },
   {
     "guid": "8e01864e-9ae0-11f1-bb2c-4ff9e0ceda02",
@@ -36498,26 +36537,93 @@
     "duration": "4112",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/4f54bf79-9531-4203-afb7-b4a40138e87e/audio.mp3?utm_source=Podcast&in_playlist=5873a3cb-298f-40bc-b71f-ae2b0013000d",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "jpmorgan"
+      "sectors": [
+        "private-markets",
+        "ai-infrastructure",
+        "banks",
+        "industrials",
+        "media-entertainment",
+        "airlines-travel"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "inflation",
+        "regulation-antitrust",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "rates-fed",
+        "elections-politics",
+        "emerging-markets"
+      ],
+      "stocks": [
+        "jpmorgan",
+        "netflix"
+      ],
+      "sentiment": -0.038,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "jpmorgan": 1
+        "ai-infrastructure": 1,
+        "banks": 1,
+        "industrials": 1,
+        "media-entertainment": 1,
+        "airlines-travel": 1,
+        "private-markets": 4,
+        "inflation": 4,
+        "rates-fed": 1,
+        "ai-boom": 2,
+        "geopolitics-tariffs": 2,
+        "elections-politics": 1,
+        "dealmaking": 9,
+        "regulation-antitrust": 4,
+        "emerging-markets": 1,
+        "jpmorgan": 19,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "jpmorgan": 13.2
+        "ai-infrastructure": 0.1,
+        "banks": 0.1,
+        "industrials": 0.1,
+        "media-entertainment": 0.1,
+        "airlines-travel": 0.1,
+        "private-markets": 0.4,
+        "inflation": 0.4,
+        "rates-fed": 0.1,
+        "ai-boom": 0.2,
+        "geopolitics-tariffs": 0.2,
+        "elections-politics": 0.1,
+        "dealmaking": 0.9,
+        "regulation-antitrust": 0.4,
+        "emerging-markets": 0.1,
+        "jpmorgan": 1.9,
+        "netflix": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "inflation": 0.364,
+        "geopolitics-tariffs": 1.0,
+        "regulation-antitrust": 1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.263,
+        "private-markets": 1.0,
+        "media-entertainment": -1.0,
+        "dealmaking": -1.0,
+        "inflation": 0.2,
+        "geopolitics-tariffs": -1.0,
+        "regulation-antitrust": -0.167,
+        "jpmorgan": -1.0,
+        "netflix": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, AI Infrastructure, Banks & Financials, IPOs & Dealmaking, Inflation, Regulation & Antitrust, AI & Machine Learning. Mentions JPMorgan, Netflix. Tone reads roughly neutral (-0.04).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-masters-in-business-bonus-jp-morgan-co-head-of-global-banking-filippo-gori-38e87e.md",
+    "transcript_word_count": 10025,
+    "transcript_language": "en"
   },
   {
     "guid": "6a7c1acb7d85cbdf9663b0c9",
@@ -139048,35 +139154,93 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC6640147632.mp3",
     "tags": {
       "sectors": [
-        "airlines-travel"
+        "airlines-travel",
+        "energy",
+        "banks"
       ],
-      "themes": [],
+      "themes": [
+        "dividends-buybacks",
+        "emerging-markets",
+        "diversification",
+        "dealmaking",
+        "earnings",
+        "inflation",
+        "recession",
+        "commodities",
+        "regulation-antitrust",
+        "market-structure",
+        "small-caps-value-growth"
+      ],
       "stocks": [
+        "boeing",
         "alphabet",
         "meta",
         "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.111,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "airlines-travel": 5,
-        "alphabet": 1,
+        "banks": 1,
+        "energy": 2,
+        "airlines-travel": 75,
+        "inflation": 1,
+        "recession": 1,
+        "commodities": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 1,
+        "earnings": 2,
+        "market-structure": 1,
+        "emerging-markets": 3,
+        "dividends-buybacks": 11,
+        "small-caps-value-growth": 1,
+        "diversification": 3,
+        "alphabet": 3,
         "meta": 1,
-        "berkshire": 1
+        "berkshire": 1,
+        "boeing": 7
       },
       "entity_mention_density": {
-        "airlines-travel": 8.7,
-        "alphabet": 1.7,
-        "meta": 1.7,
-        "berkshire": 1.7
+        "banks": 0.1,
+        "energy": 0.1,
+        "airlines-travel": 4.4,
+        "inflation": 0.1,
+        "recession": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.1,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.1,
+        "market-structure": 0.1,
+        "emerging-markets": 0.2,
+        "dividends-buybacks": 0.6,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.2,
+        "alphabet": 0.2,
+        "meta": 0.1,
+        "berkshire": 0.1,
+        "boeing": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "airlines-travel": -0.5,
+        "recession": -1.0,
+        "diversification": 1.0
+      },
+      "entity_conviction": {
+        "airlines-travel": -0.547,
+        "earnings": -1.0,
+        "dividends-buybacks": -0.333,
+        "boeing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Airlines & Travel, Energy & Oil, Banks & Financials, Dividends & Buybacks, Emerging Markets, Diversification & Asset Allocation, IPOs & Dealmaking. Mentions Boeing, Alphabet / Google, Meta, Berkshire Hathaway. Tone reads roughly neutral (-0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-21-the-intrinsic-value-podcast-tivp078-video-copa-holdings-cpa-is-buffett-right-about-airli-958db3.md",
+    "transcript_word_count": 16491,
+    "transcript_language": "en"
   },
   {
     "guid": "f572faac-6646-11f1-9838-2ff21c2697f9",
@@ -191181,25 +191345,51 @@
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.503_John_Kim_-_AUDIO_V3.mp3?dest-id=482814",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "insurance"
       ],
-      "themes": [],
-      "stocks": [],
+      "themes": [
+        "ai-boom",
+        "hedge-funds",
+        "diversification"
+      ],
+      "stocks": [
+        "bank-of-america",
+        "exxon"
+      ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "private-markets": 1
+        "insurance": 1,
+        "private-markets": 3,
+        "ai-boom": 3,
+        "hedge-funds": 1,
+        "diversification": 1,
+        "bank-of-america": 1,
+        "exxon": 1
       },
       "entity_mention_density": {
-        "private-markets": 6.3
+        "insurance": 0.1,
+        "private-markets": 0.2,
+        "ai-boom": 0.2,
+        "hedge-funds": 0.1,
+        "diversification": 0.1,
+        "bank-of-america": 0.1,
+        "exxon": 0.1
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Insurance, AI & Machine Learning, Hedge Funds, Diversification & Asset Allocation. Mentions Bank of America, ExxonMobil. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-25-capital-allocators-fundraising-mastery-the-tao-of-kimmer-john-kim-ep-503-7d8aab.md",
+    "transcript_word_count": 14014,
+    "transcript_language": "en"
   },
   {
     "guid": "9c8698a0-462e-11f1-a594-9fa78a5729a6",
