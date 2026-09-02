@@ -13470,42 +13470,82 @@
       "sectors": [
         "semiconductors",
         "ai-infrastructure",
-        "industrials"
+        "industrials",
+        "technology"
       ],
-      "themes": [],
+      "themes": [
+        "ai-boom",
+        "budgeting-saving",
+        "geopolitics-tariffs"
+      ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "tsmc",
+        "amd",
+        "alphabet",
+        "cisco",
+        "costco"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.286,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 4,
-        "ai-infrastructure": 3,
-        "industrials": 2,
-        "nvidia": 2
+        "technology": 2,
+        "semiconductors": 50,
+        "ai-infrastructure": 38,
+        "industrials": 10,
+        "ai-boom": 4,
+        "geopolitics-tariffs": 1,
+        "budgeting-saving": 4,
+        "nvidia": 37,
+        "alphabet": 1,
+        "cisco": 1,
+        "amd": 7,
+        "tsmc": 11,
+        "costco": 1
       },
       "entity_mention_density": {
-        "semiconductors": 7.3,
-        "ai-infrastructure": 5.5,
-        "industrials": 3.6,
-        "nvidia": 3.6
+        "technology": 0.1,
+        "semiconductors": 2.8,
+        "ai-infrastructure": 2.1,
+        "industrials": 0.6,
+        "ai-boom": 0.2,
+        "geopolitics-tariffs": 0.1,
+        "budgeting-saving": 0.2,
+        "nvidia": 2.1,
+        "alphabet": 0.1,
+        "cisco": 0.1,
+        "amd": 0.4,
+        "tsmc": 0.6,
+        "costco": 0.1
       },
       "entity_sentiment": {
         "industrials": 1.0,
-        "semiconductors": 1.0,
+        "semiconductors": 0.0,
         "ai-infrastructure": 1.0,
-        "nvidia": 1.0
+        "nvidia": 1.0,
+        "cisco": 0.0
       },
       "entity_conviction": {
         "industrials": -1.0,
-        "semiconductors": -1.0,
-        "nvidia": -1.0
+        "semiconductors": -0.823,
+        "ai-infrastructure": -0.773,
+        "geopolitics-tariffs": 1.0,
+        "nvidia": -0.875,
+        "tsmc": -1.0,
+        "amd": -1.0,
+        "cisco": -1.0
       },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, AI Infrastructure, Industrials, AI & Machine Learning, Budgeting & Saving, Geopolitics & Tariffs. Mentions Nvidia, TSMC, AMD, Alphabet / Google, Cisco. Tone leans bullish (+0.29).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-invest-like-the-best-neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-daf707.md",
+    "transcript_word_count": 17262,
+    "transcript_language": "en"
   },
   {
     "guid": "464876ea-9537-11f1-8c8d-f3b8b2940fa2",
@@ -66624,19 +66664,49 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML6151883640.mp3",
     "tags": {
       "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "themes": [
+        "fire-movement",
+        "passive-income",
+        "diversification",
+        "college-savings"
+      ],
+      "stocks": [
+        "amazon",
+        "microsoft"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
+      "entity_mentions": {
+        "fire-movement": 2,
+        "passive-income": 1,
+        "diversification": 1,
+        "college-savings": 1,
+        "microsoft": 1,
+        "amazon": 2
+      },
+      "entity_mention_density": {
+        "fire-movement": 0.2,
+        "passive-income": 0.1,
+        "diversification": 0.1,
+        "college-savings": 0.1,
+        "microsoft": 0.1,
+        "amazon": 0.2
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Financial Independence / FIRE, Passive Income & Side Hustles, Diversification & Asset Allocation, College Savings & Student Debt. Mentions Amazon, Microsoft. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-27-earn-invest-754-alignment-mind-body-and-soul-c7ca0a.md",
+    "transcript_word_count": 8430,
+    "transcript_language": "en"
   },
   {
     "guid": "dd422c98-8485-11f1-b9c2-1f9922eb42f8",
@@ -170666,29 +170736,56 @@
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.504_Erik_Brooks_-_AUDIO_V2.mp3?dest-id=482814",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "technology",
+        "industrials"
       ],
       "themes": [
-        "small-caps-value-growth"
+        "small-caps-value-growth",
+        "hedge-funds"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "alphabet",
+        "verizon",
+        "disney"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "private-markets": 3,
-        "small-caps-value-growth": 1
+        "technology": 1,
+        "industrials": 1,
+        "private-markets": 17,
+        "hedge-funds": 1,
+        "small-caps-value-growth": 5,
+        "alphabet": 1,
+        "verizon": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "private-markets": 19.2,
-        "small-caps-value-growth": 6.4
+        "technology": 0.1,
+        "industrials": 0.1,
+        "private-markets": 1.7,
+        "hedge-funds": 0.1,
+        "small-caps-value-growth": 0.5,
+        "alphabet": 0.1,
+        "verizon": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
+      "entity_sentiment": {
+        "industrials": 1.0
+      },
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Technology, Industrials, Small-Caps, Value & Growth, Hedge Funds. Mentions Alphabet / Google, Verizon, Disney. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-01-capital-allocators-operator-led-private-equity-at-ethos-erik-brooks-ep-504-ac3dba.md",
+    "transcript_word_count": 9972,
+    "transcript_language": "en"
   },
   {
     "guid": "ab723de0-5c1f-11f1-bed9-8330f06d5d70",
@@ -201077,33 +201174,170 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/52dc826c-9b6a-414d-b79c-7883275f4fd9/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=52dc826c-9b6a-414d-b79c-7883275f4fd9&feed=qltQrd_8",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "ai-infrastructure",
+        "energy",
+        "semiconductors",
+        "defense-aerospace",
+        "technology",
+        "insurance",
+        "consumer-staples"
       ],
       "themes": [
-        "inflation"
+        "inflation",
+        "small-caps-value-growth",
+        "dealmaking",
+        "commodities",
+        "earnings",
+        "bond-market",
+        "budgeting-saving",
+        "dividends-buybacks",
+        "rates-fed",
+        "credit-markets",
+        "elections-politics",
+        "valuation",
+        "market-concentration"
       ],
       "stocks": [
-        "bank-of-america"
+        "nvidia",
+        "nasdaq",
+        "bank-of-america",
+        "microsoft",
+        "amazon",
+        "cisco",
+        "amd",
+        "micron",
+        "morgan-stanley",
+        "boeing",
+        "russell2000",
+        "alphabet",
+        "bitcoin",
+        "blackrock",
+        "robinhood",
+        "broadcom"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.012,
+      "sentiment_hits": 33,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "private-markets": 1,
-        "inflation": 2,
-        "bank-of-america": 1
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "insurance": 1,
+        "energy": 3,
+        "consumer-staples": 1,
+        "defense-aerospace": 2,
+        "private-markets": 5,
+        "inflation": 9,
+        "rates-fed": 1,
+        "credit-markets": 1,
+        "elections-politics": 1,
+        "commodities": 2,
+        "dealmaking": 3,
+        "earnings": 2,
+        "bond-market": 2,
+        "budgeting-saving": 2,
+        "dividends-buybacks": 2,
+        "valuation": 1,
+        "market-concentration": 1,
+        "small-caps-value-growth": 5,
+        "nvidia": 9,
+        "microsoft": 2,
+        "alphabet": 1,
+        "amazon": 2,
+        "cisco": 2,
+        "amd": 2,
+        "micron": 2,
+        "morgan-stanley": 2,
+        "bank-of-america": 3,
+        "boeing": 2,
+        "bitcoin": 1,
+        "nasdaq": 6,
+        "russell2000": 2,
+        "blackrock": 1,
+        "robinhood": 1,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "private-markets": 14.5,
-        "inflation": 29.0,
-        "bank-of-america": 14.5
+        "technology": 0.1,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.4,
+        "insurance": 0.1,
+        "energy": 0.4,
+        "consumer-staples": 0.1,
+        "defense-aerospace": 0.3,
+        "private-markets": 0.6,
+        "inflation": 1.2,
+        "rates-fed": 0.1,
+        "credit-markets": 0.1,
+        "elections-politics": 0.1,
+        "commodities": 0.3,
+        "dealmaking": 0.4,
+        "earnings": 0.3,
+        "bond-market": 0.3,
+        "budgeting-saving": 0.3,
+        "dividends-buybacks": 0.3,
+        "valuation": 0.1,
+        "market-concentration": 0.1,
+        "small-caps-value-growth": 0.6,
+        "nvidia": 1.2,
+        "microsoft": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.3,
+        "cisco": 0.3,
+        "amd": 0.3,
+        "micron": 0.3,
+        "morgan-stanley": 0.3,
+        "bank-of-america": 0.4,
+        "boeing": 0.3,
+        "bitcoin": 0.1,
+        "nasdaq": 0.8,
+        "russell2000": 0.3,
+        "blackrock": 0.1,
+        "robinhood": 0.1,
+        "broadcom": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "private-markets": 1.0,
+        "semiconductors": 1.0,
+        "inflation": 1.0,
+        "rates-fed": -1.0,
+        "nasdaq": -0.333,
+        "nvidia": 0.0,
+        "broadcom": -1.0,
+        "russell2000": -1.0
+      },
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "energy": 0.0,
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "insurance": -1.0,
+        "inflation": -1.0,
+        "bond-market": -0.167,
+        "commodities": 0.0,
+        "earnings": -1.0,
+        "elections-politics": -1.0,
+        "small-caps-value-growth": -1.0,
+        "market-concentration": -1.0,
+        "nasdaq": -1.0,
+        "nvidia": -1.0,
+        "boeing": -1.0,
+        "micron": -1.0,
+        "microsoft": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "nvidia"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, AI Infrastructure, Energy & Oil, Inflation, Small-Caps, Value & Growth, IPOs & Dealmaking, Commodities. Mentions Nvidia, Nasdaq, Bank of America, Microsoft, Amazon. Tone reads roughly neutral (+0.01).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-13-halftime-report-inflation-iran-vs-earnings-ai-your-next-move-5-13-26-0973a8.md",
+    "transcript_word_count": 7753,
+    "transcript_language": "en"
   },
   {
     "guid": "9795e54b-9640-4759-a4da-36874b0c0807",
