@@ -65834,35 +65834,100 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML5091367161.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "semiconductors",
+        "consumer-discretionary",
+        "crypto"
       ],
-      "themes": [],
+      "themes": [
+        "market-concentration",
+        "diversification",
+        "inflation",
+        "dealmaking",
+        "earnings",
+        "passive-investing"
+      ],
       "stocks": [
         "microsoft",
+        "alphabet",
+        "mastercard",
         "nvidia",
-        "amd"
+        "amd",
+        "berkshire",
+        "paypal"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "nvidia": 1,
-        "microsoft": 6,
-        "amd": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 8,
+        "consumer-discretionary": 1,
+        "crypto": 1,
+        "inflation": 2,
+        "dealmaking": 1,
+        "earnings": 1,
+        "passive-investing": 1,
+        "market-concentration": 4,
+        "diversification": 3,
+        "nvidia": 3,
+        "microsoft": 28,
+        "alphabet": 9,
+        "amd": 2,
+        "berkshire": 1,
+        "paypal": 1,
+        "mastercard": 6
       },
       "entity_mention_density": {
-        "ai-infrastructure": 2.9,
-        "nvidia": 2.9,
-        "microsoft": 17.5,
-        "amd": 2.9
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 1.9,
+        "consumer-discretionary": 0.2,
+        "crypto": 0.2,
+        "inflation": 0.5,
+        "dealmaking": 0.2,
+        "earnings": 0.2,
+        "passive-investing": 0.2,
+        "market-concentration": 1.0,
+        "diversification": 0.7,
+        "nvidia": 0.7,
+        "microsoft": 6.8,
+        "alphabet": 2.2,
+        "amd": 0.5,
+        "berkshire": 0.2,
+        "paypal": 0.2,
+        "mastercard": 1.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "microsoft": -1.0,
+        "nvidia": 1.0,
+        "amd": 1.0,
+        "alphabet": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": 1.0,
+        "diversification": -1.0,
+        "microsoft": 0.0,
+        "alphabet": 0.0,
+        "mastercard": -0.091,
+        "paypal": 1.0,
+        "berkshire": -1.0
+      },
+      "entity_stance": {
+        "diversification": "buy",
+        "passive-investing": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Semiconductors, Market Concentration / Mega-cap, Diversification & Asset Allocation, Inflation, IPOs & Dealmaking. Mentions Microsoft, Alphabet / Google, Mastercard, Nvidia, AMD. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-30-motley-fool-hidden-gems-microsoft-shows-the-mag7-what-ai-investment-looks-like-bf4953.md",
+    "transcript_word_count": 3804,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/IgpFkmVYTA1flN30fHKakyaNNC2YsFyUlp1Ps8eCdBQ",
@@ -93282,20 +93347,93 @@
     "duration": "2268",
     "audio_url": "https://mcdn.podbean.com/mf/web/qu3p9nad4xur4rew/BestStocksNow-260717.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "energy",
+        "consumer-staples",
+        "ai-infrastructure",
+        "real-estate"
+      ],
+      "themes": [
+        "behavioral-finance",
+        "inflation",
+        "commodities",
+        "safe-havens",
+        "dealmaking",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "nvidia",
+        "nasdaq",
+        "exxon",
+        "charles-schwab",
+        "amd",
+        "disney"
+      ],
+      "sentiment": -0.176,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 5,
+        "ai-infrastructure": 1,
+        "energy": 2,
+        "consumer-staples": 2,
+        "real-estate": 1,
+        "inflation": 1,
+        "commodities": 1,
+        "safe-havens": 1,
+        "dealmaking": 1,
+        "behavioral-finance": 2,
+        "small-caps-value-growth": 1,
+        "nvidia": 11,
+        "amd": 1,
+        "exxon": 2,
+        "nasdaq": 4,
+        "charles-schwab": 2,
+        "disney": 1
+      },
+      "entity_mention_density": {
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.2,
+        "energy": 0.4,
+        "consumer-staples": 0.4,
+        "real-estate": 0.2,
+        "inflation": 0.2,
+        "commodities": 0.2,
+        "safe-havens": 0.2,
+        "dealmaking": 0.2,
+        "behavioral-finance": 0.4,
+        "small-caps-value-growth": 0.2,
+        "nvidia": 2.0,
+        "amd": 0.2,
+        "exxon": 0.4,
+        "nasdaq": 0.7,
+        "charles-schwab": 0.4,
+        "disney": 0.2
+      },
+      "entity_sentiment": {
+        "semiconductors": -1.0,
+        "real-estate": -1.0,
+        "nvidia": 0.333,
+        "amd": -1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "safe-havens": -1.0,
+        "commodities": -1.0,
+        "nasdaq": -1.0,
+        "exxon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, Consumer Staples, Behavioral Finance & Psychology, Inflation, Commodities, Gold & Safe Havens. Mentions Nvidia, Nasdaq, ExxonMobil, Charles Schwab, AMD. Tone leans bearish (-0.18).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-best-stocks-now-friday-july-17-2026-af5b34.md",
+    "transcript_word_count": 5623,
+    "transcript_language": "en"
   },
   {
     "guid": "61a1f026-6027-4f13-b6da-b48a00f27c4a",
@@ -168252,26 +168390,83 @@
     "duration": "00:10:53",
     "audio_url": "https://traffic.megaphone.fm/APO3501367904.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "technology",
+        "semiconductors",
+        "consumer-discretionary",
+        "industrials"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "dealmaking",
+        "commodities",
+        "regulation-antitrust",
+        "earnings",
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "nasdaq"
+      ],
+      "sentiment": -0.333,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 4,
+        "energy": 2,
+        "consumer-discretionary": 1,
+        "industrials": 1,
+        "inflation": 5,
+        "commodities": 2,
+        "dealmaking": 3,
+        "regulation-antitrust": 1,
+        "earnings": 1,
+        "budgeting-saving": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "inflation": 10.0
+        "technology": 0.5,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 1.8,
+        "energy": 0.9,
+        "consumer-discretionary": 0.5,
+        "industrials": 0.5,
+        "inflation": 2.3,
+        "commodities": 0.9,
+        "dealmaking": 1.4,
+        "regulation-antitrust": 0.5,
+        "earnings": 0.5,
+        "budgeting-saving": 0.5,
+        "nasdaq": 0.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": -1.0,
+        "industrials": -1.0,
+        "ai-infrastructure": 1.0,
+        "consumer-discretionary": -1.0,
+        "earnings": 1.0,
+        "regulation-antitrust": -1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -1.0,
+        "consumer-discretionary": 1.0,
+        "earnings": -1.0,
+        "regulation-antitrust": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Technology, Inflation, IPOs & Dealmaking, Commodities, Regulation & Antitrust. Mentions Nasdaq. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-11-the-rundown-oracle-sinks-on-debt-fears-openai-weighs-drastic-price-cuts-8dfbab.md",
+    "transcript_word_count": 2067,
+    "transcript_language": "en"
   },
   {
     "guid": "695e421b-295c-4770-8aa3-b46600ff4034",
