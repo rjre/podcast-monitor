@@ -126957,32 +126957,100 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML3613936865.mp3",
     "tags": {
       "sectors": [
-        "autos-ev"
+        "autos-ev",
+        "technology",
+        "real-estate",
+        "ai-infrastructure",
+        "semiconductors",
+        "consumer-discretionary",
+        "telecoms"
       ],
-      "themes": [],
+      "themes": [
+        "rates-fed",
+        "recession",
+        "inflation",
+        "ai-boom",
+        "geopolitics-tariffs",
+        "earnings"
+      ],
       "stocks": [
-        "att",
-        "verizon"
+        "amazon",
+        "verizon",
+        "nasdaq",
+        "tesla",
+        "att"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.167,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "autos-ev": 1,
+        "technology": 4,
+        "semiconductors": 1,
+        "ai-infrastructure": 2,
+        "consumer-discretionary": 1,
+        "real-estate": 3,
+        "telecoms": 1,
+        "autos-ev": 7,
+        "inflation": 2,
+        "rates-fed": 4,
+        "ai-boom": 1,
+        "recession": 4,
+        "geopolitics-tariffs": 1,
+        "earnings": 1,
+        "amazon": 4,
+        "tesla": 1,
         "att": 1,
-        "verizon": 1
+        "verizon": 4,
+        "nasdaq": 4
       },
       "entity_mention_density": {
-        "autos-ev": 3.4,
-        "att": 3.4,
-        "verizon": 3.4
+        "technology": 0.9,
+        "semiconductors": 0.2,
+        "ai-infrastructure": 0.4,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.7,
+        "telecoms": 0.2,
+        "autos-ev": 1.5,
+        "inflation": 0.4,
+        "rates-fed": 0.9,
+        "ai-boom": 0.2,
+        "recession": 0.9,
+        "geopolitics-tariffs": 0.2,
+        "earnings": 0.2,
+        "amazon": 0.9,
+        "tesla": 0.2,
+        "att": 0.2,
+        "verizon": 0.9,
+        "nasdaq": 0.9
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": -1.0,
+        "consumer-discretionary": 1.0,
+        "real-estate": 1.0,
+        "rates-fed": -1.0,
+        "recession": -0.5
+      },
+      "entity_conviction": {
+        "autos-ev": -1.0,
+        "real-estate": -1.0,
+        "semiconductors": -1.0,
+        "rates-fed": -1.0,
+        "earnings": -1.0,
+        "recession": -1.0,
+        "nasdaq": 1.0,
+        "amazon": 1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Autos & EVs, Technology, Real Estate, Interest Rates & Fed Policy, Recession Risk, Inflation, AI & Machine Learning. Mentions Amazon, Verizon, Nasdaq, Tesla, AT&T. Tone leans bearish (-0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-motley-fool-hidden-gems-oil-pulls-the-market-lower-again-98b7fd.md",
+    "transcript_word_count": 4266,
+    "transcript_language": "en"
   },
   {
     "guid": "ca4a829d-eb36-4403-8123-1119d9d3b0cf",
@@ -194092,30 +194160,65 @@
     "duration": "00:10:59",
     "audio_url": "https://traffic.megaphone.fm/APO7566535769.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy",
+        "real-estate"
+      ],
       "themes": [
-        "dealmaking"
+        "dealmaking",
+        "inflation",
+        "commodities",
+        "hedge-funds",
+        "earnings"
       ],
       "stocks": [
-        "alphabet"
+        "alphabet",
+        "tesla",
+        "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "dealmaking": 3,
-        "alphabet": 1
+        "energy": 2,
+        "real-estate": 1,
+        "inflation": 8,
+        "commodities": 2,
+        "dealmaking": 9,
+        "earnings": 1,
+        "hedge-funds": 2,
+        "alphabet": 4,
+        "tesla": 1,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "dealmaking": 28.6,
-        "alphabet": 9.5
+        "energy": 0.9,
+        "real-estate": 0.5,
+        "inflation": 3.6,
+        "commodities": 0.9,
+        "dealmaking": 4.1,
+        "earnings": 0.5,
+        "hedge-funds": 0.9,
+        "alphabet": 1.8,
+        "tesla": 0.5,
+        "nasdaq": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "energy": -1.0,
+        "dealmaking": -1.0,
+        "commodities": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Real Estate, IPOs & Dealmaking, Inflation, Commodities, Hedge Funds. Mentions Alphabet / Google, Tesla, Nasdaq. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-09-the-rundown-openai-files-for-ipo-apple-disappoints-at-wwdc-148332.md",
+    "transcript_word_count": 2097,
+    "transcript_language": "en"
   },
   {
     "guid": "a0fe1659-63d4-466a-b75f-2381dd77e623",
@@ -208936,45 +209039,150 @@
     "duration": "3648",
     "audio_url": "https://traffic.megaphone.fm/RRM7214948428.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "private-markets",
+        "ai-infrastructure",
+        "semiconductors",
+        "real-estate",
+        "industrials",
+        "autos-ev"
+      ],
       "themes": [
+        "rates-fed",
         "dealmaking",
+        "geopolitics-tariffs",
+        "valuation",
         "market-concentration",
+        "budgeting-saving",
+        "inflation",
         "ai-boom",
-        "valuation"
+        "dividends-buybacks"
       ],
       "stocks": [
         "microsoft",
-        "alphabet"
+        "alphabet",
+        "amazon",
+        "nvidia",
+        "nasdaq",
+        "tesla",
+        "meta",
+        "amd",
+        "berkshire",
+        "salesforce",
+        "cisco",
+        "fidelity",
+        "netflix",
+        "broadcom"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "technology": 11,
+        "semiconductors": 1,
+        "ai-infrastructure": 5,
+        "real-estate": 1,
+        "industrials": 1,
+        "autos-ev": 1,
+        "private-markets": 9,
+        "inflation": 1,
+        "rates-fed": 5,
         "ai-boom": 1,
-        "dealmaking": 2,
-        "valuation": 1,
-        "market-concentration": 2,
-        "microsoft": 1,
-        "alphabet": 1
+        "geopolitics-tariffs": 3,
+        "dealmaking": 4,
+        "budgeting-saving": 2,
+        "dividends-buybacks": 1,
+        "valuation": 3,
+        "market-concentration": 3,
+        "nvidia": 6,
+        "microsoft": 17,
+        "alphabet": 16,
+        "amazon": 9,
+        "meta": 2,
+        "tesla": 4,
+        "cisco": 1,
+        "amd": 2,
+        "berkshire": 2,
+        "nasdaq": 5,
+        "fidelity": 1,
+        "netflix": 1,
+        "salesforce": 2,
+        "broadcom": 1
       },
       "entity_mention_density": {
-        "ai-boom": 5.7,
-        "dealmaking": 11.5,
-        "valuation": 5.7,
-        "market-concentration": 11.5,
-        "microsoft": 5.7,
-        "alphabet": 5.7
+        "technology": 0.9,
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.4,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "autos-ev": 0.1,
+        "private-markets": 0.7,
+        "inflation": 0.1,
+        "rates-fed": 0.4,
+        "ai-boom": 0.1,
+        "geopolitics-tariffs": 0.2,
+        "dealmaking": 0.3,
+        "budgeting-saving": 0.2,
+        "dividends-buybacks": 0.1,
+        "valuation": 0.2,
+        "market-concentration": 0.2,
+        "nvidia": 0.5,
+        "microsoft": 1.4,
+        "alphabet": 1.3,
+        "amazon": 0.7,
+        "meta": 0.2,
+        "tesla": 0.3,
+        "cisco": 0.1,
+        "amd": 0.2,
+        "berkshire": 0.2,
+        "nasdaq": 0.4,
+        "fidelity": 0.1,
+        "netflix": 0.1,
+        "salesforce": 0.2,
+        "broadcom": 0.1
       },
       "entity_sentiment": {
         "ai-boom": -1.0,
         "market-concentration": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "private-markets": -0.73,
+        "technology": -1.0,
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "real-estate": -1.0,
+        "market-concentration": 1.0,
+        "valuation": -1.0,
+        "dealmaking": 0.0,
+        "rates-fed": -0.5,
+        "geopolitics-tariffs": -1.0,
+        "dividends-buybacks": -1.0,
+        "budgeting-saving": -1.0,
+        "inflation": 1.0,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "nasdaq": -1.0,
+        "berkshire": -1.0,
+        "nvidia": -1.0,
+        "amd": -1.0,
+        "amazon": -1.0,
+        "tesla": -1.0,
+        "netflix": -1.0,
+        "salesforce": -1.0,
+        "meta": -1.0,
+        "broadcom": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Private Equity & Credit, AI Infrastructure, Interest Rates & Fed Policy, IPOs & Dealmaking, Geopolitics & Tariffs, Valuation. Mentions Microsoft, Alphabet / Google, Amazon, Nvidia, Nasdaq. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-riskreversal-pod-a-vc-s-playbook-for-investing-in-the-ai-bubble-with-jeff-ric-00676e.md",
+    "transcript_word_count": 12137,
+    "transcript_language": "en"
   },
   {
     "guid": "9303adaa-cb28-48c3-bb2b-8dfbd05f8df9",
@@ -260020,36 +260228,61 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/media.zencast.fm/the-dividend-cafe-1/851be6e5-6faa-486a-8d56-f9652e7a5e9c.mp3?source=feed",
     "tags": {
       "sectors": [
-        "media-entertainment"
+        "media-entertainment",
+        "semiconductors",
+        "real-estate"
       ],
       "themes": [
         "dividends-buybacks",
+        "dealmaking",
         "small-caps-value-growth"
       ],
       "stocks": [
-        "disney"
+        "disney",
+        "netflix"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "media-entertainment": 3,
-        "dividends-buybacks": 3,
+        "semiconductors": 1,
+        "real-estate": 1,
+        "media-entertainment": 16,
+        "dealmaking": 2,
+        "dividends-buybacks": 18,
         "small-caps-value-growth": 1,
-        "disney": 5
+        "netflix": 2,
+        "disney": 28
       },
       "entity_mention_density": {
-        "media-entertainment": 15.4,
-        "dividends-buybacks": 15.4,
-        "small-caps-value-growth": 5.1,
-        "disney": 25.6
+        "semiconductors": 0.3,
+        "real-estate": 0.3,
+        "media-entertainment": 4.3,
+        "dealmaking": 0.5,
+        "dividends-buybacks": 4.8,
+        "small-caps-value-growth": 0.3,
+        "netflix": 0.5,
+        "disney": 7.5
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "media-entertainment": 1.0,
+        "disney": 1.0
+      },
+      "entity_conviction": {
+        "media-entertainment": 0.333,
+        "dividends-buybacks": -1.0,
+        "disney": 0.364
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Media & Entertainment, Semiconductors, Real Estate, Dividends & Buybacks, IPOs & Dealmaking, Small-Caps, Value & Growth. Mentions Disney, Netflix. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-08-the-dividend-cafe-the-murdoch-dynasty-a-business-worth-a-thousand-words-41adf0.md",
+    "transcript_word_count": 3549,
+    "transcript_language": "en"
   },
   {
     "guid": "7285c6bc-4ae2-11f1-b202-ab9dde498122",
