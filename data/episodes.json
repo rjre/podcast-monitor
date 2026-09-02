@@ -28100,33 +28100,62 @@
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/f085e3ff-805b-4306-b491-d936938e5d17/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=f085e3ff-805b-4306-b491-d936938e5d17&feed=hvWWWzRv&t=podcast&e=nx-s1-5936481&p=510289&d=2408&size=38529655",
     "tags": {
       "sectors": [
-        "industrials"
+        "industrials",
+        "semiconductors",
+        "technology",
+        "real-estate",
+        "crypto"
       ],
       "themes": [
+        "geopolitics-tariffs",
         "inflation"
       ],
       "stocks": [
+        "amazon",
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.688,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "industrials": 1,
+        "technology": 1,
+        "semiconductors": 3,
+        "real-estate": 1,
+        "industrials": 13,
+        "crypto": 1,
         "inflation": 1,
+        "geopolitics-tariffs": 4,
+        "amazon": 1,
         "meta": 1
       },
       "entity_mention_density": {
-        "industrials": 3.2,
-        "inflation": 3.2,
-        "meta": 3.2
+        "technology": 0.1,
+        "semiconductors": 0.4,
+        "real-estate": 0.1,
+        "industrials": 1.8,
+        "crypto": 0.1,
+        "inflation": 0.1,
+        "geopolitics-tariffs": 0.5,
+        "amazon": 0.1,
+        "meta": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "industrials": 0.0
+      },
+      "entity_conviction": {
+        "industrials": 1.0,
+        "semiconductors": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Semiconductors, Technology, Geopolitics & Tariffs, Inflation. Mentions Amazon, Meta. Tone leans bullish (+0.69).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-19-planet-money-getting-entrepreneurial-in-korea-summer-school-15d119.md",
+    "transcript_word_count": 6980,
+    "transcript_language": "en"
   },
   {
     "guid": "e84cb460-9505-11f1-8dcd-db541642e95b",
@@ -162444,37 +162473,72 @@
         "crypto"
       ],
       "themes": [
-        "labor-market"
+        "rates-fed",
+        "labor-market",
+        "dividends-buybacks",
+        "diversification",
+        "dealmaking"
       ],
       "stocks": [
-        "robinhood"
+        "robinhood",
+        "bitcoin",
+        "coinbase"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.091,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "real-estate": 1,
-        "crypto": 1,
-        "labor-market": 1,
-        "robinhood": 2
+        "real-estate": 13,
+        "crypto": 11,
+        "rates-fed": 6,
+        "labor-market": 4,
+        "dealmaking": 1,
+        "dividends-buybacks": 4,
+        "diversification": 2,
+        "coinbase": 3,
+        "bitcoin": 9,
+        "robinhood": 11
       },
       "entity_mention_density": {
         "real-estate": 3.1,
-        "crypto": 3.1,
-        "labor-market": 3.1,
-        "robinhood": 6.2
+        "crypto": 2.6,
+        "rates-fed": 1.4,
+        "labor-market": 0.9,
+        "dealmaking": 0.2,
+        "dividends-buybacks": 0.9,
+        "diversification": 0.5,
+        "coinbase": 0.7,
+        "bitcoin": 2.1,
+        "robinhood": 2.6
       },
       "entity_sentiment": {
-        "real-estate": -1.0,
+        "real-estate": 0.5,
         "crypto": -1.0,
         "labor-market": -1.0,
+        "rates-fed": 1.0,
         "robinhood": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "crypto": -0.474,
+        "labor-market": -1.0,
+        "diversification": -0.333,
+        "dividends-buybacks": -1.0,
+        "rates-fed": -1.0,
+        "robinhood": -0.667,
+        "bitcoin": 0.0,
+        "coinbase": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Interest Rates & Fed Policy, Labor Market, Dividends & Buybacks, Diversification & Asset Allocation. Mentions Robinhood, Bitcoin, Coinbase. Tone reads roughly neutral (-0.09).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-16-motley-fool-hidden-gems-buying-your-own-sports-team-with-stocks-047a68.md",
+    "transcript_word_count": 3926,
+    "transcript_language": "en"
   },
   {
     "guid": "13740e32-5aea-11f1-9134-235ef01f1718",
@@ -185368,35 +185432,79 @@
     "duration": "6356",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML1497515552.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "airlines-travel",
+        "banks",
+        "healthcare",
+        "media-entertainment"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "college-savings",
+        "rates-fed",
+        "debt-payoff",
+        "fiscal-debt",
+        "real-estate-investing"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "jpmorgan"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.189,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "healthcare": 1,
+        "real-estate": 2,
+        "media-entertainment": 1,
+        "airlines-travel": 2,
+        "rates-fed": 3,
+        "fiscal-debt": 1,
+        "budgeting-saving": 30,
+        "debt-payoff": 2,
+        "real-estate-investing": 1,
+        "college-savings": 7,
+        "amazon": 11,
+        "meta": 2,
+        "jpmorgan": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.0,
-        "college-savings": 2.0,
-        "meta": 4.0
+        "banks": 0.0,
+        "healthcare": 0.0,
+        "real-estate": 0.1,
+        "media-entertainment": 0.0,
+        "airlines-travel": 0.1,
+        "rates-fed": 0.1,
+        "fiscal-debt": 0.0,
+        "budgeting-saving": 1.5,
+        "debt-payoff": 0.1,
+        "real-estate-investing": 0.0,
+        "college-savings": 0.3,
+        "amazon": 0.5,
+        "meta": 0.1,
+        "jpmorgan": 0.0
       },
       "entity_sentiment": {
-        "college-savings": 1.0
+        "college-savings": 0.0,
+        "budgeting-saving": 1.0,
+        "fiscal-debt": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Airlines & Travel, Banks & Financials, Budgeting & Saving, College Savings & Student Debt, Interest Rates & Fed Policy, Debt Payoff. Mentions Amazon, Meta, JPMorgan. Tone leans bullish (+0.19).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-05-financial-audit-this-has-never-happened-before-financial-audit-30935d.md",
+    "transcript_word_count": 19938,
+    "transcript_language": "en"
   },
   {
     "guid": "46a5471a-449e-4f01-9c6a-b46000eaa2a6",
@@ -190965,28 +191073,74 @@
     "duration": "3969",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL8169699177.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "retirement-planning"
+      "sectors": [
+        "real-estate"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "budgeting-saving",
+        "retirement-planning",
+        "tax-planning",
+        "fire-movement",
+        "rates-fed",
+        "inflation",
+        "dividends-buybacks"
+      ],
+      "stocks": [
+        "amazon",
+        "berkshire",
+        "fidelity"
+      ],
+      "sentiment": 0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "retirement-planning": 1
+        "real-estate": 5,
+        "inflation": 1,
+        "rates-fed": 2,
+        "budgeting-saving": 12,
+        "fire-movement": 4,
+        "retirement-planning": 9,
+        "dividends-buybacks": 1,
+        "tax-planning": 5,
+        "amazon": 2,
+        "berkshire": 1,
+        "fidelity": 1
       },
       "entity_mention_density": {
-        "retirement-planning": 5.2
+        "real-estate": 0.4,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.9,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.7,
+        "dividends-buybacks": 0.1,
+        "tax-planning": 0.4,
+        "amazon": 0.1,
+        "berkshire": 0.1,
+        "fidelity": 0.1
       },
       "entity_sentiment": {
+        "real-estate": 1.0,
         "retirement-planning": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -0.773,
+        "retirement-planning": -1.0,
+        "inflation": 1.0,
+        "fire-movement": -1.0,
+        "budgeting-saving": -1.0,
+        "berkshire": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Budgeting & Saving, Retirement Planning, Tax Planning, Financial Independence / FIRE. Mentions Amazon, Berkshire Hathaway, Fidelity. Tone leans bullish (+0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-money-guy-show-what-is-the-magic-number-where-money-will-finally-make-you-h-294a6b.md",
+    "transcript_word_count": 13218,
+    "transcript_language": "en"
   },
   {
     "guid": "c43fe93f-722d-474b-b3f1-75ba14a91d85",
