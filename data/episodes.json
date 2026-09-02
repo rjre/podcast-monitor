@@ -11909,20 +11909,74 @@
     "duration": "3821",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL8481731207.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "real-estate",
+        "media-entertainment"
+      ],
+      "themes": [
+        "fire-movement",
+        "retirement-planning",
+        "tax-planning",
+        "inflation",
+        "rates-fed",
+        "budgeting-saving",
+        "debt-payoff",
+        "passive-income",
+        "estate-planning"
+      ],
+      "stocks": [
+        "disney"
+      ],
+      "sentiment": 0.714,
+      "sentiment_hits": 7,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "real-estate": 2,
+        "media-entertainment": 1,
+        "inflation": 1,
+        "rates-fed": 1,
+        "budgeting-saving": 1,
+        "debt-payoff": 1,
+        "fire-movement": 7,
+        "retirement-planning": 7,
+        "passive-income": 1,
+        "tax-planning": 2,
+        "estate-planning": 1,
+        "disney": 2
+      },
+      "entity_mention_density": {
+        "real-estate": 0.2,
+        "media-entertainment": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.5,
+        "retirement-planning": 0.5,
+        "passive-income": 0.1,
+        "tax-planning": 0.2,
+        "estate-planning": 0.1,
+        "disney": 0.2
+      },
+      "entity_sentiment": {
+        "fire-movement": 1.0
+      },
+      "entity_conviction": {
+        "fire-movement": -1.0,
+        "tax-planning": 0.0,
+        "retirement-planning": -1.0,
+        "debt-payoff": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Media & Entertainment, Financial Independence / FIRE, Retirement Planning, Tax Planning, Inflation. Mentions Disney. Tone leans bullish (+0.71).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-26-money-guy-show-how-much-do-you-actually-need-to-retire-big-announcement-4a1090.md",
+    "transcript_word_count": 12705,
+    "transcript_language": "en"
   },
   {
     "guid": "f3405c6a-a84c-11f0-a576-3399ad15413f",
@@ -50147,26 +50201,100 @@
     "duration": "1112",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/8ea17a1e-380a-479b-ab18-b49e010fce1a/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "ai-infrastructure",
+        "autos-ev"
+      ],
       "themes": [
+        "bond-market",
+        "inflation",
+        "rates-fed",
+        "labor-market",
+        "valuation",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "behavioral-finance",
         "esg-climate"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "microsoft",
+        "tesla",
+        "alphabet",
+        "salesforce"
+      ],
+      "sentiment": -0.533,
+      "sentiment_hits": 22,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "esg-climate": 1
+        "technology": 2,
+        "ai-infrastructure": 2,
+        "autos-ev": 1,
+        "inflation": 5,
+        "rates-fed": 5,
+        "geopolitics-tariffs": 3,
+        "labor-market": 5,
+        "dealmaking": 3,
+        "esg-climate": 1,
+        "bond-market": 6,
+        "valuation": 4,
+        "behavioral-finance": 2,
+        "microsoft": 3,
+        "alphabet": 1,
+        "tesla": 2,
+        "salesforce": 1
       },
       "entity_mention_density": {
-        "esg-climate": 27.8
+        "technology": 0.5,
+        "ai-infrastructure": 0.5,
+        "autos-ev": 0.2,
+        "inflation": 1.2,
+        "rates-fed": 1.2,
+        "geopolitics-tariffs": 0.7,
+        "labor-market": 1.2,
+        "dealmaking": 0.7,
+        "esg-climate": 0.2,
+        "bond-market": 1.5,
+        "valuation": 1.0,
+        "behavioral-finance": 0.5,
+        "microsoft": 0.7,
+        "alphabet": 0.2,
+        "tesla": 0.5,
+        "salesforce": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "technology": -1.0,
+        "behavioral-finance": 0.176,
+        "bond-market": -1.0,
+        "rates-fed": -1.0,
+        "dealmaking": -1.0,
+        "valuation": -1.0,
+        "labor-market": 1.0,
+        "tesla": -1.0,
+        "alphabet": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "technology": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "bond-market": -1.0,
+        "rates-fed": -1.0,
+        "dealmaking": 1.0,
+        "valuation": 0.0,
+        "tesla": 1.0,
+        "alphabet": 1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Autos & EVs, Bond Market & Yields, Inflation, Interest Rates & Fed Policy, Labor Market. Mentions Microsoft, Tesla, Alphabet / Google, Salesforce. Tone leans bearish (-0.53).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-06-bloomberg-surveillance-bloomberg-surveillance-tv-august-6th-2026-0fce1a.md",
+    "transcript_word_count": 3984,
+    "transcript_language": "en"
   },
   {
     "guid": "d65322ed-f23a-49e8-b81d-45ca14e10993",
@@ -151220,32 +151348,74 @@
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML2273238216.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "insurance",
+        "semiconductors",
+        "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "regulation-antitrust",
+        "esg-climate",
+        "dividends-buybacks"
+      ],
       "stocks": [
         "tesla",
-        "tsmc"
+        "tsmc",
+        "amazon",
+        "berkshire"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "ai-infrastructure": 2,
-        "tesla": 1,
-        "tsmc": 1
+        "semiconductors": 2,
+        "ai-infrastructure": 25,
+        "insurance": 3,
+        "real-estate": 1,
+        "dealmaking": 1,
+        "regulation-antitrust": 1,
+        "esg-climate": 1,
+        "dividends-buybacks": 1,
+        "amazon": 1,
+        "tesla": 2,
+        "tsmc": 2,
+        "berkshire": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 6.3,
-        "tesla": 3.2,
-        "tsmc": 3.2
+        "semiconductors": 0.5,
+        "ai-infrastructure": 6.0,
+        "insurance": 0.7,
+        "real-estate": 0.2,
+        "dealmaking": 0.2,
+        "regulation-antitrust": 0.2,
+        "esg-climate": 0.2,
+        "dividends-buybacks": 0.2,
+        "amazon": 0.2,
+        "tesla": 0.5,
+        "tsmc": 0.5,
+        "berkshire": 0.2
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.25,
+        "insurance": 0.333,
+        "semiconductors": -1.0,
+        "dealmaking": 1.0,
+        "tsmc": -1.0,
+        "amazon": 0.333,
+        "berkshire": 0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Insurance, Semiconductors, IPOs & Dealmaking, Regulation & Antitrust, ESG & Climate, Dividends & Buybacks. Mentions Tesla, TSMC, Amazon, Berkshire Hathaway. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-motley-fool-hidden-gems-it-consulting-is-not-having-a-good-time-c9733e.md",
+    "transcript_word_count": 3869,
+    "transcript_language": "en"
   },
   {
     "guid": "gid://art19-episode-locator/V0/GmzC_0ZbLHA9BrUh5fdxrNB0oRUopAr5megsR5Y8VCI",
@@ -229567,26 +229737,66 @@
     "duration": "5618",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC2825117123.mp3?updated=1778216563",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "crypto",
+        "technology",
+        "industrials"
+      ],
+      "themes": [
+        "elections-politics",
+        "dealmaking"
+      ],
       "stocks": [
-        "meta"
+        "bitcoin",
+        "alphabet",
+        "amazon",
+        "meta",
+        "goldman-sachs",
+        "disney"
       ],
       "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "meta": 1
+        "technology": 1,
+        "industrials": 1,
+        "crypto": 2,
+        "elections-politics": 1,
+        "dealmaking": 1,
+        "alphabet": 1,
+        "amazon": 1,
+        "meta": 1,
+        "goldman-sachs": 1,
+        "bitcoin": 2,
+        "disney": 1
       },
       "entity_mention_density": {
-        "meta": 2.2
+        "technology": 0.0,
+        "industrials": 0.0,
+        "crypto": 0.1,
+        "elections-politics": 0.0,
+        "dealmaking": 0.0,
+        "alphabet": 0.0,
+        "amazon": 0.0,
+        "meta": 0.0,
+        "goldman-sachs": 0.0,
+        "bitcoin": 0.1,
+        "disney": 0.0
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "amazon": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Technology, Industrials, Elections & Politics, IPOs & Dealmaking. Mentions Bitcoin, Alphabet / Google, Amazon, Meta, Goldman Sachs. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-10-the-investor-s-podcast-we-study-billionaires-rwh068-how-to-be-better-in-work-life-w-david-epstein-426c19.md",
+    "transcript_word_count": 20200,
+    "transcript_language": "en"
   },
   {
     "guid": "ba95c2e8-c6d5-4bd7-9518-b442017e2b5d",
