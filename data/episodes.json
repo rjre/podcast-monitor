@@ -36583,40 +36583,109 @@
     "audio_url": "https://traffic.megaphone.fm/RRM9948873649.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "private-markets",
+        "ai-infrastructure",
+        "banks",
+        "semiconductors",
+        "insurance",
+        "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "bond-market",
+        "housing",
+        "elections-politics",
+        "valuation",
+        "market-timing-dca"
+      ],
       "stocks": [
         "nvidia",
         "cisco",
-        "goldman-sachs"
+        "goldman-sachs",
+        "berkshire",
+        "alphabet",
+        "amazon",
+        "nasdaq"
       ],
-      "sentiment": -0.5,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": -0.294,
+      "sentiment_hits": 17,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1,
-        "nvidia": 5,
-        "cisco": 1,
-        "goldman-sachs": 1
+        "semiconductors": 1,
+        "ai-infrastructure": 4,
+        "banks": 2,
+        "insurance": 1,
+        "real-estate": 1,
+        "private-markets": 6,
+        "housing": 1,
+        "elections-politics": 1,
+        "bond-market": 2,
+        "valuation": 1,
+        "market-timing-dca": 1,
+        "nvidia": 18,
+        "alphabet": 1,
+        "amazon": 1,
+        "cisco": 6,
+        "goldman-sachs": 6,
+        "berkshire": 2,
+        "nasdaq": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 3.0,
-        "nvidia": 15.2,
-        "cisco": 3.0,
-        "goldman-sachs": 3.0
+        "semiconductors": 0.1,
+        "ai-infrastructure": 0.5,
+        "banks": 0.3,
+        "insurance": 0.1,
+        "real-estate": 0.1,
+        "private-markets": 0.8,
+        "housing": 0.1,
+        "elections-politics": 0.1,
+        "bond-market": 0.3,
+        "valuation": 0.1,
+        "market-timing-dca": 0.1,
+        "nvidia": 2.4,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "cisco": 0.8,
+        "goldman-sachs": 0.8,
+        "berkshire": 0.3,
+        "nasdaq": 0.1
       },
       "entity_sentiment": {
         "ai-infrastructure": -1.0,
+        "private-markets": -1.0,
+        "real-estate": 1.0,
+        "bond-market": -1.0,
+        "housing": 1.0,
+        "market-timing-dca": 1.0,
         "nvidia": -1.0,
         "goldman-sachs": -1.0,
-        "cisco": -1.0
+        "cisco": -1.0,
+        "nasdaq": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "private-markets": 0.0,
+        "banks": -1.0,
+        "semiconductors": -1.0,
+        "elections-politics": -1.0,
+        "bond-market": -1.0,
+        "valuation": -1.0,
+        "nvidia": -1.0,
+        "goldman-sachs": -1.0,
+        "cisco": -1.0,
+        "berkshire": -1.0
+      },
+      "entity_stance": {
+        "market-timing-dca": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, AI Infrastructure, Banks & Financials, Bond Market & Yields, Housing Market, Elections & Politics, Valuation. Mentions Nvidia, Cisco, Goldman Sachs, Berkshire Hathaway, Alphabet / Google. Tone leans bearish (-0.29).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-riskreversal-pod-nvidia-s-backstop-deal-just-made-every-bank-a-bag-holder-da9195.md",
+    "transcript_word_count": 7179,
+    "transcript_language": "en"
   },
   {
     "guid": "0f1eb9a6-3d74-40e5-92c7-c6d051f16b65",
@@ -50864,20 +50933,93 @@
     "duration": "2243",
     "audio_url": "https://mcdn.podbean.com/mf/web/5i5huu9quz8vt92w/BestStocksNow-260804.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "technology",
+        "semiconductors"
+      ],
+      "themes": [
+        "labor-market",
+        "dividends-buybacks",
+        "rates-fed",
+        "inflation",
+        "earnings",
+        "bond-market"
+      ],
+      "stocks": [
+        "nvidia",
+        "microsoft",
+        "amd",
+        "nasdaq",
+        "charles-schwab",
+        "disney",
+        "amazon",
+        "verizon",
+        "salesforce",
+        "broadcom"
+      ],
+      "sentiment": 0.778,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 1,
+        "inflation": 1,
+        "rates-fed": 3,
+        "labor-market": 4,
+        "earnings": 1,
+        "bond-market": 1,
+        "dividends-buybacks": 4,
+        "nvidia": 5,
+        "microsoft": 3,
+        "amazon": 1,
+        "amd": 3,
+        "verizon": 1,
+        "nasdaq": 2,
+        "charles-schwab": 2,
+        "disney": 2,
+        "salesforce": 1,
+        "broadcom": 1
+      },
+      "entity_mention_density": {
+        "technology": 0.4,
+        "semiconductors": 0.2,
+        "inflation": 0.2,
+        "rates-fed": 0.6,
+        "labor-market": 0.8,
+        "earnings": 0.2,
+        "bond-market": 0.2,
+        "dividends-buybacks": 0.8,
+        "nvidia": 0.9,
+        "microsoft": 0.6,
+        "amazon": 0.2,
+        "amd": 0.6,
+        "verizon": 0.2,
+        "nasdaq": 0.4,
+        "charles-schwab": 0.4,
+        "disney": 0.4,
+        "salesforce": 0.2,
+        "broadcom": 0.2
+      },
+      "entity_sentiment": {
+        "labor-market": 1.0,
+        "dividends-buybacks": -1.0,
+        "nasdaq": 1.0,
+        "amd": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "disney": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, Labor Market, Dividends & Buybacks, Interest Rates & Fed Policy, Inflation. Mentions Nvidia, Microsoft, AMD, Nasdaq, Charles Schwab. Tone leans bullish (+0.78).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-04-best-stocks-now-tuesday-aug-4-2026-1ea50f.md",
+    "transcript_word_count": 5272,
+    "transcript_language": "en"
   },
   {
     "guid": "9b8ab9de-0f43-49b6-8c5d-b49c00efeba2",
@@ -54062,42 +54204,61 @@
         "ai-boom"
       ],
       "stocks": [
+        "verizon",
+        "broadcom",
         "bitcoin",
+        "alphabet",
         "amazon",
-        "att",
-        "verizon"
+        "att"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
         "technology": 1,
         "real-estate": 2,
-        "telecoms": 4,
+        "telecoms": 9,
         "industrials": 1,
         "ai-boom": 1,
+        "alphabet": 1,
         "amazon": 1,
         "att": 1,
-        "verizon": 1,
-        "bitcoin": 2
+        "verizon": 8,
+        "bitcoin": 2,
+        "broadcom": 3
       },
       "entity_mention_density": {
-        "technology": 1.9,
-        "real-estate": 3.7,
-        "telecoms": 7.4,
-        "industrials": 1.9,
-        "ai-boom": 1.9,
-        "amazon": 1.9,
-        "att": 1.9,
-        "verizon": 1.9,
-        "bitcoin": 3.7
+        "technology": 0.1,
+        "real-estate": 0.3,
+        "telecoms": 1.2,
+        "industrials": 0.1,
+        "ai-boom": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.1,
+        "att": 0.1,
+        "verizon": 1.1,
+        "bitcoin": 0.3,
+        "broadcom": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "verizon": -1.0
+      },
+      "entity_conviction": {
+        "telecoms": -1.0,
+        "verizon": -1.0,
+        "broadcom": -1.0,
+        "alphabet": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Telecoms, Real Estate, Technology, AI & Machine Learning. Mentions Verizon, Broadcom, Bitcoin, Alphabet / Google, Amazon. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-03-the-investing-for-beginners-podcast-birdseye-view-asts-moonshot-potential-vs-financial-reality-c0e3bf.md",
+    "transcript_word_count": 6696,
+    "transcript_language": "en"
   },
   {
     "guid": "b0f63c44-8790-44c0-8a66-a60515a573aa",
@@ -180684,36 +180845,54 @@
       "sectors": [
         "semiconductors"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking"
+      ],
       "stocks": [
         "berkshire",
         "tsmc",
         "meta",
+        "bitcoin",
         "nasdaq"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.277,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "meta": 1,
-        "tsmc": 2,
-        "berkshire": 4,
+        "semiconductors": 2,
+        "dealmaking": 1,
+        "meta": 2,
+        "tsmc": 5,
+        "berkshire": 18,
+        "bitcoin": 1,
         "nasdaq": 1
       },
       "entity_mention_density": {
-        "semiconductors": 2.9,
-        "meta": 2.9,
-        "tsmc": 5.7,
-        "berkshire": 11.5,
-        "nasdaq": 2.9
+        "semiconductors": 0.3,
+        "dealmaking": 0.2,
+        "meta": 0.3,
+        "tsmc": 0.8,
+        "berkshire": 2.8,
+        "bitcoin": 0.2,
+        "nasdaq": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "bitcoin": 1.0
+      },
+      "entity_conviction": {
+        "berkshire": -1.0,
+        "bitcoin": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, IPOs & Dealmaking. Mentions Berkshire Hathaway, TSMC, Meta, Bitcoin, Nasdaq. Tone leans bullish (+0.28).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-27-equity-mates-investing-podcast-enhanced-games-disappoints-we-re-chasing-warren-buffett-our-af9d48.md",
+    "transcript_word_count": 6095,
+    "transcript_language": "en"
   },
   {
     "guid": "b4d2ccca-5b88-11f1-b10b-1bdd31b2ac0d",
