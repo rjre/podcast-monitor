@@ -34537,30 +34537,57 @@
     "duration": "2323",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/e643843c-4f2c-43dc-89fc-64f70e7ff656/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=e643843c-4f2c-43dc-89fc-64f70e7ff656&feed=hvWWWzRv&t=podcast&e=nx-s1-5885879&p=510289&d=2323&size=37172958",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "insurance",
+        "private-markets"
+      ],
       "themes": [
-        "insurance-products"
+        "insurance-products",
+        "regulation-antitrust",
+        "bond-market",
+        "hedge-funds"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "alphabet"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.333,
+      "sentiment_hits": 2,
+      "sentiment_confidence": 0.333,
       "entity_mentions": {
-        "insurance-products": 4,
-        "meta": 1
+        "insurance": 9,
+        "private-markets": 2,
+        "regulation-antitrust": 1,
+        "bond-market": 1,
+        "hedge-funds": 1,
+        "insurance-products": 42,
+        "alphabet": 1,
+        "meta": 4
       },
       "entity_mention_density": {
-        "insurance-products": 16.7,
-        "meta": 4.2
+        "insurance": 1.2,
+        "private-markets": 0.3,
+        "regulation-antitrust": 0.1,
+        "bond-market": 0.1,
+        "hedge-funds": 0.1,
+        "insurance-products": 5.5,
+        "alphabet": 0.1,
+        "meta": 0.5
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance-products": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Insurance, Private Equity & Credit, Insurance Products, Regulation & Antitrust, Bond Market & Yields, Hedge Funds. Mentions Meta, Alphabet / Google. Tone leans bearish (-0.33) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-14-planet-money-you-bet-your-life-insurance-327204.md",
+    "transcript_word_count": 7329,
+    "transcript_language": "en"
   },
   {
     "guid": "fecb0f4e-05d5-11f1-a338-eb3333c2f0c4",
@@ -77747,51 +77774,115 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a629838562e3ad88619f588/media.mp3",
     "tags": {
       "sectors": [
+        "industrials",
+        "consumer-discretionary",
+        "consumer-staples",
+        "real-estate",
+        "media-entertainment",
         "semiconductors",
-        "consumer-discretionary"
+        "banks"
       ],
       "themes": [
         "emerging-markets",
-        "consumer-health"
+        "inflation",
+        "consumer-health",
+        "rates-fed",
+        "recession",
+        "budgeting-saving",
+        "valuation"
       ],
       "stocks": [
-        "tsmc",
+        "mastercard",
         "nasdaq",
-        "meta",
+        "tsmc",
+        "amazon",
         "vanguard",
-        "mastercard"
+        "meta",
+        "morgan-stanley",
+        "charles-schwab",
+        "paypal"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.556,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
         "semiconductors": 1,
-        "consumer-discretionary": 1,
-        "emerging-markets": 4,
-        "consumer-health": 1,
+        "banks": 1,
+        "consumer-discretionary": 3,
+        "consumer-staples": 3,
+        "real-estate": 3,
+        "industrials": 4,
+        "media-entertainment": 3,
+        "inflation": 2,
+        "rates-fed": 1,
+        "recession": 1,
+        "emerging-markets": 17,
+        "consumer-health": 2,
+        "budgeting-saving": 1,
+        "valuation": 1,
+        "amazon": 2,
         "meta": 1,
-        "tsmc": 2,
-        "nasdaq": 2,
-        "vanguard": 1,
-        "mastercard": 1
+        "tsmc": 3,
+        "morgan-stanley": 1,
+        "nasdaq": 4,
+        "vanguard": 2,
+        "charles-schwab": 1,
+        "paypal": 1,
+        "mastercard": 8
       },
       "entity_mention_density": {
-        "semiconductors": 1.8,
-        "consumer-discretionary": 1.8,
-        "emerging-markets": 7.3,
-        "consumer-health": 1.8,
-        "meta": 1.8,
-        "tsmc": 3.7,
-        "nasdaq": 3.7,
-        "vanguard": 1.8,
-        "mastercard": 1.8
+        "semiconductors": 0.1,
+        "banks": 0.1,
+        "consumer-discretionary": 0.4,
+        "consumer-staples": 0.4,
+        "real-estate": 0.4,
+        "industrials": 0.5,
+        "media-entertainment": 0.4,
+        "inflation": 0.3,
+        "rates-fed": 0.1,
+        "recession": 0.1,
+        "emerging-markets": 2.2,
+        "consumer-health": 0.3,
+        "budgeting-saving": 0.1,
+        "valuation": 0.1,
+        "amazon": 0.3,
+        "meta": 0.1,
+        "tsmc": 0.4,
+        "morgan-stanley": 0.1,
+        "nasdaq": 0.5,
+        "vanguard": 0.3,
+        "charles-schwab": 0.1,
+        "paypal": 0.1,
+        "mastercard": 1.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "consumer-staples": -1.0,
+        "emerging-markets": 1.0,
+        "inflation": -1.0,
+        "recession": -1.0,
+        "mastercard": 1.0,
+        "morgan-stanley": 1.0
+      },
+      "entity_conviction": {
+        "consumer-staples": -1.0,
+        "banks": -1.0,
+        "emerging-markets": -1.0,
+        "inflation": -1.0,
+        "budgeting-saving": -1.0,
+        "tsmc": -1.0,
+        "mastercard": -1.0,
+        "paypal": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Consumer Discretionary, Consumer Staples, Emerging Markets, Inflation, Consumer Health, Interest Rates & Fed Policy. Mentions Mastercard, Nasdaq, TSMC, Amazon, Vanguard. Tone leans bullish (+0.56).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-26-equity-mates-investing-podcast-emerging-middle-class-300-000-new-consumers-every-day-the-de-19f588.md",
+    "transcript_word_count": 7036,
+    "transcript_language": "en"
   },
   {
     "guid": "f314a7d6-1bab-49ac-acfe-27e0a508d376",
@@ -121996,42 +122087,116 @@
     "duration": "3121",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/tracking.swap.fm/track/6bpBPtHL977KJxLX2zPs/traffic.megaphone.fm/GLSS7884553000.mp3?updated=1733520846",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "technology",
+        "energy",
+        "consumer-staples",
+        "autos-ev"
+      ],
       "themes": [
         "inflation",
+        "rates-fed",
         "diversification",
-        "ai-boom"
+        "passive-investing",
+        "budgeting-saving",
+        "market-timing-dca",
+        "ai-boom",
+        "debt-payoff",
+        "career-income",
+        "market-concentration"
       ],
       "stocks": [
+        "berkshire",
+        "amazon",
+        "tesla",
         "bitcoin",
-        "amazon"
+        "nvidia",
+        "costco"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 3,
+        "technology": 1,
+        "energy": 1,
+        "consumer-staples": 1,
+        "real-estate": 3,
+        "autos-ev": 1,
+        "inflation": 26,
+        "rates-fed": 6,
         "ai-boom": 1,
-        "diversification": 3,
-        "amazon": 1,
+        "passive-investing": 2,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
+        "career-income": 1,
+        "market-concentration": 1,
+        "diversification": 5,
+        "market-timing-dca": 2,
+        "nvidia": 1,
+        "amazon": 2,
+        "tesla": 2,
+        "berkshire": 3,
+        "costco": 1,
         "bitcoin": 2
       },
       "entity_mention_density": {
-        "inflation": 5.3,
-        "ai-boom": 1.8,
-        "diversification": 5.3,
-        "amazon": 1.8,
-        "bitcoin": 3.5
+        "technology": 0.1,
+        "energy": 0.1,
+        "consumer-staples": 0.1,
+        "real-estate": 0.4,
+        "autos-ev": 0.1,
+        "inflation": 3.1,
+        "rates-fed": 0.7,
+        "ai-boom": 0.1,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.2,
+        "debt-payoff": 0.1,
+        "career-income": 0.1,
+        "market-concentration": 0.1,
+        "diversification": 0.6,
+        "market-timing-dca": 0.2,
+        "nvidia": 0.1,
+        "amazon": 0.2,
+        "tesla": 0.2,
+        "berkshire": 0.4,
+        "costco": 0.1,
+        "bitcoin": 0.2
       },
       "entity_sentiment": {
         "inflation": -1.0,
-        "diversification": -1.0
+        "diversification": -1.0,
+        "tesla": 1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "energy": -1.0,
+        "consumer-staples": -1.0,
+        "inflation": -0.787,
+        "diversification": -0.667,
+        "market-concentration": -1.0,
+        "budgeting-saving": -0.429,
+        "debt-payoff": -0.429,
+        "passive-investing": -1.0,
+        "rates-fed": 1.0,
+        "career-income": -1.0,
+        "nvidia": -1.0,
+        "berkshire": -0.667,
+        "tesla": -1.0,
+        "costco": 1.0
+      },
+      "entity_stance": {
+        "inflation": "sell"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Technology, Energy & Oil, Inflation, Interest Rates & Fed Policy, Diversification & Asset Allocation, Passive Investing. Mentions Berkshire Hathaway, Amazon, Tesla, Bitcoin, Nvidia. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-06-the-investing-for-beginners-podcast-margin-of-safety-planning-how-to-prepare-for-the-risks-you-d-9a71af.md",
+    "transcript_word_count": 7779,
+    "transcript_language": "en"
   },
   {
     "guid": "2fb93f94-5d92-41dc-94d2-729a105b95d3",
@@ -167429,33 +167594,73 @@
     "duration": "6310",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML6643908951.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "banks",
+        "healthcare"
+      ],
       "themes": [
         "budgeting-saving",
-        "college-savings"
+        "college-savings",
+        "rates-fed",
+        "real-estate-investing",
+        "inflation",
+        "debt-payoff"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "walmart"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": -0.333,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 1,
-        "college-savings": 1,
-        "meta": 2
+        "banks": 1,
+        "healthcare": 1,
+        "real-estate": 2,
+        "inflation": 1,
+        "rates-fed": 4,
+        "budgeting-saving": 18,
+        "debt-payoff": 1,
+        "real-estate-investing": 2,
+        "college-savings": 5,
+        "amazon": 13,
+        "meta": 2,
+        "walmart": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 1.9,
-        "college-savings": 1.9,
-        "meta": 3.9
+        "banks": 0.1,
+        "healthcare": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.2,
+        "budgeting-saving": 1.0,
+        "debt-payoff": 0.1,
+        "real-estate-investing": 0.1,
+        "college-savings": 0.3,
+        "amazon": 0.7,
+        "meta": 0.1,
+        "walmart": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "amazon": -1.0
+      },
+      "entity_conviction": {
+        "college-savings": -1.0,
+        "budgeting-saving": -1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Banks & Financials, Healthcare & Pharma, Budgeting & Saving, College Savings & Student Debt, Interest Rates & Fed Policy, Real Estate Investing. Mentions Amazon, Meta, Walmart. Tone leans bearish (-0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-12-financial-audit-the-most-ghetto-financial-audit-34f326.md",
+    "transcript_word_count": 18238,
+    "transcript_language": "en"
   },
   {
     "guid": "ced494f9-0701-497b-857f-b46700ea04fb",
