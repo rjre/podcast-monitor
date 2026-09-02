@@ -64385,29 +64385,83 @@
     "audio_url": "https://traffic.megaphone.fm/RRM8888737468.mp3",
     "tags": {
       "sectors": [
-        "crypto"
+        "crypto",
+        "private-markets"
       ],
-      "themes": [],
+      "themes": [
+        "regulation-antitrust",
+        "dealmaking",
+        "geopolitics-tariffs",
+        "elections-politics"
+      ],
       "stocks": [
-        "mastercard"
+        "robinhood",
+        "mastercard",
+        "coinbase",
+        "bitcoin",
+        "ethereum",
+        "fidelity",
+        "paypal"
       ],
       "sentiment": 0.0,
       "sentiment_hits": 0,
       "sentiment_confidence": 0.0,
       "entity_mentions": {
-        "crypto": 2,
-        "mastercard": 1
+        "crypto": 50,
+        "private-markets": 2,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 1,
+        "dealmaking": 2,
+        "regulation-antitrust": 3,
+        "coinbase": 2,
+        "bitcoin": 2,
+        "ethereum": 2,
+        "fidelity": 1,
+        "robinhood": 9,
+        "paypal": 1,
+        "mastercard": 5
       },
       "entity_mention_density": {
         "crypto": 7.1,
-        "mastercard": 3.5
+        "private-markets": 0.3,
+        "geopolitics-tariffs": 0.1,
+        "elections-politics": 0.1,
+        "dealmaking": 0.3,
+        "regulation-antitrust": 0.4,
+        "coinbase": 0.3,
+        "bitcoin": 0.3,
+        "ethereum": 0.3,
+        "fidelity": 0.1,
+        "robinhood": 1.3,
+        "paypal": 0.1,
+        "mastercard": 0.7
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -0.984,
+        "private-markets": -1.0,
+        "regulation-antitrust": -1.0,
+        "dealmaking": -1.0,
+        "elections-politics": -1.0,
+        "geopolitics-tariffs": -1.0,
+        "mastercard": -1.0,
+        "bitcoin": -1.0,
+        "ethereum": -1.0,
+        "coinbase": -1.0,
+        "paypal": -1.0,
+        "fidelity": -1.0,
+        "robinhood": -0.949
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Private Equity & Credit, Regulation & Antitrust, IPOs & Dealmaking, Geopolitics & Tariffs, Elections & Politics. Mentions Robinhood, Mastercard, Coinbase, Bitcoin, Ethereum. Tone reads roughly neutral (+0.00) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-riskreversal-pod-stablecoins-tokenization-the-future-of-banking-with-adam-nel-46116c.md",
+    "transcript_word_count": 6729,
+    "transcript_language": "en"
   },
   {
     "guid": "1893decf-f045-4f5b-9ecb-81dbf9c95128",
@@ -140323,26 +140377,147 @@
     "duration": "00:44:03",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/d84e2206-13c2-445d-9d58-4e098eb1a6f1/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=d84e2206-13c2-445d-9d58-4e098eb1a6f1&feed=qltQrd_8",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "rates-fed"
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "crypto",
+        "technology",
+        "industrials",
+        "defense-aerospace"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "elections-politics",
+        "inflation",
+        "diversification"
+      ],
+      "stocks": [
+        "apple",
+        "robinhood",
+        "jpmorgan",
+        "goldman-sachs",
+        "micron",
+        "morgan-stanley",
+        "netflix",
+        "nasdaq",
+        "nvidia",
+        "alphabet",
+        "tesla",
+        "cisco",
+        "amd",
+        "citigroup",
+        "bank-of-america",
+        "boeing",
+        "coinbase",
+        "bitcoin",
+        "blackrock"
+      ],
+      "sentiment": 0.61,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1
+        "technology": 1,
+        "semiconductors": 4,
+        "ai-infrastructure": 6,
+        "industrials": 1,
+        "defense-aerospace": 1,
+        "crypto": 3,
+        "inflation": 2,
+        "rates-fed": 5,
+        "elections-politics": 3,
+        "dealmaking": 7,
+        "diversification": 1,
+        "nvidia": 1,
+        "apple": 7,
+        "alphabet": 1,
+        "tesla": 1,
+        "cisco": 1,
+        "amd": 1,
+        "micron": 3,
+        "jpmorgan": 4,
+        "goldman-sachs": 4,
+        "morgan-stanley": 3,
+        "citigroup": 1,
+        "bank-of-america": 1,
+        "boeing": 1,
+        "coinbase": 1,
+        "bitcoin": 1,
+        "nasdaq": 2,
+        "blackrock": 1,
+        "robinhood": 5,
+        "netflix": 3
       },
       "entity_mention_density": {
-        "rates-fed": 14.7
+        "technology": 0.1,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 0.7,
+        "industrials": 0.1,
+        "defense-aerospace": 0.1,
+        "crypto": 0.4,
+        "inflation": 0.2,
+        "rates-fed": 0.6,
+        "elections-politics": 0.4,
+        "dealmaking": 0.9,
+        "diversification": 0.1,
+        "nvidia": 0.1,
+        "apple": 0.9,
+        "alphabet": 0.1,
+        "tesla": 0.1,
+        "cisco": 0.1,
+        "amd": 0.1,
+        "micron": 0.4,
+        "jpmorgan": 0.5,
+        "goldman-sachs": 0.5,
+        "morgan-stanley": 0.4,
+        "citigroup": 0.1,
+        "bank-of-america": 0.1,
+        "boeing": 0.1,
+        "coinbase": 0.1,
+        "bitcoin": 0.1,
+        "nasdaq": 0.2,
+        "blackrock": 0.1,
+        "robinhood": 0.6,
+        "netflix": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "semiconductors": 1.0,
+        "crypto": -1.0,
+        "defense-aerospace": -1.0,
+        "inflation": 1.0,
+        "dealmaking": 1.0,
+        "jpmorgan": 1.0,
+        "apple": 1.0,
+        "robinhood": 0.333
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "rates-fed": 0.556,
+        "dealmaking": -1.0,
+        "elections-politics": -1.0,
+        "goldman-sachs": -1.0,
+        "morgan-stanley": -1.0,
+        "jpmorgan": -1.0,
+        "bank-of-america": 0.0,
+        "blackrock": 0.0,
+        "apple": -1.0,
+        "netflix": 0.0,
+        "robinhood": -1.0,
+        "coinbase": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Crypto & Digital Assets, IPOs & Dealmaking, Interest Rates & Fed Policy, Elections & Politics, Inflation. Mentions Apple, Robinhood, JPMorgan, Goldman Sachs, Micron. Tone leans bullish (+0.61).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-18-halftime-report-live-at-the-u-s-open-at-shinnecock-hills-6-18-26-202353.md",
+    "transcript_word_count": 8014,
+    "transcript_language": "en"
   },
   {
     "guid": "5d97e1b7-be6e-4550-ad22-b46d01066ee6",
@@ -142691,26 +142866,65 @@
     "duration": "1055",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/50c00f5a-03f5-46df-acb4-b46c010ddf90/audio.mp3?utm_source=Podcast&in_playlist=9739700c-72c3-4176-ae55-ae27003e2b96",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "energy"
+      ],
       "themes": [
-        "rates-fed"
+        "inflation",
+        "rates-fed",
+        "labor-market",
+        "bond-market",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "commodities"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.259,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1
+        "energy": 2,
+        "inflation": 18,
+        "rates-fed": 16,
+        "geopolitics-tariffs": 2,
+        "labor-market": 3,
+        "elections-politics": 2,
+        "commodities": 2,
+        "bond-market": 3
       },
       "entity_mention_density": {
-        "rates-fed": 21.7
+        "energy": 0.5,
+        "inflation": 4.6,
+        "rates-fed": 4.1,
+        "geopolitics-tariffs": 0.5,
+        "labor-market": 0.8,
+        "elections-politics": 0.5,
+        "commodities": 0.5,
+        "bond-market": 0.8
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "inflation": 0.0,
+        "bond-market": 1.0
+      },
+      "entity_conviction": {
+        "energy": -1.0,
+        "rates-fed": -1.0,
+        "inflation": -1.0,
+        "bond-market": -1.0,
+        "commodities": -1.0,
+        "elections-politics": -1.0,
+        "labor-market": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Inflation, Interest Rates & Fed Policy, Labor Market, Bond Market & Yields. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-bloomberg-surveillance-bloomberg-surveillance-tv-june-17th-2026-0ddf90.md",
+    "transcript_word_count": 3839,
+    "transcript_language": "en"
   },
   {
     "guid": "a782292e-6a17-11f1-8fc5-fb25a92183f6",
@@ -220331,26 +220545,105 @@
     "duration": "2548",
     "audio_url": "https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/137/audio3.redcircle.com/episodes/04503254-ad4d-4a56-907c-b8378fa2aed5/stream.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "dealmaking"
+      "sectors": [
+        "consumer-discretionary",
+        "technology",
+        "semiconductors",
+        "energy",
+        "media-entertainment"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "dividends-buybacks",
+        "dealmaking",
+        "earnings",
+        "consumer-health",
+        "recession",
+        "geopolitics-tariffs",
+        "elections-politics",
+        "budgeting-saving"
+      ],
+      "stocks": [
+        "tesla",
+        "nvidia",
+        "microsoft",
+        "bitcoin",
+        "nasdaq",
+        "mastercard"
+      ],
+      "sentiment": 0.174,
+      "sentiment_hits": 23,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "dealmaking": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "energy": 1,
+        "consumer-discretionary": 3,
+        "media-entertainment": 1,
+        "inflation": 16,
+        "rates-fed": 7,
+        "recession": 1,
+        "geopolitics-tariffs": 1,
+        "elections-politics": 1,
+        "dealmaking": 3,
+        "earnings": 2,
+        "consumer-health": 2,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 4,
+        "nvidia": 1,
+        "microsoft": 1,
+        "tesla": 2,
+        "bitcoin": 1,
+        "nasdaq": 1,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "dealmaking": 5.2
+        "technology": 0.2,
+        "semiconductors": 0.2,
+        "energy": 0.2,
+        "consumer-discretionary": 0.5,
+        "media-entertainment": 0.2,
+        "inflation": 2.5,
+        "rates-fed": 1.1,
+        "recession": 0.2,
+        "geopolitics-tariffs": 0.2,
+        "elections-politics": 0.2,
+        "dealmaking": 0.5,
+        "earnings": 0.3,
+        "consumer-health": 0.3,
+        "budgeting-saving": 0.2,
+        "dividends-buybacks": 0.6,
+        "nvidia": 0.2,
+        "microsoft": 0.2,
+        "tesla": 0.3,
+        "bitcoin": 0.2,
+        "nasdaq": 0.2,
+        "mastercard": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "energy": 0.0,
+        "inflation": 0.0,
+        "recession": -1.0,
+        "rates-fed": -1.0,
+        "tesla": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "dealmaking": 1.0,
+        "nasdaq": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Technology, Semiconductors, Inflation, Interest Rates & Fed Policy, Dividends & Buybacks, IPOs & Dealmaking. Mentions Tesla, Nvidia, Microsoft, Bitcoin, Nasdaq. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-06-investtalk-how-to-invest-during-stagflation-what-rising-manufacturing-c-43b0ee.md",
+    "transcript_word_count": 6289,
+    "transcript_language": "en"
   },
   {
     "guid": "414caf0f-2d22-484d-bf60-16f63c674520",
