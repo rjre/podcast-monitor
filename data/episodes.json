@@ -41202,20 +41202,41 @@
     "duration": "01:00:49",
     "audio_url": "https://pscrb.fm/rss/p/traffic.libsyn.com/secure/tedseides/CA_-_EP.330_Matt_B_Art_of_Interview_-_SUMMER_SERIES_2026_-_AUDIO_V2.mp3?dest-id=482814",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "energy"
+      ],
+      "themes": [
+        "hedge-funds",
+        "behavioral-finance"
+      ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
+      "sentiment": 0.167,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
+      "entity_mentions": {
+        "energy": 1,
+        "hedge-funds": 2,
+        "behavioral-finance": 1
+      },
+      "entity_mention_density": {
+        "energy": 0.1,
+        "hedge-funds": 0.2,
+        "behavioral-finance": 0.1
+      },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "behavioral-finance": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Energy & Oil, Hedge Funds, Behavioral Finance & Psychology. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-10-capital-allocators-interdisciplinary-skills-interviewing-the-art-of-the-intervi-70ac80.md",
+    "transcript_word_count": 11903,
+    "transcript_language": "en"
   },
   {
     "guid": "1c7ace2a-8dea-11f1-8ef8-0b12496c8682",
@@ -85220,30 +85241,75 @@
     "duration": "3079",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/d7c8a880-ebac-42db-9c6d-b4860149a028/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "industrials"
+      ],
       "themes": [
-        "fire-movement"
+        "fire-movement",
+        "passive-investing",
+        "consumer-health",
+        "retirement-planning"
       ],
       "stocks": [
-        "meta"
+        "meta",
+        "costco",
+        "microsoft",
+        "alphabet",
+        "walmart"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.5,
+      "sentiment_hits": 3,
+      "sentiment_confidence": 0.5,
       "entity_mentions": {
-        "fire-movement": 1,
-        "meta": 1
+        "consumer-discretionary": 3,
+        "industrials": 1,
+        "passive-investing": 1,
+        "consumer-health": 1,
+        "fire-movement": 3,
+        "retirement-planning": 1,
+        "microsoft": 1,
+        "alphabet": 1,
+        "meta": 3,
+        "costco": 3,
+        "walmart": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.2,
-        "meta": 2.2
+        "consumer-discretionary": 0.3,
+        "industrials": 0.1,
+        "passive-investing": 0.1,
+        "consumer-health": 0.1,
+        "fire-movement": 0.3,
+        "retirement-planning": 0.1,
+        "microsoft": 0.1,
+        "alphabet": 0.1,
+        "meta": 0.3,
+        "costco": 0.3,
+        "walmart": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "costco": 1.0,
+        "alphabet": 1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -1.0,
+        "fire-movement": -1.0,
+        "consumer-health": -1.0,
+        "meta": 0.0,
+        "costco": -1.0,
+        "alphabet": -1.0,
+        "walmart": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Industrials, Financial Independence / FIRE, Passive Investing, Consumer Health, Retirement Planning. Mentions Meta, Costco, Microsoft, Alphabet / Google, Walmart. Tone leans bullish (+0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-how-to-money-the-science-of-smarter-spending-1167-bestie-ep-49a028.md",
+    "transcript_word_count": 11338,
+    "transcript_language": "en"
   },
   {
     "guid": "5247885c-5cd4-47e6-bba8-46830ec22a2e",
@@ -132771,29 +132837,72 @@
     "duration": "00:10:46",
     "audio_url": "https://traffic.megaphone.fm/APO9471511789.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "semiconductors",
+        "ai-infrastructure"
+      ],
       "themes": [
         "rates-fed",
-        "dealmaking"
+        "inflation",
+        "dealmaking",
+        "ai-boom"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "stocks": [
+        "apple",
+        "alphabet",
+        "nasdaq",
+        "disney"
+      ],
+      "sentiment": 0.273,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "rates-fed": 1,
-        "dealmaking": 1
+        "technology": 1,
+        "semiconductors": 1,
+        "ai-infrastructure": 1,
+        "inflation": 4,
+        "rates-fed": 20,
+        "ai-boom": 1,
+        "dealmaking": 4,
+        "apple": 3,
+        "alphabet": 1,
+        "nasdaq": 1,
+        "disney": 1
       },
       "entity_mention_density": {
-        "rates-fed": 7.9,
-        "dealmaking": 7.9
+        "technology": 0.4,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 0.4,
+        "inflation": 1.7,
+        "rates-fed": 8.5,
+        "ai-boom": 0.4,
+        "dealmaking": 1.7,
+        "apple": 1.3,
+        "alphabet": 0.4,
+        "nasdaq": 0.4,
+        "disney": 0.4
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "technology": 1.0,
+        "rates-fed": 1.0,
+        "dealmaking": 0.0,
+        "nasdaq": 1.0
+      },
+      "entity_conviction": {
+        "technology": 1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Semiconductors, AI Infrastructure, Interest Rates & Fed Policy, Inflation, IPOs & Dealmaking, AI & Machine Learning. Mentions Apple, Alphabet / Google, Nasdaq, Disney. Tone leans bullish (+0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-the-rundown-spacex-shares-drop-for-third-straight-day-apple-price-hikes-91c854.md",
+    "transcript_word_count": 2226,
+    "transcript_language": "en"
   },
   {
     "guid": "98e55f57-e4d7-4962-a98b-00879a84acf2",
@@ -177680,29 +177789,81 @@
     "audio_url": "https://pdst.fm/e/mgln.ai/e/890/pscrb.fm/rss/p/traffic.megaphone.fm/RM6634541001.mp3",
     "tags": {
       "sectors": [
+        "real-estate",
         "healthcare"
       ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "college-savings",
+        "debt-payoff",
+        "insurance-products",
+        "rates-fed",
+        "estate-planning",
+        "housing",
+        "retirement-planning",
+        "career-income"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "alphabet",
+        "disney"
+      ],
+      "sentiment": 0.6,
+      "sentiment_hits": 15,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "healthcare": 1,
-        "budgeting-saving": 1
+        "healthcare": 3,
+        "real-estate": 12,
+        "rates-fed": 3,
+        "housing": 1,
+        "budgeting-saving": 25,
+        "debt-payoff": 10,
+        "retirement-planning": 1,
+        "career-income": 1,
+        "estate-planning": 3,
+        "college-savings": 16,
+        "insurance-products": 6,
+        "alphabet": 2,
+        "disney": 1
       },
       "entity_mention_density": {
-        "healthcare": 2.5,
-        "budgeting-saving": 2.5
+        "healthcare": 0.1,
+        "real-estate": 0.6,
+        "rates-fed": 0.1,
+        "housing": 0.0,
+        "budgeting-saving": 1.2,
+        "debt-payoff": 0.5,
+        "retirement-planning": 0.0,
+        "career-income": 0.0,
+        "estate-planning": 0.1,
+        "college-savings": 0.7,
+        "insurance-products": 0.3,
+        "alphabet": 0.1,
+        "disney": 0.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "real-estate": 1.0,
+        "debt-payoff": 0.0,
+        "estate-planning": 1.0,
+        "insurance-products": 1.0
+      },
+      "entity_conviction": {
+        "healthcare": -1.0,
+        "real-estate": 1.0,
+        "debt-payoff": -1.0,
+        "rates-fed": 1.0,
+        "retirement-planning": 1.0,
+        "disney": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Healthcare & Pharma, Budgeting & Saving, College Savings & Student Debt, Debt Payoff, Insurance Products. Mentions Alphabet / Google, Disney. Tone leans bullish (+0.60).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-29-the-ramsey-show-fix-the-money-mess-that-s-stressing-you-out-d44523.md",
+    "transcript_word_count": 21002,
+    "transcript_language": "en"
   },
   {
     "guid": "ef578f2f-8f03-4454-92c4-8e8ad2f0d4aa",
