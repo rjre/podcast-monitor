@@ -64598,26 +64598,72 @@
     "duration": "490",
     "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/RM7120793840.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "budgeting-saving"
+      "sectors": [
+        "technology",
+        "crypto"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "budgeting-saving",
+        "inflation",
+        "recession",
+        "retirement-planning",
+        "dividends-buybacks",
+        "market-concentration",
+        "small-caps-value-growth",
+        "diversification",
+        "market-timing-dca"
+      ],
+      "stocks": [
+        "meta"
+      ],
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "technology": 1,
+        "crypto": 1,
+        "inflation": 1,
+        "recession": 1,
+        "budgeting-saving": 2,
+        "retirement-planning": 1,
+        "dividends-buybacks": 1,
+        "market-concentration": 1,
+        "small-caps-value-growth": 1,
+        "diversification": 1,
+        "market-timing-dca": 1,
+        "meta": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.8
+        "technology": 0.6,
+        "crypto": 0.6,
+        "inflation": 0.6,
+        "recession": 0.6,
+        "budgeting-saving": 1.2,
+        "retirement-planning": 0.6,
+        "dividends-buybacks": 0.6,
+        "market-concentration": 0.6,
+        "small-caps-value-growth": 0.6,
+        "diversification": 0.6,
+        "market-timing-dca": 0.6,
+        "meta": 0.6
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "technology": -1.0,
+        "recession": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, Crypto & Digital Assets, Budgeting & Saving, Inflation, Recession Risk, Retirement Planning. Mentions Meta. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-29-ramsey-everyday-millionaires-here-s-how-to-pick-the-right-investments-808eeb.md",
+    "transcript_word_count": 1548,
+    "transcript_language": "en"
   },
   {
     "guid": "6a69c7766043035f89eb097f",
@@ -119469,20 +119515,111 @@
     "duration": "2246",
     "audio_url": "https://mcdn.podbean.com/mf/web/n4re58tk4tbh89eu/BestStocksNow-260630.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "semiconductors",
+        "energy",
+        "airlines-travel"
+      ],
+      "themes": [
+        "rates-fed",
+        "inflation",
+        "commodities",
+        "budgeting-saving",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "bond-market"
+      ],
+      "stocks": [
+        "nasdaq",
+        "tesla",
+        "boeing",
+        "bitcoin",
+        "nvidia",
+        "charles-schwab",
+        "micron",
+        "morgan-stanley",
+        "citigroup",
+        "bank-of-america"
+      ],
+      "sentiment": -0.273,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "semiconductors": 8,
+        "energy": 2,
+        "airlines-travel": 1,
+        "inflation": 7,
+        "rates-fed": 8,
+        "geopolitics-tariffs": 1,
+        "commodities": 2,
+        "dealmaking": 1,
+        "bond-market": 1,
+        "budgeting-saving": 2,
+        "nvidia": 2,
+        "tesla": 6,
+        "micron": 1,
+        "morgan-stanley": 1,
+        "citigroup": 1,
+        "bank-of-america": 1,
+        "boeing": 5,
+        "bitcoin": 4,
+        "nasdaq": 10,
+        "charles-schwab": 2
+      },
+      "entity_mention_density": {
+        "semiconductors": 1.5,
+        "energy": 0.4,
+        "airlines-travel": 0.2,
+        "inflation": 1.3,
+        "rates-fed": 1.5,
+        "geopolitics-tariffs": 0.2,
+        "commodities": 0.4,
+        "dealmaking": 0.2,
+        "bond-market": 0.2,
+        "budgeting-saving": 0.4,
+        "nvidia": 0.4,
+        "tesla": 1.1,
+        "micron": 0.2,
+        "morgan-stanley": 0.2,
+        "citigroup": 0.2,
+        "bank-of-america": 0.2,
+        "boeing": 0.9,
+        "bitcoin": 0.7,
+        "nasdaq": 1.9,
+        "charles-schwab": 0.4
+      },
+      "entity_sentiment": {
+        "energy": -0.333,
+        "inflation": -0.5,
+        "bond-market": -1.0,
+        "rates-fed": -0.333,
+        "commodities": -0.333,
+        "morgan-stanley": -0.333,
+        "citigroup": -0.333,
+        "bank-of-america": -0.333
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "energy": -1.0,
+        "inflation": -1.0,
+        "rates-fed": -1.0,
+        "commodities": -1.0,
+        "nasdaq": -1.0,
+        "morgan-stanley": -1.0,
+        "citigroup": -1.0,
+        "bank-of-america": -1.0,
+        "boeing": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, Airlines & Travel, Interest Rates & Fed Policy, Inflation, Commodities, Budgeting & Saving. Mentions Nasdaq, Tesla, Boeing, Bitcoin, Nvidia. Tone leans bearish (-0.27).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-30-best-stocks-now-tuesday-june-30-2026-be74e8.md",
+    "transcript_word_count": 5401,
+    "transcript_language": "en"
   },
   {
     "guid": "98bd46bd-40ee-4d9a-8de3-9f8d91b88d61",
@@ -156319,26 +156456,98 @@
     "duration": "4814",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/traffic.megaphone.fm/PPLLC5724149332.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [
-        "meta"
+      "sectors": [
+        "crypto",
+        "real-estate",
+        "ai-infrastructure",
+        "insurance",
+        "industrials",
+        "private-markets"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "dividends-buybacks",
+        "small-caps-value-growth",
+        "rates-fed",
+        "recession"
+      ],
+      "stocks": [
+        "alphabet",
+        "tesla",
+        "bitcoin",
+        "amazon",
+        "meta",
+        "paypal"
+      ],
+      "sentiment": 0.108,
+      "sentiment_hits": 16,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "meta": 1
+        "ai-infrastructure": 1,
+        "insurance": 1,
+        "real-estate": 2,
+        "industrials": 1,
+        "crypto": 3,
+        "private-markets": 1,
+        "rates-fed": 1,
+        "recession": 1,
+        "dealmaking": 44,
+        "dividends-buybacks": 2,
+        "small-caps-value-growth": 2,
+        "alphabet": 3,
+        "amazon": 1,
+        "meta": 1,
+        "tesla": 3,
+        "bitcoin": 2,
+        "paypal": 1
       },
       "entity_mention_density": {
-        "meta": 2.4
+        "ai-infrastructure": 0.1,
+        "insurance": 0.1,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "crypto": 0.2,
+        "private-markets": 0.1,
+        "rates-fed": 0.1,
+        "recession": 0.1,
+        "dealmaking": 2.5,
+        "dividends-buybacks": 0.1,
+        "small-caps-value-growth": 0.1,
+        "alphabet": 0.2,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.2,
+        "bitcoin": 0.1,
+        "paypal": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
-      "entity_stance": {},
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "real-estate": -1.0,
+        "dealmaking": 0.0,
+        "dividends-buybacks": 1.0,
+        "recession": -1.0
+      },
+      "entity_conviction": {
+        "crypto": 0.167,
+        "real-estate": -1.0,
+        "private-markets": 1.0,
+        "small-caps-value-growth": 1.0,
+        "dealmaking": -0.321,
+        "recession": 0.429,
+        "alphabet": 1.0
+      },
+      "entity_stance": {
+        "dealmaking": "buy"
+      },
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Crypto & Digital Assets, Real Estate, AI Infrastructure, IPOs & Dealmaking, Dividends & Buybacks, Small-Caps, Value & Growth, Interest Rates & Fed Policy. Mentions Alphabet / Google, Tesla, Bitcoin, Amazon, Meta. Tone reads roughly neutral (+0.11).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-11-the-investor-s-podcast-we-study-billionaires-tip822-qxo-qxo-can-one-of-the-world-s-best-consolidators-str-cd1076.md",
+    "transcript_word_count": 16877,
+    "transcript_language": "en"
   },
   {
     "guid": "8fec7f52-fd9e-4da3-997a-968a9e7b0885",
@@ -163879,35 +164088,114 @@
     "tags": {
       "sectors": [
         "semiconductors",
-        "ai-infrastructure"
+        "energy",
+        "technology",
+        "airlines-travel",
+        "private-markets",
+        "ai-infrastructure",
+        "banks"
       ],
       "themes": [
-        "emerging-markets"
+        "emerging-markets",
+        "inflation",
+        "hedge-funds",
+        "rates-fed",
+        "regulation-antitrust",
+        "dividends-buybacks",
+        "commodities",
+        "budgeting-saving",
+        "market-concentration"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "stocks": [
+        "alphabet",
+        "amazon",
+        "microsoft",
+        "nvidia",
+        "amd",
+        "exxon",
+        "costco"
+      ],
+      "sentiment": -0.312,
+      "sentiment_hits": 32,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "semiconductors": 1,
-        "ai-infrastructure": 1,
-        "emerging-markets": 1
+        "technology": 4,
+        "semiconductors": 12,
+        "ai-infrastructure": 2,
+        "banks": 1,
+        "energy": 5,
+        "airlines-travel": 4,
+        "private-markets": 4,
+        "inflation": 3,
+        "rates-fed": 2,
+        "commodities": 1,
+        "regulation-antitrust": 2,
+        "hedge-funds": 3,
+        "emerging-markets": 7,
+        "budgeting-saving": 1,
+        "dividends-buybacks": 2,
+        "market-concentration": 1,
+        "nvidia": 3,
+        "microsoft": 4,
+        "alphabet": 5,
+        "amazon": 5,
+        "amd": 3,
+        "exxon": 2,
+        "costco": 1
       },
       "entity_mention_density": {
-        "semiconductors": 7.5,
-        "ai-infrastructure": 7.5,
-        "emerging-markets": 7.5
+        "technology": 0.3,
+        "semiconductors": 0.9,
+        "ai-infrastructure": 0.1,
+        "banks": 0.1,
+        "energy": 0.4,
+        "airlines-travel": 0.3,
+        "private-markets": 0.3,
+        "inflation": 0.2,
+        "rates-fed": 0.1,
+        "commodities": 0.1,
+        "regulation-antitrust": 0.1,
+        "hedge-funds": 0.2,
+        "emerging-markets": 0.5,
+        "budgeting-saving": 0.1,
+        "dividends-buybacks": 0.1,
+        "market-concentration": 0.1,
+        "nvidia": 0.2,
+        "microsoft": 0.3,
+        "alphabet": 0.4,
+        "amazon": 0.4,
+        "amd": 0.2,
+        "exxon": 0.1,
+        "costco": 0.1
       },
       "entity_sentiment": {
-        "semiconductors": -1.0,
+        "semiconductors": -0.333,
         "ai-infrastructure": -1.0,
-        "emerging-markets": -1.0
+        "banks": -1.0,
+        "energy": 1.0,
+        "technology": 1.0,
+        "airlines-travel": -1.0,
+        "emerging-markets": -1.0,
+        "regulation-antitrust": 1.0,
+        "hedge-funds": -1.0,
+        "microsoft": 1.0,
+        "amazon": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "microsoft": -1.0,
+        "amazon": -0.667
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Semiconductors, Energy & Oil, Technology, Emerging Markets, Inflation, Hedge Funds, Interest Rates & Fed Policy. Mentions Alphabet / Google, Amazon, Microsoft, Nvidia, AMD. Tone leans bearish (-0.31).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-capital-allocators-contrarian-quality-at-gqg-partners-rajiv-jain-ep-505-fb1799.md",
+    "transcript_word_count": 13472,
+    "transcript_language": "en"
   },
   {
     "guid": "ac0130e0-5c1f-11f1-bed9-2f4c6247eabd",
