@@ -121643,26 +121643,41 @@
     "duration": "550",
     "audio_url": "https://traffic.megaphone.fm/OLD2212196549.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "healthcare",
+        "industrials"
+      ],
       "themes": [
         "budgeting-saving"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 2
+        "healthcare": 1,
+        "industrials": 1,
+        "budgeting-saving": 10
       },
       "entity_mention_density": {
-        "budgeting-saving": 11.5
+        "healthcare": 0.6,
+        "industrials": 0.6,
+        "budgeting-saving": 5.8
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "budgeting-saving": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Healthcare & Pharma, Industrials, Budgeting & Saving. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-03-optimal-finance-daily-3616-5-best-ways-to-save-money-on-your-automotive-expenses-b-67f747.md",
+    "transcript_word_count": 1561,
+    "transcript_language": "en"
   },
   {
     "guid": "364693a4-765f-11f1-a668-d71e4ebebb2c",
@@ -144560,25 +144575,142 @@
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/26b7b638-4673-47c3-a344-1eb24efbcfff/episodes/be64e9b8-c819-42a0-96c1-518387de0be2/audio/128/default.mp3?aid=rss_feed&awCollectionId=26b7b638-4673-47c3-a344-1eb24efbcfff&awEpisodeId=be64e9b8-c819-42a0-96c1-518387de0be2&feed=qltQrd_8",
     "tags": {
       "sectors": [
-        "energy"
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "energy",
+        "utilities",
+        "private-markets"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "bond-market",
+        "market-concentration",
+        "inflation",
+        "ai-boom",
+        "commodities",
+        "valuation",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "tesla",
+        "amazon",
+        "alphabet",
+        "nasdaq",
+        "microsoft",
+        "meta",
+        "jpmorgan",
+        "morgan-stanley",
+        "chevron",
+        "charles-schwab",
+        "blackrock",
+        "netflix",
+        "salesforce",
+        "oracle"
+      ],
+      "sentiment": 0.254,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "energy": 1
+        "technology": 2,
+        "semiconductors": 3,
+        "ai-infrastructure": 11,
+        "energy": 2,
+        "utilities": 1,
+        "private-markets": 1,
+        "inflation": 1,
+        "rates-fed": 5,
+        "ai-boom": 1,
+        "commodities": 1,
+        "dealmaking": 13,
+        "bond-market": 3,
+        "valuation": 1,
+        "market-concentration": 3,
+        "small-caps-value-growth": 1,
+        "microsoft": 3,
+        "alphabet": 6,
+        "amazon": 7,
+        "meta": 1,
+        "tesla": 9,
+        "jpmorgan": 1,
+        "morgan-stanley": 1,
+        "chevron": 1,
+        "nasdaq": 4,
+        "charles-schwab": 1,
+        "blackrock": 1,
+        "netflix": 1,
+        "salesforce": 1,
+        "oracle": 1
       },
       "entity_mention_density": {
-        "energy": 15.6
+        "technology": 0.3,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 1.4,
+        "energy": 0.3,
+        "utilities": 0.1,
+        "private-markets": 0.1,
+        "inflation": 0.1,
+        "rates-fed": 0.6,
+        "ai-boom": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 1.6,
+        "bond-market": 0.4,
+        "valuation": 0.1,
+        "market-concentration": 0.4,
+        "small-caps-value-growth": 0.1,
+        "microsoft": 0.4,
+        "alphabet": 0.8,
+        "amazon": 0.9,
+        "meta": 0.1,
+        "tesla": 1.1,
+        "jpmorgan": 0.1,
+        "morgan-stanley": 0.1,
+        "chevron": 0.1,
+        "nasdaq": 0.5,
+        "charles-schwab": 0.1,
+        "blackrock": 0.1,
+        "netflix": 0.1,
+        "salesforce": 0.1,
+        "oracle": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "semiconductors": 1.0,
+        "dealmaking": 0.333,
+        "rates-fed": -1.0,
+        "nasdaq": -1.0,
+        "tesla": -1.0,
+        "jpmorgan": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "private-markets": -1.0,
+        "semiconductors": 0.333,
+        "technology": -1.0,
+        "utilities": -1.0,
+        "dealmaking": -0.655,
+        "ai-boom": -1.0,
+        "valuation": 1.0,
+        "bond-market": -1.0,
+        "small-caps-value-growth": -1.0,
+        "nasdaq": -1.0,
+        "amazon": -1.0,
+        "tesla": -1.0,
+        "oracle": -1.0,
+        "microsoft": -1.0,
+        "chevron": -1.0,
+        "charles-schwab": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, IPOs & Dealmaking, Interest Rates & Fed Policy, Bond Market & Yields, Market Concentration / Mega-cap. Mentions Tesla, Amazon, Alphabet / Google, Nasdaq, Microsoft. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-halftime-report-state-of-the-record-run-6-22-26-acfd45.md",
+    "transcript_word_count": 7931,
+    "transcript_language": "en"
   },
   {
     "guid": "7a4fac13-a18d-466d-b463-77c30191c854",
@@ -146104,30 +146236,73 @@
     "duration": "3314",
     "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/63841c13-0d18-43da-80af-ae320005b8a3/32c06f47-38cb-48c4-88a3-b44a01467f6b/audio.mp3?utm_source=Podcast&in_playlist=ac04f6c2-caa5-49c7-9e23-ae320005b8ad",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "real-estate",
+        "energy"
+      ],
       "themes": [
+        "real-estate-investing",
+        "budgeting-saving",
+        "retirement-planning",
+        "labor-market",
         "fire-movement"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "blackrock"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 1.0,
+      "sentiment_hits": 11,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
+        "energy": 1,
+        "consumer-discretionary": 4,
+        "real-estate": 3,
+        "labor-market": 1,
+        "budgeting-saving": 3,
         "fire-movement": 1,
-        "meta": 1
+        "retirement-planning": 3,
+        "real-estate-investing": 4,
+        "amazon": 2,
+        "meta": 2,
+        "blackrock": 1
       },
       "entity_mention_density": {
-        "fire-movement": 2.6,
-        "meta": 2.6
+        "energy": 0.1,
+        "consumer-discretionary": 0.3,
+        "real-estate": 0.3,
+        "labor-market": 0.1,
+        "budgeting-saving": 0.3,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.3,
+        "real-estate-investing": 0.3,
+        "amazon": 0.2,
+        "meta": 0.2,
+        "blackrock": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "labor-market": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -0.412,
+        "consumer-discretionary": -1.0,
+        "real-estate-investing": -1.0,
+        "labor-market": -0.667,
+        "budgeting-saving": 1.0,
+        "amazon": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Real Estate, Energy & Oil, Real Estate Investing, Budgeting & Saving, Retirement Planning, Labor Market. Mentions Amazon, Meta, BlackRock. Tone leans bullish (+1.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-22-how-to-money-ask-htm-looking-a-gift-house-in-the-mouth-prepaid-visas-weal-467f6b.md",
+    "transcript_word_count": 11449,
+    "transcript_language": "en"
   },
   {
     "guid": "a97d2a31-88be-4c14-9ede-b208f3090cac",
@@ -174400,26 +174575,67 @@
     "duration": "3796",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL1453744799.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "real-estate"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "fire-movement",
+        "college-savings",
+        "insurance-products",
+        "dividends-buybacks",
+        "inflation",
+        "retirement-planning"
       ],
       "stocks": [],
       "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "consumer-discretionary": 2,
+        "real-estate": 1,
+        "inflation": 1,
+        "budgeting-saving": 18,
+        "fire-movement": 6,
+        "retirement-planning": 1,
+        "dividends-buybacks": 2,
+        "college-savings": 3,
+        "insurance-products": 3
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.0
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.1,
+        "inflation": 0.1,
+        "budgeting-saving": 1.4,
+        "fire-movement": 0.5,
+        "retirement-planning": 0.1,
+        "dividends-buybacks": 0.2,
+        "college-savings": 0.2,
+        "insurance-products": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "consumer-discretionary": -0.871,
+        "budgeting-saving": -0.398,
+        "college-savings": 0.259,
+        "fire-movement": -0.818,
+        "insurance-products": 1.0,
+        "dividends-buybacks": 0.429,
+        "inflation": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Real Estate, Budgeting & Saving, Financial Independence / FIRE, College Savings & Student Debt, Insurance Products. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-08-money-guy-show-they-want-to-cut-their-income-by-50-is-it-possible-a90deb.md",
+    "transcript_word_count": 12398,
+    "transcript_language": "en"
   },
   {
     "guid": "bf8bfeeb-fe80-4e13-b84d-cb2aa5c959c4",
