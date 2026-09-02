@@ -39489,20 +39489,141 @@
     "duration": "00:42:45",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/04f0d741-80e7-4bb4-9be4-a4fcc61db758/episodes/fa812bc8-f8ed-4f7f-80a8-97eb898beb89/audio/128/default.mp3?aid=rss_feed&awCollectionId=04f0d741-80e7-4bb4-9be4-a4fcc61db758&awEpisodeId=fa812bc8-f8ed-4f7f-80a8-97eb898beb89&feed=Bt3ITxGl",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "real-estate",
+        "technology",
+        "banks",
+        "materials-mining",
+        "energy",
+        "consumer-discretionary",
+        "industrials"
+      ],
+      "themes": [
+        "inflation",
+        "dealmaking",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "diversification",
+        "elections-politics",
+        "bond-market",
+        "ai-boom",
+        "recession",
+        "labor-market",
+        "commodities",
+        "earnings",
+        "budgeting-saving",
+        "debt-payoff",
+        "retirement-planning",
+        "college-savings"
+      ],
+      "stocks": [
+        "cisco",
+        "nvidia",
+        "nasdaq"
+      ],
+      "sentiment": 0.328,
+      "sentiment_hits": 28,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 8,
+        "ai-infrastructure": 17,
+        "banks": 2,
+        "energy": 1,
+        "consumer-discretionary": 1,
+        "real-estate": 4,
+        "industrials": 1,
+        "materials-mining": 2,
+        "inflation": 20,
+        "rates-fed": 6,
+        "ai-boom": 1,
+        "recession": 1,
+        "geopolitics-tariffs": 5,
+        "labor-market": 1,
+        "elections-politics": 4,
+        "commodities": 1,
+        "dealmaking": 7,
+        "earnings": 1,
+        "bond-market": 2,
+        "budgeting-saving": 1,
+        "debt-payoff": 1,
+        "retirement-planning": 1,
+        "diversification": 5,
+        "college-savings": 1,
+        "nvidia": 8,
+        "cisco": 10,
+        "nasdaq": 3
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 1.0,
+        "ai-infrastructure": 2.1,
+        "banks": 0.2,
+        "energy": 0.1,
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.5,
+        "industrials": 0.1,
+        "materials-mining": 0.2,
+        "inflation": 2.4,
+        "rates-fed": 0.7,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "geopolitics-tariffs": 0.6,
+        "labor-market": 0.1,
+        "elections-politics": 0.5,
+        "commodities": 0.1,
+        "dealmaking": 0.9,
+        "earnings": 0.1,
+        "bond-market": 0.2,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.1,
+        "diversification": 0.6,
+        "college-savings": 0.1,
+        "nvidia": 1.0,
+        "cisco": 1.2,
+        "nasdaq": 0.4
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 0.0,
+        "technology": 1.0,
+        "industrials": 1.0,
+        "real-estate": -1.0,
+        "ai-boom": 1.0,
+        "inflation": 1.0,
+        "rates-fed": 1.0,
+        "debt-payoff": -1.0,
+        "college-savings": -1.0,
+        "recession": -1.0,
+        "nasdaq": 1.0,
+        "cisco": 0.333,
+        "nvidia": 1.0
+      },
+      "entity_conviction": {
+        "semiconductors": -1.0,
+        "ai-infrastructure": -0.63,
+        "consumer-discretionary": -1.0,
+        "real-estate": -1.0,
+        "inflation": -0.818,
+        "rates-fed": -1.0,
+        "labor-market": -0.667,
+        "diversification": -1.0,
+        "elections-politics": -1.0,
+        "recession": -1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Real Estate, Inflation, IPOs & Dealmaking, Interest Rates & Fed Policy, Geopolitics & Tariffs. Mentions Cisco, Nvidia, Nasdaq. Tone leans bullish (+0.33).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-13-morning-call-morning-call-8-13-26-0c97f1.md",
+    "transcript_word_count": 8126,
+    "transcript_language": "en"
   },
   {
     "guid": "e5d49648-96fa-11f1-acd6-eb9e8827f696",
@@ -88421,30 +88542,73 @@
     "duration": "6681",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML2284047255.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "private-markets",
+        "industrials"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "debt-payoff",
+        "rates-fed",
+        "college-savings"
       ],
       "stocks": [
-        "meta"
+        "amazon",
+        "meta",
+        "alphabet",
+        "walmart",
+        "netflix"
       ],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.2,
+      "sentiment_hits": 10,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "meta": 2
+        "real-estate": 4,
+        "industrials": 1,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "budgeting-saving": 16,
+        "debt-payoff": 3,
+        "college-savings": 1,
+        "alphabet": 1,
+        "amazon": 10,
+        "meta": 6,
+        "walmart": 1,
+        "netflix": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 3.8,
-        "meta": 3.8
+        "real-estate": 0.2,
+        "industrials": 0.0,
+        "private-markets": 0.1,
+        "rates-fed": 0.0,
+        "budgeting-saving": 0.8,
+        "debt-payoff": 0.1,
+        "college-savings": 0.0,
+        "alphabet": 0.0,
+        "amazon": 0.5,
+        "meta": 0.3,
+        "walmart": 0.0,
+        "netflix": 0.0
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "debt-payoff": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "budgeting-saving": -1.0,
+        "amazon": -0.333
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Private Equity & Credit, Industrials, Budgeting & Saving, Debt Payoff, Interest Rates & Fed Policy, College Savings & Student Debt. Mentions Amazon, Meta, Alphabet / Google, Walmart, Netflix. Tone leans bullish (+0.20).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-22-financial-audit-i-hate-his-b-tch-wife-financial-audit-102878.md",
+    "transcript_word_count": 20600,
+    "transcript_language": "en"
   },
   {
     "guid": "725d4b84-84d4-11f1-906a-df4868536573",
@@ -120236,31 +120400,87 @@
     "duration": "4163",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL8427352627.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "banks",
+        "insurance",
+        "real-estate"
+      ],
       "themes": [
         "retirement-planning",
-        "inflation"
+        "fire-movement",
+        "inflation",
+        "budgeting-saving",
+        "housing",
+        "debt-payoff",
+        "diversification",
+        "insurance-products",
+        "market-timing-dca"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "stocks": [
+        "amazon",
+        "vanguard",
+        "fidelity"
+      ],
+      "sentiment": 0.857,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 1,
-        "retirement-planning": 3
+        "banks": 2,
+        "insurance": 1,
+        "real-estate": 1,
+        "inflation": 3,
+        "housing": 1,
+        "budgeting-saving": 2,
+        "debt-payoff": 1,
+        "fire-movement": 8,
+        "retirement-planning": 16,
+        "diversification": 1,
+        "insurance-products": 1,
+        "market-timing-dca": 1,
+        "amazon": 2,
+        "vanguard": 2,
+        "fidelity": 2
       },
       "entity_mention_density": {
-        "inflation": 4.8,
-        "retirement-planning": 14.3
+        "banks": 0.1,
+        "insurance": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.2,
+        "housing": 0.1,
+        "budgeting-saving": 0.1,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.6,
+        "retirement-planning": 1.2,
+        "diversification": 0.1,
+        "insurance-products": 0.1,
+        "market-timing-dca": 0.1,
+        "amazon": 0.1,
+        "vanguard": 0.1,
+        "fidelity": 0.1
       },
       "entity_sentiment": {
-        "retirement-planning": 1.0
+        "retirement-planning": 1.0,
+        "insurance-products": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "insurance": -0.5,
+        "real-estate": -0.5,
+        "retirement-planning": -1.0,
+        "inflation": -1.0,
+        "fire-movement": -0.286,
+        "housing": -0.5,
+        "insurance-products": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Banks & Financials, Insurance, Real Estate, Retirement Planning, Financial Independence / FIRE, Inflation, Budgeting & Saving. Mentions Amazon, Vanguard, Fidelity. Tone leans bullish (+0.86).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-08-money-guy-show-we-changed-the-4-rule-e805aa.md",
+    "transcript_word_count": 13669,
+    "transcript_language": "en"
   },
   {
     "guid": "754dde5f-e17d-4db2-8f84-90b63c18bab6",
@@ -158979,32 +159199,113 @@
     "audio_url": "https://traffic.megaphone.fm/RRM4794594505.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "technology",
+        "banks",
+        "insurance",
+        "energy",
+        "industrials"
       ],
-      "themes": [],
+      "themes": [
+        "dealmaking",
+        "earnings",
+        "commodities",
+        "market-concentration",
+        "diversification"
+      ],
       "stocks": [
-        "nvidia"
+        "nvidia",
+        "alphabet",
+        "amazon",
+        "microsoft",
+        "nasdaq",
+        "cisco",
+        "meta",
+        "robinhood"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 3,
-      "sentiment_confidence": 0.5,
+      "sentiment": -0.579,
+      "sentiment_hits": 22,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 2,
-        "nvidia": 3
+        "technology": 4,
+        "ai-infrastructure": 20,
+        "banks": 2,
+        "insurance": 2,
+        "energy": 1,
+        "industrials": 1,
+        "commodities": 1,
+        "dealmaking": 4,
+        "earnings": 2,
+        "market-concentration": 1,
+        "diversification": 1,
+        "nvidia": 14,
+        "microsoft": 7,
+        "alphabet": 11,
+        "amazon": 9,
+        "meta": 1,
+        "cisco": 2,
+        "nasdaq": 4,
+        "robinhood": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 5.0,
-        "nvidia": 7.5
+        "technology": 0.4,
+        "ai-infrastructure": 2.1,
+        "banks": 0.2,
+        "insurance": 0.2,
+        "energy": 0.1,
+        "industrials": 0.1,
+        "commodities": 0.1,
+        "dealmaking": 0.4,
+        "earnings": 0.2,
+        "market-concentration": 0.1,
+        "diversification": 0.1,
+        "nvidia": 1.5,
+        "microsoft": 0.7,
+        "alphabet": 1.2,
+        "amazon": 0.9,
+        "meta": 0.1,
+        "cisco": 0.2,
+        "nasdaq": 0.4,
+        "robinhood": 0.1
       },
       "entity_sentiment": {
         "ai-infrastructure": -1.0,
-        "nvidia": -0.333
+        "technology": -1.0,
+        "insurance": -1.0,
+        "nvidia": -0.63,
+        "amazon": -1.0,
+        "meta": -1.0,
+        "cisco": -1.0,
+        "nasdaq": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -0.901,
+        "energy": -1.0,
+        "banks": -1.0,
+        "technology": -1.0,
+        "insurance": -1.0,
+        "industrials": -1.0,
+        "commodities": -1.0,
+        "market-concentration": -1.0,
+        "dealmaking": -1.0,
+        "nvidia": -0.831,
+        "microsoft": -1.0,
+        "alphabet": -1.0,
+        "amazon": -1.0,
+        "meta": -1.0,
+        "cisco": -0.73,
+        "nasdaq": -0.825
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Technology, Banks & Financials, IPOs & Dealmaking, Corporate Earnings, Commodities, Market Concentration / Mega-cap. Mentions Nvidia, Alphabet / Google, Amazon, Microsoft, Nasdaq. Tone leans bearish (-0.58).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-19-riskreversal-pod-imran-khan-the-nvidia-math-says-this-isn-t-a-bubble-467a94.md",
+    "transcript_word_count": 9134,
+    "transcript_language": "en"
   },
   {
     "guid": "6a315920101389aa3d42d134",
