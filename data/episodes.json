@@ -609,25 +609,91 @@
     "audio_url": "https://traffic.megaphone.fm/RRM8277250798.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "banks",
+        "private-markets",
+        "insurance",
+        "technology",
+        "crypto"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "ai-boom",
+        "dealmaking",
+        "recession",
+        "rates-fed",
+        "hedge-funds",
+        "tax-planning"
+      ],
+      "stocks": [
+        "alphabet",
+        "amazon",
+        "nvidia",
+        "microsoft"
+      ],
+      "sentiment": -0.213,
+      "sentiment_hits": 14,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 1
+        "technology": 1,
+        "ai-infrastructure": 6,
+        "banks": 5,
+        "insurance": 2,
+        "crypto": 1,
+        "private-markets": 3,
+        "rates-fed": 1,
+        "ai-boom": 7,
+        "recession": 2,
+        "dealmaking": 4,
+        "hedge-funds": 1,
+        "tax-planning": 1,
+        "nvidia": 2,
+        "microsoft": 2,
+        "alphabet": 11,
+        "amazon": 11
       },
       "entity_mention_density": {
-        "ai-infrastructure": 3.1
+        "technology": 0.1,
+        "ai-infrastructure": 0.6,
+        "banks": 0.5,
+        "insurance": 0.2,
+        "crypto": 0.1,
+        "private-markets": 0.3,
+        "rates-fed": 0.1,
+        "ai-boom": 0.7,
+        "recession": 0.2,
+        "dealmaking": 0.4,
+        "hedge-funds": 0.1,
+        "tax-planning": 0.1,
+        "nvidia": 0.2,
+        "microsoft": 0.2,
+        "alphabet": 1.1,
+        "amazon": 1.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "dealmaking": -1.0,
+        "recession": -0.429
+      },
+      "entity_conviction": {
+        "insurance": -1.0,
+        "crypto": -1.0,
+        "private-markets": 0.176,
+        "banks": -1.0,
+        "ai-boom": -1.0,
+        "hedge-funds": -1.0,
+        "dealmaking": -1.0,
+        "alphabet": -1.0,
+        "amazon": -0.73
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Banks & Financials, Private Equity & Credit, AI & Machine Learning, IPOs & Dealmaking, Recession Risk, Interest Rates & Fed Policy. Mentions Alphabet / Google, Amazon, Nvidia, Microsoft. Tone leans bearish (-0.21).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-02-riskreversal-pod-fixing-wall-street-s-ai-problem-with-phil-rosen-ceo-of-astra-af7a2b.md",
+    "transcript_word_count": 9545,
+    "transcript_language": "en"
   },
   {
     "guid": "c031939c-a135-11f1-b9de-3ffb583286ae",
@@ -2831,20 +2897,66 @@
     "duration": "3586",
     "audio_url": "https://traffic.megaphone.fm/CLS7890997457.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "industrials",
+        "technology",
+        "real-estate",
+        "media-entertainment",
+        "private-markets"
+      ],
+      "themes": [
+        "real-estate-investing"
+      ],
+      "stocks": [
+        "tsmc",
+        "tesla"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 5,
+      "sentiment_confidence": 0.833,
+      "entity_mentions": {
+        "technology": 2,
+        "ai-infrastructure": 8,
+        "real-estate": 1,
+        "industrials": 6,
+        "media-entertainment": 1,
+        "private-markets": 1,
+        "real-estate-investing": 1,
+        "tesla": 1,
+        "tsmc": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "ai-infrastructure": 0.7,
+        "real-estate": 0.1,
+        "industrials": 0.5,
+        "media-entertainment": 0.1,
+        "private-markets": 0.1,
+        "real-estate-investing": 0.1,
+        "tesla": 0.1,
+        "tsmc": 0.2
+      },
+      "entity_sentiment": {
+        "industrials": 1.0,
+        "media-entertainment": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "industrials": -1.0,
+        "technology": -1.0,
+        "tesla": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Industrials, Technology, Real Estate Investing. Mentions TSMC, Tesla. Tone leans bullish (+0.17).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-09-01-invest-like-the-best-sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-2569a6.md",
+    "transcript_word_count": 10782,
+    "transcript_language": "en"
   },
   {
     "guid": "7923a8b4-9c0d-11f1-a773-0f1848c654b8",
@@ -24427,26 +24539,88 @@
     "duration": "01:13:39",
     "audio_url": "https://pscrb.fm/rss/p/mgln.ai/e/345/rss.art19.com/episodes/ee43ed34-5f8a-40f3-bc88-9f28f9e3b979.mp3?rss_browser=BAhJIhRwb2RjYXN0LW1vbml0b3IGOgZFVA%3D%3D--4a81348b241b1e5341ddaf7cf7cfdb8fbc196362",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "real-estate",
+        "crypto",
+        "airlines-travel"
       ],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "themes": [
+        "budgeting-saving",
+        "inflation",
+        "passive-investing",
+        "retirement-planning",
+        "volatility",
+        "currency-dollar",
+        "debt-payoff",
+        "small-caps-value-growth",
+        "college-savings"
+      ],
+      "stocks": [
+        "amazon",
+        "alphabet",
+        "disney",
+        "mastercard"
+      ],
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "inflation": 1
+        "real-estate": 2,
+        "airlines-travel": 1,
+        "crypto": 2,
+        "inflation": 4,
+        "volatility": 1,
+        "currency-dollar": 1,
+        "passive-investing": 4,
+        "budgeting-saving": 14,
+        "debt-payoff": 1,
+        "retirement-planning": 2,
+        "small-caps-value-growth": 1,
+        "college-savings": 1,
+        "alphabet": 1,
+        "amazon": 4,
+        "disney": 1,
+        "mastercard": 1
       },
       "entity_mention_density": {
-        "inflation": 2.4
+        "real-estate": 0.1,
+        "airlines-travel": 0.1,
+        "crypto": 0.1,
+        "inflation": 0.2,
+        "volatility": 0.1,
+        "currency-dollar": 0.1,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.9,
+        "debt-payoff": 0.1,
+        "retirement-planning": 0.1,
+        "small-caps-value-growth": 0.1,
+        "college-savings": 0.1,
+        "alphabet": 0.1,
+        "amazon": 0.2,
+        "disney": 0.1,
+        "mastercard": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "crypto": -0.333,
+        "inflation": -0.167,
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0,
+        "currency-dollar": 0.0,
+        "passive-investing": -1.0,
+        "volatility": -1.0,
+        "mastercard": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Crypto & Digital Assets, Airlines & Travel, Budgeting & Saving, Inflation, Passive Investing, Retirement Planning. Mentions Amazon, Alphabet / Google, Disney, Mastercard. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-21-stacking-benjamins-what-to-teach-your-kids-about-money-and-when-1887-DJFlv0.md",
+    "transcript_word_count": 15875,
+    "transcript_language": "en"
   },
   {
     "guid": "8387538d-5ecf-4b07-a3f0-b4ab00e1cbc5",
@@ -225144,43 +225318,98 @@
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a0e446e7f470769ee864c5f/media.mp3",
     "tags": {
       "sectors": [
-        "private-markets"
+        "private-markets",
+        "technology",
+        "real-estate"
       ],
-      "themes": [],
+      "themes": [
+        "market-concentration",
+        "inflation",
+        "rates-fed",
+        "ai-boom",
+        "recession",
+        "regulation-antitrust",
+        "earnings",
+        "small-caps-value-growth",
+        "market-timing-dca"
+      ],
       "stocks": [
         "nasdaq",
         "nvidia",
         "microsoft",
         "meta"
       ],
-      "sentiment": -0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.048,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "private-markets": 9,
-        "nvidia": 2,
-        "microsoft": 2,
+        "technology": 3,
+        "real-estate": 1,
+        "private-markets": 48,
+        "inflation": 3,
+        "rates-fed": 1,
+        "ai-boom": 1,
+        "recession": 1,
+        "regulation-antitrust": 1,
+        "earnings": 1,
+        "market-concentration": 4,
+        "small-caps-value-growth": 1,
+        "market-timing-dca": 1,
+        "nvidia": 3,
+        "microsoft": 3,
         "meta": 1,
         "nasdaq": 5
       },
       "entity_mention_density": {
-        "private-markets": 27.7,
-        "nvidia": 6.2,
-        "microsoft": 6.2,
-        "meta": 3.1,
-        "nasdaq": 15.4
+        "technology": 0.3,
+        "real-estate": 0.1,
+        "private-markets": 5.2,
+        "inflation": 0.3,
+        "rates-fed": 0.1,
+        "ai-boom": 0.1,
+        "recession": 0.1,
+        "regulation-antitrust": 0.1,
+        "earnings": 0.1,
+        "market-concentration": 0.4,
+        "small-caps-value-growth": 0.1,
+        "market-timing-dca": 0.1,
+        "nvidia": 0.3,
+        "microsoft": 0.3,
+        "meta": 0.1,
+        "nasdaq": 0.5
       },
       "entity_sentiment": {
-        "private-markets": -1.0,
+        "private-markets": -0.2,
+        "inflation": -1.0,
+        "earnings": 1.0,
+        "recession": -1.0,
         "nvidia": -1.0,
         "microsoft": -1.0,
         "nasdaq": -1.0
       },
-      "entity_conviction": {},
-      "entity_stance": {},
-      "entity_contested": []
+      "entity_conviction": {
+        "private-markets": -1.0,
+        "technology": -1.0,
+        "real-estate": -1.0,
+        "inflation": -1.0,
+        "earnings": -1.0,
+        "recession": -1.0,
+        "market-timing-dca": -1.0
+      },
+      "entity_stance": {
+        "inflation": "buy"
+      },
+      "entity_contested": [
+        "private-markets"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Private Equity & Credit, Technology, Real Estate, Market Concentration / Mega-cap, Inflation, Interest Rates & Fed Policy, AI & Machine Learning. Mentions Nasdaq, Nvidia, Microsoft, Meta. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-21-equity-mates-investing-podcast-why-private-equity-investors-aren-t-panicking-about-ai-864c5f.md",
+    "transcript_word_count": 8921,
+    "transcript_language": "en"
   },
   {
     "guid": "5574733e-56fe-11f1-a622-57cc8cdc6a43",
