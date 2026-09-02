@@ -12905,20 +12905,121 @@
     "duration": "2243",
     "audio_url": "https://mcdn.podbean.com/mf/web/jzdchczwaaf5fmcw/BestStocksNow-260825.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "industrials",
+        "semiconductors",
+        "technology",
+        "energy",
+        "utilities",
+        "autos-ev",
+        "crypto"
+      ],
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "geopolitics-tariffs",
+        "dealmaking",
+        "safe-havens",
+        "bond-market",
+        "market-concentration",
+        "diversification"
+      ],
+      "stocks": [
+        "nvidia",
+        "tesla",
+        "bitcoin",
+        "microstrategy",
+        "charles-schwab",
+        "disney",
+        "alphabet"
+      ],
+      "sentiment": 0.471,
+      "sentiment_hits": 21,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 1,
+        "semiconductors": 2,
+        "ai-infrastructure": 10,
+        "energy": 1,
+        "utilities": 1,
+        "industrials": 3,
+        "autos-ev": 1,
+        "crypto": 1,
+        "inflation": 9,
+        "rates-fed": 7,
+        "geopolitics-tariffs": 6,
+        "safe-havens": 3,
+        "dealmaking": 5,
+        "bond-market": 2,
+        "market-concentration": 1,
+        "diversification": 1,
+        "nvidia": 17,
+        "alphabet": 1,
+        "tesla": 7,
+        "microstrategy": 2,
+        "bitcoin": 6,
+        "charles-schwab": 2,
+        "disney": 2
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.4,
+        "ai-infrastructure": 1.9,
+        "energy": 0.2,
+        "utilities": 0.2,
+        "industrials": 0.6,
+        "autos-ev": 0.2,
+        "crypto": 0.2,
+        "inflation": 1.7,
+        "rates-fed": 1.3,
+        "geopolitics-tariffs": 1.1,
+        "safe-havens": 0.6,
+        "dealmaking": 1.0,
+        "bond-market": 0.4,
+        "market-concentration": 0.2,
+        "diversification": 0.2,
+        "nvidia": 3.2,
+        "alphabet": 0.2,
+        "tesla": 1.3,
+        "microstrategy": 0.4,
+        "bitcoin": 1.1,
+        "charles-schwab": 0.4,
+        "disney": 0.4
+      },
+      "entity_sentiment": {
+        "utilities": 1.0,
+        "inflation": 0.0,
+        "safe-havens": 1.0,
+        "rates-fed": 1.0,
+        "bond-market": 1.0,
+        "dealmaking": 0.0,
+        "nvidia": 0.5,
+        "bitcoin": 0.667,
+        "microstrategy": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "inflation": -0.545,
+        "safe-havens": -1.0,
+        "rates-fed": -1.0,
+        "bond-market": -1.0,
+        "dealmaking": -1.0,
+        "tesla": 1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
-      "entity_contested": []
+      "entity_contested": [
+        "inflation"
+      ]
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Industrials, Semiconductors, Inflation, Interest Rates & Fed Policy, Geopolitics & Tariffs, IPOs & Dealmaking. Mentions Nvidia, Tesla, Bitcoin, MicroStrategy / Strategy, Charles Schwab. Tone leans bullish (+0.47).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-25-best-stocks-now-tuesday-aug-25-2026-2c15d2.md",
+    "transcript_word_count": 5233,
+    "transcript_language": "en"
   },
   {
     "guid": "9eee6a6f-429e-43b4-a332-55732ed6cd45",
@@ -122931,29 +123032,56 @@
     "duration": "2375",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL8766485660.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "consumer-discretionary",
+        "real-estate"
+      ],
       "themes": [
         "budgeting-saving",
-        "fire-movement"
+        "fire-movement",
+        "retirement-planning",
+        "inflation",
+        "diversification"
       ],
       "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "sentiment": 0.0,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "fire-movement": 1
+        "consumer-discretionary": 1,
+        "real-estate": 1,
+        "inflation": 3,
+        "budgeting-saving": 15,
+        "fire-movement": 5,
+        "retirement-planning": 4,
+        "diversification": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 9.6,
-        "fire-movement": 4.8
+        "consumer-discretionary": 0.1,
+        "real-estate": 0.1,
+        "inflation": 0.4,
+        "budgeting-saving": 1.9,
+        "fire-movement": 0.6,
+        "retirement-planning": 0.5,
+        "diversification": 0.1
       },
       "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_conviction": {
+        "real-estate": -0.167,
+        "budgeting-saving": -0.333,
+        "fire-movement": 1.0,
+        "diversification": 0.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Consumer Discretionary, Real Estate, Budgeting & Saving, Financial Independence / FIRE, Retirement Planning, Inflation. Tone reads roughly neutral (+0.00).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-26-money-guy-show-how-to-win-financially-based-on-your-income-5a5fb1.md",
+    "transcript_word_count": 7531,
+    "transcript_language": "en"
   },
   {
     "guid": "04816149-9330-4c86-82f4-de1102ee8e39",
@@ -153414,57 +153542,93 @@
     "duration": "34:26",
     "audio_url": "https://sphinx.acast.com/p/acast/s/equity-mates/e/6a28d7a5e265678e54c0665d/media.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "technology",
+        "ai-infrastructure",
+        "semiconductors",
+        "utilities",
+        "industrials",
+        "crypto"
+      ],
       "themes": [
         "dealmaking",
-        "ai-boom"
+        "ai-boom",
+        "earnings",
+        "dividends-buybacks",
+        "valuation",
+        "market-concentration"
       ],
       "stocks": [
-        "nasdaq",
         "alphabet",
+        "nasdaq",
+        "bitcoin",
         "meta",
         "nvidia",
         "microsoft",
         "amazon",
         "tesla",
-        "bitcoin",
         "apple",
+        "bank-of-america",
         "berkshire"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": -0.5,
+      "sentiment_hits": 9,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-boom": 1,
-        "dealmaking": 2,
-        "nvidia": 2,
+        "technology": 3,
+        "semiconductors": 2,
+        "ai-infrastructure": 3,
+        "utilities": 1,
+        "industrials": 1,
+        "crypto": 1,
+        "ai-boom": 2,
+        "dealmaking": 13,
+        "earnings": 2,
+        "dividends-buybacks": 1,
+        "valuation": 1,
+        "market-concentration": 1,
+        "nvidia": 3,
         "apple": 1,
-        "microsoft": 2,
-        "alphabet": 3,
-        "amazon": 2,
-        "meta": 3,
-        "tesla": 2,
+        "microsoft": 3,
+        "alphabet": 10,
+        "amazon": 3,
+        "meta": 4,
+        "tesla": 3,
+        "bank-of-america": 1,
         "berkshire": 1,
-        "bitcoin": 2,
+        "bitcoin": 7,
         "nasdaq": 9
       },
       "entity_mention_density": {
-        "ai-boom": 2.0,
-        "dealmaking": 4.1,
-        "nvidia": 4.1,
-        "apple": 2.0,
-        "microsoft": 4.1,
-        "alphabet": 6.1,
-        "amazon": 4.1,
-        "meta": 6.1,
-        "tesla": 4.1,
-        "berkshire": 2.0,
-        "bitcoin": 4.1,
-        "nasdaq": 18.3
+        "technology": 0.5,
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.5,
+        "utilities": 0.2,
+        "industrials": 0.2,
+        "crypto": 0.2,
+        "ai-boom": 0.3,
+        "dealmaking": 2.0,
+        "earnings": 0.3,
+        "dividends-buybacks": 0.2,
+        "valuation": 0.2,
+        "market-concentration": 0.2,
+        "nvidia": 0.5,
+        "apple": 0.2,
+        "microsoft": 0.5,
+        "alphabet": 1.5,
+        "amazon": 0.5,
+        "meta": 0.6,
+        "tesla": 0.5,
+        "bank-of-america": 0.2,
+        "berkshire": 0.2,
+        "bitcoin": 1.1,
+        "nasdaq": 1.4
       },
       "entity_sentiment": {
-        "ai-boom": 0.0,
-        "dealmaking": 0.0,
+        "ai-boom": -0.333,
+        "dealmaking": -0.167,
+        "valuation": -1.0,
+        "dividends-buybacks": 1.0,
         "nvidia": 0.0,
         "apple": 0.0,
         "microsoft": 0.0,
@@ -153476,11 +153640,23 @@
         "bitcoin": 0.0,
         "nasdaq": 0.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "utilities": -1.0,
+        "dealmaking": -0.545,
+        "valuation": 0.0,
+        "dividends-buybacks": 0.333,
+        "earnings": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Technology, AI Infrastructure, Semiconductors, IPOs & Dealmaking, AI & Machine Learning, Corporate Earnings, Dividends & Buybacks. Mentions Alphabet / Google, Nasdaq, Bitcoin, Meta, Nvidia. Tone leans bearish (-0.50).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-10-equity-mates-investing-podcast-the-stock-market-s-400-billion-test-bryce-s-thesis-card-reve-c0665d.md",
+    "transcript_word_count": 6126,
+    "transcript_language": "en"
   },
   {
     "guid": "aa65a44b-fd91-4da4-9a30-f8bda30c01d4",
@@ -168592,26 +168768,43 @@
     "duration": "1643",
     "audio_url": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510289/npr.simplecastaudio.com/43b5acee-463e-4612-95ad-d2596d9dd337/episodes/d93bd302-5976-4583-98ac-3ebc7799c321/audio/128/default.mp3?awCollectionId=43b5acee-463e-4612-95ad-d2596d9dd337&awEpisodeId=d93bd302-5976-4583-98ac-3ebc7799c321&feed=hvWWWzRv&t=podcast&e=nx-s1-5844617&p=510289&d=1643&size=26299751",
     "tags": {
-      "sectors": [],
-      "themes": [],
+      "sectors": [
+        "real-estate",
+        "industrials"
+      ],
+      "themes": [
+        "real-estate-investing"
+      ],
       "stocks": [
         "meta"
       ],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": -0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
+        "real-estate": 2,
+        "industrials": 1,
+        "real-estate-investing": 1,
         "meta": 1
       },
       "entity_mention_density": {
-        "meta": 3.7
+        "real-estate": 0.4,
+        "industrials": 0.2,
+        "real-estate-investing": 0.2,
+        "meta": 0.2
       },
       "entity_sentiment": {},
       "entity_conviction": {},
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Industrials, Real Estate Investing. Mentions Meta. Tone leans bearish (-0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-03-planet-money-there-s-no-business-like-dough-business-757077.md",
+    "transcript_word_count": 4754,
+    "transcript_language": "en"
   },
   {
     "guid": "d052a058-545b-11f1-a602-eb7ece87d200",
