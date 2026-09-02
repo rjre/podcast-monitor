@@ -99100,27 +99100,126 @@
     "audio_url": "https://traffic.megaphone.fm/RRM9909446352.mp3",
     "tags": {
       "sectors": [
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "semiconductors",
+        "banks",
+        "technology",
+        "energy",
+        "private-markets"
       ],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "themes": [
+        "dealmaking",
+        "rates-fed",
+        "credit-markets",
+        "volatility",
+        "earnings",
+        "budgeting-saving",
+        "real-estate-investing"
+      ],
+      "stocks": [
+        "nvidia",
+        "microsoft",
+        "alphabet",
+        "amazon",
+        "micron",
+        "tesla",
+        "cisco",
+        "amd",
+        "jpmorgan",
+        "chevron",
+        "paypal"
+      ],
+      "sentiment": 0.255,
+      "sentiment_hits": 12,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "ai-infrastructure": 2
+        "technology": 1,
+        "semiconductors": 4,
+        "ai-infrastructure": 37,
+        "banks": 4,
+        "energy": 1,
+        "private-markets": 1,
+        "rates-fed": 2,
+        "credit-markets": 1,
+        "volatility": 1,
+        "dealmaking": 3,
+        "earnings": 1,
+        "budgeting-saving": 1,
+        "real-estate-investing": 1,
+        "nvidia": 13,
+        "microsoft": 5,
+        "alphabet": 4,
+        "amazon": 3,
+        "tesla": 1,
+        "cisco": 1,
+        "amd": 1,
+        "micron": 2,
+        "jpmorgan": 1,
+        "chevron": 1,
+        "paypal": 1
       },
       "entity_mention_density": {
-        "ai-infrastructure": 5.3
+        "technology": 0.1,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 4.3,
+        "banks": 0.5,
+        "energy": 0.1,
+        "private-markets": 0.1,
+        "rates-fed": 0.2,
+        "credit-markets": 0.1,
+        "volatility": 0.1,
+        "dealmaking": 0.3,
+        "earnings": 0.1,
+        "budgeting-saving": 0.1,
+        "real-estate-investing": 0.1,
+        "nvidia": 1.5,
+        "microsoft": 0.6,
+        "alphabet": 0.5,
+        "amazon": 0.3,
+        "tesla": 0.1,
+        "cisco": 0.1,
+        "amd": 0.1,
+        "micron": 0.2,
+        "jpmorgan": 0.1,
+        "chevron": 0.1,
+        "paypal": 0.1
       },
       "entity_sentiment": {
-        "ai-infrastructure": 0.0
+        "ai-infrastructure": -0.286,
+        "technology": 1.0,
+        "volatility": 1.0,
+        "alphabet": 1.0,
+        "cisco": -1.0,
+        "nvidia": 1.0,
+        "amazon": 1.0,
+        "microsoft": 1.0,
+        "tesla": -1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "technology": -1.0,
+        "banks": -0.5,
+        "private-markets": -0.5,
+        "credit-markets": -1.0,
+        "real-estate-investing": -1.0,
+        "alphabet": -1.0,
+        "nvidia": -0.5,
+        "amazon": -1.0,
+        "microsoft": -1.0,
+        "chevron": -1.0,
+        "jpmorgan": -0.5
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Banks & Financials, IPOs & Dealmaking, Interest Rates & Fed Policy, Credit Markets, Volatility & Vol Regime. Mentions Nvidia, Microsoft, Alphabet / Google, Amazon, Micron. Tone leans bullish (+0.26).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-17-riskreversal-pod-jim-chanos-the-math-ain-t-mathing-for-the-ai-data-center-bui-4e74a0.md",
+    "transcript_word_count": 8237,
+    "transcript_language": "en"
   },
   {
     "guid": "6cf8adf6-7ed4-11f1-8cf1-d76a1a1ccc84",
@@ -109243,30 +109342,113 @@
     "duration": "6527",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/94/claritaspod.com/measure/verifi.podscribe.com/rss/p/chtbl.com/track/289382/pfx.vpixl.com/j0JIg/rss.pdrl.fm/243632/traffic.megaphone.fm/HML6968635256.mp3",
     "tags": {
-      "sectors": [],
+      "sectors": [
+        "real-estate",
+        "ai-infrastructure",
+        "semiconductors",
+        "private-markets",
+        "consumer-staples",
+        "crypto"
+      ],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "elections-politics",
+        "real-estate-investing",
+        "regulation-antitrust",
+        "passive-investing",
+        "rates-fed",
+        "debt-payoff",
+        "college-savings",
+        "inflation",
+        "labor-market",
+        "estate-planning"
       ],
       "stocks": [
-        "meta"
+        "alphabet",
+        "amazon",
+        "meta",
+        "amd",
+        "disney",
+        "tesla",
+        "costco",
+        "netflix"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.25,
+      "sentiment_hits": 8,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "budgeting-saving": 2,
-        "meta": 2
+        "semiconductors": 6,
+        "ai-infrastructure": 12,
+        "consumer-staples": 2,
+        "real-estate": 30,
+        "crypto": 1,
+        "private-markets": 3,
+        "inflation": 1,
+        "rates-fed": 2,
+        "labor-market": 1,
+        "elections-politics": 8,
+        "regulation-antitrust": 3,
+        "passive-investing": 3,
+        "budgeting-saving": 16,
+        "debt-payoff": 2,
+        "real-estate-investing": 5,
+        "estate-planning": 1,
+        "college-savings": 2,
+        "alphabet": 3,
+        "amazon": 2,
+        "meta": 2,
+        "tesla": 1,
+        "amd": 2,
+        "costco": 1,
+        "netflix": 1,
+        "disney": 2
       },
       "entity_mention_density": {
-        "budgeting-saving": 4.2,
-        "meta": 4.2
+        "semiconductors": 0.3,
+        "ai-infrastructure": 0.6,
+        "consumer-staples": 0.1,
+        "real-estate": 1.5,
+        "crypto": 0.1,
+        "private-markets": 0.2,
+        "inflation": 0.1,
+        "rates-fed": 0.1,
+        "labor-market": 0.1,
+        "elections-politics": 0.4,
+        "regulation-antitrust": 0.2,
+        "passive-investing": 0.2,
+        "budgeting-saving": 0.8,
+        "debt-payoff": 0.1,
+        "real-estate-investing": 0.3,
+        "estate-planning": 0.1,
+        "college-savings": 0.1,
+        "alphabet": 0.2,
+        "amazon": 0.1,
+        "meta": 0.1,
+        "tesla": 0.1,
+        "amd": 0.1,
+        "costco": 0.1,
+        "netflix": 0.1,
+        "disney": 0.1
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "ai-infrastructure": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -1.0,
+        "semiconductors": -1.0,
+        "budgeting-saving": -1.0,
+        "regulation-antitrust": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, AI Infrastructure, Semiconductors, Budgeting & Saving, Elections & Politics, Real Estate Investing, Regulation & Antitrust. Mentions Alphabet / Google, Amazon, Meta, AMD, Disney. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-07-13-financial-audit-i-finally-snapped-financial-audit-86948b.md",
+    "transcript_word_count": 19283,
+    "transcript_language": "en"
   },
   {
     "guid": "57617400-154e-45da-9d05-af7ff088f351",
@@ -208225,37 +208407,63 @@
         "industrials"
       ],
       "themes": [
+        "earnings",
+        "dividends-buybacks",
+        "diversification",
         "ai-boom",
-        "diversification"
+        "small-caps-value-growth"
       ],
       "stocks": [
-        "amazon"
+        "amazon",
+        "alphabet",
+        "meta"
       ],
-      "sentiment": 0.333,
-      "sentiment_hits": 2,
-      "sentiment_confidence": 0.333,
+      "sentiment": 0.05,
+      "sentiment_hits": 18,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "industrials": 1,
+        "industrials": 5,
         "ai-boom": 1,
-        "diversification": 1,
-        "amazon": 1
+        "earnings": 2,
+        "dividends-buybacks": 2,
+        "small-caps-value-growth": 1,
+        "diversification": 2,
+        "alphabet": 1,
+        "amazon": 4,
+        "meta": 1
       },
       "entity_mention_density": {
-        "industrials": 2.0,
-        "ai-boom": 2.0,
-        "diversification": 2.0,
-        "amazon": 2.0
+        "industrials": 0.6,
+        "ai-boom": 0.1,
+        "earnings": 0.3,
+        "dividends-buybacks": 0.3,
+        "small-caps-value-growth": 0.1,
+        "diversification": 0.3,
+        "alphabet": 0.1,
+        "amazon": 0.5,
+        "meta": 0.1
       },
       "entity_sentiment": {
-        "industrials": 1.0,
-        "diversification": 1.0,
+        "industrials": 0.0,
+        "diversification": -0.333,
+        "earnings": -1.0,
         "amazon": 1.0
       },
-      "entity_conviction": {},
+      "entity_conviction": {
+        "industrials": -1.0,
+        "earnings": -1.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Industrials, Corporate Earnings, Dividends & Buybacks, Diversification & Asset Allocation, AI & Machine Learning. Mentions Amazon, Alphabet / Google, Meta. Tone reads roughly neutral (+0.05).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-28-the-investing-for-beginners-podcast-live-research-on-holding-onon-great-growth-big-questions-5f364e.md",
+    "transcript_word_count": 7340,
+    "transcript_language": "en"
   },
   {
     "guid": "e135a696-d7ec-49e9-90dc-068309415196",
