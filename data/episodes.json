@@ -37967,26 +37967,76 @@
     "duration": "1273",
     "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/YfZO4tERxneauNcW9Fgn/mgln.ai/e/211/traffic.megaphone.fm/ARML6644637805.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "inflation"
+      "sectors": [
+        "ai-infrastructure",
+        "energy",
+        "technology"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "inflation",
+        "rates-fed",
+        "labor-market",
+        "geopolitics-tariffs",
+        "commodities",
+        "earnings"
+      ],
+      "stocks": [
+        "alphabet",
+        "nvidia",
+        "blackrock"
+      ],
+      "sentiment": 0.25,
+      "sentiment_hits": 6,
+      "sentiment_confidence": 1.0,
       "entity_mentions": {
-        "inflation": 2
+        "technology": 1,
+        "ai-infrastructure": 11,
+        "energy": 2,
+        "inflation": 21,
+        "rates-fed": 6,
+        "geopolitics-tariffs": 1,
+        "labor-market": 2,
+        "commodities": 1,
+        "earnings": 1,
+        "nvidia": 2,
+        "alphabet": 3,
+        "blackrock": 1
       },
       "entity_mention_density": {
-        "inflation": 7.7
+        "technology": 0.2,
+        "ai-infrastructure": 2.7,
+        "energy": 0.5,
+        "inflation": 5.1,
+        "rates-fed": 1.5,
+        "geopolitics-tariffs": 0.2,
+        "labor-market": 0.5,
+        "commodities": 0.2,
+        "earnings": 0.2,
+        "nvidia": 0.5,
+        "alphabet": 0.7,
+        "blackrock": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "inflation": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.677,
+        "inflation": 0.0,
+        "rates-fed": 1.0,
+        "nvidia": -1.0,
+        "alphabet": -1.0,
+        "blackrock": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Energy & Oil, Technology, Inflation, Interest Rates & Fed Policy, Labor Market, Geopolitics & Tariffs. Mentions Alphabet / Google, Nvidia, BlackRock. Tone leans bullish (+0.25).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-08-12-motley-fool-hidden-gems-neoclouds-shine-ee9149.md",
+    "transcript_word_count": 3873,
+    "transcript_language": "en"
   },
   {
     "guid": "2d99db1b-3f82-42d2-8696-6b8407c4735e",
@@ -153856,24 +153906,41 @@
     "tags": {
       "sectors": [],
       "themes": [
-        "budgeting-saving"
+        "budgeting-saving",
+        "retirement-planning",
+        "tax-planning"
       ],
       "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
+      "sentiment": 0.167,
+      "sentiment_hits": 1,
+      "sentiment_confidence": 0.167,
       "entity_mentions": {
-        "budgeting-saving": 1
+        "budgeting-saving": 5,
+        "retirement-planning": 4,
+        "tax-planning": 1
       },
       "entity_mention_density": {
-        "budgeting-saving": 5.5
+        "budgeting-saving": 3.0,
+        "retirement-planning": 2.4,
+        "tax-planning": 0.6
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "tax-planning": 1.0
+      },
+      "entity_conviction": {
+        "budgeting-saving": -1.0,
+        "retirement-planning": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Budgeting & Saving, Retirement Planning, Tax Planning. Tone leans bullish (+0.17) (low confidence).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-06-17-ramsey-everyday-millionaires-is-it-a-good-idea-to-delay-investing-to-pay-off-your-house-f47c17.md",
+    "transcript_word_count": 1505,
+    "transcript_language": "en"
   },
   {
     "guid": "fc7c1cbe-6a26-11f1-9d6b-af6c037aaea2",
@@ -200521,26 +200588,82 @@
     "duration": "3406",
     "audio_url": "https://pscrb.fm/rss/p/prfx.byspotify.com/e/mgln.ai/e/1468/traffic.megaphone.fm/TOL8368795885.mp3",
     "tags": {
-      "sectors": [],
-      "themes": [
-        "fire-movement"
+      "sectors": [
+        "real-estate",
+        "materials-mining"
       ],
-      "stocks": [],
-      "sentiment": 0.167,
-      "sentiment_hits": 1,
-      "sentiment_confidence": 0.167,
+      "themes": [
+        "budgeting-saving",
+        "retirement-planning",
+        "tax-planning",
+        "rates-fed",
+        "debt-payoff",
+        "fire-movement",
+        "passive-income",
+        "career-income"
+      ],
+      "stocks": [
+        "disney",
+        "alphabet",
+        "vanguard",
+        "fidelity"
+      ],
+      "sentiment": 0.667,
+      "sentiment_hits": 4,
+      "sentiment_confidence": 0.667,
       "entity_mentions": {
-        "fire-movement": 1
+        "real-estate": 1,
+        "materials-mining": 1,
+        "rates-fed": 1,
+        "budgeting-saving": 16,
+        "debt-payoff": 1,
+        "fire-movement": 1,
+        "retirement-planning": 3,
+        "passive-income": 1,
+        "career-income": 1,
+        "tax-planning": 3,
+        "alphabet": 2,
+        "vanguard": 1,
+        "fidelity": 1,
+        "disney": 3
       },
       "entity_mention_density": {
-        "fire-movement": 4.4
+        "real-estate": 0.1,
+        "materials-mining": 0.1,
+        "rates-fed": 0.1,
+        "budgeting-saving": 1.3,
+        "debt-payoff": 0.1,
+        "fire-movement": 0.1,
+        "retirement-planning": 0.2,
+        "passive-income": 0.1,
+        "career-income": 0.1,
+        "tax-planning": 0.2,
+        "alphabet": 0.2,
+        "vanguard": 0.1,
+        "fidelity": 0.1,
+        "disney": 0.2
       },
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "entity_sentiment": {
+        "budgeting-saving": 1.0
+      },
+      "entity_conviction": {
+        "real-estate": -1.0,
+        "materials-mining": -1.0,
+        "budgeting-saving": -1.0,
+        "rates-fed": -1.0,
+        "tax-planning": 0.0,
+        "alphabet": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on Real Estate, Materials & Mining, Budgeting & Saving, Retirement Planning, Tax Planning, Interest Rates & Fed Policy. Mentions Disney, Alphabet / Google, Vanguard, Fidelity. Tone leans bullish (+0.67).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-25-money-guy-show-he-s-working-60-hours-a-week-to-retire-early-is-it-worth-it-5142a5.md",
+    "transcript_word_count": 11967,
+    "transcript_language": "en"
   },
   {
     "guid": "68fac360-f781-4a30-b74e-7b3dfe9567ae",
@@ -224514,20 +224637,116 @@
     "duration": "00:44:17",
     "audio_url": "https://dts.podtrac.com/redirect.mp3/cnbc.simplecastaudio.com/9e7e94dd-0e87-46ac-9860-c63be80507ed/episodes/578cae56-0fa7-4ae7-af85-c664c2900d49/audio/128/default.mp3?aid=rss_feed&awCollectionId=9e7e94dd-0e87-46ac-9860-c63be80507ed&awEpisodeId=578cae56-0fa7-4ae7-af85-c664c2900d49&feed=TkQfZXMD",
     "tags": {
-      "sectors": [],
-      "themes": [],
-      "stocks": [],
-      "sentiment": 0.0,
-      "sentiment_hits": 0,
-      "sentiment_confidence": 0.0,
-      "entity_mentions": {},
-      "entity_mention_density": {},
-      "entity_sentiment": {},
-      "entity_conviction": {},
+      "sectors": [
+        "ai-infrastructure",
+        "semiconductors",
+        "technology",
+        "consumer-discretionary",
+        "defense-aerospace",
+        "banks",
+        "energy",
+        "real-estate",
+        "industrials"
+      ],
+      "themes": [
+        "dealmaking",
+        "dividends-buybacks",
+        "rates-fed",
+        "ai-boom",
+        "labor-market",
+        "valuation",
+        "inflation",
+        "commodities",
+        "small-caps-value-growth"
+      ],
+      "stocks": [
+        "cisco",
+        "broadcom",
+        "nvidia",
+        "walmart",
+        "nasdaq",
+        "charles-schwab"
+      ],
+      "sentiment": 0.413,
+      "sentiment_hits": 19,
+      "sentiment_confidence": 1.0,
+      "entity_mentions": {
+        "technology": 2,
+        "semiconductors": 4,
+        "ai-infrastructure": 13,
+        "banks": 1,
+        "energy": 1,
+        "consumer-discretionary": 2,
+        "real-estate": 1,
+        "industrials": 1,
+        "defense-aerospace": 2,
+        "inflation": 1,
+        "rates-fed": 2,
+        "ai-boom": 2,
+        "labor-market": 2,
+        "commodities": 1,
+        "dealmaking": 4,
+        "dividends-buybacks": 4,
+        "valuation": 2,
+        "small-caps-value-growth": 1,
+        "nvidia": 1,
+        "cisco": 9,
+        "walmart": 1,
+        "nasdaq": 1,
+        "charles-schwab": 1,
+        "broadcom": 3
+      },
+      "entity_mention_density": {
+        "technology": 0.2,
+        "semiconductors": 0.5,
+        "ai-infrastructure": 1.6,
+        "banks": 0.1,
+        "energy": 0.1,
+        "consumer-discretionary": 0.2,
+        "real-estate": 0.1,
+        "industrials": 0.1,
+        "defense-aerospace": 0.2,
+        "inflation": 0.1,
+        "rates-fed": 0.2,
+        "ai-boom": 0.2,
+        "labor-market": 0.2,
+        "commodities": 0.1,
+        "dealmaking": 0.5,
+        "dividends-buybacks": 0.5,
+        "valuation": 0.2,
+        "small-caps-value-growth": 0.1,
+        "nvidia": 0.1,
+        "cisco": 1.1,
+        "walmart": 0.1,
+        "nasdaq": 0.1,
+        "charles-schwab": 0.1,
+        "broadcom": 0.4
+      },
+      "entity_sentiment": {
+        "ai-infrastructure": 1.0,
+        "valuation": -1.0,
+        "ai-boom": 1.0,
+        "labor-market": -1.0
+      },
+      "entity_conviction": {
+        "ai-infrastructure": -0.429,
+        "defense-aerospace": -1.0,
+        "consumer-discretionary": -1.0,
+        "valuation": -1.0,
+        "labor-market": -1.0,
+        "cisco": 1.0,
+        "nvidia": -1.0
+      },
       "entity_stance": {},
       "entity_contested": []
     },
-    "tags_source": "keyword"
+    "tags_source": "keyword",
+    "episode_summary": "Touches on AI Infrastructure, Semiconductors, Technology, IPOs & Dealmaking, Dividends & Buybacks, Interest Rates & Fed Policy, AI & Machine Learning. Mentions Cisco, Broadcom, Nvidia, Walmart, Nasdaq. Tone leans bullish (+0.41).",
+    "episode_summary_source": "template",
+    "transcript_status": "done",
+    "transcript_path": "data/transcripts/2026-05-11-mad-money-w-jim-cramer-mad-money-w-jim-cramer-5-11-26-000bfa.md",
+    "transcript_word_count": 8337,
+    "transcript_language": "en"
   },
   {
     "guid": "3fedc176-4d7d-11f1-a5cb-cf3daa504c59",
