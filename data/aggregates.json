@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:14:48.192872+00:00",
+  "generated_at": "2026-09-05T20:18:45.650091+00:00",
   "global_avg_sentiment": 0.074,
   "sectors": [
     {
@@ -1268,8 +1268,8 @@
     {
       "id": "budgeting-saving",
       "label": "Budgeting & Saving",
-      "mentions": 935,
-      "total_hits": 4125,
+      "mentions": 936,
+      "total_hits": 4126,
       "avg_sentiment": 0.179,
       "sentiment_divergence": 0.105,
       "recent_avg_sentiment": 0.159,
@@ -1277,9 +1277,9 @@
       "sentiment_shift": -0.034,
       "sentiment_trend": "stable",
       "sentiment_volatility": 0.105,
-      "recent_30d_mentions": 220,
+      "recent_30d_mentions": 221,
       "prior_30d_mentions": 225,
-      "momentum_pct": -2.2,
+      "momentum_pct": -1.8,
       "trend": "flat",
       "avg_conviction": -0.658,
       "conviction_shift": -0.024,
@@ -1318,8 +1318,8 @@
         },
         {
           "month": "2026-09",
-          "mentions": 22,
-          "avg_sentiment": 0.132
+          "mentions": 23,
+          "avg_sentiment": 0.141
         }
       ]
     },
@@ -4004,18 +4004,18 @@
     {
       "id": "meta",
       "label": "Meta",
-      "mentions": 691,
-      "total_hits": 1358,
+      "mentions": 692,
+      "total_hits": 1360,
       "avg_sentiment": 0.106,
       "sentiment_divergence": 0.032,
-      "recent_avg_sentiment": 0.061,
+      "recent_avg_sentiment": 0.063,
       "prior_avg_sentiment": 0.148,
-      "sentiment_shift": -0.087,
+      "sentiment_shift": -0.085,
       "sentiment_trend": "stable",
-      "sentiment_volatility": 0.023,
-      "recent_30d_mentions": 156,
+      "sentiment_volatility": 0.025,
+      "recent_30d_mentions": 157,
       "prior_30d_mentions": 181,
-      "momentum_pct": -13.8,
+      "momentum_pct": -13.3,
       "trend": "flat",
       "avg_conviction": -0.75,
       "conviction_shift": -0.149,
@@ -4054,8 +4054,8 @@
         },
         {
           "month": "2026-09",
-          "mentions": 18,
-          "avg_sentiment": 0.139
+          "mentions": 19,
+          "avg_sentiment": 0.149
         }
       ]
     },
@@ -6694,6 +6694,11 @@
       "avg_conviction": -0.664,
       "episode_count": 115
     },
+    "financial-audit": {
+      "avg_sentiment": 0.143,
+      "avg_conviction": -0.66,
+      "episode_count": 45
+    },
     "eurodollar-university": {
       "avg_sentiment": -0.172,
       "avg_conviction": -0.319,
@@ -6868,11 +6873,6 @@
       "avg_sentiment": 0.003,
       "avg_conviction": -0.827,
       "episode_count": 19
-    },
-    "financial-audit": {
-      "avg_sentiment": 0.139,
-      "avg_conviction": -0.66,
-      "episode_count": 44
     },
     "chat-with-traders": {
       "avg_sentiment": -0.135,
@@ -8692,6 +8692,83 @@
         }
       ],
       "summary_text": "115 episodes tagged. Most discussed: Interest Rates & Fed Policy, IPOs & Dealmaking, Commodities (sectors: AI Infrastructure, Semiconductors). Overall tone leans bullish (+0.26)."
+    },
+    "financial-audit": {
+      "podcast_name": "Financial Audit",
+      "episode_count": 45,
+      "avg_sentiment": 0.143,
+      "top_themes": [
+        {
+          "id": "budgeting-saving",
+          "label": "Budgeting & Saving",
+          "count": 45
+        },
+        {
+          "id": "rates-fed",
+          "label": "Interest Rates & Fed Policy",
+          "count": 41
+        },
+        {
+          "id": "debt-payoff",
+          "label": "Debt Payoff",
+          "count": 35
+        },
+        {
+          "id": "college-savings",
+          "label": "College Savings & Student Debt",
+          "count": 30
+        },
+        {
+          "id": "real-estate-investing",
+          "label": "Real Estate Investing",
+          "count": 8
+        }
+      ],
+      "top_sectors": [
+        {
+          "id": "private-markets",
+          "label": "Private Equity & Credit",
+          "count": 38
+        },
+        {
+          "id": "real-estate",
+          "label": "Real Estate",
+          "count": 37
+        },
+        {
+          "id": "healthcare",
+          "label": "Healthcare & Pharma",
+          "count": 19
+        }
+      ],
+      "top_stocks": [
+        {
+          "id": "meta",
+          "label": "Meta",
+          "count": 44
+        },
+        {
+          "id": "amazon",
+          "label": "Amazon",
+          "count": 39
+        },
+        {
+          "id": "alphabet",
+          "label": "Alphabet / Google",
+          "count": 32
+        },
+        {
+          "id": "walmart",
+          "label": "Walmart",
+          "count": 20
+        },
+        {
+          "id": "netflix",
+          "label": "Netflix",
+          "count": 18
+        }
+      ],
+      "summary_text": "45 episodes tagged. Most discussed: Budgeting & Saving, Interest Rates & Fed Policy, Debt Payoff (sectors: Private Equity & Credit, Real Estate). Overall tone leans bullish (+0.14)."
     },
     "eurodollar-university": {
       "podcast_name": "Eurodollar University",
@@ -11357,83 +11434,6 @@
         }
       ],
       "summary_text": "19 episodes tagged. Most discussed: Small-Caps, Value & Growth, Retirement Planning, Passive Investing (sectors: Real Estate, AI Infrastructure). Overall tone reads roughly neutral (+0.00)."
-    },
-    "financial-audit": {
-      "podcast_name": "Financial Audit",
-      "episode_count": 44,
-      "avg_sentiment": 0.139,
-      "top_themes": [
-        {
-          "id": "budgeting-saving",
-          "label": "Budgeting & Saving",
-          "count": 44
-        },
-        {
-          "id": "rates-fed",
-          "label": "Interest Rates & Fed Policy",
-          "count": 41
-        },
-        {
-          "id": "debt-payoff",
-          "label": "Debt Payoff",
-          "count": 35
-        },
-        {
-          "id": "college-savings",
-          "label": "College Savings & Student Debt",
-          "count": 30
-        },
-        {
-          "id": "real-estate-investing",
-          "label": "Real Estate Investing",
-          "count": 8
-        }
-      ],
-      "top_sectors": [
-        {
-          "id": "private-markets",
-          "label": "Private Equity & Credit",
-          "count": 38
-        },
-        {
-          "id": "real-estate",
-          "label": "Real Estate",
-          "count": 37
-        },
-        {
-          "id": "healthcare",
-          "label": "Healthcare & Pharma",
-          "count": 19
-        }
-      ],
-      "top_stocks": [
-        {
-          "id": "meta",
-          "label": "Meta",
-          "count": 43
-        },
-        {
-          "id": "amazon",
-          "label": "Amazon",
-          "count": 39
-        },
-        {
-          "id": "alphabet",
-          "label": "Alphabet / Google",
-          "count": 32
-        },
-        {
-          "id": "walmart",
-          "label": "Walmart",
-          "count": 20
-        },
-        {
-          "id": "netflix",
-          "label": "Netflix",
-          "count": 18
-        }
-      ],
-      "summary_text": "44 episodes tagged. Most discussed: Budgeting & Saving, Interest Rates & Fed Policy, Debt Payoff (sectors: Private Equity & Credit, Real Estate). Overall tone leans bullish (+0.14)."
     },
     "chat-with-traders": {
       "podcast_name": "Chat With Traders",
@@ -16269,6 +16269,92 @@
         }
       ]
     },
+    "financial-audit": {
+      "top_theme_ids": [
+        "budgeting-saving",
+        "rates-fed",
+        "debt-payoff",
+        "college-savings",
+        "real-estate-investing",
+        "retirement-planning"
+      ],
+      "top_theme_labels": [
+        "Budgeting & Saving",
+        "Interest Rates & Fed Policy",
+        "Debt Payoff",
+        "College Savings & Student Debt",
+        "Real Estate Investing",
+        "Retirement Planning"
+      ],
+      "months": [
+        {
+          "month": "2026-04",
+          "episode_count": 1,
+          "avg_sentiment": 0.0,
+          "theme_counts": {
+            "budgeting-saving": 1
+          }
+        },
+        {
+          "month": "2026-05",
+          "episode_count": 9,
+          "avg_sentiment": 0.006,
+          "theme_counts": {
+            "budgeting-saving": 9,
+            "rates-fed": 9,
+            "debt-payoff": 5,
+            "college-savings": 8,
+            "retirement-planning": 2
+          }
+        },
+        {
+          "month": "2026-06",
+          "episode_count": 12,
+          "avg_sentiment": 0.262,
+          "theme_counts": {
+            "budgeting-saving": 12,
+            "rates-fed": 12,
+            "debt-payoff": 10,
+            "college-savings": 11,
+            "real-estate-investing": 3,
+            "retirement-planning": 2
+          }
+        },
+        {
+          "month": "2026-07",
+          "episode_count": 10,
+          "avg_sentiment": 0.166,
+          "theme_counts": {
+            "budgeting-saving": 10,
+            "rates-fed": 10,
+            "debt-payoff": 9,
+            "college-savings": 7,
+            "real-estate-investing": 2
+          }
+        },
+        {
+          "month": "2026-08",
+          "episode_count": 11,
+          "avg_sentiment": 0.083,
+          "theme_counts": {
+            "budgeting-saving": 11,
+            "rates-fed": 10,
+            "debt-payoff": 11,
+            "college-savings": 4,
+            "real-estate-investing": 3,
+            "retirement-planning": 2
+          }
+        },
+        {
+          "month": "2026-09",
+          "episode_count": 2,
+          "avg_sentiment": 0.333,
+          "theme_counts": {
+            "budgeting-saving": 2
+          }
+        }
+      ]
+    },
     "eurodollar-university": {
       "top_theme_ids": [
         "rates-fed",
@@ -19278,92 +19364,6 @@
           "theme_counts": {
             "small-caps-value-growth": 1,
             "passive-investing": 1
-          }
-        }
-      ]
-    },
-    "financial-audit": {
-      "top_theme_ids": [
-        "budgeting-saving",
-        "rates-fed",
-        "debt-payoff",
-        "college-savings",
-        "real-estate-investing",
-        "retirement-planning"
-      ],
-      "top_theme_labels": [
-        "Budgeting & Saving",
-        "Interest Rates & Fed Policy",
-        "Debt Payoff",
-        "College Savings & Student Debt",
-        "Real Estate Investing",
-        "Retirement Planning"
-      ],
-      "months": [
-        {
-          "month": "2026-04",
-          "episode_count": 1,
-          "avg_sentiment": 0.0,
-          "theme_counts": {
-            "budgeting-saving": 1
-          }
-        },
-        {
-          "month": "2026-05",
-          "episode_count": 9,
-          "avg_sentiment": 0.006,
-          "theme_counts": {
-            "budgeting-saving": 9,
-            "rates-fed": 9,
-            "debt-payoff": 5,
-            "college-savings": 8,
-            "retirement-planning": 2
-          }
-        },
-        {
-          "month": "2026-06",
-          "episode_count": 12,
-          "avg_sentiment": 0.262,
-          "theme_counts": {
-            "budgeting-saving": 12,
-            "rates-fed": 12,
-            "debt-payoff": 10,
-            "college-savings": 11,
-            "real-estate-investing": 3,
-            "retirement-planning": 2
-          }
-        },
-        {
-          "month": "2026-07",
-          "episode_count": 10,
-          "avg_sentiment": 0.166,
-          "theme_counts": {
-            "budgeting-saving": 10,
-            "rates-fed": 10,
-            "debt-payoff": 9,
-            "college-savings": 7,
-            "real-estate-investing": 2
-          }
-        },
-        {
-          "month": "2026-08",
-          "episode_count": 11,
-          "avg_sentiment": 0.083,
-          "theme_counts": {
-            "budgeting-saving": 11,
-            "rates-fed": 10,
-            "debt-payoff": 11,
-            "college-savings": 4,
-            "real-estate-investing": 3,
-            "retirement-planning": 2
-          }
-        },
-        {
-          "month": "2026-09",
-          "episode_count": 1,
-          "avg_sentiment": 0.333,
-          "theme_counts": {
-            "budgeting-saving": 1
           }
         }
       ]
@@ -22715,7 +22715,7 @@
       "b_label": "T-Mobile",
       "b_kind": "stock",
       "co_occurrences": 12,
-      "lift": 35.54
+      "lift": 35.55
     },
     {
       "a": "tmobile",
@@ -22725,7 +22725,7 @@
       "b_label": "Verizon",
       "b_kind": "stock",
       "co_occurrences": 19,
-      "lift": 28.81
+      "lift": 28.82
     },
     {
       "a": "chevron",
@@ -22815,7 +22815,7 @@
       "b_label": "Gold & Safe Havens",
       "b_kind": "theme",
       "co_occurrences": 5,
-      "lift": 11.11
+      "lift": 11.12
     },
     {
       "a": "china",
@@ -22865,7 +22865,7 @@
       "b_label": "Defense & Aerospace",
       "b_kind": "sector",
       "co_occurrences": 15,
-      "lift": 9.99
+      "lift": 10.0
     },
     {
       "a": "bank-of-america",
